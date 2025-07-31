@@ -1,0 +1,34 @@
+{
+  "name": "",
+  "display_name": "",
+  "description": {
+    "zh": "",
+    "en": ""
+  },
+  "github_url": "",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "",
+    ""
+  ],
+  "tags": [
+    "",
+    ""
+  ],
+  "developer_link": [
+    {
+      "official_address": "",
+      "product_document": "",
+      "repo_url": ""
+    }
+  ],
+  "categories": [
+    "",
+    ""
+  ],
+  "pic_url": "",
+  "image": ""
+}
