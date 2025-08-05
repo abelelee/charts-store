@@ -5,6 +5,10 @@
     "zh": "",
     "en": ""
   },
+  "feature": {
+    "zh": "",
+    "en": ""
+  },
   "github_url": "",
   "readme": {
     "zh": "./README-zh.md",
@@ -18,17 +22,11 @@
     "",
     ""
   ],
-  "developer_link": [
-    {
-      "official_address": "",
-      "product_document": "",
-      "repo_url": ""
-    }
-  ],
+  "official_address": "",
+  "product_document": "",
   "categories": [
     "",
     ""
   ],
-  "pic_url": "",
-  "image": ""
+  "pic_url": ""
 }
