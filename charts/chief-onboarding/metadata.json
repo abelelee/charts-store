@@ -1,0 +1,47 @@
+{
+  "name": "chief-onboarding",
+  "display_name": "Chief-Onboarding",
+  "description": {
+    "zh": "ChiefOnboarding 是一个免费且开源的员工入职平台，允许组织通过 Slack 或网页仪表盘欢迎并融入新员工。它支持自动化流程、可定制的时间线以及多语言内容，以简化入职流程。平台通过待办事项列表、资源库以及徽章和介绍等互动功能提升新员工的参与度。",
+    "en": "ChiefOnboarding is a free and open-source employee onboarding platform that allows organizations to welcome and integrate new hires through Slack or a web dashboard. It supports automated workflows, customizable timelines, and multilingual content to streamline the onboarding process. The platform emphasizes user engagement through to-do lists, resources, and interactive features like badges and introductions."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 通过自动化流程和结构化时间线简化入职流程\n- 提供自托管或托管服务的灵活部署选项\n- 通过徽章和介绍等互动功能提升员工参与度\n- 支持多语言和时区定制，服务全球团队\n- 使用 AGPLv3 开源协议，确保透明性和可控性\n\n## 功能列表:\n\n- 自动创建用户账号并触发 Webhook\n- 预入职功能：在正式入职前欢迎新员工\n- 待办事项：跟踪和管理入职任务与表单\n- 资源库：提供可搜索的知识库和课程完成功能\n- 内容序列：按时间或任务完成情况逐步推送内容\n- 徽章系统：表彰新员工成就，提升积极性\n- 介绍功能：帮助新员工认识团队成员\n- 管理员待办事项：HR 与团队成员协作完成入职任务\n- 支持英语、荷兰语、葡萄牙语、德语、土耳其语、法语、西班牙语和日语等多语言\n- 按用户自定义时区\n- Slack 机器人与网页仪表盘功能一致，支持独立使用\n- 品牌化定制：支持自定义 Logo、配色方案、邮件模板等\n- 基于 AGPLv3 协议开源",
+    "en": "## Benefits:\n\n- Streamlines the onboarding process with automation and structured timelines\n- Offers flexibility through self-hosting or managed hosting options\n- Enhances engagement with interactive features like badges and introductions\n- Supports global teams with multilingual capabilities and timezone customization\n- Ensures transparency and control with open-source AGPLv3 licensing\n\n## Features:\n\n- Automatically provision user accounts and trigger webhooks\n- Pre-boarding: welcome new hires before their start date\n- To do items: track and manage onboarding tasks and forms\n- Resources: searchable knowledge base and course completion\n- Sequences: drip-feed content over time or based on task completion\n- Badges: recognize and motivate new hire achievements\n- Introductions: connect new hires with team members\n- Admin to do items: collaborative onboarding tasks for HR and team members\n- Multilingual support for 8+ languages\n- Timezone customization per user\n- Slack bot and dashboard with full feature parity\n- Fully customizable branding and templates\n- Open-source with AGPLv3 license"
+  },
+  "github_url": "https://github.com/chiefonboarding/chiefonboarding",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Workday",
+    "BambooHR",
+    "Gusto",
+    "Zenefits",
+    "Greenhouse",
+    "Lever",
+    "Namely",
+    "Paycor",
+    "Rippling"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.chiefonboarding.com/",
+  "categories": [
+    "Customization",
+    "Integration",
+    "Document Management",
+    "Task Tracking",
+    "HR Management",
+    "Employee Management",
+    "Role-Based Access",
+    "Onboarding",
+    "Role-based Access",
+    "Employee Onboarding",
+    "Multi-language Support",
+    "Self-hosted Solutions",
+    "HR Tools"
+  ],
+  "pic_url": ""
+}

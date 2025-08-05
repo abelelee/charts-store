@@ -1,0 +1,52 @@
+{
+  "name": "typing mind",
+  "display_name": "Typing Mind",
+  "description": {
+    "zh": "Typing Mind 是一个专为多种 AI 模型（如 ChatGPT、Claude、Gemini 和开源模型）设计的先进聊天界面前端。它允许用户通过自己的 API 密钥使用 AI 聊天功能，并提供更强的隐私性和控制权。该静态自托管版本可在私有服务器或本地设备上部署，确保离线优先和安全使用。",
+    "en": "Typing Mind is a sophisticated Chat UI frontend designed for interacting with various AI models such as ChatGPT, Claude, Gemini, and open-source models. It enables users to utilize AI chat capabilities with their own API keys while offering enhanced privacy and control. This static self-host version allows deployment on private servers or local devices, ensuring offline-first and secure usage."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n- 提供统一界面，支持多种 AI 模型交互\n- 无需订阅费用，按需使用节省成本\n- 通过不共享对话数据提升隐私保护\n- 支持自托管，提升控制权和可用性\n- 提供专业且功能丰富的用户界面体验\n\n## 功能列表:\n- 支持多种 AI 模型，包括 ChatGPT、Claude、Gemini、Azure OpenAI、Perplexity AI、Mixtral AI、LLama\n- 可集成自定义端点及本地模型如 LocalAI、Ollama\n- 可自定义模型参数，如 Temperature、Frequency_penalty、Presence_penalty、Top_P、Top_K\n- 高级功能包括 GPT-4 Vision、文档上传、DALL-E 3、网页搜索、文字转语音、Whisper、插件等\n- 完善的聊天管理功能，支持标签、搜索、文件夹、分享、备份与同步、导入/导出、分叉聊天、编辑消息、置顶\n- 支持模板变量的提示库、AI 角色、输出控制、动态上下文限制\n- 内置安全功能，包括 API 密钥加密、密码保护、本地自托管\n- 美观且功能丰富的用户界面，支持语音输入、文字转语音、声音通知、明暗模式、快捷键、响应式移动适配\n- 插件系统支持网页搜索、自定义插件及关键词建议\n- 多语言支持，涵盖英语、德语、中文、越南语、法语、西班牙语等 14+ 种语言\n- Typing Mind Custom 企业版支持品牌定制、团队共享、用户管理及内部数据集成",
+    "en": "## Benefits:\n- Offers a unified interface to interact with multiple AI models\n- Provides cost efficiency by eliminating monthly subscriptions\n- Enhances privacy by not sharing conversations with AI model providers\n- Supports self-hosting for greater control and availability\n- Delivers a professional and feature-rich UI experience\n\n## Features:\n- Support for multiple AI models including ChatGPT, Claude, Gemini, Azure OpenAI, Perplexity AI, Mixtral AI, LLama\n- Integration with custom endpoints and locally hosted models like LocalAI and Ollama\n- Customizable model parameters such as Temperature, Frequency_penalty, Presence_penalty, Top_P, Top_K\n- Advanced features like GPT-4 Vision, Document Uploads, DALL-E 3, Web Search, Text-to-Speech, Whisper, and Plugins\n- Comprehensive chat management with Tags, Search, Folders, Share, Backup & Sync, Import/Export, Fork Chat, Edit Message, Pin\n- Prompt Library with template variable support, AI Characters, Output Control, Dynamic Context Limit\n- Built-in security features including API keys encryption, password protection, and self-hosting\n- Beautiful, functional UI with Voice Input, Text-to-Speech, Sound Notification, Light/Dark mode, Hotkeys, and mobile responsiveness\n- Plugin system for integrating Web Search, custom plugins, and keyword suggestions\n- Multilingual support covering 14+ languages including English, German, Mandarin, Vietnamese, French, Spanish, and more\n- Typing Mind Custom for teams with branding customization, team sharing, user management, and internal data integration"
+  },
+  "github_url": "https://github.com/TypingMind/typingmind",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Drift",
+    "Intercom",
+    "Freshchat",
+    "Zendesk Chat",
+    "LiveChat"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.typingmind.com/",
+  "categories": [
+    "Privacy",
+    "Customization",
+    "Multilingual",
+    "API Integration",
+    "Team Collaboration",
+    "Plugins",
+    "Secure",
+    "AI Chat",
+    "Model Management",
+    "Advanced Parameters",
+    "Multi-Model Support",
+    "Chat Management",
+    "Customizable Interface",
+    "Private AI",
+    "Self-Host",
+    "Offline First",
+    "Versatile AI Interaction",
+    "Chat UI",
+    "Secure Communication",
+    "AI Models",
+    "Chatbot Framework",
+    "Prompt Library"
+  ],
+  "pic_url": ""
+}

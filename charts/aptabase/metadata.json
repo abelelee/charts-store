@@ -1,0 +1,48 @@
+{
+  "name": "aptabase",
+  "display_name": "Aptabase",
+  "description": {
+    "zh": "Aptabase 是一个开源、注重隐私的应用分析平台，适用于移动、桌面和网页应用。它提供了一个简洁直观的仪表板，用于追踪关键应用指标，同时不侵犯用户隐私。它是 Firebase 和 Google Analytics 等服务的替代方案。",
+    "en": "Aptabase is an open-source, privacy-first analytics platform designed for mobile, desktop, and web applications. It offers a simple and user-friendly dashboard to track essential app metrics without compromising user privacy. It serves as an alternative to services like Firebase and Google Analytics."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 采用隐私优先的设计理念，最小化数据收集，避免使用唯一标识符。\n- 提供简洁直观的仪表板，便于追踪关键应用指标。\n- 完全开源（基于 AGPLv3 协议），确保透明度并支持社区协作。\n\n## 功能列表:\n\n- 支持多种平台的 SDK，包括 Swift、Kotlin、React Native、Flutter、Electron 等。\n- 提供托管云和自托管两种部署方式。\n- 完全符合 GDPR、CCPA 和 PECR 等隐私法规。\n- 内置会话追踪机制，数据收集最小化。\n- 通过 Discord、Twitter、GitHub 和邮件提供社区支持。",
+    "en": "## Benefits:\n\n- Provides a privacy-first approach to analytics by minimizing data collection and avoiding unique identifiers.\n- Offers a simple and intuitive dashboard for tracking essential app metrics.\n- Fully open-source under the AGPLv3 license, ensuring transparency and community contribution.\n\n## Features:\n\n- SDKs available for multiple platforms including Swift, Kotlin, React Native, Flutter, Electron, and more.\n- Supports both managed cloud and self-hosted deployment options.\n- Compliant with GDPR, CCPA, and PECR regulations.\n- Built-in session tracking and minimal data collection.\n- Community support through Discord, Twitter, GitHub, and email."
+  },
+  "github_url": "https://github.com/aptabase/aptabase",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Google Analytics",
+    "Mixpanel",
+    "Heap Analytics",
+    "Adobe Analytics",
+    "Amplitude",
+    "Firebase Analytics",
+    "Flurry Analytics"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://github.com/aptabase/aptabase/wiki",
+  "categories": [
+    "Open Source",
+    "Analytics",
+    "Data Analytics",
+    "Performance Monitoring",
+    "Web Analytics",
+    "User Behavior Tracking",
+    "Mobile Analytics",
+    "Desktop Apps",
+    "Open Source Analytics",
+    "SDK",
+    "Privacy First",
+    "Mobile Apps",
+    "Web Apps",
+    "Desktop Analytics",
+    "Simple",
+    "App Monitoring"
+  ],
+  "pic_url": ""
+}

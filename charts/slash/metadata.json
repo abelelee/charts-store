@@ -1,0 +1,42 @@
+{
+  "name": "slash",
+  "display_name": "Slash",
+  "description": {
+    "zh": "Slash 是一个开源且可自托管的链接管理平台，帮助用户通过可自定义、易读的快捷方式整理、管理和分享重要网址。它支持团队创建和共享 `s/` 短链接，提升链接的可发现性，减少杂乱链接带来的困扰。通过标签、集合和浏览器插件等功能，Slash 简化了个人和团队对在线资源的访问与共享方式。",
+    "en": "Slash is an open-source, self-hosted link management platform that helps users organize, manage, and share important URLs through customizable, human-readable shortcuts. It enables teams to create and share `s/` short links, streamline link discovery, and reduce the clutter of scattered URLs. With features like tagging, collections, and browser extensions, Slash simplifies how individuals and teams access and share online resources."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 通过可自定义的快捷方式简化链接管理。\n- 通过共享链接和集合增强团队协作。\n- 提供链接流量分析以洞察使用情况。\n\n## 功能列表:\n\n- 为任意 URL 创建可自定义的 `s/` 短链接。\n- 将短链接公开分享或仅与团队成员共享。\n- 查看链接的流量及来源分析。\n- 通过浏览器插件便捷访问快捷链接。\n- 使用“集合（Collections）”功能在任意浏览器上与他人共享快捷方式。\n- 开源且支持自托管部署。",
+    "en": "## Benefits:\n\n- Simplifies link management with customizable shortcuts.\n- Enhances team collaboration through shared links and collections.\n- Provides insights with link traffic analytics.\n\n## Features:\n\n- Create customizable `s/` short links for any URL.\n- Share short links publicly or with teammates.\n- View analytics on link traffic and sources.\n- Easy access to shortcuts via browser extension.\n- Share shortcuts using Collections with anyone, on any browser.\n- Open source self-hosted solution."
+  },
+  "github_url": "https://github.com/yourselfhosted/slash",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Bitly",
+    "Sniply",
+    "TinyURL",
+    "Rebrandly",
+    "Linktree"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://github.com/yourselfhosted/slash/blob/main/docs/getting-started/shortcuts.md",
+  "categories": [
+    "Productivity",
+    "Open Source",
+    "Self-Hosted",
+    "self-hosted",
+    "productivity",
+    "team collaboration",
+    "Link Management",
+    "link sharing",
+    "tagging system",
+    "link management",
+    "organization tools",
+    "customizable shortcuts"
+  ],
+  "pic_url": ""
+}

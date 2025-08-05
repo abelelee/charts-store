@@ -1,0 +1,51 @@
+{
+  "name": "typebot",
+  "display_name": "Typebot",
+  "description": {
+    "zh": "Typebot 是一个采用 Fair Source 模式的聊天机器人构建工具，支持用户通过可视化界面创建高级聊天机器人。它可嵌入到网页或移动应用中，并支持实时结果收集。该项目面向开发者和业务人员，提供灵活且功能强大的聊天机器人解决方案。",
+    "en": "Typebot is a Fair Source chatbot builder that enables users to create advanced chatbots visually. It allows chatbots to be embedded in web or mobile apps and provides real-time result tracking. The project is designed for both developers and business users seeking flexible and powerful chatbot solutions."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供灵活直观的可视化聊天机器人构建器，无供应商锁定。\n- 同时支持开发者和非技术人员使用，功能强大且易用。\n- 支持实时分析和结果追踪，便于优化聊天机器人表现。\n\n## 功能列表:\n\n- 包含34+个构建模块，如文本、媒体、输入、逻辑和集成模块。\n- 可定制聊天机器人主题，支持字体、颜色和高级CSS样式。\n- 支持以容器、弹窗或聊天气泡形式嵌入，加载速度快。\n- 提供实时分析功能，包括流失率和完成率统计。\n- 支持将结果导出为CSV格式进行进一步分析。\n- 集成OpenAI、Google Sheets、Zapier等多种外部工具。\n- 提供RESTful API供开发者扩展和自定义功能。\n- 支持自托管和云端部署模式。",
+    "en": "## Benefits:\n\n- Offers a flexible and visually intuitive chatbot builder with no vendor lock-in.\n- Combines powerful features for both developers and non-technical users.\n- Supports real-time analytics and result tracking for performance insights.\n\n## Features:\n\n- 34+ building blocks including text, media, inputs, logic, and integrations.\n- Customizable chatbot themes with fonts, colors, and advanced CSS support.\n- Embed options such as container, popup, or chat bubble with fast performance.\n- Real-time analytics with drop-off and completion rate tracking.\n- Export results to CSV for further analysis.\n- Integration with external tools like OpenAI, Google Sheets, Zapier, and more.\n- RESTful API for developers to extend and customize functionality.\n- Support for self-hosting and cloud deployment."
+  },
+  "github_url": "https://github.com/baptisteArno/typebot.io",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Drift",
+    "Intercom",
+    "ManyChat",
+    "Tars",
+    "Landbot",
+    "Chatfuel",
+    "MobileMonkey",
+    "Botsify",
+    "Collect.chat",
+    "SurveySparrow"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.typebot.io/",
+  "categories": [
+    "Chat",
+    "User Experience",
+    "Customer Engagement",
+    "Team Collaboration",
+    "Customer Support",
+    "Forms",
+    "Custom Code",
+    "Custom Domains",
+    "Web Integration",
+    "Drag-and-Drop Interface",
+    "Conversion Rate Optimization",
+    "Mobile Integration",
+    "Embedded Chatbots",
+    "Form Replacement",
+    "Chatbot Builder",
+    "Real-time Data Collection"
+  ],
+  "pic_url": ""
+}

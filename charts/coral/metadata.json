@@ -1,0 +1,39 @@
+{
+  "name": "coral",
+  "display_name": "Coral",
+  "description": {
+    "zh": "Coral 是由 Vox Media 开发的开源评论平台，旨在重新设计在线评论的审核与展示方式。它致力于通过创建更安全、更智能的互动环境，提升用户对话的质量。面向出版商和开发者，Coral 提供了可定制且可扩展的评论管理解决方案。",
+    "en": "Coral is an open-source commenting platform developed by Vox Media that rethinks how online discussions are moderated and displayed. It aims to improve the quality of conversations by creating safer and smarter environments for user interaction. Designed for publishers and developers, Coral offers a customizable and extensible solution for managing community comments."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 为在线讨论提供更安全、更具建设性的交流环境\n- 为出版商和开发者提供可定制、可扩展的平台\n- 由 Vox Media 支持，拥有活跃社区和专业支持服务\n\n## 功能列表:\n\n- 评论审核工具，用于管理评论内容和用户行为\n- 可自定义的评论展示和对话界面\n- 支持与注册平台及现有评论系统的集成\n- 提供详尽的文档和社区指南以辅助部署和最佳实践\n- 支持单体仓库中的版本管理和发布流程",
+    "en": "## Benefits:\n\n- Provides a safer and more constructive environment for online discussions\n- Offers a customizable and extensible platform tailored for publishers and developers\n- Backed by Vox Media with active community and professional support available\n\n## Features:\n\n- Moderation tools for managing comments and user behavior\n- Customizable comment display and conversation interfaces\n- Integration with registration platforms and existing comment systems\n- Comprehensive documentation and community guides for setup and best practices\n- Support for versioning and release management in a monorepo structure"
+  },
+  "github_url": "https://github.com/coralproject/talk",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Disqus",
+    "Livefyre"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.coralproject.net/",
+  "categories": [
+    "Privacy",
+    "Security",
+    "Communication",
+    "Notifications",
+    "Customizable",
+    "User Experience",
+    "Community",
+    "Moderation",
+    "Interaction",
+    "Commenting System",
+    "Publishing",
+    "Engagement"
+  ],
+  "pic_url": ""
+}

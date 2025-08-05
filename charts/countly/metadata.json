@@ -1,0 +1,47 @@
+{
+  "name": "countly",
+  "display_name": "Countly",
+  "description": {
+    "zh": "Countly 是一个开源的产品分析平台，旨在帮助团队追踪、分析并响应用户在移动、网页和桌面应用上的行为。它支持在云端或本地环境中每天收集和处理数十亿条数据。平台提供包括事件追踪、崩溃报告、推送通知及用户参与工具在内的多种功能。",
+    "en": "Countly is an open-source product analytics platform designed to help teams track, analyze, and act on user behavior across mobile, web, and desktop applications. It enables organizations to collect and process billions of data points daily, either in the cloud or on-premises. The platform supports a wide range of features including event tracking, crash reporting, push notifications, and user engagement tools."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供开源版和企业版，满足不同规模组织的需求。\n- 支持高并发数据处理，具备良好的可扩展性与安全性。\n- 通过本地部署和云端部署提供完整的数据流控制。\n- 通过插件和 API 实现高度可扩展性，支持定制集成和功能开发。\n\n## 功能列表:\n\n- 会话、页面浏览和事件追踪\n- 多平台崩溃和错误报告（支持 iOS、Android、React Native、Flutter、NodeJS、Unity、Java、JavaScript）\n- 面向 iOS 和 Android 的富媒体推送通知\n- 远程配置，支持实时调整应用逻辑与界面\n- 支持自定义控件的应用内评分\n- 自定义仪表盘和内置报表\n- 邮件报表与告警\n- 通过邮件或 Webhook 发送数据的钩子机制\n- 数据管理器用于事件和分段的规划管理\n- 合规中心支持同意管理与数据主体请求\n- 用户、应用与权限管理\n- 支持读写 API\n- 插件化架构支持功能扩展与定制",
+    "en": "## Benefits:\n\n- Offers both open-source and enterprise editions to suit different organizational needs.\n- Supports high-volume data processing with scalability and security.\n- Provides full control over data flow with on-premises and cloud deployment options.\n- Highly extensible through plugins and APIs for custom integrations and feature development.\n\n## Features:\n\n- Session, view, and event tracking\n- Crash and error reporting for multiple platforms (iOS, Android, React Native, Flutter, NodeJS, Unity, Java, JavaScript)\n- Rich push notifications for iOS and Android\n- Remote configuration for real-time app adjustments\n- In-app ratings with customizable widgets\n- Customizable dashboards and built-in reports\n- Email reports and alerts\n- Data hooks via email or webhooks\n- Data Manager for event planning and segmentation\n- Compliance Hub for consent and data request management\n- User, application, and permission management\n- Read and write APIs\n- Plugin-based architecture for customization"
+  },
+  "github_url": "https://github.com/countly/countly-server",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Google Analytics",
+    "Mixpanel",
+    "Heap Analytics",
+    "Adobe Analytics",
+    "Amplitude",
+    "Segment",
+    "Pendo",
+    "Kissmetrics"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://support.countly.com/hc/en-us/categories/360002373332-Knowledge-Base",
+  "categories": [
+    "Open Source",
+    "Analytics",
+    "Open-Source",
+    "Docker",
+    "User Engagement",
+    "Push Notifications",
+    "Real-Time Insights",
+    "Real-time Insights",
+    "On-premises",
+    "Customer Journey",
+    "A",
+    "B Testing",
+    "Cloud-native",
+    "Metrics Tracking"
+  ],
+  "pic_url": ""
+}

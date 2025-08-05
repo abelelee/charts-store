@@ -1,0 +1,38 @@
+{
+  "name": "vaultwarden",
+  "display_name": "Vaultwarden",
+  "description": {
+    "zh": "Vaultwarden 是 Bitwarden 客户端 API 的一个替代服务器实现，使用 Rust 编写。它专为自托管设计，适合在运行官方 Bitwarden 服务过于占用资源的环境中使用。Vaultwarden 保持与官方 Bitwarden 客户端兼容，同时提供更灵活、社区驱动的密码管理方案。",
+    "en": "Vaultwarden is an alternative server implementation of the Bitwarden Client API, written in Rust. It is designed to be lightweight and self-hosted, making it ideal for environments where running the official Bitwarden service would be too resource-intensive. Vaultwarden maintains compatibility with official Bitwarden clients while offering a more flexible and community-driven approach to password management."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 轻量级且资源占用低，适合自托管\n- 活跃维护，社区驱动\n- 兼容官方 Bitwarden 客户端\n- 提供更强的定制性和部署灵活性\n\n## 功能列表:\n\n- 个人保险库（Personal Vault）\n- 发送功能（Send）\n- 附件支持（Attachments）\n- 网站图标（Website icons）\n- 个人 API 密钥（Personal API Key）\n- 组织功能，包括集合、密码共享、成员角色、用户组、事件日志、管理员密码重置、目录同步、策略等\n- 多因素/双因素身份验证（支持身份验证器、邮件、FIDO2 WebAuthn、YubiKey、Duo）\n- 紧急访问（Emergency Access）\n- Vaultwarden 管理后台\n- 修改版 Web 保险库客户端（已打包在容器中）",
+    "en": "## Benefits:\n\n- Lightweight and resource-efficient for self-hosting\n- Actively maintained and community-driven\n- Compatible with official Bitwarden clients\n- Offers enhanced customization and deployment flexibility\n\n## Features:\n\n- Personal Vault\n- Send\n- Attachments\n- Website icons\n- Personal API Key\n- Organizations with support for Collections, Password Sharing, Member Roles, Groups, Event Logs, Admin Password Reset, Directory Connector, and Policies\n- Multi/Two Factor Authentication (Authenticator, Email, FIDO2 WebAuthn, YubiKey, Duo)\n- Emergency Access\n- Vaultwarden Admin Backend\n- Modified Web Vault client (bundled in containers)"
+  },
+  "github_url": "https://github.com/dani-garcia/vaultwarden",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Bitwarden"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://github.com/dani-garcia/vaultwarden/wiki",
+  "categories": [
+    "Security",
+    "Self-Hosted",
+    "Self-hosted",
+    "Access Control",
+    "Personal Use",
+    "Two-Factor Authentication",
+    "Password Management",
+    "File Storage",
+    "Password Manager",
+    "Small Organization",
+    "Family Use",
+    "Live Sync"
+  ],
+  "pic_url": ""
+}

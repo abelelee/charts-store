@@ -1,0 +1,43 @@
+{
+  "name": "codex docs",
+  "display_name": "CodeX Docs",
+  "description": {
+    "zh": "CodeX Docs 是一个基于 Editor.js 生态系统的免费文档应用。它提供了现代化的工具，帮助用户灵活高效地创建和管理内容。该应用适用于产品文档、团队内部笔记、个人记录等各种文档管理场景。",
+    "en": "CodeX Docs is a free documentation application built on the Editor.js ecosystem. It provides modern tools for creating and managing content with flexibility and ease. The app is suitable for product documentation, internal team notes, personal records, or any other documentation needs."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 基于强大且现代化的 Editor.js 生态系统构建\n- 轻量级设计，安装简便，无需数据库或其他依赖\n- 支持桌面端和移动端的响应式界面\n- 页面 URL 设计美观且利于 SEO 优化\n- 集成错误追踪与数据分析功能，提升稳定性和可观测性\n\n## 功能列表:\n\n- 支持嵌套文档结构，灵活构建内容体系\n- 支持静态内容渲染\n- 可定制的用户界面，支持折叠章节和隐藏侧边栏\n- 支持通过 Telegram 或 Slack 提交错别字反馈\n- 提供 Yarn、Docker、Kubernetes 多种部署方式\n- 简单的配置流程\n- 集成 Yandex Metrica 统计分析与 Hawk 错误追踪",
+    "en": "## Benefits:\n\n- Built on the powerful and modern Editor.js ecosystem\n- Lightweight and easy to install without dependencies\n- Fully responsive design for desktop and mobile use\n- SEO-friendly URLs for better visibility and searchability\n- Integrated error tracking and analytics for improved reliability and insights\n\n## Features:\n\n- Support for nested documentation structures\n- Static rendering of content\n- Beautiful and customizable UI with collapsible sections and sidebar options\n- Misprint reporting via Telegram or Slack\n- Easy deployment options via Yarn, Docker, or Kubernetes\n- Simple configuration setup\n- Integration with Yandex Metrica and Hawk error tracking"
+  },
+  "github_url": "https://github.com/codex-team/codex.docs",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Evernote",
+    "Slack",
+    "Sentry",
+    "Cloudinary",
+    "Medium"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.codex.so",
+  "categories": [
+    "Developer Tools",
+    "Collaboration",
+    "API",
+    "Media",
+    "Social Networking",
+    "Note-Taking",
+    "Education",
+    "Content Creation",
+    "Image Storage",
+    "Error Tracking",
+    "Open-Source Projects",
+    "Augmented Reality",
+    "Medicine"
+  ],
+  "pic_url": ""
+}

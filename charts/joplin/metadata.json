@@ -1,0 +1,37 @@
+{
+  "name": "joplin",
+  "display_name": "Joplin",
+  "description": {
+    "zh": "Joplin 是一个免费的开源笔记和待办事项应用，支持 Markdown 格式，并允许用户将笔记组织到笔记本中。它通过多种云服务实现跨设备同步，并支持从 Evernote 和 Markdown 文件导入内容。该应用还提供端到端加密、笔记历史记录和网页剪辑功能。",
+    "en": "Joplin is a free, open-source note-taking and to-do application that supports Markdown formatting and allows users to organize notes into notebooks. It offers cross-device synchronization via various cloud services and supports importing from Evernote and Markdown files. The app also features end-to-end encryption, note history, and web clipping capabilities."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 开源且免费使用，无供应商锁定。\n- 支持桌面、移动端和终端环境的跨平台使用。\n- 灵活的同步选项，支持多种云服务。\n- 强大的隐私功能，包括端到端加密。\n- 丰富的导入/导出和自定义能力。\n\n## 功能列表:\n\n- 提供桌面、移动和终端应用程序。\n- 支持 Firefox 和 Chrome 的网页剪辑器。\n- 端到端加密（E2EE）。\n- 笔记历史记录（修订版本）。\n- 支持与 Nextcloud、Dropbox、WebDAV 和 OneDrive 等多种服务同步。\n- 可导入 Evernote（.enex）和 Markdown 文件。\n- 支持导出为 JEX 文件和原始文件。\n- 支持笔记、待办事项、标签和笔记本。\n- “快速跳转”功能用于快速导航。\n- 按标题、更新时间等排序笔记。\n- 待办事项支持提醒和通知。\n- 离线优先设计，确保数据随时可用。\n- Markdown 笔记支持数学公式和复选框。\n- 支持文件附件并可预览图片。\n- 支持带过滤器和高级查询的搜索功能。\n- 支持地理位置信息。\n- 多语言界面支持。\n- 支持与外部编辑器集成。",
+    "en": "## Benefits:\n\n- Open-source and free to use with no vendor lock-in.\n- Cross-platform support for desktop, mobile, and terminal environments.\n- Flexible synchronization options with multiple cloud services.\n- Strong privacy features including end-to-end encryption.\n- Extensive import/export and customization capabilities.\n\n## Features:\n\n- Desktop, mobile, and terminal applications.\n- Web Clipper for Firefox and Chrome.\n- End To End Encryption (E2EE).\n- Note history (revisions).\n- Synchronization with various services including Nextcloud, Dropbox, WebDAV, and OneDrive.\n- Import Evernote (.enex) and Markdown files.\n- Export JEX files and raw files.\n- Support for notes, to-dos, tags, and notebooks.\n- Goto Anything feature for quick navigation.\n- Sort notes by title, updated time, etc.\n- Alarms and notifications for to-dos.\n- Offline-first design for always-available data.\n- Markdown notes with math notation and checkboxes.\n- File attachment support with image preview.\n- Search functionality with filters and advanced queries.\n- Geo-location support.\n- Multi-language support.\n- External editor integration."
+  },
+  "github_url": "https://github.com/laurent22/joplin",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Evernote",
+    "OneNote"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Productivity",
+    "Developer Tools",
+    "Collaboration",
+    "Security",
+    "Customization",
+    "Documentation",
+    "Note-Taking",
+    "Notes",
+    "Synchronization",
+    "Multimedia"
+  ],
+  "pic_url": ""
+}

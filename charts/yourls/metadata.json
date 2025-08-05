@@ -1,0 +1,39 @@
+{
+  "name": "yourls",
+  "display_name": "YOURLS",
+  "description": {
+    "zh": "YOURLS 是一个自托管的网址缩短工具，允许用户在自己的服务器上搭建专属的短链接服务。它提供对数据的完全控制、详细的统计分析功能，并支持插件扩展。该软件为开源项目，可免费使用。",
+    "en": "YOURLS is a self-hosted URL shortening solution that allows users to create and manage their own URL shortener service on their own server. It provides full control over data, detailed statistics, and analytics, along with plugin support for extended functionality. The software is open-source and free to use."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 完全掌控数据和服务\n- 开源可定制\n- 提供详细的数据统计和分析\n- 基于插件的扩展能力\n\n## 功能列表:\n\n- 自托管的短链接生成服务\n- 用户友好的管理界面\n- 可自定义的短网址\n- 插件支持功能扩展\n- 完善的文档支持\n- 活跃的社区和技术支持",
+    "en": "## Benefits:\n\n- Full control over your data and service\n- Open-source and customizable\n- Detailed analytics and statistics\n- Plugin-based extensibility\n\n## Features:\n\n- Self-hosted URL shortening service\n- User-friendly administration interface\n- Customizable short URLs\n- Plugin support for additional features\n- Comprehensive documentation\n- Active community and support"
+  },
+  "github_url": "https://github.com/YOURLS/YOURLS",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Bitly",
+    "Sniply",
+    "Rebrandly",
+    "TinyURL Pro",
+    "T2M",
+    "Shorte.st"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://yourls.org/#Guide",
+  "categories": [
+    "Open Source",
+    "Analytics",
+    "Self-Hosted",
+    "Docker",
+    "Link Management",
+    "URL Shortener",
+    "Plugin Support",
+    "Branding"
+  ],
+  "pic_url": ""
+}

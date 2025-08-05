@@ -1,0 +1,40 @@
+{
+  "name": "perplexica",
+  "display_name": "Perplexica",
+  "description": {
+    "zh": "Perplexica 是一个开源的 AI 驱动搜索引擎，旨在深入互联网查找信息，并提供准确且上下文相关的答案。它使用相似性搜索和嵌入等先进机器学习技术优化搜索结果，并通过引用来源确保信息透明。借助 SearxNG 技术，它能够提供最新且保护用户隐私的搜索体验。",
+    "en": "Perplexica is an open-source AI-powered search engine designed to deeply explore the internet and provide accurate, context-aware answers. It leverages advanced machine learning techniques such as similarity search and embeddings to refine results, citing sources for transparency. Powered by SearxNG, it ensures up-to-date and privacy-preserving search experiences."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 开源且注重隐私的搜索引擎\n- 结合 AI 与网页搜索实现更深入的理解\n- 通过集成 SearxNG 确保信息的时效性\n- 支持本地和云端 LLM，部署灵活\n\n## 功能列表:\n\n- 支持本地大语言模型（如 Llama3、Mixtral）通过 Ollama\n- 两种主要搜索模式：协作模式（开发中）与普通模式\n- 多种聚焦模式：通用、写作助手、学术、YouTube、Wolfram Alpha、Reddit\n- 基于 SearxNG 的实时信息检索\n- 提供 API 接口，便于集成至其他应用\n- 支持浏览器快捷搜索入口\n- 提供一键部署选项\n- 支持图像和视频搜索",
+    "en": "## Benefits:\n\n- Open-source and privacy-focused search engine\n- Combines AI and web search for deeper understanding\n- Ensures up-to-date information via SearxNG integration\n- Supports local and hosted LLMs for flexible deployment\n\n## Features:\n\n- Local LLM support (e.g., Llama3, Mixtral) via Ollama\n- Two main search modes: Copilot Mode (in development) and Normal Mode\n- Multiple Focus Modes: All, Writing Assistant, Academic, YouTube, Wolfram Alpha, Reddit\n- Real-time, current information retrieval using SearxNG\n- API integration for embedding search capabilities into other applications\n- Browser integration for quick access as a search engine\n- One-click deployment options available\n- Supports image and video search"
+  },
+  "github_url": "https://github.com/ItzCrazyKns/Perplexica",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Bing",
+    "Google Search",
+    "Perplexity"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://github.com/ItzCrazyKns/Perplexica?tab=readme-ov-file#upcoming-features",
+  "categories": [
+    "Privacy",
+    "Open Source",
+    "Search Engine",
+    "Machine Learning",
+    "Real-time Updates",
+    "Information Retrieval",
+    "AI-powered",
+    "AI Search",
+    "SearxNG",
+    "Privacy-focused",
+    "Embeddings",
+    "Machine Larning"
+  ],
+  "pic_url": ""
+}

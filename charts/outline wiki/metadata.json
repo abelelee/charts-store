@@ -1,0 +1,40 @@
+{
+  "name": "outline wiki",
+  "display_name": "Outline Wiki",
+  "description": {
+    "zh": "Outline 是一个使用 React 和 Node.js 构建的快速、协作式团队知识库平台。它帮助用户高效地创建、共享和管理团队知识。项目提供了一个托管版本，用户可以直接访问 www.getoutline.com 使用服务，无需自行部署。",
+    "en": "Outline is a fast, collaborative knowledge base platform designed for teams, built using React and Node.js. It allows users to create, share, and organize team knowledge efficiently. A hosted version is available at www.getoutline.com for easy access without requiring self-hosting."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 开源平台，专注于协作与团队知识管理。\n- 提供托管与自托管选项，部署灵活。\n- 社区参与机制清晰，持续维护更新。\n\n## 功能列表:\n\n- 实时协作编辑与知识共享。\n- 支持自托管，并提供生产环境配置文档。\n- 使用 TypeScript、React 和 Node.js 等现代技术构建。\n- 提供完善的开发与架构文档。\n- 支持多语言本地化。\n- 集成基于 Jest 的测试框架。\n- 通过 Sequelize 支持数据库迁移。",
+    "en": "## Benefits:\n\n- Open-source platform with a focus on collaboration and team knowledge management.\n- Offers both hosted and self-hosted options for flexible deployment.\n- Actively maintained with a clear contribution process for community involvement.\n\n## Features:\n\n- Real-time collaborative editing and knowledge sharing.\n- Support for self-hosting with production-ready documentation.\n- Built with modern technologies including TypeScript, React, and Node.js.\n- Comprehensive development and architecture documentation.\n- Localization support for multiple languages.\n- Integrated testing framework using Jest.\n- Database migration support via Sequelize."
+  },
+  "github_url": "https://github.com/outline/outline",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Notion",
+    "Confluence"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://www.getoutline.com/developers",
+  "categories": [
+    "Productivity",
+    "Collaboration",
+    "Multilingual",
+    "Documentation",
+    "Content Management",
+    "Markdown",
+    "Business Apps",
+    "Secure",
+    "Wiki",
+    "Real-time Editing",
+    "Brand Customization",
+    "Knowledge Base",
+    "Team Productivity"
+  ],
+  "pic_url": ""
+}

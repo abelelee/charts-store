@@ -1,0 +1,36 @@
+{
+  "name": "owncast",
+  "display_name": "Owncast",
+  "description": {
+    "zh": "Owncast 是一个开源的、可自托管的直播视频流和聊天服务器，允许用户自行运行直播服务，并完全掌控内容、界面和受众。它是主流流媒体平台的一种去中心化替代方案。该项目支持与使用 RTMP 的主流推流软件集成。",
+    "en": "Owncast is an open-source, self-hosted live video streaming and chat server that allows individuals to run their own live streams with full control over content, interface, and audience. It is designed to be a decentralized alternative to mainstream streaming platforms. The project supports integration with popular broadcasting software using RTMP."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供对流媒体内容和受众的完整所有权和控制权。\n- 去中心化架构，摆脱对第三方平台的依赖。\n- 提供可自定义的界面和内容管理工具。\n\n## 功能列表:\n\n- 自托管的直播视频流服务器。\n- 内置聊天功能，支持实时互动。\n- 支持通过 RTMP 与 OBS、Streamlabs、Restream 等主流推流软件集成。\n- 面向单用户的设计。\n- 提供管理直播和设置的管理界面。\n- 支持 Docker 部署，简化安装流程。\n- 前端基于 React 构建，界面现代且响应式。\n- 后端使用 Go 编写，具备高性能和可扩展性。",
+    "en": "## Benefits:\n\n- Provides full ownership and control over your streaming content and audience.\n- Decentralized architecture eliminates reliance on third-party platforms.\n- Offers a customizable interface and moderation tools.\n\n## Features:\n\n- Self-hosted live video streaming server.\n- Built-in chat functionality for real-time audience interaction.\n- Compatible with popular broadcasting software such as OBS, Streamlabs, and Restream via RTMP.\n- Single-user focused design.\n- Admin interface for managing streams and settings.\n- Docker support for easy deployment.\n- Frontend built with React for a modern and responsive UI.\n- Backend written in Go for performance and scalability."
+  },
+  "github_url": "https://github.com/owncast/owncast",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "YouTube Live",
+    "Facebook Live",
+    "Twitch"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://owncast.online/docs",
+  "categories": [
+    "Media",
+    "Chat",
+    "Self-hosted",
+    "Live Streaming",
+    "Fediverse Integration",
+    "Web Chat",
+    "Video Broadcasting",
+    "Viewer Engagement"
+  ],
+  "pic_url": ""
+}

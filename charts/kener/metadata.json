@@ -1,0 +1,45 @@
+{
+  "name": "kener",
+  "display_name": "Kener",
+  "description": {
+    "zh": "Kener 是一个基于 SvelteKit 和 NodeJS 构建的轻量级状态页面系统。它提供了一种简单现代的方式，让用户轻松创建和管理外观精美的状态页面。Kener 注重易用性和可定制性，具备监控、事件管理、品牌化等功能。",
+    "en": "Kener is a sleek and lightweight status page system built with SvelteKit and NodeJS. It provides a simple, modern way to create and manage a visually appealing status page with minimal effort. Designed for ease of use and customization, it offers essential features like monitoring, incident management, and branding options."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 轻量级且易于部署\n- 可完全定制以匹配品牌风格\n- 开源且免费使用\n- 现代化的用户界面，支持响应式布局\n- 支持自托管和 Docker 部署\n\n## 功能列表:\n\n- 高级应用性能监控工具\n- 实时网络监控功能\n- 支持轮询 HTTP 端点或通过 REST API 推送数据\n- 访客时区自动调整\n- 将监控项组织为自定义分组\n- 基于 Cron 的调度机制（最小间隔：每分钟一次）\n- 创建复杂的 API 轮询任务（支持链式调用、密钥等）\n- 为监控项设置默认状态\n- 支持 Kubernetes (k8s) 中的路径托管\n- 提供预构建的 Docker 镜像用于快速部署\n- 完全可定制的状态页面\n- 生成状态和运行时间的徽章\n- 支持绑定自定义域名\n- 将监控组件以 iframe 或小部件形式嵌入\n- 支持浅色与深色模式\n- 支持多语言国际化（i18n）\n- 精美设计的用户界面\n- 事件跟踪与沟通工具\n- 提供用于事件管理的完整 API\n- 可访问且用户友好的界面\n- 快速简便的安装流程\n- 全设备响应式设计\n- 自动化 SEO 优化和社交媒体适配\n- 使用服务端渲染（SSR）提升性能",
+    "en": "## Benefits:\n\n- Lightweight and easy to set up\n- Fully customizable to match brand identity\n- Open-source and free to use\n- Modern UI with responsive design\n- Supports both self-hosting and Docker deployment\n\n## Features:\n\n- Advanced application performance monitoring tools\n- Real-time network monitoring capabilities\n- Supports polling HTTP endpoints or pushing data via REST APIs\n- Timezone auto-adjustment for visitors\n- Organize monitors into custom sections\n- Cron-based scheduling (minimum: every minute)\n- Create complex API polls (chaining, secrets, etc.)\n- Set a default status for monitors\n- Supports base path hosting in Kubernetes (k8s)\n- Pre-built Docker images for easy deployment\n- Fully customizable status page\n- Badge generation for status and uptime tracking\n- Support for custom domains\n- Embed monitors as iframes or widgets\n- Light & Dark Mode\n- Internationalization (i18n) support\n- Sleek, beautifully crafted UI\n- Incident tracking & communication tools\n- Comprehensive APIs for incident management\n- Accessible & user-friendly interface\n- Quick & easy installation\n- Responsive design for all devices\n- Auto SEO & Social Media ready\n- Server-Side Rendering (SSR) for better performance"
+  },
+  "github_url": "https://github.com/rajnandan1/kener",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Pingdom",
+    "UptimeRobot",
+    "Statuspage.io",
+    "Freshstatus",
+    "Statusfy",
+    "Instatus"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://kener.ing/docs",
+  "categories": [
+    "Self-Hosted",
+    "Monitoring",
+    "self-hosted",
+    "team collaboration",
+    "Status Page",
+    "offline access",
+    "responsive design",
+    "Incident Management",
+    "customizable interface",
+    "encryption",
+    "real-time monitoring",
+    "incident management",
+    "status page",
+    "service status"
+  ],
+  "pic_url": ""
+}

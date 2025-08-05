@@ -1,0 +1,36 @@
+{
+  "name": "lenpaste",
+  "display_name": "Lenpaste",
+  "description": {
+    "zh": "Lenpaste 是一个用于匿名分享笔记的网页服务，可作为 pastebin.com 等服务的替代品。它强调简洁性、隐私保护以及支持自建服务器。用户可以无需注册即可创建、查看和共享文本片段。",
+    "en": "Lenpaste is a web service for anonymously sharing notes, serving as an alternative to services like pastebin.com. It emphasizes simplicity, privacy, and self-hosting capabilities. The service allows users to create, view, and share text snippets without registration."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n- 轻量级且易于部署。\n- 通过最小化数据收集保护用户隐私。\n- 完全开源并由社区支持。\n- 支持在多种平台上自建服务，包括 Docker 和 Postgres。\n\n## 功能列表:\n- 无需注册即可使用。\n- 支持多语言。\n- 仅使用 Cookie 存储设置。\n- 可在无 JavaScript 的情况下运行。\n- 拥有独立的 API。\n- 开源且支持自托管。\n- 可配置的存储限制和访问频率控制。\n- 可自定义主题和界面设置。\n- 通过密码文件支持可选的访问控制。\n- 支持 PostgreSQL 和 SQLite 数据库。\n- 提供详细文档和社区贡献支持。",
+    "en": "## Benefits:\n- Lightweight and easy to deploy.\n- Respects user privacy with minimal data collection.\n- Fully open source and community-supported.\n- Supports self-hosting on various platforms including Docker and Postgres.\n\n## Features:\n- No need to register.\n- Supports multiple languages.\n- Uses cookies only to store settings.\n- Can work without JavaScript.\n- Has its own API.\n- Open source and self-hosted.\n- Configurable storage and rate limits.\n- Customizable themes and UI settings.\n- Optional access control via password file.\n- Support for PostgreSQL and SQLite databases.\n- Detailed documentation and community contributions."
+  },
+  "github_url": "https://github.com/lcomrade/lenpaste",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Pastebin"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://github.com/lcomrade/lenpaste",
+  "categories": [
+    "Privacy",
+    "Self-Hosted",
+    "API",
+    "Documents",
+    "Code Hosting",
+    "Notes",
+    "Anonymity",
+    "Note Sharing",
+    "Text Storage",
+    "Rate Limiting"
+  ],
+  "pic_url": ""
+}

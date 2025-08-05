@@ -1,0 +1,52 @@
+{
+  "name": "supabase",
+  "display_name": "Supabase",
+  "description": {
+    "zh": "Supabase 是一个基于 Postgres 构建的开源开发平台，使用企业级工具提供类似 Firebase 的功能。它为开发者提供全面的后端即服务（BaaS）解决方案，包括数据库管理、身份验证、API 和存储。平台支持托管和自托管部署选项。",
+    "en": "Supabase is an open-source development platform built on Postgres, offering Firebase-like functionality using enterprise-grade tools. It provides developers with a comprehensive backend-as-a-service (BaaS) solution, including database management, authentication, APIs, and storage. The platform supports both hosted and self-hosted deployment options."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 使用开源和企业级工具提供类似 Firebase 的开发体验。\n- 支持托管与自托管部署的灵活性。\n- 模块化架构便于集成现有开源生态系统。\n\n## 功能列表:\n\n- 托管 Postgres 数据库\n- 身份验证与权限管理\n- 自动生成的 API（支持 REST、GraphQL 和实时订阅）\n- 函数功能（数据库函数、边缘函数）\n- 文件存储\n- AI + 向量/嵌入工具包\n- 用于管理的网页仪表盘\n- 多种编程语言的客户端库",
+    "en": "## Benefits:\n\n- Provides a Firebase-like developer experience using open source and enterprise-grade tools.\n- Offers both hosted and self-hosted deployment flexibility.\n- Modular architecture supports integration with existing open source ecosystems.\n\n## Features:\n\n- Hosted Postgres Database\n- Authentication and Authorization\n- Auto-generated APIs (REST, GraphQL, Realtime subscriptions)\n- Functions (Database Functions, Edge Functions)\n- File Storage\n- AI + Vector/Embeddings Toolkit\n- Web Dashboard for management\n- Client libraries for multiple programming languages"
+  },
+  "github_url": "https://github.com/supabase/supabase",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Firebase",
+    "AWS Amplify",
+    "Google Cloud Firestore",
+    "Backendless",
+    "Appwrite"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://supabase.com/docs",
+  "categories": [
+    "Open Source",
+    "API",
+    "AI",
+    "Authentication",
+    "Self-Hosting",
+    "Database",
+    "GraphQL",
+    "Real-time",
+    "PostgreSQL",
+    "Authorization",
+    "Postgres",
+    "Vector Search",
+    "File Storage",
+    "REST API",
+    "Serverless",
+    "Storage",
+    "Backend As A Service",
+    "Realtime",
+    "Firebase Alternative",
+    "Backend as a Service",
+    "Easy Setup",
+    "Edge Functions"
+  ],
+  "pic_url": ""
+}

@@ -1,0 +1,37 @@
+{
+  "name": "thumbor",
+  "display_name": "Thumbor",
+  "description": {
+    "zh": "Thumbor 是一个开源的图像处理服务，支持动态调整图像大小、裁剪和应用滤镜等操作。它提供了一种安全高效的方式来生成带有指定变换的图片 URL。Thumbor 非常适合需要动态图像处理功能的网页和移动应用使用。",
+    "en": "Thumbor is an open-source image processing service that allows on-the-fly image manipulation, such as resizing, cropping, and applying filters. It provides a secure and efficient way to generate image URLs with specified transformations. Thumbor is ideal for web and mobile applications that require dynamic image handling."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 无需预处理即可实时处理图像，提升灵活性。\n- 通过基于 URL 的签名机制保障图像访问安全。\n- 高度可扩展和定制，适应不同图像处理需求。\n\n## 功能列表:\n\n- 动态调整图像大小、裁剪和旋转。\n- 支持 JPEG、PNG 和 WebP 等多种图像格式。\n- 基于图像焦点的智能裁剪（支持人脸识别和特征检测）。\n- 图像滤镜和增强功能。\n- 基于 URL 的图像转换系统。\n- 支持与 Amazon S3、Google Cloud Storage 等云存储系统集成。\n- 支持动态 GIF 和 WebP 文件。\n- 视频预览弹窗支持随机播放和编辑功能。",
+    "en": "## Benefits:\n\n- Provides real-time image manipulation without the need to pre-process images.\n- Ensures secure image handling with URL-based signing to prevent unauthorized access.\n- Highly scalable and customizable for different image processing needs.\n\n## Features:\n\n- On-the-fly resizing, cropping, and rotation of images.\n- Support for multiple image formats including JPEG, PNG, and WebP.\n- Smart cropping based on image focal points using face or feature detection.\n- Image filtering and enhancement capabilities.\n- URL-based image transformation system.\n- Integration with cloud storage systems like Amazon S3 and Google Cloud Storage.\n- Support for animated GIFs and WebP files."
+  },
+  "github_url": "https://github.com/thumbor/thumbor/blob/master/README.mkd",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Cloudinary",
+    "Imgix"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://thumbor.readthedocs.io",
+  "categories": [
+    "Open Source",
+    "Content Delivery",
+    "Image Storage",
+    "Web Performance",
+    "Image Processing",
+    "Image Optimization",
+    "Smart Imaging",
+    "Image Filters",
+    "Photo Editing",
+    "Feature Detection"
+  ],
+  "pic_url": ""
+}

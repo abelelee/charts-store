@@ -1,0 +1,54 @@
+{
+  "name": "reactive resume",
+  "display_name": "Reactive Resume",
+  "description": {
+    "zh": "Reactive Resume 是一个免费且开源的简历构建工具，旨在简化简历的创建、更新和分享过程。它优先考虑用户隐私，无用户追踪或广告，并提供友好的使用体验，支持快速自托管。平台支持实时编辑、多种模板、拖放式自定义设置，并可集成 OpenAI 以提升写作体验。",
+    "en": "Reactive Resume is a free and open-source resume builder designed to simplify the creation, updating, and sharing of resumes. It prioritizes user privacy with no tracking or ads, and offers a user-friendly experience with optional self-hosting. The platform supports real-time editing, multiple templates, drag-and-drop customization, and integration with OpenAI for enhanced writing."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 免费开源，注重用户隐私保护。\n- 高度可定制，界面友好，支持拖放操作。\n- 支持自托管，实现数据完全掌控，并提供多语言支持。\n\n## 功能列表:\n\n- 永久免费使用，无任何遥测、追踪或广告。\n- 支持30秒内快速自托管。\n- 支持多语言，翻译由社区驱动。\n- 可通过邮箱、GitHub 或 Google 登录，并支持双因素认证。\n- 单个账户下可创建无限量简历，针对不同职位优化内容以提升ATS评分。\n- 支持绑定自己的 OpenAI API 密钥，实现一键优化写作、修正语法和语气调整。\n- 使用 ChatGPT 翻译简历并导入编辑。\n- 支持单页或多页简历创建。\n- 可自定义颜色、布局，并使用 Google Fonts 中的字体。\n- 拖放式调整各部分内容顺序。\n- 可创建特定行业自定义板块。\n- 添加仅自己可见的私人备注。\n- 锁定简历防止进一步修改（适用于主模板）。\n- 提供数十种专业和现代风格模板。\n- 支持 EuroPass 标准设计。\n- 支持 A4 或 Letter 纸张格式打印。\n- 生成专属简历链接并追踪查看和下载次数。\n- 使用现代、经过验证的技术栈构建，MIT 协议开源。\n- 支持暗黑模式界面。",
+    "en": "## Benefits:\n\n- Free and open-source with a strong focus on user privacy.\n- Highly customizable and user-friendly with drag-and-drop interface.\n- Supports self-hosting for full data control and multi-language accessibility.\n\n## Features:\n\n- Free to use forever with no telemetry, tracking, or advertising.\n- Ability to self-host in under 30 seconds.\n- Available in multiple languages with community-driven translations.\n- Sign in via email, GitHub, or Google with optional two-factor authentication.\n- Create unlimited resumes optimized for different job applications.\n- Integration with OpenAI API for writing improvements and tone adjustments.\n- Resume translation using ChatGPT and import functionality.\n- Single or multi-page resume creation.\n- Customizable colors, layouts, and fonts using Google Fonts.\n- Drag-and-drop section reordering.\n- Create custom sections tailored to specific industries.\n- Add private notes visible only to the user.\n- Lock resumes to prevent further edits.\n- Dozens of professional and modern templates available.\n- Support for EuroPass design standard.\n- A4 and Letter format printing support.\n- Shareable personalized resume links with view/download tracking.\n- Built with modern, battle-tested technologies and MIT licensed.\n- Includes a dark mode interface."
+  },
+  "github_url": "https://github.com/AmruthPillai/Reactive-Resume",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Canva",
+    "Resume.io",
+    "Zety",
+    "Novorésumé",
+    "VisualCV"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.rxresu.me/",
+  "categories": [
+    "Privacy",
+    "Customization",
+    "Self-Hosted",
+    "AI",
+    "Open-Source",
+    "open source",
+    "User-Friendly",
+    "customization",
+    "Multi-Language",
+    "privacy-focused",
+    "Templates",
+    "Free",
+    "OpenAI",
+    "Drag-And-Drop",
+    "MIT-License",
+    "EuroPass",
+    "job application",
+    "career tools",
+    "Dark-Mode",
+    "resume builder",
+    "ATS",
+    "professional resumes",
+    "document creation",
+    "Resume"
+  ],
+  "pic_url": ""
+}

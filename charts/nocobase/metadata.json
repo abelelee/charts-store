@@ -1,0 +1,38 @@
+{
+  "name": "nocobase",
+  "display_name": "Nocobase",
+  "description": {
+    "zh": "NocoBase 是一个以可扩展性为核心、开源的无代码开发平台。它让用户无需投入大量开发时间和成本，即可快速部署一个私有、可控且高度可扩展的无代码开发平台。该平台支持复杂业务系统的开发，同时保持了用户友好的可视化配置界面。",
+    "en": "NocoBase is an extensibility-first, open-source no-code development platform. It allows users to quickly deploy a private, scalable, and customizable no-code platform without the need for extensive development time or costs. The platform supports complex business system development while maintaining a user-friendly, visual configuration interface."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 在无代码操作的便捷性与原生开发的灵活性之间取得平衡\n- 支持快速部署与轻松扩展\n- 插件化架构便于无缝扩展功能\n\n## 功能列表:\n\n- 数据模型驱动设计，支持自定义数据视图（区块）\n- 所见即所得（WYSIWYG）界面，便于可视化配置\n- 插件化架构，支持自定义扩展\n- 提供多种安装方式：Docker、CLI 和源码安装\n- 支持无代码与低代码开发场景",
+    "en": "## Benefits:\n\n- Combines the simplicity of no-code with the flexibility of native development\n- Enables rapid deployment and easy scalability\n- Offers a plugin-based architecture for seamless functionality expansion\n\n## Features:\n\n- Data model-driven design with customizable data views (blocks)\n- WYSIWYG (What You See Is What You Get) interface for easy configuration\n- Plugin-based architecture supporting custom extensions\n- Multiple installation options: Docker, CLI, and source code\n- Supports both no-code and low-code development scenarios"
+  },
+  "github_url": "https://github.com/nocobase/nocobase",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Airtable",
+    "Bubble"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.nocobase.com",
+  "categories": [
+    "Collaboration",
+    "Automation",
+    "No-Code",
+    "Scalability",
+    "Business Apps",
+    "Data Management",
+    "Extensibility",
+    "Role-Based Access Control",
+    "Data Modeling",
+    "Development Platform",
+    "Management System"
+  ],
+  "pic_url": ""
+}

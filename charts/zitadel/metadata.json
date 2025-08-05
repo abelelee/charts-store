@@ -1,0 +1,53 @@
+{
+  "name": "zitadel",
+  "display_name": "Zitadel",
+  "description": {
+    "zh": "ZITADEL 是一个开源的身份与访问管理解决方案，专为多租户环境设计。它提供了一整套认证与授权功能，支持 OpenID Connect、OAuth2、SAML、LDAP 和 FIDO2。采用 API 优先的设计理念，ZITADEL 支持安全且可扩展的用户管理，适用于 B2B 和 B2C 场景。",
+    "en": "ZITADEL is an open-source identity and access management solution designed for multi-tenant environments. It offers a comprehensive set of authentication and authorization features, including support for OpenID Connect, OAuth2, SAML, LDAP, and FIDO2. Built with an API-first approach, ZITADEL enables secure and scalable user management for both B2B and B2C use cases."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 面向复杂多租户和 B2B 场景设计，支持自助服务\n- 使用事件溯源技术提供强大的审计追踪能力\n- 同时支持自托管和 SaaS 部署模式\n- 将企业级功能与开源灵活性结合\n- 通过动作和 API 实现高度定制化\n\n## 功能列表:\n\n- 多租户支持及团队与角色管理\n- 安全登录支持 SSO、OTP、FIDO2（Passkeys）、LDAP 和 SAML 2.0\n- 支持 OpenID Connect 和 OAuth2.x\n- 提供 SCIM 2.0 服务端用于用户配置\n- 支持终端用户、客户和管理员的自助服务\n- 提供 GRPC 和 REST API 用于系统集成\n- 可定制品牌标识和登录界面\n- 支持通过 JWT、PAT 和客户端凭据进行机器间认证\n- 支持审计日志与 SOC/SIEM 集成\n- 支持高扩展性与零停机更新",
+    "en": "## Benefits:\n\n- Built for complex multi-tenancy and B2B scenarios with self-service capabilities\n- Provides a strong audit trail using event sourcing\n- Offers both self-hosted and SaaS deployment options\n- Combines enterprise-grade features with open-source flexibility\n- Supports customization through actions and APIs\n\n## Features:\n\n- Multi-tenancy with team and role management\n- Secure login with SSO, OTP, FIDO2 (Passkeys), LDAP, and SAML 2.0\n- OpenID Connect and OAuth2.x support\n- SCIM 2.0 Server for user provisioning\n- Self-service for end-users, customers, and administrators\n- GRPC and REST APIs for integration\n- Customizable branding and login UI\n- Machine-to-machine authentication with JWT, PAT, and Client Credentials\n- Audit logging and SOC/SIEM integration\n- High scalability and zero-downtime updates"
+  },
+  "github_url": "https://github.com/zitadel/zitadel",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Auth0",
+    "Okta",
+    "OneLogin",
+    "Microsoft Azure Active Directory",
+    "Ping Identity"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://zitadel.com/docs/",
+  "categories": [
+    "Open Source",
+    "Scalability",
+    "Authentication",
+    "Postgres",
+    "Multi-Tenancy",
+    "Identity Management",
+    "Role-Based Access Control",
+    "OAuth2",
+    "SAML",
+    "enterprise solutions",
+    "LDAP",
+    "OpenID Connect",
+    "API-First",
+    "CIAM",
+    "identity management",
+    "user authentication",
+    "SAML2",
+    "self-service login",
+    "secure login",
+    "multi-tenant",
+    "CockroachDB",
+    "FIDO2",
+    "Self-Service"
+  ],
+  "pic_url": ""
+}

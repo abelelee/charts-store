@@ -1,0 +1,40 @@
+{
+  "name": "cockpit",
+  "display_name": "Cockpit",
+  "description": {
+    "zh": "Cockpit 是一个 Linux 服务器管理工具，允许系统管理员通过 Web 浏览器执行诸如管理存储、查看日志和配置网络等任务。它设计为用户友好且易于访问，不会干扰现有工作流程。该工具支持多种 Linux 发行版，并与 systemd 和 Docker 等现有工具无缝集成。",
+    "en": "Cockpit is a Linux server management tool that allows system administrators to perform tasks such as managing storage, inspecting logs, and configuring networks through a web browser. It is designed to be user-friendly and accessible without disrupting existing workflows. The tool supports a wide range of Linux distributions and integrates seamlessly with existing tools like systemd and Docker. "
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供用户友好的 Web 界面用于服务器管理\n- 能够在多种 Linux 发行版中无缝运行\n- 与现有系统工具集成，无需更改工作流程\n\n## 功能列表:\n\n- 基于 Web 的远程服务器管理界面\n- 实时系统性能监控\n- 存储、网络及用户账户管理\n- 日志查看与日志浏览\n- 与 systemd 集成以控制服务\n- 支持 Docker 容器管理",
+    "en": "## Benefits:\n\n- Provides a user-friendly web interface for server management\n- Works seamlessly across multiple Linux distributions\n- Integrates with existing system tools without requiring changes to workflows\n\n## Features:\n\n- Web-based interface for remote server administration\n- Real-time system performance monitoring\n- Management of storage, networking, and user accounts\n- Log inspection and journal browsing\n- Integration with systemd for service control\n- Support for Docker container management"
+  },
+  "github_url": "https://github.com/Cockpit-HQ",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Contentful",
+    "Prismic",
+    "Sanity"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://getcockpit.com/documentation",
+  "categories": [
+    "API",
+    "Content Management",
+    "Extensibility",
+    "CMS",
+    "Localization",
+    "Content Creation",
+    "SEO",
+    "Content Delivery",
+    "Headless CMS",
+    "Digital Asset Management",
+    "Full-text Search",
+    "Role-based Access Control"
+  ],
+  "pic_url": ""
+}

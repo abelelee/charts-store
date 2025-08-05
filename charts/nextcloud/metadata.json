@@ -1,0 +1,42 @@
+{
+  "name": "nextcloud",
+  "display_name": "Nextcloud",
+  "description": {
+    "zh": "Nextcloud 是一套用于创建和使用文件托管服务的客户端-服务器软件，提供用于文件存储、同步和协作工具的自托管云解决方案。它强调数据隐私、安全性和用户对数据的控制权。该平台支持广泛的应用和集成，以提升生产力和团队协作能力。",
+    "en": "Nextcloud is a suite of client-server software for creating and using file hosting services, offering self-hosted cloud solutions for file storage, synchronization, and collaborative tools. It emphasizes privacy, security, and user control over data. The platform supports a wide range of applications and integrations to enhance productivity and teamwork. "
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 通过自托管提供对数据的完全控制\n- 强调隐私与安全，支持端到端加密\n- 通过丰富的应用和集成实现高度可扩展性\n\n## 功能列表:\n\n- 跨设备的文件存储与同步\n- 实时协同文档编辑\n- 日历、联系人和任务管理\n- 支持带密码和过期选项的安全共享\n- 支持双因素认证和单点登录\n- 提供移动和桌面客户端以实现无缝访问\n- 可集成 OnlyOffice 和 Collabora 等第三方工具",
+    "en": "## Benefits:\n\n- Provides full control over data with self-hosting capabilities\n- Strong focus on privacy and security with end-to-end encryption\n- Highly extensible through a wide range of apps and integrations\n\n## Features:\n\n- File storage and synchronization across devices\n- Real-time collaborative document editing\n- Calendar, contacts, and task management\n- Secure sharing with password and expiration options\n- Support for two-factor authentication and single sign-on\n- Mobile and desktop clients for seamless access\n- Integration with third-party tools like OnlyOffice and Collabora"
+  },
+  "github_url": "https://github.com/nextcloud",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Dropbox",
+    "Google Workspace",
+    "Microsoft 365"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.nextcloud.com/",
+  "categories": [
+    "Productivity",
+    "Collaboration",
+    "Communication",
+    "File Management",
+    "File Sharing",
+    "Cloud Storage",
+    "Education",
+    "Enterprise",
+    "Data Privacy",
+    "Data Control",
+    "Service Providers",
+    "File Sync",
+    "On-Premise",
+    "Government"
+  ],
+  "pic_url": ""
+}

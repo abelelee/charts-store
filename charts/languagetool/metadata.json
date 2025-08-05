@@ -1,0 +1,39 @@
+{
+  "name": "languagetool",
+  "display_name": "Languagetool",
+  "description": {
+    "zh": "LanguageTool 是一个开源的校对工具，旨在检测多种语言中的广泛错误，其功能超越了传统拼写检查器的能力。它支持包括英语、西班牙语、法语、德语、葡萄牙语、波兰语和荷兰语在内的超过 20 种语言。该工具可通过独立应用程序、命令行使用，也可通过 API 集成到其他软件中。",
+    "en": "LanguageTool is an open-source proofreading tool designed to detect a wide range of errors in multiple languages, beyond what traditional spell checkers can identify. It supports over 20 languages including English, Spanish, French, German, Portuguese, Polish, and Dutch. The tool can be used via a standalone application, command line, or integrated into software via APIs."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 能检测出传统拼写检查器无法识别的复杂语法和文体错误。\n- 支持超过 20 种语言，适用于多语言环境。\n- 提供多种集成方式，便于在不同系统和应用中使用。\n\n## 功能列表:\n\n- 独立应用程序，用于直接进行文本校对。\n- 命令行接口，支持脚本编写和自动化处理。\n- 服务端模式，可用于集成到 Web 应用中。\n- HTTP API，支持远程访问和集成。\n- Java API，便于嵌入 Java 应用程序。\n- 支持 LibreOffice/OpenOffice 插件形式的文档集成。\n- 通过社区贡献的镜像支持 Docker 部署。\n- 提供安装和构建脚本，便于快速部署和定制。\n- 支持使用 Maven 和 Java 17 从源码构建。",
+    "en": "## Benefits:\n\n- Detects complex grammatical and stylistic errors that simple spell checkers miss.\n- Supports over 20 languages, making it highly versatile for multilingual use.\n- Offers flexible integration options including API, command-line, and GUI.\n\n## Features:\n\n- Standalone application for direct text proofreading.\n- Command-line interface for scripting and automation.\n- Server mode for integration into web applications.\n- HTTP API for remote access and integration.\n- Java API for embedding into Java-based applications.\n- LibreOffice/OpenOffice extension for document integration.\n- Docker support through community-contributed images.\n- Installation and build scripts for easy setup and customization.\n- Support for building from source with Maven and Java 17."
+  },
+  "github_url": "https://github.com/languagetool-org/languagetool",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Grammarly",
+    "ProWritingAid"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Productivity",
+    "Multilingual",
+    "Browser Extension",
+    "Email Integration",
+    "Text Correction",
+    "Office Plugin",
+    "Writing Assistant",
+    "Style Editor",
+    "Writing",
+    "Proofreading",
+    "Spell Checker",
+    "Grammar Checker"
+  ],
+  "pic_url": ""
+}

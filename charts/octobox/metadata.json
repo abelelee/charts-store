@@ -1,0 +1,33 @@
+{
+  "name": "octobox",
+  "display_name": "Octobox",
+  "description": {
+    "zh": "Octobox 是一个开源工具，旨在帮助用户高效管理 GitHub 通知。它提供了增强功能如归档、过滤和搜索，以简化通知处理流程。这使开发者能更专注于实际工作，减少在通知管理上的时间消耗。",
+    "en": "Octobox is an open-source tool designed to help users efficiently manage GitHub notifications. It provides enhanced features like archiving, filtering, and searching to streamline notification handling. This allows developers to focus more on productive work and less on inbox management."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 帮助用户节省在管理 GitHub 通知上所花费的时间。\n- 提供比 GitHub 默认通知系统更直观且功能更强大的界面。\n- 通过增强的过滤和搜索功能实现任务的更好组织与优先级排序。\n\n## 功能列表:\n\n- 为通知添加“已归档”状态，便于跟踪待处理事项。\n- 支持标记重要通知以便快速查找。\n- 显示增强的通知信息，如 CI 状态、标签和问题状态等。\n- 提供基于仓库、组织、类型等多种条件的过滤选项。\n- 支持前缀搜索，快速定位特定通知。\n- 内置类似 Gmail 的键盘快捷键，提升导航和管理效率。\n- 提供用于管理通知、用户和固定搜索的 REST API。\n- 支持通过 Docker、Heroku 自建服务，也可作为桌面应用或浏览器扩展使用。",
+    "en": "## Benefits:\n\n- Helps users reclaim time spent managing GitHub notifications.\n- Offers a more intuitive and powerful interface than GitHub's default notification system.\n- Enables better organization and prioritization of tasks through enhanced filtering and search.\n\n## Features:\n\n- Adds an \"archived\" state to notifications to track follow-up needs.\n- Allows starring notifications for easy retrieval of important ones.\n- Displays enhanced notification details like CI status, labels, and issue state.\n- Provides powerful filtering options by repository, organization, type, and more.\n- Supports prefix-based search for quick navigation to specific notifications.\n- Includes Gmail-inspired keyboard shortcuts for efficient navigation and management.\n- Offers a REST API for managing notifications, users, and pinned searches.\n- Can be self-hosted via Docker, Heroku, or used as a desktop or browser extension."
+  },
+  "github_url": "https://github.com/octobox/octobox",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://octobox.io/documentation",
+  "categories": [
+    "Productivity",
+    "Developer Tools",
+    "Code Hosting",
+    "Continuous Integration",
+    "Issue Tracking",
+    "Archiving",
+    "GitHub",
+    "Notifications Management",
+    "Pull Requests"
+  ],
+  "pic_url": ""
+}

@@ -1,0 +1,50 @@
+{
+  "name": "coolify",
+  "display_name": "Coolify",
+  "description": {
+    "zh": "Coolify 是一个开源且支持自托管的平台，旨在作为 Heroku、Netlify 和 Vercel 等云服务的替代方案。它允许用户通过 SSH 连接来管理自己的服务器、应用和数据库。该平台提供对资源的完全控制，避免厂商锁定，支持在 VPS、裸金属服务器、树莓派等多种设备上部署和管理。",
+    "en": "Coolify is an open-source, self-hostable platform that serves as an alternative to cloud services like Heroku, Netlify, and Vercel. It allows users to manage servers, applications, and databases on their own infrastructure using only an SSH connection. The platform gives users full control without vendor lock-in, enabling deployment and management of resources across VPS, bare metal, Raspberry Pis, and more."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 所有配置保存在用户服务器上，避免厂商锁定\n- 提供类似云服务的便捷性，同时保留对基础设施的完全控制\n- 简化应用和数据库的部署与管理流程\n- 支持自托管和云版本，灵活适配不同需求\n\n## 功能列表:\n\n- 支持 VPS、裸金属服务器、树莓派等多种硬件设备\n- 云版本提供高可用性\n- 云计划中包含免费邮件通知和更佳的技术支持\n- 仅需 SSH 连接即可完成部署和管理\n- 支持通过单条命令脚本快速安装",
+    "en": "## Benefits:\n\n- Eliminates vendor lock-in by storing all configurations on the user's server\n- Offers cloud-like ease with full control over your own infrastructure\n- Simplifies deployment and management of applications and databases\n- Available in both self-hosted and cloud versions for flexibility\n\n## Features:\n\n- Supports VPS, bare metal, Raspberry Pis, and various hardware\n- Provides high-availability in the cloud version\n- Includes free email notifications and better support in the cloud plan\n- Requires only an SSH connection for setup and management\n- Easy installation via a single command script"
+  },
+  "github_url": "https://github.com/coollabsio/coolify",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Heroku",
+    "DigitalOcean App Platform",
+    "AWS Elastic Beanstalk",
+    "Google App Engine",
+    "Microsoft Azure App Service",
+    "Netlify",
+    "Vercel"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://coolify.io/docs/introduction",
+  "categories": [
+    "Automation",
+    "Open-Source",
+    "self-hosted",
+    "DevOps",
+    "Deployment",
+    "developer tools",
+    "CI",
+    "CD",
+    "Server Management",
+    "Self-Hostable",
+    "database management",
+    "application management",
+    "Platforms",
+    "server management",
+    "open source platform",
+    "cloud hosting",
+    "Cloud Alternative",
+    "deployment solutions"
+  ],
+  "pic_url": ""
+}

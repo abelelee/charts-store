@@ -1,0 +1,44 @@
+{
+  "name": "owncloud",
+  "display_name": "Owncloud",
+  "description": {
+    "zh": "ownCloud Core 是一个功能强大的开源文件共享与协作平台，全球超过 2 亿用户信赖使用。它支持用户在任意设备和地点存储、同步和共享文件、联系人、日历等内容。它提供类似云服务的便利，同时让用户将数据掌控在自己手中，部署在自有服务器上。",
+    "en": "ownCloud Core is a powerful open-source file sharing and collaboration platform trusted by over 200 million users worldwide. It allows users to store, sync, and share files, contacts, calendars, and more from any device and location. It provides cloud-like benefits while giving users full control over their data by hosting it on their own server."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 支持在任意服务器上自托管，完全掌控数据。\n- 被全球超过 2 亿用户信任，具备高可靠性与安全性。\n- 提供类似云服务的便捷性，同时增强隐私保护与定制能力。\n\n## 功能列表:\n\n- 在自定义服务器上存储文件、联系人、日历等内容。\n- 在多个设备间无缝同步数据。\n- 通过安全链接或权限设置与他人共享文件和数据。\n- 支持通过日历、联系人、邮件、新闻等数十个应用扩展功能。\n- 支持传输中和静态数据的加密，提升安全性。\n- 活跃的开发与社区支持，具备清晰的贡献指南。\n- 提供完整的文档和技术支持选项。",
+    "en": "## Benefits:\n\n- Provides full control over data by allowing self-hosting on any server.\n- Trusted by over 200 million users globally for reliability and security.\n- Offers cloud-like accessibility with enhanced privacy and customization.\n\n## Features:\n\n- Store files, contacts, calendars, and more on a custom server.\n- Sync data seamlessly across multiple devices.\n- Share files and data with others via secure links or permissions.\n- Extend functionality with dozens of apps like Calendar, Contacts, Mail, and News.\n- Support for encryption in transit and at rest for improved security.\n- Active development and community support with clear contribution guidelines.\n- Available with comprehensive documentation and support options."
+  },
+  "github_url": "https://github.com/owncloud/core",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Dropbox",
+    "Google Drive",
+    "Box"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://doc.owncloud.com/",
+  "categories": [
+    "Productivity",
+    "Collaboration",
+    "Integration",
+    "File Management",
+    "File Sharing",
+    "Encryption",
+    "Document Management",
+    "Data Security",
+    "Cloud Storage",
+    "Data Protection",
+    "Multi-Factor Authentication",
+    "On-Premises",
+    "Hybrid Cloud",
+    "Remote Work",
+    "Content Collaboration",
+    "Secure File Transfer"
+  ],
+  "pic_url": ""
+}

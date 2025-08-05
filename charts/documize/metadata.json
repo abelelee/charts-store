@@ -1,0 +1,38 @@
+{
+  "name": "documize",
+  "display_name": "Documize",
+  "description": {
+    "zh": "Documize Community 是一个开源的、自托管的企业级知识管理解决方案，适用于技术与非技术用户。它支持统一管理内部和面向客户的文档内容。该平台基于 Golang 和 EmberJS 构建，可在多种操作系统上以单一可执行文件运行。",
+    "en": "Documize Community is an open-source, self-hosted, enterprise-grade knowledge management solution designed for both technical and non-technical users. It enables unified documentation management for internal and customer-facing content. The platform is built using Golang and EmberJS, and runs as a single executable binary across multiple operating systems."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 在统一平台中整合内部与外部文档管理\n- 轻量级部署，支持多平台运行的单一可执行文件\n- 支持多种数据库和认证方式\n- 提供免费的 Community 版本与功能增强的 Community+ 版本\n\n## 功能列表:\n\n- 支持通过标签、空间和分类组织内容\n- 所有数据库类型均支持全文检索\n- 内置多语言支持，包括英语、德语、法语、中文、巴西葡萄牙语、日语、意大利语和阿根廷西班牙语\n- 支持邮箱/密码、LDAP、Active Directory、Keycloak 和 CAS 认证方式\n- 兼容 Firefox、Chrome、Safari、Edge、Brave、Vivaldi 和 Opera 浏览器\n- 支持 Linux、Windows、macOS 及 Raspberry Pi（ARM）\n- 支持 AMD 和 ARM 64 位架构\n- 提供两个工作日内响应的产品与技术支持",
+    "en": "## Benefits:\n\n- Combines internal and external documentation in one platform\n- Lightweight, single-binary deployment across multiple OS and architectures\n- Supports a wide range of databases and authentication methods\n- Offers both free Community and enhanced Community+ editions\n\n## Features:\n\n- Organization of content using labels, spaces, and categories\n- Full-text search support across all database types\n- Multi-language support including English, German, French, Chinese, Portuguese, Japanese, Italian, and Spanish\n- Authentication via email/password, LDAP, Active Directory, Keycloak, and CAS\n- Browser compatibility with Firefox, Chrome, Safari, Edge, Brave, Vivaldi, and Opera\n- Available for Linux, Windows, macOS, and Raspberry Pi (ARM)\n- Support for AMD and ARM 64-bit architectures\n- Responsive product and technical support within two working days"
+  },
+  "github_url": "https://github.com/documize/community",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Notion",
+    "Confluence"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.documize.com/docs",
+  "categories": [
+    "Collaboration",
+    "Analytics",
+    "Documentation",
+    "Document Management",
+    "Reporting",
+    "Version Control",
+    "Knowledge Management",
+    "Workflow Management",
+    "Content Organization",
+    "Information Centralization",
+    "Product Management"
+  ],
+  "pic_url": ""
+}

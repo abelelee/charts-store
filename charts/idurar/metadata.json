@@ -1,0 +1,47 @@
+{
+  "name": "idurar",
+  "display_name": "iDURAR",
+  "description": {
+    "zh": "IDURAR 是一个基于 MERN 技术栈并结合 Ant Design 与 Redux 的开源 ERP/CRM 应用，专为企业资源规划和客户关系管理设计。它提供发票、报价、付款和客户管理等功能，支持个人和商业用途。",
+    "en": "IDURAR is an open-source ERP/CRM application designed for enterprise resource planning and customer relationship management. Built on the MERN stack with Ant Design and Redux, it offers features such as invoice, quote, payment, and customer management. The application is suitable for both personal and commercial use."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 开源免费，支持个人和商业用途\n- 使用现代且可扩展的 MERN 技术栈构建\n- 提供企业部署的自托管选项\n\n## 功能列表:\n\n- 发票管理\n- 支付管理\n- 报价管理\n- 客户管理\n- 基于 MERN 技术栈（Node.js / Express.js / MongoDB / React.js）\n- 使用 Ant Design 框架（AntD）构建用户界面",
+    "en": "## Benefits:\n\n- Open source and free for personal and commercial use\n- Built with modern and scalable MERN stack technology\n- Self-hosted option for enterprise deployment\n\n## Features:\n\n- Invoice Management\n- Payment Management\n- Quote Management\n- Customer Management\n- Based on MERN Stack (Node.js / Express.js / MongoDB / React.js)\n- UI built with Ant Design Framework (AntD)"
+  },
+  "github_url": "https://github.com/idurar/idurar-erp-crm",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Salesforce",
+    "FreshBooks",
+    "Workday",
+    "Zoho CRM",
+    "NetSuite",
+    "SAP",
+    "QuickBooks",
+    "Oracle ERP Cloud",
+    "Microsoft Dynamics 365",
+    "Odoo"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://www.idurarapp.com/demo-erp-crm/",
+  "categories": [
+    "Open Source",
+    "CRM",
+    "Accounting",
+    "ERP",
+    "Inventory Management",
+    "HR Management",
+    "Business Management",
+    "Customer Relationship Management",
+    "Enterprise Software",
+    "Accounting Management",
+    "Invoice Management",
+    "Resource Planning"
+  ],
+  "pic_url": ""
+}

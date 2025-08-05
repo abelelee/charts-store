@@ -1,0 +1,49 @@
+{
+  "name": "postiz",
+  "display_name": "Postiz",
+  "description": {
+    "zh": "Postiz 是一个开源的 AI 社交媒体排期工具，旨在帮助用户管理帖子、建立受众、获取潜在客户并推动业务增长。它支持多个平台，包括 X（推特）、Instagram、YouTube、TikTok、LinkedIn、Discord 等。Postiz 提供托管和自托管版本，确保平台合规性和数据隐私。",
+    "en": "Postiz is an open-source, AI-powered social media scheduling tool designed to help users manage posts, build audiences, capture leads, and grow their businesses. It supports multiple platforms including X (Twitter), Instagram, YouTube, TikTok, LinkedIn, Discord, and more. Postiz offers both hosted and self-hosted versions with full compliance and data privacy."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 使用 AGPL-3.0 许可证开源，透明且可定制\n- 支持自托管，保障数据隐私与控制权\n- 兼容多个社交平台，便于统一管理\n\n## 功能列表:\n\n- 跨平台社交媒体帖子排期\n- 提供数据分析以衡量表现\n- 团队协作功能，支持评论和共享排期\n- 公共 API 及与 N8N、Make.com、NodeJS SDK 的集成\n- 遵循平台规范的 OAuth 认证机制\n- 基于 AI 的内容排期功能",
+    "en": "## Benefits:\n\n- Open-source with AGPL-3.0 license for transparency and customization\n- Self-hosted option ensures data privacy and control\n- Supports a wide range of social platforms for comprehensive management\n\n## Features:\n\n- Schedule social media posts across multiple platforms\n- Analytics to measure performance\n- Team collaboration with commenting and shared scheduling\n- Public API and integration with tools like N8N, Make.com, and NodeJS SDK\n- Platform-compliant OAuth authentication\n- AI-powered features for content scheduling"
+  },
+  "github_url": "https://github.com/gitroomhq/postiz-app",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Hootsuite",
+    "Buffer",
+    "Sprout Social",
+    "Later",
+    "CoSchedule",
+    "SocialBee",
+    "MeetEdgar"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.postiz.com/providers",
+  "categories": [
+    "Collaboration",
+    "Analytics",
+    "Content Creation",
+    "Scheduling",
+    "Multi-Channel",
+    "Social Media",
+    "Visual Design",
+    "marketing automation",
+    "analytics",
+    "business growth",
+    "AI Tools",
+    "audience engagement",
+    "scheduling tool",
+    "Marketplace",
+    "content planning",
+    "social media management",
+    "lead capture"
+  ],
+  "pic_url": ""
+}

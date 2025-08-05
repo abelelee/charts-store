@@ -1,0 +1,31 @@
+{
+  "name": "wakapi",
+  "display_name": "Wakapi",
+  "description": {
+    "zh": "Wakapi 是一个极简的、支持自托管的 WakaTime 兼容后端，用于追踪和可视化编程统计信息。它可以帮助开发者监控他们的编程活动，包括项目耗时、使用语言等指标。该项目旨在提供一个轻量级且开源的 WakaTime 替代方案。",
+    "en": "Wakapi is a minimalist, self-hosted WakaTime-compatible backend for tracking and visualizing coding statistics. It allows developers to monitor their coding activity, including time spent on projects, languages used, and other metrics. The project is designed to provide a lightweight and open-source alternative to WakaTime."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- WakaTime 的免费开源替代方案\n- 轻量级且面向开发者的设计\n- 支持自托管以保障数据主权\n- 兼容 WakaTime 生态系统\n\n## 功能列表:\n\n- 支持对项目、语言、编辑器、主机和操作系统的统计\n- 每周邮件报告\n- 提供 REST API 用于集成\n- 支持导出 Prometheus 指标\n- 可生成 GitHub 和其他平台使用的徽章\n- 支持 Docker 和 Kubernetes 部署\n- 支持从 WakaTime 导入数据\n- 支持 SQLite、MySQL 和 PostgreSQL 等多种数据库\n- 轻量且高性能\n- 提供丰富的可定制配置选项\n- 浏览器插件和 GNOME 桌面集成\n- 支持心跳追踪和离线缓存",
+    "en": "## Benefits:\n\n- Free and open-source alternative to WakaTime\n- Lightweight and developer-focused design\n- Supports self-hosting for data sovereignty\n- Compatible with WakaTime ecosystem\n\n## Features:\n\n- Statistics for projects, languages, editors, hosts, and operating systems\n- Weekly email reports\n- REST API for integration\n- Prometheus metrics export\n- Badges for GitHub and other platforms\n- Docker and Kubernetes support for easy deployment\n- Data import from WakaTime\n- Supports multiple databases including SQLite, MySQL, and PostgreSQL\n- Lightweight and fast performance\n- Customizable configuration options\n- Browser plugin and GNOME desktop integration\n- Heartbeat tracking and offline caching"
+  },
+  "github_url": "https://github.com/muety/wakapi",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "WakaTime"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Productivity",
+    "Developer Tools",
+    "Analytics",
+    "Time Tracking",
+    "Coding Statistics"
+  ],
+  "pic_url": ""
+}
