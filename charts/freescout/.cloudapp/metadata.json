@@ -1,0 +1,40 @@
+{
+  "name": "freescout",
+  "display_name": "Freescout",
+  "description": {
+    "zh": "FreeScout 是一个基于 PHP 和 Laravel 框架构建的免费开源帮助台和共享邮箱解决方案。它作为 Zendesk 和 Help Scout 的轻量替代品，提供对数据和隐私的完全控制。该项目完全自主开发，不使用任何第三方受版权保护的内容。",
+    "en": "FreeScout is a free, open-source, self-hosted help desk and shared inbox solution built with PHP and the Laravel framework. It serves as a lightweight alternative to Zendesk and Help Scout, offering full control over data and privacy. The project is developed from scratch and does not use any third-party copyrighted materials."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 通过自托管保障数据隐私和控制权。\n- 轻量级但功能强大的帮助台解决方案。\n- 无供应商锁定，完全开源且社区驱动。\n\n## 功能列表:\n\n- 对用户数、工单、邮箱数量无限制。\n- 100% 移动端适配。\n- 支持超过25种语言。\n- 无缝集成电子邮件。\n- 支持现代 Microsoft Exchange 认证。\n- 完全支持屏幕阅读器（无障碍访问）。\n- 强调安全性设计。\n- 提供网页安装和更新工具。\n- 支持标记会话、转发和合并会话。\n- 可在邮箱之间移动会话。\n- 支持电话会话。\n- 支持一次发送会话给多个收件人。\n- 碰撞检测，避免多客服同时编辑。\n- 支持推送通知和关注会话。\n- 自动回复和内部备注。\n- 无需刷新页面即可自动更新会话列表。\n- 支持从剪贴板粘贴截图。\n- 支持按用户配置通知设置。\n- 支持打开追踪和线程编辑。\n- 强大的搜索功能。",
+    "en": "## Benefits:\n\n- Provides full privacy and control by being self-hosted.\n- Lightweight and powerful help desk solution.\n- No vendor lock-in, fully open source and community-driven.\n\n## Features:\n\n- No limitations on users, tickets, or mailboxes.\n- 100% mobile-friendly interface.\n- Multilingual support for over 25 languages.\n- Seamless email integration.\n- Support for modern Microsoft Exchange authentication.\n- Full screen reader accessibility.\n- Strong focus on security.\n- Web-based installer and updater.\n- Starred, forwarded, and merged conversations.\n- Conversation movement between mailboxes.\n- Phone conversation support.\n- Multi-recipient conversation sending.\n- Collision detection for simultaneous agent access.\n- Push notifications and conversation following.\n- Auto-reply and internal notes.\n- Auto-refreshing conversation list.\n- Clipboard screenshot pasting.\n- Per-user notification settings.\n- Open tracking and thread editing.\n- Powerful search functionality."
+  },
+  "github_url": "https://github.com/freescout-helpdesk/freescout",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Zendesk",
+    "Help Scout"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://github.com/freescout-helpdesk/freescout/wiki",
+  "categories": [
+    "Notifications",
+    "Customer Support",
+    "Time Tracking",
+    "Integrations",
+    "Multi-language",
+    "Email Integration",
+    "Shared Inbox",
+    "Agent Collaboration",
+    "Ticketing System",
+    "Live Chat",
+    "Conversation Management",
+    "Help Desk",
+    "Custom Fields"
+  ],
+  "pic_url": ""
+}

@@ -1,0 +1,46 @@
+{
+  "name": "mautic",
+  "display_name": "Mautic",
+  "description": {
+    "zh": "Mautic 是世界上最大的开源营销自动化项目，为企业和组织提供强大、注重隐私且可高度定制的软件，以运行全面集成的营销活动。该项目由全球开发者社区共同支持。",
+    "en": "Mautic is the world’s largest open source marketing automation project. It empowers businesses and organizations to run fully integrated marketing campaigns using powerful, privacy-focused, and customizable software. The project is supported by a global community of contributors."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 开源免费，无任何附加条件\n- 不依赖第三方 SaaS，可自主运行营销自动化\n- 使用自有数据库，完全掌控数据\n- 无供应商锁定，可随时切换或修改系统\n- 可创建所需的任意集成\n- 无功能限制，构建更强大的营销活动\n- 前端与后端均可 100% 定制\n- 多渠道营销无需额外成本\n- 无限细分与自动化功能\n\n## 功能列表:\n\n- 开源营销自动化平台\n- 强大且世界级的营销工具\n- 注重隐私的设计\n- 前端与后端均可完全定制\n- 多渠道活动管理\n- 高级细分与自动化能力\n- 支持自托管，数据完全自主控制\n- 活跃的全球开发者社区\n- 广泛的集成可能性",
+    "en": "## Benefits:\n\n- It's open source - use it for free, no strings attached\n- Don't rely on third-party SaaS, run your own marketing automation\n- Use your own database and own your data\n- No vendor lock-in - switch or modify at will\n- Create any integration you need\n- Build stronger campaigns, without feature limitations\n- Both frontend and backend are 100% customizable\n- Multi-channel marketing without extra costs\n- Unlimited segmentation and automation\n\n## Features:\n\n- Open source marketing automation platform\n- Powerful and world-class marketing tools\n- Privacy-focused design\n- Fully customizable frontend and backend\n- Multi-channel campaign management\n- Advanced segmentation and automation capabilities\n- Self-hosting option with full data control\n- Active global contributor community\n- Extensive integration possibilities"
+  },
+  "github_url": "https://github.com/mautic/mautic",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Mailchimp",
+    "Constant Contact",
+    "HubSpot",
+    "ActiveCampaign",
+    "Marketo",
+    "GetResponse",
+    "Pardot",
+    "SendinBlue"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.mautic.org/en/5.x",
+  "categories": [
+    "Analytics",
+    "Automation",
+    "Open-Source",
+    "Workflow Automation",
+    "Customer Engagement",
+    "Personalization",
+    "Marketing",
+    "Marketing Automation",
+    "Campaign Tracking",
+    "Email Campaigns",
+    "Lead Generation",
+    "SMS Messaging",
+    "Social Media Marketing"
+  ],
+  "pic_url": ""
+}

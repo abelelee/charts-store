@@ -1,0 +1,35 @@
+{
+  "name": "fireshare",
+  "display_name": "Fireshare",
+  "description": {
+    "zh": "Fireshare 是一个自托管的媒体分享平台，旨在让用户通过唯一链接快速分享游戏剪辑、视频或其他媒体内容。它避免了将视频上传到 YouTube 等第三方平台的麻烦，提供了一种简单私有的内容托管与分享方式。平台支持基于文件夹的分类、视频元数据编辑以及响应式移动设备界面。",
+    "en": "Fireshare is a self-hosted media sharing platform designed to let users quickly share game clips, videos, or other media via unique links. It eliminates the need for uploading to third-party platforms like YouTube by providing a simple, private way to host and share content. The platform supports features like folder-based organization, video metadata editing, and responsive design for mobile use."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 无需依赖第三方平台即可快速、私密地分享媒体内容。\n- 提供轻量级、易于使用的界面，方便管理和查看视频。\n- 自托管能力增强了对内容的控制权和数据隐私保护。\n\n## 功能列表:\n\n- 通过唯一链接上传并分享视频。\n- 使用文件夹结构对视频进行分类管理。\n- 支持卡片视图和列表视图展示媒体内容。\n- 编辑视频标题和描述信息。\n- 响应式设计适配移动设备浏览。\n- 公共观看页面支持直接链接和带时间戳链接分享。\n- 支持 LDAP 认证，便于用户权限管理。\n- 支持 Open Graph 元数据，提升链接预览效果。\n- 可启用或限制公众上传视频功能。\n- 视频预览弹窗支持随机播放和编辑功能。",
+    "en": "## Benefits:\n\n- Share media content quickly and privately without relying on third-party platforms.\n- Offers a lightweight, easy-to-use interface for easy management and viewing of videos.\n- Self-hosting capabilities provide enhanced control over content and data privacy protection.\n\n## Features:\n\n- Upload and share videos via a unique link.\n- Categorize videos using a folder structure.\n- Support card view and list view to display media content.\n- Edit video title and description information.\n- Responsive design adapts to mobile browsing.\n- Public watch pages support direct links and timestamped link sharing.\n- LDAP authentication is supported for easy user permission management.\n- Support for Open Graph metadata to improve link preview effect.\n- Enable or restrict public video uploads.\n- Video preview pop-ups support shuffle and editing functions. "
+  },
+  "github_url": "https://github.com/ShaneIsrael/fireshare",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "YouTube",
+    "Vimeo"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Media",
+    "File Management",
+    "Content Management",
+    "Personal Use",
+    "Media Organization",
+    "Video Hosting",
+    "Media Sharing",
+    "Social Sharing"
+  ],
+  "pic_url": ""
+}

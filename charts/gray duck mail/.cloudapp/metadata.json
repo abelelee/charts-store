@@ -1,0 +1,33 @@
+{
+  "name": "gray duck mail",
+  "display_name": "Gray Duck Mail",
+  "description": {
+    "zh": "Gray Duck Mail 是一个现代的邮件讨论列表替代方案，类似于 Mailman 和 Sympa。它设计为易于部署和管理，能够自动处理用户订阅、退订和邮件退信。只要邮件服务商支持 POP3/SMTP 和邮件转发或别名功能，即可与其配合使用。",
+    "en": "Gray Duck Mail is a modern alternative to traditional email discussion list software like Mailman and Sympa. It is designed to be easy to set up and manage, automatically handling user subscriptions, unsubscriptions, and email bounces. It works with any external email provider that supports POP3/SMTP and message forwarding or aliasing."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 部署和管理简便\n- 无需专用邮件服务器\n- 轻量高效\n- 支持多语言\n- 通过配置访问控制和退订链接哈希保护提升安全性\n\n## 功能列表:\n\n- 监控远程邮件服务器的消息\n- 将邮件转发给所有列表成员\n- 自动处理订阅和退订请求\n- 通过 bounce 别名处理邮件退信\n- 提供基于网页的管理界面\n- 支持对消息存档和联系人进行模糊搜索\n- 支持数据库导入和导出\n- 可配置邮件发送频率限制\n- 自定义退订链接并使用 SHA256 哈希保护\n- 支持多语言界面（en-US, ja-JP, es-ES, de-DE）\n- 通过 POP3/SMTP 与外部邮件服务商集成",
+    "en": "## Benefits:\n\n- Easy to set up and manage\n- No need for a dedicated email server\n- Lightweight and efficient\n- Supports multiple languages\n- Secure with configurable access and hashing for unsubscribe links\n\n## Features:\n\n- Monitors remote mail server for messages\n- Relays messages to all list members\n- Automatically handles subscriptions and unsubscriptions\n- Handles email bounces via bounce alias\n- Web-based administration interface\n- Supports fuzzy search in message archives and contacts\n- Database import and export capabilities\n- Configurable rate limiting for email sending\n- Customizable unsubscribe link with SHA256 hash protection\n- Multi-language support (en-US, ja-JP, es-ES, de-DE)\n- Integration with external email providers via POP3/SMTP"
+  },
+  "github_url": "https://github.com/wagesj45/gray-duck-mail",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Yahoo Groups",
+    "Google Groups"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Collaboration",
+    "Email",
+    "Discussion",
+    "Management",
+    "Group Communication",
+    "Mailing List"
+  ],
+  "pic_url": ""
+}

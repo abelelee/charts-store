@@ -1,0 +1,33 @@
+{
+  "name": "muse",
+  "display_name": "Muse",
+  "description": {
+    "zh": "Muse 是一个为中小型 Discord 服务器设计的自托管音乐机器人。它提供了无缝的音乐播放体验，支持播放列表转换、音量标准化和自定义机器人行为。使用 TypeScript 构建，支持 Docker 和 Node.js 运行环境。",
+    "en": "Muse is a self-hosted Discord music bot designed for small to medium-sized servers. It provides a seamless music experience with features like playlist conversion, volume normalization, and customizable bot behavior. Built with TypeScript, it supports Docker and Node.js environments."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 高度优化，专为中西部地区自托管场景设计\n- 轻量高效，适合中小型服务器使用\n- 基于 TypeScript 构建，易于扩展\n- 同时支持 Docker 和 Node.js 部署\n- 由活跃的开源社区持续维护\n\n## 功能列表:\n\n- 支持 YouTube 直播流\n- 可在歌曲或视频中跳转播放位置\n- 本地缓存提升性能\n- 无投票跳过机制\n- 自动转换 Spotify 播放列表/艺术家/专辑/歌曲\n- 自定义命令别名（快捷方式）\n- 单实例支持多个服务器\n- 跨曲目音量标准化\n- 使用 TypeScript 编写，扩展性强\n- 支持 SponsorBlock 跳过非音乐片段\n- 可配置机器人状态和活动信息\n- 大规模部署时支持全局命令注册\n- 语音活动期间自动降低音量",
+    "en": "## Benefits:\n\n- Highly opinionated and optimized for midwestern self-hosted use\n- Lightweight and efficient for small to medium server sizes\n- Easily extendable thanks to TypeScript architecture\n- Supports both Docker and direct Node.js deployment\n- Actively maintained by a community of contributors\n\n## Features:\n\n- Supports YouTube livestreams\n- Allows seeking within songs or videos\n- Local caching for improved performance\n- No vote-to-skip system\n- Autoconverts Spotify playlists/artists/albums/songs\n- Custom command aliases (shortcuts)\n- Multi-guild support with one instance\n- Volume normalization across tracks\n- Written in TypeScript for extensibility\n- SponsorBlock integration to skip non-music segments\n- Configurable bot status and activity\n- Bot-wide command registration for large deployments\n- Automatic volume reduction during voice activity"
+  },
+  "github_url": "https://github.com/codetheweb/muse",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://github.com/codetheweb/muse#running",
+  "categories": [
+    "Music",
+    "Entertainment",
+    "Bot",
+    "Discord",
+    "Playlist Conversion",
+    "Livestream Music",
+    "Music Bot",
+    "Multi-Guild Support",
+    "Volume Normalization"
+  ],
+  "pic_url": ""
+}

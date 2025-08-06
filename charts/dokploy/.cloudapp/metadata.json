@@ -1,0 +1,50 @@
+{
+  "name": "dokploy",
+  "display_name": "Dokploy",
+  "description": {
+    "zh": "Dokploy 是一个免费且支持自托管的平台即服务（PaaS），旨在简化应用程序和数据库的部署与管理。它提供用户友好的界面和强大的工具，帮助开发者简化 DevOps 工作流程。该平台支持多种编程语言和服务，是开发者灵活多用的选择。",
+    "en": "Dokploy is a free, self-hostable Platform as a Service (PaaS) designed to simplify the deployment and management of applications and databases. It offers a user-friendly interface and powerful tools to streamline DevOps workflows. The platform supports a wide range of programming languages and services, making it a versatile choice for developers."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供全面且易于使用的应用程序和数据库管理平台。\n- 支持多种技术栈和部署选项。\n- 通过 Docker 和多节点支持实现可扩展性和灵活性。\n\n## 功能列表:\n\n- 部署各类应用（Node.js、PHP、Python、Go、Ruby 等）\n- 创建和管理数据库（MySQL、PostgreSQL、MongoDB、MariaDB、Redis）\n- 自动将数据库备份到外部存储\n- 原生支持 Docker Compose\n- 使用 Docker Swarm 实现多节点扩展\n- 一键部署开源模板（如 Plausible、Pocketbase、Calcom 等）\n- 自动集成 Traefik 实现路由和负载均衡\n- 实时监控 CPU、内存、存储和网络使用情况\n- 简单易用的 Docker 容器管理\n- 支持通过 CLI 或 API 管理应用和数据库\n- 部署成功或失败时通过 Slack、Discord、Telegram、邮件等方式通知\n- 支持远程部署和管理多个服务器上的应用\n- 可完全自托管在自己的 VPS 上",
+    "en": "## Benefits:\n\n- Provides a comprehensive and easy-to-use platform for application and database management.\n- Supports a wide range of technologies and deployment options.\n- Offers scalability and flexibility through Docker and multi-node support.\n\n## Features:\n\n- Deploy any type of application (Node.js, PHP, Python, Go, Ruby, etc.)\n- Create and manage databases (MySQL, PostgreSQL, MongoDB, MariaDB, Redis)\n- Automate database backups to external storage\n- Native Docker Compose support\n- Multi-node scaling with Docker Swarm\n- One-click deployment of open-source templates (Plausible, Pocketbase, Calcom, etc.)\n- Automatic Traefik integration for routing and load balancing\n- Real-time monitoring of CPU, memory, storage, and network usage\n- Easy Docker container management\n- CLI and API support for managing applications and databases\n- Deployment notifications via Slack, Discord, Telegram, Email, etc.\n- Remote deployment and management across multiple servers\n- Fully self-hosted on your own VPS"
+  },
+  "github_url": "https://github.com/Dokploy/dokploy",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Heroku",
+    "DigitalOcean App Platform",
+    "AWS Elastic Beanstalk",
+    "Google App Engine",
+    "Microsoft Azure App Service"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.dokploy.com/en/docs/core/get-started/introduction",
+  "categories": [
+    "Open-Source",
+    "Notifications",
+    "self-hosted",
+    "Docker",
+    "Database Management",
+    "open source",
+    "developer tools",
+    "Self-Hostable",
+    "Real-Time Monitoring",
+    "database management",
+    "Docker Compose",
+    "application deployment",
+    "PaaS",
+    "Traefik",
+    "cloud platform",
+    "scalable applications",
+    "Application Deployment",
+    "Platforms",
+    "Platform As A Service",
+    "Multi-Node Scaling"
+  ],
+  "pic_url": ""
+}

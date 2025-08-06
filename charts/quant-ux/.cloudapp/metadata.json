@@ -1,0 +1,49 @@
+{
+  "name": "quant-ux",
+  "display_name": "Quant-UX",
+  "description": {
+    "zh": "Quant-UX 是一个用于研究、可用性测试和原型设计的工具，旨在帮助用户快速测试设计概念并获得数据驱动的洞察。它包含前端和后端组件，支持通过 Docker、Kubernetes 或手动方式快速部署。该工具通过用户测试、实时反馈以及与 MongoDB 和 SMTP 等后端服务的集成，支持设计验证，提供完整功能。",
+    "en": "Quant-UX is a research, usability, and prototyping tool designed to help users quickly test their design concepts and gain data-driven insights. It includes both a frontend and a backend component, supporting rapid deployment via Docker, Kubernetes, or manual setup. The tool enables design validation through user testing, real-time feedback, and integration with backend services like MongoDB and SMTP for comprehensive functionality."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 支持快速原型设计和用户测试，用于验证设计\n- 提供数据驱动的洞察，辅助设计决策\n- 易于部署，支持 Docker、Kubernetes 和一键式云部署方案\n- 模块化架构，前端与后端分离，便于维护和扩展\n\n## 功能列表:\n\n- 前端内置小型 Web 服务器及代理，支持与后端通信\n- 后端集成 MongoDB，用于数据存储\n- 通过 SMTP 支持邮件服务，用于用户管理和通知\n- WebSocket 服务器实现实时通信\n- 基于环境变量的配置，支持灵活部署\n- 支持反向代理和 SSL，保障生产环境安全\n- 提供预构建的 Docker 镜像，便于快速部署\n- 支持通过 Elestio 和 RepoCloud 一键部署",
+    "en": "## Benefits:\n\n- Enables rapid prototyping and user testing for design validation\n- Provides data-driven insights to support informed design decisions\n- Easy deployment with support for Docker, Kubernetes, and one-click cloud solutions\n- Modular architecture with separate frontend and backend components\n\n## Features:\n\n- Frontend with built-in mini web server and proxy for backend communication\n- Backend with MongoDB integration for data storage\n- Email service support via SMTP for user management and notifications\n- WebSocket server for real-time communication\n- Environment variable-based configuration for flexible deployment\n- Support for reverse proxy with SSL for secure production deployment\n- Prebuilt Docker images for quick setup\n- One-click deployment options via Elestio and RepoCloud"
+  },
+  "github_url": "https://github.com/KlausSchaefers/quant-ux",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "InVision",
+    "Sketch",
+    "Adobe XD",
+    "Axure RP",
+    "Figma",
+    "Marvel App",
+    "UserTesting",
+    "Optimal Workshop",
+    "Lookback",
+    "Maze"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://app.quant-ux.com/#/help.html",
+  "categories": [
+    "Analytics",
+    "User Experience",
+    "UI Design",
+    "AI Assistant",
+    "Wireframing",
+    "Prototyping",
+    "Design Testing",
+    "Design Systems",
+    "Data-Driven Insights",
+    "User Research",
+    "Interactive Prototypes",
+    "Heatmaps",
+    "UX Design",
+    "Usability Testing"
+  ],
+  "pic_url": ""
+}

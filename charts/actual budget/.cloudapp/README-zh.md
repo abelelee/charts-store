@@ -1,0 +1,87 @@
+以下是你提供的 Markdown 内容的中文翻译，保留了原始格式：
+
+---
+
+<p align="center">
+  <img src="/demo.png" alt="Actualbudget" />
+</p>
+
+## 开始使用
+
+Actual 是一款以本地优先的个人理财工具。它完全免费且开源，使用 NodeJS 编写，它还包含同步功能，使你可以在不同设备间轻松同步所有更改。
+
+如果你有兴趣参与贡献，或者想了解开发流程，请查看我们的 [贡献指南](https://actualbudget.org/docs/contributing/)，我们非常欢迎你的加入。
+
+想表达感谢？请点击页面顶部的 ⭐。
+
+## 关键链接
+
+- Actual [Discord 社区](https://discord.gg/pRYNYr4W5A)
+- Actual [社区文档](https://actualbudget.org/docs)
+- [常见问题解答](https://actualbudget.org/docs/faq)
+
+## 安装方式
+
+有四种方式可以部署 Actual：
+
+1. 通过 [PikaPods](https://www.pikapods.com/pods?run=actual) 一键部署（约 1.40 美元/月）——推荐非技术用户使用
+1. 通过 [Fly.io](https://actualbudget.org/docs/install/fly) 托管服务（约 1.50 美元/月）
+1. 使用 [Docker 镜像](https://actualbudget.org/docs/install/docker) 自托管
+1. 本地应用 — [可下载的 Windows、Mac 和 Linux 应用](https://actualbudget.org/download/)，可在你的设备上直接运行
+
+了解更多请查看 [安装指南文档](https://actualbudget.org/docs/install/)。
+
+## 准备开始记账了吗？
+
+阅读 [信封记账法](https://actualbudget.org/docs/getting-started/envelope-budgeting) 了解 Actual Budget 背后的理念。
+
+### 你是记账新手，或者想从头开始？
+
+请查看社区的 [从头开始指南](https://actualbudget.org/docs/getting-started/starting-fresh)，快速上手！
+
+### 你正在从其他记账应用迁移过来？
+
+请查看社区的 [迁移指南](https://actualbudget.org/docs/migration/)，开始使用 Actual Budget！
+
+## 文档
+
+我们提供了丰富的使用文档，这些内容都在我们的 [社区文档](https://actualbudget.org/docs) 中，包括记账、账户管理、技巧与窍门，以及面向开发者的文档。
+
+## 贡献
+
+Actual 是一个由社区驱动的产品。了解更多关于 [如何为 Actual 做贡献](https://actualbudget.org/docs/contributing/)。
+
+### 代码结构
+
+Actual 应用被拆分为几个包：
+
+- loot-core - 核心应用，可在任何平台上运行
+- desktop-client - 桌面端 UI
+- desktop-electron - 桌面应用
+
+关于项目结构的更多信息，请查看我们的 [社区文档](https://actualbudget.org/docs/contributing/project-details)。
+
+### 功能请求
+
+当前的功能请求可以查看 [这里](https://github.com/actualbudget/actual/issues?q=is%3Aissue+label%3A%22needs+votes%22+sort%3Areactions-%2B1-desc)。  
+通过在请求的顶部评论点击 :+1: 为你喜欢的功能投票。
+
+如需新增功能请求，请提交一个类型为 "Feature Request" 的新 Issue。
+
+### 翻译
+
+帮助我们完成 Actual 的 [国际化](https://actualbudget.org/docs/contributing/i18n/)，让 Actual 能被更多人使用。我们使用众包工具管理翻译，请查看我们的 [Weblate 项目](https://hosted.weblate.org/projects/actualbudget/)。Weblate 通过其 [Libre 计划](https://weblate.org/en/hosting/#libre) 积极支持开源项目。
+
+<a href="https://hosted.weblate.org/engage/actualbudget/">
+<img src="https://hosted.weblate.org/widget/actualbudget/actual/287x66-grey.png" alt="翻译状态" />
+</a>
+
+## 仓库活动
+
+![Alt](https://repobeats.axiom.co/api/embed/e20537dd8b74956f86736726ccfbc6f0565bec22.svg 'Repobeats 分析图')
+
+## 赞助商
+
+感谢我们出色的赞助商让 Actual Budget 成为可能！
+
+<a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="由 Netlify 提供部署" /> </a>

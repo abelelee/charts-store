@@ -1,0 +1,36 @@
+{
+  "name": "calibre",
+  "display_name": "Calibre",
+  "description": {
+    "zh": "calibre 是一个功能强大的电子书管理软件，支持查看、转换、编辑和整理各种主流格式的电子书。它可与电子书阅读设备联动，并能从互联网获取书籍元数据。该软件支持 Linux、Windows 和 macOS 跨平台运行。",
+    "en": "calibre is a powerful e-book management software that allows users to view, convert, edit, and catalog e-books in all major formats. It supports integration with e-book readers and can fetch metadata from the internet. It is a cross-platform application available on Linux, Windows, and macOS."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 为多种格式电子书提供一站式管理方案。\n- 实现与电子书阅读设备的无缝集成。\n- 支持元数据获取及新闻下载并转换为电子书。\n\n## 功能列表:\n\n- 支持查看所有主流格式的电子书\n- 在不同电子书格式之间进行转换\n- 编辑电子书内容\n- 整理和管理电子书库\n- 从互联网获取书籍元数据\n- 下载新闻并将其转换为电子书\n- 支持 Linux、Windows 和 macOS 跨平台使用",
+    "en": "## Benefits:\n\n- Provides a comprehensive solution for managing e-books in multiple formats.\n- Enables seamless integration with e-book reader devices.\n- Offers metadata fetching and newspaper downloading with e-book conversion.\n\n## Features:\n\n- View e-books in all major formats\n- Convert between different e-book formats\n- Edit e-book content\n- Catalog and organize e-book libraries\n- Fetch metadata from the internet\n- Download newspapers and convert them into e-books\n- Cross-platform support for Linux, Windows, and macOS"
+  },
+  "github_url": "https://github.com/kovidgoyal/calibre",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Amazon Kindle",
+    "Adobe Digital Editions"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://manual.calibre-ebook.com/",
+  "categories": [
+    "Cross-Platform",
+    "Documents",
+    "E-book Management",
+    "E-book Editing",
+    "E-book Reader",
+    "Newspaper Download",
+    "E-Commerce",
+    "E-book Conversion",
+    "Metadata Fetching"
+  ],
+  "pic_url": ""
+}

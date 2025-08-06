@@ -1,0 +1,35 @@
+{
+  "name": "kopia",
+  "display_name": "Kopia",
+  "description": {
+    "zh": "Kopia 是一个快速且安全的开源备份与恢复工具，允许用户创建数据的加密快照。它支持将备份保存到多种存储选项，包括云服务提供商、远程服务器和本地存储。Kopia 面向高级用户和普通用户设计，支持命令行和图形界面。",
+    "en": "Kopia is a fast and secure open-source backup and restore tool that allows users to create encrypted snapshots of their data. It supports saving backups to a wide range of storage options including cloud providers, remote servers, and local storage. Kopia is designed for both advanced and regular users with support for CLI and GUI interfaces."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供端到端的“零知识”加密，保障数据高度安全\n- 通过高效的数据去重节省存储成本\n- 支持多种存储方式，包括云存储、网络存储和本地存储，灵活性高\n\n## 功能列表:\n\n- 加密备份，提升数据安全性\n- 数据压缩，减少备份占用空间\n- 支持主流云存储提供商（Amazon S3、Azure、Google Cloud、Backblaze B2 等）\n- 支持基于 WebDAV 和 SFTP 的远程存储\n- 通过 Rclone 扩展更多云存储支持\n- 支持本地和网络附加存储（NAS）\n- 内建错误校正功能，保障数据完整性\n- 跨平台命令行和图形界面支持\n- 支持多台设备备份至同一存储位置",
+    "en": "## Benefits:\n\n- Offers end-to-end zero-knowledge encryption for high security\n- Saves storage costs through efficient data deduplication\n- Provides flexible storage options including cloud, network, and local storage\n\n## Features:\n\n- Encrypted backups for enhanced data security\n- Compression to reduce backup size\n- Support for multiple cloud storage providers (Amazon S3, Azure, Google Cloud, Backblaze B2, etc.)\n- Support for WebDAV and SFTP-based remote storage\n- Integration with Rclone for additional cloud storage options\n- Local and network-attached storage support\n- Built-in error correction for data integrity\n- Cross-platform CLI and GUI interfaces\n- Ability to back up multiple machines to the same storage location"
+  },
+  "github_url": "https://github.com/kopia/kopia/",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Security",
+    "Encryption",
+    "Data Management",
+    "Cloud Storage",
+    "Backup",
+    "Data Protection",
+    "Compression",
+    "GUI",
+    "CLI",
+    "Deduplication",
+    "Restore"
+  ],
+  "pic_url": ""
+}

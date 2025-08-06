@@ -1,0 +1,34 @@
+{
+  "name": "oxigen",
+  "display_name": "Oxigen",
+  "description": {
+    "zh": "Oxigen 是一个动态社交媒体图片生成工具，允许用户通过界面和 API 轻松创建和自定义 Open Graph（OG）图片。它旨在简化为社交媒体分享生成视觉吸引图片的过程。同时支持界面编辑和 API 集成，满足开发者和内容创作者的不同需求。",
+    "en": "Oxigen is a dynamic social media image generator that allows users to easily create, customize, and use Open Graph (OG) images through both a user interface and an API. It is designed to streamline the process of generating visually appealing images for social media sharing. With support for both UI-based editing and API integration, Oxigen caters to both developers and content creators."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 同时提供界面和 API，实现灵活的图片生成方式\n- 简化社交媒体 Open Graph 图片的创建流程\n- 轻量级设计，支持 Docker 快速部署\n\n## 功能列表:\n\n- 支持动态生成并自定义模板的图片\n- 提供用户友好的网页编辑界面\n- 提供 RESTful API 用于程序化生成图片",
+    "en": "## Benefits:\n\n- Combines both UI and API for flexible image generation\n- Simplifies creation of social media Open Graph images\n- Lightweight and easy to deploy with Docker\n\n## Features:\n\n- Dynamic image generation with customizable templates\n- User-friendly web interface for editing images\n- RESTful API for programmatic image creation"
+  },
+  "github_url": "https://github.com/yuriizinets/oxigen",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Canva",
+    "Adobe Spark"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Customization",
+    "API",
+    "Social Networking",
+    "Content Creation",
+    "Social Media",
+    "Image Generation",
+    "Image Generator"
+  ],
+  "pic_url": ""
+}

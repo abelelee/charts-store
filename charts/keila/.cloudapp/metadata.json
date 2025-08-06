@@ -1,0 +1,36 @@
+{
+  "name": "keila",
+  "display_name": "Keila",
+  "description": {
+    "zh": "Keila 是一个开源的邮件通讯工具，旨在作为 Mailchimp 或 Sendinblue 等平台的免费替代方案。它允许用户创建并发送电子邮件活动，支持注册表单以及多种邮件发送服务。Keila 适用于使用个人邮箱的小型通讯，也支持通过 SMTP 或 AWS SES、Sendgrid、Postmark 等服务进行大规模邮件发送。",
+    "en": "Keila is an open-source newsletter tool designed as a free alternative to platforms like Mailchimp or Sendinblue. It allows users to create and send email campaigns, with support for sign-up forms and multiple email delivery services. Keila is suitable for both small-scale newsletters using personal inboxes and larger operations leveraging SMTP or services like AWS SES, Sendgrid, and Postmark."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 开源且支持自托管，便于完全控制和定制\n- 支持多种邮件发送方式，适应小型和大型项目需求\n- 相比商业邮件平台更具成本效益\n\n## 功能列表:\n\n- 使用所见即所得编辑器和可定制模板创建邮件活动\n- 生成订阅注册表单\n- 支持 SMTP 和第三方邮件服务（AWS SES、Sendgrid、Mailgun、Postmark）\n- 提供托管版本和 Docker 部署选项\n- 通过社区翻译支持多语言",
+    "en": "## Benefits:\n\n- Open source and self-hostable for full control and customization\n- Flexible email delivery options for small and large-scale use cases\n- Cost-effective alternative to commercial newsletter platforms\n\n## Features:\n\n- Campaign creation with a WYSIWYG editor and customizable templates\n- Sign-up form generation\n- Support for SMTP and third-party email services (AWS SES, Sendgrid, Mailgun, Postmark)\n- Hosted and Docker deployment options\n- Multi-language support through community translations"
+  },
+  "github_url": "https://github.com/pentacent/keila",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Mailchimp",
+    "Constant Contact",
+    "SendinBlue"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://keila.io/docs",
+  "categories": [
+    "API Integration",
+    "Email",
+    "Privacy-Focused",
+    "Contact Management",
+    "Email Marketing",
+    "Segmentation",
+    "Newsletter",
+    "Campaign Analytics"
+  ],
+  "pic_url": ""
+}

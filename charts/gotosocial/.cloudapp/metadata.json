@@ -1,0 +1,36 @@
+{
+  "name": "gotosocial",
+  "display_name": "GoToSocial",
+  "description": {
+    "zh": "GoToSocial 是一个轻量级、可定制且注重安全性的 ActivityPub 社交网络服务器，使用 Golang 编写。它允许用户发布、分享和互动内容，而无需担心被追踪或受到推荐算法的影响。该项目强调隐私保护和简洁体验，支持与其他 Fediverse 服务器的联邦化通信，同时具备低资源消耗的特点。",
+    "en": "GoToSocial is a lightweight, customizable, and safety-focused ActivityPub social network server written in Golang. It allows users to post, share, and interact with content without being tracked or subjected to recommendation algorithms. Designed for privacy and simplicity, it federates with other Fediverse servers while emphasizing user control and minimal resource usage."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 轻量低耗，适用于低配置硬件。\n- 强调隐私保护，无追踪或推荐算法。\n- 支持主题和富文本格式，具备高度可定制性。\n- 基于 ActivityPub 协议，与 Fediverse 无缝联邦。\n- 提供灵活的部署选项和简便的安装流程。\n\n## 功能列表:\n\n- 兼容 Mastodon API，支持第三方客户端。\n- 精细的帖子可见性设置（公开、未列出、仅关注者、私信）。\n- 通过互动策略控制回复权限。\n- 本地仅发布功能，限制帖子仅在本实例内可见。\n- 支持将个人主页内容导出为 RSS feed。\n- 基于 Markdown 的富文本格式支持。\n- 支持自定义主题和 CSS 样式。\n- 内存占用低（约 250-350MB RAM）。\n- 安全功能包括严格的屏蔽逻辑和 Let's Encrypt HTTPS 支持。\n- 多种联邦模式（黑名单、白名单、私有）。\n- 支持 OIDC 身份提供商集成。\n- 后端优先设计，不内置前端界面。",
+    "en": "## Benefits:\n\n- Lightweight and low resource consumption, suitable for low-spec hardware.\n- Emphasizes privacy with no tracking or recommendation algorithms.\n- Customizable with themes and rich formatting support.\n- Federates seamlessly with the Fediverse using ActivityPub.\n- Offers flexible deployment options and easy setup.\n\n## Features:\n\n- Mastodon API compatibility with third-party clients.\n- Granular post visibility settings (public, unlisted, followers-only, direct).\n- Reply controls via interaction policies.\n- Local-only posting to limit visibility to instance users.\n- RSS feed support for profile content.\n- Markdown-based rich text formatting.\n- Support for custom themes and CSS.\n- Low memory footprint (~250-350MB RAM).\n- Safety features including strict blocking logic and HTTPS with Let's Encrypt.\n- Various federation modes (blocklist, allowlist, private).\n- OIDC integration for identity providers.\n- Backend-first design without integrated frontend."
+  },
+  "github_url": "https://github.com/superseriousbusiness/gotosocial",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Twitter",
+    "Tumblr"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.gotosocial.org/en/latest/",
+  "categories": [
+    "Privacy",
+    "Social Networking",
+    "Community",
+    "Content Sharing",
+    "Personal Use",
+    "Decentralized",
+    "Microblogging",
+    "Social Network",
+    "Fediverse"
+  ],
+  "pic_url": ""
+}

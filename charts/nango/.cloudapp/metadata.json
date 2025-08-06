@@ -1,0 +1,33 @@
+{
+  "name": "nango",
+  "display_name": "Nango",
+  "description": {
+    "zh": "Nango 是一个统一的 API 平台，简化了外部 API 与应用程序的集成过程。它提供预构建和自定义集成能力，使开发者能够完全掌控集成流程。Nango 支持超过 400 个 API，涵盖 25 多个类别，简化了与第三方服务的连接。",
+    "en": "Nango is a unified API platform that simplifies the integration of external APIs into your application. It offers both pre-built and custom integration capabilities, allowing developers to maintain full control over their integration workflows. With support for over 400 APIs across 25+ categories, Nango streamlines the process of connecting with third-party services."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供预构建的 API 模板，加速集成开发。\n- 支持自定义集成，具备高度灵活性和控制权。\n- 拥有涵盖 25 多个类别的 400 多个 API 的持续扩展库。\n- 结合开源协作与专家支持，提供托管集成服务。\n\n## 功能列表:\n\n- 从前端发起 OAuth 流程。\n- 从后端结构化获取外部 API 数据。\n- 支持 25 多个集成类别，包括财务、客户关系管理、人力资源等。\n- 支持构建、扩展和贡献自定义集成。\n- 提供端到端的托管集成服务。\n- 集成 Slack、GitHub、Zoom 等多个平台。",
+    "en": "## Benefits:\n\n- Accelerates integration development with pre-built API templates.\n- Offers full control and flexibility for custom integrations.\n- Maintains a growing library of 400+ APIs across 25+ categories.\n- Combines open-source collaboration with expert support for managed integrations.\n\n## Features:\n\n- OAuth flow initiation from the frontend.\n- Structured data retrieval from external APIs on the backend.\n- Support for 25+ integration categories including Accounting, CRM, HR, and more.\n- Ability to build, extend, and contribute custom integrations.\n- Managed integration services for end-to-end support.\n- Integration with Slack, GitHub, Zoom, and many other platforms."
+  },
+  "github_url": "https://github.com/NangoHQ/nango",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.nango.dev",
+  "categories": [
+    "Developer Tools",
+    "Customization",
+    "API",
+    "Integration",
+    "Authorization",
+    "Real-time Webhooks",
+    "Data Synchronization",
+    "Engineering Productivity",
+    "API Management"
+  ],
+  "pic_url": ""
+}

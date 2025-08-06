@@ -1,0 +1,51 @@
+{
+  "name": "tavernai",
+  "display_name": "TavernAI",
+  "description": {
+    "zh": "TavernAI 是一个专为聊天和故事创作设计的沉浸式前端界面。它支持多种AI后端，为用户提供灵活且富有沉浸感的交互体验。该平台强调个性化设置、用户互动以及与多种文本生成模型的无缝集成。",
+    "en": "TavernAI is an atmospheric frontend interface designed for chat and storywriting experiences. It supports a wide range of AI backends, offering users a flexible and immersive environment. The platform emphasizes customization, user interaction, and seamless integration with various text generation models."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供视觉沉浸感强且可定制的界面，增强故事创作与聊天体验\n- 支持多种AI后端，部署方式灵活多样\n- 提供在线版和本地下载版本，跨平台可用性高\n\n## 功能列表:\n\n- 角色创建\n- 在线角色数据库\n- 支持多角色同时参与的群聊\n- 故事模式\n- 世界信息设定\n- 消息滑动切换\n- 可配置的文本生成设置\n- 可自定义界面主题（包括类似CharacterAI的风格）\n- 可配置背景（提供多种美观默认选项）\n- 编辑、删除和移动任意消息\n- 支持GPT和Claude的图像识别功能",
+    "en": "## Benefits:\n\n- Offers a visually immersive and customizable interface for enhanced storytelling and chatting\n- Supports a wide variety of AI backends for flexible deployment options\n- Provides cross-platform availability with both online and downloadable versions\n\n## Features:\n\n- Character creation\n- Online character database\n- Group chat with multiple characters at the same time\n- Story mode\n- World info\n- Message swiping\n- Configurable generation settings\n- Configurable interface themes, including one that resembles CharacterAI\n- Configurable backgrounds, including beautiful defaults to select from\n- Edit, delete, and move any message\n- GPT and Claude picture recognition"
+  },
+  "github_url": "https://github.com/TavernAI/TavernAI",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Copy.ai",
+    "Writesonic",
+    "Jasper AI",
+    "ChatGPT",
+    "Sudowrite",
+    "Rytr",
+    "NovelAI"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Chat",
+    "AI Chat",
+    "Text Generation",
+    "Group Chat",
+    "Online Character Database",
+    "Configurable Interface Themes",
+    "Message Swiping",
+    "Writing Tools",
+    "Creative Writing",
+    "Configurable Generation Settings",
+    "Picture Recognition",
+    "Frontend",
+    "Interactive Fiction",
+    "Configurable Backgrounds",
+    "Character Creation",
+    "World Info",
+    "Storywriting",
+    "Message Editing",
+    "Story Mode"
+  ],
+  "pic_url": ""
+}

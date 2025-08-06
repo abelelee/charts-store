@@ -1,0 +1,43 @@
+{
+  "name": "papermerge",
+  "display_name": "Papermerge",
+  "description": {
+    "zh": "Papermerge DMS 是一个开源的文档管理系统，专为处理扫描文档和数字档案而设计。它通过 OCR 提取并索引文本，支持全文搜索功能。系统提供类似现代桌面文件浏览器的界面，便于高效整理和长期存储文档。",
+    "en": "Papermerge DMS is an open source document management system designed for handling scanned documents and digital archives. It performs OCR to extract and index text, enabling full-text search capabilities. The system offers a modern desktop-like interface for efficient document organization and long-term storage."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供用户友好的界面，高效管理与组织数字档案\n- 通过 OCR 技术实现文档全文搜索\n- 专为长期文档存储与检索设计\n\n## 功能列表:\n\n- 提供类似桌面应用的网页界面\n- 支持 OpenAPI 的 REST API\n- 支持 PDF、JPEG、PNG 和 TIFF 文档格式\n- 文档 OCR（光学字符识别）\n- 支持下载带有 OCR 文本叠加层的文档\n- 扫描文档的全文搜索功能\n- 文档版本管理\n- 可为文档或文件夹添加彩色标签\n- 层级文件夹结构用于文档组织\n- 支持文档类型（分类）及自定义元数据字段\n- 多用户支持\n- 页面管理：删除、重排、剪切、移动、提取页面",
+    "en": "## Benefits:\n\n- Efficiently manages and organizes digital archives with a user-friendly interface\n- Enables full-text search through OCR technology\n- Designed for long-term document storage and retrieval\n\n## Features:\n\n- Web UI with desktop-like experience\n- OpenAPI compliant REST API\n- Supports PDF, JPEG, PNG, and TIFF documents\n- OCR (Optical Character Recognition) of documents\n- OCRed text overlay for downloaded documents\n- Full-text search of scanned documents\n- Document versioning\n- Tags with color coding for documents or folders\n- Hierarchical folder structure for document organization\n- Document types (categories) with custom metadata fields\n- Multi-user support\n- Page management: delete, reorder, cut, move, extract pages"
+  },
+  "github_url": "https://github.com/ciur/papermerge",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Google Workspace",
+    "Box",
+    "Adobe Document Cloud",
+    "Dropbox Business",
+    "Evernote Business",
+    "DocuWare",
+    "M-Files",
+    "SharePoint"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.papermerge.io/3.3/",
+  "categories": [
+    "Open-Source",
+    "Document Management",
+    "Workflow Automation",
+    "Team Productivity",
+    "Collaboration Tools",
+    "OCR",
+    "Role-Based Access",
+    "Digital Filing",
+    "Smart Categorization",
+    "Document Storage"
+  ],
+  "pic_url": ""
+}

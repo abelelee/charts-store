@@ -1,0 +1,38 @@
+{
+  "name": "focalboard",
+  "display_name": "Focalboard",
+  "description": {
+    "zh": "Focalboard 是一个开源、多语言、支持自托管的项目管理工具，旨在作为 Trello、Notion 和 Asana 的替代方案。它帮助个人和团队高效地定义、组织、跟踪和管理工作。该工具提供个人桌面版供单用户使用，以及适用于多用户环境的个人服务器版。",
+    "en": "Focalboard is an open-source, multilingual, self-hosted project management tool designed as an alternative to Trello, Notion, and Asana. It enables individuals and teams to define, organize, track, and manage work efficiently. The tool offers both a personal desktop edition for single users and a personal server edition for multi-user environments."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供自托管、注重隐私的项目管理解决方案，作为主流工具的替代选择。\n- 轻量级设计，便于个人或小型团队快速部署使用。\n- 支持多语言界面，提升全球用户的可访问性。\n\n## 功能列表:\n\n- 提供适用于 macOS、Windows 和 Linux 的个人桌面应用程序。\n- 提供适用于多用户的个人服务器版本，适合开发和个人使用。\n- 提供详细的 API 文档，便于集成与定制。\n- 提供跨平台的开发者和用户安装指南。\n- 独立桌面应用内置对 SQLite 的支持。\n- 支持 Docker，简化部署和测试流程。\n- 完善的单元测试和持续集成流程。",
+    "en": "## Benefits:\n\n- Offers a self-hosted, privacy-focused alternative to popular project management tools.\n- Lightweight and easy to set up for personal or small team use.\n- Supports multilingual interfaces, enhancing global accessibility.\n\n## Features:\n\n- Personal Desktop app for macOS, Windows, and Linux.\n- Personal Server edition for multi-user development and personal use.\n- Detailed API documentation for integration and customization.\n- Easy setup guides for developers and users across platforms.\n- Built-in support for SQLite when running standalone desktop apps.\n- Docker support for simplified deployment and testing.\n- Comprehensive unit testing and CI workflows."
+  },
+  "github_url": "https://github.com/mattermost/focalboard",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Notion",
+    "Asana",
+    "Trello"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.mattermost.com/guides/boards.html",
+  "categories": [
+    "Productivity",
+    "Collaboration",
+    "Project Management",
+    "File Sharing",
+    "Task Management",
+    "Kanban",
+    "Real-time",
+    "Tracking",
+    "Teamwork",
+    "Planning"
+  ],
+  "pic_url": ""
+}

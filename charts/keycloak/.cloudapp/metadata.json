@@ -1,0 +1,47 @@
+{
+  "name": "keycloak",
+  "display_name": "Keycloak",
+  "description": {
+    "zh": "Keycloak 是一个开源的身份认证与访问管理解决方案，可轻松为应用添加身份验证并保护服务。它无需手动管理用户存储和认证流程，提供用户联合、强身份验证、用户管理以及细粒度的授权功能。",
+    "en": "Keycloak is an open-source Identity and Access Management solution that simplifies adding authentication to applications and securing services. It eliminates the need to manage user storage and authentication manually. The platform offers user federation, strong authentication, user management, and fine-grained authorization."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 简化应用的身份验证集成\n- 无需手动管理用户和认证流程\n- 提供企业级身份与访问控制能力\n\n## 功能列表:\n\n- 用户联邦（User Federation）\n- 强身份验证机制\n- 完整的用户管理功能\n- 细粒度的授权控制\n- 支持 Docker 和源码部署\n- 提供详尽的文档和社区支持",
+    "en": "## Benefits:\n\n- Simplifies authentication integration for applications\n- Eliminates manual user and authentication management\n- Provides enterprise-grade identity and access control capabilities\n\n## Features:\n\n- User federation\n- Strong authentication mechanisms\n- Comprehensive user management\n- Fine-grained authorization controls\n- Docker and source-based deployment options\n- Extensive documentation and community support"
+  },
+  "github_url": "https://github.com/keycloak/keycloak",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Auth0",
+    "Okta"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://www.keycloak.org/documentation",
+  "categories": [
+    "Security",
+    "Authentication",
+    "User Management",
+    "Authorization",
+    "Single Sign-On",
+    "Identity Management",
+    "Access Management",
+    "SAML",
+    "Social Login",
+    "LDAP",
+    "OpenID Connect",
+    "Account Management",
+    "Standard Protocols",
+    "Admin Console",
+    "Fine-Grained Authorization",
+    "Identity and Access Management",
+    "Single-Sign On",
+    "User Federation",
+    "OAuth 2.0",
+    "Active Directory"
+  ],
+  "pic_url": ""
+}

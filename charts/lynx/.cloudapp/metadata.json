@@ -1,0 +1,35 @@
+{
+  "name": "lynx",
+  "display_name": "Lynx",
+  "description": {
+    "zh": "Lynx 是一个使用 MEVN 技术栈构建的全栈 URL 缩短工具。它为用户提供了一个简洁的界面，用于创建和管理缩短后的链接。该项目开发的初衷是弥补现有 URL 缩短服务中缺少诸如管理界面和根路径重定向等功能。",
+    "en": "Lynx is a full-stack URL shortening application built with the MEVN stack. It provides users with a simple interface to create and manage shortened URLs. The project was developed to include features like an admin interface and root path redirection that were missing from existing solutions."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 轻量级设计，支持 Docker，易于部署\n- 开源项目，支持社区协作开发\n- 界面简洁直观，用户体验良好\n\n## 功能列表:\n\n- 提供管理链接和账户的后台界面\n- 支持自定义根路径重定向\n- 可完全自定义链接的 slug 和目标地址\n- 支持自托管，提升隐私性和控制权",
+    "en": "## Benefits:\n\n- Lightweight and easy to deploy with Docker support\n- Open source with active community contribution\n- Simple and intuitive user interface\n\n## Features:\n\n- Admin interface for managing links and accounts\n- Option to redirect the root path to a custom destination\n- Full control over link slugs and destinations\n- Self-hosted solution for greater privacy and control"
+  },
+  "github_url": "https://github.com/Lynx-Shortener/Lynx",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Bitly",
+    "TinyURL"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Productivity",
+    "Security",
+    "Link Management",
+    "Personalization",
+    "URL Shortener",
+    "Multi-user",
+    "Web Tools",
+    "Web Browsing"
+  ],
+  "pic_url": ""
+}

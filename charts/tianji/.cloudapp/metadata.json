@@ -1,0 +1,34 @@
+{
+  "name": "tianji",
+  "display_name": "Tianji",
+  "description": {
+    "zh": "Tianji是一个集网站分析、运行时监控和服务器状态追踪于一体的轻量级一体化洞察中心。它旨在通过集成常用监控与分析功能，减少用户对多个独立工具的依赖。该项目适合有轻量监控需求、追求简单全面解决方案的用户。",
+    "en": "Tianji is an all-in-one insight hub that combines website analytics, uptime monitoring, and server status tracking in a lightweight and user-friendly application. It aims to eliminate the need for multiple separate tools by integrating essential monitoring and analysis features. This open-source project is ideal for users with lightweight monitoring needs who want a simple, comprehensive solution."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 将多种监控与分析功能集成于一个轻量级应用中\n- 通过减少对多个工具的依赖，简化部署和维护流程\n- 使用 Apache 2.0 开源协议，具备开放性和灵活性\n- 支持 Docker、Helm 及一键部署平台，便于快速上线\n\n## 功能列表:\n\n- 网站分析（PV/UV统计、页面访问追踪）\n- 运行时监控（支持被动接收结果）\n- 服务器状态监控\n- 问题通知系统\n- 遥测数据收集\n- 开放 API 接口支持\n- 多语言支持及翻译工具包\n- 问卷调查与等待名单管理\n- Lighthouse 报告生成\n- Webhook 支持\n- Helm 安装支持",
+    "en": "## Benefits:\n\n- Combines multiple monitoring and analysis functions into one lightweight application\n- Simplifies setup and maintenance by reducing reliance on multiple tools\n- Open-source with Apache 2.0 license, offering transparency and flexibility\n- Easy deployment with support for Docker, Helm, and one-click deployment platforms\n\n## Features:\n\n- Website analytics (PV/UV tracking, page visits)\n- Uptime monitoring with passive result reception\n- Server status tracking\n- Problem notification system\n- Telemetry data collection\n- OpenAPI support for integration\n- Multi-language support with translation toolkit\n- Survey and waitlist management\n- Lighthouse report generation\n- Webhooks support\n- Helm installation support"
+  },
+  "github_url": "https://github.com/msgbyte/tianji",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Google Analytics",
+    "Pingdom"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://tianji.msgbyte.com/docs/intro",
+  "categories": [
+    "Analytics",
+    "Uptime Tracking",
+    "Server Monitor",
+    "Website Monitor",
+    "Website Monitoring",
+    "Performance Management",
+    "Server Monitoring"
+  ],
+  "pic_url": ""
+}

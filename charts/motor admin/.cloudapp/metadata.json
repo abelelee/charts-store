@@ -1,0 +1,45 @@
+{
+  "name": "motor admin",
+  "display_name": "Motor Admin",
+  "description": {
+    "zh": "Motor Admin 是一个无需编码的管理面板和商业智能工具，旨在简化数据管理。它允许用户执行增删改查操作、创建自定义操作，并可通过 SQL 查询和可视化功能构建报表。平台支持多种部署方式，并与多个数据库和服务集成。",
+    "en": "Motor Admin is a no-code admin panel and business intelligence tool designed to simplify data management. It allows users to perform CRUD operations, create custom actions, and build reports with SQL queries and visualizations. The platform supports multiple deployment options and integrates with various databases and services."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供无需编码的数据管理用户界面。\n- 通过 SQL 查询、仪表盘和自动化操作实现强大定制能力。\n- 支持多种部署方式，包括 Heroku、Railway、Docker 和 Digital Ocean。\n\n## 功能列表:\n\n- 可定制的增删改查操作\n- 通过 API 集成创建自定义操作\n- 数据输入界面的表单构建器\n- 支持 SQL 查询进行数据分析\n- 图表形式的数据可视化\n- 创建并共享仪表盘\n- 数据变更的邮件提醒\n- 智能搜索功能\n- 适配移动端的界面\n- 环境间配置同步\n- 基于角色的访问控制和审计日志\n- 多数据库支持\n- 集成 Slack 的报表提醒\n- 企业功能如多因素认证、SAML SSO 和自定义样式",
+    "en": "## Benefits:\n\n- Provides a user-friendly interface for managing data without requiring coding skills.\n- Enables powerful customization through SQL queries, dashboards, and automated actions.\n- Supports multiple deployment options including Heroku, Railway, Docker, and Digital Ocean.\n\n## Features:\n\n- Customizable CRUD operations\n- Creation of custom actions with API integrations\n- Form builder for data input interfaces\n- SQL query support for data analysis\n- Data visualization with charts\n- Dashboard creation and sharing\n- Email alerts for data changes\n- Intelligent search functionality\n- Mobile-optimized interface\n- Configuration synchronization between environments\n- Role-based access control and audit logs\n- Multiple database support\n- Slack-integrated report alerts\n- Enterprise features like MFA, SAML SSO, and custom styling"
+  },
+  "github_url": "https://github.com/motor-admin/motor-admin",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Airtable",
+    "Retool",
+    "OutSystems",
+    "Mendix",
+    "Appsmith",
+    "Budibase",
+    "Zoho Creator"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.getmotoradmin.com/",
+  "categories": [
+    "Business Intelligence",
+    "data analysis",
+    "self-hosted solutions",
+    "form builder",
+    "internal tools",
+    "no-code platform",
+    "No-Code Platform",
+    "custom dashboards",
+    "Admin Panel",
+    "user management",
+    "admin panel",
+    "business intelligence",
+    "Database Tool"
+  ],
+  "pic_url": ""
+}

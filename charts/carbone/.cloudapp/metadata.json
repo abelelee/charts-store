@@ -1,0 +1,49 @@
+{
+  "name": "carbone",
+  "display_name": "Carbone",
+  "description": {
+    "zh": "Carbone 是一个快速、简单且功能强大的报表生成工具，支持 PDF、DOCX、XLSX、ODT、PPTX 等多种格式。它使用常见文档编辑器创建的模板和 JSON 数据生成定制化报告。专为服务器端设计，集成了独特的模板引擎和可选的文档转换功能。",
+    "en": "Carbone is a fast, simple, and powerful report generation tool that supports multiple formats including PDF, DOCX, XLSX, ODT, PPTX, and more. It uses templates created in common document editors and JSON data to generate customized reports. Designed for server-side use, it integrates a unique template engine and optional document conversion."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 使用常见的文档编辑器即可轻松创建模板\n- 通过模板灵活性支持无限设计可能性\n- 内置文档转换功能，支持多格式输出\n- 采用 XML 无关处理算法，具备前瞻性\n- 高性能，支持多线程 LibreOffice 集成\n\n## 功能列表:\n\n- 使用 LibreOffice、Google Docs、Microsoft Office 等创建模板\n- 在文档中直接插入 JSON 类标记 `{d.companyName}`\n- 生成 DOCX、XLSX、PDF、ODT 等多种格式的报告\n- 使用集成转换器将文档转换为不同格式\n- 支持多语言模板及自动翻译更新\n- 内置数据格式化功能，支持日期、数字及自定义 JavaScript 函数\n- 文档转换过程中高效的作业队列和错误处理机制\n- 支持嵌套数据渲染，满足复杂文档结构需求",
+    "en": "## Benefits:\n\n- Extremely simple to use with common document editors\n- Supports unlimited design possibilities through template flexibility\n- Built-in document conversion for multi-format output\n- Future-proof with XML-agnostic processing algorithm\n- High performance with multi-threaded LibreOffice integration\n\n## Features:\n\n- Create templates using LibreOffice, Google Docs, Microsoft Office, and more\n- Insert JSON-like markers `{d.companyName}` directly in documents\n- Generate reports in various formats including DOCX, XLSX, PDF, and ODT\n- Convert documents to different formats using integrated converter\n- Support for multilingual templates and automatic translation updates\n- Built-in data formatting for dates, numbers, and custom JavaScript functions\n- Efficient job queue and error handling during document conversion\n- Nested data rendering for complex document structures"
+  },
+  "github_url": "https://github.com/carboneio/carbone",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "DocuSign",
+    "Adobe Document Cloud",
+    "SignNow",
+    "HelloSign",
+    "PandaDoc",
+    "Formstack Documents",
+    "WebMerge",
+    "Zoho Writer"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://carbone.io/documentation/design/overview/getting-started.html",
+  "categories": [
+    "Productivity",
+    "Automation",
+    "self-hosted",
+    "Reporting",
+    "business tools",
+    "automation",
+    "document generation",
+    "PDF generation",
+    "XLSX generation",
+    "template-based rendering",
+    "report generation",
+    "DOCX generation",
+    "Document Generation",
+    "invoice generation",
+    "scalable solutions",
+    "bulk generation"
+  ],
+  "pic_url": ""
+}

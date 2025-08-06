@@ -1,0 +1,41 @@
+{
+  "name": "formbricks",
+  "display_name": "Formbricks",
+  "description": {
+    "zh": "Formbricks 是一个开源的 Qualtrics 替代方案，支持通过应用内、网站、链接和电子邮件等方式收集用户反馈。它提供无代码问卷构建器、预设模板和数据分析工具。平台支持云端和自托管部署，强调隐私保护和可扩展性。",
+    "en": "Formbricks is an open-source alternative to Qualtrics that enables teams to gather user feedback through in-app, website, link, and email surveys. It provides a no-code survey builder, prebuilt templates, and data analysis tools. The platform supports both cloud and self-hosted deployment options, with a focus on privacy and extensibility."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 开源且支持自托管，便于完全控制和定制。\n- 隐私优先设计，保障用户数据安全。\n- 支持云端和基于 Docker 的自托管灵活部署。\n\n## 功能列表:\n\n- 使用无代码编辑器创建高转化率的问卷。\n- 提供多种基于最佳实践的问卷模板。\n- 动态向特定用户群定向投放问卷。\n- 生成可共享的链接问卷。\n- 支持团队协作创建问卷。\n- 可与 Slack、Notion、Zapier、n8n 等工具集成。\n- 基于 TypeScript、Next.js、React、TailwindCSS 等现代技术构建。",
+    "en": "## Benefits:\n\n- Open source and self-hostable for full control and customization.\n- Privacy-first design ensures user data protection.\n- Flexible deployment options with cloud and Docker-based self-hosting.\n\n## Features:\n\n- Create conversion-optimized surveys with a no-code editor.\n- Choose from various survey templates based on best practices.\n- Target surveys to specific user groups dynamically.\n- Generate shareable link surveys.\n- Collaborate with team members on survey creation.\n- Integrate with Slack, Notion, Zapier, n8n, and more.\n- Built with modern technologies like TypeScript, Next.js, React, and TailwindCSS."
+  },
+  "github_url": "https://github.com/formbricks/formbricks",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Typeform",
+    "SurveyMonkey"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://formbricks.com/docs/introduction/what-is-formbricks",
+  "categories": [
+    "Open Source",
+    "User Experience",
+    "User Engagement",
+    "Data Analysis",
+    "Multi-Channel",
+    "Survey",
+    "Feedback",
+    "Real-Time Insights",
+    "Survey Platform",
+    "In-App Survey",
+    "Customizable Surveys",
+    "Feedback Collection",
+    "Website Survey",
+    "Email Survey"
+  ],
+  "pic_url": ""
+}

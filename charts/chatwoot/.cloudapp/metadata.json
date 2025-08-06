@@ -1,0 +1,38 @@
+{
+  "name": "chatwoot",
+  "display_name": "Chatwoot",
+  "description": {
+    "zh": "Chatwoot 是一个现代化的开源客户支持平台，旨在帮助企业打造卓越的客户体验。它将来自多个渠道的客户对话集中到一个统一的收件箱中，并提供强大的客户互动管理工具。Chatwoot 以可扩展性和灵活性为核心构建，赋予企业对其客户数据的完全控制权。",
+    "en": "Chatwoot is a modern, open-source, and self-hosted customer support platform designed to help businesses deliver exceptional customer support experiences. It centralizes customer conversations from multiple channels into one unified inbox and offers powerful tools for managing customer interactions. Built for scalability and flexibility, it gives businesses full control over their customer data."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供统一收件箱，集中管理多渠道客户对话。\n- 通过自托管功能实现对客户数据的完全控制。\n- 高度可扩展和灵活，适用于不断发展的企业。\n\n## 功能列表:\n\n- Captain：AI驱动的支持响应自动化代理。\n- 支持网站聊天、电子邮件、社交媒体及各类消息应用的全渠道客服。\n- 内置帮助中心门户，用于发布FAQ和指南。\n- 支持内部团队沟通的私密笔记和@提醒功能。\n- 标签、快捷回复、键盘快捷键和命令栏提升效率。\n- 自动分配对话、自定义视图、营业时间与自动化工具。\n- 联系人管理、客户分组、营销活动和自定义属性。\n- 支持与 Slack、Dialogflow、Shopify、Google Translate 和 Linear 集成。\n- 实时报告、客户满意度（CSAT）追踪及可下载分析报告。\n- 多语言支持与客服负载管理。",
+    "en": "## Benefits:\n\n- Provides a unified inbox for managing customer conversations across multiple channels.\n- Offers full control over customer data with self-hosting capabilities.\n- Highly scalable and flexible for growing businesses.\n\n## Features:\n\n- Captain – AI-powered agent for automating support responses.\n- Omnichannel support including website chat, email, social media, and messaging apps.\n- Built-in Help Center Portal for publishing FAQs and guides.\n- Private Notes and @mentions for internal team communication.\n- Labels, canned responses, keyboard shortcuts, and command bar for productivity.\n- Auto-assignment, custom views, business hours, and automation tools.\n- Contact management, segments, campaigns, and custom attributes.\n- Integrations with Slack, Dialogflow, Shopify, Google Translate, and Linear.\n- Real-time reports, CSAT tracking, and downloadable analytics.\n- Multi-lingual support and agent capacity management."
+  },
+  "github_url": "https://github.com/chatwoot/chatwoot",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Intercom",
+    "Zendesk",
+    "Salesforce Service Cloud"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://www.chatwoot.com/help-center",
+  "categories": [
+    "Productivity",
+    "Analytics",
+    "Automation",
+    "Chat",
+    "Customer Engagement",
+    "Customer Support",
+    "Social Media Integration",
+    "Multi-Channel Support",
+    "Agent Performance",
+    "CSAT Tracking"
+  ],
+  "pic_url": ""
+}

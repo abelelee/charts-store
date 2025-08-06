@@ -1,0 +1,42 @@
+{
+  "name": "logseq",
+  "display_name": "Logseq",
+  "description": {
+    "zh": "Logseq 是一个注重隐私、开源的知识管理和协作平台。它支持 Markdown 和 Org-mode，提供任务管理、PDF 注释和知识整理等工具。该平台通过空间画布帮助用户可视化连接想法，并支持实时协作和移动端访问。",
+    "en": "Logseq is a privacy-first, open-source platform designed for knowledge management and collaboration. It supports Markdown and Org-mode, offering tools for task management, PDF annotation, and knowledge organization. The platform enables users to visually connect ideas through a spatial canvas and supports real-time collaboration and mobile access."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 开源且注重用户隐私\n- 支持长期知识存储与用户自主控制\n- 为知识工作者和视觉思考者提供强大工具\n\n## 功能列表:\n\n- 支持 Markdown 和 Org-mode 格式\n- 提供 PDF 注释和任务管理功能\n- 白板功能支持图形、绘图和连接线进行可视化组织\n- 支持实时协作（RTC）和跨设备同步\n- 提供插件 API 用于自定义和扩展工作流\n- 拥有移动端应用，支持大部分桌面功能",
+    "en": "## Benefits:\n\n- Open-source and privacy-focused\n- Supports long-term knowledge storage and user control\n- Offers powerful tools for knowledge workers and visual thinkers\n\n## Features:\n\n- Supports Markdown and Org-mode formats\n- Provides PDF annotation and task management capabilities\n- Features a Whiteboard for visual organization with shapes, drawings, and connectors\n- Enables real-time collaboration (RTC) and cross-device syncing\n- Includes plugin API for customization and workflow extension\n- Available on mobile with most desktop features"
+  },
+  "github_url": "https://github.com/logseq/logseq",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Notion",
+    "Evernote"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.logseq.com",
+  "categories": [
+    "Productivity",
+    "Task Management",
+    "Encryption",
+    "Search",
+    "Knowledge Management",
+    "Note-Taking",
+    "Education",
+    "Notes",
+    "Linked References",
+    "Personal Information Management",
+    "Whiteboards",
+    "Data Syncing",
+    "Flashcards",
+    "Outlining",
+    "PDF Annotation"
+  ],
+  "pic_url": ""
+}

@@ -1,0 +1,37 @@
+{
+  "name": "teable",
+  "display_name": "Teable",
+  "description": {
+    "zh": "Teable 是一个基于 Postgres 构建的快速、实时的无代码数据库。它提供类似电子表格的简易界面，用于构建复杂的、企业级的数据库应用。该平台让开发者和非开发者都能轻松创建可扩展、安全且可定制的数据解决方案。",
+    "en": "Teable is a fast, real-time, no-code database built on Postgres. It provides a simple, spreadsheet-like interface for building complex enterprise-level database applications. The platform empowers developers and non-developers alike to create scalable, secure, and customizable data solutions with ease."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 将专业数据库能力与无代码界面的易用性相结合\n- 基于 Postgres 构建，具备良好的扩展性、安全性与性能\n- 同时面向普通用户和开发者，兼具易用性与可扩展性\n- 支持实时协作与数据管理\n- 提供自托管选项，保障数据所有权\n\n## 功能列表:\n\n- 类似电子表格的界面，支持单元格编辑、排序、筛选、公式计算\n- 数据聚合、分组、条件格式（部分功能即将上线）\n- 多视图支持：表格视图、表单视图、看板视图、日历视图等（部分功能即将上线）\n- 高性能支持百万级数据行操作\n- 自动索引与批量数据处理\n- 支持 SQL 查询，兼容 BI 工具和自定义查询\n- 实时协作与权限管理功能\n- 支持 CSV 和 Excel 的数据导入导出\n- 即将上线：脚本扩展、自动化流程、AI 助手功能、多数据库支持",
+    "en": "## Benefits:\n\n- Combines the power of a professional database with the ease of a no-code interface\n- Built on Postgres for scalability, security, and performance\n- Offers both user-friendly and developer-friendly capabilities\n- Enables real-time collaboration and data management\n- Supports self-hosting and data ownership\n\n## Features:\n\n- Spreadsheet-like interface with cell editing, sorting, filtering, and formulas\n- Data aggregation, grouping, and conditional formatting (coming soon)\n- Multiple views including Grid, Form, Kanban, Calendar, and more (some coming soon)\n- High performance with support for millions of data rows\n- Automatic indexing and batch data operations\n- Full SQL support for integration with BI tools and custom queries\n- Real-time collaboration with permission management\n- Import/export support for CSV and Excel\n- Coming soon: Script extensions, automation workflows, AI copilot features, and multi-database support"
+  },
+  "github_url": "https://github.com/teableio/teable",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Airtable",
+    "Retool"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://help.teable.io/quick-start/build-a-simple-base",
+  "categories": [
+    "Privacy",
+    "Automation",
+    "No-Code",
+    "Database",
+    "SQL",
+    "Spreadsheet",
+    "Postgres",
+    "Extensions",
+    "Real-Time Collaboration",
+    "Multiple Views"
+  ],
+  "pic_url": ""
+}

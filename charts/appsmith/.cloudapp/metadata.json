@@ -1,0 +1,39 @@
+{
+  "name": "appsmith",
+  "display_name": "Appsmith",
+  "description": {
+    "zh": "Appsmith 是一个开源的低代码平台，帮助组织构建定制化应用，如仪表板、管理面板和自动化工具，以提高团队效率。它支持快速开发、部署和维护内部工具，并提供多种安装选项，包括 Docker、Kubernetes 和 AWS。",
+    "en": "Appsmith is an open-source low-code platform that helps organizations build custom applications like dashboards, admin panels, and automation tools to improve team efficiency. It supports rapid development, deployment, and maintenance of internal tools. The platform offers multiple installation options including Docker, Kubernetes, and AWS."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 支持内部工具的快速开发与部署。\n- 减少对复杂编码的依赖，降低开发门槛。\n- 提供灵活的部署选项（云和本地部署）。\n- 活跃维护，拥有不断增长的社区和定期更新。\n- 通过 Appsmith Agents 集成现代技术，支持可扩展的 AI 扩展。\n\n## 功能列表:\n\n- 使用低代码界面构建定制化应用。\n- 支持构建仪表板、管理面板、客户全景视图和服务管理工具。\n- 支持通过 Docker、Kubernetes 和 AWS AMI 安装。\n- 提供全面的文档和学习资源。\n- 包括 Discord 和社区门户在内的社区与企业支持渠道。\n- 引入 Appsmith Agents，实现 AI 驱动的自动化与数据集成。",
+    "en": "## Benefits:\n\n- Enables rapid development and deployment of internal tools.\n- Reduces dependency on complex coding for building applications.\n- Offers flexible deployment options (cloud and on-premise).\n- Actively maintained with a growing community and regular updates.\n- Integrates with modern technologies and supports scalable AI extensions via Appsmith Agents.\n\n## Features:\n\n- Build custom applications with a low-code interface.\n- Support for dashboards, admin panels, customer 360 views, and service management tools.\n- Installation via Docker, Kubernetes, and AWS AMI.\n- Comprehensive documentation and learning resources.\n- Community and enterprise support channels including Discord and a community portal.\n- Introduction of Appsmith Agents for AI-powered automation and data integration."
+  },
+  "github_url": "https://github.com/appsmithorg/appsmith",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Retool",
+    "OutSystems"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.appsmith.com/",
+  "categories": [
+    "Developer Tools",
+    "Automation",
+    "Self-Hosted",
+    "Secure",
+    "Data Integration",
+    "Responsive Design",
+    "Internal Tools",
+    "UI Design",
+    "Application Development",
+    "Business Operations",
+    "Drag-and-Drop Interface",
+    "Process Streamlining"
+  ],
+  "pic_url": ""
+}

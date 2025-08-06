@@ -1,0 +1,39 @@
+{
+  "name": "radicale",
+  "display_name": "Radicale",
+  "description": {
+    "zh": "Radicale 是一个轻量但功能强大的 CalDAV（日历、待办事项）和 CardDAV（联系人）服务器，支持通过 CalDAV、CardDAV 和 HTTP 协议共享日历和联系人列表。它支持事件、待办事项、日志条目和电子名片，并兼容多种客户端，配置简单，支持认证和 TLS 加密连接，并可通过插件扩展功能。",
+    "en": "Radicale is a small but powerful CalDAV and CardDAV server that enables users to share calendars, contact lists, to-do items, and business cards. It supports standard protocols like CalDAV, CardDAV, and HTTP, and works seamlessly with many existing clients. The server requires minimal setup, supports authentication, TLS encryption, and offers plugin-based extensibility."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 轻量级且易于部署\n- 支持标准的 CalDAV 和 CardDAV 协议\n- 安全性高且架构可扩展\n\n## 功能列表:\n\n- 支持共享日历和联系人列表\n- 支持事件、待办事项、日志条目和电子名片\n- 内置身份验证和 TLS 加密支持\n- 数据以简单目录结构存储于文件系统中\n- 基于插件的扩展机制\n- 兼容多种 CalDAV/CardDAV 客户端",
+    "en": "## Benefits:\n\n- Lightweight and easy to set up\n- Supports standard CalDAV and CardDAV protocols\n- Secure and extensible architecture\n\n## Features:\n\n- Share calendars and contact lists\n- Support for events, todos, journal entries, and business cards\n- Built-in authentication and TLS support\n- Stores data in a simple file system structure\n- Plugin-based extensibility\n- Works with many CalDAV/CardDAV clients"
+  },
+  "github_url": "https://github.com/Kozea/Radicale",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Google Workspace",
+    "Microsoft Exchange"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://radicale.org/v3.html",
+  "categories": [
+    "Productivity",
+    "Security",
+    "Business Apps",
+    "Plugins",
+    "Synchronization",
+    "Calendars",
+    "Calendar",
+    "Sharing",
+    "Server",
+    "CardDAV",
+    "Contacts",
+    "CalDAV"
+  ],
+  "pic_url": ""
+}

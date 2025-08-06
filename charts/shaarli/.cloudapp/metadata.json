@@ -1,0 +1,38 @@
+{
+  "name": "shaarli",
+  "display_name": "Shaarli",
+  "description": {
+    "zh": "Shaarli 是一个个人、极简且极速的书签服务工具，可安装在你自己的服务器上。它帮助用户轻松保存和分享发现的链接。该工具设计简洁、快速且易于使用，是管理书签的自托管解决方案。",
+    "en": "Shaarli is a personal, minimalist, and super fast bookmarking service that you can install on your own server. It allows users to easily save and share links they discover. Designed to be simple, fast, and user-friendly, it serves as a self-hosted alternative for managing bookmarks."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 轻量极简的设计，提供专注的使用体验\n- 无需数据库，安装维护更加简便\n- 快速响应，资源占用低\n- 自托管方案保障隐私与自主控制权\n\n## 功能列表:\n\n- 可自定义标签保存和整理链接\n- 支持公开或私密分享书签\n- 提供插件系统扩展功能\n- 支持 Docker 快速部署\n- 活跃的社区支持与定期更新\n- 提供公共演示实例用于测试\n- 用户友好型文档与更新日志",
+    "en": "## Benefits:\n\n- Lightweight and minimalist design for a focused user experience\n- No database required, making it easy to install and maintain\n- Fast performance with minimal resource usage\n- Self-hosted solution for privacy and control\n\n## Features:\n\n- Save and organize links with customizable tags\n- Share bookmarks publicly or privately\n- Supports plugins for extending functionality\n- Docker support for easy deployment\n- Active community and regular updates\n- Public demo available for testing\n- User-friendly documentation and changelog"
+  },
+  "github_url": "https://github.com/shaarli/Shaarli",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Evernote",
+    "Pocket",
+    "Delicious"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://demo.shaarli.org/doc/html/index.html",
+  "categories": [
+    "Productivity",
+    "Documentation",
+    "Self-hosted",
+    "Bookmarks",
+    "Content Sharing",
+    "Note-taking",
+    "Blogging",
+    "Personal Knowledge Management",
+    "RSS Feeds",
+    "Bookmarking"
+  ],
+  "pic_url": ""
+}

@@ -1,0 +1,50 @@
+{
+  "name": "leantime",
+  "display_name": "Leantime",
+  "description": {
+    "zh": "Leantime 是一个面向非项目经理的开源项目管理工具，集战略规划、任务执行于一体，界面简洁直观。它专为有 ADHD、阅读障碍和自闭症的用户设计。该工具旨在兼具 Trello 的易用性和 Jira 的功能丰富性，是 ClickUp、Monday 和 Asana 等平台的理想替代方案。",
+    "en": "Leantime is an open source project management system designed for non-project managers, combining strategy, planning, and execution in an intuitive interface. It is built with neurodiversity in mind, catering to users with ADHD, dyslexia, and autism. The platform aims to be as simple as Trello but as feature-rich as Jira, offering a flexible alternative to tools like ClickUp, Monday, and Asana."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 专为神经多样性用户设计（支持 ADHD、阅读障碍、自闭症）\n- 集战略、规划与执行于一体\n- 所有团队成员均可轻松使用，不局限于项目经理\n- 支持超过 20 种语言，适合全球用户\n- 提供自托管和 SaaS 两种部署方式\n\n## 功能列表:\n\n- 支持看板、甘特图、表格、列表和日历视图的任务管理\n- 无限子任务与依赖关系\n- 里程碑和冲刺管理\n- 时间追踪与工时表\n- 项目仪表板、报告和状态更新\n- 目标与指标追踪\n- 精益与商业模式画布\n- SWOT 与风险分析工具\n- 维基与文档管理\n- 创意看板与复盘功能\n- 支持通过 S3 或本地文件系统存储文件\n- 屏幕与摄像头录制功能\n- 多角色权限与项目级权限控制\n- 支持双因素认证\n- 支持 LDAP 与 OIDC 集成\n- 插件扩展与 API 接口\n- 集成 Slack、Mattermost 与 Discord\n- 支持 Docker 安装部署\n- 支持通过反向代理配置自定义域名与 SSL\n- 提供集成 Docker 与 Xdebug 的开发环境",
+    "en": "## Benefits:\n\n- Designed with neurodiversity in mind (ADHD, dyslexia, autism-friendly)\n- Combines strategy, planning, and execution in one platform\n- Easy to use for all team members, not just project managers\n- Available in over 20 languages for global accessibility\n- Offers self-hosted and SaaS deployment options\n\n## Features:\n\n- Task management via kanban boards, gantt, table, list, and calendar views\n- Unlimited subtasks and dependencies\n- Milestone and sprint management\n- Timetracking and timesheets\n- Project dashboards, reports, and status updates\n- Goal and metrics tracking\n- Lean & Business Model Canvas\n- SWOT and risk analysis tools\n- Wikis and documentation management\n- Idea boards and retrospectives\n- File storage via S3 or local filesystem\n- Screen and webcam recording\n- Multiple user roles and per-project permissions\n- Two-factor authentication\n- LDAP and OIDC integration\n- Plugin support and API extensibility\n- Integrates with Slack, Mattermost, and Discord\n- Docker-based installation\n- Support for custom domain and SSL via reverse proxy\n- Development environment with Docker and Xdebug support"
+  },
+  "github_url": "https://github.com/Leantime/leantime",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Asana",
+    "Trello",
+    "Monday.com",
+    "Jira",
+    "ClickUp",
+    "Smartsheet",
+    "Wrike",
+    "Basecamp"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.leantime.io/",
+  "categories": [
+    "Productivity",
+    "Collaboration",
+    "Open Source",
+    "Project Management",
+    "Task Management",
+    "open source",
+    "team collaboration",
+    "project management",
+    "Kanban",
+    "Time Tracking",
+    "time tracking",
+    "workflow management",
+    "task management",
+    "kanban boards",
+    "startup tools",
+    "idea boards",
+    "milestones"
+  ],
+  "pic_url": ""
+}

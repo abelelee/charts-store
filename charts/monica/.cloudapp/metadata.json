@@ -1,0 +1,35 @@
+{
+  "name": "monica",
+  "display_name": "Monica",
+  "description": {
+    "zh": "Monica 是一个开源的个人关系管理系统（PRM），旨在帮助用户记录生活、管理与家人朋友的互动，并追踪重要的个人信息。它提供了一种安全、私密的方式来组织人际关系、设置提醒、记录活动，并存储个人笔记和文档。与社交网络或 AI 驱动的助手不同，Monica 专为个人使用设计，强调隐私保护、操作简洁和用户对数据的掌控。",
+    "en": "Monica is an open-source personal relationship management (PRM) system designed to help individuals document their lives, manage interactions with friends and family, and keep track of important personal information. It offers a secure, private way to organize relationships, set reminders, log activities, and store personal notes and documents. Unlike social networks or AI-driven assistants, Monica is built for personal use only, emphasizing privacy, simplicity, and user control over data."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 通过结构化记录帮助改善人际关系。\n- 在设计和功能上注重简洁性、隐私性和透明性。\n- 完全开源，支持社区贡献和自托管。\n- 赋予用户对数据的完全控制权。\n\n## 功能列表:\n\n- 添加和管理联系人\n- 定义联系人之间的关系\n- 设置提醒（包括生日自动提醒）\n- 为联系人添加备注\n- 记录与某人相识的方式\n- 追踪与联系人的互动活动\n- 管理任务\n- 存储和管理地址及联系方式\n- 自定义联系人字段类型\n- 管理联系人的宠物信息\n- 维护生活日记\n- 记录每日心情和经历\n- 上传文档和照片\n- 自定义性别选项\n- 创建自定义活动类型\n- 将重要联系人设为收藏\n- 支持多个保险库和用户\n- 使用标签组织联系人\n- 自定义联系人页面显示的字段\n- 支持多种货币\n- 支持 27 种语言",
+    "en": "## Benefits:\n\n- Focuses on improving personal relationships through structured documentation.\n- Maintains simplicity, privacy, and transparency in design and functionality.\n- Fully open-source, allowing for community contributions and self-hosting.\n- Empowers users with full control over their data and usage.\n\n## Features:\n\n- Add and manage contacts\n- Define relationships between contacts\n- Set reminders, including automatic birthday reminders\n- Add notes to contacts\n- Record how you met someone\n- Track activities with contacts\n- Manage tasks\n- Store and manage addresses and contact methods\n- Customize contact field types\n- Manage contact pets\n- Maintain a detailed diary of daily life\n- Record daily mood and experiences\n- Upload documents and photos\n- Define custom genders\n- Create custom activity types\n- Favorite important contacts\n- Support for multiple vaults and users\n- Use labels to organize contacts\n- Customize which sections appear on contact sheets\n- Support for multiple currencies\n- Available in 27 languages"
+  },
+  "github_url": "https://github.com/monicahq/monica",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Salesforce",
+    "HubSpot"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Productivity",
+    "Privacy",
+    "Security",
+    "Social Networking",
+    "CRM",
+    "Contact Management",
+    "Relationship Building",
+    "Personal Management"
+  ],
+  "pic_url": ""
+}

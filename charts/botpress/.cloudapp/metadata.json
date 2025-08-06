@@ -1,0 +1,37 @@
+{
+  "name": "botpress",
+  "display_name": "Botpress",
+  "description": {
+    "zh": "Botpress Cloud 是一个用于构建由 OpenAI 驱动的下一代聊天机器人和助手的平台。它帮助开发者快速为企业或个人项目创建和部署机器人。平台提供 SDK、CLI 和集成工具等，以简化机器人开发流程。",
+    "en": "Botpress Cloud is a platform designed for building next-generation chatbots and assistants powered by OpenAI. It enables developers to rapidly create and deploy bots for businesses or personal projects. The platform offers tools like SDKs, CLI, and integrations to streamline bot development."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供一个强大且灵活的平台用于构建聊天机器人和助手。\n- 与 OpenAI 集成，支持高级对话式 AI 功能。\n- 提供丰富的工具和集成选项，加快开发进程。\n\n## 功能列表:\n\n- 可通过 Botpress Hub 获取的公开集成。\n- 包括 CLI、SDK 和 API 客户端在内的开发工具。\n- 使用代码方式构建的示例机器人。\n- 支持集成的部署与管理。\n- 类型安全的 API 客户端，实现与 Botpress 服务的无缝集成。",
+    "en": "## Benefits:\n\n- Provides a powerful and flexible platform for building chatbots and assistants.\n- Integrates with OpenAI to enable advanced conversational AI capabilities.\n- Offers a wide range of tools and integrations to accelerate development.\n\n## Features:\n\n- Public integrations available via the Botpress Hub.\n- Development tools including CLI, SDK, and API client.\n- Example bots built using code-based approaches.\n- Support for deploying and managing integrations.\n- Type-safe API clients for seamless integration with Botpress services."
+  },
+  "github_url": "https://github.com/botpress/botpress",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Dialogflow",
+    "ManyChat"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://botpress.com/docs",
+  "categories": [
+    "Automation",
+    "AI",
+    "Multilingual",
+    "Chat",
+    "Deployment",
+    "Customer Engagement",
+    "Conversational AI",
+    "Natural Language Processing",
+    "Chatbots",
+    "Sentiment Analysis"
+  ],
+  "pic_url": ""
+}

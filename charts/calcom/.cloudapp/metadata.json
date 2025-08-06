@@ -1,0 +1,38 @@
+{
+  "name": "calcom",
+  "display_name": "Calcom",
+  "description": {
+    "zh": "Cal.com 是一个开源的 Calendly 替代方案，提供自托管或托管的日程安排基础设施。它允许用户完全掌控数据、工作流程和界面外观。该项目支持 API 驱动开发，并可在任意域名上部署，具备高度定制化和白标解决方案能力。",
+    "en": "Cal.com is an open-source alternative to Calendly, offering self-hosted or hosted scheduling infrastructure. It allows full control over data, workflows, and appearance. Designed to be API-driven and deployable on any domain, it supports customization and white-label solutions."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 完全掌控数据、工作流程和品牌展示。\n- 支持自托管或托管部署方案。\n- 原生支持白标集成，便于品牌统一。\n- 以 API 为核心的设计，便于深度定制。\n- 社区活跃，且提供企业支持选项。\n\n## 功能列表:\n\n- 可定制的日程安排界面。\n- 提供 API 接口用于与其他工具集成。\n- 支持多种部署方式（Docker、Vercel、Railway 等）。\n- 内置 Google Calendar、Zoom、Microsoft Calendar 等日历集成。\n- 用户身份验证和访问控制。\n- 支持通过 Twilio 和 SendGrid 发送短信和邮件提醒。\n- 支持多语言，具备国际化能力。\n- 提供端到端测试功能。\n- 拥有详细的文档和透明的路线图。",
+    "en": "## Benefits:\n\n- Full control over your data, workflow, and branding.\n- Self-hosted or hosted solutions available.\n- White-label by design for seamless integration.\n- API-first approach enables deep customization.\n- Actively maintained with a growing community and enterprise support options.\n\n## Features:\n\n- Customizable scheduling interface.\n- API access for integration with other tools.\n- Support for multiple deployment options (Docker, Vercel, Railway, etc.).\n- Built-in integrations with Google Calendar, Zoom, Microsoft Calendar, and more.\n- User authentication and access control.\n- Support for SMS and email reminders via Twilio and SendGrid.\n- Internationalization with multi-language support.\n- End-to-end testing capabilities.\n- Detailed documentation and roadmap transparency."
+  },
+  "github_url": "https://github.com/calcom/cal.com",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Doodle",
+    "Acuity Scheduling",
+    "Calendly"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Productivity",
+    "Automation",
+    "Multilingual",
+    "Embeddable",
+    "Scheduling",
+    "Calendars",
+    "Time Management",
+    "Calendar Integration",
+    "Meeting Coordination",
+    "Appointment Booking"
+  ],
+  "pic_url": ""
+}

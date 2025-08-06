@@ -1,0 +1,45 @@
+{
+  "name": "docmost",
+  "display_name": "Docmost",
+  "description": {
+    "zh": "Docmost 是一个开源的协作式维基和文档管理平台，专为团队创建、共享和管理知识而设计。它支持实时编辑，并兼容多种内容类型，如图表、文件附件和嵌入内容。Docmost 提供自托管和云端两种部署方式，具备良好的扩展性和团队协作能力。",
+    "en": "Docmost is an open-source collaborative wiki and documentation platform designed for teams to create, share, and manage knowledge. It enables real-time editing and supports a wide range of content types including diagrams, file attachments, and embeds. Available as both a self-hosted and cloud solution, Docmost is built with extensibility and team collaboration in mind."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 核心功能采用 AGPL 3.0 开源协议，支持自托管部署\n- 面向团队的实时协作与知识共享设计\n- 支持多语言翻译及企业级扩展能力\n\n## 功能列表:\n\n- 实时协作编辑\n- 图表支持（Draw.io、Excalidraw、Mermaid）\n- 空间管理\n- 权限管理\n- 用户组管理\n- 页面评论\n- 页面历史版本\n- 全文搜索\n- 文件附件上传\n- 内容嵌入（支持 Airtable、Loom、Miro 等）\n- 多语言翻译（支持10种以上语言）",
+    "en": "## Benefits:\n\n- Open-source and self-hostable with AGPL 3.0 licensing for core features\n- Designed for real-time team collaboration and knowledge sharing\n- Supports multi-language translation and enterprise scalability\n\n## Features:\n\n- Real-time collaboration\n- Diagrams (Draw.io, Excalidraw and Mermaid)\n- Spaces\n- Permissions management\n- Groups\n- Comments\n- Page history\n- Search\n- File attachments\n- Embeds (Airtable, Loom, Miro and more)\n- Translations (10+ languages)"
+  },
+  "github_url": "https://github.com/Docmost/Docmost",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Google Workspace",
+    "Box",
+    "Microsoft 365",
+    "Adobe Document Cloud",
+    "Dropbox Business",
+    "Evernote Business",
+    "Zoho Docs"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docmost.com/docs/",
+  "categories": [
+    "Collaboration",
+    "Self-Hosted",
+    "self-hosted",
+    "Document Management",
+    "collaboration",
+    "team collaboration",
+    "data privacy",
+    "workflow automation",
+    "secure storage",
+    "document management",
+    "version control",
+    "document sharing",
+    "business productivity"
+  ],
+  "pic_url": ""
+}

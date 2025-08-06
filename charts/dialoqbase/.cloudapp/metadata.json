@@ -1,0 +1,44 @@
+{
+  "name": "dialoqbase",
+  "display_name": "Dialoqbase",
+  "description": {
+    "zh": "Dialoqbase 是一个开源应用程序，允许用户基于自定义知识库创建专属聊天机器人。它利用先进的语言模型生成准确且上下文相关的回复。同时，应用使用 PostgreSQL 来实现高效的向量搜索和知识库存储。",
+    "en": "Dialoqbase is an open-source application that allows users to create custom chatbots using a personalized knowledge base. It leverages advanced language models to generate accurate and context-aware responses. The application also uses PostgreSQL for efficient vector search and storage of the knowledge base."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 无需深厚技术背景即可轻松创建定制化聊天机器人\n- 支持多种语言模型和嵌入模型，具备高度灵活性\n- 借助 PostgreSQL 和 Redis 实现高效可扩展的数据处理\n\n## 功能列表:\n\n- 使用自定义知识库创建聊天机器人\n- 利用强大的语言模型生成回复\n- 利用 PostgreSQL 进向量搜索和知识库存储\n- 支持使用任意语言模型或嵌入模型\n- 支持多种数据加载器，包括 PDF、网页、视频和音频\n- 支持 Telegram、Discord 和网页嵌入脚本等集成\n- 支持通过 Railway 快速部署",
+    "en": "## Benefits:\n\n- Enables easy creation of custom chatbots without requiring deep technical knowledge\n- Integrates with multiple language and embedding models for flexibility\n- Offers scalable and efficient data handling using PostgreSQL and Redis\n\n## Features:\n\n- Create custom chatbots with your own knowledge base\n- Utilize powerful language models to generate responses\n- Utilize PostgreSQL for vector search and storing the knowledge base\n- Use any language models or embedding models you want\n- Support for various data loaders including PDF, web, video, and audio\n- Integrations with platforms like Telegram, Discord, and web embed scripts\n- Quick deployment via Railway"
+  },
+  "github_url": "https://github.com/n4ze3m/dialoqbase",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Drift",
+    "Intercom",
+    "ManyChat",
+    "Tidio",
+    "Freshchat",
+    "Zendesk Chat",
+    "LivePerson",
+    "ChatBot.com"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Automation",
+    "Open-Source",
+    "Customer Support",
+    "Chatbot",
+    "PostgreSQL",
+    "Language Models",
+    "Conversational AI",
+    "Knowledge Base",
+    "Vector Search",
+    "AI Chatbot",
+    "Custom Chatbot"
+  ],
+  "pic_url": ""
+}

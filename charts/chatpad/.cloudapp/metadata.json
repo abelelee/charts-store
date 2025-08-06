@@ -1,0 +1,34 @@
+{
+  "name": "chatpad",
+  "display_name": "Chatpad",
+  "description": {
+    "zh": "Chatpad AI 是一个专为 ChatGPT 打造的高品质用户界面，旨在提供卓越的使用体验。它让用户能够以更直观、美观的方式与 ChatGPT 交互，项目完全免费、开源，并注重用户隐私保护。",
+    "en": "Chatpad AI is a premium-quality user interface for ChatGPT, designed to deliver an exceptional user experience. It allows users to interact with ChatGPT in a more intuitive and visually appealing way. The project is free, open-source, and emphasizes user privacy."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供专为 ChatGPT 打造的高品质、易用界面\n- 强调隐私保护，无追踪、无数据收集\n- 同时支持网页版和桌面版，使用更灵活\n\n## 功能列表:\n\n- 完全免费且开源\n- 支持通过 Docker 自建部署\n- 支持通过 config.json 进行自定义配置\n- 提供一键部署选项，支持 Netlify、Vercel 和 DigitalOcean 等平台\n- 开发者可轻松参与贡献，配置流程简单",
+    "en": "## Benefits:\n\n- Provides a premium, user-friendly interface for ChatGPT\n- Emphasizes privacy with no tracking or data collection\n- Offers both web and desktop versions for flexibility\n\n## Features:\n\n- Free and open-source\n- Self-hosting support via Docker\n- Custom configuration support using config.json\n- One-click deployment options via platforms like Netlify, Vercel, and DigitalOcean\n- Easy contribution workflow for developers"
+  },
+  "github_url": "https://github.com/deiucanta/chatpad",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Productivity",
+    "Privacy",
+    "Chat",
+    "User Experience",
+    "Privacy-Focused",
+    "Self-Hostable",
+    "Local Storage",
+    "Desktop App",
+    "Chat Interface",
+    "Web App"
+  ],
+  "pic_url": ""
+}

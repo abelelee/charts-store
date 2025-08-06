@@ -1,0 +1,50 @@
+{
+  "name": "endurain",
+  "display_name": "Endurain",
+  "description": {
+    "zh": "Endurain 是一个自托管的健身追踪服务，赋予用户对其数据和托管环境的完全控制权。它提供与 Strava 类似功能，但更注重隐私和定制性。平台支持与 Strava 和 Garmin Connect 的集成，也支持通过 .gpx、.tcx 和 .fit 文件手动上传运动活动。",
+    "en": "Endurain is a self-hosted fitness tracking service that gives users full control over their data and hosting environment. It offers functionality similar to Strava but emphasizes privacy and customization. The platform supports integrations with Strava and Garmin Connect, as well as manual activity uploads using .gpx, .tcx, and .fit files."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 完全自托管，增强隐私保护和数据控制\n- 开源项目，支持社区贡献\n- 通过环境变量和 Docker 部署实现高度定制化\n\n## 功能列表:\n\n- 支持与 Strava 和 Garmin Connect 集成\n- 支持通过 .gpx、.tcx 和 .fit 文件手动上传活动\n- 使用现代前端和后端技术构建（Vue.js、FastAPI）\n- 支持 MariaDB 和 PostgreSQL，实现高效数据存储\n- 借助 Jaeger 实现追踪和监控的可观测性\n- 多语言支持，可通过 Crowdin 参与翻译\n- 提供完整的文档和 Docker 部署示例",
+    "en": "## Benefits:\n\n- Fully self-hosted for enhanced privacy and data control\n- Open source with support for community contributions\n- Highly customizable through environment variables and Docker deployment\n\n## Features:\n\n- Integration with Strava and Garmin Connect\n- Manual upload of activities using .gpx, .tcx, and .fit files\n- Built with modern frontend and backend technologies (Vue.js, FastAPI)\n- Supports MariaDB and PostgreSQL for efficient data storage\n- Observability with Jaeger tracing and monitoring\n- Multi-language support with translation contributions via Crowdin\n- Comprehensive documentation and Docker deployment example"
+  },
+  "github_url": "https://github.com/joaovitoriasilva/endurain",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Strava",
+    "TrainingPeaks",
+    "MyFitnessPal",
+    "Fitbit Premium",
+    "MapMyRun",
+    "Nike Training Club",
+    "Zwift",
+    "Peloton Digital"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.endurain.com",
+  "categories": [
+    "Open Source",
+    "workout management",
+    "endurance tracking",
+    "athlete motivation",
+    "personalized coaching",
+    "Performance Metrics",
+    "goal setting",
+    "fitness device integration",
+    "Endurance Training",
+    "performance analytics",
+    "Fitness Tracking",
+    "Workout Analytics",
+    "fitness training",
+    "Goal Setting",
+    "data-driven insights",
+    "route planning",
+    "Route Planning"
+  ],
+  "pic_url": ""
+}

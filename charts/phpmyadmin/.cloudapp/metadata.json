@@ -1,0 +1,36 @@
+{
+  "name": "phpmyadmin",
+  "display_name": "phpMyAdmin",
+  "description": {
+    "zh": "phpMyAdmin 是一个基于网页的 MySQL 和 MariaDB 数据库管理工具。它提供了一个用户友好的界面，便于通过浏览器执行数据库管理任务。该工具为开发人员和系统管理员简化了数据库操作流程。",
+    "en": "phpMyAdmin is a web-based interface for managing MySQL and MariaDB databases. It provides a user-friendly platform to perform administrative tasks through a browser. The tool simplifies database management for developers and administrators."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供便捷的网页界面进行数据库管理\n- 同时支持 MySQL 和 MariaDB\n- 适合各类技能水平的用户简化数据库操作\n\n## 功能列表:\n\n- 基于网页的数据库管理功能\n- 支持 MySQL 与 MariaDB 的管理\n- 用户友好的数据库操作界面",
+    "en": "## Benefits:\n\n- Offers a convenient web interface for database administration\n- Supports both MySQL and MariaDB\n- Simplifies complex database operations for users of all skill levels\n\n## Features:\n\n- Web-based database management\n- MySQL and MariaDB administration capabilities\n- User-friendly interface for executing database tasks"
+  },
+  "github_url": "https://github.com/phpmyadmin/phpmyadmin",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://www.phpmyadmin.net/docs/",
+  "categories": [
+    "Developer Tools",
+    "Databases",
+    "Web Interface",
+    "Database Management",
+    "Data Import",
+    "Export",
+    "MariaDB",
+    "User Permissions",
+    "Query Builder",
+    "Server Administration",
+    "SQL Execution",
+    "MySQL"
+  ],
+  "pic_url": ""
+}

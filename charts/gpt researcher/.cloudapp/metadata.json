@@ -1,0 +1,53 @@
+{
+  "name": "gpt researcher",
+  "display_name": "GPT Researcher",
+  "description": {
+    "zh": "GPT Researcher 是一个开源的深度研究代理工具，专为全面的网络和本地文档研究设计。它能够生成带有引用的详细、真实且无偏见的研究报告，利用规划者-执行者的架构实现高效可靠的研究结果。该项目旨在通过 AI 技术为个人和组织提供准确的信息支持。",
+    "en": "GPT Researcher is an open-source deep research agent designed for comprehensive web and local document research. It generates detailed, factual, and unbiased research reports with citations, leveraging a planner-executor architecture for efficient and reliable results. The project aims to empower individuals and organizations with accurate AI-driven information."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 通过聚合多个来源的数据提供客观无偏见的研究结果。\n- 利用并行代理工作流实现快速可靠的研究。\n- 支持定制化配置，满足特定领域研究需求。\n- 结合网络和本地文档研究，提升数据的相关性和深度。\n- 提供多种部署选项（PIP、Docker、前端应用），便于扩展使用。\n\n## 功能列表:\n\n- 生成超过2000字的详细研究报告。\n- 智能图片抓取与过滤功能。\n- 聚合超过20个信息来源以得出客观结论。\n- 支持 JavaScript 的网页抓取。\n- 支持导出为 PDF、Word 等多种格式。\n- 研究过程中保持上下文记忆。\n- 支持本地文档研究（支持 PDF、CSV、Excel、Word、PPT、Markdown、TXT）。\n- 深度研究功能，支持递归探索与深度/广度配置。\n- 集成 MCP 协议，可访问 GitHub、数据库及自定义 API。\n- 前端支持实时进度跟踪与交互式研究结果展示。",
+    "en": "## Benefits:\n\n- Provides objective and unbiased research results by aggregating data from multiple sources.\n- Enables fast and reliable research through parallelized agent workflows.\n- Supports customization for domain-specific and tailored research needs.\n- Combines web and local document research to enhance data relevance and depth.\n- Offers scalable deployment options including PIP, Docker, and frontend applications.\n\n## Features:\n\n- Generate detailed research reports exceeding 2,000 words.\n- Smart image scraping and filtering for reports.\n- Aggregate over 20 sources for objective conclusions.\n- JavaScript-enabled web scraping.\n- Export reports to PDF, Word, and other formats.\n- Maintain memory and context throughout research.\n- Supports local document research (PDF, CSV, Excel, Word, PPT, Markdown, TXT).\n- Deep Research with recursive exploration and configurable depth/breadth.\n- Integration with MCP for accessing GitHub, databases, and custom APIs.\n- Real-time progress tracking and interactive findings display via frontend."
+  },
+  "github_url": "https://github.com/assafelovic/gpt-researcher",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Notion",
+    "Evernote",
+    "Grammarly Business",
+    "QuillBot",
+    "ResearchGate",
+    "Mendeley",
+    "Zotero",
+    "EndNote",
+    "RefWorks",
+    "Scrivener"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.gptr.dev/docs/gpt-researcher/getting-started",
+  "categories": [
+    "Customization",
+    "AI",
+    "User Interface",
+    "Data Analysis",
+    "Knowledge Management",
+    "Performance",
+    "Research",
+    "Web Scraping",
+    "Productivity Tools",
+    "Reports",
+    "Export",
+    "Customizable Reports",
+    "Research Reports",
+    "Autonomous Agent",
+    "Online Research",
+    "Information Gathering",
+    "Research Automation",
+    "AI Research Assistant"
+  ],
+  "pic_url": ""
+}

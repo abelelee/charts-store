@@ -1,0 +1,50 @@
+{
+  "name": "heyform",
+  "display_name": "HeyForm",
+  "description": {
+    "zh": "HeyForm 是一个开源的表单构建工具，允许用户创建互动式的对话式表单，用于调查、问卷、测验和投票。无需编码技能，用户即可通过直观界面轻松设计和定制表单。平台还支持数据分析与导出，非常适合收集和处理用户反馈。",
+    "en": "HeyForm is an open-source form builder that enables users to create interactive conversational forms for surveys, questionnaires, quizzes, and polls. It requires no coding skills and offers a user-friendly interface for form creation and customization. The platform supports data analysis and export, making it ideal for gathering and acting on user feedback."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 无需编码即可创建表单\n- 适合各类技能水平的用户使用\n- 支持品牌定制，提升专业形象\n- 提供深入的数据分析与便捷的数据导出功能\n\n## 功能列表:\n\n- 支持多种输入类型，包括文本、邮箱、电话、日期选择、文件上传和图片选项\n- 支持条件逻辑和URL跳转，实现动态表单\n- 可集成 Webhook、分析工具、营销平台及 Zapier 和 Make.com\n- 可自定义视觉主题，支持CSS高级样式定制\n- 提供详细的分析数据，如流失率和完成率\n- 支持将表单结果导出为CSV文件进行后续分析",
+    "en": "## Benefits:\n\n- No coding required for form creation\n- Accessible to users of all skill levels\n- Supports brand customization for professional appearance\n- Offers insightful data analytics and easy data export\n\n## Features:\n\n- Wide variety of input types including text, email, phone, date pickers, file uploads, and picture choices\n- Conditional logic and URL redirection for dynamic forms\n- Integrations with webhooks, analytics, marketing platforms, Zapier, and Make.com\n- Customizable visual themes and advanced theming with custom CSS\n- Detailed analytics including drop-off rates and completion tracking\n- Export form results to CSV for further analysis"
+  },
+  "github_url": "https://github.com/heyform/heyform",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Typeform",
+    "Google Forms",
+    "SurveyMonkey",
+    "JotForm",
+    "Wufoo",
+    "Formstack"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.heyform.net/",
+  "categories": [
+    "Open Source",
+    "Customization",
+    "Analytics",
+    "Form Builder",
+    "Integrations",
+    "form builder",
+    "Polls",
+    "Conditional Logic",
+    "no-code tools",
+    "quiz maker",
+    "survey tool",
+    "questionnaire creator",
+    "Surveys",
+    "Qestionnaires",
+    "conversational forms",
+    "No Coding",
+    "engagement tools",
+    "Quizzes",
+    "poll creator"
+  ],
+  "pic_url": ""
+}

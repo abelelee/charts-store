@@ -1,0 +1,45 @@
+{
+  "name": "wbo",
+  "display_name": "WBO",
+  "description": {
+    "zh": "WBO 是一个在线协作白板平台，允许多名用户在同一虚拟白板上实时同步绘制内容。白板状态对所有用户保持同步，适用于艺术创作、教学、设计和娱乐等多种场景。",
+    "en": "WBO is an online collaborative whiteboard platform that allows multiple users to draw simultaneously on a shared virtual board. The board updates in real time and retains its state for all users. It is suitable for various purposes such as art, design, teaching, and entertainment."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 支持多名用户实时协作。\n- 白板状态持久化，保障数据完整性。\n- 提供Docker和Node.js等多种部署方式。\n\n## 功能列表:\n\n- 实时同步绘图。\n- 多语言支持。\n- 通过JWT令牌进行身份验证。\n- 基于角色的访问控制（主持人、编辑者）。\n- 白板名称的JWT角色验证。\n- 支持通过环境变量进行配置。\n- 支持StatsD监控。\n- 支持下载白板SVG预览。\n- 支持反向代理部署在子路径。",
+    "en": "## Benefits:\n\n- Enables real-time collaboration among multiple users.\n- Provides persistent board state to ensure data integrity.\n- Offers flexible deployment options including Docker and Node.js.\n\n## Features:\n\n- Real-time synchronized drawing.\n- Support for multiple languages.\n- Authentication via JWT tokens.\n- Role-based access control (moderator, editor).\n- Board-specific JWT role verification.\n- Configurable environment variables for customization.\n- Monitoring support via StatsD.\n- SVG preview download for boards.\n- Reverse proxy support for subfolder deployment."
+  },
+  "github_url": "https://github.com/lovasoa/whitebophir",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Miro",
+    "Microsoft Whiteboard",
+    "Lucidspark",
+    "Ziteboard",
+    "Stormboard",
+    "Conceptboard",
+    "Jamboard"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Collaboration",
+    "Self-hosted",
+    "collaboration",
+    "team collaboration",
+    "Open-source",
+    "Whiteboard",
+    "educational tools",
+    "remote meetings",
+    "online drawing",
+    "whiteboard",
+    "brainstorming",
+    "interactive learning",
+    "digital canvas"
+  ],
+  "pic_url": ""
+}

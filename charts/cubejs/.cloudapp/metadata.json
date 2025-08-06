@@ -1,0 +1,36 @@
+{
+  "name": "cubejs",
+  "display_name": "CubeJS",
+  "description": {
+    "zh": "Cube 是面向现代数据应用的通用语义层，旨在弥合云数据平台与分析工具之间的鸿沟。它帮助数据工程师和应用开发者将数据组织成一致的定义，优化查询性能，并将分析结果交付给任何应用程序。Cube 专为云时代构建，支持各种 SQL 类数据源，并提供先进的 OLAP 能力。",
+    "en": "Cube is a universal semantic layer for modern data applications designed to bridge the gap between cloud data platforms and analytics tools. It enables data engineers and application developers to organize data into consistent definitions, optimize query performance, and deliver analytics to any application. Built for the cloud era, Cube supports SQL-enabled data sources and provides advanced OLAP capabilities."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 弥补现代云数据平台在原生 OLAP 能力上的缺失\n- 支持统一的指标定义和多维分析\n- 通过缓存和预聚合策略优化查询性能\n- 提供集中的访问控制和数据治理机制，保障数据安全\n- 支持 REST、GraphQL、SQL、MDX 和 DAX 等多种 API 接口\n\n## 功能列表:\n\n- 兼容所有支持 SQL 的数据源，包括 Snowflake、BigQuery、Presto、Athena 和 Postgres 等\n- 内置关系型缓存引擎，实现毫秒级响应和高并发支持\n- 支持现代分析建模和多维分析\n- 提供 REST、GraphQL、SQL、MDX 和 DAX 等多种 API 接口\n- 针对复杂分析工作负载的智能性能优化\n- 统一的安全和访问控制机制",
+    "en": "## Benefits:\n\n- Addresses the lack of native OLAP capabilities in modern cloud data platforms\n- Enables consistent metric definitions and multidimensional analysis\n- Optimizes query performance with caching and pre-aggregation strategies\n- Provides centralized access control and governance for secure data ecosystems\n- Offers flexible API support including REST, GraphQL, SQL, MDX, and DAX\n\n## Features:\n\n- Works with all SQL-enabled data sources including Snowflake, BigQuery, Presto, Athena, and Postgres\n- Built-in relational caching engine for sub-second latency and high concurrency\n- Support for modern analytics modeling and multidimensional analysis\n- Multiple API interfaces: REST, GraphQL, SQL, MDX, DAX\n- Intelligent performance optimizations for complex analytical workloads\n- Centralized security and access control mechanisms"
+  },
+  "github_url": "https://github.com/cube-js/cube.js",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Tableau",
+    "Looker"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://cube.dev/docs",
+  "categories": [
+    "Analytics",
+    "API",
+    "Data Visualization",
+    "Access Control",
+    "Data Analytics",
+    "Caching",
+    "Preaggregation",
+    "Metrics Management",
+    "Semantic Layer"
+  ],
+  "pic_url": ""
+}

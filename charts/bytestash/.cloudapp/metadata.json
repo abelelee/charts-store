@@ -1,0 +1,43 @@
+{
+  "name": "bytestash",
+  "display_name": "ByteStash",
+  "description": {
+    "zh": "ByteStash 是一个自托管的网页应用，用于高效地存储、整理和管理代码片段。它支持创建、编辑和筛选代码片段，提供安全的存储环境和直观的操作界面，方便用户快速访问所需代码。",
+    "en": "ByteStash is a self-hosted web application for storing, organizing, and managing code snippets. It allows users to create, edit, and filter code snippets efficiently. The app provides secure storage and an intuitive interface for quick access to your code."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 提供集中且安全的代码片段管理空间\n- 支持多种托管方式，部署灵活便捷\n- 直观的用户界面，便于快速高效访问代码片段\n\n## 功能列表:\n\n- 通过直观界面创建和编辑代码片段\n- 按编程语言和内容关键词筛选片段\n- 使用 SQLite 数据库进行安全存储\n- 支持通过 Unraid、PikaPods 和 Docker 部署\n- 支持通过环境变量进行自定义配置\n- 提供 Swagger UI 供查阅 API 文档",
+    "en": "## Benefits:\n\n- Provides a centralized and secure place for managing code snippets\n- Offers multiple hosting options for flexibility and ease of deployment\n- Features an intuitive UI for quick and efficient code snippet access\n\n## Features:\n\n- Create and edit code snippets with an intuitive interface\n- Filter snippets by programming language and content keywords\n- Secure storage using an SQLite database\n- Available via Unraid, PikaPods, and Docker for easy deployment\n- Supports environment variable configuration for customization\n- Includes Swagger UI for API documentation exploration"
+  },
+  "github_url": "https://github.com/jordan-dalby/bytestash",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Pastebin",
+    "Sniply",
+    "GitHub Gists",
+    "Snippet Manager",
+    "CodePen",
+    "Bitbucket Snippets"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://github.com/jordan-dalby/bytestash/wiki",
+  "categories": [
+    "Productivity",
+    "collaboration",
+    "developer tools",
+    "Code Snippets",
+    "snippet management",
+    "Development",
+    "team productivity",
+    "code sharing",
+    "search functionality",
+    "code storage",
+    "organized storage",
+    "syntax highlighting"
+  ],
+  "pic_url": ""
+}

@@ -1,0 +1,36 @@
+{
+  "name": "glitchtip",
+  "display_name": "GlitchTip",
+  "description": {
+    "zh": "GlitchTip 是一个开源的错误追踪与监控平台，旨在帮助开发者实时发现并解决应用程序中的错误。它提供了类似 Sentry 的自托管替代方案，支持多种现代开发框架和语言。该项目致力于为开发和生产环境中的调试与性能监控提供无缝且可扩展的解决方案。",
+    "en": "GlitchTip is an open-source error tracking and monitoring platform designed to help developers identify and resolve application errors in real time. It provides a self-hosted alternative to services like Sentry, with support for modern development frameworks and languages. The project aims to offer a seamless, scalable solution for debugging and performance monitoring in development and production environments."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 自托管方案，保障数据隐私与控制权\n- 实时错误追踪与告警机制\n- 相比商业错误监控工具更具成本优势\n\n## 功能列表:\n\n- 支持多种编程语言和开发框架\n- 实时错误通知\n- 堆栈追踪分析与错误归类\n- 支持收集用户反馈信息\n- 性能监控与数据分析\n- 与 GitHub 等开发工具集成\n- 可自定义的仪表盘和告警规则\n- 提供 API 接口用于自动化与集成",
+    "en": "## Benefits:\n\n- Self-hosted solution for full control and data privacy\n- Real-time error tracking and alerting\n- Cost-effective alternative to commercial error monitoring tools\n\n## Features:\n\n- Support for multiple programming languages and frameworks\n- Real-time error notifications\n- Stack trace analysis and grouping\n- User feedback collection for errors\n- Performance monitoring and analytics\n- Integration with GitHub and other developer tools\n- Customizable dashboards and alert rules\n- API access for automation and integration"
+  },
+  "github_url": "https://gitlab.com/glitchtip/glitchtip",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Sentry"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://glitchtip.com/documentation",
+  "categories": [
+    "Developer Tools",
+    "Monitoring",
+    "Performance Monitoring",
+    "Logging",
+    "Uptime Monitoring",
+    "Error Tracking",
+    "Exception Tracking",
+    "Real-Time Alerts",
+    "Log Management",
+    "CSP Reporting"
+  ],
+  "pic_url": ""
+}

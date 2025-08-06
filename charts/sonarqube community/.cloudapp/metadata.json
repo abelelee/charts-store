@@ -1,0 +1,45 @@
+{
+  "name": "sonarqube community",
+  "display_name": "SonarQube Community",
+  "description": {
+    "zh": "SonarQube 是一个用于持续代码质量检查的开源平台。它能够展示应用程序的健康状况，并标出新引入的问题。通过 Quality Gates 等功能，帮助团队实现整洁代码并系统性地提升代码质量。",
+    "en": "SonarQube is an open-source platform for continuous inspection of code quality. It provides insights into the health of applications and highlights newly introduced issues. The platform helps teams achieve clean code and systematically improve code quality through features like Quality Gates."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 通过持续检查实现代码质量的系统性改进。\n- 标出新引入的问题，有助于维护整洁代码。\n- 提供将质量保障集成到开发流程中的稳健平台。\n\n## 功能列表:\n\n- 持续代码检查与质量监控。\n- Quality Gates 强制执行代码质量标准。\n- 与构建流程和 CI/CD 流水线集成。\n- 支持多种编程语言和代码指标。\n- 可定制的仪表板和详细的代码分析报告。",
+    "en": "## Benefits:\n\n- Enables systematic improvement of code quality through continuous inspection.\n- Helps maintain clean code by identifying newly introduced issues.\n- Offers a robust platform for integrating quality assurance into the development lifecycle.\n\n## Features:\n\n- Continuous code inspection and quality monitoring.\n- Quality Gates to enforce code quality standards.\n- Integration with build processes and CI/CD pipelines.\n- Support for multiple programming languages and code metrics.\n- Customizable dashboards and detailed code analysis reports."
+  },
+  "github_url": "https://github.com/SonarSource/sonarqube",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Code Climate",
+    "Snyk",
+    "Codacy",
+    "SonarCloud",
+    "Veracode",
+    "Checkmarx",
+    "Coverity",
+    "GitHub Advanced Security"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.sonarqube.org/latest/",
+  "categories": [
+    "Developer Tools",
+    "Security",
+    "Open Source",
+    "DevOps",
+    "Continuous Integration",
+    "Software Development",
+    "Continuous Delivery",
+    "Vulnerability Detection",
+    "Code Quality",
+    "Code Maintainability",
+    "Bug Tracking",
+    "Code Inspection"
+  ],
+  "pic_url": ""
+}

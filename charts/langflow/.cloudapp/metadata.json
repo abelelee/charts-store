@@ -1,0 +1,45 @@
+{
+  "name": "langflow",
+  "display_name": "Langflow",
+  "description": {
+    "zh": "Langflow 是一个用于构建和部署 AI 驱动代理和工作流的强大平台。它提供可视化界面用于设计流程，支持与主流大语言模型（LLM）和向量数据库集成，并可通过 API 或 MCP 服务器进行部署。该工具适用于快速原型开发和企业级部署。",
+    "en": "Langflow is an AI-powered platform for building and deploying intelligent agents and workflows. It offers a visual interface for designing flows, supports integration with major LLMs and vector databases, and enables deployment via API or MCP server. The tool is designed for both rapid prototyping and enterprise-ready deployment."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 结合可视化开发与完整源代码访问，兼顾灵活性与控制力。\n- 通过交互式实验环境实现快速测试与迭代。\n- 开箱即用的企业级安全与可扩展性。\n- 支持与外部工具和框架的无缝集成。\n\n## 功能列表:\n\n- 可视化构建界面，用于创建和修改工作流\n- 使用 Python 自定义源代码\n- 支持逐步控制的交互式实验环境\n- 多代理编排，包含对话管理和检索功能\n- 支持作为 API 部署，或导出为 JSON 供 Python 应用使用\n- 支持作为 MCP 服务器部署，将流程暴露为工具\n- 支持 LangSmith、LangFuse 等可观测性工具集成\n- 支持主流大语言模型（LLM）和向量数据库",
+    "en": "## Benefits:\n\n- Combines visual development with full source code access for flexibility and control.\n- Enables rapid iteration and testing with an interactive playground.\n- Offers enterprise-grade security and scalability out of the box.\n- Supports seamless integration with external tools and frameworks.\n\n## Features:\n\n- Visual builder interface for creating and modifying workflows\n- Source code customization using Python\n- Interactive playground with step-by-step flow control\n- Multi-agent orchestration with conversation management and retrieval\n- API deployment and JSON export for Python applications\n- MCP server deployment to expose flows as tools\n- Observability integrations with LangSmith, LangFuse, and others\n- Support for major LLMs and vector databases"
+  },
+  "github_url": "https://github.com/logspace-ai/langflow",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Zapier",
+    "Microsoft Power Automate",
+    "Integromat",
+    "Workato",
+    "Tray.io"
+  ],
+  "tags": [],
+  "official_address": "",
+  "product_document": "https://docs.langflow.org/",
+  "categories": [
+    "Developer Tools",
+    "Data Science",
+    "deployment",
+    "LangChain",
+    "prompt serializers",
+    "flow creation",
+    "flow export",
+    "agents",
+    "pipeline prototyping",
+    "chains",
+    "agent tracking",
+    "Jina AI Cloud",
+    "JSON export",
+    "drag and drop interface",
+    "parameter modification"
+  ],
+  "pic_url": ""
+}
