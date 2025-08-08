@@ -22,7 +22,9 @@
     "Sourcery",
     "Codex by OpenAI"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://docs.all-hands.dev/",
   "categories": [

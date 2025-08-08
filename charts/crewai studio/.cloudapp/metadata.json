@@ -21,7 +21,9 @@
     "Microsoft Azure Notebooks",
     "IBM Watson Studio"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "",
   "categories": [

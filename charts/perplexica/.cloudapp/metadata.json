@@ -19,7 +19,9 @@
     "Google Search",
     "Perplexity"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://github.com/ItzCrazyKns/Perplexica?tab=readme-ov-file#upcoming-features",
   "categories": [

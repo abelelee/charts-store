@@ -18,7 +18,9 @@
     "Transifex",
     "Crowdin"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://tolgee.io/platform",
   "categories": [

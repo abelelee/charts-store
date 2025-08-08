@@ -22,7 +22,9 @@
     "Pinboard",
     "Diigo"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://linkwarden.app/docs",
   "categories": [

@@ -19,7 +19,9 @@
     "Zendesk",
     "Salesforce Service Cloud"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://www.chatwoot.com/help-center",
   "categories": [

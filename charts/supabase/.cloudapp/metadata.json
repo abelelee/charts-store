@@ -21,7 +21,9 @@
     "Backendless",
     "Appwrite"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://supabase.com/docs",
   "categories": [

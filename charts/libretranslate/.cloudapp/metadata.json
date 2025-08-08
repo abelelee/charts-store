@@ -18,7 +18,9 @@
     "Google Translate",
     "Microsoft Translator"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://github.com/LibreTranslate/LibreTranslate/blob/master/README.md",
   "categories": [

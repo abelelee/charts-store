@@ -17,7 +17,9 @@
   "alternative_products": [
     "ChatGPT"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://docs.flowiseai.com",
   "categories": [

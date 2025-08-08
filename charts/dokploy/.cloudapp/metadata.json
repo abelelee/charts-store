@@ -21,7 +21,9 @@
     "Google App Engine",
     "Microsoft Azure App Service"
   ],
-  "tags": [],
+  "tags": [
+    "Microservices"
+  ],
   "official_address": "",
   "product_document": "https://docs.dokploy.com/en/docs/core/get-started/introduction",
   "categories": [

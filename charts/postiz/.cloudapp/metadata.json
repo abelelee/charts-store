@@ -23,7 +23,9 @@
     "SocialBee",
     "MeetEdgar"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://docs.postiz.com/providers",
   "categories": [

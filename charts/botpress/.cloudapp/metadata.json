@@ -18,7 +18,9 @@
     "Dialogflow",
     "ManyChat"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://botpress.com/docs",
   "categories": [

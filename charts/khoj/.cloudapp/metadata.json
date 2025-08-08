@@ -24,7 +24,9 @@
     "Amazon Lex",
     "Ada"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://docs.khoj.dev/",
   "categories": [

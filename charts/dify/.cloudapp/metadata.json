@@ -21,7 +21,9 @@
     "IBM Watson",
     "Hugging Face Inference API"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://docs.dify.ai",
   "categories": [

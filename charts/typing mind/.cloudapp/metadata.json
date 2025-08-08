@@ -21,7 +21,9 @@
     "Zendesk Chat",
     "LiveChat"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://docs.typingmind.com/",
   "categories": [

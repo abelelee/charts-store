@@ -23,7 +23,9 @@
     "Coda",
     "Zoho Sheet"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://support.getgrist.com",
   "categories": [

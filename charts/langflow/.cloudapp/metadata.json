@@ -21,7 +21,9 @@
     "Workato",
     "Tray.io"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://docs.langflow.org/",
   "categories": [

@@ -18,7 +18,9 @@
     "Retool",
     "OutSystems"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://docs.appsmith.com/",
   "categories": [

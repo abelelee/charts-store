@@ -19,7 +19,9 @@
     "Microsoft Power Automate",
     "Integromat"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://docs.n8n.io/",
   "categories": [

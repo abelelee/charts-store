@@ -23,7 +23,9 @@
     "Google Cloud Search",
     "IBM Watson Discovery"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "",
   "categories": [

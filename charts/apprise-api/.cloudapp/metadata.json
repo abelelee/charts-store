@@ -23,7 +23,9 @@
     "Slack API",
     "Mailgun"
   ],
-  "tags": [],
+  "tags": [
+    "Microservices"
+  ],
   "official_address": "",
   "product_document": "https://github.com/caronc/apprise/wiki",
   "categories": [

@@ -23,7 +23,9 @@
     "Anthropic API",
     "Jasper"
   ],
-  "tags": [],
+  "tags": [
+    "AI"
+  ],
   "official_address": "",
   "product_document": "https://stackblitz-labs.github.io/bolt.diy",
   "categories": [
