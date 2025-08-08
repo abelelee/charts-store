@@ -1,0 +1,41 @@
+{
+  "name": "mattermost",
+  "display_name": "Mattermost",
+  "description": {
+    "zh": "Mattermost 是一个开源核心、支持自托管的协作平台，提供聊天、流程自动化、语音通话、屏幕共享以及 AI 集成功能。它以单一 Linux 二进制文件的形式运行，基于 Go 和 React 开发，使用 PostgreSQL 作为数据库。项目每月16日发布一次新版本，采用 MIT 许可证。",
+    "en": "Mattermost is an open core, self-hosted collaboration platform that provides chat, workflow automation, voice calling, screen sharing, and AI integration. It runs as a single Linux binary written in Go and React, with PostgreSQL as its database. A new version is released monthly under an MIT license."
+  },
+  "feature": {
+    "zh": "## 产品优势:\n\n- 同时支持自托管和云端部署，灵活适应不同场景\n- 每月发布更新，强调安全性，采用 MIT 开源许可\n- 可通过 API、插件和集成实现高度扩展\n\n## 功能列表:\n\n- 实时聊天与团队协作功能\n- 工作流自动化能力\n- 支持语音通话和屏幕共享\n- 支持 AI 集成\n- 提供 Android 和 iOS 原生移动应用\n- 提供 Windows、macOS 和 Linux 原生桌面客户端\n- 支持通过 Docker、Kubernetes、Helm 等多种方式部署\n- 提供全面的开发者文档和贡献指南",
+    "en": "## Benefits:\n\n- Offers both self-hosted and cloud deployment flexibility\n- Strong focus on security with monthly updates and MIT license\n- Highly extensible through APIs, plugins, and integrations\n\n## Features:\n\n- Real-time chat and team collaboration\n- Workflow automation capabilities\n- Voice calling and screen sharing\n- AI integration support\n- Native mobile apps for Android and iOS\n- Native desktop apps for Windows, macOS, and Linux\n- Supports deployment via Docker, Kubernetes, Helm, and more\n- Comprehensive developer documentation and contribution guides"
+  },
+  "github_url": "https://github.com/mattermost/mattermost",
+  "readme": {
+    "zh": "./README-zh.md",
+    "en": "./README.md"
+  },
+  "alternative_products": [
+    "Slack",
+    "Microsoft Teams"
+  ],
+  "tags": [
+    "AI"
+  ],
+  "official_address": "",
+  "product_document": "",
+  "categories": [
+    "Collaboration",
+    "Security",
+    "Self-Hosted",
+    "Chat",
+    "Customizable",
+    "Workflow Automation",
+    "BYOD",
+    "Team Messaging",
+    "Custom Integrations",
+    "Audio Sharing",
+    "Enterprise Scalability",
+    "Screen Sharing"
+  ],
+  "pic_url": ""
+}
