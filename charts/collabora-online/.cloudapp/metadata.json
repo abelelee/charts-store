@@ -1,5 +1,5 @@
 {
-  "name": "collabora office",
+  "name": "collabora-office",
   "display_name": "Collabora Office",
   "description": {
     "zh": "Collabora Online 是一个安全的文档协作平台，支持在网页浏览器中查看和编辑多种格式的办公文档。它支持实时协作编辑，并可与 Nextcloud 和 ownCloud 等平台无缝集成。作为一个开源解决方案，它为定制和扩展提供了高度灵活性。",

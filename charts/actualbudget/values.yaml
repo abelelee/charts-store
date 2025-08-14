@@ -192,7 +192,7 @@ persistence:
   existingClaim: ""
 
   # -- Actual Budget persistence storage class
-  storageClass: cloudapp.storageClass
+  storageClass: cloudapp.storage
 
   # -- Actual Budget persistence sub path
   subPath: ""

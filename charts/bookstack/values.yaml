@@ -155,7 +155,7 @@ persistence:
     ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
     ##   GKE, AWS & OpenStack)
     ##
-    storageClass: cloudapp.storageClass
+    storageClass: cloudapp.storage
     accessMode: ReadWriteOnce
     size: cloudapp.storage
 
@@ -170,7 +170,7 @@ persistence:
     ##   GKE, AWS & OpenStack)
     ##
     # storageClass: "-"
-    storageClass: cloudapp.storageClass
+    storageClass: cloudapp.storage
     accessMode: ReadWriteOnce
     size: cloudapp.storage
 

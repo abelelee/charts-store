@@ -1,5 +1,5 @@
 {
-  "name": "element",
+  "name": "element-web",
   "display_name": "Element",
   "description": {
     "zh": "Element 是一个基于 Matrix JS SDK 构建的 Matrix 网页客户端。它为通过 Matrix 协议进行实时通信（包括消息、语音和视频通话）提供了用户友好的界面。该项目持续维护，并支持多个平台，包括桌面和移动浏览器。",

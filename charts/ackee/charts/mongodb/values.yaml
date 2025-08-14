@@ -20,8 +20,8 @@ global:
   ##   - myRegistryKeySecretName
   ##
   imagePullSecrets: []
-  defaultStorageClass: cloudapp.storageClass
-  storageClass: cloudapp.storageClass
+  defaultStorageClass: cloudapp.storage
+  storageClass: cloudapp.storage
   namespaceOverride: ""
   ## Compatibility adaptations for Kubernetes platforms
   ##
@@ -130,7 +130,7 @@ diagnosticMode:
 ##
 image:
   registry: cloudapp.registry
-  repository: mongodb.image
+  repository: mongodb.repository
   tag: mongodb.image.tag
   digest: ""
   ## Specify a imagePullPolicy
@@ -256,7 +256,7 @@ tls:
   ##
   image:
     registry: cloudapp.registry
-    repository: nginx.image
+    repository: nginx.repository
     tag: nginx.image.tag
     digest: ""
     pullPolicy: IfNotPresent
@@ -844,7 +844,7 @@ externalAccess:
     ##
     image:
       registry: cloudapp.registry
-      repository: kubectl.image
+      repository: kubectl.repository
       tag: kubectl.image.tag
       digest: ""
       ## Specify a imagePullPolicy
@@ -893,7 +893,7 @@ externalAccess:
     ##
     image:
       registry: cloudapp.registry
-      repository: os-shell.image
+      repository: os-shell.repository
       tag: os-shell.image.tag
       digest: ""
       ## Specify a imagePullPolicy
@@ -1315,7 +1315,7 @@ persistence:
   ## If undefined (the default) or set to null, no storageClassName spec is
   ## set, choosing the default provisioner.
   ##
-  storageClass: cloudapp.storageClass
+  storageClass: cloudapp.storage
   ## @param persistence.accessModes PV Access Mode
   ##
   accessModes:
@@ -1477,7 +1477,7 @@ backup:
       ## If undefined (the default) or set to null, no storageClassName spec is
       ## set, choosing the default provisioner.
       ##
-      storageClass: cloudapp.storageClass
+      storageClass: cloudapp.storage
       ## @param backup.cronjob.storage.accessModes PV Access Mode
       ##
       accessModes:
@@ -1619,7 +1619,7 @@ volumePermissions:
   ##
   image:
     registry: cloudapp.registry
-    repository: os-shell.image
+    repository: os-shell.repository
     tag: os-shell.image.tag
     digest: ""
     ## Specify a imagePullPolicy
@@ -2346,7 +2346,7 @@ hidden:
     ## If undefined (the default) or set to null, no storageClassName spec is
     ## set, choosing the default provisioner.
     ##
-    storageClass: cloudapp.storageClass
+    storageClass: cloudapp.storage
     ## @param hidden.persistence.accessModes PV Access Mode
     ##
     accessModes:

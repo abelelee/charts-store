@@ -1,5 +1,5 @@
 {
-  "name": "autogen studio",
+  "name": "autogen-studio",
   "display_name": "AutoGen Studio",
   "description": {
     "zh": "AutoGen 是一个用于开发多智能体 AI 应用的框架，支持智能体自主运行或与人类协作。它采用分层可扩展架构，允许开发者使用高级 API 构建智能体工作流，或自定义底层组件。该框架支持消息传递、事件驱动智能体，并可集成大语言模型（LLM）。",
