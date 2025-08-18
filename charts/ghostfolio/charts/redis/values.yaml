@@ -76,7 +76,6 @@ diagnosticMode:
 ## @param image.debug Enable image debug mode
 ##
 image:
-  registry: cloudapp.registry
   repository: redis.repository
   tag: redis.image.tag
   ## Specify a imagePullPolicy

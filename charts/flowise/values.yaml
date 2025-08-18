@@ -51,7 +51,7 @@ image:
   registry: cloudapp.registry
 
   ## @param image.repository Image repository
-  repository: app.repository
+  repository: app.image
 
   ## @param image.tag Image tag
   tag: app.image.tag

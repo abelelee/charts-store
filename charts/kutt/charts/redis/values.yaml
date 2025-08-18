@@ -112,7 +112,6 @@ diagnosticMode:
 ## @param image.debug Enable image debug mode
 ##
 image:
-  registry: cloudapp.registry
   repository: redis.image
   tag: 7.0.4
   digest: ""

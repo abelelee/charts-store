@@ -1,8 +1,7 @@
 image:
   # -- The registry to pull the image from.
-  registry: cloudapp.registry
   # -- The repository to pull the image from.
-  repository: app.repository
+  repository: app.image
   # -- The docker tag, if left empty chart's appVersion will be used.
   # @default -- `.Chart.AppVersion`
   tag: app.image.tag

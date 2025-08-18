@@ -97,7 +97,6 @@ livenessProbe:
 
 image:
   # -- The Docker registry
-  registry: cloudapp.registry
   # -- Docker image repository
   repository: cloud-app/grafana_grafana
   # Overrides the Grafana image tag whose default is the chart appVersion
@@ -186,7 +185,6 @@ extraLabels: {}
 
 downloadDashboardsImage:
   # -- The Docker registry
-  registry: cloudapp.registry
   repository: cloud-app/curlimages/curl
   tag: "latest"
   sha: ""

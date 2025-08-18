@@ -95,7 +95,6 @@ serviceBindings:
 ## @param image.debug Specify if debug logs should be enabled
 ##
 image:
-  registry: cloudapp.registry
   repository: mariadb.image
   tag: mariadb.image.tag
   digest: ""
