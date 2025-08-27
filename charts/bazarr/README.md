@@ -1,116 +1,108 @@
 # bazarr
 
-![Version: 10.6.2](https://img.shields.io/badge/Version-10.6.2-informational?style=flat-square) ![AppVersion: v1.0.3](https://img.shields.io/badge/AppVersion-v1.0.3-informational?style=flat-square)
+Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.
 
-Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements
+Be aware that Bazarr doesn't scan disk to detect series and movies: It only takes care of the series and movies that are indexed in Sonarr and Radarr.
 
-**This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/k8s-at-home/charts/issues/new/choose)**
+Thanks to the folks at OpenSubtitles for their logo that was an inspiration for ours.
 
-## Source Code
+## Support on Paypal
 
-* <https://github.com/morpheus65535/bazarr>
-* <https://github.com/k8s-at-home/container-images>
+At the request of some, here is a way to demonstrate your appreciation for the efforts made in the development of Bazarr:
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XHHRWXT9YB7WE&source=url)
 
-## Requirements
+# Status
 
-Kubernetes: `>=1.16.0-0`
+[![GitHub issues](https://img.shields.io/github/issues/morpheus65535/bazarr.svg?style=flat-square)](https://github.com/morpheus65535/bazarr/issues)
+[![GitHub stars](https://img.shields.io/github/stars/morpheus65535/bazarr.svg?style=flat-square)](https://github.com/morpheus65535/bazarr/stargazers)
+[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/bazarr.svg?style=flat-square)](https://hub.docker.com/r/linuxserver/bazarr/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/bazarr.svg?style=flat-square)](https://hub.docker.com/r/hotio/bazarr/)
+[![Discord](https://img.shields.io/badge/discord-chat-MH2e2eb.svg?style=flat-square)](https://discord.gg/MH2e2eb)
 
-## Dependencies
+# Support
 
-| Repository | Name | Version |
-|------------|------|---------|
-| https://library-charts.k8s-at-home.com | common | 4.5.2 |
+For installation and configuration instructions, see [wiki](https://wiki.bazarr.media).
 
-## TL;DR
+You can reach us for support on [Discord](https://discord.gg/MH2e2eb).
 
-```console
-helm repo add k8s-at-home https://k8s-at-home.com/charts/
-helm repo update
-helm install bazarr k8s-at-home/bazarr
-```
+If you find a bug, please open an issue on [Github](https://github.com/morpheus65535/bazarr/issues).
 
-## Installing the Chart
+# Feature Requests
 
-To install the chart with the release name `bazarr`
+If you need something that is not already part of Bazarr, feel free to create a feature request on [Feature Upvote](http://features.bazarr.media).
 
-```console
-helm install bazarr k8s-at-home/bazarr
-```
+## Major Features Include:
 
-## Uninstalling the Chart
+- Support for major platforms: Windows, Linux, macOS, Raspberry Pi, etc.
+- Automatically add new series and episodes from Sonarr
+- Automatically add new movies from Radarr
+- Series or movies based configuration for subtitles languages
+- Scan your existing library for internal and external subtitles and download any missing
+- Keep history of what was downloaded from where and when
+- Manual search so you can download subtitles on demand
+- Upgrade subtitles previously downloaded when a better one is found
+- Ability to delete external subtitles from disk
+- Currently support 184 subtitles languages with support for forced/foreign subtitles (depending of providers)
+- And a beautiful UI based on Sonarr
 
-To uninstall the `bazarr` deployment
+## Supported subtitles providers:
 
-```console
-helm uninstall bazarr
-```
+- Addic7ed
+- AnimeKalesi
+- Animetosho (requires AniDb HTTP API client described [here](https://wiki.anidb.net/HTTP_API_Definition))
+- Assrt
+- AvistaZ, CinemaZ (Get session cookies using method described [here](https://github.com/morpheus65535/bazarr/pull/2375#issuecomment-2057010996))
+- BetaSeries
+- BSplayer
+- Embedded Subtitles
+- Gestdown.info
+- GreekSubs
+- GreekSubtitles
+- HDBits.org
+- Hosszupuska
+- Karagarga.in
+- Ktuvit (Get `hashed_password` using method described [here](https://github.com/XBMCil/service.subtitles.ktuvit))
+- LegendasDivx
+- Legendas.net
+- Napiprojekt
+- Napisy24
+- Nekur
+- OpenSubtitles.com
+- OpenSubtitles.org (VIP users only)
+- Podnapisi
+- RegieLive
+- Sous-Titres.eu
+- Subdivx
+- subf2m.co
+- Subs.sab.bz
+- Subs4Free
+- Subs4Series
+- Subscene
+- Subscenter
+- Subsunacs.net
+- SubSynchro
+- Subtitrari-noi.ro
+- subtitri.id.lv
+- Subtitulamos.tv
+- Supersubtitles
+- Titlovi
+- Titrari.ro
+- Titulky.com
+- Turkcealtyazi.org
+- TuSubtitulo
+- TVSubtitles
+- Whisper (requires [ahmetoner/whisper-asr-webservice](https://github.com/ahmetoner/whisper-asr-webservice))
+- Wizdom
+- XSubs
+- Yavka.net
+- YIFY Subtitles
+- Zimuku
 
-The command removes all the Kubernetes components associated with the chart **including persistent volumes** and deletes the release.
+## Screenshot
 
-## Configuration
+![Bazarr](/screenshot/bazarr-screenshot.png?raw=true "Bazarr")
 
-Read through the [values.yaml](./values.yaml) file. It has several commented out suggested values.
-Other values may be used from the [values.yaml](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common/values.yaml) from the [common library](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common).
+### License
 
-Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`.
-
-```console
-helm install bazarr \
-  --set env.TZ="America/New York" \
-    k8s-at-home/bazarr
-```
-
-Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart.
-
-```console
-helm install bazarr k8s-at-home/bazarr -f values.yaml
-```
-
-## Custom configuration
-
-N/A
-
-## Values
-
-**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common)
-
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| env | object | See below | environment variables. |
-| env.TZ | string | `"UTC"` | Set the container timezone |
-| image.pullPolicy | string | `"IfNotPresent"` | image pull policy |
-| image.repository | string | `"ghcr.io/k8s-at-home/bazarr"` | image repository |
-| image.tag | string | `nil` |  |
-| ingress.main | object | See values.yaml | Enable and configure ingress settings for the chart under this key. |
-| persistence | object | See values.yaml | Configure persistence settings for the chart under this key. |
-| service | object | See values.yaml | Configures service settings for the chart. |
-
-## Changelog
-
-### Version 10.6.2
-
-#### Added
-
-N/A
-
-#### Changed
-
-* Upgraded `common` chart dependency to version 4.5.2
-
-#### Fixed
-
-N/A
-
-### Older versions
-
-A historical overview of changes can be found on [ArtifactHUB](https://artifacthub.io/packages/helm/k8s-at-home/bazarr?modal=changelog)
-
-## Support
-
-- See the [Docs](https://docs.k8s-at-home.com/our-helm-charts/getting-started/)
-- Open an [issue](https://github.com/k8s-at-home/charts/issues/new/choose)
-- Ask a [question](https://github.com/k8s-at-home/organization/discussions)
-- Join our [Discord](https://discord.gg/sTMX7Vh) community
-
-----------------------------------------------
-Autogenerated from chart metadata using [helm-docs v0.1.1](https://github.com/k8s-at-home/helm-docs/releases/v0.1.1)
+- [GNU GPL v3](http://www.gnu.org/licenses/gpl.html)
+- Copyright 2010-2024

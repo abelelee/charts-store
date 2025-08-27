@@ -1,115 +1,95 @@
-# thelounge
+<h1 align="center">
+	<img
+		width="300"
+		alt="The Lounge"
+		src="https://raw.githubusercontent.com/thelounge/thelounge/master/client/img/logo-vertical-transparent-bg.svg?sanitize=true">
+</h1>
 
-![Version: 3.4.2](https://img.shields.io/badge/Version-3.4.2-informational?style=flat-square) ![AppVersion: 4.2.0](https://img.shields.io/badge/AppVersion-4.2.0-informational?style=flat-square)
+<h3 align="center">
+	Modern web IRC client designed for self-hosting
+</h3>
 
-The Lounge, modern web IRC client designed for self-hosting
+<p align="center">
+	<strong>
+		<a href="https://thelounge.chat/">Website</a>
+		•
+		<a href="https://thelounge.chat/docs">Docs</a>
+		•
+		<a href="https://demo.thelounge.chat/">Demo</a>
+    •
+		<a href="https://github.com/thelounge/thelounge-docker">Docker</a>
+	</strong>
+</p>
+<p align="center">
+	<a href="https://demo.thelounge.chat/"><img
+		alt="#thelounge IRC channel on Libera.Chat"
+		src="https://img.shields.io/badge/Libera.Chat-%23thelounge-415364.svg?colorA=ff9e18"></a>
+	<a href="https://yarn.pm/thelounge"><img
+		alt="npm version"
+		src="https://img.shields.io/npm/v/thelounge.svg?colorA=333a41&maxAge=3600"></a>
+	<a href="https://github.com/thelounge/thelounge/actions"><img
+		alt="Build Status"
+		src="https://github.com/thelounge/thelounge/workflows/Build/badge.svg"></a>
+</p>
 
-**This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/k8s-at-home/charts/issues/new/choose)**
+<p align="center">
+	<img src="https://raw.githubusercontent.com/thelounge/thelounge.github.io/master/img/thelounge-screenshot.png" width="550">
+</p>
 
-## Source Code
+## Overview
 
-* <https://github.com/thelounge/thelounge>
+- **Modern features brought to IRC.** Push notifications, link previews, new message markers, and more bring IRC to the 21st century.
+- **Always connected.** Remains connected to IRC servers while you are offline.
+- **Cross platform.** It doesn't matter what OS you use, it just works wherever Node.js runs.
+- **Responsive interface.** The client works smoothly on every desktop, smartphone and tablet.
+- **Synchronized experience.** Always resume where you left off no matter what device.
 
-## Requirements
+To learn more about configuration, usage and features of The Lounge, take a look at [the website](https://thelounge.chat).
 
-Kubernetes: `>=1.16.0-0`
+The Lounge is the official and community-managed fork of [Shout](https://github.com/erming/shout), by [Mattias Erming](https://github.com/erming).
 
-## Dependencies
+## Installation and usage
 
-| Repository | Name | Version |
-|------------|------|---------|
-| https://library-charts.k8s-at-home.com | common | 4.5.2 |
+The Lounge requires latest [Node.js](https://nodejs.org/) LTS version or more recent.
+The [Yarn package manager](https://yarnpkg.com/) is also recommended.
+If you want to install with npm, `--unsafe-perm` is required for a correct install.
 
-## TL;DR
+### Running stable releases
 
-```console
-helm repo add k8s-at-home https://k8s-at-home.com/charts/
-helm repo update
-helm install thelounge k8s-at-home/thelounge
+Please refer to the [install and upgrade documentation on our website](https://thelounge.chat/docs/install-and-upgrade) for all available installation methods.
+
+### Running from source
+
+The following commands install and run the development version of The Lounge:
+
+```sh
+git clone https://github.com/thelounge/thelounge.git
+cd thelounge
+yarn install
+NODE_ENV=production yarn build
+yarn start
 ```
 
-## Installing the Chart
+When installed like this, `thelounge` executable is not created. Use `node index <command>` to run commands.
 
-To install the chart with the release name `thelounge`
+⚠️ While it is the most recent codebase, this is not production-ready! Run at
+your own risk. It is also not recommended to run this as root.
 
-```console
-helm install thelounge k8s-at-home/thelounge
-```
+## Development setup
 
-## Uninstalling the Chart
+Simply follow the instructions to run The Lounge from source above, on your own
+fork.
 
-To uninstall the `thelounge` deployment
+Before submitting any change, make sure to:
 
-```console
-helm uninstall thelounge
-```
+- Read the [Contributing instructions](https://github.com/thelounge/thelounge/blob/master/.github/CONTRIBUTING.md#contributing)
+- Run `yarn test` to execute linters and the test suite
+  - Run `yarn format:prettier` if linting fails
+- Run `yarn build:client` if you change or add anything in `client/js` or `client/components`
+  - The built files will be output to `public/` by webpack
+- Run `yarn build:server` if you change anything in `server/`
+  - The built files will be output to `dist/` by tsc
+- `yarn dev` can be used to start The Lounge with hot module reloading
 
-The command removes all the Kubernetes components associated with the chart **including persistent volumes** and deletes the release.
-
-## Configuration
-
-Read through the [values.yaml](./values.yaml) file. It has several commented out suggested values.
-Other values may be used from the [values.yaml](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common/values.yaml) from the [common library](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common).
-
-Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`.
-
-```console
-helm install thelounge \
-  --set env.TZ="America/New York" \
-    k8s-at-home/thelounge
-```
-
-Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart.
-
-```console
-helm install thelounge k8s-at-home/thelounge -f values.yaml
-```
-
-## Custom configuration
-
-N/A
-
-## Values
-
-**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common)
-
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| env | object | See below | environment variables. See [image docs](https://hub.docker.com/r/thelounge/thelounge/) for more details. |
-| image.pullPolicy | string | `"IfNotPresent"` | image pull policy |
-| image.repository | string | `"thelounge/thelounge"` | image repository |
-| image.tag | string | `"4.2.0-alpine"` | image tag |
-| ingress.main | object | See values.yaml | Enable and configure ingress settings for the chart under this key. |
-| persistence | object | See values.yaml | Configure persistence settings for the chart under this key. |
-| service | object | See values.yaml | Configures service settings for the chart. Normally this does not need to be modified. |
-| strategy.type | string | `"Recreate"` |  |
-
-## Changelog
-
-### Version 3.4.2
-
-#### Added
-
-N/A
-
-#### Changed
-
-* Upgraded `common` chart dependency to version 4.5.2
-
-#### Fixed
-
-N/A
-
-### Older versions
-
-A historical overview of changes can be found on [ArtifactHUB](https://artifacthub.io/packages/helm/k8s-at-home/thelounge?modal=changelog)
-
-## Support
-
-- See the [Docs](https://docs.k8s-at-home.com/our-helm-charts/getting-started/)
-- Open an [issue](https://github.com/k8s-at-home/charts/issues/new/choose)
-- Ask a [question](https://github.com/k8s-at-home/organization/discussions)
-- Join our [Discord](https://discord.gg/sTMX7Vh) community
-
-----------------------------------------------
-Autogenerated from chart metadata using [helm-docs v0.1.1](https://github.com/k8s-at-home/helm-docs/releases/v0.1.1)
+To ensure that you don't commit files that fail the linting, you can install a pre-commit git hook.
+Execute `yarn githooks-install` to do so.

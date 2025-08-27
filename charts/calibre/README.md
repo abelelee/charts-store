@@ -1,123 +1,48 @@
 # calibre
 
-![Version: 5.4.2](https://img.shields.io/badge/Version-5.4.2-informational?style=flat-square) ![AppVersion: version-v5.21.0](https://img.shields.io/badge/AppVersion-version--v5.21.0-informational?style=flat-square)
+<img align="left" src="https://raw.githubusercontent.com/kovidgoyal/calibre/master/resources/images/lt.png" height="200" width="200"/>
 
-Calibre is a powerful and easy to use e-book manager.
+calibre is an e-book manager. It can view, convert, edit and catalog e-books 
+in all of the major e-book formats. It can also talk to e-book reader 
+devices. It can go out to the internet and fetch metadata for your books. 
+It can download newspapers and convert them into e-books for convenient 
+reading. It is cross platform, running on Linux, Windows and macOS.
 
-**This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/k8s-at-home/charts/issues/new/choose)**
+For more information, see the [calibre About page](https://calibre-ebook.com/about).
 
-## Source Code
+[![Build Status](https://github.com/kovidgoyal/calibre/workflows/CI/badge.svg)](https://github.com/kovidgoyal/calibre/actions?query=workflow%3ACI)
 
-* <https://hub.docker.com/r/linuxserver/calibre/>
-* <https://github.com/kovidgoyal/calibre/>
+## Screenshots  
 
-## Requirements
+[Screenshots page](https://calibre-ebook.com/demo)
 
-Kubernetes: `>=1.16.0-0`
+## Usage
 
-## Dependencies
+See the [User Manual](https://manual.calibre-ebook.com).
 
-| Repository | Name | Version |
-|------------|------|---------|
-| https://library-charts.k8s-at-home.com | common | 4.5.2 |
+## Development
 
-## TL;DR
+[Setting up a development environment for calibre](https://manual.calibre-ebook.com/develop.html).
 
-```console
-helm repo add k8s-at-home https://k8s-at-home.com/charts/
-helm repo update
-helm install calibre k8s-at-home/calibre
-```
+A [tarball of the source code](https://calibre-ebook.com/dist/src) for the 
+current calibre release.
 
-## Installing the Chart
+## Bugs
 
-To install the chart with the release name `calibre`
+Bug reports and feature requests should be made in the calibre bug tracker at [Launchpad](https://bugs.launchpad.net/calibre).
+GitHub is only used for code hosting and pull requests.
 
-```console
-helm install calibre k8s-at-home/calibre
-```
+## Support calibre
 
-## Uninstalling the Chart
+calibre is a result of the efforts of many volunteers from all over the world.
+If you find it useful, please consider contributing to support its development.
+[Donate to support calibre development](https://calibre-ebook.com/donate).
 
-To uninstall the `calibre` deployment
+## Building calibre binaries
 
-```console
-helm uninstall calibre
-```
+See [Build instructions](bypy/README.rst) for instructions on how to build the
+calibre binaries and installers for all the platforms calibre supports.
 
-The command removes all the Kubernetes components associated with the chart **including persistent volumes** and deletes the release.
+## calibre package versions in various repositories
 
-## Configuration
-
-Read through the [values.yaml](./values.yaml) file. It has several commented out suggested values.
-Other values may be used from the [values.yaml](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common/values.yaml) from the [common library](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common).
-
-Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`.
-
-```console
-helm install calibre \
-  --set env.TZ="America/New York" \
-    k8s-at-home/calibre
-```
-
-Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart.
-
-```console
-helm install calibre k8s-at-home/calibre -f values.yaml
-```
-
-## Custom configuration
-
-N/A
-
-## Values
-
-**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common)
-
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| env | object | See below | environment variables. See [image docs](https://docs.linuxserver.io/images/docker-calibre#environment-variables-e) for more details. |
-| env.CLI_ARGS | string | `nil` | Optionally pass cli start arguments to calibre. |
-| env.GUAC_PASS | string | `nil` | Password's md5 hash for the calibre gui |
-| env.GUAC_USER | string | `nil` | Username for the calibre gui |
-| env.PGID | string | `"1001"` | Specify the group ID the application will run as |
-| env.PUID | string | `"1001"` | Specify the user ID the application will run as |
-| env.TZ | string | `"UTC"` | Set the container timezone |
-| env.UMASK_SET | string | `"022"` | for umask setting of Calibre, default if left unset is 022. |
-| image | object | `{"pullPolicy":"IfNotPresent","repository":"linuxserver/calibre","tag":"version-v5.21.0"}` | This is the default, you can also use requarks/wiki |
-| image.pullPolicy | string | `"IfNotPresent"` | image pull policy |
-| image.repository | string | `"linuxserver/calibre"` | image repository |
-| image.tag | string | `"version-v5.21.0"` | image tag |
-| ingress.main | object | See values.yaml | Enable and configure ingress settings for the chart under this key. |
-| persistence | object | See values.yaml | Configure persistence settings for the chart under this key. |
-| service | object | See values.yaml | Configures service settings for the chart. |
-
-## Changelog
-
-### Version 5.4.2
-
-#### Added
-
-N/A
-
-#### Changed
-
-* Upgraded `common` chart dependency to version 4.5.2
-
-#### Fixed
-
-N/A
-
-### Older versions
-
-A historical overview of changes can be found on [ArtifactHUB](https://artifacthub.io/packages/helm/k8s-at-home/calibre?modal=changelog)
-
-## Support
-
-- See the [Docs](https://docs.k8s-at-home.com/our-helm-charts/getting-started/)
-- Open an [issue](https://github.com/k8s-at-home/charts/issues/new/choose)
-- Ask a [question](https://github.com/k8s-at-home/organization/discussions)
-- Join our [Discord](https://discord.gg/sTMX7Vh) community
-
-----------------------------------------------
-Autogenerated from chart metadata using [helm-docs v0.1.1](https://github.com/k8s-at-home/helm-docs/releases/v0.1.1)
+[![Packaging Status](https://repology.org/badge/vertical-allrepos/calibre.svg?columns=3&header=calibre)](https://repology.org/project/calibre/versions)

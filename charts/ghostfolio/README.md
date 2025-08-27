@@ -1,198 +1,310 @@
-<!-- markdownlint-disable MD033 MD024 -->
+<div align="center">
 
-[![Latest Tag](https://img.shields.io/github/v/tag/ByTheHugo/ghostfolio-helm)](https://github.com/ByTheHugo/ghostfolio-helm/tags)
-[![Project License](https://img.shields.io/github/license/ByTheHugo/ghostfolio-helm)](https://github.com/ByTheHugo/ghostfolio-helm/blob/master/LICENSE)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/bythehugo/ghostfolio-helm)](https://github.com/ByTheHugo/ghostfolio-helm/commits/master/)
-[![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/bythehugo/ghostfolio-helm)](https://github.com/ByTheHugo/ghostfolio-helm/commits/master/)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-ghostfolio--helm-lightgrey)](https://github.com/ByTheHugo/ghostfolio-helm)
-[![ArtifactHub Package](https://img.shields.io/badge/ArtifactHub.io-ghostfolio--helm-lightblue)](https://artifacthub.io/packages/helm/ghostfolio/ghostfolio)
+[<img src="https://avatars.githubusercontent.com/u/82473144?s=200" width="100" alt="Ghostfolio logo">](https://ghostfol.io)
 
-![Ghostfolio Helm banner](docs/ghostfolio-helm-banner.png)
+# Ghostfolio
 
-# Ghostfolio Helm Chart
+**Open Source Wealth Management Software**
 
-This project provides a _Helm_ chart for deploying **[Ghostfolio: the Open Source Wealth Management Software](https://github.com/ghostfolio/ghostfolio)** into any _Kubernetes_ cluster. It integrates the official _Docker_ images built by the _Ghostfolio_ team and hosted on _[DockerHub](https://hub.docker.com/r/ghostfolio/ghostfolio)_. It also includes _[PostgreSQL](https://artifacthub.io/packages/helm/bitnami/postgresql)_ and _[Redis](https://artifacthub.io/packages/helm/bitnami/redis)_ servers that use the **Bitnami** charts, but it is easy to provide your own.
+[**Ghostfol.io**](https://ghostfol.io) | [**Live Demo**](https://ghostfol.io/en/demo) | [**Ghostfolio Premium**](https://ghostfol.io/en/pricing) | [**FAQ**](https://ghostfol.io/en/faq) |
+[**Blog**](https://ghostfol.io/en/blog) | [**LinkedIn**](https://www.linkedin.com/company/ghostfolio) | [**Slack**](https://join.slack.com/t/ghostfolio/shared_invite/zt-vsaan64h-F_I0fEo5M0P88lP9ibCxFg) | [**X**](https://x.com/ghostfolio_)
 
-The charts are built and then published to these project _GitHub Pages_, allowing anyone to quickly deploy and test the application.
+[![Shield: Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Support-yellow?logo=buymeacoffee)](https://www.buymeacoffee.com/ghostfolio)
+[![Shield: Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-limegreen.svg)](#contributing) [![Shield: Docker Pulls](https://img.shields.io/docker/pulls/ghostfolio/ghostfolio?label=Docker%20Pulls)](https://hub.docker.com/r/ghostfolio/ghostfolio)
+[![Shield: License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-orange.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-<!-- omit in toc -->
-## Table of content
+</div>
 
-- [Ghostfolio Helm Chart](#ghostfolio-helm-chart)
-  - [1.1. Prerequisite](#11-prerequisite)
-  - [1.2. Configure the application](#12-configure-the-application)
-    - [1.2.1. Use an external PostgreSQL server](#121-use-an-external-postgresql-server)
-    - [1.2.2. Use an external Redis server](#122-use-an-external-redis-server)
-  - [1.3. Install the application](#13-install-the-application)
-    - [1.3.1. Add the GitHub Helm repository (optional)](#131-add-the-github-helm-repository-optional)
-    - [1.3.2. Install the chart](#132-install-the-chart)
-      - [1.3.2.1. Install a specific version of Ghostfolio](#1321-install-a-specific-version-of-ghostfolio)
-    - [1.3.3. Verify the deployment](#133-verify-the-deployment)
-  - [1.4. Uninstall the application](#14-uninstall-the-application)
-  - [1.5. License](#15-license)
-  - [1.6. Contact](#16-contact)
+**Ghostfolio** is an open source wealth management software built with web technology. The application empowers busy people to keep track of stocks, ETFs or cryptocurrencies and make solid, data-driven investment decisions. The software is designed for personal use in continuous operation.
 
-## 1.1. Prerequisite
+<div align="center">
 
-- A **Kubernetes** cluster,
-- A **PostgreSQL** server (optional),
-- A **Redis** instance (optional),
-- The **Helm** client installed locally (see _[Quickstart Guide](https://helm.sh/docs/intro/quickstart/)_),
-- The `kubectl` command-line tool installed locally (optionnal, see _[Install Tools](https://kubernetes.io/docs/tasks/tools/)_)
+[<img src="./apps/client/src/assets/images/video-preview.jpg" width="600" alt="Preview image of the Ghostfolio video trailer">](https://www.youtube.com/watch?v=yY6ObSQVJZk)
 
-<p align="right"><a href="#ghostfolio-helm-chart">back to top</a></p>
+</div>
 
-## 1.2. Configure the application
+## Ghostfolio Premium
 
-Like any other _Helm_ chart, the available configuration options can be found in the `charts/ghostfolio/values.yaml` configuration file. I recommend you to override any values in a dedicated `ghostfolio.values.yaml` file before deploying the chart:
+Our official **[Ghostfolio Premium](https://ghostfol.io/en/pricing)** cloud offering is the easiest way to get started. Due to the time it saves, this will be the best option for most people. Revenue is used to cover operational costs for the hosting infrastructure and professional data providers, and to fund ongoing development.
 
-1. Start by retrieving the chart default values: `helm show values charts/ghostfolio > ghostfolio.values.yaml`
+If you prefer to run Ghostfolio on your own infrastructure, please find further instructions in the [Self-hosting](#self-hosting) section.
 
-2. Edit the `ghostfolio.values.yaml` values, and specially the following ones:
+## Why Ghostfolio?
 
-    ```yaml
-    ghostfolio:
-      accessTokenSalt: mysuperrandomstring
-      jwtSecretKey: mysuperrandomstring
-      baseCurrency: EUR # or USD
+Ghostfolio is for you if you are...
 
-    # For more information checkout: https://artifacthub.io/packages/helm/bitnami/postgresql
-    postgresql:
-      enabled: true
-      auth:
-        username: ghostfolio-user
-        password: ghostfolio-password
-        database: ghostfolio-db
+- 💼 trading stocks, ETFs or cryptocurrencies on multiple platforms
+- 🏦 pursuing a buy & hold strategy
+- 🎯 interested in getting insights of your portfolio composition
+- 👻 valuing privacy and data ownership
+- 🧘 into minimalism
+- 🧺 caring about diversifying your financial resources
+- 🆓 interested in financial independence
+- 🙅 saying no to spreadsheets
+- 😎 still reading this list
 
-    # For more information checkout: https://artifacthub.io/packages/helm/bitnami/redis
-    redis:
-      enabled: true
-      architecture: standalone
-      auth:
-        enabled: true
-        password: redis-password
+## Features
 
-    ingress:
-      enabled: true
-      hosts:
-        - host: ghostfolio.domain.tld
-          paths:
-            - path: /
-              pathType: ImplementationSpecific
-    ```
+- ✅ Create, update and delete transactions
+- ✅ Multi account management
+- ✅ Portfolio performance: Return on Average Investment (ROAI) for `Today`, `WTD`, `MTD`, `YTD`, `1Y`, `5Y`, `Max`
+- ✅ Various charts
+- ✅ Static analysis to identify potential risks in your portfolio
+- ✅ Import and export transactions
+- ✅ Dark Mode
+- ✅ Zen Mode
+- ✅ Progressive Web App (PWA) with a mobile-first design
 
-### 1.2.1. Use an external PostgreSQL server
+<div align="center">
 
-By default, the chart deploys a _PostgreSQL_ server via a subchart dependency. However, if want to use your own instance, you can set the following values:
+<img src="./apps/client/src/assets/images/screenshot.png" width="300" alt="Image of a phone showing the Ghostfolio app open">
 
-```yaml
-postgresql:
-  enabled: false
-externalPostgresql:
-  host: postgres.domain.tld
-  port: 5432
-  auth:
-    username: external-ghostfolio-user
-    password: external-ghostfolio-password
-    database: external-ghostfolio-db
-  options: connect_timeout=300&sslmode=prefer
-```
+</div>
 
-### 1.2.2. Use an external Redis server
+## Technology Stack
 
-By default, the chart deploys a _Redis_ server via a subchart dependency. However, if want to use your own instance, you can set the following values:
+Ghostfolio is a modern web application written in [TypeScript](https://www.typescriptlang.org) and organized as an [Nx](https://nx.dev) workspace.
 
-```yaml
-redis:
-  enabled: false
-externalRedis:
-  host: redis.domain.fqdn
-  port: 6379
-  password: "" # Leave empty to disable authentication
-```
+### Backend
 
-<p align="right"><a href="#ghostfolio-helm-chart">back to top</a></p>
+The backend is based on [NestJS](https://nestjs.com) using [PostgreSQL](https://www.postgresql.org) as a database together with [Prisma](https://www.prisma.io) and [Redis](https://redis.io) for caching.
 
-## 1.3. Install the application
+### Frontend
 
-To deploy the application using Helm, follow these steps:
+The frontend is built with [Angular](https://angular.dev) and uses [Angular Material](https://material.angular.io) with utility classes from [Bootstrap](https://getbootstrap.com).
 
-### 1.3.1. Add the GitHub Helm repository (optional)
+## Self-hosting
+
+We provide official container images hosted on [Docker Hub](https://hub.docker.com/r/ghostfolio/ghostfolio) for `linux/amd64`, `linux/arm/v7` and `linux/arm64`.
+
+<div align="center">
+
+[<img src="./apps/client/src/assets/images/button-buy-me-a-coffee.png" width="150" alt="Buy me a coffee button"/>](https://www.buymeacoffee.com/ghostfolio)
+
+</div>
+
+### Supported Environment Variables
+
+| Name                     | Type                  | Default Value | Description                                                                                                                         |
+| ------------------------ | --------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| `ACCESS_TOKEN_SALT`      | `string`              |               | A random string used as salt for access tokens                                                                                      |
+| `API_KEY_COINGECKO_DEMO` | `string` (optional)   |               | The _CoinGecko_ Demo API key                                                                                                        |
+| `API_KEY_COINGECKO_PRO`  | `string` (optional)   |               | The _CoinGecko_ Pro API key                                                                                                         |
+| `DATABASE_URL`           | `string`              |               | The database connection URL, e.g. `postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@localhost:5432/${POSTGRES_DB}?sslmode=prefer` |
+| `HOST`                   | `string` (optional)   | `0.0.0.0`     | The host where the Ghostfolio application will run on                                                                               |
+| `JWT_SECRET_KEY`         | `string`              |               | A random string used for _JSON Web Tokens_ (JWT)                                                                                    |
+| `LOG_LEVELS`             | `string[]` (optional) |               | The logging levels for the Ghostfolio application, e.g. `["debug","error","log","warn"]`                                            |
+| `PORT`                   | `number` (optional)   | `3333`        | The port where the Ghostfolio application will run on                                                                               |
+| `POSTGRES_DB`            | `string`              |               | The name of the _PostgreSQL_ database                                                                                               |
+| `POSTGRES_PASSWORD`      | `string`              |               | The password of the _PostgreSQL_ database                                                                                           |
+| `POSTGRES_USER`          | `string`              |               | The user of the _PostgreSQL_ database                                                                                               |
+| `REDIS_DB`               | `number` (optional)   | `0`           | The database index of _Redis_                                                                                                       |
+| `REDIS_HOST`             | `string`              |               | The host where _Redis_ is running                                                                                                   |
+| `REDIS_PASSWORD`         | `string`              |               | The password of _Redis_                                                                                                             |
+| `REDIS_PORT`             | `number`              |               | The port where _Redis_ is running                                                                                                   |
+| `REQUEST_TIMEOUT`        | `number` (optional)   | `2000`        | The timeout of network requests to data providers in milliseconds                                                                   |
+
+### Run with Docker Compose
+
+#### Prerequisites
+
+- Basic knowledge of Docker
+- Installation of [Docker](https://www.docker.com/products/docker-desktop)
+- Create a local copy of this Git repository (clone)
+- Copy the file `.env.example` to `.env` and populate it with your data (`cp .env.example .env`)
+
+#### a. Run environment
+
+Run the following command to start the Docker images from [Docker Hub](https://hub.docker.com/r/ghostfolio/ghostfolio):
 
 ```bash
-helm repo add ghostfolio https://bythehugo.github.io/ghostfolio-helm/
-helm repo update
+docker compose -f docker/docker-compose.yml up -d
 ```
 
-### 1.3.2. Install the chart
+#### b. Build and run environment
+
+Run the following commands to build and start the Docker images:
 
 ```bash
-helm upgrade --install ghostfolio ghostfolio/ghostfolio -f ghostfolio.values.yaml
+docker compose -f docker/docker-compose.build.yml build
+docker compose -f docker/docker-compose.build.yml up -d
 ```
 
-You can also install the chart directly from sources:
+#### Setup
 
-```bash
-helm upgrade --install ghostfolio charts/ghostfolio -f ghostfolio.values.yaml
+1. Open http://localhost:3333 in your browser
+1. Create a new user via _Get Started_ (this first user will get the role `ADMIN`)
+
+#### Upgrade Version
+
+1. Update the _Ghostfolio_ Docker image
+   - Increase the version of the `ghostfolio/ghostfolio` Docker image in `docker/docker-compose.yml`
+   - Run the following command if `ghostfolio:latest` is set:
+     ```bash
+     docker compose -f docker/docker-compose.yml pull
+     ```
+
+1. Run the following command to start the new Docker image:
+   ```bash
+   docker compose -f docker/docker-compose.yml up -d
+   ```
+   The container will automatically apply any required database schema migrations during startup.
+
+### Home Server Systems (Community)
+
+Ghostfolio is available for various home server systems, including [CasaOS](https://github.com/bigbeartechworld/big-bear-casaos), [Home Assistant](https://github.com/lildude/ha-addon-ghostfolio), [Runtipi](https://www.runtipi.io/docs/apps-available), [TrueCharts](https://truecharts.org/charts/stable/ghostfolio), [Umbrel](https://apps.umbrel.com/app/ghostfolio), and [Unraid](https://unraid.net/community/apps?q=ghostfolio).
+
+## Development
+
+For detailed information on the environment setup and development process, please refer to [DEVELOPMENT.md](./DEVELOPMENT.md).
+
+## Public API
+
+### Authorization: Bearer Token
+
+Set the header for each request as follows:
+
+```
+"Authorization": "Bearer eyJh..."
 ```
 
-#### 1.3.2.1. Install a specific version of Ghostfolio
+You can get the _Bearer Token_ via `POST http://localhost:3333/api/v1/auth/anonymous` (Body: `{ "accessToken": "<INSERT_SECURITY_TOKEN_OF_ACCOUNT>" }`)
 
-If you want to install a specific version of _Ghostfolio_, you must define the `.image.tag` key in the `values.yaml` file or directly inline:
+Deprecated: `GET http://localhost:3333/api/v1/auth/anonymous/<INSERT_SECURITY_TOKEN_OF_ACCOUNT>` or `curl -s http://localhost:3333/api/v1/auth/anonymous/<INSERT_SECURITY_TOKEN_OF_ACCOUNT>`.
 
-```bash
-helm upgrade --install --set "image.tag=2.163.0" ghostfolio ghostfolio/ghostfolio
+### Health Check (experimental)
+
+#### Request
+
+`GET http://localhost:3333/api/v1/health`
+
+**Info:** No Bearer Token is required for health check
+
+#### Response
+
+##### Success
+
+`200 OK`
+
+```
+{
+  "status": "OK"
+}
 ```
 
-### 1.3.3. Verify the deployment
+### Import Activities
 
-```bash
-kubectl get all -l app=ghostfolio
+#### Prerequisites
+
+[Bearer Token](#authorization-bearer-token) for authorization
+
+#### Request
+
+`POST http://localhost:3333/api/v1/import`
+
+#### Body
+
+```
+{
+  "activities": [
+    {
+      "currency": "USD",
+      "dataSource": "YAHOO",
+      "date": "2021-09-15T00:00:00.000Z",
+      "fee": 19,
+      "quantity": 5,
+      "symbol": "MSFT",
+      "type": "BUY",
+      "unitPrice": 298.58
+    }
+  ]
+}
 ```
 
-Replace <namespace> with your target namespace if you specified one.
+| Field        | Type                | Description                                                         |
+| ------------ | ------------------- | ------------------------------------------------------------------- |
+| `accountId`  | `string` (optional) | Id of the account                                                   |
+| `comment`    | `string` (optional) | Comment of the activity                                             |
+| `currency`   | `string`            | `CHF` \| `EUR` \| `USD` etc.                                        |
+| `dataSource` | `string`            | `COINGECKO` \| `MANUAL` \| `YAHOO`                                  |
+| `date`       | `string`            | Date in the format `ISO-8601`                                       |
+| `fee`        | `number`            | Fee of the activity                                                 |
+| `quantity`   | `number`            | Quantity of the activity                                            |
+| `symbol`     | `string`            | Symbol of the activity (suitable for `dataSource`)                  |
+| `type`       | `string`            | `BUY` \| `DIVIDEND` \| `FEE` \| `INTEREST` \| `LIABILITY` \| `SELL` |
+| `unitPrice`  | `number`            | Price per unit of the activity                                      |
 
-<p align="right"><a href="#ghostfolio-helm-chart">back to top</a></p>
+#### Response
 
-## 1.4. Uninstall the application
+##### Success
 
-To uninstall the _Helm_ chart and remove all associated resources from your _Kubernetes_ cluster, follow these steps:
+`201 Created`
 
-1. Identify the release name you used when installing the chart. If you haven't changed the release name, it may be the default or the one you specified during installation.
+##### Error
 
-2. Run the following command to uninstall the release:
+`400 Bad Request`
 
-    ```bash
-    helm uninstall ghostfolio
-    ```
-
-3. Verify that the resources have been removed:
-
-    ```bash
-    kubectl get all -l app=ghostfolio
-    ```
-
-    This should return no resources related to the uninstalled release.
-
-**Note:** If you used custom namespaces during installation, include the `-n <namespace>` flag in the commands:
-
-```bash
-helm uninstall ghostfolio -n <namespace>
-kubectl get all -n <namespace> -l app=ghostfolio
+```
+{
+  "error": "Bad Request",
+  "message": [
+    "activities.1 is a duplicate activity"
+  ]
+}
 ```
 
-<p align="right"><a href="#ghostfolio-helm-chart">back to top</a></p>
+### Portfolio (experimental)
 
-## 1.5. License
+#### Prerequisites
 
-Distributed under the Apache 2.0 License. See `LICENSE` for more information.
+Grant access of type _Public_ in the _Access_ tab of _My Ghostfolio_.
 
-<p align="right"><a href="#ghostfolio-helm-chart">back to top</a></p>
+#### Request
 
-## 1.6. Contact
+`GET http://localhost:3333/api/v1/public/<INSERT_ACCESS_ID>/portfolio`
 
-Hugo CHUPIN - <hugo@chupin.xyz> - [hugo.chupin.xyz](https://hugo.chupin.xyz) - [@hugo.chupin.xyz](https://bsky.app/profile/hugo.chupin.xyz)
+**Info:** No Bearer Token is required for authorization
 
-Project link: [https://github.com/ByTheHugo/ghostfolio-helm](https://github.com/ByTheHugo/ghostfolio-helm)
+#### Response
 
-<p align="right"><a href="#ghostfolio-helm-chart">back to top</a></p>
+##### Success
+
+```
+{
+  "performance": {
+    "1d": {
+      "relativeChange": 0 // normalized from -1 to 1
+    };
+    "ytd": {
+      "relativeChange": 0 // normalized from -1 to 1
+    },
+    "max": {
+      "relativeChange": 0 // normalized from -1 to 1
+    }
+  }
+}
+```
+
+## Community Projects
+
+Discover a variety of community projects for Ghostfolio: https://github.com/topics/ghostfolio
+
+Are you building your own project? Add the `ghostfolio` topic to your _GitHub_ repository to get listed as well. [Learn more →](https://docs.github.com/en/articles/classifying-your-repository-with-topics)
+
+## Contributing
+
+Ghostfolio is **100% free** and **open source**. We encourage and support an active and healthy community that accepts contributions from the public - including you.
+
+Not sure what to work on? We have [some ideas](https://github.com/ghostfolio/ghostfolio/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22), even for [newcomers](https://github.com/ghostfolio/ghostfolio/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22). Please join the Ghostfolio [Slack](https://join.slack.com/t/ghostfolio/shared_invite/zt-vsaan64h-F_I0fEo5M0P88lP9ibCxFg) channel or post to [@ghostfolio\_](https://x.com/ghostfolio_) on _X_. We would love to hear from you.
+
+If you like to support this project, get [**Ghostfolio Premium**](https://ghostfol.io/en/pricing) or [**Buy me a coffee**](https://www.buymeacoffee.com/ghostfolio).
+
+## Analytics
+
+![Alt](https://repobeats.axiom.co/api/embed/281a80b2d0c4af1162866c24c803f1f18e5ed60e.svg 'Repobeats analytics image')
+
+## License
+
+© 2021 - 2025 [Ghostfolio](https://ghostfol.io)
+
+Licensed under the [AGPLv3 License](https://www.gnu.org/licenses/agpl-3.0.html).

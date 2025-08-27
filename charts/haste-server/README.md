@@ -1,118 +1,65 @@
-# haste-server
+# Hastebin Plus
+Hastebin Plus is an open-source Pastebin software written in node.js, which is easily installable in any network.  
+It bases upon [haste](https://github.com/seejohnrun/haste-server) and got enhanced in matters of **Design, Speed and Simplicity**.
 
-![Version: 3.4.2](https://img.shields.io/badge/Version-3.4.2-informational?style=flat-square) ![AppVersion: latest](https://img.shields.io/badge/AppVersion-latest-informational?style=flat-square)
+## Features
+* Paste code, logs and ... almost everything!
+* Syntax-Highlighting
+* Add static documents
+* Duplicate & edit pastes
+* Raw paste-view
 
-Simple text sharing
+## Installation
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/MarvinMenzerath/HastebinPlus)
 
-**This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/k8s-at-home/charts/issues/new/choose)**
+1. Install Git and node.js: `sudo apt-get install git nodejs`
+2. Clone this repository: `git clone https://github.com/MarvinMenzerath/HastebinPlus.git hastebin-plus`
+3. Open `config.json` and change the settings (if you want to)
+4. Install dependencies: `npm install`
+5. Start the application: `npm start`
 
-## Source Code
+## Update
+1. Pull changes from this repository: `git pull`
+2. Install new dependencies: `npm install`
 
-* <https://github.com/seejohnrun/haste-server>
-* <https://github.com/k8s-at-home/container-images>
+## Settings
+| Key                    | Description                                     | Default value |
+| ---------------------- | ----------------------------------------------- | ------------- |
+| `host`                 | The host the server runs on                     | `0.0.0.0`     |
+| `port`                 | The port the server runs on                     | `8080`        |
+| `dataPath`             | The directory where all pastes are stored       | `./data`      |
+| `keyLength`            | The length of the pastes' key                   | `10`          |
+| `maxLength`            | Maximum chars in a paste                        | `500000`      |
+| `createKey`            | Needs to be in front of paste to allow creation | ` `           |
+| `documents`            | Static documents to serve                       | See below     |
 
-## Requirements
-
-Kubernetes: `>=1.16.0-0`
-
-## Dependencies
-
-| Repository | Name | Version |
-|------------|------|---------|
-| https://library-charts.k8s-at-home.com | common | 4.5.2 |
-
-## TL;DR
-
-```console
-helm repo add k8s-at-home https://k8s-at-home.com/charts/
-helm repo update
-helm install haste-server k8s-at-home/haste-server
+### Default Config
+```json
+{
+	"host": "0.0.0.0",
+	"port": 8080,
+	"dataPath": "./data",
+	"keyLength": 10,
+	"maxLength": 500000,
+	"createKey": "",
+	"documents": {
+		"about": "./README.md",
+		"javaTest": "./documents/test.java"
+	}
+}
 ```
 
-## Installing the Chart
+## Authors
+* [haste](https://github.com/seejohnrun/haste-server): John Crepezzi - MIT License
+* [jQuery](https://github.com/jquery/jquery): MIT License
+* [highlight.js](https://github.com/isagalaev/highlight.js): Ivan Sagalaev - [License](https://github.com/isagalaev/highlight.js/blob/master/LICENSE)
+* [Application Icon](https://www.iconfinder.com/icons/285631/notepad_icon): [Paomedia](https://www.iconfinder.com/paomedia) - [CC BY 3.0 License](http://creativecommons.org/licenses/by/3.0/)
 
-To install the chart with the release name `haste-server`
+## License
+Copyright (c) 2014-2016 Marvin Menzerath
 
-```console
-helm install haste-server k8s-at-home/haste-server
-```
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## Uninstalling the Chart
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-To uninstall the `haste-server` deployment
-
-```console
-helm uninstall haste-server
-```
-
-The command removes all the Kubernetes components associated with the chart **including persistent volumes** and deletes the release.
-
-## Configuration
-
-Read through the [values.yaml](values.yaml) file. It has several commented out suggested values.
-Other values may be used from the [values.yaml](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common/values.yaml) from the [common library](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common).
-
-Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`.
-
-```console
-helm install haste-server \
-  --set env.TZ="America/New York" \
-    k8s-at-home/haste-server
-```
-
-Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart.
-
-```console
-helm install haste-server k8s-at-home/haste-server -f values.yaml
-```
-
-## Custom configuration
-
-N/A
-
-## Values
-
-**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common)
-
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| env | object | See below | environment variables. See [image docs](https://github.com/seejohnrun/haste-server) for more details. |
-| env.STORAGE_FILEPATH | string | `"/config"` | filepath for persistance |
-| env.STORAGE_TYPE | string | `"file"` | sets backend |
-| image.pullPolicy | string | `"IfNotPresent"` | image pull policy |
-| image.repository | string | `"ghcr.io/k8s-at-home/haste-server"` | image repository |
-| image.tag | string | `"latest"` | image tag |
-| ingress.main | object | See values.yaml | Enable and configure ingress settings for the chart under this key. |
-| persistence | object | See values.yaml | Configure persistence settings for the chart under this key. |
-| service | object | See values.yaml | Configures service settings for the chart. Normally this does not need to be modified. |
-| strategy.type | string | `"Recreate"` |  |
-
-## Changelog
-
-### Version 3.4.2
-
-#### Added
-
-N/A
-
-#### Changed
-
-* Upgraded `common` chart dependency to version 4.5.2
-
-#### Fixed
-
-N/A
-
-### Older versions
-
-A historical overview of changes can be found on [ArtifactHUB](https://artifacthub.io/packages/helm/k8s-at-home/haste-server?modal=changelog)
-
-## Support
-
-- See the [Docs](https://docs.k8s-at-home.com/our-helm-charts/getting-started/)
-- Open an [issue](https://github.com/k8s-at-home/charts/issues/new/choose)
-- Ask a [question](https://github.com/k8s-at-home/organization/discussions)
-- Join our [Discord](https://discord.gg/sTMX7Vh) community
-
-----------------------------------------------
-Autogenerated from chart metadata using [helm-docs v0.1.1](https://github.com/k8s-at-home/helm-docs/releases/v0.1.1)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

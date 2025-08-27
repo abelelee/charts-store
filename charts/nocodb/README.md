@@ -1,106 +1,215 @@
-# nocodb
+<h1 align="center" style="border-bottom: none">
+    <div>
+        <a style="color:#36f" href="https://www.nocodb.com">
+            <img src="/packages/nc-gui/assets/img/brand/nocodb-full.png" height="80" />
+            <br>
+    The Open Source Airtable Alternative 
+        </a>
+        <br>
+    </div>
+</h1>
 
-![Version: 0.73.0](https://img.shields.io/badge/Version-0.73.0-informational?style=flat-square) ![AppVersion: 0.264.2](https://img.shields.io/badge/AppVersion-0.264.2-informational?style=flat-square)
+<p align="center">
+NocoDB is the fastest and easiest way to build databases online.
+</p>
 
-nocodb - Open Source Airtable Alternative
 
-**This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/zekker6/helm-charts/issues/new)**
+<p align="center">
+    <a href="http://www.nocodb.com"><b>Website</b></a> •
+    <a href="https://discord.gg/5RgZmkW"><b>Discord</b></a> •
+    <a href="https://community.nocodb.com/"><b>Community</b></a> •
+    <a href="https://twitter.com/nocodb"><b>Twitter</b></a> •
+    <a href="https://www.reddit.com/r/NocoDB/"><b>Reddit</b></a> •
+    <a href="https://docs.nocodb.com/"><b>Documentation</b></a>
+</p>
 
-## Source Code
+![video avi](https://github.com/nocodb/nocodb/assets/86527202/e2fad786-f211-4dcb-9bd3-aaece83a6783)
 
-* <https://github.com/zekker6/helm-charts/tree/main/charts/apps/nocodb>
+<div align="center">
 
-## Requirements
+[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263434-75fe793d-42af-49e4-b964-d70920e41655.png">](markdown/readme/languages/chinese.md)
+[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263474-787d71e7-3a87-42a8-92a8-be1d1f55413d.png">](markdown/readme/languages/french.md)
+[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263531-fae58600-6616-4b43-95a0-5891019dd35d.png">](markdown/readme/languages/german.md)
+[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263589-3dbeda9a-0d2e-4bbd-b1fc-691404bb74fb.png">](markdown/readme/languages/spanish.md)
+[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263669-f567196a-d4e8-4143-a80a-93d3be32ba90.png">](markdown/readme/languages/portuguese.md)
+[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263707-ba4e04a4-268a-4626-91b8-048e572fd9f6.png">](markdown/readme/languages/italian.md)
+[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263770-38e3e79d-11d4-472e-ac27-ae0f17cf65c4.png">](markdown/readme/languages/japanese.md)
+[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263822-28fce9de-915a-44dc-962d-7a61d340e91d.png">](markdown/readme/languages/korean.md)
+[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263888-151d4ad1-7084-4943-97c9-56f28cd40b80.png">](markdown/readme/languages/russian.md)
 
-Kubernetes: `>=1.16.0-0`
+</div>
 
-## Dependencies
+<p align="center"><a href="markdown/readme/languages/README.md"><b>See other languages »</b></a></p>
 
-| Repository | Name | Version |
-|------------|------|---------|
-| https://charts.bitnami.com/bitnami | postgresql | 16.x |
-| https://zekker6.github.io/helm-charts | common | 0.5.2 |
+<img src="https://static.scarf.sh/a.png?x-pxid=c12a77cc-855e-4602-8a0f-614b2d0da56a" />
 
-## TL;DR
+# Join Our Community
 
-```console
-helm repo add zekker6 https://zekker6.github.io/helm-charts/
-helm repo update
-helm install nocodb zekker6/nocodb
+<a href="https://discord.gg/5RgZmkW" target="_blank">
+<img src="https://discordapp.com/api/guilds/661905455894888490/widget.png?style=banner3" alt="">
+</a>
+
+[![Stargazers repo roster for @nocodb/nocodb](http://reporoster.com/stars/nocodb/nocodb)](https://github.com/nocodb/nocodb/stargazers)
+
+# Installation
+
+## Docker with SQLite
+
+```bash 
+docker run -d \
+  --name noco \
+  -v "$(pwd)"/nocodb:/usr/app/data/ \
+  -p 8080:8080 \
+  nocodb/nocodb:latest
+  ```
+
+## Docker with PG
+```bash
+docker run -d \
+  --name noco \
+  -v "$(pwd)"/nocodb:/usr/app/data/ \
+  -p 8080:8080 \
+  -e NC_DB="pg://host.docker.internal:5432?u=root&p=password&d=d1" \
+  -e NC_AUTH_JWT_SECRET="569a1821-0a93-45e8-87ab-eb857f20a010" \
+  nocodb/nocodb:latest
 ```
 
-## Installing the Chart
+## Nix
 
-To install the chart with the release name `nocodb`
-
-```console
-helm install nocodb zekker6/nocodb
+```
+nix run github:nocodb/nocodb
 ```
 
-## Uninstalling the Chart
+## NixOS
+To use NocoDB as a NixOS module, a flake.nix would be as follows:
 
-To uninstall the `nocodb` deployment
+```
+{
+  description = "Bane's NixOS configuration";
 
-```console
-helm uninstall nocodb
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nocodb.url = "github:nocodb/nocodb";
+  };
+
+  outputs = inputs@{ nixpkgs, nocodb, ... }: {
+    nixosConfigurations = {
+      hostname = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        modules = [
+          ./configuration.nix
+          nocodb.nixosModules.nocodb
+
+          {
+            services.nocodb.enable = true;
+          }
+        ];
+      };
+    };
+  };
+}
 ```
 
-The command removes all the Kubernetes components associated with the chart **including persistent volumes** and deletes the release.
+## Auto-upstall
+Auto-upstall is a single command that sets up NocoDB on a server for production usage.
+Behind the scenes it auto-generates docker-compose for you.
 
-## Configuration
-
-Read through the [values.yaml](./values.yaml) file. It has several commented out suggested values.
-Other values may be used from the [values.yaml](https://github.com/zekker6/helm-charts/blob/main/charts/library/common/values.yaml) from the [common library](https://github.com/zekker6/helm-charts/blob/main/charts/library/common).
-
-Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`.
-
-```console
-helm install nocodb \
-  --set env.TZ="America/New York" \
-    zekker6/nocodb
+```bash
+bash <(curl -sSL http://install.nocodb.com/noco.sh) <(mktemp)
 ```
 
-Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart.
+Auto-upstall does the following: 🕊
+- 🐳 Automatically installs all pre-requisites like docker, docker-compose
+- 🚀 Automatically installs NocoDB with PostgreSQL, Redis, Minio, Traefik gateway using Docker Compose. 🐘 🗄️ 🌐
+- 🔄 Automatically upgrades NocoDB to the latest version when you run the command again.
+- 🔒 Automatically setups SSL and also renews it. Needs a domain or subdomain as input while installation.
+> install.nocodb.com/noco.sh script can be found [here in our github](https://raw.githubusercontent.com/nocodb/nocodb/develop/docker-compose/1_Auto_Upstall/noco.sh)
 
-```console
-helm install nocodb zekker6/nocodb -f values.yaml
-```
 
-## Custom configuration
+## Other Methods
 
-N/A
+> Binaries are only for quick testing locally.
 
-## Values
+| Install Method                | Command to install                                                                                                                                                                                                                                                                                                                                                         |
+|-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 🍏 MacOS arm64 <br>(Binary)   | `curl http://get.nocodb.com/macos-arm64 -o nocodb -L && chmod +x nocodb && ./nocodb`                                                                                                                                                                                                                                                                                       |
+| 🍏 MacOS x64 <br>(Binary)     | `curl http://get.nocodb.com/macos-x64 -o nocodb -L && chmod +x nocodb && ./nocodb`                                                                                                                                                                                                                                                                                         |
+| 🐧 Linux arm64 <br>(Binary)   | `curl http://get.nocodb.com/linux-arm64 -o nocodb -L && chmod +x nocodb && ./nocodb`                                                                                                                                                                                                                                                                                       |
+| 🐧 Linux x64 <br>(Binary)     | `curl http://get.nocodb.com/linux-x64 -o nocodb -L && chmod +x nocodb && ./nocodb`                                                                                                                                                                                                                                                                                         |
+| 🪟 Windows arm64 <br>(Binary) | `iwr http://get.nocodb.com/win-arm64.exe -OutFile Noco-win-arm64.exe && .\Noco-win-arm64.exe`                                                                                                                                                                                                                                                                              |
+| 🪟 Windows x64 <br>(Binary)   | `iwr http://get.nocodb.com/win-x64.exe -OutFile Noco-win-x64.exe && .\Noco-win-x64.exe`                                                                                                                                                                                                                                                                                    |
 
-**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/zekker6/helm-charts/blob/main/charts/library/common)
 
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| env | object | See below | See the following files for additional environment variables: https://github.com/nocodb/nocodb#docker |
-| image.pullPolicy | string | `"IfNotPresent"` | image pull policy |
-| image.repository | string | `"nocodb/nocodb"` | image repository |
-| image.tag | string | chart.appVersion | image tag |
-| ingress.main | object | See values.yaml | Enable and configure ingress settings for the chart under this key. |
-| persistence.data | object | See values.yaml | Configure persistence for data to use sqlite backend. |
-| postgresql.architecture | string | `"standalone"` |  |
-| postgresql.auth.database | string | `"nocodb"` |  |
-| postgresql.auth.password | string | `"nocodb"` |  |
-| postgresql.auth.postgresPassword | string | `"nocodb"` |  |
-| postgresql.auth.username | string | `"nocodb"` |  |
-| postgresql.enabled | bool | `false` |  |
-| postgresql.primary.persistence.accessModes[0] | string | `"ReadWriteOnce"` |  |
-| postgresql.primary.persistence.enabled | bool | `true` |  |
-| postgresql.primary.persistence.size | string | `"100Mi"` |  |
-| service | object | See values.yaml | Configures service settings for the chart. |
+> When running locally access nocodb by visiting: [http://localhost:8080/dashboard](http://localhost:8080/dashboard)
 
-### Older versions
+For more installation methods, please refer to [our docs](https://docs.nocodb.com/category/installation)
 
-A historical overview of changes can be found on [ArtifactHUB](https://artifacthub.io/packages/helm/zekker6/nocodb?modal=changelog)
+# Screenshots
+![2](https://github.com/nocodb/nocodb/assets/86527202/a127c05e-2121-4af2-a342-128e0e2d0291)
+![3](https://github.com/nocodb/nocodb/assets/86527202/674da952-8a06-4848-a0e8-a7b02d5f5c88)
+![4](https://github.com/nocodb/nocodb/assets/86527202/cbc5152a-9caf-4f77-a8f7-92a9d06d025b)
+![5](https://github.com/nocodb/nocodb/assets/86527202/dc75dfdc-c486-4f5a-a853-2a8f9e6b569a)
 
-## Support
+![5](https://user-images.githubusercontent.com/35857179/194844886-a17006e0-979d-493f-83c4-0e72f5a9b716.png)
+![7](https://github.com/nocodb/nocodb/assets/86527202/be64e619-7295-43e2-aa95-cace4462b17f)
+![8](https://github.com/nocodb/nocodb/assets/86527202/4538bf5a-371f-4ec1-a867-8197e5824286)
 
-- See the [Docs](http://zekker6.github.io/helm-charts/docs/)
-- Open an [issue](https://github.com/zekker6/helm-charts/issues/new)
+![8](https://user-images.githubusercontent.com/35857179/194844893-82d5e21b-ae61-41bd-9990-31ad659bf490.png)
+![9](https://user-images.githubusercontent.com/35857179/194844897-cfd79946-e413-4c97-b16d-eb4d7678bb79.png)
+![10](https://user-images.githubusercontent.com/35857179/194844902-c0122570-0dd5-41cf-a26f-6f8d71fefc99.png)
+![11](https://user-images.githubusercontent.com/35857179/194844903-c1e47f40-e782-4f5d-8dce-6449cc70b181.png)
+![12](https://user-images.githubusercontent.com/35857179/194844907-09277d3e-cbbf-465c-9165-6afc4161e279.png)
 
-----------------------------------------------
-Autogenerated from chart metadata using [helm-docs v1.14.2](https://github.com/norwoodj/helm-docs/releases/v1.14.2)
+# Features
+
+### Rich Spreadsheet Interface
+
+- ⚡ &nbsp;Basic Operations: Create, Read, Update and Delete Tables, Columns, and Rows
+- ⚡ &nbsp;Fields Operations: Sort, Filter, Group, Hide / Unhide Columns
+- ⚡ &nbsp;Multiple Views Types: Grid (By default), Gallery, Form, Kanban and Calendar View
+- ⚡ &nbsp;View Permissions Types: Collaborative Views, & Locked Views
+- ⚡ &nbsp;Share Bases / Views: either Public or Private (with Password Protected)
+- ⚡ &nbsp;Variant Cell Types: ID, Links, Lookup, Rollup, SingleLineText, Attachment, Currency, Formula, User, etc
+- ⚡ &nbsp;Access Control with Roles: Fine-grained Access Control at different levels
+- ⚡ &nbsp;and more ...
+
+### App Store for Workflow Automations
+
+We provide different integrations in three main categories. See <a href="https://docs.nocodb.com/account-settings/oss-specific-details/#app-store" target="_blank">App Store</a> for details.
+
+- ⚡ &nbsp;Chat: Slack, Discord, Mattermost, and etc
+- ⚡ &nbsp;Email: AWS SES, SMTP, MailerSend, and etc
+- ⚡ &nbsp;Storage: AWS S3, Google Cloud Storage, Minio, and etc
+
+### Programmatic Access
+
+We provide the following ways to let users programmatically invoke actions. You can use a token (either JWT or Social Auth) to sign your requests for authorization to NocoDB.
+
+- ⚡ &nbsp;REST APIs
+- ⚡ &nbsp;NocoDB SDK
+
+# Contributing
+
+Please refer to [Contribution Guide](https://github.com/nocodb/nocodb/blob/master/.github/CONTRIBUTING.md).
+
+# Why are we building this?
+
+Most internet businesses equip themselves with either spreadsheet or a database to solve their business needs. Spreadsheets are used by Billion+ humans collaboratively every single day. However, we are way off working at similar speeds on databases which are way more powerful tools when it comes to computing. Attempts to solve this with SaaS offerings have meant horrible access controls, vendor lock-in, data lock-in, abrupt price changes & most importantly a glass ceiling on what's possible in the future.
+
+# Our Mission
+
+Our mission is to provide the most powerful no-code interface for databases that is open source to every single internet business in the world. This would not only democratise access to a powerful computing tool but also bring forth a billion+ people who will have radical tinkering-and-building abilities on the internet.
+
+# License
+
+<p>
+This project is licensed under <a href="./LICENSE">AGPLv3</a>.
+</p>
+
+# Contributors
+
+Thank you for your contributions! We appreciate all the contributions from the community.
+
+<a href="https://github.com/nocodb/nocodb/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nocodb/nocodb" />
+</a>

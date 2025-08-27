@@ -1,91 +1,55 @@
-# emby Helm Chart
-![Version: 1.3.1](https://img.shields.io/badge/Version-1.3.1-informational?style=flat-square)
-[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/emby)](https://artifacthub.io/packages/search?repo=emby)
+Emby Server
+============
 
-From https://emby.media:
-> Emby Server is a home media server built on top of other popular open source technologies such as Service Stack, jQuery, jQuery mobile, and .NET Core. It features a REST-based API with built-in documention to facilitate client development. We also have client libraries for our API to enable rapid development.
+Emby Server is a personal media server with apps on just about every device.
 
-## Get Repo Info
+It features a REST-based API with built-in documention to facilitate client development. We also have client libraries for our API to enable rapid development.
 
-    helm repo add my-emby https://pmoscode-helm.github.io/emby/
-    helm repo update
+## Emby Apps
 
-## Install chart
+- [Android Mobile (Play Store)](https://play.google.com/store/apps/details?id=com.mb.android "Android Mobile (Play Store)")
+- [Android Mobile (Amazon)](http://www.amazon.com/Emby-for-Android/dp/B00GVH9O0I "Android Mobile (Amazon)")
+- [Android TV](https://play.google.com/store/apps/details?id=tv.emby.embyatv "Android TV")
+- [Amazon Fire TV](http://www.amazon.com/Emby-for-Fire-TV/dp/B00VVJKTW8 "Amazon Fire TV")
+- [HTML5](http://app.emby.media "HTML5")
+- [iPad](https://itunes.apple.com/us/app/emby/id992180193?ls=1&mt=8 "iPad")
+- [iPhone](https://itunes.apple.com/us/app/emby/id992180193?ls=1&mt=8 "iPhone")
+- [Kodi](http://emby.media/download/ "Kodi")
+- [Media Portal](http://www.team-mediaportal.com/ "Media Portal")
+- [Roku](https://www.roku.com/channels#!details/44191/emby "Roku")
+- [Windows Desktop](http://emby.media/download/ "Windows Desktop")
+- [Windows Media Center](http://emby.media/download/ "Windows Media Center")
+- [Windows Phone](http://www.windowsphone.com/s?appid=f4971ed9-f651-4bf6-84bb-94fd98613b86 "Windows Phone")
+- [Windows 8](http://apps.microsoft.com/windows/en-us/app/media-browser/ad55a2f0-9897-47bd-8944-bed3aefd5d06 "Windows 8.1")
 
-    helm install [RELEASE_NAME] my-emby/emby
+## New Users ##
 
-The command deploys emby on the Kubernetes cluster in the default configuration.
+If you're a new user looking to install Emby Server, please head over to [emby.media](http://www.emby.media/ "emby.media")
 
-See configuration below.
+## Developer Info ##
 
-See [helm install](https://helm.sh/docs/helm/helm_install/) for command documentation.
+[Api Docs](https://github.com/MediaBrowser/MediaBrowser/wiki "Api Workflow")
 
-## Uninstall Chart
+[How to Build a Server Plugin](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin "How to build a server plugin")
 
-    helm uninstall [RELEASE_NAME]
 
-This removes all the Kubernetes components associated with the chart and deletes the release.
+## Visit our community: ##
 
-See [helm uninstall](https://helm.sh/docs/helm/helm_uninstall/) for command documentation.
+http://emby.media/community
 
-## Upgrading Chart
+## Images
 
-    helm upgrade [RELEASE_NAME] [CHART] --install
+![Android](https://dl.dropboxusercontent.com/u/4038856/android1.png)
+![Android](https://dl.dropboxusercontent.com/u/4038856/android2.png)
+![Html5](https://github.com/MediaBrowser/MediaBrowser.Resources/raw/master/apps/html5.png)
+![iOS](https://github.com/MediaBrowser/MediaBrowser.Resources/raw/master/apps/ios_1.jpg)
+![iOS](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/ios_2.jpg)
+![Emby Theater](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/mbt.png)
+![Emby Theater](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/mbt1.png)
+![Windows Phone](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/winphone.png)
+![Roku](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/roku2.jpg)
+![iOS](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/ios_3.jpg)
+![Dashboard](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/dashboard.png)
+![iOS](http://i.imgur.com/prrzxMc.jpg)
+![iOS](http://i.imgur.com/c9Vd1w5.jpg)
 
-See [helm upgrade](https://helm.sh/docs/helm/helm_upgrade/) for command documentation.
-
-## Values
-
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| additionalVolumeMounts | list | `[]` | mountpoint(s) of the additional volumes inside the container |
-| additionalVolumes | list | `[]` | additional volume(s) to mount into the container |
-| gid | int | `100` | the GID to run emby as |
-| gidlist | int | `100` | a comma-separated list of additional GIDs to run emby as |
-| image.pullPolicy | string | `"Always"` | pull policy |
-| image.repository | string | `"emby/embyserver"` | repository with Emby image |
-| image.tag | string | `""` | current version of the image. Default: Charts appVersion. |
-| imagePullSecrets | list | `[]` | imagePullSecrets (not needed, if default image is used) |
-| ingress | object | `{"annotations":{},"className":"","enabled":false,"hosts":[{"host":"chart-example.local","paths":[{"path":"/","pathType":"ImplementationSpecific"}]}],"tls":[]}` | Configure ingress. |
-| livenessProbe | object | `{"httpGet":{"path":"/","port":"http"}}` | liveness probe configuration |
-| nfsMounts.enabled | bool | `false` | enable mounting of nfs exports |
-| nfsMounts.mounts[0] | object | `{"capacity":"20Gi","exportPath":"/movies","mountPath":"/movies","name":"content","nfsServer":"xxx.xxx.xxx.xxx","readOnly":false}` | name of mount |
-| nfsMounts.mounts[0].capacity | string | `"20Gi"` | desired capacity (usually not needed for nfs) |
-| nfsMounts.mounts[0].exportPath | string | `"/movies"` | export path on nfs server |
-| nfsMounts.mounts[0].mountPath | string | `"/movies"` | mount path on container |
-| nfsMounts.mounts[0].nfsServer | string | `"xxx.xxx.xxx.xxx"` | ip or dns of nfs server |
-| nfsMounts.mounts[0].readOnly | bool | `false` | mark mount as readonly |
-| persistence.accessMode | string | `"ReadWriteOnce"` | storage access mode |
-| persistence.enabled | bool | `false` | enable persistence? |
-| persistence.existingClaim | string | `nil` | existing claim |
-| persistence.size | string | `"20Gi"` | storage size |
-| persistence.storageClass | string | `nil` | desired storageClass |
-| podSecurityContext | object | `{}` | podSecurityContext configuration |
-| readinessProbe | object | `{"httpGet":{"path":"/","port":"http"}}` | readiness probe configuration |
-| securityContext | object | `{"allowPrivilegeEscalation":false}` | securityContext configuration |
-| service.port | int | `8096` | service port |
-| service.type | string | `"ClusterIP"` | service type |
-| serviceAccount.annotations | object | `{}` | add annotations to serviceAccount |
-| serviceAccount.automount | bool | `true` | automatically mount a ServiceAccount's API credentials? |
-| serviceAccount.create | bool | `true` | enable serviceAccount |
-| serviceAccount.name | string | `""` | name of the serviceAccount (will be generated if empty) |
-| uid | int | `1000` | the UID to run emby as |
-
-## Maintainers
-
-| Name | Email | Url |
-| ---- | ------ | --- |
-| pmoscode | <info@pmoscode.de> | <https://pmoscode.de> |
-
-## Contributing
-
-If you want to add features or bugfixes, please open an issue (either feature or bug) and provide also an unittest (https://github.com/helm-unittest/helm-unittest).
-To make things easier, you can use Taskfile (https://taskfile.dev/) to get a small shortcut for some useful commands.
-
-You also need to copy the ".env-template" file as ".env" and configure it for your needs.
-
-The Taskfile itself needs this tools to run the tasks:
-- https://helm.sh/docs/intro/quickstart/
-- https://github.com/norwoodj/helm-docs
-- https://github.com/helm-unittest/helm-unittest/
-- https://github.com/pawamoy/git-changelog

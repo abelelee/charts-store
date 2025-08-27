@@ -211,7 +211,7 @@ volumePermissions:
   image:
     registry: cloudapp.registry
     repository: cloud-app/minideb:latest
-    tag: "latest"
+    tag: app.image.tag
     pullPolicy: Always
     ## Optionally specify an array of imagePullSecrets.
     ## Secrets must be manually created in the namespace.

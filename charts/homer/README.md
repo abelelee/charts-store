@@ -1,108 +1,143 @@
-# [`homer`](https://charts.pascaliske.dev/charts/homer/)
+<h1 align="center">
+ <img
+  width="180"
+  alt="Homer's donut"
+  src="https://raw.githubusercontent.com//bastienwirtz/homer/main/public/logo.png">
+    <br/>
+    Homer
+</h1>
 
-> A Helm chart for Homer
+<h4 align="center">
+ A dead simple static <strong>HOM</strong>epage for your serv<strong>ER</strong> to keep your services on hand, from a simple <code>yaml</code> configuration file.
+</h4>
+<p align="center">
+  <a href="https://www.buymeacoffee.com/bastien" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<p>
+<p align="center">
+ <a href="https://opensource.org/licenses/Apache-2.0"><img
+  alt="License: Apache 2"
+  src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
+  <a href="https://github.com/bastienwirtz/homer/releases/latest/download/homer.zip"><img
+  alt="Download homer static build"
+  src="https://img.shields.io/badge/Download-homer.zip-orange"></a>
+ <a href="https://twitter.com/acdlite/status/974390255393505280"><img
+  alt="speed-blazing"
+  src="https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-red"></a>
+ <a href="https://github.com/awesome-selfhosted/awesome-selfhosted"><img
+  alt="Awesome"
+  src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"></a>
+</p>
 
-[![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ](https://charts.pascaliske.dev/charts/homer/)[![Version: 2.2.0](https://img.shields.io/badge/Version-2.2.0-informational?style=flat-square) ](https://charts.pascaliske.dev/charts/homer/)[![AppVersion: v25.05.2](https://img.shields.io/badge/AppVersion-v25.05.2-informational?style=flat-square) ](https://charts.pascaliske.dev/charts/homer/)
+<p align="center">
+ <strong>
+  <a href="https://homer-demo.netlify.app">Demo</a>
+  •
+  <a href="https://hub.docker.com/r/b4bz/homer">Docker Hub</a>
+  •
+  <a href="#get-started">Get started</a>
+ </strong>
+</p>
 
-* <https://github.com/pascaliske/helm-charts>
-* <https://github.com/bastienwirtz/homer>
+## Highlights
 
-## Requirements
+- ⚡️ Lightweight & Fast
+- 🥱 Low / No maintenance
+- 📄 Simple [yaml](http://yaml.org/) file configuration
+- ➕ Installable (pwa)
+- 🧠 Smart cards
+- 🔍️ Fuzzy search
+- 📂 Multi pages & item grouping
+- 🎨 Theme customization
+- ⌨️ keyboard shortcuts:
+  - <kbd>/</kbd> Start searching.
+  - <kbd>Escape</kbd> Stop searching.
+  - <kbd>Enter</kbd> Open the first matching result (respects the bookmark's `_target` property).
+  - <kbd>Alt</kbd> (or <kbd>Option</kbd>) + <kbd>Enter</kbd> Open the first matching result in a new tab.
 
-- [`helm`](https://helm.sh) - Refer to their [docs](https://helm.sh/docs) to get started.
+## Table of Contents
 
-## Usage
+- [Getting started](#get-started)
+- [Kubernetes Installation](docs/kubernetes.md)
+- [Configuration](docs/configuration.md)
+- [Theming](docs/theming.md)
+- [Smart cards](docs/customservices.md)
+- [Tips & tricks](docs/tips-and-tricks.md)
+- [Development](docs/development.md)
+- [Troubleshooting](docs/troubleshooting.md)
 
-To use this chart add the repo as follows:
+## Get started
+
+Homer is a full static html/js dashboard, based on a simple yaml configuration file. See [documentation](docs/configuration.md) for information about the configuration (`assets/config.yml`) options.
+
+It's meant to be served by an HTTP server, **it will not work if you open the index.html directly over file:// protocol**.
+
+### Using docker
+
+The configuration directory is bind mounted to make your dashboard easy to maintain.
+
+**Start the container with `docker run`**
 
 ```sh
-helm repo add pascaliske https://charts.pascaliske.dev
+# Make sure your local config directory exists
+docker run -d \
+  --name homer \
+  -p 8080:8080 \
+  --mount type=bind,source="/path/to/config/dir",target=/www/assets \
+  --restart=unless-stopped \
+  b4bz/homer:latest
 ```
 
-If you had already added this repo earlier, run `helm repo update` to retrieve the latest versions of the packages.
+> [!NOTE]  
+> The container will run using a user uid and gid 1000 by default, add `--user <your-UID>:<your-GID>` to the docker command to adjust it if necessary. Make sure this match the permissions of your assets directory.
 
-To install this chart simply run the following command:
+**or `docker-compose`**
+
+```yaml
+services:
+  homer:
+    image: b4bz/homer
+    container_name: homer
+    volumes:
+      - /path/to/config/dir:/www/assets # Make sure your local config directory exists
+    ports:
+      - 8080:8080
+    user: 1000:1000 # default
+    environment:
+      - INIT_ASSETS=1 # default, requires the config directory to be writable for the container user (see user option)
+    restart: unless-stopped
+```
+
+**Environment variables:**
+
+- **`INIT_ASSETS`** (default: `1`)
+Install example configuration file & assets (favicons, ...) to help you get started.
+
+- **`SUBFOLDER`** (default: `null`)
+If you would like to host Homer in a subfolder, (ex: *<http://my-domain/homer>*), set this to the subfolder path (ex `/homer`).
+
+- **`PORT`** (default: `8080`)
+If you would like to change internal port of Homer from default `8080` to your port choice.
+
+- **`IPV6_DISABLE`** (default: 0)
+Set to `1` to disable listening on IPv6.
+
+### Using the release tarball (prebuilt, ready to use)
+
+Download and extract the latest release (`homer.zip`) from the [release page](https://github.com/bastienwirtz/homer/releases), rename the `assets/config.yml.dist` file to `assets/config.yml`, and put it behind a web server.
 
 ```sh
-helm install homer pascaliske/homer
+wget https://github.com/bastienwirtz/homer/releases/latest/download/homer.zip
+unzip homer.zip -d homer
+cd homer
+cp assets/config.yml.dist assets/config.yml
+pnpx http-server # or python -m http.server 8010 or any web server.
 ```
 
-To uninstall this chart simply run the following command:
+### Build manually
 
 ```sh
-helm delete homer
+pnpm install
+pnpm build
 ```
 
-## Values
-
-The following values can be used to adjust the helm chart.
-
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| additionalContainers | object | `{}` | Specify any additional containers here as dictionary items - each should have it's own key. |
-| affinity | object | `{}` | Pod-level affinity. More info [here](https://kubernetes.io/docs/reference/kubernetes-api/workload-resources/pod-v1/#scheduling). |
-| certificate.annotations | object | `{}` | Additional annotations for the certificate object. |
-| certificate.create | bool | `false` | Create an Certificate object for the exposed chart. |
-| certificate.dnsNames | list | `[]` | List of subject alternative names for the certificate. |
-| certificate.issuerRef.kind | string | `"ClusterIssuer"` | Type of the referenced certificate issuer. Can be "Issuer" or "ClusterIssuer". |
-| certificate.issuerRef.name | string | `""` | Name of the referenced certificate issuer. |
-| certificate.labels | object | `{}` | Additional labels for the certificate object. |
-| certificate.secretName | string | `""` | Name of the secret in which the certificate will be stored. Defaults to the first item in dnsNames. |
-| configMap.annotations | object | `{}` | Additional annotations for the config map object. |
-| configMap.config | string | `"title: Dashboard\nservices: {}\n"` | String containing the [configuration of homer](https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md). |
-| configMap.create | bool | `true` | Create a new config map object. |
-| configMap.existingConfigMap | string | `""` | Use an existing config map object. |
-| configMap.key | string | `"config.yml"` | Specify a different key inside config map object. |
-| configMap.labels | object | `{}` | Additional labels for the config map object. |
-| configMap.mountPath | string | `"/www/assets"` | Mount path of the config map object. |
-| controller.annotations | object | `{}` | Additional annotations for the controller object. |
-| controller.enabled | bool | `true` | Create a workload for this chart. |
-| controller.kind | string | `"Deployment"` | Type of the workload object. |
-| controller.labels | object | `{}` | Additional labels for the controller object. |
-| controller.replicas | int | `1` | The number of replicas. |
-| controller.updateStrategy | object | `{}` | The controller update strategy. Currently only applies to controllers of kind `Deployment`. |
-| env[0] | object | `{"name":"TZ","value":"UTC"}` | Timezone for the container. |
-| fullnameOverride | string | `""` |  |
-| image.pullPolicy | string | `"IfNotPresent"` | The pull policy for the controller. |
-| image.registry | string | `"ghcr.io"` | The registry to pull the image from. |
-| image.repository | string | `"bastienwirtz/homer"` | The repository to pull the image from. |
-| image.tag | string | `.Chart.AppVersion` | The docker tag, if left empty chart's appVersion will be used. |
-| ingressRoute.annotations | object | `{}` | Additional annotations for the ingress route object. |
-| ingressRoute.create | bool | `false` | Create an IngressRoute object for exposing this chart. |
-| ingressRoute.entryPoints | list | `[]` | List of [entry points](https://doc.traefik.io/traefik/routing/routers/#entrypoints) on which the ingress route will be available. |
-| ingressRoute.labels | object | `{}` | Additional labels for the ingress route object. |
-| ingressRoute.middlewares | list | `[]` | List of [middleware objects](https://doc.traefik.io/traefik/routing/providers/kubernetes-crd/#kind-middleware) for the ingress route. |
-| ingressRoute.rule | string | `""` | [Matching rule](https://doc.traefik.io/traefik/routing/routers/#rule) for the underlying router. |
-| ingressRoute.tlsSecretName | string | `""` | Use an existing secret containing the TLS certificate. |
-| nameOverride | string | `""` |  |
-| ports.http.enabled | bool | `true` | Enable the port inside the `controller` and `Service` objects. |
-| ports.http.nodePort | string | `nil` | The external port used if `.service.type` == `NodePort`. |
-| ports.http.port | int | `8080` | The port used as internal port and cluster-wide port if `.service.type` == `ClusterIP`. |
-| ports.http.protocol | string | `"TCP"` | The protocol used for the service. |
-| resources | object | `{}` | Compute resources used by the container. More info [here](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/). |
-| securityContext | object | `{"runAsGroup":1000,"runAsNonRoot":true,"runAsUser":1000}` | Pod-level security attributes. More info [here](https://kubernetes.io/docs/reference/kubernetes-api/workload-resources/pod-v1/#security-context). |
-| securityContext.runAsGroup | int | `1000` | Specify the group ID the application will run as |
-| securityContext.runAsNonRoot | bool | `true` | Enable validation that the container must run as non-root user |
-| securityContext.runAsUser | int | `1000` | Specify the user ID the application will run as |
-| service.annotations | object | `{}` | Additional annotations for the service object. |
-| service.clusterIP | string | `""` | ClusterIP used if service type is `ClusterIP`. |
-| service.enabled | bool | `true` | Create a service for exposing this chart. |
-| service.labels | object | `{}` | Additional labels for the service object. |
-| service.loadBalancerIP | string | `""` | LoadBalancerIP if service type is `LoadBalancer`. |
-| service.loadBalancerSourceRanges | list | `[]` | Allowed addresses when service type is `LoadBalancer`. |
-| service.type | string | `"ClusterIP"` | The service type used. |
-| serviceAccount.annotations | object | `{}` | Additional annotations for the role and role binding objects. |
-| serviceAccount.create | bool | `true` | Create a `ServiceAccount` object. |
-| serviceAccount.labels | object | `{}` | Additional labels for the role and role binding objects. |
-| serviceAccount.name | string | `""` | Specify the service account used for the controller. |
-| tolerations | list | `[]` | Pod-level tolerations. More info [here](https://kubernetes.io/docs/reference/kubernetes-api/workload-resources/pod-v1/#scheduling). |
-
-## Maintainers
-
-| Name | Email | Url |
-| ---- | ------ | --- |
-| pascaliske | <info@pascaliske.dev> | <https://pascaliske.dev> |
-
-## License
-
-[MIT](../LICENSE.md) – © 2025 [Pascal Iske](https://pascaliske.dev)
+Then your dashboard is ready to use in the `/dist` directory.

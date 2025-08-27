@@ -1,97 +1,107 @@
-# docuseal
+<h1 align="center" style="border-bottom: none">
+  <div>
+    <a href="https://www.docuseal.com">
+      <img  alt="DocuSeal" src="https://github.com/docusealco/docuseal/assets/5418788/c12cd051-81cd-4402-bc3a-92f2cfdc1b06" width="80" />
+      <br>
+    </a>
+    DocuSeal
+  </div>
+</h1>
+<h3 align="center">
+  Open source document filling and signing
+</h3>
+<p align="center">
+  <a href="https://hub.docker.com/r/docuseal/docuseal">
+    <img alt="Docker releases" src="https://img.shields.io/docker/v/docuseal/docuseal">
+  </a>
+  <a href="https://discord.gg/qygYCDGck9">
+    <img src="https://img.shields.io/discord/1125112641170448454?logo=discord"/>
+  </a>
+  <a href="https://twitter.com/intent/follow?screen_name=docusealco">
+    <img src="https://img.shields.io/twitter/follow/docusealco?style=social" alt="Follow @docusealco" />
+  </a>
+</p>
+<p>
+DocuSeal is an open source platform that provides secure and efficient digital document signing and processing. Create PDF forms to have them filled and signed online on any device with an easy-to-use, mobile-optimized web tool.
+</p>
+<h2 align="center">
+  <a href="https://demo.docuseal.tech">✨ Live Demo</a>
+  <span>|</span>
+  <a href="https://docuseal.com/sign_up">☁️ Try in Cloud</a>
+</h2>
 
-![Version: 1.79.0](https://img.shields.io/badge/Version-1.79.0-informational?style=flat-square) ![AppVersion: 2.0.9](https://img.shields.io/badge/AppVersion-2.0.9-informational?style=flat-square)
+[![Demo](https://github.com/docusealco/docuseal/assets/5418788/d8703ea3-361a-423f-8bfe-eff1bd9dbe14)](https://demo.docuseal.tech)
 
-docuseal helm package
+## Features
+- PDF form fields builder (WYSIWYG)
+- 12 field types available (Signature, Date, File, Checkbox etc.)
+- Multiple submitters per document
+- Automated emails via SMTP
+- Files storage on disk or AWS S3, Google Storage, Azure Cloud
+- Automatic PDF eSignature
+- PDF signature verification
+- Users management
+- Mobile-optimized
+- 6 UI languages with signing available in 14 languages
+- API and Webhooks for integrations
+- Easy to deploy in minutes
 
-**This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/zekker6/helm-charts/issues/new)**
+## Pro Features
+- Company logo and white-label
+- User roles
+- Automated reminders
+- Invitation and identify verification via SMS
+- Conditional fields and formulas
+- Bulk send with CSV, XLSX spreadsheet import
+- SSO / SAML
+- Template creation with HTML API ([Guide](https://www.docuseal.com/guides/create-pdf-document-fillable-form-with-html-api))
+- Template creation with PDF or DOCX and field tags API ([Guide](https://www.docuseal.com/guides/use-embedded-text-field-tags-in-the-pdf-to-create-a-fillable-form))
+- Embedded signing form ([React](https://github.com/docusealco/docuseal-react), [Vue](https://github.com/docusealco/docuseal-vue), [Angular](https://github.com/docusealco/docuseal-angular) or [JavaScript](https://www.docuseal.com/docs/embedded))
+- Embedded document form builder ([React](https://github.com/docusealco/docuseal-react), [Vue](https://github.com/docusealco/docuseal-vue), [Angular](https://github.com/docusealco/docuseal-angular) or [JavaScript](https://www.docuseal.com/docs/embedded))
+- [Learn more](https://www.docuseal.com/pricing)
 
-## Source Code
+## Deploy
 
-* <https://github.com/docusealco/docuseal>
-* <https://github.com/zekker6/helm-charts/tree/master/charts/apps/docuseal>
+|Heroku|Railway|
+|:--:|:---:|
+| [<img alt="Deploy on Heroku" src="https://www.herokucdn.com/deploy/button.svg" height="40">](https://heroku.com/deploy?template=https://github.com/docusealco/docuseal-heroku) | [<img alt="Deploy on Railway" src="https://railway.app/button.svg" height="40">](https://railway.app/template/IGoDnc?referralCode=ruU7JR)|
+|**DigitalOcean**|**Render**|
+| [<img alt="Deploy on DigitalOcean" src="https://www.deploytodo.com/do-btn-blue.svg" height="40">](https://cloud.digitalocean.com/apps/new?repo=https://github.com/docusealco/docuseal-digitalocean/tree/master&refcode=421d50f53990) | [<img alt="Deploy to Render" src="https://render.com/images/deploy-to-render-button.svg" height="40">](https://render.com/deploy?repo=https://github.com/docusealco/docuseal-render)
 
-## Requirements
+#### Docker
 
-Kubernetes: `>=1.16.0-0`
-
-## Dependencies
-
-| Repository | Name | Version |
-|------------|------|---------|
-| https://zekker6.github.io/helm-charts | common | 0.5.2 |
-
-## TL;DR
-
-```console
-helm repo add zekker6 https://zekker6.github.io/helm-charts/
-helm repo update
-helm install docuseal zekker6/docuseal
+```sh
+docker run --name docuseal -p 3000:3000 -v.:/data docuseal/docuseal
 ```
 
-## Installing the Chart
+By default DocuSeal docker container uses an SQLite database to store data and configurations. Alternatively, it is possible use PostgreSQL or MySQL databases by specifying the `DATABASE_URL` env variable.
 
-To install the chart with the release name `docuseal`
+#### Docker Compose
 
-```console
-helm install docuseal zekker6/docuseal
+Download docker-compose.yml into your private server:
+```sh
+curl https://raw.githubusercontent.com/docusealco/docuseal/master/docker-compose.yml > docker-compose.yml
 ```
 
-## Uninstalling the Chart
-
-To uninstall the `docuseal` deployment
-
-```console
-helm uninstall docuseal
+Run the app under a custom domain over https using docker compose (make sure your DNS points to the server to automatically issue ssl certs with Caddy):
+```sh
+sudo HOST=your-domain-name.com docker compose up
 ```
 
-The command removes all the Kubernetes components associated with the chart **including persistent volumes** and deletes the release.
+## For Businesses
+### Integrate seamless document signing into your web or mobile apps with DocuSeal
 
-## Configuration
+At DocuSeal we have expertise and technologies to make documents creation, filling, signing and processing seamlessly integrated with your product. We specialize in working with various industries, including **Banking, Healthcare, Transport, Real Estate, eCommerce, KYC, CRM, and other software products** that require bulk document signing. By leveraging DocuSeal, we can assist in reducing the overall cost of developing and processing electronic documents while ensuring security and compliance with local electronic document laws.
 
-Read through the [values.yaml](./values.yaml) file. It has several commented out suggested values.
-Other values may be used from the [values.yaml](https://github.com/zekker6/helm-charts/blob/main/charts/library/common/values.yaml) from the [common library](https://github.com/zekker6/helm-charts/blob/main/charts/library/common).
+[Book a Meeting](https://www.docuseal.com/contact)
 
-Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`.
+## License
 
-```console
-helm install docuseal \
-  --set env.TZ="America/New York" \
-    zekker6/docuseal
-```
+Distributed under the AGPLv3 License. See [LICENSE](https://github.com/docusealco/docuseal/blob/master/LICENSE) for more information.
+Unless otherwise noted, all files © 2023 DocuSeal LLC.
 
-Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart.
+## Tools
 
-```console
-helm install docuseal zekker6/docuseal -f values.yaml
-```
-
-## Custom configuration
-
-N/A
-
-## Values
-
-**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/zekker6/helm-charts/blob/main/charts/library/common)
-
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| env | object | See below | environment variables. See more environment variables in the [docuseal documentation](https://github.com/docusealco/docuseal). |
-| image.pullPolicy | string | `"IfNotPresent"` | image pull policy |
-| image.repository | string | `"docuseal/docuseal"` | image repository |
-| image.tag | string | `"2.0.9@sha256:3f63e2ddc2d2c34ef1f9477c8ac88f461f1610727b4880ed764a1048d2491aed"` | image tag |
-| ingress.main | object | See values.yaml | Enable and configure ingress settings for the chart under this key. |
-| persistence | object | See values.yaml | Configure persistence settings for the chart under this key. |
-| service | object | See values.yaml | Configures service settings for the chart. |
-
-### Older versions
-
-A historical overview of changes can be found on [ArtifactHUB](https://artifacthub.io/packages/helm/zekker6/docuseal?modal=changelog)
-
-## Support
-
-- See the [Docs](http://zekker6.github.io/helm-charts/docs/)
-- Open an [issue](https://github.com/zekker6/helm-charts/issues/new)
-
-----------------------------------------------
-Autogenerated from chart metadata using [helm-docs v1.14.2](https://github.com/norwoodj/helm-docs/releases/v1.14.2)
+- [Signature Maker](https://www.docuseal.com/online-signature)
+- [Sign Document Online](https://www.docuseal.com/sign-documents-online)
+- [Fill PDF Online](https://www.docuseal.com/fill-pdf)

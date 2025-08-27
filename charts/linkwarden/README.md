@@ -1,263 +1,132 @@
-# FMJ Studios - Linkwarden Helm Chart <img src="https://raw.githubusercontent.com/linkwarden/linkwarden/4640c1c966d37b7fc22e4ebfcb244d03da1d6d82/assets/logo.png" alt="Linkwarden Logo" width="175" height="175" align="right" loading="lazy">
+<div align="center">
+  <img src="./assets/logo.png" width="100px" />
+  <h1>Linkwarden</h1>
+  <h3>Bookmarks, Evolved</h3>
 
-Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, organize and archive web pages. The
-objective is to organize useful web pages and articles you find across the web in one place, and since useful web pages
-can go away (see the inevitability of Link Rot), Linkwarden also saves a copy of each web page as a Screenshot and PDF,
-ensuring accessibility even if the original content is no longer available.
+<a href="https://discord.com/invite/CtuYV47nuJ"><img src="https://img.shields.io/discord/1117993124669702164?logo=discord&style=flat" alt="Discord"></a>
+<a href="https://twitter.com/LinkwardenHQ"><img src="https://img.shields.io/twitter/follow/linkwarden" alt="Twitter"></a> <a href="https://news.ycombinator.com/item?id=36942308"><img src="https://img.shields.io/badge/Hacker%20News-280-%23FF6600"></img></a>
 
-Additionally, Linkwarden is designed with collaboration in mind, sharing links with the public and/or allowing multiple
-users to work together seamlessly.
+<a href="https://github.com/linkwarden/linkwarden/releases"><img alt="GitHub release" src="https://img.shields.io/github/v/release/linkwarden/linkwarden"></a>
+<a href="https://crowdin.com/project/linkwarden">
+<img src="https://badges.crowdin.net/linkwarden/localized.svg" alt="Crowdin" /></a>
+<a href="https://opencollective.com/linkwarden"><img src="https://img.shields.io/opencollective/all/linkwarden" alt="Open Collective"></a>
 
-It delivers all of these features within a single Docker image available on
-the [GitHub Container Registry](https://github.com/linkwarden/linkwarden/pkgs/container/linkwarden).
+</div>
 
-> Head to the [Linkwarden GitHub Repository](https://github.com/linkwarden/linkwarden) or
-> their [Website](https://linkwarden.app/) for in-depth [documentation](https://docs.linkwarden.app/)
-> and [configuration guides](https://docs.linkwarden.app/self-hosting/environment-variables).
+<div align='center'>
 
-## ✨ TL;DR
+[« LAUNCH DEMO »](https://demo.linkwarden.app)
 
-### Helm Repository Installation
+[Cloud](https://cloud.linkwarden.app) · [Website](https://linkwarden.app) · [Features](https://github.com/linkwarden/linkwarden#features) · [Docs](https://docs.linkwarden.app)
 
-```shell
-helm repo add fmjstudios https://fmjstudios.github.io/helm
-helm install linkwarden fmjstudios/linkwarden --version X.Y.Z
-```
+<img src="./assets/home.png" />
 
-### OCI Installation
+</div>
 
-```shell
-helm install oci://ghcr.io/fmjstudios/helm/linkwarden:X.Y.Z
-```
+## Intro & motivation
 
-## Introduction
+**Linkwarden is a self-hosted, open-source collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.**
 
-This chart bootstraps a Linkwarden [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
-on
-a [Kubernetes](https://kubernetes.io) cluster using the [Helm](https://helm.sh/) package manager. For cluster networking
-a [Service](https://kubernetes.io/docs/concepts/services-networking/service/)
-and [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) manifest is also created, whereas the
-Ingress needs to be explicitly enabled. Lastly the chart configures
-a [PodDisruptionBudget](https://kubernetes.io/docs/tasks/run-application/configure-pdb/) if
-enabled. [RBAC manifests](https://kubernetes.io/docs/reference/access-authn-authz/rbac/) are enabled by default.
+The objective is to organize useful webpages and articles you find across the web in one place, and since useful webpages can go away (see the inevitability of [Link Rot](https://en.wikipedia.org/wiki/Link_rot)), Linkwarden also saves a copy of each webpage as a Screenshot and PDF, ensuring accessibility even if the original content is no longer available.
 
-The chart supports the configuration of
-all [Linkwarden environment variables](https://docs.linkwarden.app/self-hosting/environment-variables)
-via the `linkwarden` key in Helm's _values_ and makes use of the official Docker Hub container image, although this is
-configurable via the Image
-Parameters.
+In addition to preservation, Linkwarden provides a user-friendly reading and annotation experience that blends the simplicity of a “read-it-later” tool with the reliability of a web archive. Whether you’re highlighting key ideas, jotting down thoughts, or revisiting content long after it’s disappeared from the web, Linkwarden keeps your knowledge accessible and organized.
 
-## Parameters
+Linkwarden is also designed with collaboration in mind, enabling you to share links with the public and/or collaborate seamlessly with multiple users.
 
-### Image parameters
+> [!TIP]  
+> Our official [Cloud](https://linkwarden.app/#pricing) offering provides the simplest way to begin using Linkwarden and it's the preferred choice for many due to its time-saving benefits. <br> Your subscription supports our hosting infrastructure and ongoing development. <br> Alternatively, if you prefer self-hosting Linkwarden, you can do so by following our [Installation documentation](https://docs.linkwarden.app/self-hosting/installation).
 
-| Name                | Description                                                         | Value                   |
-| ------------------- | ------------------------------------------------------------------- | ----------------------- |
-| `image.registry`    | The Docker registry to pull the image from                          | `ghcr.io`               |
-| `image.repository`  | The registry repository to pull the image from                      | `linkwarden/linkwarden` |
-| `image.tag`         | The image tag to pull                                               | `v2.5.3`                |
-| `image.digest`      | The image digest to pull                                            | `""`                    |
-| `image.pullPolicy`  | The Kubernetes image pull policy                                    | `IfNotPresent`          |
-| `image.pullSecrets` | A list of secrets to use for pulling images from private registries | `[]`                    |
+## Features
 
-### Name overrides
+- 📸 Auto capture a screenshot, PDF, and single html file of each webpage.
+- 📖 Reader view of the webpage, with the ability to highlight and annotate text.
+- 🏛️ Send your webpage to Wayback Machine ([archive.org](https://archive.org)) for a snapshot. (Optional)
+- ✨ Local AI Tagging to automatically tag your links based on their content (Optional).
+- 📂 Organize links by collection, sub-collection, name, description and multiple tags.
+- 👥 Collaborate on gathering links in a collection.
+- 🎛️ Customize the permissions of each member.
+- 🌐 Share your collected links and preserved formats with the world.
+- 📌 Pin your favorite links to dashboard.
+- 🔍 Full text search, filter and sort for easy retrieval.
+- 📱 Responsive design and supports most modern browsers.
+- 🌓 Dark/Light mode support.
+- 🧩 Browser extension. [Star it here!](https://github.com/linkwarden/browser-extension)
+- 🔄 Browser Synchronization (using [Floccus](https://floccus.org)!)
+- ⬇️ Import and export your bookmarks.
+- 🔐 SSO integration. (Enterprise and Self-hosted users only)
+- 📦 Installable Progressive Web App (PWA).
+- 🍎 iOS Shortcut to save Links to Linkwarden.
+- 🔑 API keys.
+- ✅ Bulk actions.
+- 👥 User administration.
+- 🌐 Support for Other Languages (i18n).
+- 📁 Image and PDF Uploads.
+- 🎨 Custom Icons for Links and Collections.
+- 🔔 RSS Feed Subscription.
+- ✨ And many more features. (Literally!)
 
-| Name               | Description                                      | Value |
-| ------------------ | ------------------------------------------------ | ----- |
-| `nameOverride`     | String to partially override linkwarden.fullname | `""`  |
-| `fullnameOverride` | String to fully override linkwarden.fullname     | `""`  |
+## Like what we're doing? Give us a Star ⭐
 
-### Linkwarden configuration parameters
+![Star Us](https://raw.githubusercontent.com/linkwarden/linkwarden/main/assets/star_repo.gif)
 
-| Name                                            | Description                                                                                                                                            | Value        |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
-| `linkwarden.replicas`                           | The number of Linkwarden replicas (pods) to deploy                                                                                                     | `1`          |
-| `linkwarden.domain`                             | The domain name to assign to Linkwarden, to be re-used as the NextAuth URL and                                                                         | `""`         |
-| `linkwarden.nextAuthSecret.value`               | A secret string to encrypt JWTs and hash email verification tokens                                                                                     | `""`         |
-| `linkwarden.nextAuthSecret.existingSecret.name` | The name of an existing secret containing the secret string                                                                                            | `""`         |
-| `linkwarden.nextAuthSecret.existingSecret.key`  | The key within before mentioned secret containing the actual string                                                                                    | `""`         |
-| `linkwarden.paginationTakeCount`                | The number of links to fetch every time you reach the bottom of the web page                                                                           | `20`         |
-| `linkwarden.autoscrollTimeout`                  | The amount of time to wait for the web page to be archived (in seconds).                                                                               | `30`         |
-| `linkwarden.rearchiveLimit`                     | Adjusts how often a user can trigger a new archive for each link (in minutes).                                                                         | `5`          |
-| `linkwarden.maxFileSize`                        | Optionally set a maximum file size                                                                                                                     | `""`         |
-| `linkwarden.maxLinksPerUser`                    | Optionally set the maximum amount of links a single user can create                                                                                    | `""`         |
-| `linkwarden.archiveTakeCount`                   | Optionally set the number of archives to fetch                                                                                                         | `""`         |
-| `linkwarden.browserTimeout`                     | Optionally set timeout duration for the browser                                                                                                        | `""`         |
-| `linkwarden.ignoreUnauthorizedCA`               | Optionally ignore unauthorized Certificate Authorities                                                                                                 | `false`      |
-| `linkwarden.ignoreHTTPSErrors`                  | Chromium to ignore SSL errors; this is useful to support generation of browser screenshots from sources with self-signed certificates or untrusted CAs | `false`      |
-| `linkwarden.data.storageType`                   | The storage type to use for data, can be either 'filesystem' or 's3'                                                                                   | `filesystem` |
-| `linkwarden.data.filesystem.dataPath`           | The relative path for data to be stored in                                                                                                             | `data`       |
-| `linkwarden.data.filesystem.pvc.size`           | The size given to the PVC for the above data paths                                                                                                     | `5Gi`        |
-| `linkwarden.data.filesystem.pvc.storageClass`   | The storageClass given to PVCs                                                                                                                         | `standard`   |
-| `linkwarden.data.filesystem.pvc.reclaimPolicy`  | The resourcePolicy given to PVCs                                                                                                                       | `Retain`     |
-| `linkwarden.data.filesystem.pvc.existingClaim`  | Provide the name to an existing PVC                                                                                                                    | `""`         |
-| `linkwarden.data.s3.bucketName`                 | The name of the S3 bucket to be used for the Linkwarden files                                                                                          | `""`         |
-| `linkwarden.data.s3.endpoint`                   | The S3 endpoint to use                                                                                                                                 | `""`         |
-| `linkwarden.data.s3.region`                     | The AWS region the S3 bucket is located in                                                                                                             | `""`         |
-| `linkwarden.data.s3.forcePathStyle`             | Use path-style bucket addresses instead of AWS' DNS subdomain style                                                                                    | `false`      |
-| `linkwarden.data.s3.accessKey`                  | The S3 Access Key, to be used within a Kubernetes secret                                                                                               | `""`         |
-| `linkwarden.data.s3.secretKey`                  | The S3 Secret Key, to be used within a Kubernetes secret                                                                                               | `""`         |
-| `linkwarden.data.s3.existingSecret`             | The name of an existing Secret with `accessKey` and `secretKey` keys                                                                                   | `""`         |
-| `linkwarden.database.user`                      | The user for the PostgreSQL instance - ignored if 'existingSecret' or 'uri' is set                                                                     | `linkwarden` |
-| `linkwarden.database.password`                  | The password to the aforementioned user - ignored if 'existingSecret' or 'uri' is set                                                                  | `linkwarden` |
-| `linkwarden.database.host`                      | The hostname for the PostgreSQL instance - ignored if 'existingSecret' or 'uri' is set                                                                 | `""`         |
-| `linkwarden.database.port`                      | The port for the PostgreSQL instance - ignored if 'existingSecret' or 'uri' is set                                                                     | `5432`       |
-| `linkwarden.database.name`                      | The name for the PostgreSQL database - ignored if 'existingSecret' or 'uri' is set                                                                     | `linkwarden` |
-| `linkwarden.database.uri`                       | The URI for the PostgreSQL database - ignored if existingSecret is set                                                                                 | `""`         |
-| `linkwarden.database.existingSecret`            | The name of the existing secret containing the fully qualified PostgreSQL uri under a `uri` key                                                        | `""`         |
-| `linkwarden.auth.disableRegistration`           | Disable registration for Linkwarden                                                                                                                    | `false`      |
-| `linkwarden.auth.enableCredentials`             | Enable credential logins for Linkwarden                                                                                                                | `true`       |
-| `linkwarden.auth.disableNewSSOUsers`            | Disable new SSO users                                                                                                                                  | `false`      |
-| `linkwarden.auth.sso`                           | A list of SSO providers to enable within Linkwarden                                                                                                    | `{}`         |
-| `linkwarden.smtp.enabled`                       | Enable email integration within Linkwarden                                                                                                             | `false`      |
-| `linkwarden.smtp.fromAddress`                   | The address from which Linkwarden should send emails                                                                                                   | `""`         |
-| `linkwarden.smtp.server`                        | The server from which Linkwarden should send emails                                                                                                    | `""`         |
+## We're building our Community 🌐
 
-### ConfigMap parameters
+Join and follow us in the following platforms to stay up to date about the most recent features and for support:
 
-| Name                    | Description                             | Value |
-| ----------------------- | --------------------------------------- | ----- |
-| `configMap.annotations` | Annotations for the ConfigMap resource  | `{}`  |
-| `configMap.labels`      | Extra Labels for the ConfigMap resource | `{}`  |
+<a href="https://discord.com/invite/CtuYV47nuJ"><img src="https://img.shields.io/discord/1117993124669702164?logo=discord&style=flat" alt="Discord"></a>
 
-### Common Secret parameters
+<a href="https://twitter.com/LinkwardenHQ"><img src="https://img.shields.io/twitter/follow/linkwarden" alt="Twitter"></a>
 
-| Name                 | Description                                                        | Value |
-| -------------------- | ------------------------------------------------------------------ | ----- |
-| `secret.annotations` | Common annotations for the SMTP, HIBP, Admin and Database secrets  | `{}`  |
-| `secret.labels`      | Common extra labels for the SMTP, HIBP, Admin and Database secrets | `{}`  |
+<a href="https://fosstodon.org/@linkwarden"><img src="https://img.shields.io/mastodon/follow/110748840237143200?domain=https%3A%2F%2Ffosstodon.org" alt="Mastodon"></a>
 
-### Ingress parameters
+## Suggestions
 
-| Name                  | Description                                                             | Value   |
-| --------------------- | ----------------------------------------------------------------------- | ------- |
-| `ingress.enabled`     | Whether to enable Ingress                                               | `false` |
-| `ingress.className`   | The IngressClass to use for the pod's ingress                           | `""`    |
-| `ingress.whitelist`   | A comma-separated list of IP addresses to whitelist                     | `""`    |
-| `ingress.annotations` | Annotations for the Ingress resource                                    | `{}`    |
-| `ingress.tls`         | A list of hostnames and secret names to use for TLS                     | `[]`    |
-| `ingress.extraHosts`  | A list of extra hosts for the Ingress resource (with linkwarden.domain) | `[]`    |
+We _usually_ go after the [popular suggestions](https://github.com/linkwarden/linkwarden/issues?q=is%3Aissue%20is%3Aopen%20sort%3Areactions-%2B1-desc). Feel free to open a [new issue](https://github.com/linkwarden/linkwarden/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=) to suggest one - others might be interested too! :)
 
-### Service parameters
+## Roadmap
 
-| Name                               | Description                                                                             | Value       |
-| ---------------------------------- | --------------------------------------------------------------------------------------- | ----------- |
-| `service.type`                     | The type of service to create                                                           | `ClusterIP` |
-| `service.port`                     | The port to use on the service                                                          | `80`        |
-| `service.nodePort`                 | The Node port to use on the service                                                     | `30080`     |
-| `service.extraPorts`               | Extra ports to add to the service                                                       | `[]`        |
-| `service.annotations`              | Annotations for the service resource                                                    | `{}`        |
-| `service.labels`                   | Labels for the service resource                                                         | `{}`        |
-| `service.externalTrafficPolicy`    | The external traffic policy for the service                                             | `Cluster`   |
-| `service.internalTrafficPolicy`    | The internal traffic policy for the service                                             | `Cluster`   |
-| `service.clusterIP`                | Define a static cluster IP for the service                                              | `""`        |
-| `service.loadBalancerIP`           | Set the Load Balancer IP                                                                | `""`        |
-| `service.loadBalancerClass`        | Define Load Balancer class if service type is `LoadBalancer` (optional, cloud specific) | `""`        |
-| `service.loadBalancerSourceRanges` | Service Load Balancer source ranges                                                     | `[]`        |
-| `service.externalIPs`              | Service External IPs                                                                    | `[]`        |
-| `service.sessionAffinity`          | Session Affinity for Kubernetes service, can be "None" or "ClientIP"                    | `None`      |
-| `service.sessionAffinityConfig`    | Additional settings for the sessionAffinity                                             | `{}`        |
-| `service.ipFamilyPolicy`           | The ipFamilyPolicy                                                                      | `""`        |
+Make sure to check out our [public roadmap](https://github.com/orgs/linkwarden/projects/1).
 
-### RBAC parameters
+## Community Projects
 
-| Name          | Description                      | Value  |
-| ------------- | -------------------------------- | ------ |
-| `rbac.create` | Whether to create RBAC resources | `true` |
-| `rbac.rules`  | Extra rules to add to the Role   | `[]`   |
+Here are some community-maintained projects that are built around Linkwarden:
 
-### Service Account parameters
+- [My Links](https://apps.apple.com/ca/app/my-links-for-linkwarden/id6504573402) - iOS and MacOS Apps, maintained by [JGeek00](https://github.com/JGeek00).
+- [LinkDroid](https://fossdroid.com/a/linkdroid-for-linkwarden.html) - Android App with share sheet integration, [source code](https://github.com/Dacid99/LinkDroid-for-Linkwarden).
+- [LinkGuardian](https://github.com/Elbullazul/LinkGuardian) - An Android client for Linkwarden. Built with Kotlin and Jetpack compose.
+- [StarWarden](https://github.com/rtuszik/starwarden) - A browser extension to save your starred GitHub repositories to Linkwarden.
 
-| Name                         | Description                                                                  | Value   |
-| ---------------------------- | ---------------------------------------------------------------------------- | ------- |
-| `serviceAccount.create`      | Whether a service account should be created                                  | `true`  |
-| `serviceAccount.automount`   | Whether to automount the service account token                               | `false` |
-| `serviceAccount.annotations` | Annotations to add to the service account                                    | `{}`    |
-| `serviceAccount.name`        | A custom name for the service account, otherwise linkwarden.fullname is used | `""`    |
-| `serviceAccount.secrets`     | A list of secrets mountable by this service account                          | `[]`    |
+## Development
 
-### Liveness Probe parameters
+If you want to contribute, Thanks! Start by choosing one of our [popular suggestions](https://github.com/linkwarden/linkwarden/issues?q=is%3Aissue%20is%3Aopen%20sort%3Areactions-%2B1-desc), just please stay in touch with [@daniel31x13](https://github.com/daniel31x13) before starting.
 
-| Name                                | Description                                                 | Value   |
-| ----------------------------------- | ----------------------------------------------------------- | ------- |
-| `livenessProbe.enabled`             | Enable or disable the use of liveness probes                | `false` |
-| `livenessProbe.initialDelaySeconds` | Configure the initial delay seconds for the liveness probe  | `5`     |
-| `livenessProbe.timeoutSeconds`      | Configure the initial delay seconds for the liveness probe  | `1`     |
-| `livenessProbe.periodSeconds`       | Configure the seconds for each period of the liveness probe | `10`    |
-| `livenessProbe.successThreshold`    | Configure the success threshold for the liveness probe      | `1`     |
-| `livenessProbe.failureThreshold`    | Configure the failure threshold for the liveness probe      | `10`    |
+# Translations
 
-### Readiness Probe parameters
+If you want to help us translate Linkwarden to your language, please check out our [Crowdin page](https://crowdin.com/project/linkwarden) and start translating. We would love to have your help!
 
-| Name                                 | Description                                                  | Value   |
-| ------------------------------------ | ------------------------------------------------------------ | ------- |
-| `readinessProbe.enabled`             | Enable or disable the use of readiness probes                | `false` |
-| `readinessProbe.initialDelaySeconds` | Configure the initial delay seconds for the readiness probe  | `5`     |
-| `readinessProbe.timeoutSeconds`      | Configure the initial delay seconds for the readiness probe  | `1`     |
-| `readinessProbe.periodSeconds`       | Configure the seconds for each period of the readiness probe | `10`    |
-| `readinessProbe.successThreshold`    | Configure the success threshold for the readiness probe      | `1`     |
-| `readinessProbe.failureThreshold`    | Configure the failure threshold for the readiness probe      | `3`     |
+To start translating a new language, please create an issue so we can set it up for you. New languages will be added once they reach at least 50% translation completion.
 
-### Startup Probe parameters
+<a href="https://crowdin.com/project/linkwarden">
+<img src="https://badges.crowdin.net/linkwarden/localized.svg" alt="Crowdin" /></a>
 
-| Name                               | Description                                                | Value   |
-| ---------------------------------- | ---------------------------------------------------------- | ------- |
-| `startupProbe.enabled`             | Enable or disable the use of readiness probes              | `false` |
-| `startupProbe.initialDelaySeconds` | Configure the initial delay seconds for the startup probe  | `5`     |
-| `startupProbe.timeoutSeconds`      | Configure the initial delay seconds for the startup probe  | `1`     |
-| `startupProbe.periodSeconds`       | Configure the seconds for each period of the startup probe | `10`    |
-| `startupProbe.successThreshold`    | Configure the success threshold for the startup probe      | `1`     |
-| `startupProbe.failureThreshold`    | Configure the failure threshold for the startup probe      | `10`    |
+## Security
 
-### PodDisruptionBudget parameters
+If you found a security vulnerability, please do **not** create a public issue, instead send an email to [security@linkwarden.app](mailto:security@linkwarden.app) stating the vulnerability. Thanks!
 
-| Name                               | Description                                           | Value  |
-| ---------------------------------- | ----------------------------------------------------- | ------ |
-| `podDisruptionBudget.enabled`      | Enable the pod disruption budget                      | `true` |
-| `podDisruptionBudget.minAvailable` | The minimum amount of pods which need to be available | `1`    |
+## Support <3
 
-### Pod settings
+Other than using our official [Cloud](https://linkwarden.app/#pricing) offering, any [donations](https://opencollective.com/linkwarden) are highly appreciated as well!
 
-| Name                | Description                                          | Value |
-| ------------------- | ---------------------------------------------------- | ----- |
-| `resources`         | The resource limits/requests for the Linkwarden pod  | `{}`  |
-| `volumes`           | Define volumes for the Linkwarden pod                | `[]`  |
-| `volumeMounts`      | Define volumeMounts for the Linkwarden pod           | `[]`  |
-| `initContainers`    | Define initContainers for the main Linkwarden server | `[]`  |
-| `nodeSelector`      | Node labels for pod assignment                       | `{}`  |
-| `tolerations`       | Tolerations for pod assignment                       | `[]`  |
-| `affinity`          | Affinity for pod assignment                          | `{}`  |
-| `strategy`          | Specify a deployment strategy for the Linkwarden pod | `{}`  |
-| `podAnnotations`    | Extra annotations for the Linkwarden pod             | `{}`  |
-| `podLabels`         | Extra labels for the Linkwarden pod                  | `{}`  |
-| `priorityClassName` | The name of an existing PriorityClass                | `""`  |
+Here are the other ways to support/cheer this project:
 
-### Security context settings
+- Starring this repository.
+- Joining us on [Discord](https://discord.com/invite/CtuYV47nuJ).
+- Referring Linkwarden to a friend.
 
-| Name                 | Description                                      | Value |
-| -------------------- | ------------------------------------------------ | ----- |
-| `podSecurityContext` | Security context settings for the Linkwarden pod | `{}`  |
-| `securityContext`    | General security context settings for            | `{}`  |
+If you did any of the above, Thanksss! Otherwise thanks.
 
-### Bitnami&reg; PostgreSQL parameters
+## Thanks to All the Contributors 💪
 
-| Name                                 | Description                                                                                            | Value        |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------ |
-| `postgresql.enabled`                 | Enable or disable the PostgreSQL subchart                                                              | `true`       |
-| `postgresql.auth.enablePostgresUser` | Assign a password to the "postgres" admin user. Otherwise, remote access will be blocked for this user | `true`       |
-| `postgresql.auth.postgresPassword`   | Password for the "postgres" admin user. Ignored if `auth.existingSecret` is provided                   | `postgres`   |
-| `postgresql.auth.username`           | Name for a custom user to create                                                                       | `linkwarden` |
-| `postgresql.auth.password`           | Password for the custom user to create. Ignored if `auth.existingSecret` is provided                   | `linkwarden` |
-| `postgresql.auth.database`           | Name for a custom database to create                                                                   | `linkwarden` |
-| `postgresql.auth.usePasswordFiles`   | Mount credentials as a files instead of using an environment variable                                  | `false`      |
+Huge thanks to these guys for spending their time helping Linkwarden grow. They rock! ⚡️
 
-### PostgreSQL Primary parameters
-
-| Name                                           | Description                                                    | Value               |
-| ---------------------------------------------- | -------------------------------------------------------------- | ------------------- |
-| `postgresql.primary.name`                      | Name of the primary database (eg primary, master, leader, ...) | `primary`           |
-| `postgresql.primary.persistence.enabled`       | Enable PostgreSQL Primary data persistence using PVC           | `true`              |
-| `postgresql.primary.persistence.existingClaim` | Name of an existing PVC to use                                 | `""`                |
-| `postgresql.primary.persistence.storageClass`  | PVC Storage Class for PostgreSQL Primary data volume           | `""`                |
-| `postgresql.primary.persistence.accessModes`   | PVC Access Mode for PostgreSQL volume                          | `["ReadWriteOnce"]` |
-| `postgresql.primary.persistence.size`          | PVC Storage Request for PostgreSQL volume                      | `5Gi`               |
+<img src="https://contributors-img.web.app/image?repo=linkwarden/linkwarden" alt="Contributors"/>

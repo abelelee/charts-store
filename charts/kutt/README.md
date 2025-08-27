@@ -1,184 +1,245 @@
-# kutt
+<p align="center"><a href="https://kutt.it" title="kutt.it"><img src="https://raw.githubusercontent.com/thedevs-network/kutt/9d1c873897c3f5b9a1bd0c74dc5d23f2ed01f2ec/static/images/logo-github.png" alt="Kutt.it"></a></p>
 
-Kutt is a free modern URL shortener.
+# Kutt.it
 
-## TL;DR;
+**Kutt** is a modern URL shortener with support for custom domains. Create and edit links, view statistics, manage users, and more.
 
-```console
-helm repo add christianhuth https://charts.christianhuth.de
-helm repo update
-helm install my-release christianhuth/kutt
+[https://kutt.it](https://kutt.it)
+
+
+[![docker-build-release](https://github.com/thedevs-network/kutt/actions/workflows/docker-build-release.yaml/badge.svg)](https://github.com/thedevs-network/kutt/actions/workflows/docker-build-release.yaml)
+[![Uptime Status](https://uptime.betterstack.com/status-badges/v2/monitor/1ogaa.svg)](https://status.kutt.it)
+[![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/thedevs-network/kutt/#contributing)
+[![GitHub license](https://img.shields.io/github/license/thedevs-network/kutt.svg)](https://github.com/thedevs-network/kutt/blob/develop/LICENSE)
+
+## Table of contents
+
+- [Key features](#key-features)
+- [Donations and sponsors](#donations-and-sponsors)
+- [Setup](#setup)
+- [Docker](#docker)
+- [API](#api)
+- [Configuration](#configuration)
+- [Themes and customizations](#themes-and-customizations)
+- [Browser extensions](#browser-extensions)
+- [Videos](#videos)
+- [Integrations](#integrations)
+- [Contributing](#contributing)
+
+## Key features
+
+- Created with self-host in mind:
+  - Zero configuration needed
+  - Easy setup with no build step
+  - Supporting various databases (SQLite, Postgres, MySQL)
+  - Ability to disable registration and anonymous links
+- Custom domain support
+- Set custom URLs, password, description, and expiration time for links
+- View, edit, delete and manage your links
+- Private statistics for shortened URLs
+- Admin page to manage users and links
+- Customizability and themes
+- RESTful API
+
+## Donations and sponsors
+
+Support the development of Kutt by making a donation or becoming an sponsor.
+
+[Donate or sponsor →](https://btcpay.kutt.it/apps/L9Gc7PrnLykeRHkhsH2jHivBeEh/crowdfund)
+
+## Setup
+
+The only prerequisite is [Node.js](https://nodejs.org/) (version 20 or above). The default database is SQLite. You can optionally install Postgres or MySQL/MariaDB for the database or Redis for the cache. 
+
+When you first start the app, you're prompted to create an admin account.
+
+1. Clone this repository or [download the latest zip](https://github.com/thedevs-network/kutt/releases)
+2. Install dependencies: `npm install`
+3. Initialize database: `npm run migrate`
+5. Start the app for development `npm run dev` or production `npm start`
+
+## Docker
+
+Make sure Docker is installed, then you can start the app from the root directory:
+
+```sh
+docker compose up
 ```
 
-## Introduction
+Various docker-compose configurations are available. Use `docker compose -f <file_name> up` to start the one you want:
 
-This chart bootstraps the free modern URL shortener called [Kutt](https://kutt.it) using the [Helm](https://helm.sh) package manager.
+- [`docker-compose.yml`](./docker-compose.yml): Default Kutt setup. Uses SQLite for the database.
+- [`docker-compose.sqlite-redis.yml`](./docker-compose.sqlite-redis.yml): Starts Kutt with SQLite and Redis.
+  - Required environment variable: `REDIS_ENABLED`
+- [`docker-compose.postgres.yml`](./docker-compose.postgres.yml): Starts Kutt with Postgres and Redis.
+  - Required environment variables: `REDIS_ENABLED`, `DB_PASSWORD`, `DB_NAME`, `DB_USER`
+- [`docker-compose.mariadb.yml`](./docker-compose.mariadb.yml): Starts Kutt with MariaDB and Redis.
+  - Required environment variables: `REDIS_ENABLED`, `DB_PASSWORD`, `DB_NAME`, `DB_USER`, `DB_PORT`
 
-## Prerequisites
+Official Kutt Docker image is available on [Docker Hub](https://hub.docker.com/r/kutt/kutt).
 
-- Kubernetes 1.19+
+## API
 
-## Installing the Chart
+[View API documentation →](https://docs.kutt.it)
 
-To install the chart with the release name `my-release`:
+## Configuration
 
-```console
-helm repo add christianhuth https://charts.christianhuth.de
-helm repo update
-helm install my-release christianhuth/kutt
+The app is configured via environment variables. You can pass environment variables directly or create a `.env` file. View [`.example.env`](./.example.env) file for the list of configurations.
+
+All variables are optional except `JWT_SECRET` which is required on production. 
+
+You can use files for each of the variables by appending `_FILE` to the name of the variable. Example: `JWT_SECRET_FILE=/path/to/secret_file`.
+
+| Variable | Description | Default | Example |
+| -------- | ----------- | ------- | ------- |
+| `JWT_SECRET` | This is used to sign authentication tokens. Use a **long** **random** string. | - | - |
+| `PORT` |  The port to start the app on | `3000` | `8888` |
+| `SITE_NAME` |  Name of the website | `Kutt` | `Your Site` |
+| `DEFAULT_DOMAIN` |  The domain address that this app runs on | `localhost:3000` | `yoursite.com` |
+| `LINK_LENGTH` | The length of of shortened address | `6` | `5` |
+| `LINK_CUSTOM_ALPHABET` | Alphabet used to generate custom addresses. Default value omits o, O, 0, i, I, l, 1, and j to avoid confusion when reading the URL. | (abcd..789) | `abcABC^&*()@` |
+| `DISALLOW_REGISTRATION` | Disable registration. Note that if `MAIL_ENABLED` is set to false, then the registration would still be disabled since it relies on emails to sign up users. | `true` | `false` |
+| `DISALLOW_ANONYMOUS_LINKS` | Disable anonymous link creation | `true` | `false` |
+| `TRUST_PROXY` | If the app is running behind a proxy server like NGINX or Cloudflare and that it should get the IP address from that proxy server. If you're not using a proxy server then set this to false, otherwise users can override their IP address. | `true` | `false` |
+| `DB_CLIENT` |  Which database client to use. Supported clients: `pg` or `pg-native` for Postgres, `mysql2` for MySQL or MariaDB, `sqlite3` and `better-sqlite3` for SQLite. NOTE: `pg-native` and `sqlite3` are not installed by default, use `npm` to install them before use. | `better-sqlite3` | `pg` |
+| `DB_FILENAME` |  File path for the SQLite database. Only if you use SQLite. | `db/data` | `/var/lib/data` |
+| `DB_HOST` | Database connection host. Only if you use Postgres or MySQL. | `localhost` | `your-db-host.com` |
+| `DB_PORT` | Database port. Only if you use Postgres or MySQL. | `5432` (Postgres) | `3306` (MySQL) |
+| `DB_NAME` | Database name. Only if you use Postgres or MySQL. | `kutt` | `mydb` |
+| `DB_USER` | Database user. Only if you use Postgres or MySQL. | `postgres` | `myuser` |
+| `DB_PASSWORD` | Database password. Only if you use Postgres or MySQL. | - | `mypassword` |
+| `DB_SSL` | Whether use SSL for the database connection. Only if you use Postgres or MySQL. | `false` | `true` |
+| `DB_POOL_MIN` | Minimum number of database connection pools. Only if you use Postgres or MySQL. | `0` | `2` |
+| `DB_POOL_MAX` | Maximum number of database connection pools. Only if you use Postgres or MySQL. | `10` | `5` |
+| `REDIS_ENABLED` | Whether to use Redis for cache | `false` | `true` |
+| `REDIS_HOST` | Redis connection host | `127.0.0.1` | `your-redis-host.com` |
+| `REDIS_PORT` | Redis port | `6379` | `6379` |
+| `REDIS_PASSWORD` | Redis password | - | `mypassword` |
+| `REDIS_DB` | Redis database number, between 0 and 15. | `0` | `1` |
+| `SERVER_IP_ADDRESS` | The IP address shown to the user on the setting's page. It's only for display purposes and has no other use. | - | `1.2.3.4` |
+| `SERVER_CNAME_ADDRESS` | The subdomain shown to the user on the setting's page. It's only for display purposes and has no other use. | - | `custom.yoursite.com` |
+| `CUSTOM_DOMAIN_USE_HTTPS` | Use https for links with custom domain. It's on you to generate SSL certificates for those domains manually—at least on this version for now. | `false` | `true` |
+| `ENABLE_RATE_LIMIT` | Enable rate limiting for some API routes. If Redis is enabled uses Redis, otherwise, uses memory. | `false` | `true` |
+| `MAIL_ENABLED` | Enable emails, which are used for signup, verifying or changing email address, resetting password, and sending reports. If is disabled, all these functionalities will be disabled too. | `false` | `true` | 
+| `MAIL_HOST` | Email server host | - | `your-mail-server.com` |
+| `MAIL_PORT` | Email server port | `587` | `465` (SSL) | 
+| `MAIL_USER` | Email server user | - | `myuser` | 
+| `MAIL_PASSWORD` | Email server password for the user | - | `mypassword` | 
+| `MAIL_FROM` | Email address to send the user from | - | `example@yoursite.com` | 
+| `MAIL_SECURE` | Whether use SSL for the email server connection | `false` | `true` | 
+| `REPORT_EMAIL` | The email address that will receive submitted reports | - | `example@yoursite.com` | 
+| `CONTACT_EMAIL` | The support email address to show on the app | - | `example@yoursite.com` | 
+
+## Themes and customizations
+
+You can add styles, change images, or render custom HTML. Place your content inside the [`/custom`](./custom) folder according to below instructions.
+
+#### How it works:
+
+The structure of the custom folder is like this:
+
+```
+custom/
+├─ css/
+│  ├─ custom1.css
+│  ├─ custom2.css
+│  ├─ ...
+├─ images/
+│  ├─ logo.png
+│  ├─ favicon.ico
+│  ├─ ...
+├─ views/
+│  ├─ partials/
+│  │  ├─ footer.hbs
+│  ├─ 404.hbs
+│  ├─ ...
 ```
 
-These commands deploy Kutt on the Kubernetes cluster in the default configuration. The [Values](#values) section lists the values that can be configured during installation.
+- **css**: Put your CSS style files here. ([View example →](https://github.com/thedevs-network/kutt-customizations/tree/main/themes/crimson/css))
+  - You can put as many style files as you want: `custom1.css`, `custom2.css`, etc.
+  - If you name your style file `styles.css`, it will replace Kutt's original `styles.css` file.
+  - Each file will be accessible by `<your-site.com>/css/<file>.css`
+- **images**: Put your images here. ([View example →](https://github.com/thedevs-network/kutt-customizations/tree/main/themes/crimson/images))
+  - Name them just like the files inside the [`/static/images/`](./static/images) folder to replace Kutt's original images.
+  - Each image will be accessible by `<your-site.com>/images/<image>.<image-format>`
+- **views**: Custom HTML templates to render. ([View example →](https://github.com/thedevs-network/kutt-customizations/tree/main/themes/crimson/views))
+  - It should follow the same file naming and folder structure as [`/server/views`](./server/views)
+  - Although we try to keep the original file names unchanged, be aware that new changes on Kutt might break your custom views.
+ 
+#### Example theme: Crimson
 
-> **Tip**: List all releases using `helm list`
+This is an example and official theme. Crimson includes custom styles, images, and views.
 
-## Uninstalling the Chart
+[Get Crimson theme →](https://github.com/thedevs-network/kutt-customizations/tree/main/themes/crimson)
 
-To uninstall the `my-release` deployment:
+[View list of themes and customizations →](https://github.com/thedevs-network/kutt-customizations)
 
-```console
-helm uninstall my-release
+
+| Homepage | Admin page | Login/signup |
+| -------- | ---------- | ------------ |
+| ![crimson-homepage](https://github.com/user-attachments/assets/b74fab78-5e80-4f57-8425-f0cc73e9c68d) | ![crimson-admin](https://github.com/user-attachments/assets/a75d2430-8074-4ce4-93ec-d8bdfd75d917) | ![crimson-login-signup ](https://github.com/user-attachments/assets/b915eb77-3d66-4407-8e5d-b556f80ff453)
+
+#### Usage with Docker:
+
+If you're building the image locally, then the `/custom` folder should already be included in your app.
+
+If you're pulling the official image, make sure `/kutt/custom` volume is mounted or you have access to it. [View Docker compose example →](https://github.com/thedevs-network/kutt/blob/main/docker-compose.yml#L7)
+
+Then, move your files to that volume. You can do it with this Docker command:
+
+```sh
+docker cp <path-to-custom-folder> <kutt-container-name>:/kutt
 ```
 
-The command removes all the Kubernetes components associated with the chart and deletes the release.
+For example:
 
-## Values
-
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| affinity | object | `{}` | Affinity settings for pod assignment |
-| autoscaling.enabled | bool | `false` | Enable Horizontal POD autoscaling |
-| autoscaling.maxReplicas | int | `100` | Maximum number of replicas |
-| autoscaling.minReplicas | int | `1` | Minimum number of replicas |
-| autoscaling.targetCPUUtilizationPercentage | int | `80` | Target CPU utilization percentage |
-| externalPostgresql.auth.database | string | `"kutt"` | Name of the database to use |
-| externalPostgresql.auth.existingSecret | string | `""` | Name of existing secret to use for PostgreSQL credentials |
-| externalPostgresql.auth.password | string | `"kutt"` | Password to use |
-| externalPostgresql.auth.userPasswordKey | string | `""` | Key in the secret containing the password |
-| externalPostgresql.auth.username | string | `"kutt"` | Name of the user to use |
-| externalPostgresql.hostname | string | `""` | Hostname of the PostgreSQL database |
-| externalPostgresql.port | int | `5432` | Port used to connect to PostgreSQL database |
-| externalRedis.auth.enabled | bool | `true` | if authentication should be used with external Redis™ |
-| externalRedis.auth.existingSecret | string | `""` | Name of existing secret to use for Redis™ credentials |
-| externalRedis.auth.password | string | `""` | Password to use |
-| externalRedis.auth.userPasswordKey | string | `""` | Key in the secret containing the password |
-| externalRedis.hostname | string | `""` | Hostname of Redis™ |
-| externalRedis.port | int | `6379` | Port used to connect to Redis |
-| extraEnv | list | `[]` | additional environment variables to be added to the pods |
-| fullnameOverride | string | `""` | String to fully override `"kutt.fullname"` |
-| image.pullPolicy | string | `"Always"` | image pull policy |
-| image.registry | string | `"docker.io"` | image registory |
-| image.repository | string | `"kutt/kutt"` | image repository |
-| image.tag | string | `"v3.2.3"` | Overrides the image tag |
-| imagePullSecrets | list | `[]` | If defined, uses a Secret to pull an image from a private Docker registry or repository. |
-| ingress.annotations | object | `{}` | Additional annotations for the Ingress resource |
-| ingress.className | string | `""` | IngressClass that will be be used to implement the Ingress |
-| ingress.enabled | bool | `false` | Enable ingress record generation |
-| ingress.hosts | list | see [values.yaml](./values.yaml) | An array with the hosts configuration |
-| ingress.tls | list | `[]` | An array with the tls configuration |
-| kutt.admin.emails | string | `""` | Comma seperated list of email addresses that can access admin actions on settings page |
-| kutt.config.disallowAnonymousLinks | bool | `false` | Disable anonymous link creation |
-| kutt.config.disallowRegistration | bool | `false` | Disable registration |
-| kutt.config.enableRateLimit | bool | `false` | Enable rate limitting for some API routes. If Redis is enabled uses Redis, otherwise, uses memory. |
-| kutt.config.linkCustomAlphabet | string | `""` | Alphabet used to generate custom addresses. Default value omits o, O, 0, i, I, l, 1, and j to avoid confusion when reading the URL. |
-| kutt.config.linkLength | int | `6` | Generated link length |
-| kutt.config.siteName | string | `"Kutt"` | The name of the site where Kutt is hosted |
-| kutt.database.client | string | `"pg"` | Which database client to use. This Chart currently only supports PostgreSQL: pg or pg-native. NOTE: pg-native is not installed by default, create your own image to use it. |
-| kutt.database.pool.max | int | `10` | Maximum number of database connection pools. Only if you use Postgres or MySQL. |
-| kutt.database.pool.min | int | `0` | Minimum number of database connection pools. Only if you use Postgres or MySQL. |
-| kutt.domain.customDomainUseHttps | bool | `false` | Use HTTPS for links with custom domain |
-| kutt.domain.defaultDomain | string | `"localhost:3000"` | The domain that this website is on |
-| kutt.domain.useFirstIngressHost | bool | `false` | If you use an ingress to expose Kutt you can simply set this to true to use the first hostname defined in the ingress. |
-| kutt.jwt.existingSecret | string | `""` | Use existing secret for JWT secret key. The secret has to contain the key `JWT_SECRET`. When it's set the kutt.jwt.key is ignored. |
-| kutt.jwt.key | string | `"secret-jwt-key"` | make sure to replace with your own secret key |
-| kutt.mail.contactEmail | string | `""` | Support email to show on the app |
-| kutt.mail.enabled | bool | `false` | Enable emails, which are used for signup, verifying or changing email address, resetting password, and sending reports. If is disabled, all these functionalities will be disabled too. |
-| kutt.mail.existingSecret | string | `""` | Use existing secret for password details. The secret has to contain the key `MAIL_PASSWORD`. When it's set the `kutt.mail.password` is ignored. |
-| kutt.mail.from | string | `""` | The email address Kutt will send emails from. |
-| kutt.mail.host | string | `"smtp.example.com"` | The host of the external SMTP server that Kutt should use to send emails. |
-| kutt.mail.password | string | `""` | The password to authenticate to the smtp host when sending emails. |
-| kutt.mail.port | int | `465` | The port used to connect to the smtp host. |
-| kutt.mail.reportEmail | string | `""` | The email address that will receive submitted reports. |
-| kutt.mail.secure | bool | `false` | If true the connection will use TLS when connecting to server. If false (the default) then TLS is used if server supports the STARTTLS extension. In most cases set this value to true if you are connecting to port 465. For port 587 or 25 keep it false |
-| kutt.mail.username | string | `"user@example.com"` | The username to authenticate to the smtp host when sending emails. |
-| kutt.recaptcha.existingSecret | string | `""` | Use existing secret for ReCaptacha secrets. The secret has to contain the keys `RECAPTCHA_SITE_KEY` and `RECAPTCHA_SECRET_KEY`. When it's set the kutt.recaptcha.siteKey and kutt.recaptcha.secretKey is ignored. |
-| kutt.recaptcha.secretKey | string | `""` | Invisible reCaptcha secret key. Create one in https://www.google.com/recaptcha/intro/ |
-| kutt.recaptcha.siteKey | string | `""` | Invisible reCaptcha site key. Create one in https://www.google.com/recaptcha/intro/ |
-| nameOverride | string | `""` | Provide a name in place of `kutt` |
-| nodeSelector | object | `{}` | Node labels for pod assignment |
-| podAnnotations | object | `{}` | Annotations to be added to exporter pods |
-| podSecurityContext | object | `{}` | pod-level security context |
-| postgresql.auth.database | string | `"kutt"` | Name for a custom database to create |
-| postgresql.auth.existingSecret | string | `""` | Name of existing secret to use for PostgreSQL credentials |
-| postgresql.auth.password | string | `"kutt"` | Password for the custom user to create. Ignored if postgresql.auth.existingSecret is provided |
-| postgresql.auth.username | string | `"kutt"` | Name for a custom user to create |
-| postgresql.enabled | bool | `true` | enable PostgreSQL™ subchart from Bitnami |
-| redis.architecture | string | `"standalone"` | Redis® architecture. Allowed values: standalone or replication |
-| redis.auth.enabled | bool | `true` | Enable password authentication |
-| redis.auth.password | string | `"kutt"` | Redis™ password |
-| redis.enabled | bool | `true` | enable Redis™ subchart from Bitnami |
-| replicaCount | int | `1` | Number of replicas |
-| resources | object | `{}` | Resource limits and requests for the pods. |
-| revisionHistoryLimit | int | `10` | The number of old ReplicaSets to retain |
-| securityContext | object | `{}` | container-level security context |
-| service.port | int | `80` | Kubernetes port where service is exposed |
-| service.type | string | `"ClusterIP"` | Kubernetes service type |
-| serviceAccount.annotations | object | `{}` | Annotations to add to the service account |
-| serviceAccount.create | bool | `true` | Specifies whether a service account should be created |
-| serviceAccount.name | string | `""` | The name of the service account to use. If not set and create is true, a name is generated using the fullname template |
-| tolerations | list | `[]` | Toleration labels for pod assignment |
-
-Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`.
-
-Alternatively, a YAML file that specifies the values for the parameters can be provided while installing the chart. For example,
-
-```console
-helm install my-release -f values.yaml christianhuth/kutt
+```sh
+docker cp custom kutt-server-1:/kutt
 ```
 
-## Upgrading the Chart
+Make sure to restart the kutt server container after copying files or making changes.
 
-### To 6.0.0
+## Browser extensions
 
-This major updates the Redis subchart to its newest major, 21.2.0. [Here](https://github.com/bitnami/charts/tree/main/bitnami/redis#upgrading) and [here](https://raw.githubusercontent.com/redis/redis/8.0/00-RELEASENOTES) you can find more information about the changes introduced in that version.
+Download Kutt's extension for web browsers via below links.
 
-### 5.0.0
+- [Chrome](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/kutt/)
 
-This major updates the PostgreSQL subchart to its newest major, 16.4.0. [Here](https://github.com/bitnami/charts/tree/main/bitnami/postgresql#to-1630) you can find more information about the changes introduced in that version.
+## Videos
 
-It also updates the Redis subchart to its newest major, 20.6.4. [Here](https://github.com/bitnami/charts/tree/main/bitnami/redis#to-2000) you can find more information about the changes introduced in that version.
+**Official videos**
 
-### 4.0.0
+- [Next.js to htmx – A Real World Example](https://www.youtube.com/watch?v=8RL4NvYZDT4)
 
-This major updates the PostgreSQL subchart to its newest major, 14.0.0. [Here](https://github.com/bitnami/charts/tree/master/bitnami/postgresql#to-1400) you can find more information about the changes introduced in that version.
+## Integrations
 
-### 3.0.0
+- **ShareX** – You can use Kutt as your default URL shortener in [ShareX](https://getsharex.com/). If you host your custom instance of Kutt, refer to [ShareX wiki](https://github.com/thedevs-network/kutt/wiki/ShareX) on how to setup.
+- **Alfred workflow** – Download Kutt's official workflow for [Alfred](https://www.alfredapp.com/) app from [alfred-kutt](https://github.com/thedevs-network/alfred-kutt) repository.
+- **iOS shortcut** – [Kutt shortcut](https://www.icloud.com/shortcuts/a829856aea2c420e97c53437e68b752b) for your apple device which works from the iOS sharing context menu or on standalone mode. A courtesy of [@caneeeeee](https://github.com/caneeeeee).
 
-This major updates the redis subchart to its newest major, 18.0.4. [Here](https://github.com/bitnami/charts/tree/main/bitnami/redis#to-1800) you can find more information about the changes introduced in that version.
+**Third-party packages**
 
-### 2.0.0
 
-This major updates the way you define environment variables.
+| Language        | Link                                                                              | Description                                          |
+| --------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| C# (.NET)       | [KuttSharp](https://github.com/0xaryan/KuttSharp)                                 | .NET package for Kutt.it url shortener               |
+| C# (.NET)       | [Kutt.NET](https://github.com/AlphaNecron/Kutt.NET)                               | C# API Wrapper for Kutt                              |
+| Python          | [kutt-cli](https://github.com/RealAmirali/kutt-cli)                               | Command-line client for Kutt written in Python       |
+| Ruby            | [kutt.rb](https://github.com/RealAmirali/kutt.rb)                                 | Kutt library written in Ruby                         |
+| Rust            | [urlshortener](https://github.com/vityafx/urlshortener-rs)                        | URL shortener library written in Rust                |
+| Rust            | [kutt-rs](https://github.com/robatipoor/kutt-rs)                                  | Command line tool written in Rust                    |
+| Node.js         | [node-kutt](https://github.com/ardalanamini/node-kutt)                            | Node.js client for Kutt.it url shortener             |
+| JavaScript      | [kutt-vscode](https://github.com/mehrad77/kutt-vscode)                            | Visual Studio Code extension for Kutt                |
+| Java            | [kutt-desktop](https://github.com/cipher812/kutt-desktop)                         | A Cross platform Java desktop application for Kutt   |
+| Go              | [kutt-go](https://github.com/raahii/kutt-go)                                      | Go client for Kutt.it url shortener                  |
+| BASH            | [GitHub Gist](https://gist.github.com/hashworks/6d6e4eae8984a5018f7692a796d570b4) | Simple BASH function to access the API               |
+| BASH            | [url-shortener](https://git.tim-peters.org/Tim/url-shortener)                     | Simple BASH script with GUI                          |
+| Kubernetes/Helm | [ArtifactHub](https://artifacthub.io/packages/helm/christianhuth/kutt)            | A Helm Chart to install Kutt on a Kubernetes cluster |
 
-- The section `mail` has been moved to `kutt.mail`
-- The section `envSecrets` has been merged into `kutt`:
-  - `envSecrets.google` is now `kutt.google`
-  - `envSecrets.jwt` is now `kutt.jwt`
-  - `envSecrets.recaptcha` is now `kutt.recaptcha`
-- The section `env` has been replaced with specific values:
-  - `ADMIN_EMAILS` is now `kutt.admin.emails`
-  - `CUSTOM_DOMAIN_USE_HTTPS` is now `kutt.domain.customDomainUseHttps`
-  - `DEFAULT_DOMAIN` is now `kutt.domain.defaultDomain`
-  - `DEFAULT_MAX_STATS_PER_LINK` is now `kutt.config.defaultMaxStatsPerLink`
-  - `DISALLOW_ANONYMOUS_LINKS` is now `kutt.config.disallowAnonymousLinks`
-  - `DISALLOW_REGISTRATION` is now `kutt.config.disallowRegistration`
-  - `LINK_LENGTH` is now `kutt.config.linkLength`
-  - `NON_USER_COOLDOWN` is now `kutt.config.nonUserCooldown`
-  - `REPORT_EMAIL` is now `kutt.mail.reportEmail`
-  - `SITE_NAME` is now `kutt.config.siteName`
-  - `USER_LIMIT_PER_DAY` is now `kutt.config.userLimitPerDay`
-- You can define additional environment variables using the extraEnv section.
+## Contributing
 
-### 1.0.0
+Pull requests are welcome. Open a discussion for feedback, requesting features, or discussing ideas.
 
-This major updates the PostgreSQL subchart to its newest major, 12.0.0. [Here](https://github.com/bitnami/charts/tree/master/bitnami/postgresql#to-1200) you can find more information about the changes introduced in that version.
+Special thanks to [Thomas](https://github.com/trgwii) and [Muthu](https://github.com/MKRhere). Logo design by [Muthu](https://github.com/MKRhere).
+

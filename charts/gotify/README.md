@@ -1,82 +1,71 @@
-# gotify Helm Chart
-![Version: 0.5.2](https://img.shields.io/badge/Version-0.5.2-informational?style=flat-square)
-[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/gotify)](https://artifacthub.io/packages/search?repo=gotify)
+<p align="center">
+    <a href="https://github.com/gotify/logo">
+        <img height="370px" src="https://raw.githubusercontent.com/gotify/logo/master/gotify-logo.png" />
+    </a>
+</p>
 
-From https://gotify.net/:
-> Gotify a simple server for sending and receiving messages ## That's all!
+<h1 align="center">gotify/server</h1>
 
-## Get Repo Info
+<p align="center">
+    <a href="https://github.com/gotify/server/actions?query=workflow%3Abuild">
+        <img alt="Build Status" src="https://github.com/gotify/server/workflows/build/badge.svg">
+    </a>
+    <a href="https://codecov.io/gh/gotify/server">
+        <img alt="codecov" src="https://codecov.io/gh/gotify/server/branch/master/graph/badge.svg">
+    </a>
+    <a href="https://goreportcard.com/report/github.com/gotify/server">
+        <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/gotify/server">
+    </a>
+    <a href="https://matrix.to/#/#gotify:matrix.org">
+        <img alt="Matrix" src="https://img.shields.io/matrix/gotify:matrix.org.svg">
+    </a>
+    <a href="https://hub.docker.com/r/gotify/server">
+        <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/gotify/server.svg">
+    </a>
+    <a href="https://github.com/gotify/server/releases/latest">
+        <img alt="latest release" src="https://img.shields.io/github/release/gotify/server.svg">
+    </a>
+</p>
 
-    helm repo add my-gotify https://pmoscode-helm.github.io/gotify/
-    helm repo update
+## Intro
+We wanted a simple server for sending and receiving messages (in real time per WebSocket). For this, not many open source projects existed and most of the existing ones were abandoned. Also, a requirement was that it can be self-hosted. We know there are many free and commercial push services out there.
 
-## Install chart
+## Features
 
-    helm install [RELEASE_NAME] my-gotify/gotify
+<img alt="Gotify UI screenshot" src="ui.png" align="right" width="500px"/>
 
-The command deploys gotify on the Kubernetes cluster in the default configuration.
+* send messages via REST-API
+* receive messages via WebSocket
+* manage users, clients and applications
+* [Plugins](https://gotify.net/docs/plugin)
+* Web-UI -> [./ui](ui)
+* CLI for sending messages -> [gotify/cli](https://github.com/gotify/cli)
+* Android-App -> [gotify/android](https://github.com/gotify/android)
 
-See configuration below.
+[<img src="https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" width="150" />][playstore]
+[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" width="150"/>][fdroid]
 
-See [helm install](https://helm.sh/docs/helm/helm_install/) for command documentation.
+<sub>(Google Play and the Google Play logo are trademarks of Google LLC.)</sub>
 
-## Uninstall Chart
+---
 
-    helm uninstall [RELEASE_NAME]
+**[Documentation](https://gotify.net/docs)**
 
-This removes all the Kubernetes components associated with the chart and deletes the release.
-
-See [helm uninstall](https://helm.sh/docs/helm/helm_uninstall/) for command documentation.
-
-## Upgrading Chart
-
-    helm upgrade [RELEASE_NAME] [CHART] --install
-
-See [helm upgrade](https://helm.sh/docs/helm/helm_upgrade/) for command documentation.
-
-## Values
-
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| image.pullPolicy | string | `"Always"` | pull policy |
-| image.repository | string | `"gotify/server"` | repository with gotify image |
-| image.tag | string | `""` | current version of the image |
-| imagePullSecrets | list | `[]` | imagePullSecrets (not needed, if default image is used) |
-| ingress | object | `{"annotations":{},"className":"","enabled":false,"hosts":[{"host":"chart-example.local","paths":[{"path":"/","pathType":"ImplementationSpecific"}]}],"tls":[]}` | Configure ingress |
-| persistence.accessMode | string | `"ReadWriteOnce"` | accessMode |
-| persistence.enabled | bool | `false` | enable persistence when true |
-| persistence.size | string | `"20Gi"` | default storage size |
-| persistence.storageClass | string | `""` | actual storageClass |
-| server.databaseConnection | string | `""` | set connection string for mysql (gotify:secret@/gotifydb?charset=utf8&parseTime=True&loc=Local) or postgresql (host=localhost port=3306 user=gotify dbname=gotify password=secret) |
-| server.databaseDialect | string | `"sqlite3"` | select database kind (sqlite3, mysql, postgres) |
-| server.defaultUserName | string | `"admin"` | default user |
-| server.defaultUserPassword | string | `"admin"` | default user password |
-| server.passstrength | int | `10` | minimal password length |
-| server.registration | bool | `false` | is user registration enabled? |
-| server.timezone | string | `"Europe/Berlin"` | server timezone |
-| service.port | int | `80` |  |
-| service.type | string | `"ClusterIP"` |  |
-| serviceAccount.annotations | object | `{}` | add annotations to serviceAccount |
-| serviceAccount.create | bool | `true` | enable serviceAccount |
-| serviceAccount.name | string | `""` | name of the serviceAccount (will be generated if empty) |
-
-## Maintainers
-
-| Name | Email | Url |
-| ---- | ------ | --- |
-| pmoscode | <info@pmoscode.de> | <https://pmoscode.de> |
+[Install](https://gotify.net/docs/install) ᛫
+[Configuration](https://gotify.net/docs/config) ᛫
+[REST-API](https://gotify.net/api-docs) ᛫
+[Setup Dev Environment](https://gotify.net/docs/dev-setup)
 
 ## Contributing
 
-If you want to add features or bugfixes, please open an issue (either feature or bug) and provide also an unittest (https://github.com/helm-unittest/helm-unittest).
-To make things easier, you can use Taskfile (https://taskfile.dev/) to get a small shortcut for some useful commands.
+We welcome all kinds of contribution, including bug reports, feature requests, documentation improvements, UI refinements, etc. Check out [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-You also need to copy the ".env-template" file as ".env" and configure it for your needs.
+## Versioning
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the
+[tags on this repository](https://github.com/gotify/server/tags).
 
-The Taskfile itself needs this tools to run the tasks:
-- https://github.com/helm/chart-releaser
-- https://helm.sh/docs/intro/quickstart/
-- https://github.com/mbenabda/helm-local-chart-version (install it outside an GIT repo!)
-- https://github.com/norwoodj/helm-docs
-- https://github.com/helm-unittest/helm-unittest/
-- https://github.com/pawamoy/git-changelog
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+ [playstore]: https://play.google.com/store/apps/details?id=com.github.gotify
+ [fdroid]: https://f-droid.org/de/packages/com.github.gotify/

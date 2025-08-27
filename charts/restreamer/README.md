@@ -1,102 +1,46 @@
 # Restreamer
 
-This is a helm chart for the 
-[datarhei/restreamer](https://github.com/datarhei/restreamer) image.
+Datarhei/Restreamer offers smart free video streaming. Stream H.264 video of IP cameras live to your website. Upload your live video on [YouTube-Live](https://www.youtube.com/), [IBM Watson](https://video.ibm.com/), [Twitch](https://www.twitch.tv/), [Vimeo](https://livestream.com/) or any other streaming solutions e.g. [Wowza-Streaming-Engine](https://www.wowza.com/). Our [Docker-Image](https://hub.docker.com/search/?q=restreamer&page=1&isAutomated=0&isOfficial=0&starCount=0&pullCount=0) is easy to install and runs on Linux, MacOS and Windows. Datarhei/Restreamer can be perfectly combined with single-board computers like [Raspberry Pi](https://www.raspberrypi.org/) and [Odroid](http://www.hardkernel.com/main/main.php). It is free (licensed under Apache 2.0) and you can use it for any purpose, private or commercial.  
 
-## TL;DR;
+## Features
 
-```console
-$ helm repo add utkuozdemir https://utkuozdemir.org/helm-charts
-$ helm install my-release utkuozdemir/restreamer
+- User-Interface including login-security
+- JSON / HTTP-API
+- <a target= "_blank" href="http://ffmpeg.org/">FFmpeg</a> streaming/encoding the video/camera-stream, creating snapshots or pushing to a external streaming-endpoint
+- <a target= "_blank" href="http://nginx.org/">NGINX</a> incl. <a target= "_blank" href="https://github.com/sergey-dryabzhinsky/nginx-rtmp-module">RTMP-Module</a> as streaming-backend and hls server
+- <a target= "_blank" href="https://github.com/clappr/clappr">Clappr-Player</a> to embed your stream on your website
+- <a target= "_blank" href="https://www.docker.com/">Docker</a> and <a target= "_blank" href="https://kitematic.com/">Kitematic (Docker-Toolbox)</a> optimizations and very easy installation
+
+## Documentation
+
+Documentation is available on [Datarhei/Restreamer GitHub pages](https://datarhei.github.io/restreamer/).
+We give you a lot of of informations from setting up a camera, embedding your player upon your website and streaming to services like e.g. YouTube-Live, Ustream and Livestream.com and many more things. 
+
+More additional informations about streaming, cameras and so on you can find in our [Wiki](https://datarhei.github.com/restreamer/wiki). 
+
+## Development
+
+#### Building your own Docker-Image:
+
+```sh
+$ git clone https://github.com/datarhei/restreamer
+$ docker build -t restreamer .
 ```
 
-## Introduction
+*Required Docker version >= 17.05*
 
-This chart simply maps the features of the Restreamer project to the Kubernetes concepts.
+## Help / Bugs
 
-## Installing the Chart
+If you have problems or found a bug feel free to create a new issue upon the <a target= "_blank" href="https://github.com/datarhei/restreamer/issues">Github issue management</a>.
 
-To install the chart with the release name `my-release`:
+Want to talk to us? Write an email to <a href="mailto:open@datarhei.org?subject=Datarhei/Restreamer">open@datarhei.org</a> or ask a question in our (<a target= "_blank" href="https://groups.google.com/forum/#!forum/datarhei">Forum</a>) on Google Groups.
 
-```console
-$ helm repo add utkuozdemir https://utkuozdemir.org/helm-charts
-$ helm install my-release utkuozdemir/restreamer
-```
+## Authors
 
-**Important:** See the [Parameters](#parameters) section lists the parameters that need to be configured 
-during the installation.
+The Datarhei/Restreamer was created by [Julius Eitzen](https://github.com/jeitzen), [Sven Erbeck](https://github.com/svenerbeck), [Christoph Johannsdotter](https://github.com/christophjohannsdotter) and [Jan Stabenow](https://github.com/jstabenow).   
 
-> **Tip**: List all releases using `helm list`
+Special thanks for supporting this project [Andrew Shulgin](https://github.com/andrew-shulgin).
 
-## Uninstalling the Chart
+## Copyright
 
-To uninstall/delete the `my-release` deployment:
-
-```console
-$ helm delete my-release
-```
-
-The command removes all the Kubernetes components associated with the chart and deletes the release.
-
-## Parameters
-
-The following tables lists the configurable parameters of the chart and their default values.
-
-| Parameter | Description | Default |
-| --------- | ----------- | ------- |
-| `global.storageClass` | Global storage class for dynamic provisioning | `nil` |
-| `image.repository` | container image name | `datarhei/restreamer` |
-| `image.pullPolicy` | container image pull policy | `IfNotPresent` |
-| `image.tag` | container image tag | `{TAG_NAME}` (taken from the chart appVersion) |
-| `imagePullSecrets` | Array of imagePullSecrets in the namespace for pulling images | `[]` |
-| `nameOverride` | String to partially override the fullname template with a string (will prepend the release name) | `nil` |
-| `fullnameOverride` | String to fully override the fullname template with a string | `nil` |
-| `serviceAccount.create` | Specifies whether a ServiceAccount should be created | `true` |
-| `serviceAccount.name` | The name of the ServiceAccount to create | Generated using the fullname template |
-| `serviceAccount.annotations` | Annotations for the ServiceAccount | `{}` |
-| `podSecurityContext` | The security context for the pods | `{}` |
-| `securityContext` | The security context for the application container. | `{}` |
-| `service.type` | Kubernetes Service type | `ClusterIP` |
-| `service.port` | Kubernetes Service port | `80` |
-| `service.annotations` | Annotations for the Service | `{}` |
-| `ingress.enabled` | Enable the use of the ingress controller | `false` |
-| `ingress.className` | Class name for the ingress | `{}` |
-| `ingress.annotations` | Annotations for the ingress | `{}` |
-| `ingress.hosts` | Hosts configuration of the ingress | see [values.yaml](values.yaml) |
-| `ingress.tls` | The TLS configuration for the ingress | `[]` |
-| `resources` | The resources to allocate for the container | `{}` |
-| `affinity` | Map of node/pod affinities | `{}` |
-| `nodeSelector` | Node labels for pod assignment | `{}` |
-| `tolerations` | Tolerations for pod assignment | `[]` |
-| `persistence.enabled` | Enable persistence | `false` |
-| `persistence.existingClaim` | Use a existing PVC which must be created manually before bound | `nil` |
-| `persistence.storageClass` | Specify the `storageClass` used to provision the volume | `nil` |
-| `persistence.accessModes` | Access modes of data volume  | `["ReadWriteOnce"]` |
-| `persistence.size` | Size for the PV | `512Mi` |
-| `env` | The **non-sensitive** environment variables to configure the application. See the possible configuration here: https://datarhei.github.io/restreamer/docs/references-environment-vars.html | See `values.yaml` |
-| `secretEnv` | The **sensitive** environment variables to configure the application. See the possible configuration here: https://datarhei.github.io/restreamer/docs/references-environment-vars.html | See `values.yaml` |
-| `rtmp.hostPort.enabled` | If the RTMP should be exposed from a hostPort or not | `false` |
-| `rtmp.hostPort.port` | The hostPort to expose RTMP from | `1935` |
-
-Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. For example,
-
-```console
-$ helm install my-release \
-  --set secretEnv.RS_USERNAME=myusername \
-  --set secretEnv.RS_PASSWORD=mypassword \
-  utkuozdemir/restreamer
-```
-
-Alternatively, a YAML file that specifies the values for the parameters 
-can be provided while installing the chart. For example,
-
-```console
-$ helm install my-release -f values.yaml utkuozdemir/restreamer
-```
-
-> **Tip**: You can use the default [values.yaml](values.yaml)
-
-## Notes
-
-For more information, see the 
-[datarhei/restreamer](https://github.com/datarhei/restreamer) project.
+Code released under the [Apache license](LICENSE). Images are copyrighted by datarhei.org

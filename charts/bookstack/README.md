@@ -1,156 +1,181 @@
-# Bookstack - open source wiki
+# BookStack
 
-[Bookstack](https://www.bookstackapp.com) is a simple, easy-to-use platform for organising and storing information.
+[![GitHub release](https://img.shields.io/github/release/BookStackApp/BookStack.svg)](https://github.com/BookStackApp/BookStack/releases/latest)
+[![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/BookStackApp/BookStack/blob/development/LICENSE)
+[![Crowdin](https://badges.crowdin.net/bookstack/localized.svg)](https://crowdin.com/project/bookstack)
+[![Build Status](https://github.com/BookStackApp/BookStack/workflows/test-php/badge.svg)](https://github.com/BookStackApp/BookStack/actions)
+[![Lint Status](https://github.com/BookStackApp/BookStack/workflows/lint-php/badge.svg)](https://github.com/BookStackApp/BookStack/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5551731994dd22fa1f4f/maintainability)](https://codeclimate.com/github/BookStackApp/BookStack/maintainability)
+<br>
+[![Alternate Source](https://img.shields.io/static/v1?label=Alt+Source&message=Git&color=ef391a&logo=git)](https://source.bookstackapp.com/)
+[![Repo Stats](https://img.shields.io/static/v1?label=GitHub+project&message=stats&color=f27e3f)](https://gh-stats.bookstackapp.com/)
+[![Discord](https://img.shields.io/static/v1?label=Discord&message=chat&color=738adb&logo=discord)](https://www.bookstackapp.com/links/discord)
+[![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@bookstack&color=595aff&logo=mastodon)](https://www.bookstackapp.com/links/mastodon)
+<br>
+[![PeerTube](https://img.shields.io/static/v1?label=PeerTube&message=bookstack@foss.video&color=f2690d&logo=peertube)](https://foss.video/c/bookstack)
+[![YouTube](https://img.shields.io/static/v1?label=YouTube&message=bookstackapp&color=ff0000&logo=youtube)](https://www.youtube.com/bookstackapp)
 
-## TL;DR;
+A platform for storing and organising information and documentation. Details for BookStack can be found on the official website at https://www.bookstackapp.com/.
 
-```bash
-$ helm install stellarhosted/bookstack
-```
+* [Installation Instructions](https://www.bookstackapp.com/docs/admin/installation)
+* [Documentation](https://www.bookstackapp.com/docs)
+* [Demo Instance](https://demo.bookstackapp.com)
+    * [Admin Login](https://demo.bookstackapp.com/login?email=admin@example.com&password=password)
+* [Screenshots](https://www.bookstackapp.com/#screenshots) 
+* [BookStack Blog](https://www.bookstackapp.com/blog)
+* [Issue List](https://github.com/BookStackApp/BookStack/issues)
+* [Discord Chat](https://www.bookstackapp.com/links/discord)
+* [Support Options](https://www.bookstackapp.com/support/)
 
-## Introduction
+## 📚 Project Definition
 
-This chart bootstraps a [Bookstack](https://hub.docker.com/r/solidnerd/bookstack/) deployment on a [Kubernetes](http://kubernetes.io) cluster using the [Helm](https://helm.sh) package manager.
+BookStack is an opinionated documentation platform that provides a pleasant and simple out-of-the-box experience. New users to an instance should find the experience intuitive and only basic word-processing skills should be required to get involved in creating content on BookStack. The platform should provide advanced power features to those that desire it, but they should not interfere with the core simple user experience.
 
-It also uses the [MariaDB chart](https://github.com/kubernetes/charts/tree/master/stable/mariadb) which satisfies the database requirements of the application.
+BookStack is not designed as an extensible platform to be used for purposes that differ to the statement above.
 
-## Prerequisites
+In regard to development philosophy, BookStack has a relaxed, open & positive approach. We aim to slowly yet continuously evolve the platform while providing a stable & easy upgrade path. 
 
-- Kubernetes 1.22+ with Beta APIs enabled
-- PV provisioner support in the underlying infrastructure
+You can read more about the project and its origins in [our FAQ here](https://www.bookstackapp.com/about/project-faq/).
 
-## Changelog
+## 🌟 Project Sponsors
 
-All changes for this chart are kept in the [CHANGELOG.md](CHANGELOG.md)
+Shown below are our bronze, silver and gold project sponsors.
+Big thanks to these companies for supporting the project.
+*Note: The listed services are not tested, vetted nor supported by the official BookStack project in any manner.*
 
-## Installing the Chart
+[Project donation details](https://www.bookstackapp.com/donate/) - [GitHub Sponsors Page](https://github.com/sponsors/ssddanbrown) - [Ko-fi Page](https://ko-fi.com/ssddanbrown)
 
-To install the chart with the release name `my-release`:
+#### Gold Sponsor
 
-```bash
-$ helm update --install my-release stellarhosted/bookstack
-```
+<table><tbody><tr>
+<td align="center"><a href="https://www.federated.computer/bookstack-wiki" target="_blank">
+    <img width="480" src="https://www.bookstackapp.com/images/sponsors/federated-computer.png" alt="Federated.computer">
+</a></td>
+</tr></tbody></table>
 
-The command deploys Bookstack on the Kubernetes cluster in the default configuration. The [configuration](#configuration) section lists the parameters that can be configured during installation.
+#### Bronze Sponsors
 
-> **Tip**: List all releases using `helm list`
+<table><tbody><tr>
+<td align="center"><a href="https://www.diagrams.net/" target="_blank">
+    <img width="240" src="https://www.bookstackapp.com/images/sponsors/diagramsnet.png" alt="Diagrams.net">
+</a></td>
+<td align="center"><a href="https://cloudabove.com/hosting" target="_blank">
+    <img width="200" src="https://www.bookstackapp.com/images/sponsors/cloudabove.png" alt="Cloudabove">
+</a></td>
+</tr><tr>
+<td align="center"><a href="https://www.practicali.be" target="_blank">
+    <img width="240" src="https://www.bookstackapp.com/images/sponsors/practicali.png" alt="Practicali">
+</a></td>
+<td align="center"><a href="https://www.stellarhosted.com/bookstack/" target="_blank">
+    <img width="240" src="https://www.bookstackapp.com/images/sponsors/stellarhosted.png" alt="Stellar Hosted">
+</a></td>
+</tr>
+<tr>
+<td align="center" style="text-align: center"><a href="https://nws.netways.de/apps/bookstack/" target="_blank">
+    <img width="240" src="https://www.bookstackapp.com/images/sponsors/netways.png" alt="NETWAYS Web Services">
+</a></td>
+<td align="center" style="text-align: center"><a href="https://www.schroeck-consulting.de/" target="_blank">
+    <img width="200" src="https://www.bookstackapp.com/images/sponsors/schroeck-consulting.png" alt="Schroeck IT Consulting">
+</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://practinet.be/" target="_blank">
+    <img width="240" src="https://www.bookstackapp.com/images/sponsors/practinet.png" alt="Practinet">
+</a></td>
+<td align="center"><a href="https://route4me.com/" target="_blank">
+    <img width="240" src="https://www.bookstackapp.com/images/sponsors/route4me.png" alt="Route4Me - Route Optimizer and Route Planner Software">
+</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://phamos.eu" target="_blank">
+    <img width="136" src="https://www.bookstackapp.com/images/sponsors/phamos.png" alt="phamos">
+</a></td>
+<td align="center"><a href="https://sitespeak.ai/bookstack" target="_blank">
+    <img width="240" src="https://www.bookstackapp.com/images/sponsors/sitespeak.png" alt="SiteSpeakAI">
+</a></td>
+</tr>
+</tbody></table>
 
-## Uninstalling the Chart
+## 🛠️ Development & Testing
 
-To uninstall/delete the `my-release` deployment:
+Please see our [development docs](dev/docs/development.md) for full details regarding work on the BookStack source code.
 
-```bash
-$ helm delete my-release
-```
+If you're just looking to customize or extend your own BookStack instance, take a look at our [Hacking BookStack documentation page](https://www.bookstackapp.com/docs/admin/hacking-bookstack/) for details on various options to achieve this without altering the BookStack source code.
 
-The command removes all the Kubernetes components associated with the chart and deletes the release.
+Details about BookStack's versioning scheme and the general release process [can be found here](dev/docs/release-process.md).
 
-## Configuration
+## 🌎 Translations
 
-The following table lists the configurable parameters of the Redmine chart and their default values.
+Translations for text within BookStack are managed through the [BookStack project on Crowdin](https://crowdin.com/project/bookstack). Some strings have colon-prefixed variables such as `:userName`. Leave these values as they are as they will be replaced at run-time.
 
-| Parameter                                  | Description                                                                                                                | Default                                     |
-|--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| `env`                                      | additional env variables                                                                                                   | `{}`                                        |
-| `replicaCount`                             | Number of replicas to start                                                                                                | `1`                                         |
-| `deploymentStrategy`                       | Deployment strategy                                                                                                        | `{}`                                        |
-| `securityContext`                          | Pod security context                                                                                                       | `{'fsGroup': 33}`                           |
-| `app.key`                                  | Laravel app key. `base64:<b64 encoded string of 16 or 32 bytes>`.                                                          | mandatory                                   |
-| `app.url`                                  | URL used to connect to boostack                                                                                            | mandatory                                   |
-| `image.repository`                         | Bookstack image name                                                                                                       | `solidnerd/bookstack`                       |
-| `image.tag`                                | Bookstack image tag                                                                                                        | `0.30.4`                                    |
-| `image.pullPolicy`                         | Bookstack image pull policy                                                                                                | `IfNotPresent`                              |
-| `externalDatabase.host`                    | Host of the external database                                                                                              | `nil`                                       |
-| `externalDatabase.port`                    | Port of the external database                                                                                              | `3306`                                      |
-| `externalDatabase.user`                    | Existing username in the external db                                                                                       | `bookstack`                                 |
-| `externalDatabase.password`                | Password for the above username                                                                                            | `nil`                                       |
-| `externalDatabase.database`                | Name of the existing database                                                                                              | `bookstack`                                 |
-| `externalDatabase.tlsCert`                 | TLS cert file to setup TLS connection with externalDatabase                                                                | `nil`                                       |
-| `mariadb.enabled`                          | Whether to use the MariaDB chart                                                                                           | `true`                                      |
-| `mariadb.auth.database`                    | Database to create                                                                                                         | `bookstack`                                 |
-| `mariadb.auth.username`                    | Database user to create                                                                                                    | `bookstack`                                 |
-| `mariadb.auth.password`                    | Password for the database                                                                                                  | `nil`                                       |
-| `mariadb.auth.rootPassword`                | MariaDB admin password                                                                                                     | `nil`                                       |
-| `mariadb.primary.persistence.enabled`      | Enable MariaDB persistence using PVC                                                                                       | `false`                                     |
-| `mariadb.primary.persistence.storageClass` | PVC Storage Class for MariaDB volume                                                                                       | `nil` (uses alpha storage class annotation) |
-| `mariadb.primary.persistence.accessModes`  | PVC Access Mode list for MariaDB volume                                                                                    | `[ReadWriteOnce]`                           |
-| `mariadb.primary.persistence.size`         | PVC Storage Request for MariaDB volume                                                                                     | `8Gi`                                       |
-| `service.type`                             | Desired service type                                                                                                       | `ClusterIP`                                 |
-| `service.port`                             | Service exposed port                                                                                                       | `80`                                        |
-| `podSecurityPolicy.enabled`                | Create & use Pod Security Policy resources                                                                                 | `false`                                     |
-| `rbac.create`                              | Use Role-based Access Control                                                                                              | `true`                                      |
-| `serviceAccount.create`                    | Should we create a ServiceAccount                                                                                          | `true`                                      |
-| `serviceAccount.name`                      | Name of the ServiceAccount to use                                                                                          | `null`                                      |
-| `persistence.uploads.enabled`              | Enable persistence using PVC for uploads                                                                                   | `true`                                      |
-| `persistence.uploads.storageClass`         | PVC Storage Class                                                                                                          | `nil` (uses alpha storage class annotation) |
-| `persistence.uploads.accessMode`           | PVC Access Mode                                                                                                            | `ReadWriteOnce`                             |
-| `persistence.uploads.size`                 | PVC Storage Request                                                                                                        | `8Gi`                                       |
-| `persistence.uploads.existingClaim`        | If PVC exists & bounded for uploads                                                                                        | `nil` (when nil, new one is requested)      |
-| `persistence.storage.enabled`              | Enable persistence using PVC for uploads                                                                                   | `true`                                      |
-| `persistence.storage.storageClass`         | PVC Storage Class                                                                                                          | `nil` (uses alpha storage class annotation) |
-| `persistence.storage.accessMode`           | PVC Access Mode                                                                                                            | `ReadWriteOnce`                             |
-| `persistence.storage.size`                 | PVC Storage Request                                                                                                        | `8Gi`                                       |
-| `persistence.storage.existingClaim`        | If PVC exists & bounded for storage                                                                                        | `nil` (when nil, new one is requested)      |
-| `ingress.enabled`                          | Enable or disable the ingress                                                                                              | `false`                                     |
-| `ingress.className`                        | Ingress class name                                                                                                         | mandatory if `ingress.enabled` is true      |
-| `ingress.hosts`                            | The virtual host name(s)                                                                                                   | `{}`                                        |
-| `ingress.annotations`                      | An array of service annotations                                                                                            | `nil`                                       |
-| `ingress.tls[i].secretName`                | The secret kubernetes.io/tls                                                                                               | `nil`                                       |
-| `ingress.tls[i].hosts[j]`                  | The virtual host name                                                                                                      | `nil`                                       |
-| `resources`                                | Resources allocation (Requests and Limits)                                                                                 | `{}`                                        |
-| `ldap.enabled`                             | Enable or disable LDAP authentication. [See official docs for details](https://www.bookstackapp.com/docs/admin/ldap-auth/) | `false`                                     |
-| `ldap.server`                              | LDAP server address                                                                                                        | `nil`                                       |
-| `ldap.base_dn`                             | Base DN where users will be searched                                                                                       | `nil`                                       |
-| `ldap.dn`                                  | User which will make search queries. Leave empty to search anonymously.                                                    | `nil`                                       |
-| `ldap.pass`                                | Password of user performing search queries.                                                                                | `nil`                                       |
-| `ldap.userFilter`                          | A filter to use when searching for users                                                                                   | `nil`                                       |
-| `ldap.version`                             | Set the LDAP version to use when connecting to the server. Required especially when using AD.                              | `nil`                                       |
+Please use [Crowdin](https://crowdin.com/project/bookstack) to contribute translations instead of opening a pull request. The translations within the working codebase can be out-of-date, and merging via code can cause conflicts & sync issues. If for some reason you can't use Crowdin feel free to open an issue to discuss alternative options. 
 
-The above parameters map to the env variables defined in the [Bookstack image](https://hub.docker.com/r/solidnerd/bookstack/) and the MariaDB/MySQL database settings. For more information please refer to the [Bookstack](https://hub.docker.com/r/solidnerd/bookstack/) image documentation.
+If you'd like a new language to be added to Crowdin, for you to be able to provide translations for, please [open a new issue here](https://github.com/BookStackApp/BookStack/issues/new?template=language_request.yml).
 
-Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. For example,
+Please note, translations in BookStack are provided to the "Crowdin Global Translation Memory" which helps BookStack and other projects with finding translations. If you are not happy with contributing to this then providing translations to BookStack, even manually via GitHub, is not advised.
 
-```bash
-$ helm upgrade --install my-release \
-  --set image.pullPolicy=Always \
-    stellarhosted/bookstack
-```
+## 🎁 Contributing, Issues & Pull Requests
 
-The above command sets the image pull policy to Always.
+Feel free to [create issues](https://github.com/BookStackApp/BookStack/issues/new/choose) to request new features or to report bugs & problems. Just please follow the template given when creating the issue.
 
-Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart. For example,
+Pull requests are welcome but, unless it's a small tweak, it may be best to open the pull request early or create an issue for your intended change to discuss how it will fit into the project and plan out the merge. Just because a feature request exists, or is tagged, does not mean that feature would be accepted into the core project.
 
-```bash
-$ helm upgrade --install my-release -f values.yaml stellarhosted/bookstack
-```
+Pull requests should be created from the `development` branch since they will be merged back into `development` once done. Please do not build from or request a merge into the `release` branch as this is only for publishing releases. If you are looking to alter CSS or JavaScript content please edit the source files found in `resources/`. Any CSS or JS files within `public` are built from these source files and therefore should not be edited directly.
 
-> **Tip**: You can use the default [values.yaml](values.yaml)
+The project's code of conduct [can be found here](https://github.com/BookStackApp/BookStack/blob/development/.github/CODE_OF_CONDUCT.md).
 
-## Replicas
+## 🔒 Security
 
-Bookstack writes uploaded files to a persistent volume. By default that volume
-cannot be shared between pods (RWO). In such a configuration the `replicas` option
-must be set to `1`. If the persistent volume supports more than one writer
-(RWX), ie NFS, `replicaCount` can be greater than `1`.
+Security information for administering a BookStack instance can be found on the [documentation site here](https://www.bookstackapp.com/docs/admin/security/).
 
-## Persistence
+If you'd like to be notified of new potential security concerns you can [sign-up to the BookStack security mailing list](https://updates.bookstackapp.com/signup/bookstack-security-updates).
 
-The [Bookstack](https://hub.docker.com/r/solidnerd/bookstack/) image stores the uploaded data at the `public/uploads` path, relative to the document root of the Bookstack application. Other misc. data is stored under the `public/storage` path, also relative to the document root of the application.
+If you would like to report a security concern, details of doing so [can be found here](https://github.com/BookStackApp/BookStack/blob/development/.github/SECURITY.md).
 
-Persistent Volume Claims are used to keep the data across deployments. The volume is created using dynamic volume provisioning.
+## ♿ Accessibility
 
-See the [Configuration](#configuration) section to configure the PVC or to disable persistence.
+We want BookStack to remain accessible to as many people as possible. We aim for at least WCAG 2.1 Level A standards where possible although we do not strictly test this upon each release. If you come across any accessibility issues please feel free to open an issue.
 
-### Existing PersistentVolumeClaims
+## 🖥️ Website, Docs & Blog
 
-The following example includes two PVCs, one for uploads and another for misc. data.
+The website which contains the project docs & blog can be found in the [BookStackApp/website](https://codeberg.org/bookstack/website) repo.
 
-1. Create the PersistentVolume
-1. Create the PersistentVolumeClaim
-1. Create the directory, on a worker
-1. Install the chart
+## ⚖️ License
 
-```bash
-$ helm upgrade --install test --set persistence.uploads.existingClaim=PVC_UPLOADS,persistence.storage.existingClaim=PVC_STORAGE stellarhosted/bookstack
-```
+The BookStack source is provided under the [MIT License](https://github.com/BookStackApp/BookStack/blob/development/LICENSE). 
 
+The libraries used by, and included with, BookStack are provided under their own licenses and copyright.
+The licenses for many of our core dependencies can be found in the attribution list below but this is not an exhaustive list of all projects used within BookStack. 
+
+## 👪 Attribution
+
+The great people that have worked to build and improve BookStack can [be seen here](https://github.com/BookStackApp/BookStack/graphs/contributors). The wonderful people that have provided translations, either through GitHub or via Crowdin [can be seen here](https://github.com/BookStackApp/BookStack/blob/development/.github/translators.txt).
+
+Below are the great open-source projects used to help build BookStack. 
+Note: This is not an exhaustive list of all libraries and projects that would be used in an active BookStack instance.
+
+* [Laravel](http://laravel.com/) - _[MIT](https://github.com/laravel/framework/blob/v8.82.0/LICENSE.md)_
+* [TinyMCE](https://www.tinymce.com/) - _[MIT](https://github.com/tinymce/tinymce/blob/develop/LICENSE.TXT)_
+* [Lexical](https://lexical.dev/) - _[MIT](https://github.com/facebook/lexical/blob/main/LICENSE)_
+* [CodeMirror](https://codemirror.net) - _[MIT](https://github.com/codemirror/CodeMirror/blob/master/LICENSE)_
+* [Sortable](https://github.com/SortableJS/Sortable) - _[MIT](https://github.com/SortableJS/Sortable/blob/master/LICENSE)_
+* [Google Material Icons](https://github.com/google/material-design-icons) - _[Apache-2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)_
+* [markdown-it](https://github.com/markdown-it/markdown-it) and [markdown-it-task-lists](https://github.com/revin/markdown-it-task-lists) - _[MIT](https://github.com/markdown-it/markdown-it/blob/master/LICENSE) and [ISC](https://github.com/revin/markdown-it-task-lists/blob/master/LICENSE)_
+* [Dompdf](https://github.com/dompdf/dompdf) - _[LGPL v2.1](https://github.com/dompdf/dompdf/blob/master/LICENSE.LGPL)_
+* [KnpLabs/snappy](https://github.com/KnpLabs/snappy) - _[MIT](https://github.com/KnpLabs/snappy/blob/master/LICENSE)_
+* [WKHTMLtoPDF](http://wkhtmltopdf.org/index.html) - _[LGPL v3.0](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/LICENSE)_
+* [diagrams.net](https://github.com/jgraph/drawio) - _[Embedded Version Terms](https://www.diagrams.net/trust/) / [Source Project - Apache-2.0](https://github.com/jgraph/drawio/blob/dev/LICENSE)_
+* [SAML PHP Toolkit](https://github.com/SAML-Toolkits/php-saml) - _[MIT](https://github.com/SAML-Toolkits/php-saml/blob/master/LICENSE)_
+* [League/CommonMark](https://commonmark.thephpleague.com/) - _[BSD-3-Clause](https://github.com/thephpleague/commonmark/blob/2.2/LICENSE)_
+* [League/Flysystem](https://flysystem.thephpleague.com) - _[MIT](https://github.com/thephpleague/flysystem/blob/3.x/LICENSE)_
+* [League/html-to-markdown](https://github.com/thephpleague/html-to-markdown) - _[MIT](https://github.com/thephpleague/html-to-markdown/blob/master/LICENSE)_
+* [League/oauth2-client](https://oauth2-client.thephpleague.com/) - _[MIT](https://github.com/thephpleague/oauth2-client/blob/master/LICENSE)_
+* [pragmarx/google2fa](https://github.com/antonioribeiro/google2fa) - _[MIT](https://github.com/antonioribeiro/google2fa/blob/8.x/LICENSE.md)_
+* [Bacon/BaconQrCode](https://github.com/Bacon/BaconQrCode) - _[BSD-2-Clause](https://github.com/Bacon/BaconQrCode/blob/master/LICENSE)_
+* [phpseclib](https://github.com/phpseclib/phpseclib) - _[MIT](https://github.com/phpseclib/phpseclib/blob/master/LICENSE)_
+* [Clockwork](https://github.com/itsgoingd/clockwork) - _[MIT](https://github.com/itsgoingd/clockwork/blob/master/LICENSE)_
+* [PHPStan](https://phpstan.org/) & [Larastan](https://github.com/nunomaduro/larastan) - _[MIT](https://github.com/phpstan/phpstan/blob/master/LICENSE) and [MIT](https://github.com/nunomaduro/larastan/blob/master/LICENSE.md)_
+* [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) - _[BSD 3-Clause](https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt)_
+* [JakeArchibald/IDB-Keyval](https://github.com/jakearchibald/idb-keyval) - _[Apache-2.0](https://github.com/jakearchibald/idb-keyval/blob/main/LICENCE)_
+
+For a detailed breakdown of the JavaScript & PHP projects imported & used via NPM & composer package managers, along with their licenses, please see the [dev/licensing/js-library-licenses.txt](dev/licensing/js-library-licenses.txt) and [dev/licensing/php-library-licenses.txt](dev/licensing/php-library-licenses.txt) files. 

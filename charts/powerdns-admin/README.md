@@ -1,119 +1,98 @@
-# powerdns-admin
+# PowerDNS-Admin
 
-![Version: 1.2.2](https://img.shields.io/badge/Version-1.2.2-informational?style=flat-square) ![AppVersion: v0.2.4](https://img.shields.io/badge/AppVersion-v0.2.4-informational?style=flat-square)
+A PowerDNS web interface with advanced features.
 
-A PowerDNS web interface with advanced features
+[![CodeQL](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/codeql-analysis.yml)
+[![Docker Image](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/build-and-publish.yml/badge.svg?branch=master)](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/build-and-publish.yml)
 
-**This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/k8s-at-home/charts/issues/new/choose)**
+#### Features:
 
-## Source Code
+- Provides forward and reverse zone management
+- Provides zone templating features
+- Provides user management with role based access control
+- Provides zone specific access control
+- Provides activity logging
+- Authentication:
+  - Local User Support
+  - SAML Support
+  - LDAP Support: OpenLDAP / Active Directory
+  - OAuth Support: Google / GitHub / Azure / OpenID
+- Two-factor authentication support (TOTP)
+- PDNS Service Configuration & Statistics Monitoring
+- DynDNS 2 protocol support
+- Easy IPv6 PTR record editing
+- Provides an API for zone and record management among other features
+- Provides full IDN/Punycode support
 
-* <https://github.com/PowerDNS-Admin/PowerDNS-Admin>
+## [Project Update - PLEASE READ!!!](https://github.com/PowerDNS-Admin/PowerDNS-Admin/discussions/1708)
 
-## Requirements
+## Running PowerDNS-Admin
 
-Kubernetes: `>=1.16.0-0`
+There are several ways to run PowerDNS-Admin. The quickest way is to use Docker.
+If you are looking to install and run PowerDNS-Admin directly onto your system, check out
+the [wiki](https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/docs/wiki/) for ways to do that.
 
-## Dependencies
+### Docker
 
-| Repository | Name | Version |
-|------------|------|---------|
-| https://library-charts.k8s-at-home.com | common | 4.5.2 |
+Here are two options to run PowerDNS-Admin using Docker.
+To get started as quickly as possible, try option 1. If you want to make modifications to the configuration option 2 may
+be cleaner.
 
-## TL;DR
+#### Option 1: From Docker Hub
 
-```console
-helm repo add k8s-at-home https://k8s-at-home.com/charts/
-helm repo update
-helm install powerdns-admin k8s-at-home/powerdns-admin
+To run the application using the latest stable release on Docker Hub, run the following command:
+
+```
+$ docker run -d \
+    -e SECRET_KEY='a-very-secret-key' \
+    -v pda-data:/data \
+    -p 9191:80 \
+    powerdnsadmin/pda-legacy:latest
 ```
 
-## Installing the Chart
+This creates a volume named `pda-data` to persist the default SQLite database with app configuration.
 
-To install the chart with the release name `powerdns-admin`
+#### Option 2: Using docker-compose
 
-```console
-helm install powerdns-admin k8s-at-home/powerdns-admin
-```
+1. Update the configuration   
+   Edit the `docker-compose.yml` file to update the database connection string in `SQLALCHEMY_DATABASE_URI`.
+   Other environment variables are mentioned in
+   the [AppSettings.defaults](https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/powerdnsadmin/lib/settings.py) dictionary.
+   To use a Docker-style secrets convention, one may append `_FILE` to the environment variables with a path to a file
+   containing the intended value of the variable (e.g. `SQLALCHEMY_DATABASE_URI_FILE=/run/secrets/db_uri`).   
+   Make sure to set the environment variable `SECRET_KEY` to a long, random
+   string (https://flask.palletsprojects.com/en/1.1.x/config/#SECRET_KEY)
 
-## Uninstalling the Chart
+2. Start docker container
+   ```
+   $ docker-compose up
+   ```
 
-To uninstall the `powerdns-admin` deployment
+You can then access PowerDNS-Admin by pointing your browser to http://localhost:9191.
 
-```console
-helm uninstall powerdns-admin
-```
+## Screenshots
 
-The command removes all the Kubernetes components associated with the chart **including persistent volumes** and deletes the release.
-
-## Configuration
-
-Read through the [values.yaml](./values.yaml) file. It has several commented out suggested values.
-Other values may be used from the [values.yaml](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common/values.yaml) from the [common library](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common).
-
-Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`.
-
-```console
-helm install powerdns-admin \
-  --set env.TZ="America/New York" \
-    k8s-at-home/powerdns-admin
-```
-
-Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart.
-
-```console
-helm install powerdns-admin k8s-at-home/powerdns-admin -f values.yaml
-```
-
-## Custom configuration
-
-N/A
-
-## Values
-
-**Important**: When deploying an application Helm chart you can add more values from our common library chart [here](https://github.com/k8s-at-home/library-charts/tree/main/charts/stable/common)
-
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| env | object | See below (only deviations from the default settings are specified) | environment variables. See [undocumented configs](https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/configs/docker_config.py) and [application docs](# https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/configs/development.py) for more details. |
-| env.GUNICORN_LOGLEVEL | string | `"DEBUG"` | Gunicorn loglevel to use |
-| env.GUNICORN_TIMEOUT | int | `60` | Database connection string - if not set uses internal sqlite db SQLALCHEMY_DATABASE_URI: mysql://db_user:db_pass@db_host/powerdns_admin -- Timeout for Gunicorn workers |
-| env.GUNICORN_WORKERS | int | `2` | How many Gunicorn workers to spawn |
-| env.SECRET_KEY | string | `"changeme"` | Unique app Key |
-| env.TZ | string | `"UTC"` | Application Timezone |
-| image.pullPolicy | string | `"IfNotPresent"` | image pull policy |
-| image.repository | string | `"ngoduykhanh/powerdns-admin"` | image repository |
-| image.tag | string | `"v0.2.4"` | image tag |
-| ingress.main | object | See values.yaml | Enable and configure ingress settings for the chart under this key. |
-| persistence | object | See values.yaml | Configure persistence settings for the chart under this key. this persists the internal sqlite DB if no other database is enabled |
-| service | object | See values.yaml | Configures service settings for the chart. |
-
-## Changelog
-
-### Version 1.2.2
-
-#### Added
-
-N/A
-
-#### Changed
-
-* Upgraded `common` chart dependency to version 4.5.2
-
-#### Fixed
-
-N/A
-
-### Older versions
-
-A historical overview of changes can be found on [ArtifactHUB](https://artifacthub.io/packages/helm/k8s-at-home/powerdns-admin?modal=changelog)
+![dashboard](docs/screenshots/dashboard.png)
 
 ## Support
 
-- See the [Docs](https://docs.k8s-at-home.com/our-helm-charts/getting-started/)
-- Open an [issue](https://github.com/k8s-at-home/charts/issues/new/choose)
-- Ask a [question](https://github.com/k8s-at-home/organization/discussions)
-- Join our [Discord](https://discord.gg/sTMX7Vh) community
+**Looking for help?** Try taking a look at the project's
+[Support Guide](https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/.github/SUPPORT.md) or joining
+our [Discord Server](https://discord.powerdnsadmin.org).
 
-----------------------------------------------
-Autogenerated from chart metadata using [helm-docs v0.1.1](https://github.com/k8s-at-home/helm-docs/releases/v0.1.1)
+## Security Policy
+
+Please see our [Security Policy](https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/SECURITY.md).
+
+## Contributing
+
+Please see our [Contribution Guide](https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/docs/CONTRIBUTING.md).
+
+## Code of Conduct
+
+Please see our [Code of Conduct Policy](https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/docs/CODE_OF_CONDUCT.md).
+
+## License
+
+This project is released under the MIT license. For additional
+information, [see the full license](https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/LICENSE).

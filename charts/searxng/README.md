@@ -1,137 +1,130 @@
-# SearXNG
+.. SPDX-License-Identifier: AGPL-3.0-or-later
 
-Privacy-respecting, hackable metasearch engine. A metasearch engine (or search aggregator) is an online information retrieval tool that uses the data of a web search engine to produce its own results. Metasearch engines take input from a user and immediately query search engines for results. Sufficient data is gathered, ranked, and presented to the users.
+----
 
-## TL;DR
+.. figure:: https://raw.githubusercontent.com/searxng/searxng/master/client/simple/src/brand/searxng.svg
+   :target: https://docs.searxng.org/
+   :alt: SearXNG
+   :width: 100%
+   :align: center
 
-```console
-helm repo add kubitodev https://charts.kubito.dev
-helm install searxng kubitodev/searxng
-```
+----
 
-## Introduction
+Privacy-respecting, hackable `metasearch engine`_
 
-This chart helps you create a metasearch engine that will take input from a user and immediately query search engines for results. Sufficient data is gathered, ranked, and presented to the users. Very useful in today's world for self hosted instances of LLM WebUI applications, such as Open Web UI.
+Searx.space_ lists ready-to-use running instances.
 
-## Prerequisites
+A user_, admin_ and developer_ handbook is available on the homepage_.
 
-- Kubernetes 1.12+
-- Helm 3.2.0+
+|SearXNG install|
+|SearXNG homepage|
+|SearXNG wiki|
+|AGPL License|
+|Issues|
+|commits|
+|weblate|
+|SearXNG logo|
 
-## Installing the Chart
+----
 
-To install the chart with the release name `searxng`:
+.. _searx.space: https://searx.space
+.. _user: https://docs.searxng.org/user
+.. _admin: https://docs.searxng.org/admin
+.. _developer: https://docs.searxng.org/dev
+.. _homepage: https://docs.searxng.org/
+.. _metasearch engine: https://en.wikipedia.org/wiki/Metasearch_engine
 
-```console
-helm install searxng kubitodev/searxng
-```
+.. |SearXNG logo| image:: https://raw.githubusercontent.com/searxng/searxng/master/client/simple/src/brand/searxng-wordmark.svg
+   :target: https://docs.searxng.org/
+   :width: 5%
 
-The command deploys searxng on the Kubernetes cluster in the default configuration. The [Parameters](#parameters) section lists the parameters that can be configured during installation.
+.. |SearXNG install| image:: https://img.shields.io/badge/-install-blue
+   :target: https://docs.searxng.org/admin/installation.html
 
-> **Tip**: List all releases using `helm list`
+.. |SearXNG homepage| image:: https://img.shields.io/badge/-homepage-blue
+   :target: https://docs.searxng.org/
 
-## Uninstalling the Chart
+.. |SearXNG wiki| image:: https://img.shields.io/badge/-wiki-blue
+   :target: https://github.com/searxng/searxng/wiki
 
-To uninstall/delete the `searxng` deployment:
+.. |AGPL License|  image:: https://img.shields.io/badge/license-AGPL-blue.svg
+   :target: https://github.com/searxng/searxng/blob/master/LICENSE
 
-```console
-helm delete searxng
-```
+.. |Issues| image:: https://img.shields.io/github/issues/searxng/searxng?color=yellow&label=issues
+   :target: https://github.com/searxng/searxng/issues
 
-The command removes all the Kubernetes components associated with the chart and deletes the release.
+.. |PR| image:: https://img.shields.io/github/issues-pr-raw/searxng/searxng?color=yellow&label=PR
+   :target: https://github.com/searxng/searxng/pulls
 
-## Parameters
+.. |commits| image:: https://img.shields.io/github/commit-activity/y/searxng/searxng?color=yellow&label=commits
+   :target: https://github.com/searxng/searxng/commits/master
 
-### Image parameters
+.. |weblate| image:: https://translate.codeberg.org/widgets/searxng/-/searxng/svg-badge.svg
+   :target: https://translate.codeberg.org/projects/searxng/
 
-| Name                    | Description                                   | Value             |
-| ----------------------- | --------------------------------------------- | ----------------- |
-| `image.repository`      | The Docker repository to pull the image from. | `searxng/searxng` |
-| `image.tag`             | The image tag to use.                         | `latest`          |
-| `image.imagePullPolicy` | The logic of image pulling.                   | `IfNotPresent`    |
 
-### Common parameters
+Contact
+=======
 
-| Name                         | Description                                                                                                             | Value  |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------ |
-| `serviceAccount.enabled`     | Specifies whether a ServiceAccount should be created.                                                                   | `true` |
-| `serviceAccount.automount`   | Whether to automount the service account.                                                                               | `true` |
-| `serviceAccount.annotations` | Annotations for service account. Evaluated as a template. Only used if `create` is `true`.                              | `{}`   |
-| `serviceAccount.name`        | The name of the ServiceAccount to use. If not set and enabled is true, a name is generated using the fullname template. | `""`   |
+Ask questions or chat with the SearXNG community (this not a chatbot) on
 
-### Deployment parameters
+IRC
+  `#searxng on libera.chat <https://web.libera.chat/?channel=#searxng>`_
+  which is bridged to Matrix.
 
-| Name                                            | Description                                                                                    | Value       |
-| ----------------------------------------------- | ---------------------------------------------------------------------------------------------- | ----------- |
-| `replicaCount`                                  | The number of replicas to deploy.                                                              | `1`         |
-| `imagePullSecrets`                              | Private registry pull secrets to include.                                                      | `[]`        |
-| `env`                                           | Additional environment variables to add to the deployment.                                     | `[]`        |
-| `podAnnotations`                                | Additional pod annotations.                                                                    | `{}`        |
-| `podLabels`                                     | Additional pod labels.                                                                         | `{}`        |
-| `podSecurityContext`                            | Optional pod security context.                                                                 | `{}`        |
-| `securityContext`                               | Optional deployment security context.                                                          | `{}`        |
-| `service.type`                                  | The type of the service to use.                                                                | `ClusterIP` |
-| `service.port`                                  | The service port to use.                                                                       | `8080`      |
-| `config.settings.enabled`                       | Enable custom settings.                                                                        | `true`      |
-| `config.settings.data`                          | Custom settings data. Replace the secret key to any random string with `openssl rand -hex 32`. | `{}`        |
-| `config.limiter.enabled`                        | Enable IP limiter.                                                                             | `true`      |
-| `config.limiter.data`                           | IP limiter data.                                                                               | `{}`        |
-| `config.uwsgi.enabled`                          | Enable UWSGI.                                                                                  | `true`      |
-| `config.uwsgi.data`                             | UWSGI data.                                                                                    | `{}`        |
-| `ingress.enabled`                               | Enable ingress record generation for Searxng.                                                  | `false`     |
-| `ingress.className`                             | The class name of the ingress to use.                                                          | `""`        |
-| `ingress.annotations`                           | Mapped annotations for the ingress.                                                            | `{}`        |
-| `ingress.hosts`                                 | Array style hosts for the ingress.                                                             | `nil`       |
-| `ingress.tls`                                   | Array style TLS secrets for the ingress.                                                       | `[]`        |
-| `resources`                                     | Optional resource requests and limits to set.                                                  | `{}`        |
-| `livenessProbe.httpGet.path`                    | The path to use for the liveness probe.                                                        | `/`         |
-| `livenessProbe.httpGet.port`                    | The port name to use for the liveness probe.                                                   | `http`      |
-| `readinessProbe.httpGet.path`                   | The path to use for the readiness probe.                                                       | `/`         |
-| `readinessProbe.httpGet.port`                   | The port name to use for the readiness probe.                                                  | `http`      |
-| `autoscaling.enabled`                           | Whether to enable autoscaling.                                                                 | `false`     |
-| `autoscaling.minReplicas`                       | The minimum number of replicas to scale to.                                                    | `1`         |
-| `autoscaling.maxReplicas`                       | The maximum number of replicas to scale to.                                                    | `100`       |
-| `autoscaling.targetCPUUtilizationPercentage`    | The target CPU utilization percentage to use for autoscaling.                                  | `80`        |
-| `autoscaling.targetMemoryUtilizationPercentage` | The target memory utilization percentage to use for autoscaling.                               | `80`        |
-| `volumes`                                       | Additional volumes to use.                                                                     | `[]`        |
-| `volumeMounts`                                  | Additional volume mounts to use.                                                               | `[]`        |
-| `nodeSelector`                                  | Optional node selector to use.                                                                 | `{}`        |
-| `tolerations`                                   | Whether to set node tolerations.                                                               | `[]`        |
-| `affinity`                                      | Whether to set node affinity.                                                                  | `{}`        |
+Matrix
+  `#searxng:matrix.org <https://matrix.to/#/#searxng:matrix.org>`_
 
-Specify each parameter using the `--set key=value[,key=value]` argument to `helm install`. For example,
 
-```console
-helm install example \
-  --set user=example \
-  --set password=example \
-    kubitodev/example
-```
+Setup
+=====
 
-Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart. For example,
+- A well maintained `Docker image`_, also built for ARM64 and ARM/v7
+  architectures.
+- Alternatively there are *up to date* `installation scripts`_.
+- For individual setup consult our detailed `Step by step`_ instructions.
+- To fine-tune your instance, take a look at the `Administrator documentation`_.
 
-```console
-helm install example -f values.yaml kubitodev/example
-```
+.. _Administrator documentation: https://docs.searxng.org/admin/index.html
+.. _Step by step: https://docs.searxng.org/admin/installation-searxng.html
+.. _installation scripts: https://docs.searxng.org/admin/installation-scripts.html
+.. _Docker image: https://github.com/searxng/searxng-docker
 
-> **Tip**: You can use the default [values.yaml](values.yaml)
+Translations
+============
 
-## Configuration and installation details
+.. _Weblate: https://translate.codeberg.org/projects/searxng/searxng/
 
-Coming soon.
+Help translate SearXNG at `Weblate`_
 
-## License
+.. figure:: https://translate.codeberg.org/widgets/searxng/-/multi-auto.svg
+   :target: https://translate.codeberg.org/projects/searxng/
 
-Copyright &copy; 2024 Kubito
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Contributing
+============
 
-    http://www.apache.org/licenses/LICENSE-2.0
+.. _development quickstart: https://docs.searxng.org/dev/quickstart.html
+.. _developer documentation: https://docs.searxng.org/dev/index.html
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Are you a developer?  Have a look at our `development quickstart`_ guide, it's
+very easy to contribute.  Additionally we have a `developer documentation`_.
+
+
+Codespaces
+==========
+
+You can contribute from your browser using `GitHub Codespaces`_:
+
+- Fork the repository
+- Click on the ``<> Code`` green button
+- Click on the ``Codespaces`` tab instead of ``Local``
+- Click on ``Create codespace on master``
+- VSCode is going to start in the browser
+- Wait for ``git pull && make install`` to appear and then disappear
+- You have `120 hours per month`_ (see also your `list of existing Codespaces`_)
+- You can start SearXNG using ``make run`` in the terminal or by pressing ``Ctrl+Shift+B``
+
+.. _GitHub Codespaces: https://docs.github.com/en/codespaces/overview
+.. _120 hours per month: https://github.com/settings/billing
+.. _list of existing Codespaces: https://github.com/codespaces

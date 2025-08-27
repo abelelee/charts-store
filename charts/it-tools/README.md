@@ -1,163 +1,131 @@
-# it-tools
+<picture>
+    <source srcset="./.github/logo-dark.png" media="(prefers-color-scheme: light)">
+    <source srcset="./.github/logo-white.png" media="(prefers-color-scheme: dark)">
+    <img src="./.github/logo-dark.png" alt="logo">
+</picture>
 
-Helm chart for deploying [it-tools](https://github.com/CorentinTh/it-tools).
+Useful tools for developer and people working in IT. [Have a look !](https://it-tools.tech).
 
-This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/JeffResc/charts/issues/new).
+## Functionalities and roadmap
 
-## Source code
+Please check the [issues](https://github.com/CorentinTh/it-tools/issues) to see if some feature listed to be implemented.
 
-- https://github.com/CorentinTh/it-tools
+You have an idea of a tool? Submit a [feature request](https://github.com/CorentinTh/it-tools/issues/new/choose)!
 
-## TL;DR
-```
-helm repo add jeffresc https://charts.jeffresc.dev
-helm repo update
-helm install it-tools jeffresc/it-tools
-```
+## Self host
 
-## Installing the Chart
-To install the chart with the release name `it-tools`
-```
-helm install it-tools jeffresc/it-tools
-```
+Self host solutions for your homelab
 
-## Uninstalling the Chart
-To uninstall the `it-tools` deployment
-```
-helm uninstall it-tools
+**From docker hub:**
+
+```sh
+docker run -d --name it-tools --restart unless-stopped -p 8080:80 corentinth/it-tools:latest
 ```
 
-## Parameters
+**From github packages:**
 
-### Global parameters
+```sh
+docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/corentinth/it-tools:latest
+```
 
-| Name               | Description                                   | Value |
-| ------------------ | --------------------------------------------- | ----- |
-| `replicaCount`     | Number of replicas of the it-tools Deployment | `1`   |
-| `affinity`         | Affinity for pod assignment                   | `{}`  |
-| `nodeSelector`     | Node labels for pod assignment                | `{}`  |
-| `tolerations`      | Tolerations for pod assignment                | `[]`  |
-| `podAnnotations`   | Additional annotations for the Pod resource   | `{}`  |
-| `podLabels`        | Additional labels for the Pod resource        | `{}`  |
-| `imagePullSecrets` | Docker registry pull secrets                  | `[]`  |
-| `nameOverride`     | Name override                                 | `""`  |
-| `fullnameOverride` | Full name override                            | `""`  |
+**Other solutions:**
 
-### Image parameters
+- [Cloudron](https://www.cloudron.io/store/tech.ittools.cloudron.html)
+- [Tipi](https://www.runtipi.io/docs/apps-available)
+- [Unraid](https://unraid.net/community/apps?q=it-tools)
 
-| Name               | Description                                                      | Value                         |
-| ------------------ | ---------------------------------------------------------------- | ----------------------------- |
-| `image.repository` | Container image repository                                       | `ghcr.io/corentinth/it-tools` |
-| `image.pullPolicy` | Container image pull policy                                      | `IfNotPresent`                |
-| `image.tag`        | Overrides the image tag whose default is the chart appVersion    | `""`                          |
+## Contribute
 
-### Metrics parameters
-| Name                                               | Description                               | Default Value                                              |
-|----------------------------------------------------|-------------------------------------------|------------------------------------------------------------|
-| `metrics.enabled`                                  | Enables metrics                           | `false`                                                    |
-| `metrics.containerName`                            | Nginx Prometheus exporter container name  | `nginx-prometheus-exporter`                                |
-| `metrics.image.repository`                         | Metrics Docker image repository           | `nginx/nginx-prometheus-exporter`                          |
-| `metrics.image.pullPolicy`                         | Metrics Docker image pull policy          | `IfNotPresent`                                             |
-| `metrics.image.tag`                                | Overrides the metrics image tag           | `"1.3.0"`                                                  |
-| `metrics.args`                                     | Metrics container command arguments       | `["--nginx.scrape-uri=http://localhost:8081/stub_status"]` |
-| `metrics.port`                                     | Metrics port number                       | `9113`                                                     |
-| `metrics.portName`                                 | Metrics port name                         | `metrics`                                                  |
-| `metrics.resources.requests.cpu`                   | Minimum CPU requested                     |                                                            |
-| `metrics.resources.requests.memory`                | Minimum memory requested                  |                                                            |
-| `metrics.resources.limits.cpu`                     | Maximum CPU allowed                       |                                                            |
-| `metrics.resources.limits.memory`                  | Maximum memory allowed                    |                                                            |
-| `metrics.securityContext.capabilities.drop`        | Capabilities to drop                      |                                                            |
-| `metrics.securityContext.readOnlyRootFilesystem`   | If root filesystem should be read-only    |                                                            |
-| `metrics.securityContext.runAsNonRoot`             | If container should be run as non-root    |                                                            |
-| `metrics.securityContext.runAsUser`                | User to run container as                  |                                                            |
-| `metrics.securityContext.runAsGroup`               | Group to run container as                 |                                                            |
-| `metrics.securityContext.allowPrivilegeEscalation` | If privilege escalation should be allowed |                                                            |
-| `metrics.securityContext.seccompProfile.type`      | seccomp profile type                      |                                                            |
+### Recommended IDE Setup
 
-### Service account parameters
+[VSCode](https://code.visualstudio.com/) with the following extensions:
 
-| Name                         | Description                                                                                                            | Value   |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------- |
-| `serviceAccount.create`      | Specifies whether a service account should be created                                                                  | `false` |
-| `serviceAccount.automount`   | Automatically mount a ServiceAccount's API credentials?                                                                | `true`  |
-| `serviceAccount.annotations` | Additional annotations for the ServiceAccount resource                                                                 | `{}`    |
-| `serviceAccount.name`        | The name of the service account to use. If not set and create is true, a name is generated using the fullname template | `""`    |
+- [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur)
+- [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally)
 
-### Security context parameters
+with the following settings:
 
-| Name                                       | Description                                     | Value            |
-| ------------------------------------------ | ----------------------------------------------- | ---------------- |
-| `securityContext.capabilities.drop`        | Capabilities to drop                            | `["ALL"]`        |
-| `securityContext.readOnlyRootFilesystem`   | If root filesystem should be read-only          | `true`           |
-| `securityContext.runAsNonRoot`             | If container should be run as non-root          | `true`           |
-| `securityContext.runAsUser`                | User to run container as                        | `10099`          |
-| `securityContext.runAsGroup`               | Group to run container as                       | `10099`          |
-| `securityContext.allowPrivilegeEscalation` | If privilege escalation should be allowed       | `false`          |
-| `securityContext.seccompProfile.type`      | seccomp profile type                            | `RuntimeDefault` |
+```json
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "i18n-ally.localesPaths": ["locales", "src/tools/*/locales"],
+  "i18n-ally.keystyle": "nested"
+}
+```
 
-### Service parameters
+### Type Support for `.vue` Imports in TS
 
-| Name           | Description            | Value         |
-| -------------- | ---------------------- | ------------- |
-| `service.type` | Service type to create | `ClusterIP`   |
-| `service.port` | Service port to use    | `8080`        |
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-### Ingress parameters
+If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
-| Name                  | Description                                                              | Value   |
-| --------------------- | ------------------------------------------------------------------------ | ------- |
-| `ingress.enabled`     | Enable ingress record generation                                         | `false` |
-| `ingress.className`   | IngressClass that will be be used to implement the Ingress               | `""`    |
-| `ingress.annotations` | Additional annotations for the Ingress resource                          | `{}`    |
-| `ingress.hosts`       | An array with hostname(s) to be covered with the ingress record          | `[]`    |
-| `ingress.tls`         | TLS configuration for hostname(s) to be covered with this ingress record | `[]`    |
+1. Disable the built-in TypeScript Extension
+   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
+   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
+2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
 
-### Resources parameters
+### Project Setup
 
-| Name                        | Description              | Value  |
-| --------------------------- | ------------------------ | ------ |
-| `resources.requests.cpu`    | Minimum CPU requested    |        |
-| `resources.requests.memory` | Minimum memory requested |        |
-| `resources.limits.cpu`      | Maximum CPU allowed      |        |
-| `resources.limits.memory`   | Maximum memory allowed   |        |
+```sh
+pnpm install
+```
 
-### Autoscaling parameters
+### Compile and Hot-Reload for Development
 
-| Name                                            | Description                          | Value   |
-| ----------------------------------------------- | ------------------------------------ | ------- |
-| `autoscaling.enabled`                           | Enable Horizontal POD autoscaling    | `false` |
-| `autoscaling.minReplicas`                       | Minimum number of replicas           | `1`     |
-| `autoscaling.maxReplicas`                       | Maximum number of replicas           | `100`   |
-| `autoscaling.targetCPUUtilizationPercentage`    | Target CPU utilization percentage    | `80`    |
-| `autoscaling.targetMemoryUtilizationPercentage` | Target Memory utilization percentage | `80`    |
+```sh
+pnpm dev
+```
 
-### Nginx configuration parameters
-| Name                          | Description                                               | Value |
-|-------------------------------|-----------------------------------------------------------|-------|
-| `nginxConf.existingConfigmap` | Provide an existing ConfigMap for the Nginx configuration | `""`  |
+### Type-Check, Compile and Minify for Production
 
-### Extra volumes parameter
-| Name           | Description                            | Value |
-|----------------|----------------------------------------|-------|
-| `extraVolumes` | Provide extra volumes for the main pod | `[]`  |
+```sh
+pnpm build
+```
 
-### Extra containers parameter
-| Name              | Description                               | Value |
-|-------------------|-------------------------------------------|-------|
-| `extraContainers` | Provide extra containers for the main pod | `[]`  |
+### Run Unit Tests with [Vitest](https://vitest.dev/)
 
-## Changelog
+```sh
+pnpm test
+```
 
-### 0.1.3
-- Added Helm values schema for validation
+### Lint with [ESLint](https://eslint.org/)
 
-### 0.0.3
-- Add metrics support
-- Remove default resources
-- Change default port to 8080
+```sh
+pnpm lint
+```
 
-### 0.0.2
-- Add support for nginxConf.existingConfigmap, extraVolumes, extraContainers
+### Create a new tool
 
-### 0.0.1
-- Initial release
+To create a new tool, there is a script that generate the boilerplate of the new tool, simply run:
+
+```sh
+pnpm run script:create:tool my-tool-name
+```
+
+It will create a directory in `src/tools` with the correct files, and a the import in `src/tools/index.ts`. You will just need to add the imported tool in the proper category and develop the tool.
+
+## Contributors
+
+Big thanks to all the people who have already contributed!
+
+[![contributors](https://contrib.rocks/image?repo=corentinth/it-tools&refresh=1)](https://github.com/corentinth/it-tools/graphs/contributors)
+
+## Credits
+
+Coded with ❤️ by [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=readme).
+
+This project is continuously deployed using [vercel.com](https://vercel.com).
+
+Contributor graph is generated using [contrib.rocks](https://contrib.rocks/preview?repo=corentinth/it-tools).
+
+<a href="https://www.producthunt.com/posts/it-tools?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-it&#0045;tools" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=345793&theme=light" alt="IT&#0032;Tools - Collection&#0032;of&#0032;handy&#0032;online&#0032;tools&#0032;for&#0032;devs&#0044;&#0032;with&#0032;great&#0032;UX | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<a href="https://www.producthunt.com/posts/it-tools?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-it&#0045;tools" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=345793&theme=light&period=daily" alt="IT&#0032;Tools - Collection&#0032;of&#0032;handy&#0032;online&#0032;tools&#0032;for&#0032;devs&#0044;&#0032;with&#0032;great&#0032;UX | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
+## License
+
+This project is under the [GNU GPLv3](LICENSE).
