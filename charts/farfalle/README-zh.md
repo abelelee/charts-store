@@ -83,7 +83,7 @@ docker-compose -f docker-compose.dev.yaml up -d
 
 ### 后端
 
-[![部署到 Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/rashadphz/farfalle)
+[![部署到 Render](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/farfalle/image/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/rashadphz/farfalle)
 
 后端部署完成后，复制你的 Web 服务 URL 到剪贴板。
 该 URL 应该类似于：https://some-service-name.onrender.com。

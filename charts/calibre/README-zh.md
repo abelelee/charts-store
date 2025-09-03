@@ -1,12 +1,12 @@
 # calibre
 
-<img align="left" src="https://raw.githubusercontent.com/kovidgoyal/calibre/master/resources/images/lt.png" height="200" width="200"/>
+<img align="left" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/calibre/image/lt.png" height="200" width="200"/>
 
 calibre 是一款电子书管理软件。它能够查看、转换、编辑和整理各种主流电子书格式的书籍。它还可以与电子书阅读设备进行通信。calibre 能够连接互联网，为你的电子书获取元数据。此外，它还能下载报纸并将其转换为电子书，便于阅读。calibre 是跨平台的，支持 Linux、Windows 和 macOS 系统。
 
 如需更多信息，请参阅 [calibre 官方介绍页面](https://calibre-ebook.com/about)。
 
-[![Build Status](https://github.com/kovidgoyal/calibre/workflows/CI/badge.svg)](https://github.com/kovidgoyal/calibre/actions?query=workflow%3ACI)
+[![Build Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/calibre/image/badge.svg)](https://github.com/kovidgoyal/calibre/actions?query=workflow%3ACI)
 
 ## 截图  
 

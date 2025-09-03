@@ -1,25 +1,17 @@
-请将以下Markdown格式的文本内容翻译成中文。
-请注意：
-1. 保持原始的Markdown格式不变，例如标题、列表、代码块等。
-2. 翻译要自然、流畅，符合技术文档的语境。
-3. 不要添加任何与原文无关的评论或解释。
-
-原文如下：
----
 <!-- markdownlint-disable MD030 -->
 
 <p align="center">
-<img src="https://github.com/FlowiseAI/Flowise/blob/main/images/flowise_white.svg#gh-light-mode-only">
-<img src="https://github.com/FlowiseAI/Flowise/blob/main/images/flowise_dark.svg#gh-dark-mode-only">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/flowise_white.svg">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/flowise_dark.svg">
 </p>
 
 <div align="center">
 
-[![Release Notes](https://img.shields.io/github/release/FlowiseAI/Flowise)](https://github.com/FlowiseAI/Flowise/releases)
-[![Discord](https://img.shields.io/discord/1087698854775881778?label=Discord&logo=discord)](https://discord.gg/jbaHfsRVBW)
-[![Twitter Follow](https://img.shields.io/twitter/follow/FlowiseAI?style=social)](https://twitter.com/FlowiseAI)
-[![GitHub star chart](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social)](https://star-history.com/#FlowiseAI/Flowise)
-[![GitHub fork](https://img.shields.io/github/forks/FlowiseAI/Flowise?style=social)](https://github.com/FlowiseAI/Flowise/fork)
+[![Release Notes](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f466c6f7769736541492f466c6f77697365.svg)](https://github.com/FlowiseAI/Flowise/releases)
+[![Discord](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f313038373639383835343737353838313737383f6c6162656c3d446973636f7264266c6f676f3d646973636f7264.svg)](https://discord.gg/jbaHfsRVBW)
+[![Twitter Follow](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f666f6c6c6f772f466c6f7769736541493f7374796c653d736f6369616c.svg)](https://twitter.com/FlowiseAI)
+[![GitHub star chart](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f466c6f7769736541492f466c6f776973653f7374796c653d736f6369616c.svg)](https://star-history.com/#FlowiseAI/Flowise)
+[![GitHub fork](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f466c6f7769736541492f466c6f776973653f7374796c653d736f6369616c.svg)](https://github.com/FlowiseAI/Flowise/fork)
 
 English | [繁體中文](./i18n/README-TW.md) | [简体中文](./i18n/README-ZH.md) | [日本語](./i18n/README-JA.md) | [한국어](./i18n/README-KR.md)
 
@@ -27,7 +19,7 @@ English | [繁體中文](./i18n/README-TW.md) | [简体中文](./i18n/README-ZH.
 
 <h3>以可视化方式构建AI代理</h3>
 <a href="https://github.com/FlowiseAI/Flowise">
-<img width="100%" src="https://github.com/FlowiseAI/Flowise/blob/main/images/flowise_agentflow.gif?raw=true"></a>
+<img width="100%" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/flowise_agentflow.gif"></a>
 
 ## 📚 目录
 
@@ -185,7 +177,7 @@ Flowise 支持多种环境变量来配置您的实例。您可以在 `packages/s
 
     -   [Render](https://docs.flowiseai.com/configuration/deployment/render)
 
-        [![部署到Render](https://render.com/images/deploy-to-render-button.svg)](https://docs.flowiseai.com/configuration/deployment/render)
+        [![部署到Render](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/deploy-to-render-button.svg)](https://docs.flowiseai.com/configuration/deployment/render)
 
     -   [HuggingFace Spaces](https://docs.flowiseai.com/deployment/hugging-face)
 
@@ -193,15 +185,15 @@ Flowise 支持多种环境变量来配置您的实例。您可以在 `packages/s
 
     -   [Elestio](https://elest.io/open-source/flowiseai)
 
-        [![在Elestio上部署](https://elest.io/images/logos/deploy-to-elestio-btn.png)](https://elest.io/open-source/flowiseai)
+        [![在Elestio上部署](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/deploy-to-elestio-btn.png)](https://elest.io/open-source/flowiseai)
 
     -   [Sealos](https://template.sealos.io/deploy?templateName=flowise)
 
-        [![在Sealos上部署](https://sealos.io/Deploy-on-Sealos.svg)](https://template.sealos.io/deploy?templateName=flowise)
+        [![在Sealos上部署](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/Deploy-on-Sealos.svg)](https://template.sealos.io/deploy?templateName=flowise)
 
     -   [RepoCloud](https://repocloud.io/details/?app_id=29)
 
-        [![在RepoCloud上部署](https://d16t0pc4846x52.cloudfront.net/deploy.png)](https://repocloud.io/details/?app_id=29)
+        [![在RepoCloud上部署](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/deploy.png)](https://repocloud.io/details/?app_id=29)
 
       </details>
 

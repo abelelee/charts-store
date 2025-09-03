@@ -1,16 +1,13 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始的Markdown格式和结构：
-
----
 <div align="center">
 
 <a href="https://getunleash.io" title="Unleash - 赋能开发者自信发布功能">
-    <img src="./.github/github_header_opaque_landscape.svg" alt="访问 Unleash 官网">
+    <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/github_header_opaque_landscape.svg" alt="访问 Unleash 官网">
 </a>
 
 <br/>
 <br/>
 
-[![Build and Tests](https://img.shields.io/github/actions/workflow/status/Unleash/unleash/build.yaml?branch=main)](https://github.com/Unleash/unleash/actions/workflows/build.yaml) [![Coverage Report](https://img.shields.io/badge/coverage-vitest-green)](https://github.com/Unleash/unleash/actions/workflows/build_coverage.yaml) [![Docker Pulls](https://img.shields.io/docker/pulls/unleashorg/unleash-server)](https://hub.docker.com/r/unleashorg/unleash-server) [![Apache-2.0 license](https://img.shields.io/github/license/unleash/unleash)](https://github.com/Unleash/unleash/blob/main/LICENSE) [![Join Unleash on Slack](https://img.shields.io/badge/slack-join-635dc5?logo=slack)](https://slack.unleash.run)
+[![Build and Tests](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/build.yaml.svg)](https://github.com/Unleash/unleash/actions/workflows/build.yaml) [![Coverage Report](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/coverage-vitest-green.svg)](https://github.com/Unleash/unleash/actions/workflows/build_coverage.yaml) [![Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/unleash-server.svg)](https://hub.docker.com/r/unleashorg/unleash-server) [![Apache-2.0 license](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/unleash.svg)](https://github.com/Unleash/unleash/blob/main/LICENSE) [![Join Unleash on Slack](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/slack-join-635dc5.svg)](https://slack.unleash.run)
 
 [体验 Unleash 在线演示 →](https://www.getunleash.io/interactive-demo)
 
@@ -86,7 +83,7 @@ if (unleash.isEnabled("AwesomeFeature")) {
 
 如果你不想在本地运行 Unleash，我们还提供了在 Heroku 和 Digital Ocean 上的快速部署方式：
 
-[![Deploy to Heroku](./.github/deploy-heroku-20.png)](https://www.heroku.com/deploy/?template=https://github.com/Unleash/unleash) [![Deploy to DigitalOcean](./.github/deploy-digital.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Unleash/unleash/tree/main&refcode=0e1d75187044)
+[![Deploy to Heroku](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/deploy-heroku-20.png)](https://www.heroku.com/deploy/?template=https://github.com/Unleash/unleash) [![Deploy to DigitalOcean](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/deploy-digital.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Unleash/unleash/tree/main&refcode=0e1d75187044)
 
 ### 在任何地方配置并运行 Unleash
 
@@ -102,7 +99,7 @@ if (unleash.isEnabled("AwesomeFeature")) {
 
 尝试 [Unleash 在线演示](https://www.getunleash.io/interactive-demo)。
 
-[![The Unleash online demo](./.github/github_online_demo.svg)](https://www.getunleash.io/interactive-demo)
+[![The Unleash online demo](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/github_online_demo.svg)](https://www.getunleash.io/interactive-demo)
 
 <br/>
 
@@ -110,7 +107,7 @@ if (unleash.isEnabled("AwesomeFeature")) {
 
 我们知道学习一个新工具可能很困难且耗时。我们有一个不断壮大的社区，乐于助人。请随时寻求帮助。
 
-[![Join Unleash on Slack](https://img.shields.io/badge/slack-join-635dc5?logo=slack)](https://slack.unleash.run)
+[![Join Unleash on Slack](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/slack-join-635dc5.svg)](https://slack.unleash.run)
 
 💬 [加入 Unleash 的 Slack 频道](https://slack.unleash.run)，如果你有关于 Unleash 或功能开关的开放性问题，或者想讨论相关话题。
 
@@ -132,7 +129,7 @@ Unleash 是 GitHub 上最大的 [开源功能开关解决方案](https://www.get
 
 <div align="center">
 
-[![The Unleash contributors](https://cdn.getunleash.io/docs-assets/contributors.svg)](https://github.com/Unleash/unleash/graphs/contributors)
+[![The Unleash contributors](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/contributors.svg)](https://github.com/Unleash/unleash/graphs/contributors)
 
 </div>
 
@@ -180,7 +177,7 @@ Unleash 是 GitHub 上最大的 [开源功能开关解决方案](https://www.get
 
 ## 架构图
 
-<img src="./website/static/img/unleash-architecture-edge.png" title="Unleash 系统概览" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/unleash-architecture-edge.png" title="Unleash 系统概览" />
 
 更多内容请参阅 Unleash 文档中的 [_系统概览_ 部分](https://docs.getunleash.io/understanding-unleash/unleash-overview#system-overview)。
 
@@ -225,7 +222,7 @@ Unleash 是 GitHub 上最大的 [开源功能开关解决方案](https://www.get
 
 **自豪的开源用户：**（如果你想添加你的 Logo，请给我们发消息）
 
-![Unleash 的 Logo 被 Finn.no、nav（挪威劳动和福利管理局）、Budgets、Otovo 和 Amedia 的 Logo 环绕，所有 Logo 都连接到 Unleash 的 Logo。](./.github/github_unleash_users.svg)
+![Unleash 的 Logo 被 Finn.no、nav（挪威劳动和福利管理局）、Budgets、Otovo 和 Amedia 的 Logo 环绕，所有 Logo 都连接到 Unleash 的 Logo。](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/github_unleash_users.svg)
 
 <br/>
 

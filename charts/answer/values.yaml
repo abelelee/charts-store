@@ -18,9 +18,6 @@ ingress:
 
 resources:
   {}
-persistent:
-  storageClassName: cloudapp.storageClassName
-  storage: cloudapp.storage
 
 nodeSelector: {}
 

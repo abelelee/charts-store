@@ -14,14 +14,14 @@
 ## @param global.namespaceOverride Override the namespace for resource deployed by the chart, but can itself be overridden by the local namespaceOverride
 ##
 global:
-  imageRegistry: cloudapp.registry
+  imageRegistry: ""
   ## E.g.
   ## imagePullSecrets:
   ##   - myRegistryKeySecretName
   ##
   imagePullSecrets: []
-  defaultStorageClass: cloudapp.storage
-  storageClass: cloudapp.storage
+  defaultStorageClass: ""
+  storageClass: ""
   namespaceOverride: ""
   ## Compatibility adaptations for Kubernetes platforms
   ##
@@ -129,6 +129,7 @@ diagnosticMode:
 ## @param image.debug Set to true if you would like to see extra information on logs
 ##
 image:
+  registry: cloudapp.registry
   repository: mongodb.repository
   tag: mongodb.image.tag
   digest: ""
@@ -1314,7 +1315,7 @@ persistence:
   ## If undefined (the default) or set to null, no storageClassName spec is
   ## set, choosing the default provisioner.
   ##
-  storageClass: cloudapp.storage
+  storageClass: cloudapp.storageClassName
   ## @param persistence.accessModes PV Access Mode
   ##
   accessModes:
@@ -1476,7 +1477,7 @@ backup:
       ## If undefined (the default) or set to null, no storageClassName spec is
       ## set, choosing the default provisioner.
       ##
-      storageClass: cloudapp.storage
+      storageClass: cloudapp.storageClassName
       ## @param backup.cronjob.storage.accessModes PV Access Mode
       ##
       accessModes:
@@ -2345,7 +2346,7 @@ hidden:
     ## If undefined (the default) or set to null, no storageClassName spec is
     ## set, choosing the default provisioner.
     ##
-    storageClass: cloudapp.storage
+    storageClass: cloudapp.storageClassName
     ## @param hidden.persistence.accessModes PV Access Mode
     ##
     accessModes:

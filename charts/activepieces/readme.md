@@ -7,7 +7,7 @@
     <img
       align="center"
       alt="Activepieces"
-src="https://github.com/activepieces/activepieces/assets/1812998/76c97441-c285-4480-bc75-30a0c73ed340"
+src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/246954877-76c97441-c285-4480-bc75-30a0c73ed340.png"
       style="width:100%;"
     />
     
@@ -16,7 +16,7 @@ src="https://github.com/activepieces/activepieces/assets/1812998/76c97441-c285-4
 
 
 <p align="center">
-<a href="/LICENSE" target="_blank"><img src='https://img.shields.io/badge/license-MIT-green?style=for-the-badge' /></a>&nbsp;<img src='https://img.shields.io/github/commit-activity/w/activepieces/activepieces/main?style=for-the-badge' />&nbsp;<a href='https://discord.gg/2jUXBKDdP8'><img src='https://img.shields.io/discord/966798490984382485?style=for-the-badge' /></a>
+<a href="/LICENSE" target="_blank"><img src='https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/license-MIT-green.svg' /></a>&nbsp;<img src='https://img.shields.io/github/commit-activity/w/activepieces/activepieces/main?style=for-the-badge' />&nbsp;<a href='https://discord.gg/2jUXBKDdP8'><img src='https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/966798490984382485.svg' /></a>
 </p>
 <p align="center">
    An open source replacement for Zapier
@@ -58,7 +58,7 @@ When you contribute pieces to Activepieces they become automatically available a
 
 - **💖 Loved by Everyone**: Intuitive interface and great experience for both technical and non-technical users with a quick learning curve.
 
-<img src="https://github.com/activepieces/activepieces/tree/main/docs/resources/templates.gif">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/templates.gif">
 
 - **🌐 Open Ecosystem:** All pieces are open source and available on npmjs.com, **60% of the pieces are contributed by the community**.
 
@@ -66,7 +66,7 @@ When you contribute pieces to Activepieces they become automatically available a
 
 - **🛠️  Pieces are written in Typescript**: Pieces are npm packages in TypeScript, offering full customization with the best developer experience, including **hot reloading** for **local** piece development on your machine. 😎
 
-<img src="https://github.com/activepieces/activepieces/tree/main/docs/resources/create-action.png" alt="">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/create-action.png" alt="">
 
 - **🤖 AI-First**: Native AI pieces let you experiment with various providers, or create your own agents using our AI SDK, and there is Copilot to help you build flows inside the builder.
 
@@ -123,7 +123,7 @@ Read more about the feature comparison here https://www.activepieces.com/docs/ab
 # 💭 Join Our Community
 
 <a href="https://discord.gg/2jUXBKDdP8" target="_blank">
-<img src="https://discordapp.com/api/guilds/966798490984382485/widget.png?style=banner3" alt="">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3936363739383439303938343338323438352f7769646765742e706e673f7374796c653d62616e6e657233.png" alt="">
 </a>
 
 <br>
@@ -136,18 +136,6 @@ We welcome contributions big or small and in different directions. The best way 
 ## 📚 Translations
 
 Not into coding but still interested in contributing? Come join our [Discord](https://discord.gg/2jUXBKDdP8) and visit https://www.activepieces.com/docs/about/i18n for more information.
-
-![fr translation](https://img.shields.io/badge/dynamic/json?color=blue&label=fr&style=for-the-badge&logo=crowdin&query=%24.progress[?(@.data.languageId==%27fr%27)].data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-16093902-626364-update.json)
-
-![it translation](https://img.shields.io/badge/dynamic/json?color=blue&label=it&style=for-the-badge&logo=crowdin&query=%24.progress[?(@.data.languageId==%27it%27)].data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-16093902-626364-update.json)
-
-![de translation](https://img.shields.io/badge/dynamic/json?color=blue&label=de&style=for-the-badge&logo=crowdin&query=%24.progress[?(@.data.languageId==%27de%27)].data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-16093902-626364-update.json)
-
-![ja translation](https://img.shields.io/badge/dynamic/json?color=blue&label=ja&style=for-the-badge&logo=crowdin&query=%24.progress[?(@.data.languageId==%27ja%27)].data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-16093902-626364-update.json)
-
-
-![pt-BR translation](https://img.shields.io/badge/dynamic/json?color=blue&label=pt-BR&style=for-the-badge&logo=crowdin&query=%24.progress[?(@.data.languageId==%27pt-BR%27)].data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-16093902-626364-update.json)
-
 
 This project follows the [all-contributors](https://allcontributors.org) specification.
 Contributions of any kind are welcome!

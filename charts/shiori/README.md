@@ -1,15 +1,15 @@
 # Shiori
 
-[![IC](https://github.com/go-shiori/shiori/actions/workflows/push.yml/badge.svg?branch=master)](https://github.com/go-shiori/shiori/actions/workflows/push.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-shiori/shiori)](https://goreportcard.com/report/github.com/go-shiori/shiori)
-[![#shiori-general:matrix.org](https://img.shields.io/badge/matrix-%23shiori-orange)](https://matrix.to/#/#shiori:matrix.org)
-[![Containers](https://img.shields.io/static/v1?label=Container&message=Images&color=1488C6&logo=docker)](https://github.com/go-shiori/shiori/pkgs/container/shiori)
+[![IC](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/badge.svg)](https://github.com/go-shiori/shiori/actions/workflows/push.yml)
+[![Go Report Card](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f676f2d7368696f72692f7368696f7269.svg)](https://goreportcard.com/report/github.com/go-shiori/shiori)
+[![#shiori-general:matrix.org](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/matrix-_23shiori-orange.svg)](https://matrix.to/#/#shiori:matrix.org)
+[![Containers](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/v1.svg)](https://github.com/go-shiori/shiori/pkgs/container/shiori)
 
 **Check out our latest [Announcements](https://github.com/go-shiori/shiori/discussions/categories/announcements)**
 
 Shiori is a simple bookmarks manager written in the Go language. Intended as a simple clone of [Pocket][pocket]. You can use it as a command line application or as a web application. This application is distributed as a single binary, which means it can be installed and used easily.
 
-![Screenshot][screenshot]
+![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/cover.png)
 
 ## Features
 
@@ -23,7 +23,7 @@ Shiori is a simple bookmarks manager written in the Go language. Intended as a s
 - Where possible, by default `shiori` will parse the readable content and create an offline archive of the webpage.
 - [BETA] [web extension][web-extension] support for Firefox and Chrome.
 
-![Comparison of reader mode and archive mode][mode-comparison]
+![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/comparison.png)
 
 ## Documentation
 

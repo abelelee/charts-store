@@ -1,12 +1,10 @@
----
-![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)
-![Grafana Logo (Dark)](docs/logo-horizontal-dark.png#gh-dark-mode-only)
+![Grafana Logo (Light)](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grafana/image/logo-horizontal.png)
+![Grafana Logo (Dark)](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grafana/image/logo-horizontal-dark.png)
 
 用于监控和可观测性的开源平台
 
-[![License](https://img.shields.io/github/license/grafana/grafana)](LICENSE)
-[![Drone](https://drone.grafana.net/api/badges/grafana/grafana/status.svg)](https://drone.grafana.net/grafana/grafana)
-[![Go Report Card](https://goreportcard.com/badge/github.com/grafana/grafana)](https://goreportcard.com/report/github.com/grafana/grafana)
+[![License](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grafana/image/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f67726166616e612f67726166616e61.svg)](LICENSE)
+[![Go Report Card](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grafana/image/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f67726166616e612f67726166616e61.svg)](https://goreportcard.com/report/github.com/grafana/grafana)
 
 无论您的指标存储在哪里，Grafana 都可以帮助您查询、可视化、设置警报并理解这些指标。您可以与团队一起创建、探索和共享仪表板，从而推动数据驱动的文化：
 

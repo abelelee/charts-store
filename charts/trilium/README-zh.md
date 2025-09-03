@@ -1,9 +1,9 @@
 # Trilium Notes
 
-![GitHub 赞助者](https://img.shields.io/github/sponsors/eliandoran) ![LiberaPay 赞助者](https://img.shields.io/liberapay/patrons/ElianDoran)  
-![Docker 下载量](https://img.shields.io/docker/pulls/triliumnext/notes)
-![GitHub 下载量（所有资产，所有版本）](https://img.shields.io/github/downloads/triliumnext/notes/total)  
-[![RelativeCI](https://badges.relative-ci.com/badges/Di5q7dz9daNDZ9UXi0Bp?branch=develop)](https://app.relative-ci.com/projects/Di5q7dz9daNDZ9UXi0Bp) [![翻译状态](https://hosted.weblate.org/widget/trilium/svg-badge.svg)](https://hosted.weblate.org/engage/trilium/)
+![GitHub 赞助者](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/eliandoran.svg) ![LiberaPay 赞助者](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/ElianDoran.svg)  
+![Docker 下载量](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/notes.svg)
+![GitHub 下载量（所有资产，所有版本）](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/total.svg)  
+[![RelativeCI](https://camo.githubusercontent.com/0dc2dbfd5ed96a4e173339f8f41658a1219e3be27b07ea3a7ba2eece69f1a264/68747470733a2f2f6261646765732e72656c61746976652d63692e636f6d2f6261646765732f4469357137647a3964614e445a395558693042703f6272616e63683d646576656c6f70)](https://app.relative-ci.com/projects/Di5q7dz9daNDZ9UXi0Bp) [![翻译状态](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/svg-badge.svg)](https://hosted.weblate.org/engage/trilium/)
 
 [英文](README.md) | [中文](./docs/README-ZH_CN.md) | [俄语](./docs/README.ru.md) | [日语](./docs/README.ja.md) | [意大利语](./docs/README.it.md) | [西班牙语](./docs/README.es.md)
 
@@ -11,7 +11,7 @@ Trilium Notes 是一个免费开源、跨平台的分层笔记应用，专注于
 
 查看 [截图](https://triliumnext.github.io/Docs/Wiki/screenshot-tour) 以快速了解：
 
-<a href="https://triliumnext.github.io/Docs/Wiki/screenshot-tour"><img src="./docs/app.png" alt="Trilium 截图" width="1000"></a>
+<a href="https://triliumnext.github.io/Docs/Wiki/screenshot-tour"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/app.png" alt="Trilium 截图" width="1000"></a>
 
 ## 🎁 特性
 
@@ -88,7 +88,7 @@ Trilium Notes 是一个免费开源、跨平台的分层笔记应用，专注于
 
 如果你使用的发行版在下表中列出，请使用发行版的软件包。
 
-[![打包状态](https://repology.org/badge/vertical-allrepos/triliumnext.svg)](https://repology.org/project/triliumnext/versions)
+[![打包状态](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/68747470733a2f2f7265706f6c6f67792e6f72672f62616467652f766572746963616c2d616c6c7265706f732f7472696c69756d6e6578742e737667.svg)](https://repology.org/project/triliumnext/versions)
 
 你也可以从 [最新发布页面](https://github.com/TriliumNext/Notes/releases/latest) 下载适用于你平台的二进制包，解压后运行 `trilium` 可执行文件。
 
@@ -120,7 +120,7 @@ TriliumNext 也提供了 Flatpak 包，但尚未发布到 FlatHub。
 
 这是我们目前支持的语言情况：
 
-[![翻译状态](https://hosted.weblate.org/widget/trilium/multi-auto.svg)](https://hosted.weblate.org/engage/trilium/)
+[![翻译状态](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/multi-auto.svg)](https://hosted.weblate.org/engage/trilium/)
 
 ### 代码
 

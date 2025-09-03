@@ -4,11 +4,11 @@
 
 <div align="center">
 
-<img src="https://s.electerious.com/images/ackee/icon.png" title="Ackee" alt="Ackee logo" width="128">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/icon.png" title="Ackee" alt="Ackee logo" width="128">
 
 # Ackee
 
-![构建](https://github.com/electerious/Ackee/workflows/Build/badge.svg) [![覆盖率状态](https://coveralls.io/repos/github/electerious/Ackee/badge.svg?branch=master)](https://coveralls.io/github/electerious/Ackee?branch=master) [![被 Awesome Selfhosted 提及](https://awesome.re/mentioned-badge.svg)](https://github.com/awesome-selfhosted/awesome-selfhosted) [![通过 PayPal 捐赠](https://img.shields.io/badge/paypal-捐赠-009cde.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CYKBESW577YWE)
+![构建](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/badge.svg) [![覆盖率状态](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/badge.svg)](https://coveralls.io/github/electerious/Ackee?branch=master) [![被 Awesome Selfhosted 提及](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/mentioned-badge.svg)](https://github.com/awesome-selfhosted/awesome-selfhosted) [![通过 PayPal 捐赠](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/paypal-捐赠-009cde.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CYKBESW577YWE)
 
 Ackee 是一个自托管的、基于 Node.js 的分析工具，适用于注重隐私的用户。Ackee 运行在你自己的服务器上，分析你网站的流量，并在简洁的界面中提供有用的统计数据。
 
@@ -16,7 +16,7 @@ Ackee 是一个自托管的、基于 Node.js 的分析工具，适用于注重�
 
 <br/>
 
-![浏览器中的 Ackee](https://s.electerious.com/images/ackee/readme.png)
+![浏览器中的 Ackee](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/readme.png)
 
 </div>
 

@@ -2,8 +2,8 @@
 
 A PowerDNS web interface with advanced features.
 
-[![CodeQL](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/codeql-analysis.yml)
-[![Docker Image](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/build-and-publish.yml/badge.svg?branch=master)](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/build-and-publish.yml)
+[![CodeQL](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/powerdns-admin/image/badge.svg)](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/codeql-analysis.yml)
+[![Docker Image](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/powerdns-admin/image/badge.svg)](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/build-and-publish.yml)
 
 #### Features:
 
@@ -72,7 +72,7 @@ You can then access PowerDNS-Admin by pointing your browser to http://localhost:
 
 ## Screenshots
 
-![dashboard](docs/screenshots/dashboard.png)
+![dashboard](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/powerdns-admin/image/dashboard.png)
 
 ## Support
 

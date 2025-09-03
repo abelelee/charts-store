@@ -5,12 +5,13 @@
 replicaCount: 1
 enabled: true
 config:
-#  BASE_URL: http://[your openai api url]
-#  OPENAI_API_KEY: [your openai api key]
-#  AZURE_URL: https://[your azure api url] # if you want to use azure api
-#  AZURE_API_VERSION: 2023-08-01-preview # if you want to use azure api
-#  AZURE_API_KEY: [your azure api key] # if you want to use azure api
-#  CODE: [backend access code]
+  BASE_URL: http://[your openai api url]
+  OPENAI_API_KEY: [your openai api key]
+  AZURE_URL: https://[your azure api url] # if you want to use azure api
+  AZURE_API_VERSION: 2023-08-01-preview # if you want to use azure api
+  AZURE_API_KEY: [your azure api key] # if you want to use azure api
+  CODE: [backend access code]
+
 image:
   repository: app.image
   pullPolicy:  IfNotPresent

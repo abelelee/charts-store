@@ -1,6 +1,6 @@
 # Automatisch - Open Source Zapier Alternative
 
-![Automatisch - Screenshot](https://user-images.githubusercontent.com/2501931/191562539-e42f6c34-03c7-4dc4-bcf9-7f9473a9c64f.png)
+![Automatisch - Screenshot](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/automatisch/image/191562539-e42f6c34-03c7-4dc4-bcf9-7f9473a9c64f.png)
 
 🧐 Automatisch is a business automation tool that lets you connect different services like Twitter, Slack, and more to automate your business processes.
 

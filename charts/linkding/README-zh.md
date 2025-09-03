@@ -1,11 +1,7 @@
-以下是你要求翻译的 Markdown 内容，翻译后保留了原始的 Markdown 格式，并确保语言自然流畅，符合技术文档风格：
-
----
-
 <div align="center">
     <br>
     <a href="https://github.com/sissbruecker/linkding">
-        <img src="assets/header.svg" height="50">
+        <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkding/image/header.svg" height="50">
     </a>
     <br>
 </div>
@@ -38,7 +34,7 @@ linkding 是一个你可以自行托管的书签管理工具。
 
 **截图：**
 
-![截图](/docs/public/linkding-screenshot.png?raw=true "截图")
+![截图](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkding/image/linkding-screenshot.png "截图")
 
 ## 快速开始
 

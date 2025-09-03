@@ -2,11 +2,11 @@
 
 Simple web-based and cross platform PostgreSQL database explorer.
 
-[![Release](https://img.shields.io/github/release/sosedoff/pgweb.svg?label=Release)](https://github.com/sosedoff/pgweb/releases)
-[![Linux Build](https://github.com/sosedoff/pgweb/actions/workflows/checks.yml/badge.svg)](https://github.com/sosedoff/pgweb/actions?query=branch%3Amain)
-[![Go Report Card](https://goreportcard.com/badge/github.com/sosedoff/pgweb)](https://goreportcard.com/report/github.com/sosedoff/pgweb)
-[![GoDoc](https://godoc.org/github.com/sosedoff/pgweb?status.svg)](https://godoc.org/github.com/sosedoff/pgweb)
-[![Docker Pulls](https://img.shields.io/docker/pulls/sosedoff/pgweb.svg)](https://hub.docker.com/r/sosedoff/pgweb/)
+[![Release](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/pgweb/image/pgweb.svg)](https://github.com/sosedoff/pgweb/releases)
+[![Linux Build](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/pgweb/image/badge.svg)](https://github.com/sosedoff/pgweb/actions?query=branch%3Amain)
+[![Go Report Card](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/pgweb/image/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f736f7365646f66662f7067776562.svg)](https://goreportcard.com/report/github.com/sosedoff/pgweb)
+[![GoDoc](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/pgweb/image/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f736f7365646f66662f70677765623f7374617475732e737667.svg)](https://godoc.org/github.com/sosedoff/pgweb)
+[![Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/pgweb/image/pgweb.svg)](https://hub.docker.com/r/sosedoff/pgweb/)
 
 ## Overview
 

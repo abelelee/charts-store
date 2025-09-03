@@ -1,19 +1,15 @@
-以下是你提供的Markdown内容的中文翻译，保持了原始Markdown格式不变，并确保翻译自然流畅，符合技术文档语境：
-
----
-
 <div align="center">
-  <img src="./assets/logo.png" width="100px" />
+  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/logo.png" width="100px" />
   <h1>Linkwarden</h1>
   <h3>书签，进化了</h3>
 
-<a href="https://discord.com/invite/CtuYV47nuJ"><img src="https://img.shields.io/discord/1117993124669702164?logo=discord&style=flat" alt="Discord"></a>
-<a href="https://twitter.com/LinkwardenHQ"><img src="https://img.shields.io/twitter/follow/linkwarden" alt="Twitter"></a> <a href="https://news.ycombinator.com/item?id=36942308"><img src="https://img.shields.io/badge/Hacker%20News-280-%23FF6600"></img></a>
+<a href="https://discord.com/invite/CtuYV47nuJ"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/1117993124669702164.svg" alt="Discord"></a>
+<a href="https://twitter.com/LinkwardenHQ"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg" alt="Twitter"></a> <a href="https://news.ycombinator.com/item?id=36942308"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/Hacker_20News-280-_23FF6600.svg"></img></a>
 
-<a href="https://github.com/linkwarden/linkwarden/releases"><img alt="GitHub release" src="https://img.shields.io/github/v/release/linkwarden/linkwarden"></a>
+<a href="https://github.com/linkwarden/linkwarden/releases"><img alt="GitHub release" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg"></a>
 <a href="https://crowdin.com/project/linkwarden">
-<img src="https://badges.crowdin.net/linkwarden/localized.svg" alt="Crowdin" /></a>
-<a href="https://opencollective.com/linkwarden"><img src="https://img.shields.io/opencollective/all/linkwarden" alt="Open Collective"></a>
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/localized.svg" alt="Crowdin" /></a>
+<a href="https://opencollective.com/linkwarden"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg" alt="Open Collective"></a>
 
 </div>
 
@@ -23,7 +19,7 @@
 
 [云服务](https://cloud.linkwarden.app) · [官网](https://linkwarden.app) · [功能](https://github.com/linkwarden/linkwarden#features) · [文档](https://docs.linkwarden.app)
 
-<img src="./assets/home.png" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/home.png" />
 
 </div>
 
@@ -71,17 +67,17 @@ Linkwarden 还专为协作设计，支持你将链接公开分享，或与多个
 
 ## 喜欢我们的项目？请给我们一颗 Star ⭐
 
-![Star Us](https://raw.githubusercontent.com/linkwarden/linkwarden/main/assets/star_repo.gif)
+![Star Us](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/star_repo.gif)
 
 ## 我们正在建设社区 🌐
 
 加入并关注以下平台，以获取最新功能动态和技术支持：
 
-<a href="https://discord.com/invite/CtuYV47nuJ"><img src="https://img.shields.io/discord/1117993124669702164?logo=discord&style=flat" alt="Discord"></a>
+<a href="https://discord.com/invite/CtuYV47nuJ"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/1117993124669702164.svg" alt="Discord"></a>
 
-<a href="https://twitter.com/LinkwardenHQ"><img src="https://img.shields.io/twitter/follow/linkwarden" alt="Twitter"></a>
+<a href="https://twitter.com/LinkwardenHQ"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg" alt="Twitter"></a>
 
-<a href="https://fosstodon.org/@linkwarden"><img src="https://img.shields.io/mastodon/follow/110748840237143200?domain=https%3A%2F%2Ffosstodon.org" alt="Mastodon"></a>
+<a href="https://fosstodon.org/@linkwarden"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/110748840237143200.svg" alt="Mastodon"></a>
 
 ## 建议
 
@@ -111,7 +107,7 @@ Linkwarden 还专为协作设计，支持你将链接公开分享，或与多个
 如果你想翻译一种新语言，请先提交一个 Issue，以便我们为你设置。当新语言翻译完成至少 50% 后，将被加入项目。
 
 <a href="https://crowdin.com/project/linkwarden">
-<img src="https://badges.crowdin.net/linkwarden/localized.svg" alt="Crowdin" /></a>
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/localized.svg" alt="Crowdin" /></a>
 
 ## 安全
 
@@ -133,4 +129,4 @@ Linkwarden 还专为协作设计，支持你将链接公开分享，或与多个
 
 非常感谢这些花时间帮助 Linkwarden 成长的朋友们。你们太棒了！⚡️
 
-<img src="https://contributors-img.web.app/image?repo=linkwarden/linkwarden" alt="Contributors"/>
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/68747470733a2f2f636f6e7472696275746f72732d696d672e7765622e6170702f696d6167653f7265706f3d6c696e6b77617264656e2f6c696e6b77617264656e.svg" alt="Contributors"/>

@@ -1,15 +1,15 @@
 <div align="center">
-  <img src="./assets/logo.png" width="100px" />
+  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/logo.png" width="100px" />
   <h1>Linkwarden</h1>
   <h3>Bookmarks, Evolved</h3>
 
-<a href="https://discord.com/invite/CtuYV47nuJ"><img src="https://img.shields.io/discord/1117993124669702164?logo=discord&style=flat" alt="Discord"></a>
-<a href="https://twitter.com/LinkwardenHQ"><img src="https://img.shields.io/twitter/follow/linkwarden" alt="Twitter"></a> <a href="https://news.ycombinator.com/item?id=36942308"><img src="https://img.shields.io/badge/Hacker%20News-280-%23FF6600"></img></a>
+<a href="https://discord.com/invite/CtuYV47nuJ"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/1117993124669702164.svg" alt="Discord"></a>
+<a href="https://twitter.com/LinkwardenHQ"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg" alt="Twitter"></a> <a href="https://news.ycombinator.com/item?id=36942308"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/Hacker_20News-280-_23FF6600.svg"></img></a>
 
-<a href="https://github.com/linkwarden/linkwarden/releases"><img alt="GitHub release" src="https://img.shields.io/github/v/release/linkwarden/linkwarden"></a>
+<a href="https://github.com/linkwarden/linkwarden/releases"><img alt="GitHub release" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg"></a>
 <a href="https://crowdin.com/project/linkwarden">
-<img src="https://badges.crowdin.net/linkwarden/localized.svg" alt="Crowdin" /></a>
-<a href="https://opencollective.com/linkwarden"><img src="https://img.shields.io/opencollective/all/linkwarden" alt="Open Collective"></a>
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/localized.svg" alt="Crowdin" /></a>
+<a href="https://opencollective.com/linkwarden"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg" alt="Open Collective"></a>
 
 </div>
 
@@ -19,7 +19,7 @@
 
 [Cloud](https://cloud.linkwarden.app) · [Website](https://linkwarden.app) · [Features](https://github.com/linkwarden/linkwarden#features) · [Docs](https://docs.linkwarden.app)
 
-<img src="./assets/home.png" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/home.png" />
 
 </div>
 
@@ -67,17 +67,17 @@ Linkwarden is also designed with collaboration in mind, enabling you to share li
 
 ## Like what we're doing? Give us a Star ⭐
 
-![Star Us](https://raw.githubusercontent.com/linkwarden/linkwarden/main/assets/star_repo.gif)
+![Star Us](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/star_repo.gif)
 
 ## We're building our Community 🌐
 
 Join and follow us in the following platforms to stay up to date about the most recent features and for support:
 
-<a href="https://discord.com/invite/CtuYV47nuJ"><img src="https://img.shields.io/discord/1117993124669702164?logo=discord&style=flat" alt="Discord"></a>
+<a href="https://discord.com/invite/CtuYV47nuJ"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/1117993124669702164.svg" alt="Discord"></a>
 
-<a href="https://twitter.com/LinkwardenHQ"><img src="https://img.shields.io/twitter/follow/linkwarden" alt="Twitter"></a>
+<a href="https://twitter.com/LinkwardenHQ"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg" alt="Twitter"></a>
 
-<a href="https://fosstodon.org/@linkwarden"><img src="https://img.shields.io/mastodon/follow/110748840237143200?domain=https%3A%2F%2Ffosstodon.org" alt="Mastodon"></a>
+<a href="https://fosstodon.org/@linkwarden"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/110748840237143200.svg" alt="Mastodon"></a>
 
 ## Suggestions
 
@@ -107,7 +107,7 @@ If you want to help us translate Linkwarden to your language, please check out o
 To start translating a new language, please create an issue so we can set it up for you. New languages will be added once they reach at least 50% translation completion.
 
 <a href="https://crowdin.com/project/linkwarden">
-<img src="https://badges.crowdin.net/linkwarden/localized.svg" alt="Crowdin" /></a>
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/localized.svg" alt="Crowdin" /></a>
 
 ## Security
 
@@ -129,4 +129,4 @@ If you did any of the above, Thanksss! Otherwise thanks.
 
 Huge thanks to these guys for spending their time helping Linkwarden grow. They rock! ⚡️
 
-<img src="https://contributors-img.web.app/image?repo=linkwarden/linkwarden" alt="Contributors"/>
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/68747470733a2f2f636f6e7472696275746f72732d696d672e7765622e6170702f696d6167653f7265706f3d6c696e6b77617264656e2f6c696e6b77617264656e.svg" alt="Contributors"/>

@@ -62,7 +62,7 @@ __同时欢迎查看我的其他自托管开源项目 - [Podgrab](https://github
 
 最初我也考虑过使用两个容器（一个用于后端，一个用于前端），以便独立维护和更新。但为了简化部署，我最终放弃了这个想法。尽管大多数自托管用户具备一定的技术能力，但一个可以“启动即忘”的单容器方案显然更受欢迎。
 
-![产品名称截图][product-screenshot] [更多截图](Screenshots.md)
+![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/hammond/image/screenshot.jpg) [更多截图](Screenshots.md)
 
 ### 使用的技术
 
@@ -203,7 +203,7 @@ Akhil Gupta - [@akhilrex](https://twitter.com/akhilrex)
 
 项目链接: [https://github.com/akhilrex/hammond](https://github.com/akhilrex/hammond)
 
-<a href="https://www.buymeacoffee.com/akhilrex" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="width: 217px !important;height: 60px !important;" ></a>
+<a href="https://www.buymeacoffee.com/akhilrex" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/hammond/image/default-yellow.png" alt="Buy Me A Coffee" style="width: 217px !important;height: 60px !important;" ></a>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

@@ -10,7 +10,7 @@ Hastebin Plus 是一个用 node.js 编写的开源 Pastebin 软件，可以在�
 * 原始粘贴视图
 
 ## 安装
-[![部署到 Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/MarvinMenzerath/HastebinPlus)
+[![部署到 Heroku](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/haste-server/image/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e706e67.png)](https://heroku.com/deploy?template=https://github.com/MarvinMenzerath/HastebinPlus)
 
 1. 安装 Git 和 node.js: `sudo apt-get install git nodejs`
 2. 克隆此仓库: `git clone https://github.com/MarvinMenzerath/HastebinPlus.git hastebin-plus`

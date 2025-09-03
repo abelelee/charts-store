@@ -27,7 +27,7 @@ and [PlexWatchWeb](https://github.com/ecleese/plexWatchWeb).
 
 [Full preview gallery available on our website][Tautulli]
 
-![Tautulli Homepage](https://tautulli.com/images/screenshots/activity-compressed.jpg?v=2)
+![Tautulli Homepage](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/tautulli/image/activity-compressed.jpg)
 
 ## Installation
 

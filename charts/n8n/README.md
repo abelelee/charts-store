@@ -1,10 +1,10 @@
-![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
+![Banner image](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/n8n/image/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
 # n8n - Secure Workflow Automation for Technical Teams
 
 n8n is a workflow automation platform that gives technical teams the flexibility of code with the speed of no-code. With 400+ integrations, native AI capabilities, and a fair-code license, n8n lets you build powerful automations while maintaining full control over your data and deployments.
 
-![n8n.io - Screenshot](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png)
+![n8n.io - Screenshot](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/n8n/image/n8n-screenshot-readme.png)
 
 ## Key Capabilities
 

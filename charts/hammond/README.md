@@ -57,7 +57,7 @@ The current version of Hammond is written using GO for backend and Vuejs for the
 
 Also I had initially thought of a 2 container approach (1 for backend and 1 for the frontend) so that they can be independently maintained and updated. I eventually decided against this idea for the sake of simplicity. Although it is safe to assume that most self-hosters are fairly tech capable it still is much better to have a single container that you can fire and forget.
 
-![Product Name Screen Shot][product-screenshot] [More Screenshots](Screenshots.md)
+![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/hammond/image/screenshot.jpg) [More Screenshots](Screenshots.md)
 
 ### Built With
 
@@ -201,7 +201,7 @@ Akhil Gupta - [@akhilrex](https://twitter.com/akhilrex)
 
 Project Link: [https://github.com/akhilrex/hammond](https://github.com/akhilrex/hammond)
 
-<a href="https://www.buymeacoffee.com/akhilrex" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="width: 217px !important;height: 60px !important;" ></a>
+<a href="https://www.buymeacoffee.com/akhilrex" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/hammond/image/default-yellow.png" alt="Buy Me A Coffee" style="width: 217px !important;height: 60px !important;" ></a>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

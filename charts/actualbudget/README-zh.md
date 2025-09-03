@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/demo.png" alt="Actualbudget" />
+  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/actualbudget/image/demo.png" alt="Actualbudget" />
 </p>
 
 ## 开始使用
@@ -69,15 +69,15 @@ Actual 应用被拆分为几个包：
 帮助我们完成 Actual 的 [国际化](https://actualbudget.org/docs/contributing/i18n/)，让 Actual 能被更多人使用。我们使用众包工具管理翻译，请查看我们的 [Weblate 项目](https://hosted.weblate.org/projects/actualbudget/)。Weblate 通过其 [Libre 计划](https://weblate.org/en/hosting/#libre) 积极支持开源项目。
 
 <a href="https://hosted.weblate.org/engage/actualbudget/">
-<img src="https://hosted.weblate.org/widget/actualbudget/actual/287x66-grey.png" alt="翻译状态" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/actualbudget/image/287x66-grey.png" alt="翻译状态" />
 </a>
 
 ## 仓库活动
 
-![Alt](https://repobeats.axiom.co/api/embed/e20537dd8b74956f86736726ccfbc6f0565bec22.svg 'Repobeats 分析图')
+![Alt](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/actualbudget/image/e20537dd8b74956f86736726ccfbc6f0565bec22.svg 'Repobeats 分析图')
 
 ## 赞助商
 
 感谢我们出色的赞助商让 Actual Budget 成为可能！
 
-<a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="由 Netlify 提供部署" /> </a>
+<a href="https://www.netlify.com"> <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/actualbudget/image/netlify-color-accent.svg" alt="由 Netlify 提供部署" /> </a>

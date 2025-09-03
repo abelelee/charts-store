@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://s.electerious.com/images/ackee/icon.png" title="Ackee" alt="Ackee logo" width="128">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/icon.png" title="Ackee" alt="Ackee logo" width="128">
 
 # Ackee
 
-![Build](https://github.com/electerious/Ackee/workflows/Build/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/electerious/Ackee/badge.svg?branch=master)](https://coveralls.io/github/electerious/Ackee?branch=master) [![Mentioned in Awesome Selfhosted](https://awesome.re/mentioned-badge.svg)](https://github.com/awesome-selfhosted/awesome-selfhosted) [![Donate via PayPal](https://img.shields.io/badge/paypal-donate-009cde.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CYKBESW577YWE)
+![Build](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/badge.svg) [![Coverage Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/badge.svg)](https://coveralls.io/github/electerious/Ackee?branch=master) [![Mentioned in Awesome Selfhosted](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/mentioned-badge.svg)](https://github.com/awesome-selfhosted/awesome-selfhosted) [![Donate via PayPal](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/paypal-donate-009cde.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CYKBESW577YWE)
 
 Self-hosted, Node.js based analytics tool for those who care about privacy. Ackee runs on your own server, analyzes the traffic of your websites and provides useful statistics in a minimal interface.
 
@@ -12,7 +12,7 @@ Self-hosted, Node.js based analytics tool for those who care about privacy. Acke
 
 <br/>
 
-![Ackee in a browser](https://s.electerious.com/images/ackee/readme.png)
+![Ackee in a browser](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/readme.png)
 
 </div>
 

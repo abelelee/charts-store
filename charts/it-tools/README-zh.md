@@ -1,11 +1,7 @@
-以下是保留原始 Markdown 格式并翻译为中文的内容：
-
----
-
 <picture>
-    <source srcset="./.github/logo-dark.png" media="(prefers-color-scheme: light)">
-    <source srcset="./.github/logo-white.png" media="(prefers-color-scheme: dark)">
-    <img src="./.github/logo-dark.png" alt="logo">
+    <source srcset="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/it-tools/image/logo-dark.png" media="(prefers-color-scheme: light)">
+    <source srcset="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/it-tools/image/logo-white.png" media="(prefers-color-scheme: dark)">
+    <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/it-tools/image/logo-dark.png" alt="logo">
 </picture>
 
 面向开发者和 IT 从业者的实用工具。[点击看看！](https://it-tools.tech)
@@ -117,7 +113,7 @@ pnpm run script:create:tool my-tool-name
 
 感谢所有已经做出贡献的人！
 
-[![contributors](https://contrib.rocks/image?repo=corentinth/it-tools&refresh=1)](https://github.com/corentinth/it-tools/graphs/contributors)
+[![contributors](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/it-tools/image/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f7265706f3d636f72656e74696e74682f69742d746f6f6c7326726566726573683d31.svg)](https://github.com/corentinth/it-tools/graphs/contributors)
 
 ## 致谢
 
@@ -127,8 +123,8 @@ pnpm run script:create:tool my-tool-name
 
 贡献图由 [contrib.rocks](https://contrib.rocks/preview?repo=corentinth/it-tools) 生成。
 
-<a href="https://www.producthunt.com/posts/it-tools?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-it&#0045;tools" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=345793&theme=light" alt="IT&#0032;Tools - Collection&#0032;of&#0032;handy&#0032;online&#0032;tools&#0032;for&#0032;devs&#0044;&#0032;with&#0032;great&#0032;UX | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-<a href="https://www.producthunt.com/posts/it-tools?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-it&#0045;tools" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=345793&theme=light&period=daily" alt="IT&#0032;Tools - Collection&#0032;of&#0032;handy&#0032;online&#0032;tools&#0032;for&#0032;devs&#0044;&#0032;with&#0032;great&#0032;UX | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<a href="https://www.producthunt.com/posts/it-tools?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-it&#0045;tools" target="_blank"><img alt="IT&amp;#0032;Tools - Collection&amp;#0032;of&amp;#0032;handy&amp;#0032;online&amp;#0032;tools&amp;#0032;for&amp;#0032;devs&amp;#0044;&amp;#0032;with&amp;#0032;great&amp;#0032;UX | Product Hunt" height="54" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/it-tools/image/68747470733a2f2f6170692e70726f6475637468756e742e636f6d2f776964676574732f656d6265642d696d6167652f76312f66656174757265642e7376673f706f73745f69643d333435373933267468656d653d6c69676874.svg" width="250"/></a>
+<a href="https://www.producthunt.com/posts/it-tools?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-it&#0045;tools" target="_blank"><img alt="IT&amp;amp;#0032;Tools - Collection&amp;amp;#0032;of&amp;amp;#0032;handy&amp;amp;#0032;online&amp;amp;#0032;tools&amp;amp;#0032;for&amp;amp;#0032;devs&amp;amp;#0044;&amp;amp;#0032;with&amp;amp;#0032;great&amp;amp;#0032;UX | Product Hunt" height="54" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/it-tools/image/68747470733a2f2f6170692e70726f6475637468756e742e636f6d2f776964676574732f656d6265642d696d6167652f76312f746f702d706f73742d62616467652e7376673f706f73745f69643d333435373933267468656d653d6c6967687426706572696f643d6461696c79.svg" width="250"/></a>
 
 ## 许可证
 

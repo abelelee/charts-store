@@ -9,26 +9,26 @@ Take advantage of [Apprise](https://github.com/caronc/apprise) through your netw
 
 Apprise API was designed to easily fit into existing (and new) eco-systems that are looking for a simple notification solution.
 
-[![Paypal](https://img.shields.io/badge/paypal-donate-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MHANV39UZNQ5E)
-[![Follow](https://img.shields.io/twitter/follow/l2gnux)](https://twitter.com/l2gnux/)<br/>
-[![Discord](https://img.shields.io/discord/558793703356104724.svg?colorB=7289DA&label=Discord&logo=Discord&logoColor=7289DA&style=flat-square)](https://discord.gg/MMPeN2D)
-[![Build Status](https://github.com/caronc/apprise-api/actions/workflows/tests.yml/badge.svg)](https://github.com/caronc/apprise-api/actions/workflows/tests.yml)
-[![CodeCov Status](https://codecov.io/github/caronc/apprise-api/branch/master/graph/badge.svg)](https://codecov.io/github/caronc/apprise-api)
-[![Docker Pulls](https://img.shields.io/docker/pulls/caronc/apprise.svg?style=flat-square)](https://hub.docker.com/r/caronc/apprise)
+[![Paypal](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/apprise-api/image/paypal-donate-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MHANV39UZNQ5E)
+[![Follow](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/apprise-api/image/l2gnux.svg)](https://twitter.com/l2gnux/)<br/>
+[![Discord](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/apprise-api/image/558793703356104724.svg)](https://discord.gg/MMPeN2D)
+[![Build Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/apprise-api/image/badge.svg)](https://github.com/caronc/apprise-api/actions/workflows/tests.yml)
+[![CodeCov Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/apprise-api/image/badge.svg)](https://codecov.io/github/caronc/apprise-api)
+[![Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/apprise-api/image/apprise.svg)](https://hub.docker.com/r/caronc/apprise)
 
 ## Screenshots
 
 There is a small built-in *Configuration Manager* that can be optionally accessed through your web browser allowing you to create and save as many configurations as you'd like. Each configuration is differentiated by a unique `{KEY}` that you decide on:<br/>
-![Screenshot of GUI - Using Keys](https://raw.githubusercontent.com/caronc/apprise-api/master/Screenshot-1.png)<br/>
+![Screenshot of GUI - Using Keys](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/apprise-api/image/Screenshot-1.png)<br/>
 
 Below is a screenshot of how you can assign your Apprise URLs to your `{KEY}`. You can define both TEXT or YAML [Apprise configurations](https://github.com/caronc/apprise/wiki/config).<br/>
-![Screenshot of GUI - Configuration](https://raw.githubusercontent.com/caronc/apprise-api/master/Screenshot-2.png)
+![Screenshot of GUI - Configuration](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/apprise-api/image/Screenshot-2.png)
 
 Below is a screenshot of the review tab where you can preview what Apprise URL(s) got loaded from your defined configuration. It also allows you to view the tags associated with them (if any). Should you chose to send a test notification via this API, you can select the tags in advance you wish to target from here.<br/>
-![Screenshot of GUI - Review](https://raw.githubusercontent.com/caronc/apprise-api/master/Screenshot-3.png)
+![Screenshot of GUI - Review](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/apprise-api/image/Screenshot-3.png)
 
 With configuration in place, you'll be able to use the *Notification* tab to send a test message to one or more of the services you defined in your configuration. You can also select from the tags (if any) you pre-assigned to your URLs defined. If you did not define any tags with you configured URLs, then you do not need to identify any here. You can use the tag `all` to notify all of your services regardless of what tag had otherwise been assigned to them (if any at all).<br/>
-![Screenshot of GUI - Notifications](https://raw.githubusercontent.com/caronc/apprise-api/master/Screenshot-4.png)
+![Screenshot of GUI - Notifications](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/apprise-api/image/Screenshot-4.png)
 
 At the end of the day, the GUI just simply offers a user friendly interface to the same API developers can directly interface with if they wish to.
 

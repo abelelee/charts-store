@@ -1,7 +1,3 @@
-以下是原文的中文翻译，严格保持了原始Markdown格式和结构：
-
----
-
 .. SPDX-License-Identifier: AGPL-3.0-or-later
 
 ----

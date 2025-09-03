@@ -1,15 +1,15 @@
-<a href="https://www.navidrome.org"><img src="resources/logo-192x192.png" alt="Navidrome标志" title="navidrome" align="right" height="60px" /></a>
+<a href="https://www.navidrome.org"><img alt="Navidrome标志" height="60px" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/logo-192x192.png" title="navidrome"/></a>
 
-# Navidrome音乐服务器 &nbsp;[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Tired%20of%20paying%20for%20music%20subscriptions%2C%20and%20not%20finding%20what%20you%20really%20like%3F%20Roll%20your%20own%20streaming%20service%21&url=https://navidrome.org&via=navidrome)
+# Navidrome音乐服务器 &nbsp;[![Tweet](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/shields.io.svg)](https://twitter.com/intent/tweet?text=Tired%20of%20paying%20for%20music%20subscriptions%2C%20and%20not%20finding%20what%20you%20really%20like%3F%20Roll%20your%20own%20streaming%20service%21&url=https://navidrome.org&via=navidrome)
 
-[![最新发布](https://img.shields.io/github/v/release/navidrome/navidrome?logo=github&label=latest&style=flat-square)](https://github.com/navidrome/navidrome/releases)
-[![构建](https://img.shields.io/github/actions/workflow/status/navidrome/navidrome/pipeline.yml?branch=master&logo=github&style=flat-square)](https://nightly.link/navidrome/navidrome/workflows/pipeline/master)
-[![下载量](https://img.shields.io/github/downloads/navidrome/navidrome/total?logo=github&style=flat-square)](https://github.com/navidrome/navidrome/releases/latest)
-[![Docker Pulls](https://img.shields.io/docker/pulls/deluan/navidrome?logo=docker&label=pulls&style=flat-square)](https://hub.docker.com/r/deluan/navidrome)
-[![开发聊天](https://img.shields.io/discord/671335427726114836?logo=discord&label=discord&style=flat-square)](https://discord.gg/xh7j7yF)
-[![Subreddit](https://img.shields.io/reddit/subreddit-subscribers/navidrome?logo=reddit&label=/r/navidrome&style=flat-square)](https://www.reddit.com/r/navidrome/)
-[![贡献者公约](https://img.shields.io/badge/Contributor%20Covenant-v2.0-ff69b4.svg?style=flat-square)](CODE_OF_CONDUCT.md)
-[![Gurubase](https://img.shields.io/badge/Gurubase-Ask%20Navidrome%20Guru-006BFF?style=flat-square)](https://gurubase.io/g/navidrome)
+[![最新发布](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/navidrome.svg)](https://github.com/navidrome/navidrome/releases)
+[![构建](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/pipeline.yml.svg)](https://nightly.link/navidrome/navidrome/workflows/pipeline/master)
+[![下载量](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/total.svg)](https://github.com/navidrome/navidrome/releases/latest)
+[![Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/navidrome.svg)](https://hub.docker.com/r/deluan/navidrome)
+[![开发聊天](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/671335427726114836.svg)](https://discord.gg/xh7j7yF)
+[![Subreddit](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/navidrome.svg)](https://www.reddit.com/r/navidrome/)
+[![贡献者公约](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/Contributor_20Covenant-v2.0-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![Gurubase](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/Gurubase-Ask_20Navidrome_20Guru-006BFF.svg)](https://gurubase.io/g/navidrome)
 
 Navidrome 是一个开源的基于网页的音乐收藏服务器和流媒体服务。它让你可以自由地通过任何浏览器或移动设备收听你的音乐收藏。它就像你自己的 Spotify！
 
@@ -29,7 +29,7 @@ __欢迎任何反馈！__ 如果你需要/想要新功能、发现了一个 bug 
 [PikaPods](https://www.pikapods.com) 与我们合作，提供一个 [官方支持的云托管解决方案](https://www.navidrome.org/docs/installation/managed/#pikapods)。  
 部分收入将用于资助 Navidrome 的开发，而你无需额外支付费用。
 
-[![PikaPods](https://www.pikapods.com/static/run-button.svg)](https://www.pikapods.com/pods?run=navidrome)
+[![PikaPods](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/run-button.svg)](https://www.pikapods.com/pods?run=navidrome)
 
 ## 功能
 
@@ -52,7 +52,7 @@ __欢迎任何反馈！__ 如果你需要/想要新功能、发现了一个 bug 
 Navidrome 使用 [POEditor](https://poeditor.com/) 进行翻译，我们始终欢迎 [更多贡献者](https://www.navidrome.org/docs/developers/translations/)
 
 <a href="https://poeditor.com/"> 
-<img height="32" src="https://github.com/user-attachments/assets/c19b1d2b-01e1-4682-a007-12356c42147c">
+<img height="32" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/371808956-c19b1d2b-01e1-4682-a007-12356c42147c.png">
 </a>
 
 ## 文档
@@ -71,8 +71,8 @@ Navidrome 使用 [POEditor](https://poeditor.com/) 进行翻译，我们始终�
 ## 截图
 
 <p align="left">
-    <img height="550" src="https://raw.githubusercontent.com/navidrome/navidrome/master/.github/screenshots/ss-mobile-login.png">
-    <img height="550" src="https://raw.githubusercontent.com/navidrome/navidrome/master/.github/screenshots/ss-mobile-player.png">
-    <img height="550" src="https://raw.githubusercontent.com/navidrome/navidrome/master/.github/screenshots/ss-mobile-album-view.png">
-    <img width="550" src="https://raw.githubusercontent.com/navidrome/navidrome/master/.github/screenshots/ss-desktop-player.png">
+    <img height="550" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/ss-mobile-login.png">
+    <img height="550" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/ss-mobile-player.png">
+    <img height="550" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/ss-mobile-album-view.png">
+    <img width="550" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/ss-desktop-player.png">
 </p>

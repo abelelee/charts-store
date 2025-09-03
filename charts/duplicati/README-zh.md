@@ -6,9 +6,9 @@
 
 在云存储服务上安全地存储加密备份！
 
-[![Open Collective 上的支持者](https://opencollective.com/duplicati/backers/badge.svg)](#backers) [![Open Collective 上的赞助商](https://opencollective.com/duplicati/sponsors/badge.svg)](#sponsors) [![Travis-CI 上的构建状态](https://travis-ci.org/duplicati/duplicati.svg?branch=master)](https://travis-ci.org/duplicati/duplicati)
-[![覆盖率状态](https://coveralls.io/repos/github/duplicati/duplicati/badge.svg?branch=HEAD)](https://coveralls.io/github/duplicati/duplicati?branch=HEAD)
-[![许可](https://img.shields.io/github/license/duplicati/duplicati.svg)](https://github.com/duplicati/duplicati/blob/master/LICENSE)
+[![Open Collective 上的支持者](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/duplicati/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6475706c69636174692f6261636b6572732f62616467652e737667.svg)](#backers) [![Open Collective 上的赞助商](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/duplicati/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6475706c69636174692f73706f6e736f72732f62616467652e737667.svg)](#sponsors) [![Travis-CI 上的构建状态](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/duplicati/image/duplicati.svg)](https://travis-ci.org/duplicati/duplicati)
+[![覆盖率状态](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/duplicati/image/badge.svg)](https://coveralls.io/github/duplicati/duplicati?branch=HEAD)
+[![许可](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/duplicati/image/duplicati.svg)](https://github.com/duplicati/duplicati/blob/master/LICENSE)
 
 Duplicati 是一个免费、开源的备份客户端，可以安全地将加密、增量、压缩的备份存储在云存储服务和远程文件服务器上。它与以下服务兼容：
 
@@ -54,45 +54,3 @@ Duplicati 由一个[活跃的社区支持，您可以通过我们的论坛与他
 将您的备份存储在远处！当备份与其原始数据一起被摧毁时，最好的备份也是无用的。假设一场火灾摧毁了您的办公室 - 您的备份能幸存下来吗？Duplicati 将备份存储在各种远程文件服务器上，并支持增量备份，因此只需传输更改的部分。这使得使用远离原始数据的目的地变得容易。
 
 定期备份！最糟糕的情况是，您的备份过时了，仅仅是因为有人忘了在正确的时间备份。Duplicati 有内置的计划程序，因此很容易拥有定期、最新的备份。此外，Duplicati 使用文件压缩，并能够存储增量备份以节省存储空间和带宽。
-
-# 贡献
-
-## 贡献错误报告
-
-我们使用 GitHub 进行错误跟踪。请在创建新问题前先搜索已有的问题，看看您的错误是否已被记录：
-https://github.com/duplicati/duplicati/issues
-
-## 贡献翻译
-
-对帮助翻译 duplicati 感兴趣吗？欢迎在 transifex 提供帮助：
-https://www.transifex.com/duplicati/duplicati/dashboard/
-
-## 贡献代码
-
-关于如何设置您的开发环境以及如何构建 duplicati 的说明可以在 [docs](https://docs.duplicati.com/installation-details/developer) 中找到。我们欣赏任何修复错误或以其他方式改进 duplicati 的拉取请求。
-
-如果您正在寻找一个问题来解决，请尝试查看其中一个标记为 [小改动](https://github.com/duplicati/duplicati/issues?q=is%3Aissue+is%3Aopen+label%3A%22minor+change%22) 的问题。如果您最熟悉的是 Web 开发，请查看标记为 [UI](https://github.com/duplicati/duplicati/issues?q=is%3Aissue+is%3Aopen+label%3A%22UI%22) 的问题。
-
-感谢我们所有的现有贡献者：
-<a href="https://github.com/duplicati/duplicati/graphs/contributors"><img src="https://opencollective.com/duplicati/contributors.svg?width=890" /></a>
-
-## 赞助者
-
-感谢所有的赞助者！🙏 [[成为赞助者](https://opencollective.com/duplicati#backer)]
-
-<a href="https://opencollective.com/duplicati#backers" target="_blank"><img src="https://opencollective.com/duplicati/backers.svg?width=890"></a>
-
-## 赞助商
-
-通过成为赞助商来支持这个项目。您的标志将会出现在这里，附带链接到您的网站。[[成为赞助商](https://opencollective.com/duplicati#sponsor)]
-
-<a href="https://opencollective.com/duplicati/sponsor/0/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/1/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/2/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/3/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/4/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/5/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/6/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/7/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/8/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/9/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/9/avatar.svg"></a>

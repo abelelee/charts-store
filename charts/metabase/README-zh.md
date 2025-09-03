@@ -2,11 +2,11 @@
 
 [Metabase](https://www.metabase.com) 是一种简单、开源的方式，让公司中的每个人都可以通过提问从数据中获取信息。
 
-![Metabase 产品截图](docs/images/metabase-product-screenshot.png)
+![Metabase 产品截图](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/metabase/image/metabase-product-screenshot.png)
 
-[![最新版本](https://img.shields.io/github/release/metabase/metabase.svg?label=latest%20release)](https://github.com/metabase/metabase/releases)
-[![codecov](https://codecov.io/gh/metabase/metabase/branch/master/graph/badge.svg)](https://codecov.io/gh/metabase/metabase)
-![Docker Pulls](https://img.shields.io/docker/pulls/metabase/metabase)
+[![最新版本](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/metabase/image/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f6d657461626173652f6d657461626173652e7376673f6c6162656c3d6c617465737425323072656c65617365.svg)](https://github.com/metabase/metabase/releases)
+[![codecov](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/metabase/image/badge.svg)](https://codecov.io/gh/metabase/metabase)
+![Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/metabase/image/metabase.svg)
 
 ## 开始使用
 

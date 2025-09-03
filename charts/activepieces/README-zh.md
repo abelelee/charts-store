@@ -6,7 +6,7 @@
     <img
       align="center"
       alt="Activepieces"
-src="https://github.com/activepieces/activepieces/assets/1812998/76c97441-c285-4480-bc75-30a0c73ed340"
+src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/246954877-76c97441-c285-4480-bc75-30a0c73ed340.png"
       style="width:100%;"
     />
     
@@ -15,7 +15,7 @@ src="https://github.com/activepieces/activepieces/assets/1812998/76c97441-c285-4
 
 
 <p align="center">
-<a href="/LICENSE" target="_blank"><img src='https://img.shields.io/badge/license-MIT-green?style=for-the-badge' /></a>&nbsp;<img src='https://img.shields.io/github/commit-activity/w/activepieces/activepieces/main?style=for-the-badge' />&nbsp;<a href='https://discord.gg/2jUXBKDdP8'><img src='https://img.shields.io/discord/966798490984382485?style=for-the-badge' /></a>
+<a href="/LICENSE" target="_blank"><img src='https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/license-MIT-green.svg' /></a>&nbsp;<img src='https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/966798490984382485.svg' />&nbsp;<a href='https://discord.gg/2jUXBKDdP8'><img src='https://img.shields.io/discord/966798490984382485?style=for-the-badge' /></a>
 </p>
 <p align="center">
    Zapier的开源替代品
@@ -57,7 +57,7 @@ src="https://github.com/activepieces/activepieces/assets/1812998/76c97441-c285-4
 
 - **💖 每个人都喜欢**：直观的界面，技术和非技术用户都能快速上手并获得良好体验。
 
-<img src="https://github.com/activepieces/activepieces/tree/main/docs/resources/templates.gif">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/templates.gif">
 
 - **🌐 开放生态系统**：所有pieces都是开源的，并在npmjs.com上可用，**60%的pieces由社区贡献**。
 
@@ -65,7 +65,7 @@ src="https://github.com/activepieces/activepieces/assets/1812998/76c97441-c285-4
 
 - **🛠️ 用Typescript编写**：Pieces是TypeScript中的npm包，提供完全自定义和最佳的开发者体验，包括在您的机器上进行**本地**piece开发的**热重载**功能。😎
 
-<img src="https://github.com/activepieces/activepieces/tree/main/docs/resources/create-action.png" alt="">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/create-action.png" alt="">
 
 - **🤖 AI优先**：原生AI pieces让您能够试验各种提供商，或使用我们的AI SDK创建自己的代理，并且有Copilot帮助您在构建器中构建流程。
 
@@ -122,7 +122,7 @@ Activepieces社区版在[MIT许可证](https://github.com/activepieces/activepie
 # 💭 加入我们的社区
 
 <a href="https://discord.gg/2jUXBKDdP8" target="_blank">
-<img src="https://discordapp.com/api/guilds/966798490984382485/widget.png?style=banner3" alt="">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3936363739383439303938343338323438352f7769646765742e706e673f7374796c653d62616e6e657233.png" alt="">
 </a>
 
 <br>
@@ -135,18 +135,6 @@ Activepieces社区版在[MIT许可证](https://github.com/activepieces/activepie
 ## 📚 翻译
 
 不写代码但仍想贡献？快来加入我们的[Discord](https://discord.gg/2jUXBKDdP8)并访问 https://www.activepieces.com/docs/about/i18n 了解更多信息。
-
-![fr translation](https://img.shields.io/badge/dynamic/json?color=blue&label=fr&style=for-the-badge&logo=crowdin&query=%24.progress[?(@.data.languageId==%27fr%27)].data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-16093902-626364-update.json)
-
-![it translation](https://img.shields.io/badge/dynamic/json?color=blue&label=it&style=for-the-badge&logo=crowdin&query=%24.progress[?(@.data.languageId==%27it%27)].data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-16093902-626364-update.json)
-
-![de translation](https://img.shields.io/badge/dynamic/json?color=blue&label=de&style=for-the-badge&logo=crowdin&query=%24.progress[?(@.data.languageId==%27de%27)].data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-16093902-626364-update.json)
-
-![ja translation](https://img.shields.io/badge/dynamic/json?color=blue&label=ja&style=for-the-badge&logo=crowdin&query=%24.progress[?(@.data.languageId==%27ja%27)].data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-16093902-626364-update.json)
-
-
-![pt-BR translation](https://img.shields.io/badge/dynamic/json?color=blue&label=pt-BR&style=for-the-badge&logo=crowdin&query=%24.progress[?(@.data.languageId==%27pt-BR%27)].data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-16093902-626364-update.json)
-
 
 该项目遵循[all-contributors](https://allcontributors.org)规范。
 欢迎任何形式的贡献！

@@ -1,14 +1,13 @@
----
-<p align="center"><img src="https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/docs/stirling.png" width="80"></p>
+<p align="center"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/stirling.png" width="80"></p>
 <h1 align="center">Stirling-PDF</h1>
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/frooodle/s-pdf)](https://hub.docker.com/r/frooodle/s-pdf)
-[![Discord](https://img.shields.io/discord/1068636748814483718?label=Discord)](https://discord.gg/HYmhKj45pU)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Stirling-Tools/Stirling-PDF/badge)](https://scorecard.dev/viewer/?uri=github.com/Stirling-Tools/Stirling-PDF)
-[![GitHub Repo stars](https://img.shields.io/github/stars/stirling-tools/stirling-pdf?style=social)](https://github.com/Stirling-Tools/stirling-pdf)
+[![Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/s-pdf.svg)](https://hub.docker.com/r/frooodle/s-pdf)
+[![Discord](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/1068636748814483718.svg)](https://discord.gg/HYmhKj45pU)
+[![OpenSSF Scorecard](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/68747470733a2f2f6170692e73636f7265636172642e6465762f70726f6a656374732f6769746875622e636f6d2f537469726c696e672d546f6f6c732f537469726c696e672d5044462f6261646765.svg)](https://scorecard.dev/viewer/?uri=github.com/Stirling-Tools/Stirling-PDF)
+[![GitHub Repo stars](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/stirling-pdf.svg)](https://github.com/Stirling-Tools/stirling-pdf)
 
-<a href="https://www.producthunt.com/posts/stirling-pdf?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-stirling&#0045;pdf" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=641239&theme=light" alt="Stirling&#0032;PDF - Open&#0032;source&#0032;locally&#0032;hosted&#0032;web&#0032;PDF&#0032;editor | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Stirling-Tools/Stirling-PDF/tree/digitalOcean&refcode=c3210994b1af)
+<a href="https://www.producthunt.com/posts/stirling-pdf?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-stirling&#0045;pdf" target="_blank"><img alt="Stirling&amp;#0032;PDF - Open&amp;#0032;source&amp;#0032;locally&amp;#0032;hosted&amp;#0032;web&amp;#0032;PDF&amp;#0032;editor | Product Hunt" height="54" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/68747470733a2f2f6170692e70726f6475637468756e742e636f6d2f776964676574732f656d6265642d696d6167652f76312f66656174757265642e7376673f706f73745f69643d363431323339267468656d653d6c69676874.svg" width="250"/></a>
+[![Deploy to DO](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/68747470733a2f2f7777772e6465706c6f79746f646f2e636f6d2f646f2d62746e2d626c75652e737667.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Stirling-Tools/Stirling-PDF/tree/digitalOcean&refcode=c3210994b1af)
 
 [Stirling-PDF](https://www.stirlingpdf.com) 是一个功能强大、可本地部署的基于 Web 的 PDF 操作工具，使用 Docker 构建。它支持对 PDF 文件执行各种操作，包括拆分、合并、转换、重新排序、添加图片、旋转、压缩等。这款本地部署的 Web 应用程序已发展出一套全面的功能，满足您所有的 PDF 需求。
 
@@ -18,7 +17,7 @@
 
 完整文档请访问 [https://docs.stirlingpdf.com/](https://docs.stirlingpdf.com/)
 
-![stirling-home](images/stirling-home.jpg)
+![stirling-home](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/stirling-home.jpg)
 
 ## 功能特性
 
@@ -113,47 +112,47 @@ Stirling-PDF 当前支持 40 种语言！
 
 | 语言                                     | 进度                                   |
 | ---------------------------------------- | -------------------------------------- |
-| 阿拉伯语 (العربية) (ar_AR)                | ![63%](https://geps.dev/progress/63)   |
-| 阿塞拜疆语 (Azərbaycan Dili) (az_AZ)     | ![63%](https://geps.dev/progress/63)   |
-| 巴斯克语 (Euskara) (eu_ES)              | ![37%](https://geps.dev/progress/37)   |
-| 保加利亚语 (Български) (bg_BG)           | ![70%](https://geps.dev/progress/70)   |
-| 加泰罗尼亚语 (Català) (ca_CA)           | ![69%](https://geps.dev/progress/69)   |
-| 克罗地亚语 (Hrvatski) (hr_HR)           | ![62%](https://geps.dev/progress/62)   |
-| 捷克语 (Česky) (cs_CZ)                  | ![71%](https://geps.dev/progress/71)   |
-| 丹麦语 (Dansk) (da_DK)                  | ![63%](https://geps.dev/progress/63)   |
-| 荷兰语 (Nederlands) (nl_NL)             | ![61%](https://geps.dev/progress/61)   |
-| 英语 (English) (en_GB)                  | ![100%](https://geps.dev/progress/100) |
-| 美式英语 (en_US)                        | ![100%](https://geps.dev/progress/100) |
-| 法语 (Français) (fr_FR)                 | ![91%](https://geps.dev/progress/91)   |
-| 德语 (Deutsch) (de_DE)                  | ![100%](https://geps.dev/progress/100) |
-| 希腊语 (Ελληνικά) (el_GR)               | ![69%](https://geps.dev/progress/69)   |
-| 印地语 (हिंदी) (hi_IN)                   | ![68%](https://geps.dev/progress/68)   |
-| 匈牙利语 (Magyar) (hu_HU)               | ![99%](https://geps.dev/progress/99)   |
-| 印度尼西亚语 (Bahasa Indonesia) (id_ID) | ![63%](https://geps.dev/progress/63)   |
-| 爱尔兰语 (Gaeilge) (ga_IE)              | ![70%](https://geps.dev/progress/70)   |
-| 意大利语 (Italiano) (it_IT)             | ![98%](https://geps.dev/progress/98)   |
-| 日语 (日本語) (ja_JP)                   | ![95%](https://geps.dev/progress/95)   |
-| 韩语 (한국어) (ko_KR)                   | ![69%](https://geps.dev/progress/69)   |
-| 挪威语 (Norsk) (no_NB)                  | ![67%](https://geps.dev/progress/67)   |
-| 波斯语 (فارسی) (fa_IR)                  | ![66%](https://geps.dev/progress/66)   |
-| 波兰语 (Polski) (pl_PL)                 | ![73%](https://geps.dev/progress/73)   |
-| 葡萄牙语 (Português) (pt_PT)            | ![70%](https://geps.dev/progress/70)   |
-| 巴西葡萄牙语 (Português) (pt_BR)        | ![77%](https://geps.dev/progress/77)   |
-| 罗马尼亚语 (Română) (ro_RO)            | ![59%](https://geps.dev/progress/59)   |
-| 俄语 (Русский) (ru_RU)                  | ![90%](https://geps.dev/progress/90)   |
-| 塞尔维亚语（拉丁字母）(Srpski) (sr_LATN_RS) | ![97%](https://geps.dev/progress/97) |
-| 简体中文 (简体中文) (zh_CN)             | ![95%](https://geps.dev/progress/95)   |
-| 斯洛伐克语 (Slovensky) (sk_SK)          | ![53%](https://geps.dev/progress/53)   |
-| 斯洛文尼亚语 (Slovenščina) (sl_SI)      | ![73%](https://geps.dev/progress/73)   |
-| 西班牙语 (Español) (es_ES)              | ![75%](https://geps.dev/progress/75)   |
-| 瑞典语 (Svenska) (sv_SE)                | ![67%](https://geps.dev/progress/67)   |
-| 泰语 (ไทย) (th_TH)                       | ![60%](https://geps.dev/progress/60)   |
-| 藏语 (བོད་ཡིག་) (bo_CN)                 | ![66%](https://geps.dev/progress/66) |
-| 繁体中文 (繁體中文) (zh_TW)              | ![99%](https://geps.dev/progress/99)   |
-| 土耳其语 (Türkçe) (tr_TR)               | ![82%](https://geps.dev/progress/82)   |
-| 乌克兰语 (Українська) (uk_UA)           | ![72%](https://geps.dev/progress/72)   |
-| 越南语 (Tiếng Việt) (vi_VN)             | ![58%](https://geps.dev/progress/58)   |
-| 马拉雅拉姆语 (മലയാളം) (ml_IN)         | ![75%](https://geps.dev/progress/75)   |
+| 阿拉伯语 (العربية) (ar_AR)                | [63%](https://geps.dev/progress/63)   |
+| 阿塞拜疆语 (Azərbaycan Dili) (az_AZ)     | [63%](https://geps.dev/progress/63)   |
+| 巴斯克语 (Euskara) (eu_ES)              | [37%](https://geps.dev/progress/37)   |
+| 保加利亚语 (Български) (bg_BG)           | [70%](https://geps.dev/progress/70)   |
+| 加泰罗尼亚语 (Català) (ca_CA)           | [69%](https://geps.dev/progress/69)   |
+| 克罗地亚语 (Hrvatski) (hr_HR)           | [62%](https://geps.dev/progress/62)   |
+| 捷克语 (Česky) (cs_CZ)                  | [71%](https://geps.dev/progress/71)   |
+| 丹麦语 (Dansk) (da_DK)                  | [63%](https://geps.dev/progress/63)   |
+| 荷兰语 (Nederlands) (nl_NL)             | [61%](https://geps.dev/progress/61)   |
+| 英语 (English) (en_GB)                  | [100%](https://geps.dev/progress/100) |
+| 美式英语 (en_US)                        | [100%](https://geps.dev/progress/100) |
+| 法语 (Français) (fr_FR)                 | [91%](https://geps.dev/progress/91)   |
+| 德语 (Deutsch) (de_DE)                  | [100%](https://geps.dev/progress/100) |
+| 希腊语 (Ελληνικά) (el_GR)               | [69%](https://geps.dev/progress/69)   |
+| 印地语 (हिंदी) (hi_IN)                   | [68%](https://geps.dev/progress/68)   |
+| 匈牙利语 (Magyar) (hu_HU)               | [99%](https://geps.dev/progress/99)   |
+| 印度尼西亚语 (Bahasa Indonesia) (id_ID) | [63%](https://geps.dev/progress/63)   |
+| 爱尔兰语 (Gaeilge) (ga_IE)              | [70%](https://geps.dev/progress/70)   |
+| 意大利语 (Italiano) (it_IT)             | [98%](https://geps.dev/progress/98)   |
+| 日语 (日本語) (ja_JP)                   | [95%](https://geps.dev/progress/95)   |
+| 韩语 (한국어) (ko_KR)                   | [69%](https://geps.dev/progress/69)   |
+| 挪威语 (Norsk) (no_NB)                  | [67%](https://geps.dev/progress/67)   |
+| 波斯语 (فارسی) (fa_IR)                  | [66%](https://geps.dev/progress/66)   |
+| 波兰语 (Polski) (pl_PL)                 | [73%](https://geps.dev/progress/73)   |
+| 葡萄牙语 (Português) (pt_PT)            | [70%](https://geps.dev/progress/70)   |
+| 巴西葡萄牙语 (Português) (pt_BR)        | [77%](https://geps.dev/progress/77)   |
+| 罗马尼亚语 (Română) (ro_RO)            | [59%](https://geps.dev/progress/59)   |
+| 俄语 (Русский) (ru_RU)                  | [90%](https://geps.dev/progress/90)   |
+| 塞尔维亚语（拉丁字母）(Srpski) (sr_LATN_RS) | [97%](https://geps.dev/progress/97) |
+| 简体中文 (简体中文) (zh_CN)             | [95%](https://geps.dev/progress/95)   |
+| 斯洛伐克语 (Slovensky) (sk_SK)          | [53%](https://geps.dev/progress/53)   |
+| 斯洛文尼亚语 (Slovenščina) (sl_SI)      | [73%](https://geps.dev/progress/73)   |
+| 西班牙语 (Español) (es_ES)              | [75%](https://geps.dev/progress/75)   |
+| 瑞典语 (Svenska) (sv_SE)                | [67%](https://geps.dev/progress/67)   |
+| 泰语 (ไทย) (th_TH)                       | [60%](https://geps.dev/progress/60)   |
+| 藏语 (བོད་ཡིག་) (bo_CN)                 | [66%](https://geps.dev/progress/66) |
+| 繁体中文 (繁體中文) (zh_TW)              | [99%](https://geps.dev/progress/99)   |
+| 土耳其语 (Türkçe) (tr_TR)               | [82%](https://geps.dev/progress/82)   |
+| 乌克兰语 (Українська) (uk_UA)           | [72%](https://geps.dev/progress/72)   |
+| 越南语 (Tiếng Việt) (vi_VN)             | [58%](https://geps.dev/progress/58)   |
+| 马拉雅拉姆语 (മലയാളം) (ml_IN)         | [75%](https://geps.dev/progress/75)   |
 
 ## Stirling PDF 企业版
 

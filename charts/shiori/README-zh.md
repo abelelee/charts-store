@@ -1,15 +1,15 @@
 # Shiori
 
-[![IC](https://github.com/go-shiori/shiori/actions/workflows/push.yml/badge.svg?branch=master)](https://github.com/go-shiori/shiori/actions/workflows/push.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-shiori/shiori)](https://goreportcard.com/report/github.com/go-shiori/shiori)
-[![#shiori-general:matrix.org](https://img.shields.io/badge/matrix-%23shiori-orange)](https://matrix.to/#/#shiori:matrix.org)
-[![Containers](https://img.shields.io/static/v1?label=Container&message=Images&color=1488C6&logo=docker)](https://github.com/go-shiori/shiori/pkgs/container/shiori)
+[![IC](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/badge.svg)](https://github.com/go-shiori/shiori/actions/workflows/push.yml)
+[![Go Report Card](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f676f2d7368696f72692f7368696f7269.svg)](https://goreportcard.com/report/github.com/go-shiori/shiori)
+[![#shiori-general:matrix.org](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/matrix-_23shiori-orange.svg)](https://matrix.to/#/#shiori:matrix.org)
+[![Containers](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/v1.svg)](https://github.com/go-shiori/shiori/pkgs/container/shiori)
 
 **请查看我们的最新 [公告](https://github.com/go-shiori/shiori/discussions/categories/announcements)**
 
 Shiori 是一个使用 Go 语言编写的简单书签管理器，目标是作为 [Pocket][pocket] 的一个简易克隆。你可以将其作为命令行程序或 Web 应用程序使用。该应用程序以单个二进制文件的形式分发，这意味着它可以轻松安装和使用。
 
-![截图][screenshot]
+![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/cover.png)
 
 ## 功能
 
@@ -23,7 +23,7 @@ Shiori 是一个使用 Go 语言编写的简单书签管理器，目标是作为
 - 在可能的情况下，默认情况下 `shiori` 会解析网页的可读内容，并创建网页的离线存档。
 - [BETA] 支持 Firefox 和 Chrome 的 [浏览器扩展][web-extension]。
 
-![阅读模式与存档模式对比][mode-comparison]
+![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/comparison.png)
 
 ## 文档
 

@@ -1,19 +1,19 @@
 # BookStack
 
-[![GitHub release](https://img.shields.io/github/release/BookStackApp/BookStack.svg)](https://github.com/BookStackApp/BookStack/releases/latest)
-[![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/BookStackApp/BookStack/blob/development/LICENSE)
-[![Crowdin](https://badges.crowdin.net/bookstack/localized.svg)](https://crowdin.com/project/bookstack)
-[![Build Status](https://github.com/BookStackApp/BookStack/workflows/test-php/badge.svg)](https://github.com/BookStackApp/BookStack/actions)
-[![Lint Status](https://github.com/BookStackApp/BookStack/workflows/lint-php/badge.svg)](https://github.com/BookStackApp/BookStack/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/5551731994dd22fa1f4f/maintainability)](https://codeclimate.com/github/BookStackApp/BookStack/maintainability)
+[![GitHub release](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/BookStack.svg)](https://github.com/BookStackApp/BookStack/releases/latest)
+[![license](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/License-MIT-yellow.svg)](https://github.com/BookStackApp/BookStack/blob/development/LICENSE)
+[![Crowdin](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/localized.svg)](https://crowdin.com/project/bookstack)
+[![Build Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/badge.svg)](https://github.com/BookStackApp/BookStack/actions)
+[![Lint Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/badge.svg)](https://github.com/BookStackApp/BookStack/actions)
+[![Maintainability](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/maintainability.svg)](https://codeclimate.com/github/BookStackApp/BookStack/maintainability)
 <br>
-[![Alternate Source](https://img.shields.io/static/v1?label=Alt+Source&message=Git&color=ef391a&logo=git)](https://source.bookstackapp.com/)
-[![Repo Stats](https://img.shields.io/static/v1?label=GitHub+project&message=stats&color=f27e3f)](https://gh-stats.bookstackapp.com/)
-[![Discord](https://img.shields.io/static/v1?label=Discord&message=chat&color=738adb&logo=discord)](https://www.bookstackapp.com/links/discord)
-[![Mastodon](https://img.shields.io/static/v1?label=Mastodon&message=@bookstack&color=595aff&logo=mastodon)](https://www.bookstackapp.com/links/mastodon)
+[![Alternate Source](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://source.bookstackapp.com/)
+[![Repo Stats](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://gh-stats.bookstackapp.com/)
+[![Discord](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://www.bookstackapp.com/links/discord)
+[![Mastodon](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://www.bookstackapp.com/links/mastodon)
 <br>
-[![PeerTube](https://img.shields.io/static/v1?label=PeerTube&message=bookstack@foss.video&color=f2690d&logo=peertube)](https://foss.video/c/bookstack)
-[![YouTube](https://img.shields.io/static/v1?label=YouTube&message=bookstackapp&color=ff0000&logo=youtube)](https://www.youtube.com/bookstackapp)
+[![PeerTube](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://foss.video/c/bookstack)
+[![YouTube](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://www.youtube.com/bookstackapp)
 
 A platform for storing and organising information and documentation. Details for BookStack can be found on the official website at https://www.bookstackapp.com/.
 
@@ -49,7 +49,7 @@ Big thanks to these companies for supporting the project.
 
 <table><tbody><tr>
 <td align="center"><a href="https://www.federated.computer/bookstack-wiki" target="_blank">
-    <img width="480" src="https://www.bookstackapp.com/images/sponsors/federated-computer.png" alt="Federated.computer">
+    <img width="480" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/federated-computer.png" alt="Federated.computer">
 </a></td>
 </tr></tbody></table>
 
@@ -57,41 +57,41 @@ Big thanks to these companies for supporting the project.
 
 <table><tbody><tr>
 <td align="center"><a href="https://www.diagrams.net/" target="_blank">
-    <img width="240" src="https://www.bookstackapp.com/images/sponsors/diagramsnet.png" alt="Diagrams.net">
+    <img width="240" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/diagramsnet.png" alt="Diagrams.net">
 </a></td>
 <td align="center"><a href="https://cloudabove.com/hosting" target="_blank">
-    <img width="200" src="https://www.bookstackapp.com/images/sponsors/cloudabove.png" alt="Cloudabove">
+    <img width="200" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/cloudabove.png" alt="Cloudabove">
 </a></td>
 </tr><tr>
 <td align="center"><a href="https://www.practicali.be" target="_blank">
-    <img width="240" src="https://www.bookstackapp.com/images/sponsors/practicali.png" alt="Practicali">
+    <img width="240" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/practicali.png" alt="Practicali">
 </a></td>
 <td align="center"><a href="https://www.stellarhosted.com/bookstack/" target="_blank">
-    <img width="240" src="https://www.bookstackapp.com/images/sponsors/stellarhosted.png" alt="Stellar Hosted">
+    <img width="240" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/stellarhosted.png" alt="Stellar Hosted">
 </a></td>
 </tr>
 <tr>
 <td align="center" style="text-align: center"><a href="https://nws.netways.de/apps/bookstack/" target="_blank">
-    <img width="240" src="https://www.bookstackapp.com/images/sponsors/netways.png" alt="NETWAYS Web Services">
+    <img width="240" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/netways.png" alt="NETWAYS Web Services">
 </a></td>
 <td align="center" style="text-align: center"><a href="https://www.schroeck-consulting.de/" target="_blank">
-    <img width="200" src="https://www.bookstackapp.com/images/sponsors/schroeck-consulting.png" alt="Schroeck IT Consulting">
+    <img width="200" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/schroeck-consulting.png" alt="Schroeck IT Consulting">
 </a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://practinet.be/" target="_blank">
-    <img width="240" src="https://www.bookstackapp.com/images/sponsors/practinet.png" alt="Practinet">
+    <img width="240" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/practinet.png" alt="Practinet">
 </a></td>
 <td align="center"><a href="https://route4me.com/" target="_blank">
-    <img width="240" src="https://www.bookstackapp.com/images/sponsors/route4me.png" alt="Route4Me - Route Optimizer and Route Planner Software">
+    <img width="240" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/route4me.png" alt="Route4Me - Route Optimizer and Route Planner Software">
 </a></td>
 </tr>
 <tr>
 <td align="center"><a href="https://phamos.eu" target="_blank">
-    <img width="136" src="https://www.bookstackapp.com/images/sponsors/phamos.png" alt="phamos">
+    <img width="136" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/phamos.png" alt="phamos">
 </a></td>
 <td align="center"><a href="https://sitespeak.ai/bookstack" target="_blank">
-    <img width="240" src="https://www.bookstackapp.com/images/sponsors/sitespeak.png" alt="SiteSpeakAI">
+    <img width="240" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/sitespeak.png" alt="SiteSpeakAI">
 </a></td>
 </tr>
 </tbody></table>

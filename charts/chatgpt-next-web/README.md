@@ -1,14 +1,14 @@
 <div align="center">
 
 <a href='https://nextchat.club'>
-  <img src="https://github.com/user-attachments/assets/83bdcc07-ae5e-4954-a53a-ac151ba6ccf3" width="1000" alt="icon"/>
+  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/83bdcc07-ae5e-4954-a53a-ac151ba6ccf3.svg" width="1000" alt="icon"/>
 </a>
 
 <h1 align="center">NextChat</h1>
 
 English / [简体中文](./README_CN.md)
 
-<a href="https://trendshift.io/repositories/5973" target="_blank"><img src="https://trendshift.io/api/badge/repositories/5973" alt="ChatGPTNextWeb%2FChatGPT-Next-Web | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/5973" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/5973.svg" alt="ChatGPTNextWeb%2FChatGPT-Next-Web | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 ✨ Light and Fast AI Assistant,with Claude, DeepSeek, GPT4 & Gemini Pro support.
 
@@ -29,16 +29,16 @@ English / [简体中文](./README_CN.md)
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
 
-[<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA) [<img src="https://vercel.com/button" alt="Deploy on Vercel" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/ChatGPTNextWeb/NextChat)
+[<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA) [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/button.svg" alt="Deploy on Vercel" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/ChatGPTNextWeb/NextChat)
 
-[<img src="https://github.com/user-attachments/assets/903482d4-3e87-4134-9af1-f2588fa90659" height="50" width="" >](https://monica.im/?utm=nxcrp)
+[<img height="50" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/360871243-903482d4-3e87-4134-9af1-f2588fa90659.png"/>](https://monica.im/?utm=nxcrp)
 
 </div>
 
 ## ❤️ Sponsor AI API
 
 <a href='https://302.ai/'>
-  <img src="https://github.com/user-attachments/assets/a03edf82-2031-4f23-bdb8-bfc0bfd168a4" width="100%" alt="icon"/>
+  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/460442675-a03edf82-2031-4f23-bdb8-bfc0bfd168a4.png" width="100%" alt="icon"/>
 </a>
 
 [302.AI](https://302.ai/) is a pay-as-you-go AI application platform that offers the most comprehensive AI APIs and online applications available.
@@ -49,13 +49,13 @@ English / [简体中文](./README_CN.md)
 
 > [❤️ Source Code Coming Soon](https://github.com/ChatGPTNextWeb/NextChat-iOS)
 
-![Github iOS Image](https://github.com/user-attachments/assets/e0aa334f-4c13-4dc9-8310-e3b09fa4b9f3)
+![Github iOS Image](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/435371843-e0aa334f-4c13-4dc9-8310-e3b09fa4b9f3.png)
 
 ## 🫣 NextChat Support MCP !
 
 > Before build, please set env ENABLE_MCP=true
 
-<img src="https://github.com/user-attachments/assets/d8851f40-4e36-4335-b1a4-ec1e11488c7e"/>
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/404677772-d8851f40-4e36-4335-b1a4-ec1e11488c7e.png"/>
 
 ## Enterprise Edition
 
@@ -73,9 +73,9 @@ For enterprise inquiries, please contact: **business@nextchat.dev**
 
 ## Screenshots
 
-![Settings](./docs/images/settings.png)
+![Settings](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/settings.png)
 
-![More](./docs/images/more.png)
+![More](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/more.png)
 
 ## Features
 
@@ -92,8 +92,8 @@ For enterprise inquiries, please contact: **business@nextchat.dev**
 - I18n: English, 简体中文, 繁体中文, 日本語, Français, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어, Indonesia
 
 <div align="center">
-   
-![主界面](./docs/images/cover.png)
+
+![主界面](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/cover.png)
 
 </div>
 
@@ -127,7 +127,7 @@ For enterprise inquiries, please contact: **business@nextchat.dev**
 
 1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. Click
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), remember that `CODE` is your page password;
+   [![Deploy with Vercel](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/button.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), remember that `CODE` is your page password;
 3. Enjoy :)
 
 ## FAQ
@@ -150,9 +150,9 @@ We recommend that you follow the steps below to re-deploy:
 
 After forking the project, due to the limitations imposed by GitHub, you need to manually enable Workflows and Upstream Sync Action on the Actions page of the forked project. Once enabled, automatic updates will be scheduled every hour:
 
-![Automatic Updates](./docs/images/enable-actions.jpg)
+![Automatic Updates](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/enable-actions.jpg)
 
-![Enable Automatic Updates](./docs/images/enable-actions-sync.jpg)
+![Enable Automatic Updates](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/enable-actions-sync.jpg)
 
 ### Manually Updating Code
 
@@ -381,7 +381,7 @@ NodeJS >= 18, Docker >= 20
 
 ## Development
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[![Open in Gitpod](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
 Before starting development, you must create a new `.env.local` file at project root, and place your api key into it:
 
@@ -474,7 +474,7 @@ If you want to add a new translation, read this [document](./docs/translation.md
 ### Contributors
 
 <a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web" />
+  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/image.svg" />
 </a>
 
 ## LICENSE

@@ -1,13 +1,13 @@
 <div align="center">
 
 <a href="https://getunleash.io" title="Unleash - Empowering developers to release with confidence">
-    <img src="./.github/github_header_opaque_landscape.svg" alt="Visit the Unleash website">
+    <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/github_header_opaque_landscape.svg" alt="Visit the Unleash website">
 </a>
 
 <br/>
 <br/>
 
-[![Build and Tests](https://img.shields.io/github/actions/workflow/status/Unleash/unleash/build.yaml?branch=main)](https://github.com/Unleash/unleash/actions/workflows/build.yaml) [![Coverage Report](https://img.shields.io/badge/coverage-vitest-green)](https://github.com/Unleash/unleash/actions/workflows/build_coverage.yaml) [![Docker Pulls](https://img.shields.io/docker/pulls/unleashorg/unleash-server)](https://hub.docker.com/r/unleashorg/unleash-server) [![Apache-2.0 license](https://img.shields.io/github/license/unleash/unleash)](https://github.com/Unleash/unleash/blob/main/LICENSE) [![Join Unleash on Slack](https://img.shields.io/badge/slack-join-635dc5?logo=slack)](https://slack.unleash.run)
+[![Build and Tests](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/build.yaml.svg)](https://github.com/Unleash/unleash/actions/workflows/build.yaml) [![Coverage Report](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/coverage-vitest-green.svg)](https://github.com/Unleash/unleash/actions/workflows/build_coverage.yaml) [![Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/unleash-server.svg)](https://hub.docker.com/r/unleashorg/unleash-server) [![Apache-2.0 license](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/unleash.svg)](https://github.com/Unleash/unleash/blob/main/LICENSE) [![Join Unleash on Slack](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/slack-join-635dc5.svg)](https://slack.unleash.run)
 
 [Experience Unleash Live Demo →](https://www.getunleash.io/interactive-demo)
 
@@ -83,7 +83,7 @@ if (unleash.isEnabled("AwesomeFeature")) {
 
 If you don't want to run Unleash locally, we also provide easy deployment setups for Heroku and Digital Ocean:
 
-[![Deploy to Heroku](./.github/deploy-heroku-20.png)](https://www.heroku.com/deploy/?template=https://github.com/Unleash/unleash) [![Deploy to DigitalOcean](./.github/deploy-digital.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Unleash/unleash/tree/main&refcode=0e1d75187044)
+[![Deploy to Heroku](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/deploy-heroku-20.png)](https://www.heroku.com/deploy/?template=https://github.com/Unleash/unleash) [![Deploy to DigitalOcean](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/deploy-digital.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Unleash/unleash/tree/main&refcode=0e1d75187044)
 
 ### Configure and run Unleash anywhere
 
@@ -95,7 +95,7 @@ The above sections show you how to get up and running quickly and easily. When y
 
 Try out [the Unleash online demo](https://www.getunleash.io/interactive-demo).
 
-[![The Unleash online demo](./.github/github_online_demo.svg)](https://www.getunleash.io/interactive-demo)
+[![The Unleash online demo](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/github_online_demo.svg)](https://www.getunleash.io/interactive-demo)
 
 <br/>
 
@@ -103,7 +103,7 @@ Try out [the Unleash online demo](https://www.getunleash.io/interactive-demo).
 
 We know that learning a new tool can be hard and time-consuming. We have a growing community that loves to help out. Please don't hesitate to reach out for help.
 
-[![Join Unleash on Slack](https://img.shields.io/badge/slack-join-635dc5?logo=slack)](https://slack.unleash.run)
+[![Join Unleash on Slack](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/slack-join-635dc5.svg)](https://slack.unleash.run)
 
 💬 [Join Unleash on Slack](https://slack.unleash.run) if you want ask open questions about Unleash, feature toggling or discuss these topics in general.
 
@@ -125,7 +125,7 @@ Check out [the CONTRIBUTING.md file](./CONTRIBUTING.md) for contribution guideli
 
 <div align="center">
 
-[![The Unleash contributors](https://cdn.getunleash.io/docs-assets/contributors.svg)](https://github.com/Unleash/unleash/graphs/contributors)
+[![The Unleash contributors](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/contributors.svg)](https://github.com/Unleash/unleash/graphs/contributors)
 
 </div>
 
@@ -173,7 +173,7 @@ If you're looking for one of the following features, please take a look at our [
 
 ## Architecture
 
-<img src="./website/static/img/unleash-architecture-edge.png" title="Unleash System Overview" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/unleash-architecture-edge.png" title="Unleash System Overview" />
 
 Read more in the [_system overview_ section of the Unleash documentation](https://docs.getunleash.io/understanding-unleash/unleash-overview#system-overview).
 
@@ -218,7 +218,7 @@ If none of the official SDKs fit your need, there's also a number of [community-
 
 **Proud Open-Source users:** (send us a message if you want to add your logo here)
 
-![The Unleash logo encircled by logos for Finn.no, nav (the Norwegian Labour and Welfare Administration), Budgets, Otovo, and Amedia. The encircling logos are all connected to the Unleash logo.](./.github/github_unleash_users.svg)
+![The Unleash logo encircled by logos for Finn.no, nav (the Norwegian Labour and Welfare Administration), Budgets, Otovo, and Amedia. The encircling logos are all connected to the Unleash logo.](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/github_unleash_users.svg)
 
 <br/>
 

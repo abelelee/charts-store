@@ -31,7 +31,7 @@
     <a href="https://github.com/mealie-recipes/mealie/pkgs/container/mealie">GitHub 容器仓库</a>
 </p>
 
-[![产品名称截图][product-screenshot]](https://docs.mealie.io)
+[![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mealie/image/home_screenshot.png)](https://docs.mealie.io)
 
 # 关于本项目
 
@@ -58,7 +58,7 @@ Mealie 是一个自托管的食谱管理器、膳食计划工具和购物清单�
 
 如果您不是开发者，也可以通过财务支持来贡献本项目。资金支持可以帮助我优先投入更多时间到本项目，并让我知道社区对该项目有真实的需求。
 
-<a href="https://www.buymeacoffee.com/haykot" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 107px !important;" ></a>
+<a href="https://www.buymeacoffee.com/haykot" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mealie/image/default-green.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 107px !important;" ></a>
 
 ### 翻译
 
@@ -76,7 +76,7 @@ Mealie 是一个自托管的食谱管理器、膳食计划工具和购物清单�
 
 感谢 Depot 为我们提供 Docker 镜像构建实例。
 
-[![使用 Depot 构建](https://depot.dev/badges/built-with-depot.svg)](https://depot.dev?utm_source=Mealie)
+[![使用 Depot 构建](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mealie/image/built-with-depot.svg)](https://depot.dev?utm_source=Mealie)
 
 <!-- Markdown 链接与图片 -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

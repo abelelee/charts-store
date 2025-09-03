@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/demo.png" alt="Actualbudget" />
+  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/actualbudget/image/demo.png" alt="Actualbudget" />
 </p>
 
 ## Getting Started
@@ -69,15 +69,15 @@ To add new feature requests, open a new Issue of the "Feature Request" type.
 Make Actual Budget accessible to more people by helping with the [Internationalization](https://actualbudget.org/docs/contributing/i18n/) of Actual. We are using a crowd sourcing tool to manage the translations, see our [Weblate Project](https://hosted.weblate.org/projects/actualbudget/). Weblate proudly supports open-source software projects through their [Libre plan](https://weblate.org/en/hosting/#libre).
 
 <a href="https://hosted.weblate.org/engage/actualbudget/">
-<img src="https://hosted.weblate.org/widget/actualbudget/actual/287x66-grey.png" alt="Translation status" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/actualbudget/image/287x66-grey.png" alt="Translation status" />
 </a>
 
 ## Repo Activity
 
-![Alt](https://repobeats.axiom.co/api/embed/e20537dd8b74956f86736726ccfbc6f0565bec22.svg 'Repobeats analytics image')
+![Alt](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/actualbudget/image/e20537dd8b74956f86736726ccfbc6f0565bec22.svg 'Repobeats analytics image')
 
 ## Sponsors
 
 Thanks to our wonderful sponsors who make Actual Budget possible!
 
-<a href="https://www.netlify.com"> <img src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a>
+<a href="https://www.netlify.com"> <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/actualbudget/image/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a>

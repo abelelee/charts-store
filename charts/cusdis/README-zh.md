@@ -1,12 +1,12 @@
-<p align="center"><a href="https://cusdis.com" target="_blank" rel="noopener noreferrer"><img width="100" src="/public/images/artworks/logo-256.png" alt="logo"></a></p>
+<p align="center"><a href="https://cusdis.com" target="_blank" rel="noopener noreferrer"><img width="100" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/cusdis/image/logo-256.png" alt="logo"></a></p>
 
 Cusdis 是一个开源、轻量级（约 5KB gzip）、注重隐私的 Disqus 替代方案。
 
 > 如果您有意购买/接手该项目，请联系我 💖
 
-![](/public/images/landing.png)
+![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/cusdis/image/landing.png)
 
-[![在 Railway 上部署](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fdjyde%2Fcusdis&plugins=postgresql&envs=NEXTAUTH_URL%2CDB_TYPE%2CDB_URL%2CUSERNAME%2CPASSWORD%2CHOST%2CJWT_SECRET%2CPORT&NEXTAUTH_URLDesc=请勿修改&DB_TYPEDesc=请勿修改&DB_URLDesc=请勿修改&USERNAMEDesc=登录用户名&PASSWORDDesc=登录密码&HOSTDesc=请勿修改&JWT_SECRETDesc=用于加密 JWT Token 的密钥&PORTDesc=请勿修改&NEXTAUTH_URLDefault=%24%7B%7B+RAILWAY_STATIC_URL+%7D%7D&DB_TYPEDefault=pgsql&DB_URLDefault=%24%7B%7B+DATABASE_URL+%7D%7D&HOSTDefault=https%3A%2F%2F%24%7B%7B+RAILWAY_STATIC_URL+%7D%7D&PORTDefault=3000&referralCode=randyloop)
+[![在 Railway 上部署](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/cusdis/image/68747470733a2f2f7261696c7761792e6170702f627574746f6e2e737668.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fdjyde%2Fcusdis&plugins=postgresql&envs=NEXTAUTH_URL%2CDB_TYPE%2CDB_URL%2CUSERNAME%2CPASSWORD%2CHOST%2CJWT_SECRET%2CPORT&NEXTAUTH_URLDesc=Don%27t+modify+it&DB_TYPEDesc=Don%27t+modify+it&DB_URLDesc=Don%27t+modify+it&USERNAMEDesc=Username+to+sign+in&PASSWORDDesc=Password+to+sign+in&HOSTDesc=Don%27t+modify+it&JWT_SECRETDesc=A+secret+key+to+encrypt+JWT+token&PORTDesc=Don%27t+modify+it&NEXTAUTH_URLDefault=%24%7B%7B+RAILWAY_STATIC_URL+%7D%7D&DB_TYPEDefault=pgsql&DB_URLDefault=%24%7B%7B+DATABASE_URL+%7D%7D&HOSTDefault=https%3A%2F%2F%24%7B%7B+RAILWAY_STATIC_URL+%7D%7D&PORTDefault=3000&referralCode=randyloop)
 
 ## 💝 赞助该项目
 
@@ -14,16 +14,16 @@ Cusdis 是一个开源、轻量级（约 5KB gzip）、注重隐私的 Disqus �
 
 ### 主要赞助商
 
-[![Slide 16_9 - 1](https://github.com/djyde/cusdis/assets/914329/0a773f41-6baf-4bdc-897e-e96f56991acc)](https://epubkit.app)
+[![Slide 16_9 - 1](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/cusdis/image/326041906-0a773f41-6baf-4bdc-897e-e96f56991acc.png)](https://epubkit.app)
 
-[![贡献者](https://opencollective.com/cusdis/tiers/organization-support/0/avatar.svg)](https://opencollective.com/cusdis/tiers/organization-support/0/website)
+[![贡献者](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/cusdis/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6375736469732f74696572732f6f7267616e697a6174696f6e2d737570706f72742f302f6176617461722e737667.svg)](https://opencollective.com/cusdis/tiers/organization-support/0/website)
 
 [成为主要赞助商](https://opencollective.com/cusdis/contribute/organization-support-27992/checkout)
 
 ### 赞助商 / 支持者
 
-[![贡献者](https://opencollective.com/cusdis/tiers/sponsor.svg?avatarHeight=50)](https://opencollective.com/cusdis)
-[![贡献者](https://opencollective.com/cusdis/tiers/backer.svg?avatarHeight=50)](https://opencollective.com/cusdis)
+[![贡献者](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/cusdis/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6375736469732f74696572732f73706f6e736f722e7376673f6176617461724865696768743d3530.svg)](https://opencollective.com/cusdis)
+[![贡献者](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/cusdis/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6375736469732f74696572732f6261636b65722e7376673f6176617461724865696768743d3530.svg)](https://opencollective.com/cusdis)
 
 ## 功能特性
 

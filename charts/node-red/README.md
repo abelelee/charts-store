@@ -2,11 +2,11 @@
 
 https://nodered.org
 
-[![Build Status](https://github.com/node-red/node-red/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/node-red/node-red/actions?query=branch%3Amaster)
+[![Build Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/node-red/image/badge.svg)](https://github.com/node-red/node-red/actions?query=branch%3Amaster)
 
 Low-code programming for event-driven applications.
 
-![Node-RED: Low-code programming for event-driven applications](https://nodered.org/images/node-red-screenshot.png)
+![Node-RED: Low-code programming for event-driven applications](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/node-red/image/node-red-screenshot.png)
 
 ## Quick Start
 

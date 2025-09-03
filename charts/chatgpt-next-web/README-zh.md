@@ -10,14 +10,16 @@
 
 [NextChatAI](https://nextchat.club?utm_source=readme) / [企业版](#%E4%BC%81%E4%B8%9A%E7%89%88) / [演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N)
 
-[<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA) [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/button.svg" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA) [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+
+[<img height="50" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/360871243-903482d4-3e87-4134-9af1-f2588fa90659.png"/>](https://monica.im/?utm=nxcrp)
 
 </div>
 
 ## Sponsor AI API
 
 <a href='https://302.ai/'>
-  <img src="https://github.com/user-attachments/assets/d8c0c513-1e18-4d3b-a2a9-ff3696aec0d4" width="100%" alt="icon"/>
+  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/460442675-a03edf82-2031-4f23-bdb8-bfc0bfd168a4.png" width="100%" alt="icon"/>
 </a>
 
 [302.AI](https://302.ai/) 是一个按需付费的AI应用平台，提供市面上最全的AI API和AI在线应用。
@@ -36,19 +38,19 @@
 
 企业版咨询: **business@nextchat.dev**
 
-<img width="300" src="https://github.com/user-attachments/assets/bb29a11d-ff75-48a8-b1f8-d2d7238cf987">
+<img width="300" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/435371843-e0aa334f-4c13-4dc9-8310-e3b09fa4b9f3.png">
 
 ## 开始使用
 
 1. 准备好你的 [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. 点击右侧按钮开始部署：
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&env=GOOGLE_API_KEY&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)，直接使用 Github 账号登录即可，记得在环境变量页填入 API Key 和[页面访问密码](#配置页面访问密码) CODE；
+   [![Deploy with Vercel](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/button.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&env=GOOGLE_API_KEY&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)，直接使用 Github 账号登录即可，记得在环境变量页填入 API Key 和[页面访问密码](#配置页面访问密码) CODE；
 3. 部署完毕后，即可开始使用；
 4. （可选）[绑定自定义域名](https://vercel.com/docs/concepts/projects/domains/add-a-domain)：Vercel 分配的域名 DNS 在某些区域被污染了，绑定自定义域名即可直连。
 
 <div align="center">
-   
-![主界面](./docs/images/cover.png)
+
+![主界面](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/cover.png)
 
 </div>
 
@@ -67,9 +69,9 @@
 
 当你 fork 项目之后，由于 Github 的限制，需要手动去你 fork 后的项目的 Actions 页面启用 Workflows，并启用 Upstream Sync Action，启用之后即可开启每小时定时自动更新：
 
-![自动更新](./docs/images/enable-actions.jpg)
+![自动更新](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/enable-actions.jpg)
 
-![启用自动更新](./docs/images/enable-actions-sync.jpg)
+![启用自动更新](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/enable-actions-sync.jpg)
 
 ### 手动更新代码
 
@@ -296,7 +298,7 @@ SiliconFlow API URL.
 
 点击下方按钮，开始二次开发：
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[![Open in Gitpod](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
 在开始写代码之前，需要在项目根目录新建一个 `.env.local` 文件，里面填入环境变量：
 

@@ -1,6 +1,6 @@
 # bolt.diy
 
-[![bolt.diy: AI-Powered Full-Stack Web Development in the Browser](./public/social_preview_index.jpg)](https://bolt.diy)
+[![bolt.diy: AI-Powered Full-Stack Web Development in the Browser](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bolt-diy/image/social_preview_index.jpg)](https://bolt.diy)
 
 Welcome to bolt.diy, the official open source version of Bolt.new, which allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, or Groq models - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.
 
@@ -114,7 +114,7 @@ Let's get you up and running with the stable version of Bolt.DIY!
 
 ## Quick Download
 
-[![Download Latest Release](https://img.shields.io/github/v/release/stackblitz-labs/bolt.diy?label=Download%20Bolt&sort=semver)](https://github.com/stackblitz-labs/bolt.diy/releases/latest) ← Click here to go the the latest release version!
+[![Download Latest Release](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bolt-diy/image/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f737461636b626c69747a2d6c6162732f626f6c742e6469793f6c6162656c3d446f776e6c6f6164253230426f6c7426736f72743d73656d766572.svg)](https://github.com/stackblitz-labs/bolt.diy/releases/latest) ← Click here to go the the latest release version!
 
 - Next **click source.zip**
 
@@ -203,19 +203,19 @@ Setting up your API keys in Bolt.DIY is straightforward:
 3. Click the pencil (edit) icon
 4. Enter your API key in the secure input field
 
-![API Key Configuration Interface](./docs/images/api-key-ui-section.png)
+![API Key Configuration Interface](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bolt-diy/image/api-key-ui-section.png)
 
 ### Configuring Custom Base URLs
 
 For providers that support custom base URLs (such as Ollama or LM Studio), follow these steps:
 
 1. Click the settings icon in the sidebar to open the settings menu
-   ![Settings Button Location](./docs/images/bolt-settings-button.png)
+   ![Settings Button Location](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bolt-diy/image/bolt-settings-button.png)
 
 2. Navigate to the "Providers" tab
 3. Search for your provider using the search bar
 4. Enter your custom base URL in the designated field
-   ![Provider Base URL Configuration](./docs/images/provider-base-url.png)
+   ![Provider Base URL Configuration](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bolt-diy/image/provider-base-url.png)
 
 > **Note**: Custom base URLs are particularly useful when running local instances of AI models or using custom API endpoints.
 

@@ -1,17 +1,17 @@
 <div align="center" width="100%">
-    <img src="./public/icon.svg" width="128" alt="" />
+    <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/icon.svg" width="128" alt="" />
 </div>
 
 # Uptime Kuma
 
 Uptime Kuma is an easy-to-use self-hosted monitoring tool.
 
-<a target="_blank" href="https://github.com/louislam/uptime-kuma"><img src="https://img.shields.io/github/stars/louislam/uptime-kuma?style=flat" /></a> <a target="_blank" href="https://hub.docker.com/r/louislam/uptime-kuma"><img src="https://img.shields.io/docker/pulls/louislam/uptime-kuma" /></a> <a target="_blank" href="https://hub.docker.com/r/louislam/uptime-kuma"><img src="https://img.shields.io/docker/v/louislam/uptime-kuma/latest?label=docker%20image%20ver." /></a> <a target="_blank" href="https://github.com/louislam/uptime-kuma"><img src="https://img.shields.io/github/last-commit/louislam/uptime-kuma" /></a>  <a target="_blank" href="https://opencollective.com/uptime-kuma"><img src="https://opencollective.com/uptime-kuma/total/badge.svg?label=Open%20Collective%20Backers&color=brightgreen" /></a>
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/louislam?label=GitHub%20Sponsors)](https://github.com/sponsors/louislam) <a href="https://weblate.kuma.pet/projects/uptime-kuma/uptime-kuma/">
-<img src="https://weblate.kuma.pet/widgets/uptime-kuma/-/svg-badge.svg" alt="Translation status" />
+<a target="_blank" href="https://github.com/louislam/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/uptime-kuma.svg" /></a> <a target="_blank" href="https://hub.docker.com/r/louislam/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/uptime-kuma.svg" /></a> <a target="_blank" href="https://hub.docker.com/r/louislam/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/latest.svg" /></a> <a target="_blank" href="https://github.com/louislam/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/uptime-kuma.svg" /></a>  <a target="_blank" href="https://opencollective.com/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f757074696d652d6b756d612f746f74616c2f62616467652e7376673f6c6162656c3d4f70656e253230436f6c6c6563746976652532304261636b65727326636f6c6f723d627269676874677265656e.svg"/></a>
+[![GitHub Sponsors](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/louislam.svg)](https://github.com/sponsors/louislam) <a href="https://weblate.kuma.pet/projects/uptime-kuma/uptime-kuma/">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/svg-badge.svg" alt="Translation status" />
 </a>
 
-<img src="https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg" width="700" alt="" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg" width="700" alt="" />
 
 ## 🥔 Live Demo
 
@@ -119,25 +119,25 @@ https://github.com/louislam/uptime-kuma/milestones
 
 Thank you so much! (GitHub Sponsors will be updated manually. OpenCollective sponsors will be updated automatically, the list will be cached by GitHub though. It may need some time to be updated)
 
-<img src="https://uptime.kuma.pet/sponsors?v=6" alt />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/68747470733a2f2f757074696d652e6b756d612e7065742f73706f6e736f72733f763d36.svg" alt="" />
 
 ## 🖼 More Screenshots
 
 Light Mode:
 
-<img src="https://uptime.kuma.pet/img/light.jpg" width="512" alt="" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/light.jpg" width="512" alt="" />
 
 Status Page:
 
-<img src="https://user-images.githubusercontent.com/1336778/134628766-a3fe0981-0926-4285-ab46-891a21c3e4cb.png" width="512" alt="" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/134628766-a3fe0981-0926-4285-ab46-891a21c3e4cb.png" width="512" alt="" />
 
 Settings Page:
 
-<img src="https://louislam.net/uptimekuma/2.jpg" width="400" alt="" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/2.jpg" width="400" alt="" />
 
 Telegram Notification Sample:
 
-<img src="https://louislam.net/uptimekuma/3.jpg" width="400" alt="" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/3.jpg" width="400" alt="" />
 
 ## Motivation
 

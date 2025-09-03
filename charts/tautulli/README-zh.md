@@ -25,7 +25,7 @@
 
 [完整预览图集请访问我们的网站][Tautulli]
 
-![Tautulli 首页](https://tautulli.com/images/screenshots/activity-compressed.jpg?v=2)
+![Tautulli 首页](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/tautulli/image/activity-compressed.jpg)
 
 ## 安装
 

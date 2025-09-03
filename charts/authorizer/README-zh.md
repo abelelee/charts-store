@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://authorizer.dev">
-    <img alt="Logo" src="https://authorizer.dev/images/logo.png" width="60" />
+    <img alt="Logo" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/logo.png" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -21,7 +21,7 @@
 
 # 简介
 
-<img src="https://docs.authorizer.dev/images/authorizer-arch.png" style="height:20em"/>
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/authorizer-arch.png" style="height:20em"/>
 
 #### 我们提供的功能
 
@@ -69,12 +69,12 @@
 
 | **基础设施提供商** |                                                                                            **一键部署链接**                                                                                            |               **附加信息**               |
 | :----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------: |
-|    Railway.app     |                    <a href="https://railway.app/new/template/nwXp1C?referralCode=FEF4uT"><img src="https://railway.app/button.svg" style="height: 44px" alt="在 Railway 上部署"></a>                     | [文档](https://docs.authorizer.dev/deployment/railway) |
-|       Heroku       | <a href="https://heroku.com/deploy?template=https://github.com/authorizerdev/authorizer-heroku"><img src="https://www.herokucdn.com/deploy/button.svg" alt="部署到 Heroku" style="height: 44px;"></a> | [文档](https://docs.authorizer.dev/deployment/heroku)  |
-|       Render       |                     [![部署到 Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/authorizerdev/authorizer-render)                      | [文档](https://docs.authorizer.dev/deployment/render)  |
-|       Koyeb       | <a target="_blank" href="https://app.koyeb.com/deploy?name=authorizer&type=docker&image=docker.io/lakhansamani/authorizer&env[PORT]=8000&env[DATABASE_TYPE]=postgres&env[DATABASE_URL]=CHANGE_ME&ports=8000;http;/"><img alt="部署到 Koyeb" src="https://www.koyeb.com/static/images/deploy/button.svg" /></a> | [文档](https://docs.authorizer.dev/deployment/koyeb)  |
-|     RepoCloud     | <a href="https://repocloud.io/details/?app_id=174"><img src="https://d16t0pc4846x52.cloudfront.net/deploy.png" alt="在 RepoCloud 上部署"></a> | [文档](https://repocloud.io/details/?app_id=174) |
-| 阿里云 | <a target="_blank" href="https://computenest.console.aliyun.com/service/instance/create/default?type=user&ServiceName=Authorizer%E7%A4%BE%E5%8C%BA%E7%89%88"><img src="https://service-info-public.oss-cn-hangzhou.aliyuncs.com/computenest-en.svg" alt="阿里云" /></a> | [文档](https://docs.authorizer.dev/deployment/alibaba-cloud) |
+|    Railway.app     |                    <a href="https://railway.app/new/template/nwXp1C?referralCode=FEF4uT"><img alt="在 Railway 上部署" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/68747470733a2f2f7261696c7761792e6170702f627574746f6e2e737667.svg"/></a>                     | [文档](https://docs.authorizer.dev/deployment/railway) |
+|       Heroku       | <a href="https://heroku.com/deploy?template=https://github.com/authorizerdev/authorizer-heroku"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/button.svg" alt="部署到 Heroku" style="height: 44px;"></a> | [文档](https://docs.authorizer.dev/deployment/heroku)  |
+|       Render       |                     [![部署到 Render](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/authorizerdev/authorizer-render)                      | [文档](https://docs.authorizer.dev/deployment/render)  |
+|       Koyeb       | <a target="_blank" href="https://app.koyeb.com/deploy?name=authorizer&type=docker&image=docker.io/lakhansamani/authorizer&env[PORT]=8000&env[DATABASE_TYPE]=postgres&env[DATABASE_URL]=CHANGE_ME&ports=8000;http;/"><img alt="部署到 Koyeb" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/button.svg" /></a> | [文档](https://docs.authorizer.dev/deployment/koyeb)  |
+|     RepoCloud     | <a href="https://repocloud.io/details/?app_id=174"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/deploy.png" alt="在 RepoCloud 上部署"></a> | [文档](https://repocloud.io/details/?app_id=174) |
+| 阿里云 | <a target="_blank" href="https://computenest.console.aliyun.com/service/instance/create/default?type=user&ServiceName=Authorizer%E7%A4%BE%E5%8C%BA%E7%89%88"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/computenest-en.svg" alt="阿里云" /></a> | [文档](https://docs.authorizer.dev/deployment/alibaba-cloud) |
 
 ### 使用源码部署 Authorizer
 
@@ -206,4 +206,4 @@
 
 ### 支持我的工作
 
-<a href="https://www.buymeacoffee.com/lakhansamani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="请我喝杯咖啡" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/lakhansamani" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/default-yellow.png" alt="请我喝杯咖啡" style="height: 60px !important;width: 217px !important;" ></a>

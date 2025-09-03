@@ -9,15 +9,15 @@ Thanks to the folks at OpenSubtitles for their logo that was an inspiration for 
 ## Support on Paypal
 
 At the request of some, here is a way to demonstrate your appreciation for the efforts made in the development of Bazarr:
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XHHRWXT9YB7WE&source=url)
+[![Donate](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bazarr/image/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XHHRWXT9YB7WE&source=url)
 
 # Status
 
-[![GitHub issues](https://img.shields.io/github/issues/morpheus65535/bazarr.svg?style=flat-square)](https://github.com/morpheus65535/bazarr/issues)
-[![GitHub stars](https://img.shields.io/github/stars/morpheus65535/bazarr.svg?style=flat-square)](https://github.com/morpheus65535/bazarr/stargazers)
-[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/bazarr.svg?style=flat-square)](https://hub.docker.com/r/linuxserver/bazarr/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/bazarr.svg?style=flat-square)](https://hub.docker.com/r/hotio/bazarr/)
-[![Discord](https://img.shields.io/badge/discord-chat-MH2e2eb.svg?style=flat-square)](https://discord.gg/MH2e2eb)
+[![GitHub issues](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bazarr/image/bazarr.svg)](https://github.com/morpheus65535/bazarr/issues)
+[![GitHub stars](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bazarr/image/bazarr.svg)](https://github.com/morpheus65535/bazarr/stargazers)
+[![Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bazarr/image/bazarr.svg)](https://hub.docker.com/r/linuxserver/bazarr/)
+[![Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bazarr/image/bazarr.svg)](https://hub.docker.com/r/hotio/bazarr/)
+[![Discord](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bazarr/image/discord-chat-MH2e2eb.svg)](https://discord.gg/MH2e2eb)
 
 # Support
 
@@ -100,7 +100,7 @@ If you need something that is not already part of Bazarr, feel free to create a 
 
 ## Screenshot
 
-![Bazarr](/screenshot/bazarr-screenshot.png?raw=true "Bazarr")
+![Bazarr](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bazarr/image/bazarr-screenshot.png "Bazarr")
 
 ### License
 

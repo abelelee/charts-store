@@ -1,8 +1,8 @@
 # ![](https://avatars1.githubusercontent.com/u/8237355?v=2&s=50) Grav
 
-[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)
-[![Discord](https://img.shields.io/discord/501836936584101899.svg?logo=discord&colorB=728ADA&label=Discord%20Chat)](https://chat.getgrav.org)
- [![PHP Tests](https://github.com/getgrav/grav/workflows/PHP%20Tests/badge.svg?branch=develop)](https://github.com/getgrav/grav/actions?query=workflow%3A%22PHP+Tests%22) [![OpenCollective](https://opencollective.com/grav/tiers/backers/badge.svg?label=Backers&color=brightgreen)](#backers) [![OpenCollective](https://opencollective.com/grav/tiers/supporters/badge.svg?label=Supporters&color=brightgreen)](#supporters) [![OpenCollective](https://opencollective.com/grav/tiers/sponsors/badge.svg?label=Sponsors&color=brightgreen)](#sponsors)
+[![PHPStan](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/PHPStan-enabled-brightgreen.svg)](https://github.com/phpstan/phpstan)
+[![Discord](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/501836936584101899.svg)](https://chat.getgrav.org)
+ [![PHP Tests](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/badge.svg)](https://github.com/getgrav/grav/actions?query=workflow%3A%22PHP+Tests%22) [![OpenCollective](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f6261636b6572732f62616467652e7376673f6c6162656c3d4261636b65727326636f6c6f723d627269676874677265656e.svg)](#backers) [![OpenCollective](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f737570706f72746572732f62616467652e7376673f6c6162656c3d537570706f727465727326636f6c6f723d627269676874677265656e.svg)](#supporters) [![OpenCollective](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f73706f6e736f72732f62616467652e7376673f6c6162656c3d53706f6e736f727326636f6c6f723d627269676874677265656e.svg)](#sponsors)
 
 Grav is a **Fast**, **Simple**, and **Flexible**, file-based Web-platform.  There is **Zero** installation required.  Just extract the ZIP archive, and you are already up and running.  It follows similar principles to other flat-file CMS platforms, but has a different design philosophy than most. Grav comes with a powerful **Package Management System** to allow for simple installation and upgrading of plugins and themes, as well as simple updating of Grav itself.
 
@@ -119,19 +119,19 @@ If you discover a possible security issue related to Grav or one of its plugins,
 # Backers
 Support Grav with a monthly donation to help us continue development. [[Become a backer](https://opencollective.com/grav/contribute)]
 
-<img src="https://opencollective.com/grav/tiers/backers.svg?avatarHeight=36&width=600" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f6261636b6572732e7376673f6176617461724865696768743d33362677696474683d363030.svg" />
 
 
 # Supporters
 Support Grav with a monthly donation to help us continue development. [[Become a supporter](https://opencollective.com/grav/contribute)]
 
-<img src="https://opencollective.com/grav/tiers/supporters.svg?avatarHeight=36&width=600" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f737570706f72746572732e7376673f6176617461724865696768743d33362677696474683d363030.svg" />
 
 
 # Sponsors
 Support Grav with a yearly donation to help us continue development. [[Become a sponsor](https://opencollective.com/grav/contribute)]
 
-<img src="https://opencollective.com/grav/tiers/sponsors.svg?avatarHeight=36&width=600" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f73706f6e736f72732e7376673f6176617461724865696768743d33362677696474683d363030.svg" />
 
 # License
 

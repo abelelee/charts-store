@@ -1,7 +1,7 @@
 <h1 align="center" style="border-bottom: none">
   <div>
     <a href="https://www.docuseal.com">
-      <img  alt="DocuSeal" src="https://github.com/docusealco/docuseal/assets/5418788/c12cd051-81cd-4402-bc3a-92f2cfdc1b06" width="80" />
+      <img  alt="DocuSeal" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/c12cd051-81cd-4402-bc3a-92f2cfdc1b06.svg" width="80" />
       <br>
     </a>
     DocuSeal
@@ -12,13 +12,13 @@
 </h3>
 <p align="center">
   <a href="https://hub.docker.com/r/docuseal/docuseal">
-    <img alt="Docker releases" src="https://img.shields.io/docker/v/docuseal/docuseal">
+    <img alt="Docker releases" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/docuseal.svg">
   </a>
   <a href="https://discord.gg/qygYCDGck9">
-    <img src="https://img.shields.io/discord/1125112641170448454?logo=discord"/>
+    <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/1125112641170448454.svg"/>
   </a>
   <a href="https://twitter.com/intent/follow?screen_name=docusealco">
-    <img src="https://img.shields.io/twitter/follow/docusealco?style=social" alt="Follow @docusealco" />
+    <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/docusealco.svg" alt="Follow @docusealco" />
   </a>
 </p>
 <p>
@@ -30,7 +30,7 @@ DocuSeal is an open source platform that provides secure and efficient digital d
   <a href="https://docuseal.com/sign_up">☁️ Try in Cloud</a>
 </h2>
 
-[![Demo](https://github.com/docusealco/docuseal/assets/5418788/d8703ea3-361a-423f-8bfe-eff1bd9dbe14)](https://demo.docuseal.tech)
+[![Demo](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/251969508-d8703ea3-361a-423f-8bfe-eff1bd9dbe14.jpg)](https://demo.docuseal.tech)
 
 ## Features
 - PDF form fields builder (WYSIWYG)
@@ -64,9 +64,9 @@ DocuSeal is an open source platform that provides secure and efficient digital d
 
 |Heroku|Railway|
 |:--:|:---:|
-| [<img alt="Deploy on Heroku" src="https://www.herokucdn.com/deploy/button.svg" height="40">](https://heroku.com/deploy?template=https://github.com/docusealco/docuseal-heroku) | [<img alt="Deploy on Railway" src="https://railway.app/button.svg" height="40">](https://railway.app/template/IGoDnc?referralCode=ruU7JR)|
+| [<img alt="Deploy on Heroku" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/button.svg" height="40">](https://heroku.com/deploy?template=https://github.com/docusealco/docuseal-heroku) | [<img alt="Deploy on Railway" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/button.svg" height="40">](https://railway.app/template/IGoDnc?referralCode=ruU7JR)|
 |**DigitalOcean**|**Render**|
-| [<img alt="Deploy on DigitalOcean" src="https://www.deploytodo.com/do-btn-blue.svg" height="40">](https://cloud.digitalocean.com/apps/new?repo=https://github.com/docusealco/docuseal-digitalocean/tree/master&refcode=421d50f53990) | [<img alt="Deploy to Render" src="https://render.com/images/deploy-to-render-button.svg" height="40">](https://render.com/deploy?repo=https://github.com/docusealco/docuseal-render)
+| [<img alt="Deploy on DigitalOcean" height="40" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/68747470733a2f2f7777772e6465706c6f79746f646f2e636f6d2f646f2d62746e2d626c75652e737667.svg"/>](https://cloud.digitalocean.com/apps/new?repo=https://github.com/docusealco/docuseal-digitalocean/tree/master&refcode=421d50f53990) | [<img alt="Deploy to Render" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/deploy-to-render-button.svg" height="40">](https://render.com/deploy?repo=https://github.com/docusealco/docuseal-render)
 
 #### Docker
 

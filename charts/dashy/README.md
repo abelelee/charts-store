@@ -3,7 +3,7 @@
 <p align="center">
   <i>Dashy helps you organize your self-hosted services by making them accessible from a single place</i>
    <br/>
-  <img width="120" src="https://i.ibb.co/yhbt6CY/dashy.png" />
+  <img width="120" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy.png" />
   <br/>
   <b><a href="./docs/showcase.md">User Showcase</a></b> | <b><a href="https://demo.dashy.to">Live Demo</a></b> | <b><a href="./docs/quick-start.md">Getting Started</a></b> | <b><a href="https://dashy.to/docs">Documentation</a></b> | <b><a href="https://github.com/Lissy93/dashy">GitHub</a></b>
 </p>
@@ -12,7 +12,7 @@
 <br>
 <sup>Dashy is kindly sponsored by <a href="https://umbrel.com?ref=dashy">Umbrel</a> - the personal home cloud and OS for self-hosting</sup><br>
 <a href="https://umbrel.com?ref=dashy">
-<img width="400" src="https://github.com/Lissy93/dashy/blob/WEBSITE/docs-site-source/static/umbrel-banner.jpg?raw=true" />
+<img width="400" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/umbrel-banner.jpg" />
 </a>
 </p>
 
@@ -88,11 +88,11 @@
 
 **Screenshots**: Checkout the [Showcase](./docs/showcase.md), to see example dashboards from the community
 
-**Spin up your own demo**: [![One-Click Deploy with PWD](https://img.shields.io/badge/Play--with--Docker-Deploy-2496ed?style=flat-square&logo=docker)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml) or [`docker run -p 8080:8080 lissy93/dashy`](./docs/quick-start.md)
+**Spin up your own demo**: [![One-Click Deploy with PWD](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Play--with--Docker-Deploy-2496ed.svg)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml) or [`docker run -p 8080:8080 lissy93/dashy`](./docs/quick-start.md)
 
 
 <p align="center">
-  <img width="800" src="https://i.ibb.co/L8YbNNc/dashy-demo2.gif" alt="Demo" />
+  <img width="800" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy-demo2.gif" alt="Demo" />
 </p>
 
 
@@ -122,7 +122,7 @@ docker run -d \
   --restart=always \
   lissy93/dashy:latest
 ```
-[![Dashy on Docker Hub](https://dockeri.co/image/lissy93/dashy)](https://hub.docker.com/r/lissy93/dashy)
+[[Dashy on Docker Hub]](https://hub.docker.com/r/lissy93/dashy)
 
 See also: [examples with Docker Compose](./docs/deployment.md#using-docker-compose). Dashy is also available via GHCR, and tags for other architectures (`arm32v7`, `arm64v8`, etc.) and set versions are supported
 
@@ -143,12 +143,12 @@ You will need [git](https://git-scm.com/downloads), the latest or LTS version of
 ### Deploy to the Cloud ☁️
 
 Dashy supports **1-Click deployments** on several popular cloud platforms. To spin up a new instance, just click a link below:
-- [<img src="https://i.ibb.co/ZxtzrP3/netlify.png" width="18"/> Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/dashy)
-- [<img src="https://i.ibb.co/d2P1WZ7/heroku.png" width="18"/> Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/Lissy93/dashy)
-- [<img src="https://i.ibb.co/Ld2FZzb/vercel.png" width="18"/> Deploy to Vercel](https://vercel.com/new/project?template=https://github.com/lissy93/dashy)
-- [<img src="https://i.ibb.co/xCHtzgh/render.png" width="18"/> Deploy to Render](https://render.com/deploy?repo=https://github.com/lissy93/dashy/tree/deploy_render)
+- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/netlify.png" width="18"/> Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/dashy)
+- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/heroku.png" width="18"/> Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/Lissy93/dashy)
+- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/vercel.png" width="18"/> Deploy to Vercel](https://vercel.com/new/project?template=https://github.com/lissy93/dashy)
+- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/render.png" width="18"/> Deploy to Render](https://render.com/deploy?repo=https://github.com/lissy93/dashy/tree/deploy_render)
 - [<img src="https://railway.app/brand/logo-light.png" width="18"/> Deploy to Railway](https://railway.app/template/MtdjAQ?referralCode=app)
-- [<img src="https://i.ibb.co/J7MGymY/googlecloud.png" width="18"/> Deploy to GCP](https://deploy.cloud.run/?git_repo=https://github.com/lissy93/dashy.git)
+- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/googlecloud.png" width="18"/> Deploy to GCP](https://deploy.cloud.run/?git_repo=https://github.com/lissy93/dashy.git)
 - [<img src="https://i.ibb.co/HVWVYF7/docker.png" width="18"/> Deploy to PWD](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml)
 - [<img src="https://i.ibb.co/7NxnM2P/easypanel.png" width="18"/> Deploy to Easypanel](https://easypanel.io/docs/templates/dashy)
 
@@ -176,13 +176,13 @@ Dashy comes pre-bundled with several built-in themes, which you can preview, app
 
 <p align="center">
   <a href="https://i.ibb.co/BVSHV1v/dashy-themes-slideshow.gif">
-    <img alt="Example Themes" src="https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/theme-slideshow.gif" width="400" />
+    <img alt="Example Themes" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/theme-slideshow.gif" width="400" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://i.ibb.co/cLDXj1R/dashy-theme-configurator.gif">
-    <img alt="Example Themes" src="https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/theme-config-demo.gif" width="400" />
+    <img alt="Example Themes" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/theme-config-demo.gif" width="400" />
   </a>
 </p>
 
@@ -231,7 +231,7 @@ Dashy has an optional feature to check if each app/ service is up and responding
 Status indicators can be globally enabled by setting `appConfig.statusCheck: true` or enabled/ disabled on a per-item basis. Status is checked on page load, but you can allow continuous polling by specifying a time interval between checks, in seconds under `appConfig.statusCheckInterval`. You can also use a different endpoint for status checking, with `statusCheckUrl`, and if needed, pass in custom headers under `statusCheckHeaders`.
 
 <p align="center">
-  <img alt="Status Checks demo" src="https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/status-check-demo.gif" width="600" />
+  <img alt="Status Checks demo" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/status-check-demo.gif" width="600" />
 </p>
 
 **[⬆️ Back to Top](#dashy)**
@@ -288,12 +288,12 @@ You can change the view from the UI, using the switch icon in the top-right corn
 
 <p align="center">
   <b>Example of Workspace View</b><br>
-  <img alt="Workspace view demo" src="https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/workspace-demo.gif" width="600" />
+  <img alt="Workspace view demo" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/workspace-demo.gif" width="600" />
 </p>
 
 <p align="center">
   <b>Example of Minimal View</b><br>
-  <img alt="Workspace view demo" src="https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/minimal-view-demo.gif" width="600" />
+  <img alt="Workspace view demo" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/minimal-view-demo.gif" width="600" />
 </p>
 
 **[⬆️ Back to Top](#dashy)**
@@ -369,12 +369,12 @@ To edit any section or item, right-click on it, and select "Edit", or enter the 
 Under the config menu, you can export, view, backup, or reset app config and edit the raw config file in a text editor with built-in schema validation. It's recommended to keep a backup of your config.
 
 <p align="center">
-  <img alt="Interactive Editor demo" src="https://user-images.githubusercontent.com/1862727/139543020-b0576d28-0830-476f-afc8-a815d4de6def.gif" width="600" />
+  <img alt="Interactive Editor demo" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/139543020-b0576d28-0830-476f-afc8-a815d4de6def.gif" width="600" />
 </p>
 
 
 <p align="center">
-  <img alt="Config Editor demo" src="https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/config-editor-demo.gif" width="600" />
+  <img alt="Config Editor demo" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/config-editor-demo.gif" width="600" />
 </p>
 
 **[⬆️ Back to Top](#dashy)**
@@ -476,7 +476,7 @@ If you are using one of the 1-click cloud deployment methods, serving the app th
 Dashy also wells run on low-powered ARM-based single board computers, such as a Raspberry Pi (tested on Pi 3)
 
 **Browser Support**
-![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![IE](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![Opera](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png)
+![Chrome](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/chrome_48x48.png) | ![Firefox](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/firefox_48x48.png) | ![IE](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/edge_48x48.png) | ![Opera](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/opera_48x48.png) | ![Safari](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/safari_48x48.png)
 --- | --- | --- | --- | --- |
 Latest ✔ | Latest ✔ | 10+ ✔ | Latest ✔ | 6.1+ ❌ |
 
@@ -511,170 +511,18 @@ Several areas that we need a bit of help with at the moment are:
 - Submit a PR to add a new feature, fix a bug, update the docs, add a theme, widget or something else
 - Star Dashy on GitHub/ DockerHub or leave an upvote / review on [these platforms](https://github.com/Lissy93/dashy/blob/master/docs/contributing.md#star-upvote-or-leave-a-review)
 
-[![Sponsor Lissy93 on GitHub](./docs/assets/sponsor-button.svg)](https://github.com/sponsors/Lissy93)
+[![Sponsor Lissy93 on GitHub](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/sponsor-button.svg)](https://github.com/sponsors/Lissy93)
 
 **[⬆️ Back to Top](#dashy)**
-
-## Credits 🏆
-
-> For a complete list of credits, and attributions to packages used within Dashy, see: [**Credits**](./docs/credits.md)
-
-Thank you so much to everyone who has helped with Dashy so far; every contribution is very much appreciated.
-
-#### Sponsors
-
-Huge thanks to the sponsors helping to support Dashy's development!
-<!-- readme: sponsors -start -->
-<table>
-<tr>
-    <td align="center">
-        <a href="https://github.com/vincentkoc">
-            <img src="https://avatars.githubusercontent.com/u/25068?u=fbd5b2d51142daa4bdbc21e21953a3b8b8188a4a&v=4" width="80;" alt="vincentkoc"/>
-            <br />
-            <sub><b>Vincent Koc</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/anivar">
-            <img src="https://avatars.githubusercontent.com/u/422943?u=cdf8a8b22ffbfc018b7dd9aae8220902394d01e7&v=4" width="80;" alt="anivar"/>
-            <br />
-            <sub><b>Anivar Aravind</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/BrianCurliss">
-            <img src="https://avatars.githubusercontent.com/u/1222949?v=4" width="80;" alt="BrianCurliss"/>
-            <br />
-            <sub><b>Brian Curliss</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/AnandChowdhary">
-            <img src="https://avatars.githubusercontent.com/u/2841780?u=747e554b3a7f12eb20b7910e1c87d817844f714f&v=4" width="80;" alt="AnandChowdhary"/>
-            <br />
-            <sub><b>Anand Chowdhary</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/bile0026">
-            <img src="https://avatars.githubusercontent.com/u/5022496?u=aec96ad173c0ea9baaba93807efa8a848af6595c&v=4" width="80;" alt="bile0026"/>
-            <br />
-            <sub><b>Zach Biles</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/UlisesGascon">
-            <img src="https://avatars.githubusercontent.com/u/5110813?u=3c41facd8aa26154b9451de237c34b0f78d672a5&v=4" width="80;" alt="UlisesGascon"/>
-            <br />
-            <sub><b>Ulises Gascón</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
-        <a href="https://github.com/InDieTasten">
-            <img src="https://avatars.githubusercontent.com/u/7047377?u=8d8f8017628b38bc46dcbf3620e194b01d3fb2d1&v=4" width="80;" alt="InDieTasten"/>
-            <br />
-            <sub><b>InDieTasten</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/araguaci">
-            <img src="https://avatars.githubusercontent.com/u/7318668?v=4" width="80;" alt="araguaci"/>
-            <br />
-            <sub><b>Araguaci</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/bmcgonag">
-            <img src="https://avatars.githubusercontent.com/u/7346620?u=2a0f9284f3e12ac1cc15288c254d1ec68a5081e8&v=4" width="80;" alt="bmcgonag"/>
-            <br />
-            <sub><b>Brian McGonagill</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/vlad-tim">
-            <img src="https://avatars.githubusercontent.com/u/11474041?u=eee43705b54d2ec9f51fc4fcce5ad18dd17c87e4&v=4" width="80;" alt="vlad-tim"/>
-            <br />
-            <sub><b>Vlad</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/helixzz">
-            <img src="https://avatars.githubusercontent.com/u/12218889?u=d06d0c103dfbdb99450623064f7da3c5a3675fb6&v=4" width="80;" alt="helixzz"/>
-            <br />
-            <sub><b>HeliXZz</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/mryesiller">
-            <img src="https://avatars.githubusercontent.com/u/24632172?u=0d20f2d615158f87cd60a3398d3efb026c32f291&v=4" width="80;" alt="mryesiller"/>
-            <br />
-            <sub><b>Göksel Yeşiller</b></sub>
-        </a>
-    </td></tr>
-<tr>
-    <td align="center">
-        <a href="https://github.com/undefined">
-            <img src="" width="80;" alt="undefined"/>
-            <br />
-            <sub><b>Undefined</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/OlliVHH">
-            <img src="https://avatars.githubusercontent.com/u/84959562?v=4" width="80;" alt="OlliVHH"/>
-            <br />
-            <sub><b>HamburgerJung</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/frankdez93">
-            <img src="https://avatars.githubusercontent.com/u/87549420?v=4" width="80;" alt="frankdez93"/>
-            <br />
-            <sub><b>Frankdez93</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/hudsonrock-partnerships">
-            <img src="https://avatars.githubusercontent.com/u/163282900?u=5f2667f7fe5d284ac7a2da6b0800ea8970b0fcbf&v=4" width="80;" alt="hudsonrock-partnerships"/>
-            <br />
-            <sub><b>Hudsonrock-partnerships</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/gl0bal01">
-            <img src="https://avatars.githubusercontent.com/u/173822055?u=4d323807f120b34da9b156bfd168b46a22844764&v=4" width="80;" alt="gl0bal01"/>
-            <br />
-            <sub><b>Gl0bal01 💖 龴ↀ◡ↀ龴</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/phishdestroy">
-            <img src="https://avatars.githubusercontent.com/u/208413058?u=d2a7f07fdebe6bdbde4b3141ca3ab958fbf0bae9&v=4" width="80;" alt="phishdestroy"/>
-            <br />
-            <sub><b>PhishDestroy</b></sub>
-        </a>
-    </td></tr>
-</table>
-<!-- readme: sponsors -end -->
-
-#### Contributors
-[![Auto-generated contributors](https://raw.githubusercontent.com/Lissy93/dashy/master/docs/assets/CONTRIBUTORS.svg)](./docs/credits.md)
-
-#### Stats
-[![Stats](https://repobeats.axiom.co/api/embed/48546e3c768d38c450ba136e32c0992bcf58ad73.svg "Repobeats analytics image")](https://github.com/Lissy93/dashy/blob/master/docs/credits.md)
-
-**[⬆️ Back to Top](#dashy)**
-
 ---
 
 ## Developing 🧱
 
 > For full development documentation, see: [**Developing**](./docs/developing.md)
 
-[![Open Project in VS Code](https://img.shields.io/badge/Open_in-VS_Code-863cfc?style=flat-square&logo=visualstudiocode)](https://open.vscode.dev/Lissy93/Dashy)
-[![Open in GitPod](https://img.shields.io/badge/Open_in-GitPod-ffae33?style=flat-square&logo=gitpod)](https://gitpod.io/#github.com/lissy93/dashy.git)
-[![Open in GitHub Code Spaces](https://img.shields.io/badge/Open_in-Code%20Spaces-131313?style=flat-square&logo=github)](https://github.dev/Lissy93/dashy)
+[![Open Project in VS Code](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Open_in-VS_Code-863cfc.svg)](https://open.vscode.dev/Lissy93/Dashy)
+[![Open in GitPod](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Open_in-GitPod-ffae33.svg)](https://gitpod.io/#github.com/lissy93/dashy.git)
+[![Open in GitHub Code Spaces](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Open_in-Code_20Spaces-131313.svg)](https://github.dev/Lissy93/dashy)
 
 Before getting started, you'll need [Git](https://git-scm.com/downloads), [Node](https://nodejs.org/en/download/) and optionally [Yarn](https://yarnpkg.com/) (run `npm i -g yarn`) installed.
 
@@ -689,11 +537,11 @@ When you're ready, you can build the production app with `yarn build`, and then 
 If you're new to web development, I've put together a short [list of resources](https://github.com/Lissy93/dashy/blob/master/docs/developing.md#resources-for-beginners) to help beginners get started
 
 **Repo Status**:
-[![Open PRs](https://flat.badgen.net/github/open-prs/lissy93/dashy?icon=github)](https://github.com/Lissy93/dashy/pulls)
-[![Total PRs](https://flat.badgen.net/github/prs/lissy93/dashy?icon=github)](https://github.com/Lissy93/dashy/pulls?q=)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/lissy93/dashy?style=flat-square)](https://github.com/Lissy93/dashy/commits/master)
-[![Last Commit](https://flat.badgen.net/github/last-commit/lissy93/dashy?icon=github)](https://github.com/Lissy93/dashy/commits/master)
-[![Contributors](https://flat.badgen.net/github/contributors/lissy93/dashy?icon=github)](https://github.com/Lissy93/dashy/graphs/contributors)
+[![Open PRs](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy.svg)](https://github.com/Lissy93/dashy/pulls)
+[![Total PRs](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy.svg)](https://github.com/Lissy93/dashy/pulls?q=)
+[![GitHub commit activity](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy.svg)](https://github.com/Lissy93/dashy/commits/master)
+[![Last Commit](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy.svg)](https://github.com/Lissy93/dashy/commits/master)
+[![Contributors](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy.svg)](https://github.com/Lissy93/dashy/graphs/contributors)
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -796,7 +644,7 @@ _There is no warranty that this app will work as expected, and the author cannot
 _liable for anything that goes wrong._
 For more info, see TLDR Legal's [Explanation of MIT](https://tldrlegal.com/license/mit-license)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FLissy93%2Fdashy.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FLissy93%2Fdashy?ref=badge_large)
+[![FOSSA Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/git_2Bgithub.com_2FLissy93_2Fdashy.svg)](https://app.fossa.com/projects/git%2Bgithub.com%2FLissy93%2Fdashy?ref=badge_large)
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -806,7 +654,7 @@ For more info, see TLDR Legal's [Explanation of MIT](https://tldrlegal.com/licen
 <p  align="center">
   <i>© <a href="https://aliciasykes.com">Alicia Sykes</a> 2024</i><br>
   <i>Licensed under <a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></i><br>
-  <a href="https://github.com/lissy93"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
+  <a href="https://github.com/lissy93"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/octocat-clean-mini.png" /></a><br>
   <sup>Thanks for visiting :)</sup>
 </p>
 

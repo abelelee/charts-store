@@ -1,6 +1,6 @@
 # bolt.diy
 
-[![bolt.diy: 浏览器中的AI全栈Web开发](./public/social_preview_index.jpg)](https://bolt.diy)
+[![bolt.diy: 浏览器中的AI全栈Web开发](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bolt-diy/image/social_preview_index.jpg)](https://bolt.diy)
 
 欢迎使用 bolt.diy，这是 Bolt.new 的官方开源版本，它允许你为每个提示选择使用的 LLM！目前，你可以使用 OpenAI、Anthropic、Ollama、OpenRouter、Gemini、LMStudio、Mistral、xAI、HuggingFace、DeepSeek 或 Groq 模型——而且它很容易扩展以支持 Vercel AI SDK 支持的任何其他模型！请参阅以下说明，了解如何在本地运行以及如何扩展以包含更多模型。
 
@@ -112,7 +112,7 @@ bolt.diy 是一个社区驱动的项目！尽管如此，核心贡献者团队�
 
 ## 快速下载
 
-[![下载最新版本](https://img.shields.io/github/v/release/stackblitz-labs/bolt.diy?label=Download%20Bolt&sort=semver)](https://github.com/stackblitz-labs/bolt.diy/releases/latest) ← 点击这里前往最新发布版本！
+[![下载最新版本](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bolt-diy/image/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f737461636b626c69747a2d6c6162732f626f6c742e6469793f6c6162656c3d446f776e6c6f6164253230426f6c7426736f72743d73656d766572.svg)](https://github.com/stackblitz-labs/bolt.diy/releases/latest) ← 点击这里前往最新发布版本！
 
 - 接下来点击 **source.zip**
 
@@ -201,19 +201,19 @@ bolt.diy 是一个社区驱动的项目！尽管如此，核心贡献者团队�
 3. 点击铅笔（编辑）图标
 4. 在安全输入框中输入你的 API 密钥
 
-![API 密钥配置界面](./docs/images/api-key-ui-section.png)
+![API 密钥配置界面](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bolt-diy/image/api-key-ui-section.png)
 
 ### 配置自定义基础 URL
 
 对于支持自定义基础 URL 的提供商（如 Ollama 或 LM Studio），请按照以下步骤操作：
 
 1. 点击侧边栏中的设置图标以打开设置菜单
-   ![设置按钮位置](./docs/images/bolt-settings-button.png)
+   ![设置按钮位置](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bolt-diy/image/bolt-settings-button.png)
 
 2. 切换到 "Providers" 标签页
 3. 使用搜索栏查找你的提供商
 4. 在指定字段中输入你的自定义基础 URL
-   ![提供商基础 URL 配置](./docs/images/provider-base-url.png)
+   ![提供商基础 URL 配置](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bolt-diy/image/provider-base-url.png)
 
 > **注意**：自定义基础 URL 在运行本地 AI 模型或使用自定义 API 端点时特别有用。
 

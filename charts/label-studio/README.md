@@ -1,13 +1,13 @@
-<img src="https://raw.githubusercontent.com/heartexlabs/label-studio/master/images/ls_github_header.png"/>
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/ls_github_header.png"/>
 
-![GitHub](https://img.shields.io/github/license/heartexlabs/label-studio?logo=heartex) ![label-studio:build](https://github.com/heartexlabs/label-studio/workflows/label-studio:build/badge.svg) ![GitHub release](https://img.shields.io/github/v/release/heartexlabs/label-studio?include_prereleases)
+![GitHub](https://img.shields.io/github/license/heartexlabs/label-studio?logo=heartex) ![label-studio:build](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/badge.svg) ![GitHub release](https://img.shields.io/github/v/release/heartexlabs/label-studio?include_prereleases)
 
-[Website](https://labelstud.io/) • [Docs](https://labelstud.io/guide/) • [Twitter](https://twitter.com/heartexlabs) • [Join Slack Community <img src="https://app.heartex.ai/docs/images/slack-mini.png" width="18px"/>](https://slack.labelstudio.heartex.com/?source=github-1)
+[Website](https://labelstud.io/) • [Docs](https://labelstud.io/guide/) • [Twitter](https://twitter.com/heartexlabs) • [Join Slack Community <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/slack-mini.png" width="18px"/>](https://slack.labelstudio.heartex.com/?source=github-1)
 
 
 ## What is Label Studio?
 
-<!-- <a href="https://labelstud.io/blog/release-130.html"><img src="https://github.com/heartexlabs/label-studio/raw/master/docs/themes/htx/source/images/release-130/LS-Hits-v1.3.png" align="right" /></a> -->
+<!-- <a href="https://labelstud.io/blog/release-130.html"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/LS-Hits-v1.3.png" align="right" /></a> -->
 
 Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.
 
@@ -17,7 +17,7 @@ Label Studio is an open source data labeling tool. It lets you label data types 
 - [Set up machine learning models with Label Studio](#set-up-machine-learning-models-with-Label-Studio)
 - [Integrate Label Studio with your existing tools](#integrate-label-studio-with-your-existing-tools)
 
-![Gif of Label Studio annotating different types of data](https://raw.githubusercontent.com/heartexlabs/label-studio/master/images/annotation_examples.gif)
+![Gif of Label Studio annotating different types of data](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/annotation_examples.gif)
 
 Have a custom dataset? You can customize Label Studio to fit your needs. Read an [introductory blog post](https://towardsdatascience.com/introducing-label-studio-a-swiss-army-knife-of-data-labeling-140c1be92881) to learn more. 
 
@@ -102,9 +102,9 @@ python label_studio/manage.py runserver
 
 You can deploy Label Studio with one click in Heroku, Microsoft Azure, or Google Cloud Platform: 
 
-[<img src="https://www.herokucdn.com/deploy/button.svg" height="30px">](https://heroku.com/deploy?template=https://github.com/heartexlabs/label-studio/tree/heroku-persistent-pg)
+[<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/button.svg" height="30px">](https://heroku.com/deploy?template=https://github.com/heartexlabs/label-studio/tree/heroku-persistent-pg)
 [<img src="https://aka.ms/deploytoazurebutton" height="30px">](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fheartexlabs%2Flabel-studio%2Fmaster%2Fazuredeploy.json)
-[<img src="https://deploy.cloud.run/button.svg" height="30px">](https://deploy.cloud.run)
+[<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/button.svg" height="30px">](https://deploy.cloud.run)
 
 
 #### Apply frontend changes
@@ -156,7 +156,7 @@ DJANGO_DB=sqlite DJANGO_SETTINGS_MODULE=core.settings.label_studio python -m pyt
 
 ## What you get from Label Studio
 
-![Screenshot of Label Studio data manager grid view with images](https://raw.githubusercontent.com/heartexlabs/label-studio/master/images/labelstudio-ui.gif)
+![Screenshot of Label Studio data manager grid view with images](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/labelstudio-ui.gif)
 
 - **Multi-user labeling** sign up and login, when you create an annotation it's tied to your account.
 - **Multiple projects** to work on all your datasets in one instance.
@@ -171,7 +171,7 @@ DJANGO_DB=sqlite DJANGO_SETTINGS_MODULE=core.settings.label_studio python -m pyt
 
 Label Studio includes a variety of templates to help you label your data, or you can create your own using specifically designed configuration language. The most common templates and use cases for labeling include the following cases:
 
-<img src="https://raw.githubusercontent.com/heartexlabs/label-studio/master/images/templates-categories.jpg" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/templates-categories.jpg" />
 
 ## Set up machine learning models with Label Studio
 
@@ -227,4 +227,4 @@ Want to use **The Coolest Feature X** but Label Studio doesn't support it? Check
 
 This software is licensed under the [Apache 2.0 LICENSE](/LICENSE) © [Heartex](https://www.heartex.ai/). 2020-2021
 
-<img src="https://github.com/heartexlabs/label-studio/blob/master/images/opossum_looking.png?raw=true" title="Hey everyone!" height="140" width="140" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/opossum_looking.png" title="Hey everyone!" height="140" width="140" />

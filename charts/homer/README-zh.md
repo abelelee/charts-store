@@ -1,9 +1,8 @@
----
-    <h1 align="center">
+<h1 align="center">
  <img
   width="180"
   alt="Homer's donut"
-  src="https://raw.githubusercontent.com//bastienwirtz/homer/main/public/logo.png">
+  src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/homer/image/logo.png">
     <br/>
     Homer
 </h1>
@@ -12,21 +11,21 @@
  一个非常简单的静态<strong>HOM</strong>epage，适用于你的服务<strong>ER</strong>，只需一个简单的 <code>yaml</code> 配置文件即可轻松管理你的服务。
 </h4>
 <p align="center">
-  <a href="https://www.buymeacoffee.com/bastien" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+  <a href="https://www.buymeacoffee.com/bastien" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/homer/image/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 <p>
 <p align="center">
  <a href="https://opensource.org/licenses/Apache-2.0"><img
   alt="License: Apache 2"
-  src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
+  src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/homer/image/License-Apache_202.0-blue.svg"></a>
   <a href="https://github.com/bastienwirtz/homer/releases/latest/download/homer.zip"><img
-  alt="下载 homer 静态构建包"
-  src="https://img.shields.io/badge/Download-homer.zip-orange"></a>
+  alt="Download homer static build"
+  src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/homarr/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f776e6c6f61642d686f6d65722e7a69702d6f72616e6765.svg"></a>
  <a href="https://twitter.com/acdlite/status/974390255393505280"><img
   alt="speed-blazing"
-  src="https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-red"></a>
+  src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/homarr/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f73706565642d626c617a696e672532302546302539462539342541352d726564.svg"></a>
  <a href="https://github.com/awesome-selfhosted/awesome-selfhosted"><img
   alt="Awesome"
-  src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"></a>
+  src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/homarr/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667.svg"></a>
 </p>
 
 <p align="center">

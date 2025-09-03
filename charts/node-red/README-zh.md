@@ -2,11 +2,11 @@
 
 https://nodered.org
 
-[![构建状态](https://github.com/node-red/node-red/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/node-red/node-red/actions?query=branch%3Amaster)
+[![构建状态](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/node-red/image/badge.svg)](https://github.com/node-red/node-red/actions?query=branch%3Amaster)
 
 面向事件驱动型应用的低代码编程工具。
 
-![Node-RED：面向事件驱动型应用的低代码编程工具](https://nodered.org/images/node-red-screenshot.png)
+![Node-RED：面向事件驱动型应用的低代码编程工具](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/node-red/image/node-red-screenshot.png)
 
 ## 快速入门
 

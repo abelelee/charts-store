@@ -1,8 +1,7 @@
----
 <a href="https://excalidraw.com/" target="_blank" rel="noopener">
   <picture>
     <source media="(prefers-color-scheme: dark)" alt="Excalidraw" srcset="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2_dark.png" />
-    <img alt="Excalidraw" src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2.png" />
+    <img alt="Excalidraw" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/excalidraw/image/excalidraw_github_cover_2.png" />
   </picture>
 </a>
 
@@ -24,29 +23,29 @@
 <br />
 <p align="center">
   <a href="https://github.com/excalidraw/excalidraw/blob/master/LICENSE">
-    <img alt="Excalidraw 采用 MIT 协议发布。" src="https://img.shields.io/badge/license-MIT-blue.svg"  />
+    <img alt="Excalidraw 采用 MIT 协议发布。" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/excalidraw/image/license-MIT-blue.svg"  />
   </a>
   <a href="https://www.npmjs.com/package/@excalidraw/excalidraw">
-    <img alt="npm 每月下载量" src="https://img.shields.io/npm/dm/@excalidraw/excalidraw"  />
+    <img alt="npm 每月下载量" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/excalidraw/image/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f646d2f40657863616c69647261772f657863616c6964726177.svg"  />
   </a>
   <a href="https://docs.excalidraw.com/docs/introduction/contributing">
-    <img alt="欢迎提交 PR！" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat"  />
+    <img alt="欢迎提交 PR！" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/excalidraw/image/PRs-welcome-brightgreen.svg"  />
   </a>
   <a href="https://discord.gg/UexuTaE">
-    <img alt="在 Discord 上聊天" src="https://img.shields.io/discord/723672430744174682?color=738ad6&label=Chat%20on%20Discord&logo=discord&logoColor=ffffff&widge=false"/>
+    <img alt="在 Discord 上聊天" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/excalidraw/image/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3732333637323433303734343137343638323f636f6c6f723d373338616436266c6162656c3d436861742532306f6e253230446973636f7264266c6f676f3d646973636f7264266c6f676f436f6c6f723d6666666666662677.svg"/>
   </a>
   <a href="https://deepwiki.com/excalidraw/excalidraw">
-    <img alt="向 DeepWiki 提问" src="https://deepwiki.com/badge.svg" />
+    <img alt="向 DeepWiki 提问" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/excalidraw/image/badge.svg" />
   </a>
   <a href="https://twitter.com/excalidraw">
-    <img alt="在 Twitter 上关注 Excalidraw" src="https://img.shields.io/twitter/follow/excalidraw.svg?label=follow+@excalidraw&style=social&logo=twitter"/>
+    <img alt="在 Twitter 上关注 Excalidraw" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/excalidraw/image/excalidraw.svg"/>
   </a>
 </p>
 
 <div align="center">
   <figure>
     <a href="https://excalidraw.com" target="_blank" rel="noopener">
-      <img src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2Fproduct_showcase.png" alt="产品展示" />
+      <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/excalidraw/image/github_2Fproduct_showcase.png" alt="产品展示" />
     </a>
     <figcaption>
       <p align="center">
@@ -115,17 +114,3 @@ yarn add react react-dom @excalidraw/excalidraw
 ## 使用 Excalidraw 的组织
 
 [Google Cloud](https://googlecloudcheatsheet.withgoogle.com/architecture) • [Meta](https://meta.com/) • [CodeSandbox](https://codesandbox.io/) • [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) • [Replit](https://replit.com/) • [Slite](https://slite.com/) • [Notion](https://notion.so/) • [HackerRank](https://www.hackerrank.com/) • 以及其他许多组织
-
-## 赞助与支持
-
-如果你喜欢这个项目，可以通过 [Open Collective](https://opencollective.com/excalidraw) 成为赞助者，或使用 [Excalidraw+](https://plus.excalidraw.com/)。
-
-## 感谢支持 Excalidraw
-
-[<img src="https://opencollective.com/excalidraw/tiers/sponsors/0/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/0/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/1/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/1/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/2/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/2/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/3/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/3/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/4/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/4/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/5/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/5/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/6/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/6/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/7/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/7/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/8/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/8/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/9/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/9/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/10/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/10/website)
-
-<a href="https://opencollective.com/excalidraw#category-CONTRIBUTE" target="_blank"><img src="https://opencollective.com/excalidraw/tiers/backers.svg?avatarHeight=32"/></a>
-
-最后但同样重要的是，我们感谢以下公司免费提供他们的服务：
-
-[![Vercel](./.github/assets/vercel.svg)](https://vercel.com) [![Sentry](./.github/assets/sentry.svg)](https://sentry.io) [![Crowdin](./.github/assets/crowdin.svg)](https://crowdin.com)

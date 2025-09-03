@@ -1,4 +1,4 @@
-<p align="center"><a href="https://kutt.it" title="kutt.it"><img src="https://raw.githubusercontent.com/thedevs-network/kutt/9d1c873897c3f5b9a1bd0c74dc5d23f2ed01f2ec/static/images/logo-github.png" alt="Kutt.it"></a></p>
+<p align="center"><a href="https://kutt.it" title="kutt.it"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/logo-github.png" alt="Kutt.it"></a></p>
 
 # Kutt.it
 
@@ -7,10 +7,10 @@
 [https://kutt.it](https://kutt.it)
 
 
-[![docker-build-release](https://github.com/thedevs-network/kutt/actions/workflows/docker-build-release.yaml/badge.svg)](https://github.com/thedevs-network/kutt/actions/workflows/docker-build-release.yaml)
-[![Uptime Status](https://uptime.betterstack.com/status-badges/v2/monitor/1ogaa.svg)](https://status.kutt.it)
-[![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/thedevs-network/kutt/#contributing)
-[![GitHub license](https://img.shields.io/github/license/thedevs-network/kutt.svg)](https://github.com/thedevs-network/kutt/blob/develop/LICENSE)
+[![docker-build-release](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/badge.svg)](https://github.com/thedevs-network/kutt/actions/workflows/docker-build-release.yaml)
+[![Uptime Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/1ogaa.svg)](https://status.kutt.it)
+[![Contributions](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/contributions-welcome-brightgreen.svg)](https://github.com/thedevs-network/kutt/#contributing)
+[![GitHub license](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/kutt.svg)](https://github.com/thedevs-network/kutt/blob/develop/LICENSE)
 
 ## Table of contents
 
@@ -177,7 +177,7 @@ This is an example and official theme. Crimson includes custom styles, images, a
 
 | Homepage | Admin page | Login/signup |
 | -------- | ---------- | ------------ |
-| ![crimson-homepage](https://github.com/user-attachments/assets/b74fab78-5e80-4f57-8425-f0cc73e9c68d) | ![crimson-admin](https://github.com/user-attachments/assets/a75d2430-8074-4ce4-93ec-d8bdfd75d917) | ![crimson-login-signup ](https://github.com/user-attachments/assets/b915eb77-3d66-4407-8e5d-b556f80ff453)
+| ![crimson-homepage](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/403760284-b74fab78-5e80-4f57-8425-f0cc73e9c68d.png) | ![crimson-admin](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/403759116-a75d2430-8074-4ce4-93ec-d8bdfd75d917.png) | ![crimson-login-signup](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/403760424-b915eb77-3d66-4407-8e5d-b556f80ff453.png)
 
 #### Usage with Docker:
 

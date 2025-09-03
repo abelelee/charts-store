@@ -9,9 +9,9 @@
 [**Ghostfol.io**](https://ghostfol.io) | [**Live Demo**](https://ghostfol.io/en/demo) | [**Ghostfolio Premium**](https://ghostfol.io/en/pricing) | [**FAQ**](https://ghostfol.io/en/faq) |
 [**Blog**](https://ghostfol.io/en/blog) | [**LinkedIn**](https://www.linkedin.com/company/ghostfolio) | [**Slack**](https://join.slack.com/t/ghostfolio/shared_invite/zt-vsaan64h-F_I0fEo5M0P88lP9ibCxFg) | [**X**](https://x.com/ghostfolio_)
 
-[![Shield: Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-Support-yellow?logo=buymeacoffee)](https://www.buymeacoffee.com/ghostfolio)
-[![Shield: Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-limegreen.svg)](#contributing) [![Shield: Docker Pulls](https://img.shields.io/docker/pulls/ghostfolio/ghostfolio?label=Docker%20Pulls)](https://hub.docker.com/r/ghostfolio/ghostfolio)
-[![Shield: License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-orange.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Shield: Buy me a coffee](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ghostfolio/image/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4275792532306d6525323061253230636f666665652d537570706f72742d79656c6c6f773f6c6f676f3d6275796d6561636f66666565.svg)](https://www.buymeacoffee.com/ghostfolio)
+[![Shield: Contributions Welcome](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ghostfolio/image/Contributions-Welcome-limegreen.svg)](#contributing) [![Shield: Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ghostfolio/image/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f67686f7374666f6c696f2f67686f7374666f6c696f3f6c6162656c3d446f636b657225323050756c6c73.svg)](https://hub.docker.com/r/ghostfolio/ghostfolio)
+[![Shield: License: AGPL v3](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ghostfolio/image/License-AGPL_20v3-orange.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 </div>
 
@@ -19,7 +19,7 @@
 
 <div align="center">
 
-[<img src="./apps/client/src/assets/images/video-preview.jpg" width="600" alt="Preview image of the Ghostfolio video trailer">](https://www.youtube.com/watch?v=yY6ObSQVJZk)
+[<img alt="Preview image of the Ghostfolio video trailer" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ghostfolio/image/video-preview.jpg" width="600"/>](https://www.youtube.com/watch?v=yY6ObSQVJZk)
 
 </div>
 
@@ -57,7 +57,7 @@ Ghostfolio is for you if you are...
 
 <div align="center">
 
-<img src="./apps/client/src/assets/images/screenshot.png" width="300" alt="Image of a phone showing the Ghostfolio app open">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ghostfolio/image/screenshot.png" width="300" alt="Image of a phone showing the Ghostfolio app open">
 
 </div>
 
@@ -79,7 +79,7 @@ We provide official container images hosted on [Docker Hub](https://hub.docker.c
 
 <div align="center">
 
-[<img src="./apps/client/src/assets/images/button-buy-me-a-coffee.png" width="150" alt="Buy me a coffee button"/>](https://www.buymeacoffee.com/ghostfolio)
+[<img alt="Buy me a coffee button" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ghostfolio/image/button-buy-me-a-coffee.png" width="150"/>](https://www.buymeacoffee.com/ghostfolio)
 
 </div>
 
@@ -301,7 +301,7 @@ If you like to support this project, get [**Ghostfolio Premium**](https://ghostf
 
 ## Analytics
 
-![Alt](https://repobeats.axiom.co/api/embed/281a80b2d0c4af1162866c24c803f1f18e5ed60e.svg 'Repobeats analytics image')
+![Alt](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ghostfolio/image/68747470733a2f2f7265706f62656174732e6178696f6d2e636f2f6170692f656d6265642f323831613830623264306334616631313632383636633234633830336631663138653565643630652e737667.svg "'Repobeats analytics image'")
 
 ## License
 

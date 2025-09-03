@@ -4,10 +4,10 @@
 
 Store securely encrypted backups on cloud storage services!
 
-[![Backers on Open Collective](https://opencollective.com/duplicati/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/duplicati/sponsors/badge.svg)](#sponsors) [![Build Status on Travis-CI](https://travis-ci.org/duplicati/duplicati.svg?branch=master)](https://travis-ci.org/duplicati/duplicati)
-[![Coverage Status](https://coveralls.io/repos/github/duplicati/duplicati/badge.svg?branch=HEAD)](https://coveralls.io/github/duplicati/duplicati?branch=HEAD)
-[![License](https://img.shields.io/github/license/duplicati/duplicati.svg)](https://github.com/duplicati/duplicati/blob/master/LICENSE)
-[![Gurubase](https://img.shields.io/badge/Gurubase-Ask%20Duplicati%20Guru-006BFF)](https://gurubase.io/g/duplicati)
+[![Backers on Open Collective](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/duplicati/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6475706c69636174692f6261636b6572732f62616467652e737667.svg)](#backers) [![Sponsors on Open Collective](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/duplicati/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6475706c69636174692f73706f6e736f72732f62616467652e737667.svg)](#sponsors) [![Build Status on Travis-CI](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/duplicati/image/duplicati.svg)](https://travis-ci.org/duplicati/duplicati)
+[![Coverage Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/duplicati/image/badge.svg)](https://coveralls.io/github/duplicati/duplicati?branch=HEAD)
+[![License](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/duplicati/image/duplicati.svg)](https://github.com/duplicati/duplicati/blob/master/LICENSE)
+[![Gurubase](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/duplicati/image/Gurubase-Ask_20Duplicati_20Guru-006BFF.svg)](https://gurubase.io/g/duplicati)
 
 Duplicati is a free, open-source backup client that securely stores encrypted, incremental, and compressed backups on cloud storage services and remote file servers. It supports:
 
@@ -48,43 +48,3 @@ Keep your data safe, store it remotely, and back it up regularly! Many backup so
 - **Keep your data safe:** Duplicati uses strong encryption to ensure your data remains private. With a secure password, your backup files are safer on a public web server than unencrypted files at home.
 - **Store your backup remotely:** Protect your data from local disasters like fires by storing backups on remote servers. Duplicati supports incremental backups, making it efficient to use distant storage destinations.
 - **Backup regularly:** Outdated backups are as good as no backups. Duplicati's built-in scheduler ensures your backups are always current. It also uses compression and incremental backups to save storage and bandwidth.
-
-# Contributing
-
-## Reporting Bugs
-
-We use GitHub for bug tracking. Please search existing issues before creating a new one:
-<https://github.com/duplicati/duplicati/issues>.
-
-## Contributing Translations
-
-Want to help translate Duplicati? Contributions are welcome on Transifex:
-<https://explore.transifex.com/duplicati/duplicati/>.
-
-## Contributing Code
-
-Instructions for setting up your development environment and building Duplicati are available in the [documentation](https://docs.duplicati.com/installation-details/developer). Pull requests for bug fixes or improvements are highly appreciated.
-
-Looking for something to work on? Check out [minor change issues](https://github.com/duplicati/duplicati/issues?q=is%3Aissue+is%3Aopen+label%3A%22minor+change%22) or [UI-related issues](https://github.com/duplicati/duplicati/issues?q=is%3Aissue+is%3Aopen+label%3A%22UI%22).
-
-Thank you to all our contributors:
-<a href="https://github.com/duplicati/duplicati/graphs/contributors"><img src="https://opencollective.com/duplicati/contributors.svg?width=890" /></a>
-
-## Backers
-
-Thank you to all our backers! 🙏
-<a href="https://opencollective.com/duplicati#backers" target="_blank"><img src="https://opencollective.com/duplicati/backers.svg?width=890"></a>
-
-## Sponsors
-
-A special thanks to our sponsors for supporting this open-source project:
-<a href="https://opencollective.com/duplicati/sponsor/0/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/1/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/2/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/3/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/4/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/5/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/6/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/7/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/8/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/duplicati/sponsor/9/website" target="_blank"><img src="https://opencollective.com/duplicati/sponsor/9/avatar.svg"></a>

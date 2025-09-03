@@ -1,12 +1,8 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始格式：
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/ls_github_header.png"/>
 
----
+![GitHub](https://img.shields.io/github/license/heartexlabs/label-studio?logo=heartex) ![label-studio:build](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/badge.svg) ![GitHub release](https://img.shields.io/github/v/release/heartexlabs/label-studio?include_prereleases)
 
-<img src="https://raw.githubusercontent.com/heartexlabs/label-studio/master/images/ls_github_header.png"/>
-
-![GitHub](https://img.shields.io/github/license/heartexlabs/label-studio?logo=heartex) ![label-studio:build](https://github.com/heartexlabs/label-studio/workflows/label-studio:build/badge.svg) ![GitHub release](https://img.shields.io/github/v/release/heartexlabs/label-studio?include_prereleases)
-
-[官网](https://labelstud.io/) • [文档](https://labelstud.io/guide/) • [Twitter](https://twitter.com/heartexlabs) • [加入Slack社区 <img src="https://app.heartex.ai/docs/images/slack-mini.png" width="18px"/>](https://slack.labelstudio.heartex.com/?source=github-1)
+[官网](https://labelstud.io/) • [文档](https://labelstud.io/guide/) • [Twitter](https://twitter.com/heartexlabs) • [加入Slack社区 <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/slack-mini.png" width="18px"/>](https://slack.labelstudio.heartex.com/?source=github-1)
 
 ## 什么是 Label Studio？
 
@@ -18,7 +14,7 @@ Label Studio 是一个开源的数据标注工具。它允许你使用简单直�
 - [使用 Label Studio 设置机器学习模型](#set-up-machine-learning-models-with-Label-Studio)
 - [将 Label Studio 与现有工具集成](#integrate-label-studio-with-your-existing-tools)
 
-![Label Studio 标注不同类型数据的GIF](https://raw.githubusercontent.com/heartexlabs/label-studio/master/images/annotation_examples.gif)
+![Label Studio 标注不同类型数据的GIF](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/annotation_examples.gif)
 
 如果你有自定义数据集？你可以根据需求定制 Label Studio。阅读这篇[介绍性博客文章](https://towardsdatascience.com/introducing-label-studio-a-swiss-army-knife-of-data-labeling-140c1be92881)了解更多。
 
@@ -109,9 +105,9 @@ python label_studio/manage.py runserver
 
 你可以通过一键部署将 Label Studio 部署到 Heroku、Microsoft Azure 或 Google Cloud Platform：
 
-[<img src="https://www.herokucdn.com/deploy/button.svg" height="30px">](https://heroku.com/deploy?template=https://github.com/heartexlabs/label-studio/tree/heroku-persistent-pg)
+[<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/button.svg" height="30px">](https://heroku.com/deploy?template=https://github.com/heartexlabs/label-studio/tree/heroku-persistent-pg)
 [<img src="https://aka.ms/deploytoazurebutton" height="30px">](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fheartexlabs%2Flabel-studio%2Fmaster%2Fazuredeploy.json)
-[<img src="https://deploy.cloud.run/button.svg" height="30px">](https://deploy.cloud.run)
+[<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/button.svg" height="30px">](https://deploy.cloud.run)
 
 #### 应用前端更改
 
@@ -164,7 +160,7 @@ DJANGO_DB=sqlite DJANGO_SETTINGS_MODULE=core.settings.label_studio python -m pyt
 
 ## Label Studio 能为你带来什么
 
-![Label Studio 数据管理器网格视图截图（显示图像）](https://raw.githubusercontent.com/heartexlabs/label-studio/master/images/labelstudio-ui.gif)
+![Label Studio 数据管理器网格视图截图（显示图像）](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/labelstudio-ui.gif)
 
 - **多用户标注**：支持注册和登录，你的标注会与你的账户绑定。
 - **多个项目**：在一个实例中管理所有数据集。
@@ -179,7 +175,7 @@ DJANGO_DB=sqlite DJANGO_SETTINGS_MODULE=core.settings.label_studio python -m pyt
 
 Label Studio 提供了多种模板来帮助你标注数据，你也可以使用专门设计的配置语言创建自己的模板。最常见的模板和使用场景包括：
 
-<img src="https://raw.githubusercontent.com/heartexlabs/label-studio/master/images/templates-categories.jpg" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/templates-categories.jpg" />
 
 ## 使用 Label Studio 设置机器学习模型
 
@@ -234,4 +230,4 @@ Label Studio 提供了多种模板来帮助你标注数据，你也可以使用�
 
 本软件采用 [Apache 2.0 许可证](/LICENSE) 授权 © [Heartex](https://www.heartex.ai/)。2020-2021
 
-<img src="https://github.com/heartexlabs/label-studio/blob/master/images/opossum_looking.png?raw=true" title="大家好！" height="140" width="140" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/opossum_looking.png" title="大家好！" height="140" width="140" />

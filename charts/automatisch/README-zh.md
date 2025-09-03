@@ -1,6 +1,6 @@
 # Automatisch - 开源的Zapier替代方案
 
-![Automatisch - 截图](https://user-images.githubusercontent.com/2501931/191562539-e42f6c34-03c7-4dc4-bcf9-7f9473a9c64f.png)
+![Automatisch - 截图](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/automatisch/image/191562539-e42f6c34-03c7-4dc4-bcf9-7f9473a9c64f.png)
 
 🧐 Automatisch 是一个业务自动化工具，可让您连接 Twitter、Slack 等不同服务，以自动化您的业务流程。
 

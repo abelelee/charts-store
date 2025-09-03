@@ -85,7 +85,7 @@ For custom setup instructions, see [custom-setup-instructions.md](/custom-setup-
 
 ### Backend
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/rashadphz/farfalle)
+[![Deploy to Render](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/farfalle/image/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/rashadphz/farfalle)
 
 After the backend is deployed, copy the web service URL to your clipboard.
 It should look something like: https://some-service-name.onrender.com.

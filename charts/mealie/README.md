@@ -34,7 +34,7 @@
 
 
 
-[![Product Name Screen Shot][product-screenshot]](https://docs.mealie.io)
+[![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mealie/image/home_screenshot.png)](https://docs.mealie.io)
 
 # About The Project
 
@@ -62,7 +62,7 @@ Contributions are what make the open source community such an amazing place to l
 
 If you are not a coder, you can still contribute financially. Financial contributions help me prioritize working on this project over others and helps me know that there is a real demand for project development.
 
-<a href="https://www.buymeacoffee.com/haykot" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 107px !important;" ></a>
+<a href="https://www.buymeacoffee.com/haykot" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mealie/image/default-green.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 107px !important;" ></a>
 
 ### Translations
 
@@ -81,7 +81,7 @@ Huge thanks to all the sponsors of this project on [Github Sponsors](https://git
 
 Thanks to Depot for providing build instances for our Docker image builds.
 
-[![Built with Depot](https://depot.dev/badges/built-with-depot.svg)](https://depot.dev?utm_source=Mealie)
+[![Built with Depot](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mealie/image/built-with-depot.svg)](https://depot.dev?utm_source=Mealie)
 
 
 

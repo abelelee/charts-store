@@ -1,11 +1,10 @@
----
-![Banner 图片](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
+![Banner 图片](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/n8n/image/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
 # n8n - 面向技术团队的安全工作流自动化工具
 
 n8n 是一个工作流自动化平台，它为技术团队提供了编码的灵活性和无代码工具的速度。拥有 400 多个集成、原生 AI 能力以及公平代码许可协议，n8n 让你能够构建强大的自动化流程，同时完全掌控你的数据和部署。
 
-![n8n.io - 截图](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png)
+![n8n.io - 截图](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/n8n/image/n8n-screenshot-readme.png)
 
 ## 核心功能
 

@@ -4,7 +4,7 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p align="center">
-<img width="60" height="68" alt="EverShop Logo" src="https://raw.githubusercontent.com/evershopcommerce/evershop/dev/.github/images/logo-green.png"/>
+<img width="60" height="68" alt="EverShop Logo" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/evershop/image/logo-green.png"/>
 </p>
 <p align="center">
   <h1 align="center">EverShop</h1>
@@ -15,20 +15,20 @@
 </h4>
 
 <p align="center">
-  <img src="https://github.com/evershopcommerce/evershop/actions/workflows/build_test.yml/badge.svg" alt="Github Action">
+  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/evershop/image/badge.svg" alt="Github Action">
   <a href="https://twitter.com/evershopjs">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/evershopjs?style=social">
+    <img alt="Twitter Follow" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/evershop/image/evershopjs.svg">
   </a>
   <a href="https://discord.gg/GSzt7dt7RM">
-    <img src="https://img.shields.io/discord/757179260417867879?label=discord" alt="Discord">
+    <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/evershop/image/757179260417867879.svg" alt="Discord">
   </a>
   <a href="https://opensource.org/licenses/GPL-3.0">
-    <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License">
+    <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/evershop/image/License-GPLv3-blue.svg" alt="License">
   </a>
 </p>
 
 <p align="center">
-<img alt="EverShop" width="950" src="https://raw.githubusercontent.com/evershopcommerce/evershop/dev/.github/images/banner.png"/>
+<img alt="EverShop" width="950" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/evershop/image/banner.png"/>
 </p>
 
 ## 简介
@@ -60,10 +60,10 @@ docker-compose up -d
 
 <p align="left">
   <a href="https://demo.evershop.io/admin" target="_blank">
-    <img alt="evershop-backend-demo" height="35" alt="EverShop 后台演示" src="https://raw.githubusercontent.com/evershopcommerce/evershop/dev/.github/images/evershop-demo-back.png"/>
+    <img alt="evershop-backend-demo" height="35" alt="EverShop 后台演示" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/evershop/image/evershop-demo-back.png"/>
   </a>
   <a href="https://demo.evershop.io/" target="_blank">
-    <img alt="evershop-store-demo" height="35" alt="EverShop 商店演示" src="https://raw.githubusercontent.com/evershopcommerce/evershop/dev/.github/images/evershop-demo-front.png"/>
+    <img alt="evershop-store-demo" height="35" alt="EverShop 商店演示" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/evershop/image/evershop-demo-front.png"/>
   </a>
 </p>
 <b>演示账号：</b>
@@ -76,7 +76,7 @@ docker-compose up -d
 如果你喜欢我们的项目，欢迎：
 
 - ⭐ 本仓库，这对我们非常重要。
-- [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tweet] 分享 EverShop。谢谢！
+- [![Tweet](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/evershop/image/shields.io.svg)][tweet] 分享 EverShop。谢谢！
 
 [tweet]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fevershopcommerce%2Fevershop&text=Awesome%20React%20Ecommerce%20Project&hashtags=react,ecommerce,expressjs,graphql
 
@@ -88,7 +88,7 @@ EverShop 是一个开源项目。我们致力于完全透明的开发流程，�
 
 你可以在 EverShop 的 Discord 频道中提问并参与讨论 EverShop 相关话题。
 
-<a href="https://discord.gg/GSzt7dt7RM"><img src="https://raw.githubusercontent.com/evershopcommerce/evershop/dev/.github/images/discord_banner_github.svg" /></a>
+<a href="https://discord.gg/GSzt7dt7RM"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/evershop/image/discord_banner_github.svg" /></a>
 
 ### 提交 bug 报告
 

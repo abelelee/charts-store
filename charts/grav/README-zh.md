@@ -1,8 +1,8 @@
 # ![](https://avatars1.githubusercontent.com/u/8237355?v=2&s=50) Grav
 
-[![PHPStan](https://img.shields.io/badge/PHPStan-已启用-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)
-[![Discord](https://img.shields.io/discord/501836936584101899.svg?logo=discord&colorB=728ADA&label=Discord%20聊天)](https://chat.getgrav.org)
- [![PHP 测试](https://github.com/getgrav/grav/workflows/PHP%20Tests/badge.svg?branch=develop)](https://github.com/getgrav/grav/actions?query=workflow%3A%22PHP+Tests%22) [![OpenCollective](https://opencollective.com/grav/tiers/backers/badge.svg?label=支持者&color=brightgreen)](#支持者) [![OpenCollective](https://opencollective.com/grav/tiers/supporters/badge.svg?label=赞助者&color=brightgreen)](#赞助者) [![OpenCollective](https://opencollective.com/grav/tiers/sponsors/badge.svg?label=企业赞助&color=brightgreen)](#企业赞助)
+[![PHPStan](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/PHPStan-已启用-brightgreen.svg)](https://github.com/phpstan/phpstan)
+[![Discord](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/501836936584101899.svg)](https://chat.getgrav.org)
+ [![PHP Tests](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/badge.svg)](https://github.com/getgrav/grav/actions?query=workflow%3A%22PHP+Tests%22) [![OpenCollective](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f6261636b6572732f62616467652e7376673f6c6162656c3d4261636b65727326636f6c6f723d627269676874677265656e.svg)](#backers) [![OpenCollective](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f737570706f72746572732f62616467652e7376673f6c6162656c3d537570706f727465727326636f6c6f723d627269676874677265656e.svg)](#supporters) [![OpenCollective](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f73706f6e736f72732f62616467652e7376673f6c6162656c3d53706f6e736f727326636f6c6f723d627269676874677265656e.svg)](#sponsors)
 
 Grav 是一个**快速**、**简洁**、**灵活**的基于文件的 Web 平台。**无需任何安装**，只需解压 ZIP 压缩包，即可立即运行。它遵循与其他扁平文件 CMS 平台类似的原则，但在设计理念上与大多数平台有所不同。Grav 配备了强大的**包管理系统**，可以轻松安装和升级插件和主题，并且可以轻松更新 Grav 本身。
 
@@ -121,19 +121,19 @@ $ bin/gpm update
 # 支持者
 通过每月捐赠支持 Grav，帮助我们继续开发。[[成为支持者](https://opencollective.com/grav/contribute)]
 
-<img src="https://opencollective.com/grav/tiers/backers.svg?avatarHeight=36&width=600" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f6261636b6572732e7376673f6176617461724865696768743d33362677696474683d363030.svg" />
 
 
 # 赞助者
 通过每月捐赠支持 Grav，帮助我们继续开发。[[成为赞助者](https://opencollective.com/grav/contribute)]
 
-<img src="https://opencollective.com/grav/tiers/supporters.svg?avatarHeight=36&width=600" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f737570706f72746572732e7376673f6176617461724865696768743d33362677696474683d363030.svg" />
 
 
 # 企业赞助
 通过年度捐赠支持 Grav，帮助我们继续开发。[[成为企业赞助商](https://opencollective.com/grav/contribute)]
 
-<img src="https://opencollective.com/grav/tiers/sponsors.svg?avatarHeight=36&width=600" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f73706f6e736f72732e7376673f6176617461724865696768743d33362677696474683d363030.svg" />
 
 # 许可证
 

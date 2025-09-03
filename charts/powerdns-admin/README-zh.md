@@ -2,8 +2,8 @@
 
 一个具有高级功能的 PowerDNS Web 界面。
 
-[![CodeQL](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/codeql-analysis.yml)
-[![Docker Image](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/build-and-publish.yml/badge.svg?branch=master)](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/build-and-publish.yml)
+[![CodeQL](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/powerdns-admin/image/badge.svg)](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/codeql-analysis.yml)
+[![Docker Image](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/powerdns-admin/image/badge.svg)](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/build-and-publish.yml)
 
 #### 功能特性：
 
@@ -69,7 +69,7 @@ $ docker run -d \
 
 ## 截图
 
-![dashboard](docs/screenshots/dashboard.png)
+![dashboard](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/powerdns-admin/image/dashboard.png)
 
 ## 支持
 

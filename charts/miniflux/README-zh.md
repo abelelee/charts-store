@@ -135,11 +135,11 @@ Miniflux 文档地址： <https://miniflux.app/docs/> ([手册页](https://minif
 
 默认主题：
 
-![默认主题](https://miniflux.app/images/overview.png)
+![默认主题](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/miniflux/image/overview.png)
 
 使用键盘导航时的深色主题：
 
-![深色主题](https://miniflux.app/images/item-selection-black-theme.png)
+![深色主题](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/miniflux/image/item-selection-black-theme.png)
 
 致谢
 -----

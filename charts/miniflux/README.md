@@ -135,11 +135,11 @@ Screenshots
 
 Default theme:
 
-![Default theme](https://miniflux.app/images/overview.png)
+![Default theme](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/miniflux/image/overview.png)
 
 Dark theme when using keyboard navigation:
 
-![Dark theme](https://miniflux.app/images/item-selection-black-theme.png)
+![Dark theme](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/miniflux/image/item-selection-black-theme.png)
 
 Credits
 -------

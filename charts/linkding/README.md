@@ -1,7 +1,7 @@
 <div align="center">
     <br>
     <a href="https://github.com/sissbruecker/linkding">
-        <img src="assets/header.svg" height="50">
+        <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkding/image/header.svg" height="50">
     </a>
     <br>
 </div>
@@ -35,7 +35,7 @@ The name comes from:
 
 **Screenshot:**
 
-![Screenshot](/docs/public/linkding-screenshot.png?raw=true "Screenshot")
+![Screenshot](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkding/image/linkding-screenshot.png "Screenshot")
 
 ## Getting Started
 

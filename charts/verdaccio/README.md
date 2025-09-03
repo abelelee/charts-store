@@ -1,10 +1,10 @@
-[![BannerHelp](https://cdn.verdaccio.dev/readme/banner-uk.svg)](https://u24.gov.ua)
+[![BannerHelp](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/banner-uk.svg)](https://u24.gov.ua)
 
 > Verdaccio stands for **peace**, stop the war, we will be yellow / blue 🇺🇦 until that happens.
 
-![verdaccio logo](https://cdn.verdaccio.dev/readme/verdaccio@2x.png)
+![verdaccio logo](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio_2x.png)
 
-![verdaccio gif](https://cdn.verdaccio.dev/readme/readme-website.png)
+![verdaccio gif](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/readme-website.png)
 
 # Version Next (Development Branch)
 
@@ -22,21 +22,21 @@ For those looking to extend their storage capabilities, Verdaccio
 **supports various community-made plugins to hook into services such as Amazon's s3,
 Google Cloud Storage** or create your own plugin.
 
-[![Verdaccio Home](https://img.shields.io/badge/Homepage-Verdaccio-405236?style=flat)](https://verdaccio.org)
-[![MIT License](https://img.shields.io/github/license/verdaccio/verdaccio?label=License&color=405236)](https://github.com/verdaccio/verdaccio/blob/master/LICENSE)
-[![Verdaccio Latest](https://img.shields.io/npm/v/verdaccio?label=Latest%20Version&color=405236)](https://github.com/verdaccio/verdaccio)
+[![Verdaccio Home](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/Homepage-Verdaccio-405236.svg)](https://verdaccio.org)
+[![MIT License](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://github.com/verdaccio/verdaccio/blob/master/LICENSE)
+[![Verdaccio Latest](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://github.com/verdaccio/verdaccio)
 
-[![Documentation](https://img.shields.io/badge/Help-Verdaccio?style=flat&logo=Verdaccio&label=Verdaccio&color=cd4000)](https://verdaccio.org/docs)
-[![Discord](https://img.shields.io/badge/Chat-Discord?style=flat&logo=Discord&label=Discord&color=cd4000)](https://discord.com/channels/388674437219745793)
-[![Bluesky](https://img.shields.io/badge/Follow-Bluesky?style=flat&logo=Bluesky&label=Bluesky&color=cd4000)](https://bsky.app/profile/verdaccio.org)
-[![Backers](https://img.shields.io/opencollective/backers/verdaccio?style=flat&logo=opencollective&label=Join%20Backers&color=cd4000)](https://opencollective.com/verdaccio/contribute)
-[![Sponsors](https://img.shields.io/opencollective/sponsors/verdaccio?style=flat&logo=opencollective&label=Sponsor%20Us&color=cd4000)](https://opencollective.com/verdaccio/contribute)
+[![Documentation](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/Help-Verdaccio.svg)](https://verdaccio.org/docs)
+[![Discord](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/Chat-Discord.svg)](https://discord.com/channels/388674437219745793)
+[![Bluesky](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/Follow-Bluesky.svg)](https://bsky.app/profile/verdaccio.org)
+[![Backers](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://opencollective.com/verdaccio/contribute)
+[![Sponsors](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://opencollective.com/verdaccio/contribute)
 
-[![Verdaccio Downloads](https://img.shields.io/npm/dm/verdaccio?style=flat&logo=npm&label=Npm%20Downloads&color=lightgrey)](https://www.npmjs.com/package/verdaccio)
-[![Docker Pulls](https://img.shields.io/docker/pulls/verdaccio/verdaccio?style=flat&logo=docker&label=Docker%20Pulls&color=lightgrey)](https://hub.docker.com/r/verdaccio/verdaccio)
-[![GitHub Stars](https://img.shields.io/github/stars/verdaccio?style=flat&logo=github&label=GitHub%20Stars%20%E2%AD%90&color=lightgrey)](https://github.com/verdaccio/verdaccio/stargazers)
+[![Verdaccio Downloads](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://www.npmjs.com/package/verdaccio)
+[![Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://hub.docker.com/r/verdaccio/verdaccio)
+[![GitHub Stars](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://github.com/verdaccio/verdaccio/stargazers)
 
-[![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
+[![StandWithUkraine](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
 ## Versions
 
@@ -167,7 +167,7 @@ Furthermore, here few examples how to start:
 
 <div>
    <a href="https://portal.gitnation.org/contents/five-ways-of-taking-advantage-of-verdaccio-your-private-and-proxy-nodejs-registry">
-     <img src="https://cdn.verdaccio.dev/readme/nodejscongress2022.jpg" alt="nodejs" width="200"/>
+     <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/nodejscongress2022.jpg" alt="nodejs" width="200"/>
   </a>
 </div>
 
@@ -292,12 +292,12 @@ Thanks to the following companies to help us to achieve our goals providing free
 
 | Company      | Logo                                                                                                                                    | License                                                                           |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| JetBrains    | [![jetbrain](https://github.com/verdaccio/verdaccio/blob/master/assets/thanks/jetbrains/logo.png?raw=true)](https://www.jetbrains.com/) | JetBrains provides licenses for products for active maintainers, renewable yearly |
-| Crowdin      | [![crowdin](https://github.com/verdaccio/verdaccio/blob/master/assets/thanks/crowdin/logo.png?raw=true)](https://crowdin.com/)          | Crowdin provides platform for translations                                        |
-| BrowserStack | [![browserstack](https://cdn.verdaccio.dev/readme/browserstack_logo.png)](https://www.browserstack.com/)                                | BrowserStack provides plan to run End to End testing for the UI                   |
-| Netlify      | [![netlify](https://www.netlify.com/img/global/badges/netlify-color-accent.svg)](https://www.netlify.com/)                              | Netlify provides pro plan for website deployment                                  |
-| Algolia      | [![algolia](https://cdn.verdaccio.dev/sponsor/logo/algolia/logo.png)](https://algolia.com/)                                             | Algolia provides search services for the website                                  |
-| Docker       | [![docker](https://cdn.verdaccio.dev/sponsor/logo/docker/docker.png)](https://www.docker.com/community/open-source/application)         | Docker offers unlimited pulls and unlimited egress to any and all users           |
+| JetBrains    | [![jetbrain](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/logo.png)](https://www.jetbrains.com/) | JetBrains provides licenses for products for active maintainers, renewable yearly |
+| Crowdin      | [![crowdin](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/logo.png)](https://crowdin.com/)          | Crowdin provides platform for translations                                        |
+| BrowserStack | [![browserstack](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/browserstack_logo.png)](https://www.browserstack.com/)                                | BrowserStack provides plan to run End to End testing for the UI                   |
+| Netlify      | [![netlify](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/netlify-color-accent.svg)](https://www.netlify.com/)                              | Netlify provides pro plan for website deployment                                  |
+| Algolia      | [![algolia](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/logo.png)](https://algolia.com/)                                             | Algolia provides search services for the website                                  |
+| Docker       | [![docker](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/docker.png)](https://www.docker.com/community/open-source/application)         | Docker offers unlimited pulls and unlimited egress to any and all users           |
 
 ## Maintainers
 
@@ -333,33 +333,6 @@ You can find and chat with them over Discord, click [here](http://chat.verdaccio
 - [Amazon Encryption SDK for Javascript](https://github.com/aws/aws-encryption-sdk-javascript)
 
 🤓 Don't be shy, add yourself to this readme.
-
-## Open Collective Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/verdaccio/contribute)]
-
-[![sponsor](https://opencollective.com/verdaccio/sponsor/0/avatar.svg)](https://opencollective.com/verdaccio/sponsor/0/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/1/avatar.svg)](https://opencollective.com/verdaccio/sponsor/1/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/2/avatar.svg)](https://opencollective.com/verdaccio/sponsor/2/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/3/avatar.svg)](https://opencollective.com/verdaccio/sponsor/3/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/4/avatar.svg)](https://opencollective.com/verdaccio/sponsor/4/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/5/avatar.svg)](https://opencollective.com/verdaccio/sponsor/5/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/6/avatar.svg)](https://opencollective.com/verdaccio/sponsor/6/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/7/avatar.svg)](https://opencollective.com/verdaccio/sponsor/7/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/8/avatar.svg)](https://opencollective.com/verdaccio/sponsor/8/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/9/avatar.svg)](https://opencollective.com/verdaccio/sponsor/9/website)
-
-## Open Collective Backers
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/verdaccio/contribute)]
-
-[![backers](https://opencollective.com/verdaccio/backers.svg?width=890)](https://opencollective.com/verdaccio/contributes)
-
-## Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](https://github.com/verdaccio/verdaccio/blob/master/CONTRIBUTING.md)].
-
-[![contributors](https://opencollective.com/verdaccio/contributors.svg?width=890&button=true)](https://github.com/verdaccio/verdaccio/graphs/contributors)
 
 ## FAQ / Contact / Troubleshoot
 

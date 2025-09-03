@@ -92,7 +92,7 @@ persistence:
   # -- existing claim
   existingClaim:
   # -- desired storageClass
-  storageClass: cloudapp.storage
+  storageClass: cloudapp.storageClassName
   # -- storage access mode
   accessMode: ReadWriteOnce
   # -- storage size

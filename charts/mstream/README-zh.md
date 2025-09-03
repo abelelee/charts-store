@@ -4,7 +4,7 @@ mStream 是一个个人音乐流媒体服务器。你可以使用 mStream 从你
 
 主界面|共享|管理界面
 ---|---|---
-![main](/docs/designs/mstreamv5.png?raw=true)|![shared](/docs/designs/shared.png?raw=true)|![admin](/docs/designs/admin.png?raw=true)
+![main](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mstream/image/mstreamv5.png)|![shared](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mstream/image/shared.png)|![admin](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mstream/image/admin.png)
 
 ## 演示及其他链接
 
@@ -35,9 +35,9 @@ mStream 是一个个人音乐流媒体服务器。你可以使用 mStream 从你
 
 ## 移动应用
 
-[<img src="/webapp/assets/img/app-store-logo.png" alt="mStream iOS 应用" width="200" />](https://apps.apple.com/us/app/mstream-player/id1605378892)
+[<img alt="mStream iOS App" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mstream/image/app-store-logo.png" width="200"/>](https://apps.apple.com/us/app/mstream-player/id1605378892)
 
-[<img src="/webapp/assets/img/play-store-logo.png" alt="mStream Android 应用" width="200" />](https://play.google.com/store/apps/details?id=com.nieratechinc.mstreamplayer&hl=en_US)
+[<img alt="mStream Android App" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mstream/image/play-store-logo.png" width="200"/>](https://play.google.com/store/apps/details?id=com.nieratechinc.mstreamplayer&hl=en_US)
 
 [Made by Niera Tech](https://mplayer.nieratech.com/)
 

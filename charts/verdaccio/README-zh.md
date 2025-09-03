@@ -1,10 +1,10 @@
-[![BannerHelp](https://cdn.verdaccio.dev/readme/banner-uk.svg)](https://u24.gov.ua)
+[![BannerHelp](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/banner-uk.svg)](https://u24.gov.ua)
 
 > Verdaccio 代表 **和平**，停止战争，在实现和平之前，我们将一直是黄色/蓝色 🇺🇦。
 
-![verdaccio logo](https://cdn.verdaccio.dev/readme/verdaccio@2x.png)
+![verdaccio logo](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio_2x.png)
 
-![verdaccio gif](https://cdn.verdaccio.dev/readme/readme-website.png)
+![verdaccio gif](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/readme-website.png)
 
 # 版本 Next（开发分支）
 
@@ -18,21 +18,21 @@
 无需整个数据库即可开始使用！Verdaccio 自带**一个小型数据库**，并具备代理其他仓库（例如 npmjs.org）的能力，缓存下载的模块。  
 对于希望扩展存储能力的用户，Verdaccio **支持各种社区开发的插件，可以连接到 Amazon S3、Google Cloud Storage** 等服务，或者您可以自行开发插件。
 
-[![Verdaccio 主页](https://img.shields.io/badge/Homepage-Verdaccio-405236?style=flat)](https://verdaccio.org)
-[![MIT 许可证](https://img.shields.io/github/license/verdaccio/verdaccio?label=License&color=405236)](https://github.com/verdaccio/verdaccio/blob/master/LICENSE)
-[![Verdaccio 最新版本](https://img.shields.io/npm/v/verdaccio?label=Latest%20Version&color=405236)](https://github.com/verdaccio/verdaccio)
+[![Verdaccio 主页](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/Homepage-Verdaccio-405236.svg)](https://verdaccio.org)
+[![MIT 许可证](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://github.com/verdaccio/verdaccio/blob/master/LICENSE)
+[![Verdaccio 最新版本](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://github.com/verdaccio/verdaccio)
 
-[![文档](https://img.shields.io/badge/Help-Verdaccio?style=flat&logo=Verdaccio&label=Verdaccio&color=cd4000)](https://verdaccio.org/docs)
-[![Discord](https://img.shields.io/badge/Chat-Discord?style=flat&logo=Discord&label=Discord&color=cd4000)](https://discord.com/channels/388674437219745793)
-[![Bluesky](https://img.shields.io/badge/Follow-Bluesky?style=flat&logo=Bluesky&label=Bluesky&color=cd4000)](https://bsky.app/profile/verdaccio.org)
-[![支持者](https://img.shields.io/opencollective/backers/verdaccio?style=flat&logo=opencollective&label=Join%20Backers&color=cd4000)](https://opencollective.com/verdaccio/contribute)
-[![赞助商](https://img.shields.io/opencollective/sponsors/verdaccio?style=flat&logo=opencollective&label=Sponsor%20Us&color=cd4000)](https://opencollective.com/verdaccio/contribute)
+[![文档](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/Help-Verdaccio.svg)](https://verdaccio.org/docs)
+[![Discord](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/Chat-Discord.svg)](https://discord.com/channels/388674437219745793)
+[![Bluesky](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/Follow-Bluesky.svg)](https://bsky.app/profile/verdaccio.org)
+[![支持者](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://opencollective.com/verdaccio/contribute)
+[![赞助商](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://opencollective.com/verdaccio/contribute)
 
-[![Verdaccio 下载量](https://img.shields.io/npm/dm/verdaccio?style=flat&logo=npm&label=Npm%20Downloads&color=lightgrey)](https://www.npmjs.com/package/verdaccio)
-[![Docker 拉取量](https://img.shields.io/docker/pulls/verdaccio/verdaccio?style=flat&logo=docker&label=Docker%20Pulls&color=lightgrey)](https://hub.docker.com/r/verdaccio/verdaccio)
-[![GitHub 星标数](https://img.shields.io/github/stars/verdaccio?style=flat&logo=github&label=GitHub%20Stars%20%E2%AD%90&color=lightgrey)](https://github.com/verdaccio/verdaccio/stargazers)
+[![Verdaccio 下载量](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://www.npmjs.com/package/verdaccio)
+[![Docker 拉取量](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://hub.docker.com/r/verdaccio/verdaccio)
+[![GitHub 星标数](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/verdaccio.svg)](https://github.com/verdaccio/verdaccio/stargazers)
 
-[![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
+[![StandWithUkraine](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
 ## 版本
 
@@ -161,7 +161,7 @@ Verdaccio 被证明是一个轻量级的注册表，可以在几秒钟内启动�
 
 <div>
    <a href="https://portal.gitnation.org/contents/five-ways-of-taking-advantage-of-verdaccio-your-private-and-proxy-nodejs-registry">
-     <img src="https://cdn.verdaccio.dev/readme/nodejscongress2022.jpg" alt="nodejs" width="200"/>
+     <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/nodejscongress2022.jpg" alt="nodejs" width="200"/>
   </a>
 </div>
 
@@ -285,12 +285,12 @@ Verdaccio 旨在支持标准 npm 客户端的所有功能，这些功能在私�
 
 | 公司         | 标志                                                                                                                                   | 许可证                                                                           |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-| JetBrains    | [![jetbrain](https://github.com/verdaccio/verdaccio/blob/master/assets/thanks/jetbrains/logo.png?raw=true)](https://www.jetbrains.com/) | JetBrains 为活跃维护者提供产品许可证，每年可续订                                  |
-| Crowdin      | [![crowdin](https://github.com/verdaccio/verdaccio/blob/master/assets/thanks/crowdin/logo.png?raw=true)](https://crowdin.com/)          | Crowdin 提供翻译平台                                                              |
-| BrowserStack | [![browserstack](https://cdn.verdaccio.dev/readme/browserstack_logo.png)](https://www.browserstack.com/)                                | BrowserStack 提供计划用于 UI 的端到端测试                                         |
-| Netlify      | [![netlify](https://www.netlify.com/img/global/badges/netlify-color-accent.svg)](https://www.netlify.com/)                              | Netlify 提供网站部署的 Pro 计划                                                   |
-| Algolia      | [![algolia](https://cdn.verdaccio.dev/sponsor/logo/algolia/logo.png)](https://algolia.com/)                                             | Algolia 提供网站搜索服务                                                          |
-| Docker       | [![docker](https://cdn.verdaccio.dev/sponsor/logo/docker/docker.png)](https://www.docker.com/community/open-source/application)         | Docker 提供无限拉取和无限出站流量给所有用户                                       |
+| JetBrains    | [![jetbrain](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/logo.png)](https://www.jetbrains.com/) | JetBrains 为活跃维护者提供产品许可证，每年可续订                                  |
+| Crowdin      | [![crowdin](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/logo.png)](https://crowdin.com/)          | Crowdin 提供翻译平台                                                              |
+| BrowserStack | [![browserstack](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/browserstack_logo.png)](https://www.browserstack.com/)                                | BrowserStack 提供计划用于 UI 的端到端测试                                         |
+| Netlify      | [![netlify](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/netlify-color-accent.svg)](https://www.netlify.com/)                              | Netlify 提供网站部署的 Pro 计划                                                   |
+| Algolia      | [![algolia](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/logo.png)](https://algolia.com/)                                             | Algolia 提供网站搜索服务                                                          |
+| Docker       | [![docker](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/verdaccio/image/docker.png)](https://www.docker.com/community/open-source/application)         | Docker 提供无限拉取和无限出站流量给所有用户                                       |
 
 ## 维护者
 
@@ -326,33 +326,6 @@ Verdaccio 旨在支持标准 npm 客户端的所有功能，这些功能在私�
 - [Amazon Encryption SDK for Javascript](https://github.com/aws/aws-encryption-sdk-javascript)
 
 🤓 不要害羞，把自己添加到这个 README 中。
-
-## Open Collective 赞助商
-
-通过成为赞助商来支持这个项目。您的标志将显示在这里，并链接到您的网站。[[成为赞助商](https://opencollective.com/verdaccio/contribute)]
-
-[![sponsor](https://opencollective.com/verdaccio/sponsor/0/avatar.svg)](https://opencollective.com/verdaccio/sponsor/0/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/1/avatar.svg)](https://opencollective.com/verdaccio/sponsor/1/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/2/avatar.svg)](https://opencollective.com/verdaccio/sponsor/2/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/3/avatar.svg)](https://opencollective.com/verdaccio/sponsor/3/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/4/avatar.svg)](https://opencollective.com/verdaccio/sponsor/4/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/5/avatar.svg)](https://opencollective.com/verdaccio/sponsor/5/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/6/avatar.svg)](https://opencollective.com/verdaccio/sponsor/6/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/7/avatar.svg)](https://opencollective.com/verdaccio/sponsor/7/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/8/avatar.svg)](https://opencollective.com/verdaccio/sponsor/8/website)
-[![sponsor](https://opencollective.com/verdaccio/sponsor/9/avatar.svg)](https://opencollective.com/verdaccio/sponsor/9/website)
-
-## Open Collective 支持者
-
-感谢所有支持者！🙏 [[成为支持者](https://opencollective.com/verdaccio/contribute)]
-
-[![backers](https://opencollective.com/verdaccio/backers.svg?width=890)](https://opencollective.com/verdaccio/contributes)
-
-## 贡献者
-
-感谢所有为此项目做出贡献的人。[[参与贡献](https://github.com/verdaccio/verdaccio/blob/master/CONTRIBUTING.md)]。
-
-[![contributors](https://opencollective.com/verdaccio/contributors.svg?width=890&button=true)](https://github.com/verdaccio/verdaccio/graphs/contributors)
 
 ## 常见问题 / 联系 / 故障排除
 

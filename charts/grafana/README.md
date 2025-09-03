@@ -1,11 +1,10 @@
-![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)
-![Grafana Logo (Dark)](docs/logo-horizontal-dark.png#gh-dark-mode-only)
+![Grafana Logo (Light)](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grafana/image/logo-horizontal.png)
+![Grafana Logo (Dark)](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grafana/image/logo-horizontal-dark.png)
 
 The open-source platform for monitoring and observability
 
-[![License](https://img.shields.io/github/license/grafana/grafana)](LICENSE)
-[![Drone](https://drone.grafana.net/api/badges/grafana/grafana/status.svg)](https://drone.grafana.net/grafana/grafana)
-[![Go Report Card](https://goreportcard.com/badge/github.com/grafana/grafana)](https://goreportcard.com/report/github.com/grafana/grafana)
+[![License](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grafana/image/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f67726166616e612f67726166616e61.svg)](LICENSE)
+[![Go Report Card](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grafana/image/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f67726166616e612f67726166616e61.svg)](https://goreportcard.com/report/github.com/grafana/grafana)
 
 Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data-driven culture:
 

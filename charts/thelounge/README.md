@@ -2,7 +2,7 @@
 	<img
 		width="300"
 		alt="The Lounge"
-		src="https://raw.githubusercontent.com/thelounge/thelounge/master/client/img/logo-vertical-transparent-bg.svg?sanitize=true">
+		src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/thelounge/image/logo-vertical-transparent-bg.svg">
 </h1>
 
 <h3 align="center">
@@ -23,17 +23,17 @@
 <p align="center">
 	<a href="https://demo.thelounge.chat/"><img
 		alt="#thelounge IRC channel on Libera.Chat"
-		src="https://img.shields.io/badge/Libera.Chat-%23thelounge-415364.svg?colorA=ff9e18"></a>
+		src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/thelounge/image/Libera.Chat-_23thelounge-415364.svg"></a>
 	<a href="https://yarn.pm/thelounge"><img
 		alt="npm version"
-		src="https://img.shields.io/npm/v/thelounge.svg?colorA=333a41&maxAge=3600"></a>
+		src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/thelounge/image/thelounge.svg"></a>
 	<a href="https://github.com/thelounge/thelounge/actions"><img
 		alt="Build Status"
-		src="https://github.com/thelounge/thelounge/workflows/Build/badge.svg"></a>
+		src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/thelounge/image/badge.svg"></a>
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/thelounge/thelounge.github.io/master/img/thelounge-screenshot.png" width="550">
+	<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/thelounge/image/thelounge-screenshot.png" width="550">
 </p>
 
 ## Overview

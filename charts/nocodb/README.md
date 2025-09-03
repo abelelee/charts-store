@@ -1,7 +1,7 @@
 <h1 align="center" style="border-bottom: none">
     <div>
         <a style="color:#36f" href="https://www.nocodb.com">
-            <img src="/packages/nc-gui/assets/img/brand/nocodb-full.png" height="80" />
+            <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/nocodb-full.png" height="80" />
             <br>
     The Open Source Airtable Alternative 
         </a>
@@ -27,29 +27,29 @@ NocoDB is the fastest and easiest way to build databases online.
 
 <div align="center">
 
-[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263434-75fe793d-42af-49e4-b964-d70920e41655.png">](markdown/readme/languages/chinese.md)
-[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263474-787d71e7-3a87-42a8-92a8-be1d1f55413d.png">](markdown/readme/languages/french.md)
-[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263531-fae58600-6616-4b43-95a0-5891019dd35d.png">](markdown/readme/languages/german.md)
-[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263589-3dbeda9a-0d2e-4bbd-b1fc-691404bb74fb.png">](markdown/readme/languages/spanish.md)
-[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263669-f567196a-d4e8-4143-a80a-93d3be32ba90.png">](markdown/readme/languages/portuguese.md)
-[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263707-ba4e04a4-268a-4626-91b8-048e572fd9f6.png">](markdown/readme/languages/italian.md)
-[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263770-38e3e79d-11d4-472e-ac27-ae0f17cf65c4.png">](markdown/readme/languages/japanese.md)
-[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263822-28fce9de-915a-44dc-962d-7a61d340e91d.png">](markdown/readme/languages/korean.md)
-[<img height="38" src="https://user-images.githubusercontent.com/61551451/135263888-151d4ad1-7084-4943-97c9-56f28cd40b80.png">](markdown/readme/languages/russian.md)
+[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263434-75fe793d-42af-49e4-b964-d70920e41655.png">](markdown/readme/languages/chinese.md)
+[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263474-787d71e7-3a87-42a8-92a8-be1d1f55413d.png">](markdown/readme/languages/french.md)
+[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263531-fae58600-6616-4b43-95a0-5891019dd35d.png">](markdown/readme/languages/german.md)
+[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263589-3dbeda9a-0d2e-4bbd-b1fc-691404bb74fb.png">](markdown/readme/languages/spanish.md)
+[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263669-f567196a-d4e8-4143-a80a-93d3be32ba90.png">](markdown/readme/languages/portuguese.md)
+[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263707-ba4e04a4-268a-4626-91b8-048e572fd9f6.png">](markdown/readme/languages/italian.md)
+[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263770-38e3e79d-11d4-472e-ac27-ae0f17cf65c4.png">](markdown/readme/languages/japanese.md)
+[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263822-28fce9de-915a-44dc-962d-7a61d340e91d.png">](markdown/readme/languages/korean.md)
+[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263888-151d4ad1-7084-4943-97c9-56f28cd40b80.png">](markdown/readme/languages/russian.md)
 
 </div>
 
 <p align="center"><a href="markdown/readme/languages/README.md"><b>See other languages »</b></a></p>
 
-<img src="https://static.scarf.sh/a.png?x-pxid=c12a77cc-855e-4602-8a0f-614b2d0da56a" />
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/a.png" />
 
 # Join Our Community
 
 <a href="https://discord.gg/5RgZmkW" target="_blank">
-<img src="https://discordapp.com/api/guilds/661905455894888490/widget.png?style=banner3" alt="">
+<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3636313930353435353839343838383439302f7769646765742e706e673f7374796c653d62616e6e657233.png" alt="">
 </a>
 
-[![Stargazers repo roster for @nocodb/nocodb](http://reporoster.com/stars/nocodb/nocodb)](https://github.com/nocodb/nocodb/stargazers)
+[![Stargazers repo roster for @nocodb/nocodb](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/687474703a2f2f7265706f726f737465722e636f6d2f73746172732f6e6f636f64622f6e6f636f6462.svg)](https://github.com/nocodb/nocodb/stargazers)
 
 # Installation
 
@@ -145,20 +145,20 @@ Auto-upstall does the following: 🕊
 For more installation methods, please refer to [our docs](https://docs.nocodb.com/category/installation)
 
 # Screenshots
-![2](https://github.com/nocodb/nocodb/assets/86527202/a127c05e-2121-4af2-a342-128e0e2d0291)
-![3](https://github.com/nocodb/nocodb/assets/86527202/674da952-8a06-4848-a0e8-a7b02d5f5c88)
-![4](https://github.com/nocodb/nocodb/assets/86527202/cbc5152a-9caf-4f77-a8f7-92a9d06d025b)
-![5](https://github.com/nocodb/nocodb/assets/86527202/dc75dfdc-c486-4f5a-a853-2a8f9e6b569a)
+![2](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/266776344-a127c05e-2121-4af2-a342-128e0e2d0291.png)
+![3](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/266776364-674da952-8a06-4848-a0e8-a7b02d5f5c88.png)
+![4](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/266776365-cbc5152a-9caf-4f77-a8f7-92a9d06d025b.png)
+![5](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/266776368-dc75dfdc-c486-4f5a-a853-2a8f9e6b569a.png)
 
-![5](https://user-images.githubusercontent.com/35857179/194844886-a17006e0-979d-493f-83c4-0e72f5a9b716.png)
-![7](https://github.com/nocodb/nocodb/assets/86527202/be64e619-7295-43e2-aa95-cace4462b17f)
-![8](https://github.com/nocodb/nocodb/assets/86527202/4538bf5a-371f-4ec1-a867-8197e5824286)
+![5](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/194844886-a17006e0-979d-493f-83c4-0e72f5a9b716.png)
+![7](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/266776445-be64e619-7295-43e2-aa95-cace4462b17f.png)
+![8](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/266776478-4538bf5a-371f-4ec1-a867-8197e5824286.png)
 
-![8](https://user-images.githubusercontent.com/35857179/194844893-82d5e21b-ae61-41bd-9990-31ad659bf490.png)
-![9](https://user-images.githubusercontent.com/35857179/194844897-cfd79946-e413-4c97-b16d-eb4d7678bb79.png)
-![10](https://user-images.githubusercontent.com/35857179/194844902-c0122570-0dd5-41cf-a26f-6f8d71fefc99.png)
-![11](https://user-images.githubusercontent.com/35857179/194844903-c1e47f40-e782-4f5d-8dce-6449cc70b181.png)
-![12](https://user-images.githubusercontent.com/35857179/194844907-09277d3e-cbbf-465c-9165-6afc4161e279.png)
+![8](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/194844893-82d5e21b-ae61-41bd-9990-31ad659bf490.png)
+![9](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/194844897-cfd79946-e413-4c97-b16d-eb4d7678bb79.png)
+![10](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/194844902-c0122570-0dd5-41cf-a26f-6f8d71fefc99.png)
+![11](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/194844903-c1e47f40-e782-4f5d-8dce-6449cc70b181.png)
+![12](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/194844907-09277d3e-cbbf-465c-9165-6afc4161e279.png)
 
 # Features
 
@@ -211,5 +211,5 @@ This project is licensed under <a href="./LICENSE">AGPLv3</a>.
 Thank you for your contributions! We appreciate all the contributions from the community.
 
 <a href="https://github.com/nocodb/nocodb/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=nocodb/nocodb" />
+  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f7265706f3d6e6f636f64622f6e6f636f6462.svg" />
 </a>
