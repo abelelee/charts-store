@@ -1,7 +1,3 @@
-以下是你提供的英文Markdown内容的中文翻译，保留了原始的Markdown格式和结构：
-
----
-
 <p align="center">
 <img width="60%" src="https://s3-us-west-2.amazonaws.com/gitimgs/statping.png">
 </p>

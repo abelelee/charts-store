@@ -1,6 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始格式：
-
----
 <!-- logo -->
 <p align="center">
     <a href="https://logseq.com" alt="Logseq Logo">

@@ -1,7 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始的Markdown格式：
-
----
-
 <h1 align="center">
   <a href="https://joinpeertube.org">
     <img src="https://joinpeertube.org/img/brand.png" alt="PeerTube">

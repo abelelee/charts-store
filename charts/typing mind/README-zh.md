@@ -1,7 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保持了原始的Markdown格式和结构：
-
----
-
 <h2 align="center">
   <img height="150" alt="Typing Mind - A better UI for ChatGPT" src="https://www.typingmind.com/banner.png" />
 <br/>

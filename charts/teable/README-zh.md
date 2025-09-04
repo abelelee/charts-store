@@ -1,6 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始的Markdown格式：
-
----
 <div align="center">
   <h1 align="center">
     <picture>

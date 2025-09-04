@@ -1,7 +1,3 @@
-以下是你提供的 Markdown 内容的中文翻译，保留了原有的格式和结构：
-
----
-
 <div align="center">
   <a href="https://github.com/aptabase/aptabase">
     <img src="https://aptabase.com/og.png" alt="Aptabase"/>

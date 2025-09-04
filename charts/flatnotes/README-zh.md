@@ -1,7 +1,3 @@
-以下是你提供的 Markdown 内容的中文翻译，保留了原始格式：
-
----
-
 <p align="center">
   <img src="docs/logo.svg" width="300px"></img>
 </p>

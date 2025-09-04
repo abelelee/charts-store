@@ -1,7 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始格式：
-
----
-
 <p align="center">
   <a href="https://www.budibase.com">
     <img alt="Budibase" src="https://res.cloudinary.com/daog6scxm/image/upload/v1696515725/Branding/Assets/Symbol/RGB/Full%20Colour/Budibase_Symbol_RGB_FullColour_cbqvha_1_z5cwq2.svg" width="60" />

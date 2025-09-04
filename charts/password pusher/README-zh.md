@@ -1,7 +1,3 @@
-以下是你提供的英文Markdown内容的中文翻译，保留了原始的Markdown格式和结构：
-
----
-
 <div align="center">
 
 [![Password Pusher 前页](https://pwpush.fra1.cdn.digitaloceanspaces.com/branding/logos/horizontal-logo-small.png)](https://pwpush.com/)

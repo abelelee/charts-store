@@ -1,7 +1,3 @@
-以下是你提供的 Markdown 内容的中文翻译，保持了原始格式不变，并确保语言自然、流畅，符合技术文档风格：
-
----
-
 <p align="center"><a href="https://kutt.it" title="kutt.it"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/logo-github.png" alt="Kutt.it"></a></p>
 
 # Kutt.it

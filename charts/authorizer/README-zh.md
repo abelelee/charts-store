@@ -1,7 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始格式和结构：
-
----
-
 <p align="center">
   <a href="https://authorizer.dev">
     <img alt="Logo" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/logo.png" width="60" />

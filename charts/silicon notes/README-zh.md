@@ -1,6 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始格式：
-
----
 
 [![集成测试](https://github.com/cu/silicon/actions/workflows/tests.yaml/badge.svg)](https://github.com/cu/silicon/actions/workflows/tests.yaml)
 

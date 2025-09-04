@@ -1,7 +1,3 @@
-以下是你要求的 Markdown 内容的中文翻译，保留了原始格式：
-
----
-
 <div id="top"></div>
 
 <p align="center">

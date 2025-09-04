@@ -1,7 +1,3 @@
-以下是你提供的 Markdown 内容的中文翻译，保留了原始格式：
-
----
-
 <div align="center">
   <h1 align="center">
     <img alt="heyform logo" height="60" src="./assets/images/logo.svg">

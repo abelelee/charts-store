@@ -1,7 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保持了原始格式和结构：
-
----
-
 [![Docker Image Build and Push to Dockerhub - CI/CD](https://github.com/KlausSchaefers/quant-ux/actions/workflows/docker.yml/badge.svg)](https://github.com/KlausSchaefers/quant-ux/actions/workflows/docker.yml)
 
 # Quant-UX - 原型设计、测试与学习

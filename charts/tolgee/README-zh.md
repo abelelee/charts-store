@@ -1,7 +1,3 @@
-以下是你要求的Markdown格式内容的中文翻译，保留了原始格式和结构：
-
----
-
 <h1 align="center" style="border-bottom: none">
     <b>
         <a href="https://tolgee.io">Tolgee</a><br>

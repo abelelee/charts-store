@@ -1,7 +1,3 @@
-以下是你提供的Markdown内容的中文翻译版本，保留了原始的Markdown格式和结构：
-
----
-
 <p align="center">
   <a href="https://www.kestra.io">
     <img src="https://kestra.io/banner.png"  alt="Kestra 工作流编排器" />

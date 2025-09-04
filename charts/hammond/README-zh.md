@@ -1,7 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始的Markdown格式：
-
----
-
 [![贡献者][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->

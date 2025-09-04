@@ -1,6 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保持了原始的Markdown格式和结构：
-
----
 <p align="center">
 
 ![Monica的Logo](https://user-images.githubusercontent.com/61099/242266547-63d98bd9-35f3-4dfe-92f4-a4a8dd75aa5c.png)

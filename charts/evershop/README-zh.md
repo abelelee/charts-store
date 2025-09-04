@@ -1,7 +1,3 @@
-以下是你提供的 Markdown 内容的中文翻译，保留了原始格式：
-
----
-
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p align="center">
 <img width="60" height="68" alt="EverShop Logo" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/evershop/image/logo-green.png"/>

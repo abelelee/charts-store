@@ -1,7 +1,3 @@
-以下是你提供的 Markdown 内容的中文翻译，保留了原始格式：
-
----
-
 <div align="center">
 <img width="100px" alt="mcaptcha logo" src="./docs/res/icon-trans.png" />
   <h1>mCaptcha</h1>

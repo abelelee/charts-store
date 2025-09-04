@@ -1,7 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始格式和结构：
-
----
-
 <div align="center">
 
 <img src="/assets/nango-logo.png?raw=true" width="350">

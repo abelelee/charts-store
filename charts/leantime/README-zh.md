@@ -1,7 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始格式和结构：
-
----
-
 <div align="center">
 <a href="https://leantime.io"><img src="https://leantime.io/wp-content/uploads/2023/03/leantime_logo.png" alt="Leantime Logo" width="300"/></a>
 

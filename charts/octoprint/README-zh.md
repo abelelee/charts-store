@@ -1,7 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始格式和结构：
-
----
-
 <p align="center"><img src="https://octoprint.org/assets/img/logo.png" alt="OctoPrint的标志" /></p>
 
 <h1 align="center">OctoPrint</h1>

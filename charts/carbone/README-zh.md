@@ -1,7 +1,3 @@
-以下是你提供的 Markdown 内容的中文翻译，保留了原始格式：
-
----
-
 <p align="center">
   <a href="https://carbone.io/" target="_blank">
     <img alt="CarboneJS" width="100" src="https://carbone.io/img/carbone_icon_v3_github.png">

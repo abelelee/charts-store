@@ -1,7 +1,3 @@
-以下是你请求的 Markdown 内容的中文翻译，保留了原始格式：
-
----
-
 <div align="center">
 
 <img src="./assets/images/logo-color.svg" width="200px" alt="Rallly" />

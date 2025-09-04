@@ -1,7 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保持了原始Markdown格式不变，并确保了技术文档语境下的自然流畅表达：
-
----
-
 <p align="center">
   <a href="https://strapi.io/#gh-light-mode-only">
     <img src="https://strapi.io/assets/strapi-logo-dark.svg" width="318px" alt="Strapi logo" />

@@ -1,7 +1,3 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始的Markdown格式和结构：
-
----
-
 <p align="center">
   <a href="https://github.com/owncast/owncast" alt="Owncast">
     <img src="https://owncast.online/images/logo.png" alt="Owncast Logo" width="200">

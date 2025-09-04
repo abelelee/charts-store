@@ -1,7 +1,3 @@
-以下是你提供的 Markdown 内容的中文翻译，保持了原始格式和结构：
-
----
-
 <div align="center">
   <sup>特别感谢：</sup>
   <br>

@@ -1,7 +1,3 @@
-以下是你提供的 Markdown 内容的中文翻译，保留了原有的格式和结构：
-
----
-
 <div align="center">
 
 <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/icon.png" title="Ackee" alt="Ackee logo" width="128">
