@@ -1,46 +1,161 @@
-# Restreamer
+<h1 align="center">Restreamer</h1>
+<h3 align="center">A really nice and free alternative for handling live streams.</h3>
+<p align="center">
+<a href="https://github.com/datarhei/restreamer/blob/2.x/LICENSE" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/restreamer.svg" alt="License" /></a>
+<a href="https://github.com/datarhei/restreamer/releases" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/restreamer.svg" alt="License" /></a>
+<a href="https://hub.docker.com/r/datarhei/restreamer" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/restreamer.svg" alt="Docker pulls" /></a>
+<a href="https://docs.datarhei.com/restreamer/getting-started/quick-start" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/documentation-get_20started-green.svg" alt="Documentation" /></a>
+</p>
+<p align="center"><a href="https://demo.datarhei.com/ui" target="_blank">Try live demo</a><br />
+<a href="https://demo.datarhei.com/ui" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/username-admin-blue.svg" alt="demo username" /></a>
+<a href="https://demo.datarhei.com/ui" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/password-demo-blue.svg" alt="demo password" /></a>
 
-Datarhei/Restreamer offers smart free video streaming. Stream H.264 video of IP cameras live to your website. Upload your live video on [YouTube-Live](https://www.youtube.com/), [IBM Watson](https://video.ibm.com/), [Twitch](https://www.twitch.tv/), [Vimeo](https://livestream.com/) or any other streaming solutions e.g. [Wowza-Streaming-Engine](https://www.wowza.com/). Our [Docker-Image](https://hub.docker.com/search/?q=restreamer&page=1&isAutomated=0&isOfficial=0&starCount=0&pullCount=0) is easy to install and runs on Linux, MacOS and Windows. Datarhei/Restreamer can be perfectly combined with single-board computers like [Raspberry Pi](https://www.raspberrypi.org/) and [Odroid](http://www.hardkernel.com/main/main.php). It is free (licensed under Apache 2.0) and you can use it for any purpose, private or commercial.  
+<p align="center">
+  <a href="https://datarhei.com">
+    <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/readme-promo.gif" alt="Restreamer Promo Video" />
+  </a>
+</p>
+
+<p align="center">Self-hosting solution to stream live to your website and publish to many like YouTube-Live, Twitter, Twitch, Vimeo, and other platforms or services. Our Docker-Image is easy to install and runs on Linux environments (MacOS/Windows by Docker Desktop). Moreover, combine the Restreamer with single-board computers like Raspberry Pi or GPU powered systems for Video-Encoding.</p>
+<br />
+<hr />
 
 ## Features
 
-- User-Interface including login-security
-- JSON / HTTP-API
-- <a target= "_blank" href="http://ffmpeg.org/">FFmpeg</a> streaming/encoding the video/camera-stream, creating snapshots or pushing to a external streaming-endpoint
-- <a target= "_blank" href="http://nginx.org/">NGINX</a> incl. <a target= "_blank" href="https://github.com/sergey-dryabzhinsky/nginx-rtmp-module">RTMP-Module</a> as streaming-backend and hls server
-- <a target= "_blank" href="https://github.com/clappr/clappr">Clappr-Player</a> to embed your stream on your website
-- <a target= "_blank" href="https://www.docker.com/">Docker</a> and <a target= "_blank" href="https://kitematic.com/">Kitematic (Docker-Toolbox)</a> optimizations and very easy installation
+- Simplified User-Interface
+- Easy wizard configuration
+- Multiple audio/video inputs, outputs, protocols, and codecs
+- ReStreaming to platforms such as YouTube-Live, to software such as Wowza Media Server, and others based on protocols such as RTMP, SRT, ...
+- Option to mux a separate audio channel to the video
+- Build-in VideoJS-Player for your Website
+- Configurable publication website for streaming without player embedding
+- Content license with Creative Commons
+- HTTP/S- (HLS), RTMP/S- & SRT-Streaming Server
+- Automatic Let's Encrypt HTTPS certification
+- Viewer/Bandwidth Monitoring and limiting
+- Raspberry Pi (MMAL/OMX), Nvidia Cuda, Intel VAAPI support
+- Support for Hardware- and Virtual-Devices
+- FFmpeg Video-Processing (as native as possible)
+- REST-API (JSON) and 100% Swagger documented
+- Resource Monitoring (optionally by Prom-Metrics)
+- Server- and Process-Logging
+- GDPR compliant without third-party providers and does not save audience data
+
+## Quick setup
+
+### AMD64/ARMv7/ARM64:
+```sh
+docker run -d --restart=always --name restreamer \
+   -v /opt/restreamer/config:/core/config -v /opt/restreamer/data:/core/data \
+   -p 8080:8080 -p 8181:8181 \
+   -p 1935:1935 -p 1936:1936 \
+   -p 6000:6000/udp \
+   datarhei/restreamer:latest
+```
+
+*`--privileged` just for local devices like usb cameras.*    
+*Try `--security-opt seccomp=unconfined` if no network source can be reached.*
+
+### ARMv7/ARM64 Raspberry Pi:
+```sh
+docker run -d --restart=always --name restreamer \
+   -v /opt/restreamer/config:/core/config -v /opt/restreamer/data:/core/data \
+   --privileged \
+   -p 8080:8080 -p 8181:8181 \
+   -p 1935:1935 -p 1936:1936 \
+   -p 6000:6000/udp \
+   datarhei/restreamer:rpi-latest
+```
+
+*`--privileged` just for local devices like usb cameras.*    
+*Try `--security-opt seccomp=unconfined` if no network source can be reached.*
+
+### AMD64 Nvidia Cuda:
+```sh
+docker run -d --restart=always --name restreamer \
+   -v /opt/restreamer/config:/core/config -v /opt/restreamer/data:/core/data \
+   --runtime=nvidia --privileged \
+   -p 8080:8080 -p 8181:8181 \
+   -p 1935:1935 -p 1936:1936 \
+   -p 6000:6000/udp \
+   datarhei/restreamer:cuda-latest
+```
+
+*`--privileged` just for local devices like usb cameras.*    
+*Try `--security-opt seccomp=unconfined` if no network source can be reached.*
+
+### AMD64 Intel VAAPI:
+```sh
+docker run -d --restart=always --name restreamer \
+   -v /opt/restreamer/config:/core/config -v /opt/restreamer/data:/core/data \
+   -v /dev/dri:/dev/dri --privileged \
+   -p 8080:8080 -p 8181:8181 \
+   -p 1935:1935 -p 1936:1936 \
+   -p 6000:6000/udp \
+   datarhei/restreamer:vaapi-latest
+```
+
+*`--privileged` just for local devices like usb cameras.*    
+*Try `--security-opt seccomp=unconfined` if no network source can be reached.*
+
+*For external access (http/s, rtmp/s, srt), port forwarding from your Internet-Router to the Restreamer's internal IP address may need to be set up.*
 
 ## Documentation
 
-Documentation is available on [Datarhei/Restreamer GitHub pages](https://datarhei.github.io/restreamer/).
-We give you a lot of of informations from setting up a camera, embedding your player upon your website and streaming to services like e.g. YouTube-Live, Ustream and Livestream.com and many more things. 
+Documentation is available on [docs.datarhei.com/restreamer](https://docs.datarhei.com/restreamer). We give many pieces of information, from setting up a camera, embedding your player upon your website, and streaming to services like, e.g., YouTube-Live, and many more.
 
-More additional informations about streaming, cameras and so on you can find in our [Wiki](https://datarhei.github.com/restreamer/wiki). 
+- [Quick start](https://docs.datarhei.com/restreamer/getting-started/quick-start)
+- [Installation](https://docs.datarhei.com/restreamer/installing/minimum-requirements)
+- [Manual](https://docs.datarhei.com/restreamer/knowledge-base/manual)
+- [Guides](https://docs.datarhei.com/restreamer/knowledge-base/user-guides)
 
 ## Development
 
-#### Building your own Docker-Image:
+### Create a custom image (bundle):
 
-```sh
-$ git clone https://github.com/datarhei/restreamer
-$ docker build -t restreamer .
+#### [Restreamer FFmpeg](https://github.com/datarhei/ffmpeg):
+```
+$ git clone github.com/datarhei/ffmpeg
+$ cd ffmpeg
+$ docker build -f Dockerfile.alpine -t myffmpeg .
 ```
 
-*Required Docker version >= 17.05*
+#### [Restreamer backend](https://github.com/datarhei/core) (Golang):
 
-## Help / Bugs
+```
+$ git clone github.com/datarhei/core
+$ cd core
+$ docker build -t mycore .
+```
 
-If you have problems or found a bug feel free to create a new issue upon the <a target= "_blank" href="https://github.com/datarhei/restreamer/issues">Github issue management</a>.
+#### [Restreamer interface](https://github.com/datarhei/restreamer-ui) (React):
+```
+$ git clone github.com/datarhei/restreamer-ui
+$ cd restreamer-ui
+$ docker build -t myrsui .
+```
 
-Want to talk to us? Write an email to <a href="mailto:open@datarhei.org?subject=Datarhei/Restreamer">open@datarhei.org</a> or ask a question in our (<a target= "_blank" href="https://groups.google.com/forum/#!forum/datarhei">Forum</a>) on Google Groups.
+#### Restreamer bundle:
+```
+$ git clone github.com/datarhei/restreamer
+$ cd restreamer
+$ docker build --build-arg FFMPEG_IMAGE=myffmpeg --build-arg CORE_IMAGE=mycore --build-arg RESTREAMER_UI_IMAGE=myrsui -t myrestreamer .
+$ docker run -it --rm -p 8080:8080 myrestreamer
+```
 
-## Authors
+### To add/fix translations in the [Restreamer interface](https://github.com/datarhei/restreamer-ui):
 
-The Datarhei/Restreamer was created by [Julius Eitzen](https://github.com/jeitzen), [Sven Erbeck](https://github.com/svenerbeck), [Christoph Johannsdotter](https://github.com/christophjohannsdotter) and [Jan Stabenow](https://github.com/jstabenow).   
+The Restreamer interface is currently translated in different languages, such as German, French, Italian, Spanish, and more. If you find errors in the translations or have better suggestions for some sentences, you can become a translation contributor on [poeditor.com](https://poeditor.com/join/project/ogATl3F48K).
+There you can also start a translation into a language that is not yet available in the Restreamer interface.
 
-Special thanks for supporting this project [Andrew Shulgin](https://github.com/andrew-shulgin).
+Contribute to the translations on: [https://poeditor.com/join/project/ogATl3F48K](https://poeditor.com/join/project/ogATl3F48K)
 
-## Copyright
+## Community support
 
-Code released under the [Apache license](LICENSE). Images are copyrighted by datarhei.org
+For general help using Restreamer, please refer to the official [documentation](https://docs.datarhei.com/restreamer). For additional support, you can use Github to ask a question (Bug reports, Contributions, Features).
+
+## License
+See the [LICENSE](./LICENSE) file for licensing information.
+
+## Business inquiries
+**We provide support for commercial requirements with professional support, agile software development, and consulting.** If you have a commercial request, be it a bug or a feature enhancement, please contact us directly at support@datarhei.com.

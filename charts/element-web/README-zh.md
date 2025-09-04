@@ -1,15 +1,8 @@
-以下是你提供的Markdown内容的中文翻译，保留了原始格式：
-
----
-
 [![Chat](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/element-web_matrix.org.svg)](https://matrix.to/#/#element-web:matrix.org)
 ![Tests](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/badge.svg)
 ![Static Analysis](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/badge.svg)
 [![Localazy](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/endpoint.svg)](https://localazy.com/p/element-web)
 [![Quality Gate Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/measure.svg)](https://sonarcloud.io/summary/new_code?id=element-web)
-[![Coverage](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/measure.svg)](https://sonarcloud.io/summary/new_code?id=element-web)
-[![Vulnerabilities](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/measure.svg)](https://sonarcloud.io/summary/new_code?id=element-web)
-[![Bugs](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/measure.svg)](https://sonarcloud.io/summary/new_code?id=element-web)
 
 # Element
 

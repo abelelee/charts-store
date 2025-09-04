@@ -12,7 +12,7 @@
 
 Pgweb 是一个基于网页的 PostgreSQL 数据库浏览器，使用 Go 编写，适用于 Mac、Linux 和 Windows 系统。以一个无依赖的单一可执行文件形式分发，使用非常简单，功能恰到好处。
 
-[查看应用截图](SCREENS.md)
+[查看应用截图](https://github.com/sosedoff/pgweb/blob/main/SCREENS.md)
 
 ## 功能特性
 

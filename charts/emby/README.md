@@ -39,15 +39,15 @@ http://emby.media/community
 
 ## Images
 
-![Html5](https://github.com/MediaBrowser/MediaBrowser.Resources/raw/master/apps/html5.png)
-![iOS](https://github.com/MediaBrowser/MediaBrowser.Resources/raw/master/apps/ios_1.jpg)
-![iOS](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/ios_2.jpg)
-![Emby Theater](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/mbt.png)
-![Emby Theater](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/mbt1.png)
-![Windows Phone](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/winphone.png)
-![Roku](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/roku2.jpg)
-![iOS](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/ios_3.jpg)
-![Dashboard](https://raw.github.com/MediaBrowser/MediaBrowser.Resources/master/apps/dashboard.png)
-![iOS](http://i.imgur.com/prrzxMc.jpg)
-![iOS](http://i.imgur.com/c9Vd1w5.jpg)
+![Html5](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/html5.png)
+![iOS](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/ios_1.jpg)
+![iOS](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/ios_2.jpg)
+![Emby Theater](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/mbt.png)
+![Emby Theater](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/mbt1.png)
+![Windows Phone](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/winphone.png)
+![Roku](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/roku2.jpg)
+![iOS](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/ios_3.jpg)
+![Dashboard](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/dashboard.png)
+![iOS](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/687474703a2f2f692e696d6775722e636f6d2f633956643177352e6a7067.jpeg)
+![iOS](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/687474703a2f2f692e696d6775722e636f6d2f7072727a784d632e6a7067.jpeg)
 

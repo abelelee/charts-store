@@ -39,8 +39,6 @@ http://emby.media/community
 
 ## 图片
 
-![Android](https://dl.dropboxusercontent.com/u/4038856/android1.png)
-![Android](https://dl.dropboxusercontent.com/u/4038856/android2.png)
 ![Html5](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/html5.png)
 ![iOS](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/ios_1.jpg)
 ![iOS](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/ios_2.jpg)
@@ -50,5 +48,5 @@ http://emby.media/community
 ![Roku](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/roku2.jpg)
 ![iOS](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/ios_3.jpg)
 ![Dashboard](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/dashboard.png)
-![iOS](http://i.imgur.com/prrzxMc.jpg)
-![iOS](http://i.imgur.com/c9Vd1w5.jpg)
+![iOS](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/687474703a2f2f692e696d6775722e636f6d2f633956643177352e6a7067.jpeg)
+![iOS](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/687474703a2f2f692e696d6775722e636f6d2f7072727a784d632e6a7067.jpeg)

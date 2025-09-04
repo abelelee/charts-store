@@ -8,12 +8,6 @@
 [![可维护性](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/maintainability.svg)](https://codeclimate.com/github/BookStackApp/BookStack/maintainability)
 <br>
 [![备用源码仓库](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://source.bookstackapp.com/)
-[![项目统计](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://gh-stats.bookstackapp.com/)
-[![Discord](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://www.bookstackapp.com/links/discord)
-[![Mastodon](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://www.bookstackapp.com/links/mastodon)
-<br>
-[![PeerTube](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://foss.video/c/bookstack)
-[![YouTube](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://www.youtube.com/bookstackapp)
 
 一个用于存储和组织信息与文档的平台。BookStack 的详细信息可以在官方网站 https://www.bookstackapp.com/ 上找到。
 

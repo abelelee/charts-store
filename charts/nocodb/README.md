@@ -23,7 +23,7 @@ NocoDB is the fastest and easiest way to build databases online.
     <a href="https://docs.nocodb.com/"><b>Documentation</b></a>
 </p>
 
-![video avi](https://github.com/nocodb/nocodb/assets/86527202/e2fad786-f211-4dcb-9bd3-aaece83a6783)
+![video avi](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/277104231-e2fad786-f211-4dcb-9bd3-aaece83a6783.gif)
 
 <div align="center">
 

@@ -1,12 +1,4 @@
-.. SPDX-License-Identifier: AGPL-3.0-or-later
-
-----
-
-.. figure:: https://raw.githubusercontent.com/searxng/searxng/master/client/simple/src/brand/searxng.svg
-   :target: https://docs.searxng.org/
-   :alt: SearXNG
-   :width: 100%
-   :align: center
+![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/searxng.svg)
 
 ----
 
@@ -27,40 +19,21 @@ A user_, admin_ and developer_ handbook is available on the homepage_.
 
 ----
 
-.. _searx.space: https://searx.space
-.. _user: https://docs.searxng.org/user
-.. _admin: https://docs.searxng.org/admin
-.. _developer: https://docs.searxng.org/dev
-.. _homepage: https://docs.searxng.org/
-.. _metasearch engine: https://en.wikipedia.org/wiki/Metasearch_engine
+searx.space: https://searx.space
+user: https://docs.searxng.org/user
+admin: https://docs.searxng.org/admin
+developer: https://docs.searxng.org/dev
+homepage: https://docs.searxng.org/
+metasearch engine: https://en.wikipedia.org/wiki/Metasearch_engine
 
-.. |SearXNG logo| image:: https://raw.githubusercontent.com/searxng/searxng/master/client/simple/src/brand/searxng-wordmark.svg
-   :target: https://docs.searxng.org/
-   :width: 5%
-
-.. |SearXNG install| image:: https://img.shields.io/badge/-install-blue
-   :target: https://docs.searxng.org/admin/installation.html
-
-.. |SearXNG homepage| image:: https://img.shields.io/badge/-homepage-blue
-   :target: https://docs.searxng.org/
-
-.. |SearXNG wiki| image:: https://img.shields.io/badge/-wiki-blue
-   :target: https://github.com/searxng/searxng/wiki
-
-.. |AGPL License|  image:: https://img.shields.io/badge/license-AGPL-blue.svg
-   :target: https://github.com/searxng/searxng/blob/master/LICENSE
-
-.. |Issues| image:: https://img.shields.io/github/issues/searxng/searxng?color=yellow&label=issues
-   :target: https://github.com/searxng/searxng/issues
-
-.. |PR| image:: https://img.shields.io/github/issues-pr-raw/searxng/searxng?color=yellow&label=PR
-   :target: https://github.com/searxng/searxng/pulls
-
-.. |commits| image:: https://img.shields.io/github/commit-activity/y/searxng/searxng?color=yellow&label=commits
-   :target: https://github.com/searxng/searxng/commits/master
-
-.. |weblate| image:: https://translate.codeberg.org/widgets/searxng/-/searxng/svg-badge.svg
-   :target: https://translate.codeberg.org/projects/searxng/
+![|SearXNG install|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/-install-blue.svg)
+![|SearXNG homepage|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/-homepage-blue.svg)
+![|SearXNG wiki|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/-wiki-blue.svg)
+![|AGPL License|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/license-AGPL-blue.svg)
+![|Issues|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/searxng.svg)
+![|PR|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/searxng.svg)
+![|commits|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/searxng.svg)
+![|weblate|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/svg-badge.svg)
 
 
 Contact
@@ -85,27 +58,29 @@ Setup
 - For individual setup consult our detailed `Step by step`_ instructions.
 - To fine-tune your instance, take a look at the `Administrator documentation`_.
 
-.. _Administrator documentation: https://docs.searxng.org/admin/index.html
-.. _Step by step: https://docs.searxng.org/admin/installation-searxng.html
-.. _installation scripts: https://docs.searxng.org/admin/installation-scripts.html
-.. _Docker image: https://github.com/searxng/searxng-docker
+Administrator documentation: https://docs.searxng.org/admin/index.html
+
+Step by step: https://docs.searxng.org/admin/installation-searxng.html
+
+installation scripts: https://docs.searxng.org/admin/installation-scripts.html
+
+Docker image: https://github.com/searxng/searxng-docker
 
 Translations
 ============
 
-.. _Weblate: https://translate.codeberg.org/projects/searxng/searxng/
+Weblate: https://translate.codeberg.org/projects/searxng/searxng/
 
 Help translate SearXNG at `Weblate`_
 
-.. figure:: https://translate.codeberg.org/widgets/searxng/-/multi-auto.svg
-   :target: https://translate.codeberg.org/projects/searxng/
-
+![figure](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/multi-auto.svg)
 
 Contributing
 ============
 
-.. _development quickstart: https://docs.searxng.org/dev/quickstart.html
-.. _developer documentation: https://docs.searxng.org/dev/index.html
+development quickstart: https://docs.searxng.org/dev/quickstart.html
+
+developer documentation: https://docs.searxng.org/dev/index.html
 
 Are you a developer?  Have a look at our `development quickstart`_ guide, it's
 very easy to contribute.  Additionally we have a `developer documentation`_.
@@ -125,6 +100,8 @@ You can contribute from your browser using `GitHub Codespaces`_:
 - You have `120 hours per month`_ (see also your `list of existing Codespaces`_)
 - You can start SearXNG using ``make run`` in the terminal or by pressing ``Ctrl+Shift+B``
 
-.. _GitHub Codespaces: https://docs.github.com/en/codespaces/overview
-.. _120 hours per month: https://github.com/settings/billing
-.. _list of existing Codespaces: https://github.com/codespaces
+GitHub Codespaces: https://docs.github.com/en/codespaces/overview
+
+120 hours per month: https://github.com/settings/billing
+
+list of existing Codespaces: https://github.com/codespaces

@@ -3,9 +3,7 @@
 ![Static Analysis](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/badge.svg)
 [![Localazy](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/endpoint.svg)](https://localazy.com/p/element-web)
 [![Quality Gate Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/measure.svg)](https://sonarcloud.io/summary/new_code?id=element-web)
-[![Coverage](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/measure.svg)](https://sonarcloud.io/summary/new_code?id=element-web)
-[![Vulnerabilities](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/measure.svg)](https://sonarcloud.io/summary/new_code?id=element-web)
-[![Bugs](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/element-web/image/measure.svg)](https://sonarcloud.io/summary/new_code?id=element-web)
+
 
 # Element
 

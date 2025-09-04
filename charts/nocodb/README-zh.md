@@ -22,7 +22,7 @@ NocoDB 是在线构建数据库最快、最简单的方式。
     <a href="https://docs.nocodb.com/"><b>文档</b></a>
 </p>
 
-![video avi](https://github.com/nocodb/nocodb/assets/86527202/e2fad786-f211-4dcb-9bd3-aaece83a6783)
+![video avi](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/277104231-e2fad786-f211-4dcb-9bd3-aaece83a6783.gif)
 
 <div align="center">
 

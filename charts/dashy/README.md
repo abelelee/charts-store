@@ -147,10 +147,10 @@ Dashy supports **1-Click deployments** on several popular cloud platforms. To sp
 - [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/heroku.png" width="18"/> Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/Lissy93/dashy)
 - [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/vercel.png" width="18"/> Deploy to Vercel](https://vercel.com/new/project?template=https://github.com/lissy93/dashy)
 - [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/render.png" width="18"/> Deploy to Render](https://render.com/deploy?repo=https://github.com/lissy93/dashy/tree/deploy_render)
-- [<img src="https://railway.app/brand/logo-light.png" width="18"/> Deploy to Railway](https://railway.app/template/MtdjAQ?referralCode=app)
+- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/68747470733a2f2f7261696c7761792e6170702f6272616e642f6c6f676f2d6c696768742e706e67.png" width="18"/> Deploy to Railway](https://railway.app/template/MtdjAQ?referralCode=app)
 - [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/googlecloud.png" width="18"/> Deploy to GCP](https://deploy.cloud.run/?git_repo=https://github.com/lissy93/dashy.git)
-- [<img src="https://i.ibb.co/HVWVYF7/docker.png" width="18"/> Deploy to PWD](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml)
-- [<img src="https://i.ibb.co/7NxnM2P/easypanel.png" width="18"/> Deploy to Easypanel](https://easypanel.io/docs/templates/dashy)
+- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/68747470733a2f2f692e6962622e636f2f485657565946372f646f636b65722e706e67.png" width="18"/> Deploy to PWD](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml)
+- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/68747470733a2f2f692e6962622e636f2f374e786e4d32502f6561737970616e656c2e706e67.png" width="18"/> Deploy to Easypanel](https://easypanel.io/docs/templates/dashy)
 
 > For more 1-click cloud deployments, see [Cloud Deployment](./docs/deployment.md#deploy-to-cloud-service)
 

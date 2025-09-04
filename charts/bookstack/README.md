@@ -8,12 +8,6 @@
 [![Maintainability](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/maintainability.svg)](https://codeclimate.com/github/BookStackApp/BookStack/maintainability)
 <br>
 [![Alternate Source](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://source.bookstackapp.com/)
-[![Repo Stats](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://gh-stats.bookstackapp.com/)
-[![Discord](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://www.bookstackapp.com/links/discord)
-[![Mastodon](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://www.bookstackapp.com/links/mastodon)
-<br>
-[![PeerTube](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://foss.video/c/bookstack)
-[![YouTube](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bookstack/image/v1.svg)](https://www.youtube.com/bookstackapp)
 
 A platform for storing and organising information and documentation. Details for BookStack can be found on the official website at https://www.bookstackapp.com/.
 
