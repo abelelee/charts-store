@@ -1,7 +1,3 @@
-以下是保留原始 Markdown 格式并翻译为中文的内容：
-
----
-
 <img src="./.github/screenshots/header.png#gh-light-mode-only" width="100%" alt="Header light mode"/>
 <img src="./.github/screenshots/header-dark.png#gh-dark-mode-only" width="100%" alt="Header dark mode"/>
 
