@@ -129,7 +129,7 @@ Android 快照每周自动构建一次，但如果有新内容需要测试，可
 
 ## 协议描述
 
-请参阅 **[protocol.txt](wsd/protocol.txt)** 以了解 WebSocket 上使用的协议描述。
+请参阅 **protocol.txt** 以了解 WebSocket 上使用的协议描述。
 
 ## 架构
 

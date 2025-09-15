@@ -25,31 +25,31 @@ ___
 获取Google搜索结果，但无任何广告、JavaScript、AMP链接、Cookie或IP地址跟踪。可一键部署为Docker应用，并可通过单个配置文件进行自定义。在桌面和移动设备上作为主要搜索引擎的替代方案，实现快速且简单的部署。
 
 目录
-1. [功能](#features)
-3. [安装/部署选项](#install)
-    1. [Heroku快速部署](#heroku-quick-deploy)
-    1. [Render.com](#render)
-    1. [Repl.it](#replit)
-    1. [Fly.io](#flyio)
-    1. [Koyeb](#koyeb)
-    1. [pipx](#pipx)
-    1. [pip](#pip)
-    1. [手动安装](#manual)
-    1. [Docker](#manual-docker)
-    1. [Arch/AUR](#arch-linux--arch-based-distributions)
-    1. [Helm/Kubernetes](#helm-chart-for-kubernetes)
-4. [环境变量和配置](#environment-variables)
-5. [使用方法](#usage)
-6. [额外步骤](#extra-steps)
-    1. [设置主搜索引擎](#set-whoogle-as-your-primary-search-engine)
-	2. [自定义重定向](#custom-redirecting)
-	2. [自定义Bangs](#custom-bangs)
-    3. [防止停机（仅限Heroku）](#prevent-downtime-heroku-only)
-    4. [手动HTTPS强制](#https-enforcement)
-    5. [与Firefox容器一起使用](#using-with-firefox-containers)
-    6. [反向代理](#reverse-proxying)
-        1. [Nginx](#nginx)
-7. [贡献](#contributing)
-8. [常见问题](#faq)
-9. [公共实例](#public-instances)
-10. [截图](#screenshots)
+1. 功能
+3. 安装/部署选项
+    1. Heroku快速部署
+    1. Render.com
+    1. Repl.it
+    1. Fly.io
+    1. Koyeb
+    1. pipx
+    1. pip
+    1. 手动安装
+    1. Docker
+    1. Arch/AUR
+    1. Helm/Kubernetes
+4. 环境变量和配置
+5. 使用方法
+6. 额外步骤
+    1. 设置主搜索引擎
+	2. 自定义重定向
+	2. 自定义Bangs
+    3. 防止停机（仅限Heroku）
+    4. 手动HTTPS强制
+    5. 与Firefox容器一起使用
+    6. 反向代理
+        1. Nginx
+7. 贡献
+8. 常见问题
+9. 公共实例
+10. 截图

@@ -334,4 +334,4 @@ Documentation is located at [zipline.diced.sh](https://zipline.diced.sh) and the
 
 # Security
 
-Security issues are taken seriously, and should be reported via [GitHub Advisories](https://github.com/diced/zipline/security/advisories). For more information see the [security policy](SECURITY.md).
+Security issues are taken seriously, and should be reported via [GitHub Advisories](https://github.com/diced/zipline/security/advisories). For more information see the security policy.

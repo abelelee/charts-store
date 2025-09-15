@@ -116,7 +116,7 @@ Make sure that you have enabled the automatic spam detection in the dashboard.
 #### Disabling SMTP Host verification check
 
 Commento++ allows configuration of the tlsConfig for both SMTPS as well as StartTLS for email sending.
-For context, this is required for the [https://cloudron.io/](Cloudron) app package.
+For context, this is required for the https://cloudron.io/ app package.
 
 To skip SMTP hostname verification, use:
 

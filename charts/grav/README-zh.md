@@ -95,7 +95,7 @@ $ bin/gpm update
 
 # 贡献
 
-我们非常欢迎对 Grav 的任何形式的贡献，无论是与 bug、语法相关，还是建议或改进！请参考 [贡献指南](CONTRIBUTING.md) 获取更多相关信息。
+我们非常欢迎对 Grav 的任何形式的贡献，无论是与 bug、语法相关，还是建议或改进！请参考 贡献指南 获取更多相关信息。
 
 ## 安全问题
 
@@ -120,7 +120,7 @@ $ bin/gpm update
 
 # 许可证
 
-请查看 [LICENSE](LICENSE.txt)
+请查看 LICENSE
 
 
 [gitflow-model]: http://nvie.com/posts/a-successful-git-branching-model/

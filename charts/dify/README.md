@@ -65,7 +65,7 @@ Dify is an open-source platform for developing LLM applications. Its intuitive i
 
 </br>
 
-The easiest way to start the Dify server is through [Docker Compose](docker/docker-compose.yaml). Before running Dify with the following commands, make sure that [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) are installed on your machine:
+The easiest way to start the Dify server is through Docker Compose. Before running Dify with the following commands, make sure that [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) are installed on your machine:
 
 ```bash
 cd dify
@@ -78,7 +78,7 @@ After running, you can access the Dify dashboard in your browser at [http://loca
 
 #### Seeking help
 
-Please refer to our [FAQ](https://docs.dify.ai/getting-started/install-self-hosted/faqs) if you encounter problems setting up Dify. Reach out to [the community and us](#community--contact) if you are still having issues.
+Please refer to our [FAQ](https://docs.dify.ai/getting-started/install-self-hosted/faqs) if you encounter problems setting up Dify. Reach out to the community and us if you are still having issues.
 
 > If you'd like to contribute to Dify or do additional development, refer to our [guide to deploying from source code](https://docs.dify.ai/getting-started/install-self-hosted/local-source-code)
 
@@ -181,7 +181,7 @@ All of Dify's offerings come with corresponding APIs, so you could effortlessly 
   We host a [Dify Cloud](https://dify.ai) service for anyone to try with zero setup. It provides all the capabilities of the self-deployed version, and includes 200 free GPT-4 calls in the sandbox plan.
 
 - **Self-hosting Dify Community Edition</br>**
-  Quickly get Dify running in your environment with this [starter guide](#quick-start).
+  Quickly get Dify running in your environment with this starter guide.
   Use our [documentation](https://docs.dify.ai) for further references and more in-depth instructions.
 
 - **Dify for enterprise / organizations</br>**
@@ -196,7 +196,7 @@ Star Dify on GitHub and be instantly notified of new releases.
 
 ## Advanced Setup
 
-If you need to customize the configuration, please refer to the comments in our [.env.example](docker/.env.example) file and update the corresponding values in your `.env` file. Additionally, you might need to make adjustments to the `docker-compose.yaml` file itself, such as changing image versions, port mappings, or volume mounts, based on your specific deployment environment and requirements. After making any changes, please re-run `docker-compose up -d`. You can find the full list of available environment variables [here](https://docs.dify.ai/getting-started/install-self-hosted/environments).
+If you need to customize the configuration, please refer to the comments in our .env.example file and update the corresponding values in your `.env` file. Additionally, you might need to make adjustments to the `docker-compose.yaml` file itself, such as changing image versions, port mappings, or volume mounts, based on your specific deployment environment and requirements. After making any changes, please re-run `docker-compose up -d`. You can find the full list of available environment variables [here](https://docs.dify.ai/getting-started/install-self-hosted/environments).
 
 If you'd like to configure a highly-available setup, there are community-contributed [Helm Charts](https://helm.sh/) and YAML files which allow Dify to be deployed on Kubernetes.
 
@@ -270,4 +270,4 @@ To protect your privacy, please avoid posting security issues on GitHub. Instead
 
 ## License
 
-This repository is licensed under the [Dify Open Source License](LICENSE), based on Apache 2.0 with additional conditions.
+This repository is licensed under the Dify Open Source License, based on Apache 2.0 with additional conditions.

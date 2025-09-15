@@ -43,7 +43,7 @@ A full-stack application that enables you to turn any document, resource, or pie
 <details>
 <summary><kbd>Watch the demo!</kbd></summary>
 
-[![Watch the video](/images/youtube.png)](https://youtu.be/f95rGD9trL0)
+![Watch the video](https://youtu.be/f95rGD9trL0)
 
 </details>
 
@@ -65,7 +65,7 @@ AnythingLLM divides your documents into objects called `workspaces`. A Workspace
 - 📖 Multiple document type support (PDF, TXT, DOCX, etc)
 - Simple chat UI with Drag-n-Drop functionality and clear citations.
 - 100% Cloud deployment ready.
-- Works with all popular [closed and open-source LLM providers](#supported-llms-embedder-models-speech-models-and-vector-databases).
+- Works with all popular closed and open-source LLM providers.
 - Built-in cost & time-saving measures for managing very large documents compared to any other chat UI.
 - Full Developer API for custom integrations!
 - Much more...install and find out!
@@ -74,7 +74,7 @@ AnythingLLM divides your documents into objects called `workspaces`. A Workspace
 
 **Large Language Models (LLMs):**
 
-- [Any open-source llama.cpp compatible model](/server/storage/models/README.md#text-generation-llm-selection)
+- Any open-source llama.cpp compatible model
 - [OpenAI](https://openai.com)
 - [OpenAI (Generic)](https://openai.com)
 - [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
@@ -105,7 +105,7 @@ AnythingLLM divides your documents into objects called `workspaces`. A Workspace
 
 **Embedder models:**
 
-- [AnythingLLM Native Embedder](/server/storage/models/README.md) (default)
+- AnythingLLM Native Embedder (default)
 - [OpenAI](https://openai.com)
 - [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
 - [LocalAI (all)](https://localai.io/)
@@ -164,7 +164,7 @@ Mintplex Labs & the community maintain a number of deployment methods, scripts, 
 | --- | --- | --- |
 | [![Deploy on Railway][railway-btn]][railway-deploy] | [![Deploy on RepoCloud][repocloud-btn]][repocloud-deploy] | [![Deploy on Elestio][elestio-btn]][elestio-deploy] |
 
-[or set up a production AnythingLLM instance without Docker →](./BARE_METAL.md)
+or set up a production AnythingLLM instance without Docker →
 
 ## How to setup for development
 
@@ -174,9 +174,9 @@ Mintplex Labs & the community maintain a number of deployment methods, scripts, 
 - `yarn dev:frontend` To boot the frontend locally (from root of repo).
 - `yarn dev:collector` To then run the document collector (from root of repo).
 
-[Learn about documents](./server/storage/documents/DOCUMENTS.md)
+Learn about documents
 
-[Learn about vector caching](./server/storage/vector-cache/VECTOR_CACHE.md)
+Learn about vector caching
 
 ## External Apps & Integrations
 
@@ -225,7 +225,7 @@ We take privacy very seriously, and we hope you understand that we want to learn
 
 ## 👋 Contributing
 
-- [Contributing to AnythingLLM](./CONTRIBUTING.md) - How to contribute to AnythingLLM.
+- Contributing to AnythingLLM - How to contribute to AnythingLLM.
 
 ## 💖 Sponsors
 
@@ -261,7 +261,7 @@ We take privacy very seriously, and we hope you understand that we want to learn
 ---
 
 Copyright © 2025 [Mintplex Labs][profile-link]. <br />
-This project is [MIT](./LICENSE) licensed.
+This project is MIT licensed.
 
 <!-- LINK GROUP -->
 

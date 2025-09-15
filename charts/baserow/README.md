@@ -27,24 +27,24 @@ docker run -v baserow_data:/baserow/data -p 80:80 -p 443:443 baserow/baserow:1.3
 **We're hiring remotely**! More information at https://baserow.io/jobs.
 
 Join our forum at https://community.baserow.io/. See
-[CONTRIBUTING.md](./CONTRIBUTING.md) on how to become a contributor.
+CONTRIBUTING.md on how to become a contributor.
 
 ## Installation
 
-* [**Docker**](docs/installation/install-with-docker.md)
-* [**Ubuntu**](docs/installation/install-on-ubuntu.md)
-* [**Docker Compose** ](docs/installation/install-with-docker-compose.md)
-* [**Heroku**: Easily install and scale up Baserow on Heroku.](docs/installation/install-on-heroku.md)
-* [**Render**: Easily install and scale up Baserow on Render.](docs/installation/install-on-render.md)
-* [**Digital Ocean**: Easily install and scale up Baserow on Digital Ocean.](docs/installation/install-on-digital-ocean.md)
-* [**Cloudron**: Install and update Baserow on your own Cloudron server.](docs/installation/install-on-cloudron.md)
-* [**Railway**: Install Baserow via Railway.](docs/installation/install-on-railway.md)
+* **Docker**
+* **Ubuntu**
+* **Docker Compose** 
+* **Heroku**: Easily install and scale up Baserow on Heroku.
+* **Render**: Easily install and scale up Baserow on Render.
+* **Digital Ocean**: Easily install and scale up Baserow on Digital Ocean.
+* **Cloudron**: Install and update Baserow on your own Cloudron server.
+* **Railway**: Install Baserow via Railway.
 * [**Elestio**: Fully managed by Elestio.](https://elest.io/open-source/baserow)
 
 ## Official documentation
 
 The official documentation can be found on the website at https://baserow.io/docs/index
-or [here](./docs/index.md) inside the repository. The API docs can be found here at
+or here inside the repository. The API docs can be found here at
 https://api.baserow.io/api/redoc/ or if you are looking for the OpenAPI schema here
 https://api.baserow.io/api/schema.json.
 
@@ -72,7 +72,7 @@ version in development mode with hot code reloading and other dev features enabl
 
 More detailed instructions and more information about the development environment can be
 found
-at [https://baserow.io/docs/development/development-environment](./docs/development/development-environment.md)
+at https://baserow.io/docs/development/development-environment
 .
 
 ## Plugin development
@@ -80,8 +80,8 @@ at [https://baserow.io/docs/development/development-environment](./docs/developm
 Because of the modular architecture of Baserow it is possible to create plugins. Make
 your own fields, views, applications, pages, or endpoints. We also have a plugin
 boilerplate to get you started right away. More information can be found in the
-[plugin introduction](./docs/plugins/introduction.md) and in the
-[plugin boilerplate docs](./docs/plugins/boilerplate.md).
+plugin introduction and in the
+plugin boilerplate docs.
 
 ## Meta
 
@@ -93,6 +93,6 @@ Version: 1.34.5
 
 The official repository can be found at https://gitlab.com/baserow/baserow.
 
-The changelog can be found [here](./changelog.md).
+The changelog can be found here.
 
 Become a GitHub Sponsor [here](https://github.com/sponsors/bram2w).

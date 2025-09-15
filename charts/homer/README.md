@@ -53,18 +53,18 @@
 
 ## Table of Contents
 
-- [Getting started](#get-started)
-- [Kubernetes Installation](docs/kubernetes.md)
-- [Configuration](docs/configuration.md)
-- [Theming](docs/theming.md)
-- [Smart cards](docs/customservices.md)
-- [Tips & tricks](docs/tips-and-tricks.md)
-- [Development](docs/development.md)
-- [Troubleshooting](docs/troubleshooting.md)
+- Getting started
+- Kubernetes Installation
+- Configuration
+- Theming
+- Smart cards
+- Tips & tricks
+- Development
+- Troubleshooting
 
 ## Get started
 
-Homer is a full static html/js dashboard, based on a simple yaml configuration file. See [documentation](docs/configuration.md) for information about the configuration (`assets/config.yml`) options.
+Homer is a full static html/js dashboard, based on a simple yaml configuration file. See documentation for information about the configuration (`assets/config.yml`) options.
 
 It's meant to be served by an HTTP server, **it will not work if you open the index.html directly over file:// protocol**.
 

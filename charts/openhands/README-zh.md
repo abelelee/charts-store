@@ -111,7 +111,7 @@ OpenHands是一个社区驱动的项目，我们欢迎每个人的贡献。我�
 - [加入我们的Discord服务器](https://discord.gg/ESHStjSjD4) - 这是一个社区运营的服务器，用于一般讨论、问题和反馈。
 - [阅读或发布Github问题](https://github.com/All-Hands-AI/OpenHands/issues) - 查看我们正在处理的问题，或添加您自己的想法。
 
-在[COMMUNITY.md](./COMMUNITY.md)中了解更多关于社区的信息，或在[CONTRIBUTING.md](./CONTRIBUTING.md)中找到有关贡献的详细信息。
+在COMMUNITY.md中了解更多关于社区的信息，或在CONTRIBUTING.md中找到有关贡献的详细信息。
 
 ## 📈 进展
 
@@ -125,13 +125,13 @@ OpenHands是一个社区驱动的项目，我们欢迎每个人的贡献。我�
 
 ## 📜 许可证
 
-根据MIT许可证分发。有关更多信息，请参阅[`LICENSE`](./LICENSE)。
+根据MIT许可证分发。有关更多信息，请参阅`LICENSE`。
 
 ## 🙏 致谢
 
 OpenHands由大量贡献者构建，每一份贡献都备受感谢！我们还借鉴了其他开源项目，对他们的工作深表感谢。
 
-有关OpenHands中使用的开源项目和许可证列表，请参阅我们的[CREDITS.md](./CREDITS.md)文件。
+有关OpenHands中使用的开源项目和许可证列表，请参阅我们的CREDITS.md文件。
 
 ## 📚 引用
 

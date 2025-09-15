@@ -144,4 +144,4 @@ Before you can use Gitpod:
 
 ### Resources
 
-See the readmes in the [frontend](./frontend/README.md) and [backend](./backend/README.md) directories.
+See the readmes in the frontend and backend directories.

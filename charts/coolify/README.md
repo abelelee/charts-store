@@ -20,7 +20,7 @@ For more information, take a look at our landing page at [coolify.io](https://co
 ```bash
 curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash
 ```
-You can find the installation script source [here](./scripts/install.sh).
+You can find the installation script source here.
 
 > [!NOTE]
 > Please refer to the [docs](https://coolify.io/docs/installation) for more information about the installation.

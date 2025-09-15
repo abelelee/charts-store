@@ -39,7 +39,7 @@ git clone https://github.com/n4ze3m/dialoqbase.git
 cd dialoqbase/docker
 ```
 
-2. 编辑 `.env` 文件 <!--(更多详情请参阅 [环境变量](#environment-variables) 部分)-->:
+2. 编辑 `.env` 文件 <!--(更多详情请参阅 环境变量 部分)-->:
 
 - 在 Linux 上：
 
@@ -170,7 +170,7 @@ Dialoqbase 是一个个人项目，尚未准备好用于生产环境。它仍处
   <img src="https://contrib.rocks/image?repo=n4ze3m/dialoqbase" />
 </a>
 
-有兴趣贡献？请查看 [贡献指南](CONTRIBUTION.md)。
+有兴趣贡献？请查看 贡献指南。
 
 ## 赞助商 💖
 
@@ -186,4 +186,4 @@ Dialoqbase 的发展离不开我们优秀赞助商的支持。如果您有兴趣
 
 ## 许可证 📝
 
-[MIT](LICENSE)
+MIT

@@ -54,25 +54,25 @@ Feel free to contact us [on the chat](https://carbone.io) if you need further in
 
 ## Table of content
 
-README language: 🇨🇳 [简体中文](./doc/README.zh-cn.md), 🇺🇸 [English](README.md)
+README language: 🇨🇳 简体中文, 🇺🇸 English
 
 <!-- MarkdownTOC -->
 
-- [Features](#features)
-- [How it works?](#how-it-works)
-- [Minimum Requirements](#minimum-requirements)
-- [Getting started](#getting-started)
-  - [Basic sample](#basic-sample)
-  - [PDF generation, document conversion](#pdf-generation-document-conversion)
-- [More examples](#more-examples)
-- [API Reference](#api-reference)
-- [Command line tools](#command-line-tools)
-- [Issues](#issues)
-- [Roadmap](#roadmap)
-- [Performance](#performance)
-- [Licenses and editions](#licenses-and-editions)
-- [Philosophy](#philosophy)
-- [Contributors](#contributors)
+- Features
+- How it works?
+- Minimum Requirements
+- Getting started
+  - Basic sample
+  - PDF generation, document conversion
+- More examples
+- API Reference
+- Command line tools
+- Issues
+- Roadmap
+- Performance
+- Licenses and editions
+- Philosophy
+- Contributors
 
 <!-- /MarkdownTOC -->
 
@@ -298,7 +298,7 @@ On a MacBook Pro Mid-2015, 2,2 Ghz i7, 16Go.
 
 There are two editions of Carbone:
 
-- Carbone Community Edition is freely available under the [CCL Agreement](LICENSE.md). Roughly speaking, as long as you are not offering Carbone Community Edition Software as a hosted
+- Carbone Community Edition is freely available under the CCL Agreement. Roughly speaking, as long as you are not offering Carbone Community Edition Software as a hosted
   Document-Generator-as-a-Service like [Carbone Cloud](https://carbone.io/pricing.html), you can use and modify all Community features for free.
 - Carbone Enterprise Edition (hosted and on-premise) includes additional features. Here is a [high-level comparison table](https://carbone.io/documentation/design/overview/template-feature.html#template-types) of community and enterprise features.
 

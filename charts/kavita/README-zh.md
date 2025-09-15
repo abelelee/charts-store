@@ -67,7 +67,7 @@ Kavita 目前正在积极开发中，在 1.0 版本发布之前应视为 Beta �
 
 ## 贡献者
 
-感谢所有为本项目做出贡献的人和下游库的维护者。[参与贡献](CONTRIBUTING.md)。
+感谢所有为本项目做出贡献的人和下游库的维护者。参与贡献。
 <a href="https://github.com/Kareadita/Kavita/graphs/contributors">
 <img src="https://opencollective.com/kavita/contributors.svg?width=890&button=false&avatarHeight=42" />
 </a>

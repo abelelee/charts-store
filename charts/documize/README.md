@@ -107,4 +107,4 @@ We aim to respond within two working days.
 
 This software (Documize Community edition) is licensed under GNU AGPL v3 <http://www.gnu.org/licenses/agpl-3.0.en.html>.
 
-Documize Community uses other open source components and we acknowledge them in [NOTICES](NOTICES.md)
+Documize Community uses other open source components and we acknowledge them in NOTICES

@@ -29,15 +29,15 @@ Ackee 是一个注重隐私的自托管分析工具。我们相信你不需要�
 
 ## 📚 文档
 
-文档和指南位于 [docs 文件夹](docs/) 中。如果你还有疑问，请查看 [FAQ](docs/FAQ.md)。
+文档和指南位于 docs 文件夹中。如果你还有疑问，请查看 FAQ。
 
 ### API
 
-Ackee 提供一个 [GraphQL API](docs/API.md)，允许你基于 Ackee 构建自定义工具。你在界面上看到的所有数据都来自该 API。
+Ackee 提供一个 GraphQL API，允许你基于 Ackee 构建自定义工具。你在界面上看到的所有数据都来自该 API。
 
 ### 配置项
 
-Ackee 使用环境变量，并支持在项目根目录中使用 [`.env` 文件](https://www.npmjs.com/package/dotenv) 来集中存储所有变量。[配置项说明 &#187;](docs/Options.md)
+Ackee 使用环境变量，并支持在项目根目录中使用 [`.env` 文件](https://www.npmjs.com/package/dotenv) 来集中存储所有变量。配置项说明 &#187;
 
 ### 相关项目
 

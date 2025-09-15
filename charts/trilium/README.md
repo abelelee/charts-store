@@ -5,7 +5,7 @@
 ![GitHub Downloads (all assets, all releases)](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/total.svg)  
 [![RelativeCI](https://camo.githubusercontent.com/0dc2dbfd5ed96a4e173339f8f41658a1219e3be27b07ea3a7ba2eece69f1a264/68747470733a2f2f6261646765732e72656c61746976652d63692e636f6d2f6261646765732f4469357137647a3964614e445a395558693042703f6272616e63683d646576656c6f70)](https://app.relative-ci.com/projects/Di5q7dz9daNDZ9UXi0Bp) [![Translation status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/svg-badge.svg)](https://hosted.weblate.org/engage/trilium/)
 
-[English](README.md) | [Chinese](./docs/README-ZH_CN.md) | [Russian](./docs/README.ru.md) | [Japanese](./docs/README.ja.md) | [Italian](./docs/README.it.md) | [Spanish](./docs/README.es.md)
+English | Chinese | Russian | Japanese | Italian | Spanish
 
 Trilium Notes is a free and open-source, cross-platform hierarchical note taking application with focus on building large personal knowledge bases.
 
@@ -22,7 +22,7 @@ See [screenshots](https://triliumnext.github.io/Docs/Wiki/screenshot-tour) for q
 * Seamless [note versioning](https://triliumnext.github.io/Docs/Wiki/note-revisions)
 * Note [attributes](https://triliumnext.github.io/Docs/Wiki/attributes) can be used for note organization, querying and advanced [scripting](https://triliumnext.github.io/Docs/Wiki/scripts)
 * UI available in English, German, Spanish, French, Romanian, and Chinese (simplified and traditional)
-* Direct [OpenID and TOTP integration](./docs/User%20Guide/User%20Guide/Installation%20%26%20Setup/Server%20Installation/Multi-Factor%20Authentication.md) for more secure login
+* Direct OpenID and TOTP integration for more secure login
 * [Synchronization](https://triliumnext.github.io/Docs/Wiki/synchronization) with self-hosted sync server
   * there's a [3rd party service for hosting synchronisation server](https://trilium.cc/paid-hosting)
 * [Sharing](https://triliumnext.github.io/Docs/Wiki/sharing) (publishing) notes to public internet
@@ -30,7 +30,7 @@ See [screenshots](https://triliumnext.github.io/Docs/Wiki/screenshot-tour) for q
 * Sketching diagrams, based on [Excalidraw](https://excalidraw.com/) (note type "canvas")
 * [Relation maps](https://triliumnext.github.io/Docs/Wiki/relation-map) and [link maps](https://triliumnext.github.io/Docs/Wiki/link-map) for visualizing notes and their relations
 * Mind maps, based on [Mind Elixir](https://docs.mind-elixir.com/)
-* [Geo maps](./docs/User%20Guide/User%20Guide/Note%20Types/Geo%20Map.md) with location pins and GPX tracks
+* Geo maps with location pins and GPX tracks
 * [Scripting](https://triliumnext.github.io/Docs/Wiki/scripts) - see [Advanced showcases](https://triliumnext.github.io/Docs/Wiki/advanced-showcases)
 * [REST API](https://triliumnext.github.io/Docs/Wiki/etapi) for automation
 * Scales well in both usability and performance upwards of 100 000 notes
@@ -39,7 +39,7 @@ See [screenshots](https://triliumnext.github.io/Docs/Wiki/screenshot-tour) for q
 * [Evernote](https://triliumnext.github.io/Docs/Wiki/evernote-import) and [Markdown import & export](https://triliumnext.github.io/Docs/Wiki/markdown)
 * [Web Clipper](https://triliumnext.github.io/Docs/Wiki/web-clipper) for easy saving of web content
 * Customizable UI (sidebar buttons, user-defined widgets, ...)
-* [Metrics](./docs/User%20Guide/User%20Guide/Advanced%20Usage/Metrics.md), along with a [Grafana Dashboard](./docs/User%20Guide/User%20Guide/Advanced%20Usage/Metrics/grafana-dashboard.json)
+* Metrics, along with a Grafana Dashboard
 
 ✨ Check out the following third-party resources/communities for more TriliumNext related goodies:
 
@@ -52,19 +52,19 @@ See [screenshots](https://triliumnext.github.io/Docs/Wiki/screenshot-tour) for q
 
 ### Migrating from Trilium?
 
-There are no special migration steps to migrate from a zadam/Trilium instance to a TriliumNext/Notes instance. Simply [install TriliumNext/Notes](#-installation) as usual and it will use your existing database.
+There are no special migration steps to migrate from a zadam/Trilium instance to a TriliumNext/Notes instance. Simply install TriliumNext/Notes as usual and it will use your existing database.
 
 Versions up to and including [v0.90.4](https://github.com/TriliumNext/Notes/releases/tag/v0.90.4) are compatible with the latest zadam/trilium version of [v0.63.7](https://github.com/zadam/trilium/releases/tag/v0.63.7). Any later versions of TriliumNext have their sync versions incremented.
 
 ## 📖 Documentation
 
-We're currently in the progress of moving the documentation to in-app (hit the `F1` key within Trilium). As a result, there may be some missing parts until we've completed the migration. If you'd prefer to navigate through the documentation within GitHub, you can navigate the [User Guide](./docs/User%20Guide/User%20Guide/) documentation. 
+We're currently in the progress of moving the documentation to in-app (hit the `F1` key within Trilium). As a result, there may be some missing parts until we've completed the migration. If you'd prefer to navigate through the documentation within GitHub, you can navigate the User Guide documentation. 
 
 Below are some quick links for your convenience to navigate the documentation:
-- [Server installation](./docs/User%20Guide/User%20Guide/Installation%20&%20Setup/Server%20Installation.md)
-  - [Docker installation](./docs/User%20Guide/User%20Guide/Installation%20&%20Setup/Server%20Installation/1.%20Installing%20the%20server/Using%20Docker.md)
-- [Upgrading TriliumNext](./docs/User%20Guide/User%20Guide/Installation%20%26%20Setup/Upgrading%20TriliumNext.md)
-- [Concepts and Features - Note](./docs/User%20Guide/User%20Guide/Basic%20Concepts%20and%20Features/Notes.md)
+- Server installation
+  - Docker installation
+- Upgrading TriliumNext
+- Concepts and Features - Note
 - [Patterns of personal knowledge base](https://triliumnext.github.io/Docs/Wiki/patterns-of-personal-knowledge)
 
 Until we finish reorganizing the documentation, you may also want to [browse the old documentation](https://triliumnext.github.io/Docs).
@@ -74,7 +74,7 @@ Until we finish reorganizing the documentation, you may also want to [browse the
 Feel free to join our official conversations. We would love to hear what features, suggestions, or issues you may have!
 
 - [Matrix](https://matrix.to/#/#triliumnext:matrix.org) (For synchronous discussions.)
-  - The `General` Matrix room is also bridged to [XMPP](xmpp:discuss@trilium.thisgreat.party?join)
+  - The `General` Matrix room is also bridged to XMPP
 - [Github Discussions](https://github.com/TriliumNext/Notes/discussions) (For asynchronous discussions.)
 - [Github Issues](https://github.com/TriliumNext/Notes/issues) (For bug reports and feature requests.)
 
@@ -155,7 +155,7 @@ For more details, see the [development docs](https://github.com/TriliumNext/Note
 
 ### Developer Documentation
 
-Please view the [documentation guide](./docs/Developer%20Guide/Developer%20Guide/Environment%20Setup.md) for details. If you have more questions, feel free to reach out via the links described in the "Discuss with us" section above.
+Please view the documentation guide for details. If you have more questions, feel free to reach out via the links described in the "Discuss with us" section above.
 
 ## 👏 Shoutouts
 
@@ -167,7 +167,7 @@ Please view the [documentation guide](./docs/Developer%20Guide/Developer%20Guide
 ## 🤝 Support
 
 Support for the TriliumNext organization will be possible in the near future. For now, you can:
-- Support continued development on TriliumNext by supporting our developers: [eliandoran](https://github.com/sponsors/eliandoran) (See the [repository insights]([developers]([url](https://github.com/TriliumNext/Notes/graphs/contributors))) for a full list)
+- Support continued development on TriliumNext by supporting our developers: [eliandoran](https://github.com/sponsors/eliandoran) (See the repository insights)) for a full list)
 - Show a token of gratitude to the original Trilium developer ([zadam](https://github.com/sponsors/zadam)) via [PayPal](https://paypal.me/za4am) or Bitcoin (bitcoin:bc1qv3svjn40v89mnkre5vyvs2xw6y8phaltl385d2).
 
 ## 🔑 License

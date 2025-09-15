@@ -110,9 +110,9 @@ AutoGen 生态系统提供了创建 AI 智能体所需的一切，特别是多�
 
 该 _框架_ 采用分层和可扩展的设计。各层职责明确划分，并建立在下层之上。这种设计使您可以在不同的抽象级别使用该框架，从高级 API 到低级组件。
 
-- [Core API](./python/packages/autogen-core/) 实现了消息传递、事件驱动的智能体，以及灵活强大的本地和分布式运行时。它还支持 .NET 和 Python 的跨语言支持。
-- [AgentChat API](./python/packages/autogen-agentchat/) 实现了一个更简单但有特定设计取向的 API，用于快速原型设计。此 API 建立在 Core API 之上，最接近 v0.2 用户所熟悉的内容，并支持常见的多智能体模式，如双智能体聊天或群聊。
-- [Extensions API](./python/packages/autogen-ext/) 使第一方和第三方扩展能够持续扩展框架功能。它支持特定的 LLM 客户端实现（例如 OpenAI、AzureOpenAI），以及代码执行等功能。
+- Core API 实现了消息传递、事件驱动的智能体，以及灵活强大的本地和分布式运行时。它还支持 .NET 和 Python 的跨语言支持。
+- AgentChat API 实现了一个更简单但有特定设计取向的 API，用于快速原型设计。此 API 建立在 Core API 之上，最接近 v0.2 用户所熟悉的内容，并支持常见的多智能体模式，如双智能体聊天或群聊。
+- Extensions API 使第一方和第三方扩展能够持续扩展框架功能。它支持特定的 LLM 客户端实现（例如 OpenAI、AzureOpenAI），以及代码执行等功能。
 
 该生态系统还支持两个关键的 _开发工具_：
 
@@ -120,10 +120,10 @@ AutoGen 生态系统提供了创建 AI 智能体所需的一切，特别是多�
   <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/autogen-studio/image/ags_screen.png" alt="AutoGen Studio 截图" width="500">
 </div>
 
-- [AutoGen Studio](./python/packages/autogen-studio/) 提供了一个无代码的 GUI，用于构建多智能体应用程序。
-- [AutoGen Bench](./python/packages/agbench/) 提供了一个基准测试套件，用于评估智能体性能。
+- AutoGen Studio 提供了一个无代码的 GUI，用于构建多智能体应用程序。
+- AutoGen Bench 提供了一个基准测试套件，用于评估智能体性能。
 
-您可以使用 AutoGen 框架和开发工具为您的领域创建应用程序。例如，[Magentic-One](./python/packages/magentic-one-cli/) 是一个使用 AgentChat API 和 Extensions API 构建的最先进的多智能体团队，可以处理需要网络浏览、代码执行和文件处理的各种任务。
+您可以使用 AutoGen 框架和开发工具为您的领域创建应用程序。例如，Magentic-One 是一个使用 AgentChat API 和 Extensions API 构建的最先进的多智能体团队，可以处理需要网络浏览、代码执行和文件处理的各种任务。
 
 通过 AutoGen，您可以加入并为一个蓬勃发展的生态系统做出贡献。我们每周都会举办办公时间会议和维护者及社区成员的讲座。我们还有一个 [Discord 服务器](https://aka.ms/autogen-discord) 用于实时聊天，GitHub 讨论区用于问答，以及一个博客用于教程和更新。
 
@@ -141,13 +141,13 @@ AutoGen 生态系统提供了创建 AI 智能体所需的一切，特别是多�
 
 </div>
 
-有兴趣贡献吗？请参阅 [CONTRIBUTING.md](./CONTRIBUTING.md) 以获取如何开始的指南。我们欢迎各种类型的贡献，包括错误修复、新功能和文档改进。加入我们的社区，帮助我们使 AutoGen 更加完善！
+有兴趣贡献吗？请参阅 CONTRIBUTING.md 以获取如何开始的指南。我们欢迎各种类型的贡献，包括错误修复、新功能和文档改进。加入我们的社区，帮助我们使 AutoGen 更加完善！
 
-有问题吗？请查看我们的 [常见问题解答 (FAQ)](./FAQ.md) 以获取常见问题的答案。如果您找不到所需内容，可以在我们的 [GitHub Discussions](https://github.com/microsoft/autogen/discussions) 中提问，或加入我们的 [Discord 服务器](https://aka.ms/autogen-discord) 以获得实时支持。您还可以阅读我们的 [博客](https://devblogs.microsoft.com/autogen/) 以获取更新。
+有问题吗？请查看我们的 常见问题解答 (FAQ) 以获取常见问题的答案。如果您找不到所需内容，可以在我们的 [GitHub Discussions](https://github.com/microsoft/autogen/discussions) 中提问，或加入我们的 [Discord 服务器](https://aka.ms/autogen-discord) 以获得实时支持。您还可以阅读我们的 [博客](https://devblogs.microsoft.com/autogen/) 以获取更新。
 
 ## 法律声明
 
-微软和任何贡献者授予您一个许可，允许您根据 [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode) 使用本仓库中的微软文档和其他内容，请参见 [LICENSE](LICENSE) 文件，并授予您根据 [MIT License](https://opensource.org/licenses/MIT) 使用本仓库中的代码的许可，请参见 [LICENSE-CODE](LICENSE-CODE) 文件。
+微软和任何贡献者授予您一个许可，允许您根据 [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode) 使用本仓库中的微软文档和其他内容，请参见 LICENSE 文件，并授予您根据 [MIT License](https://opensource.org/licenses/MIT) 使用本仓库中的代码的许可，请参见 LICENSE-CODE 文件。
 
 本文档中提到的 Microsoft、Windows、Microsoft Azure 和/或其他 Microsoft 产品和服务可能是 Microsoft 在美国和/或其他国家的商标或注册商标。本项目的许可证不授予您使用任何 Microsoft 名称、标志或商标的权利。Microsoft 的一般商标指南可在 <http://go.microsoft.com/fwlink/?LinkID=254653> 找到。
 

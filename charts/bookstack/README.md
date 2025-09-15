@@ -92,11 +92,11 @@ Big thanks to these companies for supporting the project.
 
 ## 🛠️ Development & Testing
 
-Please see our [development docs](dev/docs/development.md) for full details regarding work on the BookStack source code.
+Please see our development docs for full details regarding work on the BookStack source code.
 
 If you're just looking to customize or extend your own BookStack instance, take a look at our [Hacking BookStack documentation page](https://www.bookstackapp.com/docs/admin/hacking-bookstack/) for details on various options to achieve this without altering the BookStack source code.
 
-Details about BookStack's versioning scheme and the general release process [can be found here](dev/docs/release-process.md).
+Details about BookStack's versioning scheme and the general release process can be found here.
 
 ## 🌎 Translations
 
@@ -172,4 +172,4 @@ Note: This is not an exhaustive list of all libraries and projects that would be
 * [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) - _[BSD 3-Clause](https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt)_
 * [JakeArchibald/IDB-Keyval](https://github.com/jakearchibald/idb-keyval) - _[Apache-2.0](https://github.com/jakearchibald/idb-keyval/blob/main/LICENCE)_
 
-For a detailed breakdown of the JavaScript & PHP projects imported & used via NPM & composer package managers, along with their licenses, please see the [dev/licensing/js-library-licenses.txt](dev/licensing/js-library-licenses.txt) and [dev/licensing/php-library-licenses.txt](dev/licensing/php-library-licenses.txt) files. 
+For a detailed breakdown of the JavaScript & PHP projects imported & used via NPM & composer package managers, along with their licenses, please see the dev/licensing/js-library-licenses.txt and dev/licensing/php-library-licenses.txt files. 

@@ -17,7 +17,7 @@ _它被设计为个人使用（单用户）、快速且便捷。_
 ## 快速开始
 
 - [文档](https://shaarli.readthedocs.io)
-- [更新日志](CHANGELOG.md)
+- 更新日志
 - [问题反馈/功能请求/讨论](https://github.com/shaarli/Shaarli/issues/)
 
 ### 演示
@@ -29,4 +29,4 @@ _它被设计为个人使用（单用户）、快速且便捷。_
 
 ### 许可证
 
-Shaarli 是 [自由软件](http://zh.wikipedia.org/wiki/自由软件)。详见 [COPYING](COPYING) 文件，其中包含了贡献者信息以及各个组件的许可证详情。
+Shaarli 是 [自由软件](http://zh.wikipedia.org/wiki/自由软件)。详见 COPYING 文件，其中包含了贡献者信息以及各个组件的许可证详情。

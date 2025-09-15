@@ -21,12 +21,12 @@
 ## 目录
 
 - [Endurain 文档](https://docs.endurain.com)
-- [什么是 Endurain？](#什么是-endurain)
+- 什么是 Endurain？
 - [Endurain 截图](https://docs.endurain.com/gallery/)
-- [赞助者](#赞助者)
-- [贡献指南](#贡献指南)
-- [协助翻译](#协助翻译)
-- [许可证](#许可证)
+- 赞助者
+- 贡献指南
+- 协助翻译
+- 许可证
 
 ## 什么是 Endurain？
 
@@ -50,7 +50,7 @@ Endurain 是一个自托管的健身追踪服务，旨在让用户完全掌控�
 
 ## 贡献指南
 
-我们欢迎任何形式的贡献！在提交 PR 之前，请先创建一个 issue 来讨论任何更改或改进。更多详情请查看 [贡献指南](CONTRIBUTING.md)。
+我们欢迎任何形式的贡献！在提交 PR 之前，请先创建一个 issue 来讨论任何更改或改进。更多详情请查看 贡献指南。
 
 ## 协助翻译
 
@@ -58,4 +58,4 @@ Endurain 支持多语言，你可以通过 [Crowdin](https://crowdin.com/project
 
 ## 许可证
 
-本项目采用 AGPL-3.0 许可证 —— 详见 [LICENSE](LICENSE) 文件。
+本项目采用 AGPL-3.0 许可证 —— 详见 LICENSE 文件。

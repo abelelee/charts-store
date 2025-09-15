@@ -27,7 +27,7 @@ Unleash 是 GitHub 上最受欢迎的开源功能开关解决方案。它支持 
 
 ### 安装配置 Unleash
 
-要开始使用 Unleash，你可以选择试用 [Unleash Enterprise](#unleash-enterprise)，或者使用我们的开源版本 [本地部署](#unleash-open-source)。
+要开始使用 Unleash，你可以选择试用 Unleash Enterprise，或者使用我们的开源版本 本地部署。
 
 #### Unleash Enterprise
 
@@ -50,11 +50,11 @@ docker compose up -d
 - 用户名：`admin`
 - 密码：`unleash4all`
 
-如果你想直接通过 Node.js 运行此仓库中的源代码，请参阅 [贡献指南中的逐步说明](./CONTRIBUTING.md#how-to-run-the-project)。
+如果你想直接通过 Node.js 运行此仓库中的源代码，请参阅 贡献指南中的逐步说明。
 
 ### 连接你的 SDK
 
-在 [我们的官方 SDK 列表](#unleash-sdks) 中找到你偏好的 SDK 并导入到你的项目中。然后按照特定 SDK 的设置指南进行操作。
+在 我们的官方 SDK 列表 中找到你偏好的 SDK 并导入到你的项目中。然后按照特定 SDK 的设置指南进行操作。
 
 如果你使用的是上一步中提供的 docker compose 文件，以下是启动所需配置信息：
 
@@ -107,7 +107,7 @@ if (unleash.isEnabled("AwesomeFeature")) {
 
 Unleash 是 GitHub 上最大的 [开源功能开关解决方案](https://www.getunleash.io/)。Unleash 的开发是一个协作过程，我们非常感谢许多聪明且有才华的个人的贡献。与社区一起构建 Unleash，确保我们打造的产品能真正解决实际问题。我们也非常欢迎你的帮助：请随时提交 issue 或 pull request。
 
-请查看 [CONTRIBUTING.md 文件](./CONTRIBUTING.md) 获取贡献指南，以及 [Unleash 开发者指南](./website/docs/contributing/developer-guide.md) 获取环境设置、运行测试和从源码运行 Unleash 的提示。
+请查看 CONTRIBUTING.md 文件 获取贡献指南，以及 Unleash 开发者指南 获取环境设置、运行测试和从源码运行 Unleash 的提示。
 
 ## 用户喜爱的功能
 

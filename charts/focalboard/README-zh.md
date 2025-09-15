@@ -115,6 +115,6 @@ make
 
 ### 获取最新动态
 
-* **更新日志**：查看 [CHANGELOG](CHANGELOG.md) 获取最新更新
+* **更新日志**：查看 CHANGELOG 获取最新更新
 * **问题反馈**：[提交问题报告](https://github.com/mattermost/focalboard/issues/new?assignees=&labels=bug&template=bug_report.md&title=)
 * **交流社区**：加入 [~Focalboard 社区频道](https://community.mattermost.com/core/channels/focalboard)

@@ -6,14 +6,14 @@
 
 ## 🗂️ 概览
 
-- 🛠 [功能](#-功能)
-- 🧱 [技术栈](#-技术栈)
-- 🚀 [快速开始](#-快速开始)
-- 🌐 [部署](#-部署)
-- 🔎 [搜索引擎](#-搜索引擎)
-- 💙 [赞助商](#-赞助商)
-- 👥 [贡献指南](#-贡献指南)
-- 📄 [许可证](#-许可证)
+- 🛠 功能
+- 🧱 技术栈
+- 🚀 快速开始
+- 🌐 部署
+- 🔎 搜索引擎
+- 💙 赞助商
+- 👥 贡献指南
+- 📄 许可证
 
 📝 探索 AI 生成的文档：[DeepWiki](https://deepwiki.com/miurla/morphic)
 
@@ -54,7 +54,7 @@
 - xAI（Grok）
 - OpenAI 兼容接口
 
-模型配置位于 `public/config/models.json`。每个模型都需要在环境变量中设置相应的 API 密钥。详情请参阅 [配置指南](docs/CONFIGURATION.md)。
+模型配置位于 `public/config/models.json`。每个模型都需要在环境变量中设置相应的 API 密钥。详情请参阅 配置指南。
 
 ### 搜索能力
 
@@ -135,7 +135,7 @@ OPENAI_API_KEY=     # 从 https://platform.openai.com/api-keys 获取
 TAVILY_API_KEY=     # 从 https://app.tavily.com/home 获取
 ```
 
-关于可选功能的配置（Redis、SearXNG 等），请参阅 [CONFIGURATION.md](./docs/CONFIGURATION.md)
+关于可选功能的配置（Redis、SearXNG 等），请参阅 CONFIGURATION.md
 
 ### 4. 本地运行应用
 
@@ -215,7 +215,7 @@ services:
 
 我们欢迎对 Morphic 的各种贡献！无论是提交 bug 报告、功能请求，还是提交 Pull Request，我们都十分感激。
 
-请参阅我们的 [贡献指南](CONTRIBUTING.md) 获取以下信息：
+请参阅我们的 贡献指南 获取以下信息：
 
 - 如何提交问题
 - 如何提交 Pull Request
@@ -224,4 +224,4 @@ services:
 
 ## 📄 许可证
 
-本项目采用 Apache License 2.0 许可证 — 详情请参阅 [LICENSE](LICENSE) 文件。
+本项目采用 Apache License 2.0 许可证 — 详情请参阅 LICENSE 文件。

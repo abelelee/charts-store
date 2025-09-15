@@ -46,7 +46,7 @@ Radarr 是一个面向 Usenet 和 BitTorrent 用户的电影收藏管理工具�
 [API 文档](https://radarr.video/docs/api/)
 
 本项目感谢所有贡献者的支持。
-- [参与贡献 (GitHub)](CONTRIBUTING.md)
+- 参与贡献 (GitHub)
 - [贡献指南 (Wiki 文章)](https://wiki.servarr.com/radarr/contributing)
 
 [![贡献者列表](https://opencollective.com/Radarr/contributors.svg?width=890&button=false)](https://github.com/Radarr/Radarr/graphs/contributors)

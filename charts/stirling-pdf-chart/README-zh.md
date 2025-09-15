@@ -159,8 +159,8 @@ Stirling PDF 提供企业版软件。它基于相同出色的软件，但增加�
 ## 🤝 想要贡献代码？
 
 加入我们的社区：
-- [贡献指南](CONTRIBUTING.md)
-- [翻译指南（如何添加自定义语言）](devGuide/HowToAddNewLanguage.md)
-- [开发者指南](devGuide/DeveloperGuide.md)
+- 贡献指南
+- 翻译指南（如何添加自定义语言）
+- 开发者指南
 - [问题跟踪](https://github.com/Stirling-Tools/Stirling-PDF/issues)
 - [Discord 社区](https://discord.gg/HYmhKj45pU)

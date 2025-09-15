@@ -19,7 +19,7 @@ Coolify 是 Heroku / Netlify / Vercel / 等平台的开源且可自托管的替�
 ```bash
 curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash
 ```
-你可以在这里查看安装脚本的源码 [这里](./scripts/install.sh)。
+你可以在这里查看安装脚本的源码 这里。
 
 > [!NOTE]
 > 更多安装信息请参考 [文档](https://coolify.io/docs/installation)。

@@ -27,34 +27,34 @@ ___
 Get Google search results, but without any ads, JavaScript, AMP links, cookies, or IP address tracking. Easily deployable in one click as a Docker app, and customizable with a single config file. Quick and simple to implement as a primary search engine replacement on both desktop and mobile.
 
 Contents
-1. [Features](#features)
-3. [Install/Deploy Options](#install)
-    1. [Heroku Quick Deploy](#heroku-quick-deploy)
-    1. [Render.com](#render)
-    1. [Repl.it](#replit)
-    1. [Fly.io](#flyio)
-    1. [Koyeb](#koyeb)
-    1. [pipx](#pipx)
-    1. [pip](#pip)
-    1. [Manual](#manual)
-    1. [Docker](#manual-docker)
-    1. [Arch/AUR](#arch-linux--arch-based-distributions)
-    1. [Helm/Kubernetes](#helm-chart-for-kubernetes)
-4. [Environment Variables and Configuration](#environment-variables)
-5. [Usage](#usage)
-6. [Extra Steps](#extra-steps)
-    1. [Set Primary Search Engine](#set-whoogle-as-your-primary-search-engine)
-	2. [Custom Redirecting](#custom-redirecting)
-	2. [Custom Bangs](#custom-bangs)
-    3. [Prevent Downtime (Heroku Only)](#prevent-downtime-heroku-only)
-    4. [Manual HTTPS Enforcement](#https-enforcement)
-    5. [Using with Firefox Containers](#using-with-firefox-containers)
-    6. [Reverse Proxying](#reverse-proxying)
-        1. [Nginx](#nginx)
-7. [Contributing](#contributing)
-8. [FAQ](#faq)
-9. [Public Instances](#public-instances)
-10. [Screenshots](#screenshots)
+1. Features
+3. Install/Deploy Options
+    1. Heroku Quick Deploy
+    1. Render.com
+    1. Repl.it
+    1. Fly.io
+    1. Koyeb
+    1. pipx
+    1. pip
+    1. Manual
+    1. Docker
+    1. Arch/AUR
+    1. Helm/Kubernetes
+4. Environment Variables and Configuration
+5. Usage
+6. Extra Steps
+    1. Set Primary Search Engine
+	2. Custom Redirecting
+	2. Custom Bangs
+    3. Prevent Downtime (Heroku Only)
+    4. Manual HTTPS Enforcement
+    5. Using with Firefox Containers
+    6. Reverse Proxying
+        1. Nginx
+7. Contributing
+8. FAQ
+9. Public Instances
+10. Screenshots
 
 ## Features
 - No ads or sponsored content
@@ -72,7 +72,7 @@ Contents
 - Randomly generated User Agent
 - Easy to install/deploy
 - DDG-style bang (i.e. `!<tag> <query>`) searches
-- User-defined [custom bangs](#custom-bangs)
+- User-defined custom bangs
 - Optional location-based searching (i.e. results near \<city\>)
 - Optional NoJS mode to view search results in a separate window with JavaScript blocked
 
@@ -198,7 +198,7 @@ optional arguments:
   --proxyloc <location:port>
                         Sets a proxy location for all connections (default None)
 ```
-See the [available environment variables](#environment-variables) for additional configuration.
+See the available environment variables for additional configuration.
 
 ___
 
@@ -225,7 +225,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ./run
 ```
-See the [available environment variables](#environment-variables) for additional configuration.
+See the available environment variables for additional configuration.
 
 #### systemd Configuration
 After building the virtual environment, you can add something like the following to `/lib/systemd/system/whoogle.service` to set up a Whoogle Search systemd service:
@@ -307,7 +307,7 @@ There are two authentication methods, password and cookie. You will need to make
     3. Restart the tor service:
        - `systemctl restart tor`
 
-    4. Set the Tor environment variable to 1, `WHOOGLE_CONFIG_TOR`. Refer to the [Environment Variables](#environment-variables) section for more details.
+    4. Set the Tor environment variable to 1, `WHOOGLE_CONFIG_TOR`. Refer to the Environment Variables section for more details.
        - This may be added in the systemd unit file or env file `WHOOGLE_CONFIG_TOR=1`
 
   * Password
@@ -320,13 +320,13 @@ There are two authentication methods, password and cookie. You will need to make
        - `ControlPort 9051`
        - `HashedControlPassword {Place output here}`; put the output of the previous command in place of `{Place output here}`.
 
-    3. Now take the password from the first step and place it in the control.conf file within the whoogle working directory, ie. [misc/tor/control.conf](misc/tor/control.conf)
-       - If you want to place your password file in a different location set this location with the `WHOOGLE_TOR_CONF` environment variable. Refer to the [Environment Variables](#environment-variables) section for more details.
+    3. Now take the password from the first step and place it in the control.conf file within the whoogle working directory, ie. misc/tor/control.conf
+       - If you want to place your password file in a different location set this location with the `WHOOGLE_TOR_CONF` environment variable. Refer to the Environment Variables section for more details.
 
     4. Heavily restrict access to control.conf to only be readable by the user running whoogle:
        - `chmod 400 control.conf`
 
-    5. Finally set the Tor environment variable and use password variable to 1, `WHOOGLE_CONFIG_TOR` and `WHOOGLE_TOR_USE_PASS`. Refer to the [Environment Variables](#environment-variables) section for more details.
+    5. Finally set the Tor environment variable and use password variable to 1, `WHOOGLE_CONFIG_TOR` and `WHOOGLE_TOR_USE_PASS`. Refer to the Environment Variables section for more details.
        - These may be added to the systemd unit file or env file:
           - `WHOOGLE_CONFIG_TOR=1`
           - `WHOOGLE_TOR_USE_PASS=1`
@@ -405,7 +405,7 @@ ___
 To use the Kubernetes Helm Chart:
 1. Ensure you have [Helm](https://helm.sh/docs/intro/install/) `>=3.0.0` installed
 2. Clone this repository
-3. Update [charts/whoogle/values.yaml](./charts/whoogle/values.yaml) as desired
+3. Update charts/whoogle/values.yaml as desired
 4. Run `helm upgrade --install whoogle ./charts/whoogle`
 
 ___
@@ -440,7 +440,7 @@ There are a few optional environment variables available for customizing a Whoog
 | WHOOGLE_USER_AGENT   | The desktop user agent to use. Defaults to a randomly generated one.                      |
 | WHOOGLE_USER_AGENT_MOBILE | The mobile user agent to use. Defaults to a randomly generated one.                  |
 | WHOOGLE_USE_CLIENT_USER_AGENT | Enable to use your own user agent for all requests. Defaults to false.           |
-| WHOOGLE_REDIRECTS    | Specify sites that should be redirected elsewhere. See [custom redirecting](#custom-redirecting). |
+| WHOOGLE_REDIRECTS    | Specify sites that should be redirected elsewhere. See custom redirecting. |
 | EXPOSE_PORT          | The port where Whoogle will be exposed.                                                   |
 | HTTPS_ONLY           | Enforce HTTPS. (See [here](https://github.com/benbusby/whoogle-search#https-enforcement)) |
 | WHOOGLE_ALT_TW       | The twitter.com alternative to use when site alternatives are enabled in the config. Set to "" to disable. |
@@ -507,7 +507,7 @@ Browser settings:
     - Previous versions
       - Navigate to your app's url, and click the 3 dot menu in the address bar. At the bottom, there should be an option to "Add Search Engine".
     - Once you've added the new search engine, open your Firefox Preferences menu, click "Search" in the left menu, and use the available dropdown to select "Whoogle" from the list.
-    - **Note**: If your Whoogle instance uses Firefox Containers, you'll need to [go through the steps here](#using-with-firefox-containers) to get it working properly.
+    - **Note**: If your Whoogle instance uses Firefox Containers, you'll need to go through the steps here to get it working properly.
   - Firefox (iOS)
     - In the mobile app Settings page, tap "Search" within the "General" section. There should be an option titled "Add Search Engine" to select. It should prompt you to enter a title and search query url - use the following elements to fill out the form:
       - Title: "Whoogle"
@@ -602,7 +602,7 @@ Unfortunately, Firefox Containers do not currently pass through `POST` requests 
 2. Enable `GET Requests Only` in Whoogle config
 3. Clear Firefox cache
 4. Restart Firefox
-5. Navigate to Whoogle instance and [re-add the engine](#set-whoogle-as-your-primary-search-engine)
+5. Navigate to Whoogle instance and re-add the engine
 
 ### Reverse Proxying
 

@@ -110,7 +110,7 @@ volumes:
 
 ### Docker 容器
 
-关于在容器中运行 Etherpad 的信息，请查看 [这里](doc/docker.adoc)。
+关于在容器中运行 Etherpad 的信息，请查看 这里。
 
 ## 插件
 

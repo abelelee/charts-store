@@ -117,7 +117,7 @@ Here is what you need to be able to run Cal.com.
 - PostgreSQL (Version: >=13.x)
 - Yarn _(recommended)_
 
-> If you want to enable any of the available integrations, you may want to obtain additional credentials for each one. More details on this can be found below under the [integrations section](#integrations).
+> If you want to enable any of the available integrations, you may want to obtain additional credentials for each one. More details on this can be found below under the integrations section.
 
 ## Development
 
@@ -452,7 +452,7 @@ Cal.com, Inc. is a commercial open source company, which means some parts of thi
 
 ## Contributing
 
-Please see our [contributing guide](/CONTRIBUTING.md).
+Please see our contributing guide.
 
 ### Good First Issues
 
@@ -490,7 +490,7 @@ Don't code but still want to contribute? Join our [Discussions](https://github.c
 - Set CSP_POLICY="non-strict" env variable, which enables [Strict CSP](https://web.dev/strict-csp/) except for unsafe-inline in style-src . If you have some custom changes in your instance, you might have to make some code change to make your instance CSP compatible. Right now it enables strict CSP only on login page and on other SSR pages it is enabled in Report only mode to detect possible issues. On, SSG pages it is still not supported.
 
 ## Single Org Mode
-Refer to docs [here](./docs/self-hosting/guides/organization/single-organization-setup) for a detailed documentation with screenshots.
+Refer to docs here for a detailed documentation with screenshots.
 
 
 ## Integrations
@@ -562,7 +562,7 @@ following
 
 ### Obtaining Basecamp Client ID and Secret
 
-1. Visit the [37 Signals Integrations Dashboard](launchpad.37signals.com/integrations) and sign in.
+1. Visit the 37 Signals Integrations Dashboard and sign in.
 2. Register a new application by clicking the Register one now link.
 3. Fill in your company details.
 4. Select Basecamp 4 as the product to integrate with.
@@ -586,7 +586,7 @@ following
 
 ### Obtaining Webex Client ID and Secret
 
-[See Webex Readme](./packages/app-store/webex/)
+See Webex Readme
 
 ### Obtaining ZohoCRM Client ID and Secret
 
@@ -603,15 +603,15 @@ following
 
 ### Obtaining Zoho Calendar Client ID and Secret
 
-[Follow these steps](./packages/app-store/zohocalendar/)
+Follow these steps
 
 ### Obtaining Zoho Bigin Client ID and Secret
 
-[Follow these steps](./packages/app-store/zoho-bigin/)
+Follow these steps
 
 ### Obtaining Pipedrive Client ID and Secret
 
-[Follow these steps](./packages/app-store/pipedrive-crm/)
+Follow these steps
 
 ## Workflows
 

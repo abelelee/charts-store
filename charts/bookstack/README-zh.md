@@ -92,11 +92,11 @@ BookStack 并非设计为一个可扩展平台，用于实现上述声明以外�
 
 ## 🛠️ 开发与测试
 
-有关 BookStack 源代码开发的详细信息，请参阅我们的[开发文档](dev/docs/development.md)。
+有关 BookStack 源代码开发的详细信息，请参阅我们的开发文档。
 
 如果您只是想自定义或扩展自己的 BookStack 实例，请查看我们的[Hacking BookStack 文档页面](https://www.bookstackapp.com/docs/admin/hacking-bookstack/)，了解各种无需修改 BookStack 源代码即可实现的方法。
 
-有关 BookStack 的版本控制方案和一般发布流程的信息[可以在此处找到](dev/docs/release-process.md)。
+有关 BookStack 的版本控制方案和一般发布流程的信息可以在此处找到。
 
 ## 🌎 翻译
 
@@ -172,4 +172,4 @@ BookStack 源代码采用 [MIT 许可证](https://github.com/BookStackApp/BookSt
 * [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) - _[BSD 3-Clause](https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt)_
 * [JakeArchibald/IDB-Keyval](https://github.com/jakearchibald/idb-keyval) - _[Apache-2.0](https://github.com/jakearchibald/idb-keyval/blob/main/LICENCE)_
 
-有关通过 NPM 和 composer 包管理器导入和使用的 JavaScript 和 PHP 项目的详细许可证分解，请参阅 [dev/licensing/js-library-licenses.txt](dev/licensing/js-library-licenses.txt) 和 [dev/licensing/php-library-licenses.txt](dev/licensing/php-library-licenses.txt) 文件。
+有关通过 NPM 和 composer 包管理器导入和使用的 JavaScript 和 PHP 项目的详细许可证分解，请参阅 dev/licensing/js-library-licenses.txt 和 dev/licensing/php-library-licenses.txt 文件。

@@ -115,6 +115,6 @@ Before checking in commits, run `make ci`, which is similar to the `.gitlab-ci.y
 
 ### Staying informed
 
-* **Changes**: See the [CHANGELOG](CHANGELOG.md) for the latest updates
+* **Changes**: See the CHANGELOG for the latest updates
 * **Bug Reports**: [File a bug report](https://github.com/mattermost/focalboard/issues/new?assignees=&labels=bug&template=bug_report.md&title=)
 * **Chat**: Join the [~Focalboard community channel](https://community.mattermost.com/core/channels/focalboard)

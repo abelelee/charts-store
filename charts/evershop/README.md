@@ -99,7 +99,7 @@ If a similar feature request already exists, don't forget to leave a "+1".
 If you add some more information such as your thoughts and vision about the feature, your comments will be embraced warmly :)
 
 
-Please refer to our [Contribution Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CODE_OF_CONDUCT.md).
+Please refer to our Contribution Guidelines and Code of Conduct.
 
 ## License
 

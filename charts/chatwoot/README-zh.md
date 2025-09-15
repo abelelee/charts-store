@@ -124,7 +124,7 @@ Chatwoot 现在支持作为 Kubernetes 应用一键部署到 DigitalOcean。
 
 ## 安全
 
-如需报告漏洞，请参阅我们的 [SECURITY.md](./SECURITY.md) 文件。
+如需报告漏洞，请参阅我们的 SECURITY.md 文件。
 
 ## 社区
 

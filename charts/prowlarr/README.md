@@ -46,7 +46,7 @@ Note: GitHub Issues are for Bugs and Feature Requests Only
 
 This project exists thanks to all the people who contribute.
 
-- [Contribute (GitHub)](CONTRIBUTING.md)
+- Contribute (GitHub)
 - [Contribution (Wiki Article)](https://wiki.servarr.com/prowlarr/contributing)
 - [YML Indexer Definition (Wiki Article)](https://wiki.servarr.com/prowlarr/cardigann-yml-definition)
 

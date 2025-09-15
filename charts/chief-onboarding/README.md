@@ -56,4 +56,4 @@ If you don't want to deal with hosting, maintaining and backing up your ChiefOnb
 Please do not create an issue if you found a potential security issue. Email me directly at security@chiefonboarding.com and we will get it resolved ASAP.
 
 ## License
-This project is licensed under the AGPLv3 License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the AGPLv3 License - see the LICENSE.md file for details.

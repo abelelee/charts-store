@@ -40,7 +40,7 @@ If you find it useful, please consider contributing to support its development.
 
 ## Building calibre binaries
 
-See [Build instructions](bypy/README.rst) for instructions on how to build the
+See Build instructions for instructions on how to build the
 calibre binaries and installers for all the platforms calibre supports.
 
 ## calibre package versions in various repositories

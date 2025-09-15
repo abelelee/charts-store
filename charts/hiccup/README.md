@@ -176,7 +176,7 @@ All the config information is stored in **LocalStorage** and never sent to a ser
 
 #### Config structure
 
-Refer to the [JSON Scheme file](src/modules/validateConfig/schema.json) for the latest schema.
+Refer to the JSON Scheme file for the latest schema.
 
 ### Caching
 

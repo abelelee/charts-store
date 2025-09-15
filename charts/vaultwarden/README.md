@@ -1,6 +1,6 @@
 ![Vaultwarden Logo](./resources/vaultwarden-logo-auto.svg)
 
-An alternative server implementation of the Bitwarden Client API, written in Rust and compatible with [official Bitwarden clients](https://bitwarden.com/download/) [[disclaimer](#disclaimer)], perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.
+An alternative server implementation of the Bitwarden Client API, written in Rust and compatible with [official Bitwarden clients](https://bitwarden.com/download/) [disclaimer], perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.
 
 ---
 
@@ -22,7 +22,7 @@ An alternative server implementation of the Bitwarden Client API, written in Rus
 [![Discourse Discussions](https://img.shields.io/discourse/topics?server=https%3A%2F%2Fvaultwarden.discourse.group%2F&style=flat-square&logo=discourse&color=953B00)](https://vaultwarden.discourse.group/)
 
 > [!IMPORTANT]
-> **When using this server, please report any bugs or suggestions directly to us (see [Get in touch](#get-in-touch)), regardless of whatever clients you are using (mobile, desktop, browser...). DO NOT use the official Bitwarden support channels.**
+> **When using this server, please report any bugs or suggestions directly to us (see Get in touch), regardless of whatever clients you are using (mobile, desktop, browser...). DO NOT use the official Bitwarden support channels.**
 
 <br>
 

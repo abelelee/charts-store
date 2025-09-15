@@ -44,8 +44,8 @@ ScribeWizard is a streamlit app that scaffolds the creation of structured lectur
 
 | Example                                      | Youtube Link                                                                                                                                |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Transformers Explained by Google Cloud Tech](examples/transformers_explained/generated_notes.pdf)             |  https://www.youtube.com/watch?v=SZorAJ4I-sA                                       |
-| [The Essence of Calculus by 3Blue1Brown](examples/essence_calculus/generated_notes.pdf) | https://www.youtube.com/watch?v=WUvTyaaNkzM                                            |
+| Transformers Explained by Google Cloud Tech             |  https://www.youtube.com/watch?v=SZorAJ4I-sA                                       |
+| The Essence of Calculus by 3Blue1Brown | https://www.youtube.com/watch?v=WUvTyaaNkzM                                            |
 
 > As with all generative AI, content may include inaccurate or placeholder information. ScribeWizard is in beta and all feedback is welcome!
 

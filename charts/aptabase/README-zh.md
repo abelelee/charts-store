@@ -48,7 +48,7 @@
 
 我们欢迎所有人参与贡献！如果你想为 Aptabase 做出贡献，请阅读以下指南以开始。
 
-[参与贡献 →](./CONTRIBUTING.md)
+参与贡献 →
 
 # SDK 支持
 
@@ -80,6 +80,6 @@ Aptabase 深受 [Plausible](https://github.com/plausible/analytics) 的启发。
 
 # 许可证
 
-Aptabase 采用 [AGPLv3 许可证](./LICENSE) 开源。你可以免费使用，但必须公开你对代码所做的任何修改。
+Aptabase 采用 AGPLv3 许可证 开源。你可以免费使用，但必须公开你对代码所做的任何修改。
 
 SDK 采用 MIT 许可证开源。你可以在你的应用中无限制地使用。

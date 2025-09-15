@@ -1,6 +1,6 @@
 # Duplicati
 
-[English](./README.md) | **中文** | [日本語](./README.ja-JP.md)
+English | **中文** | 日本語
 
 [中文官网](https://duplicati.com)
 

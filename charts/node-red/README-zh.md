@@ -63,4 +63,4 @@ Node-RED 是 [OpenJS 基金会](http://openjsf.org) 的项目。
 
 ## 版权与许可
 
-版权由 OpenJS 基金会及其他贡献者所有，https://openjsf.org，采用 [Apache 2.0 许可证](LICENSE) 发布。
+版权由 OpenJS 基金会及其他贡献者所有，https://openjsf.org，采用 Apache 2.0 许可证 发布。

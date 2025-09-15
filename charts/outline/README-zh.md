@@ -37,7 +37,7 @@ Outline 由一个小团队开发和维护 —— 我们非常欢迎你帮助修�
 
 如果你正在寻找可以开始贡献的方向，以下是一些可以帮助我们改进 Outline 的方式：
 
-- 将内容[翻译](docs/TRANSLATION.md)成其他语言
+- 将内容翻译成其他语言
 - 参与标记为 [`good first issue`](https://github.com/outline/outline/labels/good%20first%20issue) 的问题
 - 提升服务器端和前端的性能
 - 提升开发体验和编写文档
@@ -45,7 +45,7 @@ Outline 由一个小团队开发和维护 —— 我们非常欢迎你帮助修�
 
 ## 架构
 
-如果你有兴趣参与贡献或了解 Outline 的代码库，请首先阅读[架构文档](docs/ARCHITECTURE.md)，以获得对应用程序整体结构的高层次了解。
+如果你有兴趣参与贡献或了解 Outline 的代码库，请首先阅读架构文档，以获得对应用程序整体结构的高层次了解。
 
 ## 调试
 
@@ -101,4 +101,4 @@ yarn sequelize db:migrate --env test
 
 # 许可证
 
-Outline 使用 [BSL 1.1 许可证](LICENSE) 进行授权。
+Outline 使用 BSL 1.1 许可证 进行授权。

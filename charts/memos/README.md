@@ -21,13 +21,13 @@ A modern, open-source, self-hosted knowledge management and note-taking platform
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Quick Start](#quick-start)
-- [Installation Methods](#installation-methods)
-- [Development Setup](#development-setup)
-- [Contributing](#contributing)
-- [License](#license)
+- Overview
+- Key Features
+- Quick Start
+- Installation Methods
+- Development Setup
+- Contributing
+- License
 
 ## Overview
 
@@ -205,7 +205,7 @@ Memos is released under the MIT License, providing maximum flexibility for both 
 - **Distribution**: Share modified versions while maintaining license attribution
 - **Private Use**: Use Memos internally without disclosure requirements
 
-See the [LICENSE](./LICENSE) file for complete licensing terms.
+See the LICENSE file for complete licensing terms.
 
 ## Project Status
 

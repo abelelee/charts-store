@@ -50,12 +50,12 @@ docker compose up
 
 ## 许可证
 
-Automatisch 社区版（Automatisch CE）是开源软件，采用 [AGPL-3.0 许可证](LICENSE.agpl)。
+Automatisch 社区版（Automatisch CE）是开源软件，采用 AGPL-3.0 许可证。
 
-Automatisch 企业版（Automatisch EE）是商业产品，采用 [企业许可证](LICENSE.enterprise)。
+Automatisch 企业版（Automatisch EE）是商业产品，采用 企业许可证。
 
 Automatisch 仓库中包含 AGPL 许可和企业许可的文件。我们维护一个统一的仓库以方便开发。
 
-所有文件名中包含 `.ee.` 的文件均受 [企业许可证](LICENSE.enterprise) 约束，其他文件则受 [AGPL-3.0 许可证](LICENSE.agpl) 约束。
+所有文件名中包含 `.ee.` 的文件均受 企业许可证 约束，其他文件则受 AGPL-3.0 许可证 约束。
 
-更多信息请参见 [LICENSE](LICENSE) 文件。
+更多信息请参见 LICENSE 文件。

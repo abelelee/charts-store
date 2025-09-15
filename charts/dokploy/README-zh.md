@@ -117,4 +117,4 @@ curl -sSL https://dokploy.com/install.sh | sh
 
 ## 🤝 参与贡献
 
-更多信息请查看 [贡献指南](CONTRIBUTING.md)。
+更多信息请查看 贡献指南。

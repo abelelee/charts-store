@@ -49,7 +49,7 @@ Installation instructions can be found below and in the [Wiki](https://github.co
 
 ## ⌨️ How to use?
 
-There are different options for how to use Wakapi, ranging from our hosted cloud service to self-hosting it. Regardless of which option choose, you will always have to do the [client setup](#-client-setup) in addition.
+There are different options for how to use Wakapi, ranging from our hosted cloud service to self-hosting it. Regardless of which option choose, you will always have to do the client setup in addition.
 
 ### ☁️ Option 1: Use [wakapi.dev](https://wakapi.dev)
 
@@ -124,7 +124,7 @@ $ ./wakapi -config wakapi.yml
 
 **Note:** Check the comments in `config.yml` for best practices regarding security configuration and more.
 
-💡 When running Wakapi standalone (without Docker), it is recommended to run it as a [SystemD service](etc/wakapi.service).
+💡 When running Wakapi standalone (without Docker), it is recommended to run it as a SystemD service.
 
 ### 💻 Client setup
 
@@ -168,7 +168,7 @@ You can specify configuration options either via a config file (default: `config
 | `app.heartbeat_max_age /`<br>`WAKAPI_HEARTBEAT_MAX_AGE`                                     | `4320h`                                          | Maximum acceptable age of a heartbeat (see [`ParseDuration`](https://pkg.go.dev/time#ParseDuration))                                                                       |
 | `app.warm_caches /`<br>`WAKAPI_WARM_CACHES`                                                 | `true`                                           | Whether to perform some initial cache warming upon startup                                                                                                                 |
 | `app.custom_languages`                                                                      | -                                                | Map from file endings to language names                                                                                                                                    |
-| `app.avatar_url_template` /<br>`WAKAPI_AVATAR_URL_TEMPLATE`                                 | (see [`config.default.yml`](config.default.yml)) | URL template for external user avatar images (e.g. from [Dicebear](https://dicebear.com) or [Gravatar](https://gravatar.com))                                              |
+| `app.avatar_url_template` /<br>`WAKAPI_AVATAR_URL_TEMPLATE`                                 | (see `config.default.yml`) | URL template for external user avatar images (e.g. from [Dicebear](https://dicebear.com) or [Gravatar](https://gravatar.com))                                              |
 | `app.date_format` /<br>`WAKAPI_DATE_FORMAT`                                                 | `Mon, 02 Jan 2006`                               | Go time format strings to format human-readable date (see [`Time.Format`](https://pkg.go.dev/time#Time.Format))                                                            |
 | `app.datetime_format` /<br>`WAKAPI_DATETIME_FORMAT`                                         | `Mon, 02 Jan 2006 15:04`                         | Go time format strings to format human-readable datetime (see [`Time.Format`](https://pkg.go.dev/time#Time.Format))                                                        |
 | `app.support_contact` /<br>`WAKAPI_SUPPORT_CONTACT`                                         | `hostmaster@wakapi.dev`                          | E-Mail address to display as a support contact on the page                                                                                                                 |
@@ -375,7 +375,7 @@ Simply install the [Executor](https://extensions.gnome.org/extension/2932/execut
 
 ## 📦 Data Export
 
-You can export your coding activity from Wakapi to CSV in the form of raw heartbeats. While there is no way to achieve this directly through the web UI, we provide an easy-to-use Python [script](scripts/download_heartbeats.py)
+You can export your coding activity from Wakapi to CSV in the form of raw heartbeats. While there is no way to achieve this directly through the web UI, we provide an easy-to-use Python script
 instead.
 
 ```bash
@@ -422,7 +422,7 @@ API tests are implemented as black box tests, which interact with a fully-fledge
 
 Our API (or end-to-end, in some way) tests are implemented as a [Bruno](https://www.usebruno.com/) collection and can be run either from inside Bruno, or using [Bruno CLI](https://www.npmjs.com/package/@usebruno/cli) as a command-line runner.
 
-To get a predictable environment, tests are run against a fresh and clean Wakapi instance with a SQLite database that is populated with nothing but some seed data (see [data.sql](testing/data.sql)). It is usually recommended for software tests to be [safe](https://www.restapitutorial.com/lessons/idempotency.html), stateless and without side effects. In contrary to that paradigm, our API tests strictly require a fixed execution order (which Bruno assures) and their assertions may rely on specific previous tests having succeeded.
+To get a predictable environment, tests are run against a fresh and clean Wakapi instance with a SQLite database that is populated with nothing but some seed data (see data.sql). It is usually recommended for software tests to be [safe](https://www.restapitutorial.com/lessons/idempotency.html), stateless and without side effects. In contrary to that paradigm, our API tests strictly require a fixed execution order (which Bruno assures) and their assertions may rely on specific previous tests having succeeded.
 
 #### Prerequisites (Linux only)
 
@@ -451,7 +451,7 @@ $ yarn
 $ yarn build  # or: yarn watch
 ```
 
-New icons can be added by editing the `icons` array in [scripts/bundle_icons.js](scripts/bundle_icons.js).
+New icons can be added by editing the `icons` array in scripts/bundle_icons.js.
 
 #### Precompression
 

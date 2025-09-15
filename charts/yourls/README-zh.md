@@ -94,4 +94,4 @@ __在提交任何问题之前，请先搜索现有的 [问题](https://github.co
 ## 许可证
 
 自由软件。你可以随意使用。  
-YOURLS 基于 [MIT 许可证](LICENSE) 发布。
+YOURLS 基于 MIT 许可证 发布。

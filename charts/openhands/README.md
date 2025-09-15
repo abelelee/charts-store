@@ -121,7 +121,7 @@ through Slack, so this is the best place to start, but we also are happy to have
 - [Join our Discord server](https://discord.gg/ESHStjSjD4) - This is a community-run server for general discussion, questions, and feedback.
 - [Read or post Github Issues](https://github.com/All-Hands-AI/OpenHands/issues) - Check out the issues we're working on, or add your own ideas.
 
-See more about the community in [COMMUNITY.md](./COMMUNITY.md) or find details on contributing in [CONTRIBUTING.md](./CONTRIBUTING.md).
+See more about the community in COMMUNITY.md or find details on contributing in CONTRIBUTING.md.
 
 ## 📈 Progress
 
@@ -135,13 +135,13 @@ See the monthly OpenHands roadmap [here](https://github.com/orgs/All-Hands-AI/pr
 
 ## 📜 License
 
-Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 🙏 Acknowledgements
 
 OpenHands is built by a large number of contributors, and every contribution is greatly appreciated! We also build upon other open source projects, and we are deeply thankful for their work.
 
-For a list of open source projects and licenses used in OpenHands, please see our [CREDITS.md](./CREDITS.md) file.
+For a list of open source projects and licenses used in OpenHands, please see our CREDITS.md file.
 
 ## 📚 Cite
 

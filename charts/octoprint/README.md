@@ -77,7 +77,7 @@ you already have Python 3.7+, pip and virtualenv and their dependencies set up o
    parameter, e.g. `virtualenv --python=python3 venv`.
 2. Install OctoPrint *into that virtual environment*: `./venv/bin/pip install OctoPrint`
 
-You may then start the OctoPrint server via `/path/to/OctoPrint/venv/bin/octoprint`, see [Usage](#usage)
+You may then start the OctoPrint server via `/path/to/OctoPrint/venv/bin/octoprint`, see Usage
 for details.
 
 After installation, please make sure you follow the first-run wizard and set up

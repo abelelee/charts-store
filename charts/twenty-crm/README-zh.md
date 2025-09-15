@@ -48,11 +48,11 @@
 
 以下是我们目前已实现的一些功能：
 
-+ [使用筛选、排序、分组、看板视图和表格视图个性化布局](#personalize-layouts-with-filters-sort-group-by-kanban-and-table-views)
-+ [自定义对象和字段](#customize-your-objects-and-fields)
-+ [通过自定义角色创建和管理权限](#create-and-manage-permissions-with-custom-roles)
-+ [通过触发器和动作自动化工作流程](#automate-workflow-with-triggers-and-actions)
-+ [邮件、日历事件、文件等功能](#emails-calendar-events-files-and-more)
++ 使用筛选、排序、分组、看板视图和表格视图个性化布局
++ 自定义对象和字段
++ 通过自定义角色创建和管理权限
++ 通过触发器和动作自动化工作流程
++ 邮件、日历事件、文件等功能
 
 
 ## 使用筛选、排序、分组、看板视图和表格视图个性化布局

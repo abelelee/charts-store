@@ -129,7 +129,7 @@ You can unlock additional features such as SSO, Audit Logs, Review Workflows in 
 
 ## Contributing
 
-Please read our [Contributing Guide](./CONTRIBUTING.md) before submitting a Pull Request to the project.
+Please read our Contributing Guide before submitting a Pull Request to the project.
 
 ## Community support
 
@@ -165,4 +165,4 @@ See for yourself what's under the hood by getting access to a [hosted Strapi pro
 
 ## License
 
-See the [LICENSE](./LICENSE) file for licensing information.
+See the LICENSE file for licensing information.

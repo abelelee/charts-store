@@ -113,4 +113,4 @@ Want to say thanks and buy me a beer? [![Donate](https://img.shields.io/badge/Do
 
 ## License
 
-[BSD](LICENSE)
+BSD

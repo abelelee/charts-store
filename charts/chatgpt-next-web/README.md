@@ -6,7 +6,7 @@
 
 <h1 align="center">NextChat</h1>
 
-English / [简体中文](./README_CN.md)
+English / 简体中文
 
 <a href="https://trendshift.io/repositories/5973" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/5973.svg" alt="ChatGPTNextWeb%2FChatGPT-Next-Web | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
@@ -18,7 +18,7 @@ English / [简体中文](./README_CN.md)
 [![MacOS][MacOS-image]][download-url]
 [![Linux][Linux-image]][download-url]
 
-[NextChatAI](https://nextchat.club?utm_source=readme) / [iOS APP](https://apps.apple.com/us/app/nextchat-ai/id6743085599) / [Web App Demo](https://app.nextchat.club) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Enterprise Edition](#enterprise-edition)
+[NextChatAI](https://nextchat.club?utm_source=readme) / [iOS APP](https://apps.apple.com/us/app/nextchat-ai/id6743085599) / [Web App Demo](https://app.nextchat.club) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / Enterprise Edition
 
 [saas-url]: https://nextchat.club?utm_source=readme
 [saas-image]: https://img.shields.io/badge/NextChat-Saas-green?logo=microsoftedge
@@ -116,7 +116,7 @@ For enterprise inquiries, please contact: **business@nextchat.dev**
 
 ## FAQ
 
-[English > FAQ](./docs/faq-en.md)
+English > FAQ
 
 ## Keep Updated
 
@@ -126,11 +126,11 @@ We recommend that you follow the steps below to re-deploy:
 
 - Delete the original repository;
 - Use the fork button in the upper right corner of the page to fork this project;
-- Choose and deploy in Vercel again, [please see the detailed tutorial](./docs/vercel-cn.md).
+- Choose and deploy in Vercel again, please see the detailed tutorial.
 
 ### Enable Automatic Updates
 
-> If you encounter a failure of Upstream Sync execution, please [manually update code](README.md#manually-updating-code).
+> If you encounter a failure of Upstream Sync execution, please manually update code.
 
 After forking the project, due to the limitations imposed by GitHub, you need to manually enable Workflows and Upstream Sync Action on the Actions page of the forked project. Once enabled, automatic updates will be scheduled every hour:
 
@@ -392,21 +392,21 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 
 ## Synchronizing Chat Records (UpStash)
 
-| [简体中文](./docs/synchronise-chat-logs-cn.md) | [English](./docs/synchronise-chat-logs-en.md) | [Italiano](./docs/synchronise-chat-logs-es.md) | [日本語](./docs/synchronise-chat-logs-ja.md) | [한국어](./docs/synchronise-chat-logs-ko.md)
+| 简体中文 | English | Italiano | 日本語 | 한국어
 
 ## Documentation
 
 > Please go to the [docs][./docs] directory for more documentation instructions.
 
-- [Deploy with cloudflare (Deprecated)](./docs/cloudflare-pages-en.md)
-- [Frequent Ask Questions](./docs/faq-en.md)
-- [How to add a new translation](./docs/translation.md)
-- [How to use Vercel (No English)](./docs/vercel-cn.md)
-- [User Manual (Only Chinese, WIP)](./docs/user-manual-cn.md)
+- Deploy with cloudflare (Deprecated)
+- Frequent Ask Questions
+- How to add a new translation
+- How to use Vercel (No English)
+- User Manual (Only Chinese, WIP)
 
 ## Translation
 
-If you want to add a new translation, read this [document](./docs/translation.md).
+If you want to add a new translation, read this document.
 
 ## Donation
 

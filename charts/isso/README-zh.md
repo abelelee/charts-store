@@ -65,4 +65,4 @@ pip install isso
 
 ## 许可证
 
-MIT，详见 [LICENSE](LICENSE)。
+MIT，详见 LICENSE。

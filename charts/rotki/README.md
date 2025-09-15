@@ -31,16 +31,16 @@
 ---
 
 ## 📌 **Table of Contents**
-- [📖 Overview](#overview)
-- [✨ Features](#features)
-- [🔧 Requirements](#requirements)
-- [🚀 Installation](#installation)
-- [📘 Usage](#usage)
-- [📜 Changelog](#changelog)
-- [🤝 Contribute](#contribute)
-- [📢 Get in Touch](#get-in-touch)
-- [💰 Donations](#donations)
-- [📄 License](#license)
+- 📖 Overview
+- ✨ Features
+- 🔧 Requirements
+- 🚀 Installation
+- 📘 Usage
+- 📜 Changelog
+- 🤝 Contribute
+- 📢 Get in Touch
+- 💰 Donations
+- 📄 License
 
 ---
 
@@ -126,7 +126,7 @@ Stay up to date with rotki's latest features and improvements:
 We welcome contributions from the community! 🎉
 
 🔹 **Getting Started**:
-- Read the [Contribution Guide](CONTRIBUTING.md)
+- Read the Contribution Guide
 - Explore the [Developer Guide](https://docs.rotki.com/contribution-guides/)
 - Check out [Open Issues](https://github.com/rotki/rotki/issues)
 

@@ -69,7 +69,7 @@ We have the ready-to-use [Helm chart](https://github.com/codex-team/codex.docs.c
 
 ## Development
 
-See documentation for developers in [DEVELOPMENT.md](./DEVELOPMENT.md).
+See documentation for developers in DEVELOPMENT.md.
 
 # About CodeX
 

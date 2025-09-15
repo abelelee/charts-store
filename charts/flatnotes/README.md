@@ -11,15 +11,15 @@ Log into the [demo site](https://demo.flatnotes.io) and take a look around. *Not
 
 ## Contents
 
-* [Design Principle](#design-principle)
-* [Features](#features)
-* [Getting Started](#getting-started)
-  * [Hosted](#hosted)
-  * [Self Hosted](#self-hosted)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [Sponsorship](#sponsorship)
-* [Thanks](#thanks)
+* Design Principle
+* Features
+* Getting Started
+  * Hosted
+  * Self Hosted
+* Roadmap
+* Contributing
+* Sponsorship
+* Thanks
 
 ## Design Principle
 
@@ -107,7 +107,7 @@ I want to keep flatnotes as simple and distraction-free as possible which means 
 
 ## Contributing
 
-If you're interested in contributing to flatnotes, then please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+If you're interested in contributing to flatnotes, then please read the CONTRIBUTING.md file.
 
 ## Sponsorship
 

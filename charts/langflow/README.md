@@ -61,7 +61,7 @@ Star Langflow on GitHub to be instantly notified of new releases.
 
 ## 👋 Contribute
 
-We welcome contributions from developers of all levels. If you'd like to contribute, please check our [contributing guidelines](./CONTRIBUTING.md) and help make Langflow more accessible.
+We welcome contributions from developers of all levels. If you'd like to contribute, please check our contributing guidelines and help make Langflow more accessible.
 
 ---
 

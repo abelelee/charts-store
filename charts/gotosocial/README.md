@@ -24,48 +24,48 @@ Here's a screenshot of the instance landing page! Check out the project's [offic
 
 ## Table of Contents <!-- omit in toc -->
 
-- [What is GoToSocial?](#what-is-gotosocial)
-  - [Federation](#federation)
-  - [History and Status](#history-and-status)
-- [Features](#features)
-  - [Mastodon API compatibility](#mastodon-api-compatibility)
-  - [Granular post visibility settings](#granular-post-visibility-settings)
-  - [Reply controls](#reply-controls)
-  - [Local-only posting](#local-only-posting)
-  - [RSS feed](#rss-feed)
-  - [Rich text formatting](#rich-text-formatting)
-  - [Themes and custom CSS](#themes-and-custom-css)
-  - [Easy to run](#easy-to-run)
-  - [Safety + security features](#safety-security-features)
-  - [Various federation modes](#various-federation-modes)
-  - [OIDC integration](#oidc-integration)
-  - [Backend-first design](#backend-first-design)
-- [Alternatives to GoToSocial](#alternatives-to-gotosocial)
-- [Known Issues](#known-issues)
-- [Installing GoToSocial](#installing-gotosocial)
-  - [Supported Platforms](#supported-platforms)
-    - [64-bit](#64-bit)
-    - [BSDs](#bsds)
-    - [32-bit](#32-bit)
-    - [OpenBSD](#openbsd)
-  - [Stable Releases](#stable-releases)
-  - [Snapshot Releases](#snapshot-releases)
-    - [Docker](#docker)
-    - [Binary release .tar.gz](#binary-release-tar-gz)
-  - [From Source](#from-source)
-  - [Third-party Packaging](#third-party-packaging)
-- [Contributing](#contributing)
-- [Contact](#contact)
-- [Credits](#credits)
-  - [Libraries](#libraries)
-  - [Image Attribution and Licensing](#image-attribution-and-licensing)
-  - [Team](#team)
-  - [Special Thanks](#special-thanks)
-- [Sponsorship + Funding](#sponsorship-funding)
-  - [Crowdfunding](#crowdfunding)
-  - [Corporate Sponsorship](#corporate-sponsorship)
-  - [NLnet](#nlnet)
-- [License](#license)
+- What is GoToSocial?
+  - Federation
+  - History and Status
+- Features
+  - Mastodon API compatibility
+  - Granular post visibility settings
+  - Reply controls
+  - Local-only posting
+  - RSS feed
+  - Rich text formatting
+  - Themes and custom CSS
+  - Easy to run
+  - Safety + security features
+  - Various federation modes
+  - OIDC integration
+  - Backend-first design
+- Alternatives to GoToSocial
+- Known Issues
+- Installing GoToSocial
+  - Supported Platforms
+    - 64-bit
+    - BSDs
+    - 32-bit
+    - OpenBSD
+  - Stable Releases
+  - Snapshot Releases
+    - Docker
+    - Binary release .tar.gz
+  - From Source
+  - Third-party Packaging
+- Contributing
+- Contact
+- Credits
+  - Libraries
+  - Image Attribution and Licensing
+  - Team
+  - Special Thanks
+- Sponsorship + Funding
+  - Crowdfunding
+  - Corporate Sponsorship
+  - NLnet
+- License
 
 <!--body-1-start-->
 ## What is GoToSocial?
@@ -313,16 +313,16 @@ This is the current status of support offered by GoToSocial for different platfo
 
 | OS      | Architecture            | Support level                             | Binary archive | Docker container |
 | ------- | ----------------------- | ----------------------------------------- | -------------- | ---------------- |
-| Linux   | x86-64/AMD64 (64-bit)   | 🟢 Full<sup>[1](#64-bit)</sup>            | Yes            | Yes              |
-| Linux   | Armv8/ARM64  (64-bit)   | 🟢 Full<sup>[1](#64-bit)</sup>            | Yes            | Yes              |
-| FreeBSD | x86-64/AMD64 (64-bit)   | 🟢 Full<sup>[1](#64-bit),[2](#bsds)</sup> | Yes            | No               |
-| FreeBSD | Armv8/ARM64  (64-bit)   | 🟢 Full<sup>[1](#64-bit),[2](#bsds)</sup> | Yes            | No               |
-| NetBSD  | x86-64/AMD64 (64-bit)   | 🟢 Full<sup>[1](#64-bit),[2](#bsds)</sup> | Yes            | No               |
-| NetBSD  | Armv8/ARM64  (64-bit)   | 🟢 Full<sup>[1](#64-bit),[2](#bsds)</sup> | Yes            | No               |
-| Linux   | x86-32/i386 (32-bit)    | 🟡 Partial<sup>[3](#32-bit)</sup>         | Yes            | Yes              |
-| Linux   | Armv7/ARM32 (32-bit)    | 🟡 Partial<sup>[3](#32-bit)</sup>         | Yes            | Yes              |
-| Linux   | Armv6/ARM32 (32-bit)    | 🟡 Partial<sup>[3](#32-bit)</sup>         | Yes            | Yes              |
-| OpenBSD | Any                     | 🔴 None<sup>[4](#openbsd)</sup>           | No             | No               |
+| Linux   | x86-64/AMD64 (64-bit)   | 🟢 Full<sup>1</sup>            | Yes            | Yes              |
+| Linux   | Armv8/ARM64  (64-bit)   | 🟢 Full<sup>1</sup>            | Yes            | Yes              |
+| FreeBSD | x86-64/AMD64 (64-bit)   | 🟢 Full<sup>1,2</sup> | Yes            | No               |
+| FreeBSD | Armv8/ARM64  (64-bit)   | 🟢 Full<sup>1,2</sup> | Yes            | No               |
+| NetBSD  | x86-64/AMD64 (64-bit)   | 🟢 Full<sup>1,2</sup> | Yes            | No               |
+| NetBSD  | Armv8/ARM64  (64-bit)   | 🟢 Full<sup>1,2</sup> | Yes            | No               |
+| Linux   | x86-32/i386 (32-bit)    | 🟡 Partial<sup>3</sup>         | Yes            | Yes              |
+| Linux   | Armv7/ARM32 (32-bit)    | 🟡 Partial<sup>3</sup>         | Yes            | Yes              |
+| Linux   | Armv6/ARM32 (32-bit)    | 🟡 Partial<sup>3</sup>         | Yes            | Yes              |
+| OpenBSD | Any                     | 🔴 None<sup>4</sup>           | No             | No               |
 
 #### 64-bit
 

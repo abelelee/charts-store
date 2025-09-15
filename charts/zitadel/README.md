@@ -85,7 +85,7 @@ Learn more about the [pay-as-you-go pricing](https://zitadel.com/pricing).
 
 ## Adopters
 
-We are grateful to the organizations and individuals who are using ZITADEL. If you are using ZITADEL, please consider adding your name to our [Adopters list](./ADOPTERS.md) by submitting a pull request.
+We are grateful to the organizations and individuals who are using ZITADEL. If you are using ZITADEL, please consider adding your name to our Adopters list by submitting a pull request.
 
 ### Example applications
 
@@ -158,7 +158,7 @@ Track upcoming features on our [roadmap](https://zitadel.com/roadmap) and follow
 
 ## How To Contribute
 
-Find details about how you can contribute in our [Contribution Guide](./CONTRIBUTING.md).
+Find details about how you can contribute in our Contribution Guide.
 Join our [Discord Chat](https://zitadel.com/chat) to get help.
 
 ## Contributors
@@ -196,13 +196,13 @@ Check out our new Login V2 version in our [typescript repository](https://github
 
 ## Security
 
-You can find our security policy [here](./SECURITY.md).
+You can find our security policy here.
 
 [Technical Advisories](https://zitadel.com/docs/support/technical_advisory) are published regarding major issues with the ZITADEL platform that could potentially impact security or stability in production environments.
 
 ## License
 
-[here](./LICENSE) are our exact licensing terms.
+here are our exact licensing terms.
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See our [license](./LICENSE) for detailed information governing permissions and limitations on use.
+See our license for detailed information governing permissions and limitations on use.

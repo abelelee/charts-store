@@ -56,7 +56,7 @@ And if you don't want to host Kimai, you can use [the Cloud version](https://www
 ### Updating Kimai
 
 - [Update Kimai](https://www.kimai.org/documentation/updates.html) — get the latest version
-- [UPGRADING guide](UPGRADING.md) — version specific steps
+- UPGRADING guide — version specific steps
 
 ### Plugins
 
@@ -91,5 +91,5 @@ There is one simple rule in our "Code of conduct": Don't be an ass!
 Kimai is based on modern technologies and frameworks such as [PHP](https://www.php.net/),
 [Symfony](https://github.com/symfony/symfony) and [Doctrine](https://github.com/doctrine/),
 [Bootstrap](https://github.com/twbs/bootstrap) and [Tabler](https://tabler.io/),
-and [countless](composer.json) [others](package.json).
+and countless others.
 

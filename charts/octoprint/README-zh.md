@@ -55,7 +55,7 @@ Discord服务器的邀请链接位于 [discord.octoprint.org](https://discord.oc
 1. 创建一个属于用户的虚拟环境：`virtualenv venv`。如果你想使用特定版本的 Python 而不是系统默认的版本，可以通过 `--python` 参数指定，例如：`virtualenv --python=python3 venv`。
 2. 在该虚拟环境中安装 OctoPrint：`./venv/bin/pip install OctoPrint`
 
-然后可以通过 `/path/to/OctoPrint/venv/bin/octoprint` 启动 OctoPrint 服务器，详见 [使用说明](#使用)。
+然后可以通过 `/path/to/OctoPrint/venv/bin/octoprint` 启动 OctoPrint 服务器，详见 使用说明。
 
 安装完成后，请确保运行首次启动向导并根据需要设置访问控制。
 

@@ -10,39 +10,39 @@ Gray Duck Mail 使用 C# 编写，并基于 [ASP.NET Core 3.1 MVC](https://docs.
 
 ## 目录
 
-1. [安装](#installation)
-   1. [标签](#tags)
-   2. [端口](#ports)
-   3. [卷](#volumes)
-   4. [环境变量](#environment-variables)
-      - [`RATE_LIMIT_PER_ROUND_COUNT`](#rate_limit_per_round_count)
-      - [`RATE_LIMIT_ROUND_WAIT_TIME`](#rate_limit_round_wait_time)
-      - [`FETCH_TIME`](#fetch_time)
-      - [`LOG_LEVEL`](#log_level)
-      - [`MIN_SEARCH_SCORE`](#min_search_score)
-      - [`WEB_ONLY`](#web_only)
-      - [`WEB_UNSUBSCRIBE`](#web_unsubscribe)
-      - [`WEB_USE_HTTPS`](#web_use_https)
-      - [`WEB_EXTERNAL_URL`](#web_external_url)
-      - [`WEB_SECRET`](#web_secret)
-      - [`ASPNETCORE_URLS`](#aspnetcore_urls)
-   5. [安全注意事项](#security-considerations)
-2. [Web 界面](#web-interface)
-   1. [设置](#settings)
-      1. [每页显示条目数](#items-per-page)
-      2. [模糊搜索](#fuzzy-search)
-   2. [数据库导入](#database-import)
-   3. [数据库导出](#datbase-export)
-3. [联系人](#contacts)
-4. [讨论列表](#discussion-lists)
-   1. [配置](#configuration)
-      1. [基础邮箱账户](#base-email-account)
-      2. [别名](#aliases)
-         - [`request`](#request)
-         - [`subscribe`](#subscribe)
-         - [`unsubscribe`](#unsubscribe)
-         - [`bounce`](#bounce)
-         - [`owner`](#owner)
+1. 安装
+   1. 标签
+   2. 端口
+   3. 卷
+   4. 环境变量
+      - `RATE_LIMIT_PER_ROUND_COUNT`
+      - `RATE_LIMIT_ROUND_WAIT_TIME`
+      - `FETCH_TIME`
+      - `LOG_LEVEL`
+      - `MIN_SEARCH_SCORE`
+      - `WEB_ONLY`
+      - `WEB_UNSUBSCRIBE`
+      - `WEB_USE_HTTPS`
+      - `WEB_EXTERNAL_URL`
+      - `WEB_SECRET`
+      - `ASPNETCORE_URLS`
+   5. 安全注意事项
+2. Web 界面
+   1. 设置
+      1. 每页显示条目数
+      2. 模糊搜索
+   2. 数据库导入
+   3. 数据库导出
+3. 联系人
+4. 讨论列表
+   1. 配置
+      1. 基础邮箱账户
+      2. 别名
+         - `request`
+         - `subscribe`
+         - `unsubscribe`
+         - `bounce`
+         - `owner`
 
 ## 安装
 
@@ -104,7 +104,7 @@ Docker 镜像暴露了以下环境变量，用于控制系统行为。
 
 #### `MIN_SEARCH_SCORE`
 
-执行 [模糊搜索](#Fuzzy-Search) 时的最低有效搜索得分。默认值是一个 [System.Single (float)](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netcore-3.1) 类型的值，设为 `0.2`。使用 [模糊搜索](#Fuzzy-Search) 时，会生成介于 `1` 和 `0` 之间的分数。当搜索结果偏离精确匹配时，得分会趋近于零。
+执行 模糊搜索 时的最低有效搜索得分。默认值是一个 [System.Single (float)](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netcore-3.1) 类型的值，设为 `0.2`。使用 模糊搜索 时，会生成介于 `1` 和 `0` 之间的分数。当搜索结果偏离精确匹配时，得分会趋近于零。
 
 #### `WEB_ONLY`
 
@@ -161,7 +161,7 @@ Gray Duck Mail 使用的数据库文件未加密，并以明文形式存储所�
 
 ## Web 界面
 
-Gray Duck Mail 提供了一个 Web 管理界面，用于基本的系统交互。Web 界面允许管理员创建和删除分发列表、创建和删除列表联系人、浏览消息归档，并访问基本的管理操作，如 [导入](#database-import) 和 [导出本地数据库副本](#database-export)，应确保这些文件不被公众访问。
+Gray Duck Mail 提供了一个 Web 管理界面，用于基本的系统交互。Web 界面允许管理员创建和删除分发列表、创建和删除列表联系人、浏览消息归档，并访问基本的管理操作，如 导入 和 导出本地数据库副本，应确保这些文件不被公众访问。
 
 ### 设置
 
@@ -185,15 +185,15 @@ Web 管理设置控制 Web 界面中数据的显示方式，因此作为 Cookie 
 
 ## 联系人
 
-联系人代表可以向讨论列表发送和接收消息的个人用户。新联系人可以通过 [Web 界面](#web-interface) 添加，或者当一个之前未知的电子邮件地址向讨论列表的 `request` 邮件别名发送消息时自动添加。
+联系人代表可以向讨论列表发送和接收消息的个人用户。新联系人可以通过 Web 界面 添加，或者当一个之前未知的电子邮件地址向讨论列表的 `request` 邮件别名发送消息时自动添加。
 
 ## 讨论列表
 
-讨论列表代表一组联系人，他们可以通过一个指定的电子邮件地址将消息转发给其他用户。通过向特定的 [邮件别名](#aliases) 发送消息，可以执行有限的自动审核。
+讨论列表代表一组联系人，他们可以通过一个指定的电子邮件地址将消息转发给其他用户。通过向特定的 邮件别名 发送消息，可以执行有限的自动审核。
 
 ### 配置
 
-Gray Duck Mail 要正常运行需要一个外部邮箱账户和几个 [定义的别名](#aliases)。讨论列表通过监控给定的 POP3 邮箱账户，并通过将每封邮件转发给讨论列表成员，或通过分析邮件的 MIME 头并执行审核任务来处理邮件。
+Gray Duck Mail 要正常运行需要一个外部邮箱账户和几个 定义的别名。讨论列表通过监控给定的 POP3 邮箱账户，并通过将每封邮件转发给讨论列表成员，或通过分析邮件的 MIME 头并执行审核任务来处理邮件。
 
 #### 基础邮箱账户
 

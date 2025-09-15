@@ -73,7 +73,7 @@ Refer to the [changelog](https://docs.cortezaproject.org/corteza-docs/2024.9/cha
 
 Refer to the [Developer Guide/Corteza Server](https://docs.cortezaproject.org/corteza-docs/2024.9/developer-guide/corteza-server/index.html) document for details regarding the [development setup](https://docs.cortezaproject.org/corteza-docs/2024.9/developer-guide/corteza-server/index.html#_development_setup), the [project structure](https://docs.cortezaproject.org/corteza-docs/2024.9/developer-guide/corteza-server/structure.html), and the feature insight documents.
 
-Refer to the [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines and code of conduct.
+Refer to the CONTRIBUTING.md for contribution guidelines and code of conduct.
 
 ## Community
 
@@ -82,4 +82,4 @@ Reach out to us on [our forum](https://forum.cortezaproject.org/).
 ## License
 
 Corteza is released under the Apache-2.0 license.
-Refer to the [LICENSE](LICENSE) file for additional information.
+Refer to the LICENSE file for additional information.

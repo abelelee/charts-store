@@ -87,7 +87,7 @@ The following instructions are for running the project locally for development.
 
 ## Contributors
 
-Please read our [contributing guide](CONTRIBUTING.md) to learn about how to contribute to this project.
+Please read our contributing guide to learn about how to contribute to this project.
 
 ### Translators 🌐
 
@@ -95,7 +95,7 @@ You can help translate Rallly to another language by following our [guide for tr
 
 ## License
 
-Rallly is open-source under the GNU Affero General Public License Version 3 (AGPLv3) or any later version. See [LICENSE](LICENSE) for more detail.
+Rallly is open-source under the GNU Affero General Public License Version 3 (AGPLv3) or any later version. See LICENSE for more detail.
 
 ## Sponsors
 

@@ -10,11 +10,11 @@
 
 Label Studio is an open source data labeling tool. It lets you label data types like audio, text, images, videos, and time series with a simple and straightforward UI and export to various model formats. It can be used to prepare raw data or improve existing training data to get more accurate ML models.
 
-- [Try out Label Studio](#try-out-label-studio)
-- [What you get from Label Studio](#what-you-get-from-label-studio)
-- [Included templates for labeling data in Label Studio](#included-templates-for-labeling-data-in-label-studio)
-- [Set up machine learning models with Label Studio](#set-up-machine-learning-models-with-Label-Studio)
-- [Integrate Label Studio with your existing tools](#integrate-label-studio-with-your-existing-tools)
+- Try out Label Studio
+- What you get from Label Studio
+- Included templates for labeling data in Label Studio
+- Set up machine learning models with Label Studio
+- Integrate Label Studio with your existing tools
 
 ![Gif of Label Studio annotating different types of data](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/annotation_examples.gif)
 
@@ -71,7 +71,7 @@ You can use Label Studio as an independent part of your machine learning workflo
 
 ## Roadmap
 
-Want to use **The Coolest Feature X** but Label Studio doesn't support it? Check out [our public roadmap](roadmap.md)!
+Want to use **The Coolest Feature X** but Label Studio doesn't support it? Check out our public roadmap!
 
 ## Citation
 
@@ -91,6 +91,6 @@ Want to use **The Coolest Feature X** but Label Studio doesn't support it? Check
 
 ## License
 
-This software is licensed under the [Apache 2.0 LICENSE](/LICENSE) © [Heartex](https://www.heartex.ai/). 2020-2021
+This software is licensed under the Apache 2.0 LICENSE © [Heartex](https://www.heartex.ai/). 2020-2021
 
 <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/opossum_looking.png" title="Hey everyone!" height="140" width="140" />

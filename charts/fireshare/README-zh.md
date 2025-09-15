@@ -183,7 +183,7 @@ docker run --name fireshare -v $(pwd)/fireshare:/data:rw -v $(pwd)/fireshare_pro
 ### 可配置设置
 
 查看Fireshare配置Wiki：<a href="https://github.com/ShaneIsrael/fireshare/wiki/Fireshare-Configurables">链接</a>  
-LDAP配置请参阅 [LDAP.md](./LDAP.md)
+LDAP配置请参阅 LDAP.md
 
 # 本地开发
 

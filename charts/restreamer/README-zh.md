@@ -153,7 +153,7 @@ Restreamer 界面目前已翻译为多种语言，如德语、法语、意大利
 如需使用 Restreamer 的一般帮助，请参考官方[文档](https://docs.datarhei.com/restreamer)。如需额外支持，您可以使用 Github 提出问题（错误报告、贡献、功能）。
 
 ## 许可证
-有关许可信息，请参见 [LICENSE](./LICENSE) 文件。
+有关许可信息，请参见 LICENSE 文件。
 
 ## 商业咨询
 **我们为商业需求提供专业支持、敏捷软件开发和咨询服务。** 如果您有商业需求，无论是错误修复还是功能增强，请直接联系我们 support@datarhei.com。

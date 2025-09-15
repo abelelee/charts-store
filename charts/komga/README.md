@@ -41,7 +41,7 @@ Head over to our [website](https://komga.org) for more information.
 
 ## Develop in Komga
 
-Check the [development guidelines](./DEVELOPING.md).
+Check the development guidelines.
 
 ## Translation
 
@@ -49,7 +49,7 @@ Check the [development guidelines](./DEVELOPING.md).
 
 ## Sponsors
 
-[![Jetbrains_logo](./.github/readme-images/jetbrains.svg)](https://www.jetbrains.com/?from=Komga)
+![Jetbrains_logo](https://www.jetbrains.com/?from=Komga)
 
 ## Credits
 

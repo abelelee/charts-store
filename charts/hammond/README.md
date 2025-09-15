@@ -28,15 +28,15 @@
 
 ## Table of Contents
 
-- [About the Project](#about-the-project)
-  - [Motivation](#motivation)
-  - [Built With](#built-with)
-  - [Features](#features)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Roadmap](#roadmap)
-- [Contact](#contact)
+- About the Project
+  - Motivation
+  - Built With
+  - Features
+- Installation
+- Contributing
+- License
+- Roadmap
+- Contact
 
 <!-- ABOUT THE PROJECT -->
 
@@ -55,7 +55,7 @@ The current version of Hammond is written using GO for backend and Vuejs for the
 
 Also I had initially thought of a 2 container approach (1 for backend and 1 for the frontend) so that they can be independently maintained and updated. I eventually decided against this idea for the sake of simplicity. Although it is safe to assume that most self-hosters are fairly tech capable it still is much better to have a single container that you can fire and forget.
 
-![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/hammond/image/screenshot.jpg) [More Screenshots](Screenshots.md)
+![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/hammond/image/screenshot.jpg) More Screenshots
 
 ### Built With
 
@@ -123,7 +123,7 @@ services:
 
 Although personally I feel that using the docker container is the best way of using and enjoying something like hammond, a lot of people in the community are still not comfortable with using Docker and wanted to host it natively on their Linux servers. Follow the link below to get a guide on how to build hammond from source.
 
-[Build from source / Ubuntu Guide](docs/ubuntu-install.md)
+Build from source / Ubuntu Guide
 
 ### Environment Variables
 

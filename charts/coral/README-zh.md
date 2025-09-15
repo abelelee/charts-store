@@ -32,11 +32,11 @@
 
 Coral 是一个采用 Apache-2.0 协议发布的开源项目，由 [Vox Media](https://product.voxmedia.com/) 旗下的 Coral 团队倾心打造。
 
-如果您有兴趣为 Coral 做出贡献，请查看我们的 [贡献者指南](CONTRIBUTING.md)。
+如果您有兴趣为 Coral 做出贡献，请查看我们的 贡献者指南。
 
 ## 许可证
 
-Coral 采用 [Apache-2.0 协议授权](LICENSE)。
+Coral 采用 Apache-2.0 协议授权。
 
 ## 版本管理
 

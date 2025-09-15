@@ -52,12 +52,12 @@ Password Pusher 是一个开源应用程序，用于在网络上安全地传递�
 
 -----
 
-[![](./app/assets/images/features/front-page-thumb.png)](./app/assets/images/features/front-page-large.png)
-[![](./app/assets/images/features/audit-log-thumb.png)](./app/assets/images/features/audit-log-large.png)
-[![](./app/assets/images/features/secret-url-languages-thumb.png)](./app/assets/images/features/secret-url-languages-large.png)
-[![](./app/assets/images/features/password-generator-thumb.png)](./app/assets/images/features/password-generator-large.png)
-[![](./app/assets/images/features/dark-theme-thumb.png)](./app/assets/images/features/dark-theme.gif)
-[![](./app/assets/images/features/preliminary-step-thumb.png)](./app/assets/images/features/preliminary-step.gif)
+![](./app/assets/images/features/front-page-large.png)
+![](./app/assets/images/features/audit-log-large.png)
+![](./app/assets/images/features/secret-url-languages-large.png)
+![](./app/assets/images/features/password-generator-large.png)
+![](./app/assets/images/features/dark-theme.gif)
+![](./app/assets/images/features/preliminary-step.gif)
 
 # 版本说明
 
@@ -97,7 +97,7 @@ _或者_
 
 多年来，[Translation.io](https://translation.io/?utm_source=pwpush) 为Password Pusher的开源版本提供了免费翻译工具访问权限。因此，我们现在内置了 **31种语言翻译**！
 
-[![](./app/assets/images/partners/translation-io-banner.png)](https://translation.io/?utm_source=pwpush)
+![](https://translation.io/?utm_source=pwpush)
 
 如果你公司或开源项目有翻译需求，请考虑使用 [Translation.io](https://translation.io/?utm_source=pwpush) 并表示感谢！
 

@@ -80,14 +80,14 @@ See instructions on our Wiki about [how to setup a reverse proxy for WBO](https:
 
 ## Translations
 
-WBO is available in multiple languages. The translations are stored in [`server/translations.json`](./server/translations.json).
+WBO is available in multiple languages. The translations are stored in `server/translations.json`.
 If you feel like contributing to this collaborative project, you can [translate WBO into your own language](https://github.com/lovasoa/whitebophir/wiki/How-to-translate-WBO-into-your-own-language).
 
 ## Authentication
 
 WBO supports authentication using [Json Web Tokens](https://jwt.io/introduction). This should be passed in as a query with the key `token`, eg, `http://myboard.com/boards/test?token={token}`
 
-The `AUTH_SECRET_KEY` variable in [`configuration.js`](./server/configuration.js) should be filled with the secret key for the JWT.
+The `AUTH_SECRET_KEY` variable in `configuration.js` should be filled with the secret key for the JWT.
 
 Within the payload, you can declare the user's roles as an array.
 Currently the only accepted roles are `moderator` and `editor`.
@@ -137,7 +137,7 @@ You can now be sure that only users who have the correct token have access to th
 ## Configuration
 
 When you start a WBO server, it loads its configuration from several environment variables.
-You can see a list of these variables in [`configuration.js`](./server/configuration.js).
+You can see a list of these variables in `configuration.js`.
 Some important environment variables are :
 
 - `WBO_HISTORY_DIR` : configures the directory where the boards are saved. Defaults to `./server-data/`.

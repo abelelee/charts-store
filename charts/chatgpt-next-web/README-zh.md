@@ -8,7 +8,7 @@
 
 一键免费部署你的私人 ChatGPT 网页应用，支持 Claude, GPT4 & Gemini Pro 模型。
 
-[NextChatAI](https://nextchat.club?utm_source=readme) / [企业版](#%E4%BC%81%E4%B8%9A%E7%89%88) / [演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N)
+[NextChatAI](https://nextchat.club?utm_source=readme) / 企业版 / [演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N)
 
 </div>
 
@@ -55,11 +55,11 @@
 
 - 删除掉原先的仓库；
 - 使用页面右上角的 fork 按钮，fork 本项目；
-- 在 Vercel 重新选择并部署，[请查看详细教程](./docs/vercel-cn.md#如何新建项目)。
+- 在 Vercel 重新选择并部署，请查看详细教程。
 
 ### 打开自动更新
 
-> 如果你遇到了 Upstream Sync 执行错误，请[手动 Sync Fork 一次](./README_CN.md#手动更新代码)！
+> 如果你遇到了 Upstream Sync 执行错误，请手动 Sync Fork 一次！
 
 当你 fork 项目之后，由于 Github 的限制，需要手动去你 fork 后的项目的 Actions 页面启用 Workflows，并启用 Upstream Sync Action，启用之后即可开启每小时定时自动更新：
 
@@ -89,7 +89,7 @@ code1,code2,code3
 
 ## 环境变量
 
-> 本项目大多数配置项都通过环境变量来设置，教程：[如何修改 Vercel 环境变量](./docs/vercel-cn.md)。
+> 本项目大多数配置项都通过环境变量来设置，教程：如何修改 Vercel 环境变量。
 
 ### `OPENAI_API_KEY` （必填项）
 

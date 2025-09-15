@@ -52,25 +52,25 @@
 
 ## 目录
 
-README 语言： 🇨🇳 [简体中文](./doc/README.zh-cn.md), 🇺🇸 [English](README.md)
+README 语言： 🇨🇳 简体中文, 🇺🇸 English
 
 <!-- MarkdownTOC -->
 
-- [功能](#features)
-- [工作原理](#how-it-works)
-- [最低要求](#minimum-requirements)
-- [快速开始](#getting-started)
-  - [基础示例](#basic-sample)
-  - [PDF 生成，文档转换](#pdf-generation-document-conversion)
-- [更多示例](#more-examples)
-- [API 参考](#api-reference)
-- [命令行工具](#command-line-tools)
-- [问题反馈](#issues)
-- [路线图](#roadmap)
-- [性能](#performance)
-- [许可与版本](#licenses-and-editions)
-- [理念](#philosophy)
-- [贡献者](#contributors)
+- 功能
+- 工作原理
+- 最低要求
+- 快速开始
+  - 基础示例
+  - PDF 生成，文档转换
+- 更多示例
+- API 参考
+- 命令行工具
+- 问题反馈
+- 路线图
+- 性能
+- 许可与版本
+- 理念
+- 贡献者
 
 <!-- /MarkdownTOC -->
 
@@ -290,7 +290,7 @@ Carbone 在后台为你做了很多事情：
 
 Carbone 有两个版本：
 
-- Carbone 社区版：根据 [CCL 协议](LICENSE.md) 免费提供。简而言之，只要你不是将 Carbone 社区版作为托管服务（如 [Carbone Cloud](https://carbone.io/pricing.html)）提供，你可以免费使用和修改所有社区功能。
+- Carbone 社区版：根据 CCL 协议 免费提供。简而言之，只要你不是将 Carbone 社区版作为托管服务（如 [Carbone Cloud](https://carbone.io/pricing.html)）提供，你可以免费使用和修改所有社区功能。
 - Carbone 企业版（托管和本地）包含更多高级功能。这里是 [社区版与企业版功能对比表](https://carbone.io/documentation/design/overview/template-feature.html#template-types)
 
 社区版始终比企业版落后一个主版本。未来可能会有变化。

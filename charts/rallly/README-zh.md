@@ -87,7 +87,7 @@
 
 ## 贡献者
 
-请阅读我们的 [贡献指南](CONTRIBUTING.md) 了解如何为本项目做贡献。
+请阅读我们的 贡献指南 了解如何为本项目做贡献。
 
 ### 翻译者 🌐
 
@@ -95,7 +95,7 @@
 
 ## 许可证
 
-Rallly 遵循 GNU Affero 通用公共许可证第 3 版（AGPLv3）或其后续版本。详情请参阅 [LICENSE](LICENSE) 文件。
+Rallly 遵循 GNU Affero 通用公共许可证第 3 版（AGPLv3）或其后续版本。详情请参阅 LICENSE 文件。
 
 ## 赞助商
 

@@ -34,40 +34,40 @@ KeeWeb is a browser and desktop password manager which is capable of opening up 
 
 <br />
 
-- [About](#about)
-  - [Quick Links](#quick-links)
-- [Self-hosting](#self-hosting)
-  - [Docker](#docker)
-    - [Images](#images)
-    - [Docker Run](#docker-run)
-    - [Docker Compose](#docker-compose)
-    - [Traefik Integration](#traefik-integration)
-      - [Labels](#labels)
-      - [Dynamic.yml](#dynamicyml)
-      - [Static.yml](#staticyml)
-        - [Providers](#providers)
-        - [certificatesResolvers](#certificatesresolvers)
-        - [entryPoints (Normal)](#entrypoints-normal)
-        - [entryPoints (Cloudflare)](#entrypoints-cloudflare)
-    - [Authentik Integration](#authentik-integration)
-      - [Labels](#labels-1)
-      - [Dynamic.yml](#dynamicyml-1)
-  - [Env \& Volumes](#env--volumes)
-    - [Env Variables](#env-variables)
-    - [Volumes](#volumes)
-  - [Dropbox Support](#dropbox-support)
-- [Build From Source](#build-from-source)
-  - [Platform: Windows](#platform-windows)
-    - [Using Grunt](#using-grunt)
-    - [Using NPM](#using-npm)
-  - [Platform: Linux](#platform-linux)
-    - [Using Grunt](#using-grunt-1)
-    - [Using NPM](#using-npm-1)
-  - [Platform: MacOS](#platform-macos)
-    - [Using Grunt](#using-grunt-2)
-    - [Using NPM](#using-npm-2)
-- [Donations](#donations)
-- [Contributors ✨](#contributors-)
+- About
+  - Quick Links
+- Self-hosting
+  - Docker
+    - Images
+    - Docker Run
+    - Docker Compose
+    - Traefik Integration
+      - Labels
+      - Dynamic.yml
+      - Static.yml
+        - Providers
+        - certificatesResolvers
+        - entryPoints (Normal)
+        - entryPoints (Cloudflare)
+    - Authentik Integration
+      - Labels
+      - Dynamic.yml
+  - Env \& Volumes
+    - Env Variables
+    - Volumes
+  - Dropbox Support
+- Build From Source
+  - Platform: Windows
+    - Using Grunt
+    - Using NPM
+  - Platform: Linux
+    - Using Grunt
+    - Using NPM
+  - Platform: MacOS
+    - Using Grunt
+    - Using NPM
+- Donations
+- Contributors ✨
 
 <br />
 
@@ -101,7 +101,7 @@ Review some of our most important links below to learn more about KeeWeb and who
 | **Demos** | [Web](https://app.keeweb.info/), [Beta](https://beta.keeweb.info ) | Test our stable and beta releases of Keeweb |
 | **Services** | [Favicon Grabber](https://services.keeweb.info/favicon) | Services integrated within Keeweb |
 | **Branches** | [docker/alpine-base](https://github.com/keeweb/keeweb/tree/docker/alpine-base), [docker/keeweb](https://github.com/keeweb/keeweb/tree/docker/keeweb) | Important branches related to our project |
-| **Timeline** | [Release Notes](release-notes.md), [TODO](https://github.com/keeweb/keeweb/wiki/TODO) | See what we're planning |
+| **Timeline** | Release Notes, [TODO](https://github.com/keeweb/keeweb/wiki/TODO) | See what we're planning |
 | **On one page** | [Features](https://keeweb.info/#features), [FAQ](https://github.com/keeweb/keeweb/wiki/FAQ) | Information about Keeweb development |
 | **Website** | [keeweb.info](https://keeweb.info) | Visit our official website |
 | **Social** | [kee_web](https://twitter.com/kee_web) | Check us out on our social media |
@@ -189,9 +189,9 @@ You can put this container behind Traefik if you want to use a reverse proxy and
 
 <br />
 
-Our first step is to tell Traefik about our Keeweb container. We highly recommend you utilize a Traefik **[dynamic file](#dynamicyml)**, instead of **[labels](#labels)**. Using a dynamic file allows for automatic refreshing without the need to restart Traefik when a change is made.
+Our first step is to tell Traefik about our Keeweb container. We highly recommend you utilize a Traefik **dynamic file**, instead of **labels**. Using a dynamic file allows for automatic refreshing without the need to restart Traefik when a change is made.
 
-If you decide to use **[labels](#labels)** instead of a **[dynamic file](#dynamicyml)**, any changes you want to make to your labels will require a restart of Traefik.
+If you decide to use **labels** instead of a **dynamic file**, any changes you want to make to your labels will require a restart of Traefik.
 
 <br />
 
@@ -249,14 +249,14 @@ services:
 
 <br />
 
-After you've added the labels above, skip the [dynamic.yml](#dynamicyml) section and go straight to the **[static.yml](#staticyml)** section.
+After you've added the labels above, skip the dynamic.yml section and go straight to the **static.yml** section.
 
 <br />
 <br />
 
 ##### Dynamic.yml
 
-If you decide to not use **[labels](#labels)** and want to use a dynamic file, you will first need to create your dynamic file. the Traefik dynamic file is usually named `dynamic.yml`. We need to add a new `middleware`, `router`, and `service` to our Traefik dynamic file so that it knows about our new Keeweb container and where it is.
+If you decide to not use **labels** and want to use a dynamic file, you will first need to create your dynamic file. the Traefik dynamic file is usually named `dynamic.yml`. We need to add a new `middleware`, `router`, and `service` to our Traefik dynamic file so that it knows about our new Keeweb container and where it is.
 
 ```yml
 http:
@@ -304,9 +304,9 @@ These entries will go in your Traefik `static.yml` file. Any changes made to thi
 ###### Providers
 
 > [!NOTE]
-> This step is only for users who opted to use the **[dynamic file](#dynamicyml)** method.
+> This step is only for users who opted to use the **dynamic file** method.
 >
-> Users who opted to use [labels](#labels) can skip to the section **[certificatesResolvers](#certificatesresolvers)**
+> Users who opted to use labels can skip to the section **certificatesResolvers**
 
 <br />
 
@@ -328,7 +328,7 @@ providers:
 
 <br />
 
-The code above is what enables the use of a **[dynamic file](#dynamicyml)** instead of labels. Change `/etc/traefik/dynamic.yml` if you are placing your dynamic file in a different location. This path is relative to inside the container, not your host machine mounted volume path. Traefik keeps most files in the `/etc/traefik/` folder.
+The code above is what enables the use of a **dynamic file** instead of labels. Change `/etc/traefik/dynamic.yml` if you are placing your dynamic file in a different location. This path is relative to inside the container, not your host machine mounted volume path. Traefik keeps most files in the `/etc/traefik/` folder.
 
 <br />
 
@@ -358,14 +358,14 @@ On your host machine, make sure you place the `dynamic.yml` file in a sub-folder
 
 <br />
 
-After you have completed this, proceed to the section **[certificatesResolvers](#certificatesresolvers)**.
+After you have completed this, proceed to the section **certificatesResolvers**.
 
 <br />
 
 ###### certificatesResolvers
 
 > [!NOTE]
-> This step is required no matter which option you picked above, both for **[dynamic file](#dynamicyml)** setups, as well as people using **[labels](#labels)**.
+> This step is required no matter which option you picked above, both for **dynamic file** setups, as well as people using **labels**.
 
 <br />
 
@@ -598,10 +598,10 @@ Move `Keeweb (Password Manager)` to the right side **Selected Applications** box
 
 <br />
 
-If you followed our [Traefik](#traefik-integration) guide above, you were shown how to add your Keeweb container to Traefik using either the **[dynamic file](#dynamicyml)** or **[labels](#labels)**. Depending on which option you picked, follow that section's guide below.
+If you followed our Traefik guide above, you were shown how to add your Keeweb container to Traefik using either the **dynamic file** or **labels**. Depending on which option you picked, follow that section's guide below.
 
-- For **label** users, go to the section [Labels](#labels-1) below.
-- For **dynamic file** users, go to the section [Dynamic File](#dynamicyml-1) below.
+- For **label** users, go to the section Labels below.
+- For **dynamic file** users, go to the section Dynamic File below.
 
 <br />
 
@@ -652,7 +652,7 @@ services:
 
 ##### Dynamic.yml
 
-If you opted to use the [dynamic file](#dynamicyml), open your Traefik's `dynamic.yml` file and apply the `authentik@file` middleware to look something like the following:
+If you opted to use the dynamic file, open your Traefik's `dynamic.yml` file and apply the `authentik@file` middleware to look something like the following:
 
 <br />
 
@@ -882,8 +882,8 @@ Please note: donation does not imply any type of service contract.
 ## Contributors ✨
 We are always looking for contributors. If you feel that you can provide something useful to Keeweb or our other projects, then we'd love to review your suggestion. Before submitting your contribution, please review the following resources:
 
-- [Pull Request Procedure](.github/PULL_REQUEST_TEMPLATE.md)
-- [Contributor Policy](CONTRIBUTING.md)
+- Pull Request Procedure
+- Contributor Policy
 
 <br />
 

@@ -117,4 +117,4 @@ For detailed documentation, visit [docs.dokploy.com](https://docs.dokploy.com).
 
 ## 🤝 Contributing
 
-Check out the [Contributing Guide](CONTRIBUTING.md) for more information.
+Check out the Contributing Guide for more information.

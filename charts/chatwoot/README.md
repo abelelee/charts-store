@@ -124,7 +124,7 @@ For other supported options, checkout our [deployment page](https://chatwoot.com
 
 ## Security
 
-Looking to report a vulnerability? Please refer our [SECURITY.md](./SECURITY.md) file.
+Looking to report a vulnerability? Please refer our SECURITY.md file.
 
 ## Community
 

@@ -28,7 +28,7 @@ Matomo 致力于成为 Google Analytics（谷歌分析）的自由软件替代�
 
 ## 许可证
 
-Matomo 以 GPL v3（或更高版本）许可证发布，请参阅 [LICENSE](LICENSE) 文件。
+Matomo 以 GPL v3（或更高版本）许可证发布，请参阅 LICENSE 文件。
 
 ## 系统要求
 
@@ -54,7 +54,7 @@ Matomo 以 GPL v3（或更高版本）许可证发布，请参阅 [LICENSE](LICE
 
 当您需要为开发目的使用 Matomo 时，您需要 [从 Git 仓库安装 Matomo](https://matomo.org/faq/how-to-install/faq_18271/)。
 
-这将为您提供一个可使用的 DDEV 环境。更多细节请参阅 [DDEV README](.ddev/README.md)。
+这将为您提供一个可使用的 DDEV 环境。更多细节请参阅 DDEV README。
 
 ## 免费试用
 

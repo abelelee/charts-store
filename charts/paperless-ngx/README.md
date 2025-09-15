@@ -19,19 +19,19 @@
 
 Paperless-ngx is a document management system that transforms your physical documents into a searchable online archive so you can keep, well, _less paper_.
 
-Paperless-ngx is the official successor to the original [Paperless](https://github.com/the-paperless-project/paperless) & [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) projects and is designed to distribute the responsibility of advancing and supporting the project among a team of people. [Consider joining us!](#community-support)
+Paperless-ngx is the official successor to the original [Paperless](https://github.com/the-paperless-project/paperless) & [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) projects and is designed to distribute the responsibility of advancing and supporting the project among a team of people. Consider joining us!
 
 Thanks to the generous folks at [DigitalOcean](https://m.do.co/c/8d70b916d462), a demo is available at [demo.paperless-ngx.com](https://demo.paperless-ngx.com) using login `demo` / `demo`. _Note: demo content is reset frequently and confidential information should not be uploaded._
 
-- [Features](#features)
-- [Getting started](#getting-started)
-- [Contributing](#contributing)
-  - [Community Support](#community-support)
-  - [Translation](#translation)
-  - [Feature Requests](#feature-requests)
-  - [Bugs](#bugs)
-- [Related Projects](#related-projects)
-- [Important Note](#important-note)
+- Features
+- Getting started
+- Contributing
+  - Community Support
+  - Translation
+  - Feature Requests
+  - Bugs
+- Related Projects
+- Important Note
 
 <p align="right">This project is supported by:<br/>
   <a href="https://m.do.co/c/8d70b916d462" style="padding-top: 4px; display: block;">

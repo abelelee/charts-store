@@ -28,4 +28,4 @@
 
 ## 其他语言
 
-- [西班牙语 (README)](docs/README.es.md)
+- 西班牙语 (README)

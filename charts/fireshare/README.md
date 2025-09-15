@@ -182,7 +182,7 @@ Once running, navigate to `localhost:8080` in your browser.
 ### Configurable Settings
 
 See the Fireshare Configuration Wiki: <a href="https://github.com/ShaneIsrael/fireshare/wiki/Fireshare-Configurables">Link</a>  
-For LDAP configuration, see [LDAP.md](./LDAP.md)
+For LDAP configuration, see LDAP.md
 
 # Local Development
 

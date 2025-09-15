@@ -64,7 +64,7 @@ Calling all potential contributors to open source! Get started quickly and show 
 - 🧪 [Best pull requests for testing][best-pulls]
 - 🌟[Low and no-code tasks][low-no-code]
 
-If you have questions, [check how to contribute](#-contribution).
+If you have questions, check how to contribute.
 
 ## Using Mautic
 

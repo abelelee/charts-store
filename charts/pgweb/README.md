@@ -106,4 +106,4 @@ make test-all
 
 ## License
 
-The MIT License (MIT). See [LICENSE](LICENSE) file for more details.
+The MIT License (MIT). See LICENSE file for more details.

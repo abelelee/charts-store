@@ -32,17 +32,17 @@
 
 ## Table of Contents
 
-- 📒 [About the Project](#about-the-project)
-- 🚀 [Getting Started](#getting-started)
-- 👨‍💻 [Use with your broadcasting software](#use-with-your-existing-broadcasting-software)
-- 🛠 [Building from source](#building-from-source)
-  - 🚨 [Important note about source code and the develop branch](#important-note-about-source-code-and-the-develop-branch)
-  - 🗄️ [Backend](#backend)
-  - ⚛️ [Frontend](#frontend)
-- 👏 [Contributing](#contributing)
-  - 💵 [Donors](#donors)
-- 📝 [License](#license)
-- [Contact](#contact)
+- 📒 About the Project
+- 🚀 Getting Started
+- 👨‍💻 Use with your broadcasting software
+- 🛠 Building from source
+  - 🚨 Important note about source code and the develop branch
+  - 🗄️ Backend
+  - ⚛️ Frontend
+- 👏 Contributing
+  - 💵 Donors
+- 📝 License
+- Contact
 
 <!-- ABOUT THE PROJECT -->
 

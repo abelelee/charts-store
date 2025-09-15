@@ -42,11 +42,11 @@ with bespoke installs. To learn more, [contact us](https://coralproject.net/pric
 Coral is a Apache-2.0 licensed open-source project built with <3 by the Coral
 team, a part of [Vox Media](https://product.voxmedia.com/).
 
-If you are interested in contributing to Coral, check out our [Contributor's Guide](CONTRIBUTING.md).
+If you are interested in contributing to Coral, check out our Contributor's Guide.
 
 ## License
 
-Coral is [Apache-2.0 licensed](LICENSE).
+Coral is Apache-2.0 licensed.
 
 ## Versioning
 

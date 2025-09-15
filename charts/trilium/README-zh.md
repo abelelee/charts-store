@@ -5,7 +5,7 @@
 ![GitHub 下载量（所有资产，所有版本）](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/total.svg)  
 [![RelativeCI](https://camo.githubusercontent.com/0dc2dbfd5ed96a4e173339f8f41658a1219e3be27b07ea3a7ba2eece69f1a264/68747470733a2f2f6261646765732e72656c61746976652d63692e636f6d2f6261646765732f4469357137647a3964614e445a395558693042703f6272616e63683d646576656c6f70)](https://app.relative-ci.com/projects/Di5q7dz9daNDZ9UXi0Bp) [![翻译状态](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/svg-badge.svg)](https://hosted.weblate.org/engage/trilium/)
 
-[英文](README.md) | [中文](./docs/README-ZH_CN.md) | [俄语](./docs/README.ru.md) | [日语](./docs/README.ja.md) | [意大利语](./docs/README.it.md) | [西班牙语](./docs/README.es.md)
+英文 | 中文 | 俄语 | 日语 | 意大利语 | 西班牙语
 
 Trilium Notes 是一个免费开源、跨平台的分层笔记应用，专注于构建大型个人知识库。
 
@@ -22,7 +22,7 @@ Trilium Notes 是一个免费开源、跨平台的分层笔记应用，专注于
 * 无缝的 [笔记版本控制](https://triliumnext.github.io/Docs/Wiki/note-revisions)
 * 笔记 [属性](https://triliumnext.github.io/Docs/Wiki/attributes) 可用于笔记组织、查询和高级 [脚本](https://triliumnext.github.io/Docs/Wiki/scripts)
 * 界面支持英语、德语、西班牙语、法语、罗马尼亚语和中文（简体和繁体）
-* 直接集成 [OpenID 和 TOTP](./docs/User%20Guide/User%20Guide/Installation%20%26%20Setup/Server%20Installation/Multi-Factor%20Authentication.md) 以实现更安全的登录
+* 直接集成 OpenID 和 TOTP 以实现更安全的登录
 * 与自托管同步服务器 [同步](https://triliumnext.github.io/Docs/Wiki/synchronization)
   * 有 [第三方服务托管同步服务器](https://trilium.cc/paid-hosting)
 * [共享](https://triliumnext.github.io/Docs/Wiki/sharing)（发布）笔记到公共互联网
@@ -30,7 +30,7 @@ Trilium Notes 是一个免费开源、跨平台的分层笔记应用，专注于
 * 基于 [Excalidraw](https://excalidraw.com/) 的绘图功能（笔记类型为 "canvas"）
 * [关系图](https://triliumnext.github.io/Docs/Wiki/relation-map) 和 [链接图](https://triliumnext.github.io/Docs/Wiki/link-map) 用于可视化笔记及其关系
 * 思维导图，基于 [Mind Elixir](https://docs.mind-elixir.com/)
-* [地理地图](./docs/User%20Guide/User%20Guide/Note%20Types/Geo%20Map.md)，支持位置标记和 GPX 轨迹
+* 地理地图，支持位置标记和 GPX 轨迹
 * [脚本功能](https://triliumnext.github.io/Docs/Wiki/scripts) - 参见 [高级示例](https://triliumnext.github.io/Docs/Wiki/advanced-showcases)
 * [REST API](https://triliumnext.github.io/Docs/Wiki/etapi) 用于自动化
 * 在可用性和性能方面可扩展到 10 万条笔记以上
@@ -39,7 +39,7 @@ Trilium Notes 是一个免费开源、跨平台的分层笔记应用，专注于
 * 支持从 [Evernote](https://triliumnext.github.io/Docs/Wiki/evernote-import) 和 [Markdown](https://triliumnext.github.io/Docs/Wiki/markdown) 导入与导出
 * [网页剪辑器](https://triliumnext.github.io/Docs/Wiki/web-clipper)，方便保存网页内容
 * 可定制的 UI（侧边栏按钮、用户自定义小部件等）
-* [指标监控](./docs/User%20Guide/User%20Guide/Advanced%20Usage/Metrics.md)，以及一个 [Grafana 仪表板](./docs/User%20Guide/User%20Guide/Advanced%20Usage/Metrics/grafana-dashboard.json)
+* 指标监控，以及一个 Grafana 仪表板
 
 ✨ 查看以下第三方资源/社区以获取更多 TriliumNext 相关内容：
 
@@ -52,19 +52,19 @@ Trilium Notes 是一个免费开源、跨平台的分层笔记应用，专注于
 
 ### 从 Trilium 迁移？
 
-从 zadam/Trilium 迁移到 TriliumNext/Notes 不需要特殊迁移步骤。只需 [安装 TriliumNext/Notes](#-安装说明) 即可，它将使用你现有的数据库。
+从 zadam/Trilium 迁移到 TriliumNext/Notes 不需要特殊迁移步骤。只需 安装 TriliumNext/Notes 即可，它将使用你现有的数据库。
 
 版本号不超过 [v0.90.4](https://github.com/TriliumNext/Notes/releases/tag/v0.90.4) 的版本与 zadam/trilium 最新版本 [v0.63.7](https://github.com/zadam/trilium/releases/tag/v0.63.7) 兼容。TriliumNext 的后续版本已更新同步版本号。
 
 ## 📖 文档
 
-我们目前正在将文档迁移至应用内（在 Trilium 中按下 `F1` 键即可访问）。因此，在迁移完成之前，可能会有一些缺失的部分。如果你更倾向于通过 GitHub 浏览文档，可以查看 [用户指南](./docs/User%20Guide/User%20Guide/) 文档。
+我们目前正在将文档迁移至应用内（在 Trilium 中按下 `F1` 键即可访问）。因此，在迁移完成之前，可能会有一些缺失的部分。如果你更倾向于通过 GitHub 浏览文档，可以查看 用户指南 文档。
 
 以下是一些方便你浏览文档的快速链接：
-- [服务器安装](./docs/User%20Guide/User%20Guide/Installation%20&%20Setup/Server%20Installation.md)
-  - [Docker 安装](./docs/User%20Guide/User%20Guide/Installation%20&%20Setup/Server%20Installation/1.%20Installing%20the%20server/Using%20Docker.md)
-- [升级 TriliumNext](./docs/User%20Guide/User%20Guide/Installation%20%26%20Setup/Upgrading%20TriliumNext.md)
-- [概念与功能 - 笔记](./docs/User%20Guide/User%20Guide/Basic%20Concepts%20and%20Features/Notes.md)
+- 服务器安装
+  - Docker 安装
+- 升级 TriliumNext
+- 概念与功能 - 笔记
 - [个人知识库模式](https://triliumnext.github.io/Docs/Wiki/patterns-of-personal-knowledge)
 
 在我们完成文档重组之前，你也可以 [浏览旧文档](https://triliumnext.github.io/Docs)。
@@ -74,7 +74,7 @@ Trilium Notes 是一个免费开源、跨平台的分层笔记应用，专注于
 欢迎加入我们的官方讨论。我们很乐意听取你的意见、建议或问题！
 
 - [Matrix](https://matrix.to/#/#triliumnext:matrix.org)（用于实时讨论）
-  - `General` Matrix 房间也桥接到 [XMPP](xmpp:discuss@trilium.thisgreat.party?join)
+  - `General` Matrix 房间也桥接到 XMPP
 - [Github 讨论区](https://github.com/TriliumNext/Notes/discussions)（用于异步讨论）
 - [Github 问题](https://github.com/TriliumNext/Notes/issues)（用于报告错误和功能请求）
 
@@ -156,7 +156,7 @@ pnpm nx --project=desktop electron-forge:make -- --arch=x64 --platform=win32
 
 ### 开发者文档
 
-请查看 [文档指南](./docs/Developer%20Guide/Developer%20Guide/Environment%20Setup.md) 获取详细信息。如果你有更多问题，欢迎通过上面“与我们交流”部分提到的链接联系我们。
+请查看 文档指南 获取详细信息。如果你有更多问题，欢迎通过上面“与我们交流”部分提到的链接联系我们。
 
 ## 👏 致谢
 
@@ -168,7 +168,7 @@ pnpm nx --project=desktop electron-forge:make -- --arch=x64 --platform=win32
 ## 🤝 支持
 
 TriliumNext 组织的支持功能将在不久的将来实现。目前，你可以：
-- 支持 TriliumNext 的持续开发，支持我们的开发者：[eliandoran](https://github.com/sponsors/eliandoran)（查看 [仓库贡献者]([developers]([url](https://github.com/TriliumNext/Notes/graphs/contributors))) 获取完整列表）
+- 支持 TriliumNext 的持续开发，支持我们的开发者：[eliandoran](https://github.com/sponsors/eliandoran)（查看 仓库贡献者)) 获取完整列表）
 - 向原始 Trilium 开发者 ([zadam](https://github.com/sponsors/zadam)) 表达感谢，可通过 [PayPal](https://paypal.me/za4am) 或比特币 (bitcoin:bc1qv3svjn40v89mnkre5vyvs2xw6y8phaltl385d2)。
 
 ## 🔑 许可证

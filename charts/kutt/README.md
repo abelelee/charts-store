@@ -13,17 +13,17 @@
 
 ## Table of contents
 
-- [Key features](#key-features)
-- [Donations and sponsors](#donations-and-sponsors)
-- [Setup](#setup)
-- [Docker](#docker)
-- [API](#api)
-- [Configuration](#configuration)
-- [Themes and customizations](#themes-and-customizations)
-- [Browser extensions](#browser-extensions)
-- [Videos](#videos)
-- [Integrations](#integrations)
-- [Contributing](#contributing)
+- Key features
+- Donations and sponsors
+- Setup
+- Docker
+- API
+- Configuration
+- Themes and customizations
+- Browser extensions
+- Videos
+- Integrations
+- Contributing
 
 ## Key features
 
@@ -67,12 +67,12 @@ docker compose up
 
 Various docker-compose configurations are available. Use `docker compose -f <file_name> up` to start the one you want:
 
-- [`docker-compose.yml`](./docker-compose.yml): Default Kutt setup. Uses SQLite for the database.
-- [`docker-compose.sqlite-redis.yml`](./docker-compose.sqlite-redis.yml): Starts Kutt with SQLite and Redis.
+- `docker-compose.yml`: Default Kutt setup. Uses SQLite for the database.
+- `docker-compose.sqlite-redis.yml`: Starts Kutt with SQLite and Redis.
   - Required environment variable: `REDIS_ENABLED`
-- [`docker-compose.postgres.yml`](./docker-compose.postgres.yml): Starts Kutt with Postgres and Redis.
+- `docker-compose.postgres.yml`: Starts Kutt with Postgres and Redis.
   - Required environment variables: `REDIS_ENABLED`, `DB_PASSWORD`, `DB_NAME`, `DB_USER`
-- [`docker-compose.mariadb.yml`](./docker-compose.mariadb.yml): Starts Kutt with MariaDB and Redis.
+- `docker-compose.mariadb.yml`: Starts Kutt with MariaDB and Redis.
   - Required environment variables: `REDIS_ENABLED`, `DB_PASSWORD`, `DB_NAME`, `DB_USER`, `DB_PORT`
 
 Official Kutt Docker image is available on [Docker Hub](https://hub.docker.com/r/kutt/kutt).
@@ -83,7 +83,7 @@ Official Kutt Docker image is available on [Docker Hub](https://hub.docker.com/r
 
 ## Configuration
 
-The app is configured via environment variables. You can pass environment variables directly or create a `.env` file. View [`.example.env`](./.example.env) file for the list of configurations.
+The app is configured via environment variables. You can pass environment variables directly or create a `.env` file. View `.example.env` file for the list of configurations.
 
 All variables are optional except `JWT_SECRET` which is required on production. 
 
@@ -131,7 +131,7 @@ You can use files for each of the variables by appending `_FILE` to the name of 
 
 ## Themes and customizations
 
-You can add styles, change images, or render custom HTML. Place your content inside the [`/custom`](./custom) folder according to below instructions.
+You can add styles, change images, or render custom HTML. Place your content inside the `/custom` folder according to below instructions.
 
 #### How it works:
 
@@ -159,10 +159,10 @@ custom/
   - If you name your style file `styles.css`, it will replace Kutt's original `styles.css` file.
   - Each file will be accessible by `<your-site.com>/css/<file>.css`
 - **images**: Put your images here. ([View example →](https://github.com/thedevs-network/kutt-customizations/tree/main/themes/crimson/images))
-  - Name them just like the files inside the [`/static/images/`](./static/images) folder to replace Kutt's original images.
+  - Name them just like the files inside the `/static/images/` folder to replace Kutt's original images.
   - Each image will be accessible by `<your-site.com>/images/<image>.<image-format>`
 - **views**: Custom HTML templates to render. ([View example →](https://github.com/thedevs-network/kutt-customizations/tree/main/themes/crimson/views))
-  - It should follow the same file naming and folder structure as [`/server/views`](./server/views)
+  - It should follow the same file naming and folder structure as `/server/views`
   - Although we try to keep the original file names unchanged, be aware that new changes on Kutt might break your custom views.
  
 #### Example theme: Crimson

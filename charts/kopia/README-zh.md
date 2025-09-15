@@ -61,11 +61,11 @@ Kopia 的实际使用
 
 构建 Kopia
 ---
-有关构建 Kopia 和使用源代码的更多信息，请参见 [构建基础设施](BUILD.md)。
+有关构建 Kopia 和使用源代码的更多信息，请参见 构建基础设施。
 
 许可协议
 ---
-Kopia 使用 Apache License 2.0 协议。完整许可文本请参见 [LICENSE](LICENSE)。
+Kopia 使用 Apache License 2.0 协议。完整许可文本请参见 LICENSE。
 
 贡献指南
 ---

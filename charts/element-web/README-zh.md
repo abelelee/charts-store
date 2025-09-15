@@ -43,9 +43,9 @@ Element 对不同环境的支持分为多个等级：
 测试 Element 最简单的方法是使用托管版本 <https://app.element.io>。  
 如果你喜欢尝试最新版本，`develop` 分支会持续部署到 <https://develop.element.io>。
 
-如需托管你自己的 Element 实例，请参阅 [安装 Element Web](docs/install.md)。
+如需托管你自己的 Element 实例，请参阅 安装 Element Web。
 
-如需将 Element 安装为桌面应用，请参阅下方的 [作为桌面应用运行](#作为桌面应用运行)。
+如需将 Element 安装为桌面应用，请参阅下方的 作为桌面应用运行。
 
 # 重要安全说明
 
@@ -99,8 +99,8 @@ Element 是一个使用现代 ES6 构建的模块化 Web 应用，使用 Node.js
 3. 克隆仓库：`git clone https://github.com/element-hq/element-web.git`。
 4. 切换到 element-web 目录：`cd element-web`。
 5. 安装依赖项：`yarn install`。
-   - 如果你使用的是 `develop` 分支，建议设置一个完整的开发环境（参见下方的 [设置开发环境](./developer_guide.md#setting-up-a-dev-environment)）。或者，你可以使用 <https://develop.element.io> —— develop 分支的持续集成版本。
-6. 通过复制 `config.sample.json` 为 `config.json` 并修改其内容来配置应用。详情请参阅 [配置文档](docs/config.md)。
+   - 如果你使用的是 `develop` 分支，建议设置一个完整的开发环境（参见下方的 设置开发环境）。或者，你可以使用 <https://develop.element.io> —— develop 分支的持续集成版本。
+6. 通过复制 `config.sample.json` 为 `config.json` 并修改其内容来配置应用。详情请参阅 配置文档。
 7. 运行 `yarn dist` 以构建一个可部署的 tar 包。解压该文件将生成一个包含所有需要部署到 Web 服务器文件的版本特定目录。
 
 注意：`yarn dist` 在 Windows 上不受支持，因此 Windows 用户可以运行 `yarn build`，这将构建所有必要的文件到 `webapp` 目录中。如果不使用 dist 脚本，设置中将不会显示 Element 的版本号。你可以将 `webapp` 目录挂载到你的 Web 服务器上以提供静态内容。
@@ -113,11 +113,11 @@ Element 也可以作为桌面应用运行，使用 Electron 封装。你可以�
 
 感谢 @aviraldg 在 Electron 集成方面的初始工作。
 
-[配置文档](docs/config.md#desktop-app-configuration) 中展示了如何覆盖桌面应用的默认设置（如有需要）。
+配置文档 中展示了如何覆盖桌面应用的默认设置（如有需要）。
 
 # config.json
 
-Element 支持多种设置，用于配置默认服务器、行为、主题等。详情请参阅 [配置文档](docs/config.md)。
+Element 支持多种设置，用于配置默认服务器、行为、主题等。详情请参阅 配置文档。
 
 # 实验性功能（Labs）
 
@@ -141,15 +141,15 @@ Element 的一些功能可以通过设置中的 `Labs` 部分启用。部分功�
 
 请阅读以下文档：
 
-1. [开发者指南](./developer_guide.md)
-2. [代码风格](./code_style.md)
-3. [贡献指南](./CONTRIBUTING.md)
+1. 开发者指南
+2. 代码风格
+3. 贡献指南
 
 # 翻译
 
-如需添加新翻译，请参阅 [翻译文档](docs/translating.md)。
+如需添加新翻译，请参阅 翻译文档。
 
-开发者指南请参阅 [翻译开发文档](docs/translating-dev.md)。
+开发者指南请参阅 翻译开发文档。
 
 # 问题分类
 

@@ -41,15 +41,15 @@ docker compose up
 
 ## 功能特性
 
-* [可定制的CRUD](#customizable-crud)
-* [自定义操作](#custom-actions)
-* [表单构建器](#forms-builder)
-* [SQL查询](#sql-queries)
-* [数据可视化](#data-visualization)
-* [仪表板](#dashboards)
-* [邮件告警](#email-alerts)
-* [智能搜索](#intelligence-search)
-* [移动端优化](#optimized-for-mobile)
+* 可定制的CRUD
+* 自定义操作
+* 表单构建器
+* SQL查询
+* 数据可视化
+* 仪表板
+* 邮件告警
+* 智能搜索
+* 移动端优化
 * [配置同步](https://github.com/motor-admin/motor-admin/tree/master/guides/configurations_sync_between_environments.md)
 * [角色与权限控制](https://docs.getmotoradmin.com/guide/roles_and_permissions.html)
 * 多数据库支持

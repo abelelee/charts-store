@@ -28,5 +28,5 @@ See [Trademark Guidelines](https://github.com/LibreTranslate/LibreTranslate/blob
 
 ## Other Languages
 
-- [Español (README)](docs/README.es.md)
+- Español (README)
 

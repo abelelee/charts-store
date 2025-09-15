@@ -52,12 +52,12 @@ Follow Password Pusher updates on [X](https://x.com/pwpush), [Reddit](https://ww
 
 -----
 
-[![](./app/assets/images/features/front-page-thumb.png)](./app/assets/images/features/front-page-large.png)
-[![](./app/assets/images/features/audit-log-thumb.png)](./app/assets/images/features/audit-log-large.png)
-[![](./app/assets/images/features/secret-url-languages-thumb.png)](./app/assets/images/features/secret-url-languages-large.png)
-[![](./app/assets/images/features/password-generator-thumb.png)](./app/assets/images/features/password-generator-large.png)
-[![](./app/assets/images/features/dark-theme-thumb.png)](./app/assets/images/features/dark-theme.gif)
-[![](./app/assets/images/features/preliminary-step-thumb.png)](./app/assets/images/features/preliminary-step.gif)
+![](./app/assets/images/features/front-page-large.png)
+![](./app/assets/images/features/audit-log-large.png)
+![](./app/assets/images/features/secret-url-languages-large.png)
+![](./app/assets/images/features/password-generator-large.png)
+![](./app/assets/images/features/dark-theme.gif)
+![](./app/assets/images/features/preliminary-step.gif)
 
 # Editions
 
@@ -97,7 +97,7 @@ See the full [Password Pusher documentation here](https://docs.pwpush.com).
 
 For years, [Translation.io](https://translation.io/?utm_source=pwpush) has provided free access to their translation tools for the open-source version of Password Pusher.  For this reason we now have **31 language translations built in**!
 
-[![](./app/assets/images/partners/translation-io-banner.png)](https://translation.io/?utm_source=pwpush)
+![](https://translation.io/?utm_source=pwpush)
 
 Please say thanks to [Translation.io](https://translation.io/?utm_source=pwpush) by considering them for any translation needs your company (or open source project) might have!
 

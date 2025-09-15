@@ -20,13 +20,13 @@ Keila 是 Mailchimp 或 Sendinblue 等新闻通讯工具的一种开源替代方
 
 您可以在 [app.keila.io](https://app.keila.io/auth/register) 上试用托管版本的 Keila。有关 Keila Cloud 定价的更多信息请[点击此处](https://www.keila.io/pricing)。
 
-如果您想在自己的服务器上部署 Keila，可以使用官方 Docker 镜像 `pentacent/keila`，或者使用本仓库中的 [示例 Docker Compose 配置](ops/docker-compose.yml)。
+如果您想在自己的服务器上部署 Keila，可以使用官方 Docker 镜像 `pentacent/keila`，或者使用本仓库中的 示例 Docker Compose 配置。
 
 更多详细信息，请参考 [安装文档](https://www.keila.io/docs/installation)。
 
 ## 贡献
 
-您可以参与 Keila 项目的翻译或代码开发！了解如何为 Keila 贡献代码或翻译，请查看：[CONTRIBUTING.md](CONTRIBUTING.md)
+您可以参与 Keila 项目的翻译或代码开发！了解如何为 Keila 贡献代码或翻译，请查看：CONTRIBUTING.md
 
 ## 名称由来
 
@@ -38,8 +38,8 @@ Keila 是自由软件。您可以根据自由软件基金会发布的 GNU Affero
 
 Keila 以希望它有用的方式发布，但**没有任何**明示或暗示的担保，包括但不限于适销性或特定用途适用性的担保。
 
-有关 AGPL 的更多详细信息，请[点击此处阅读完整许可证](LICENSE.md)。
+有关 AGPL 的更多详细信息，请点击此处阅读完整许可证。
 
 请注意，Keila 的标志以及 `extra` 目录中包含的所有文件不受该许可证的约束。
 
-有关 `extra` 目录中文件的更多详细信息，请参阅 [extra README](extra/README.md)。
+有关 `extra` 目录中文件的更多详细信息，请参阅 extra README。

@@ -27,7 +27,7 @@ You can give a hosted version of Keila a try on [app.keila.io](https://app.keila
 More information about the pricing of Keila Cloud [here](https://www.keila.io/pricing).
 
 If you want to deploy Keila on your own server, you can use the official Docker
-image `pentacent/keila` or use the [sample Docker Compose config](ops/docker-compose.yml)
+image `pentacent/keila` or use the sample Docker Compose config
 in this repo.
 
 Follow the [Installation Docs](https://www.keila.io/docs/installation)
@@ -36,7 +36,7 @@ for more details.
 ## Contributing
 
 You can contribute to the Keila project with translations or code! Learn more
-about how to contribute code or translations to Keila here: [CONTRIBUTING.md](CONTRIBUTING.md)
+about how to contribute code or translations to Keila here: CONTRIBUTING.md
 
 
 ## The Name
@@ -55,8 +55,8 @@ Keila is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 PARTICULAR PURPOSE.
 
-For more details about the AGPL, please [read the full license here](LICENSE.md).
+For more details about the AGPL, please read the full license here.
 
 Please note that the Keila logo and all files included in the `extra` directory are not subject to the license.
 
-For more details about the files in the `extra` directory, please refer to the [extra README](extra/README.md).
+For more details about the files in the `extra` directory, please refer to the extra README.

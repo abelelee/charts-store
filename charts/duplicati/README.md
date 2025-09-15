@@ -1,6 +1,6 @@
 # Duplicati
 
-**English** | [中文](./README.zh-CN.md) | [日本語](./README.ja-JP.md)
+**English** | 中文 | 日本語
 
 Store securely encrypted backups on cloud storage services!
 

@@ -42,7 +42,7 @@ Komga 是一个用于管理漫画、漫画书、BD、杂志和电子书的媒体
 
 ## 开发
 
-请查看 [开发指南](./DEVELOPING.md)。
+请查看 开发指南。
 
 ## 翻译
 
@@ -50,7 +50,7 @@ Komga 是一个用于管理漫画、漫画书、BD、杂志和电子书的媒体
 
 ## 赞助商
 
-[![Jetbrains_logo](./.github/readme-images/jetbrains.svg)](https://www.jetbrains.com/?from=Komga)
+![Jetbrains_logo](https://www.jetbrains.com/?from=Komga)
 
 ## 致谢
 

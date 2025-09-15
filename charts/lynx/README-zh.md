@@ -55,8 +55,8 @@
 
 ## 命名说明
 
-每个包含 slug、目标地址和 ID 的条目被称为 [`Link`](src/db/models/link.js)，复数形式为 links。
+每个包含 slug、目标地址和 ID 的条目被称为 `Link`，复数形式为 links。
 
 每个链接都有一个 `slug`，这是源 URL 中的路径部分。例如 `example.com/2dch89772` 的 slug 是 `2dch89772`。
 
-每个包含用户名和密码的条目被称为 [`Account`](src/db/models/account.js)，复数形式为 accounts。
+每个包含用户名和密码的条目被称为 `Account`，复数形式为 accounts。

@@ -62,11 +62,11 @@ See [Kopia Documentation](https://kopia.io/docs/) for more information.
 
 Building Kopia
 ---
-See [Build Infrastructure](BUILD.md) for more information on building Kopia and working with the source code.
+See Build Infrastructure for more information on building Kopia and working with the source code.
 
 Licensing
 ---
-Kopia is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text.
+Kopia is licensed under the Apache License, Version 2.0. See LICENSE for the full license text.
 
 Contribution Guidelines
 ---

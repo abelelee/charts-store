@@ -21,14 +21,14 @@
 目录
 =================
 
-- [安装 Mattermost](#安装-mattermost)
-- [原生移动和桌面应用](#原生移动和桌面应用)
-- [获取安全公告](#获取安全公告)
-- [参与进来](#参与进来)
-- [了解更多](#了解更多)
-- [许可证](#许可证)
-- [获取最新消息](#获取最新消息)
-- [贡献](#贡献)
+- 安装 Mattermost
+- 原生移动和桌面应用
+- 获取安全公告
+- 参与进来
+- 了解更多
+- 许可证
+- 获取最新消息
+- 贡献
 
 ## 安装 Mattermost
 
@@ -75,7 +75,7 @@
 
 ## 许可证
 
-有关许可权利和限制，请参阅 [LICENSE 文件](LICENSE.txt)。
+有关许可权利和限制，请参阅 LICENSE 文件。
 
 ## 获取最新消息
 
@@ -92,5 +92,5 @@
 
 [![小图标](https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/mattermost/mattermost)
 
-请参阅 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+请参阅 CONTRIBUTING.md。
 [加入 Mattermost 贡献者服务器](https://community.mattermost.com/signup_user_complete/?id=codoy5s743rq5mk18i7u5ksz7e) 以参与有关贡献、开发等方面的社区讨论。

@@ -57,7 +57,7 @@ Use keyboard shortcuts to become more productive while using Whiteboard.
 
 They are especially useful if you work with interactive displays such as XP-Pen Artist, Huion Kamvas and Wacom Cintiq. These devices have quick buttons (6-8 buttons and scrolling). By default, the buttons on these displays are mapped to standard Photoshop keyboard shortcuts. Keys can be configured to function effectively in other software.
 
-The following are predefined shortcuts that you can override in the file [./src/js/keybinds.js](./src/js/keybinds.js)
+The following are predefined shortcuts that you can override in the file ./src/js/keybinds.js
 
 | Result                                                           | Windows and Linux    | macOS                   |
 | ---------------------------------------------------------------- | -------------------- | ----------------------- |
@@ -120,7 +120,7 @@ Many settings of this project can be set using a simple `yaml` file, to change s
 
 To run the project with custom settings:
 
-1. Create a `config.run.yml` file based on the content of [`config.default.yml`](./config.default.yml),
+1. Create a `config.run.yml` file based on the content of `config.default.yml`,
 2. Change the settings,
 3. Run the project with your custom configuration (it will be merged into the default one):
 
@@ -131,7 +131,7 @@ To run the project with custom settings:
 
 #### Security - AccessToken (Optional)
 
-To prevent clients who might know or guess the base URL from abusing the server to upload files and stuff, you can set an accesstoken at server start (see [here](./config.default.yml)).
+To prevent clients who might know or guess the base URL from abusing the server to upload files and stuff, you can set an accesstoken at server start (see here).
 
 Then set the same token on the client side as well:
 
@@ -150,7 +150,7 @@ Note: This API is pretty new, so be sure to use the latest Whiteboard version.
 
 This function allows your users to save the whiteboard directly to a webdav server (Nextcloud) as image without downloading it.
 
-To enable set `enableWebdav` to `true` in the [configuration](./config.default.yml).
+To enable set `enableWebdav` to `true` in the configuration.
 
 Then set the same parameter on the client side as well:
 
@@ -164,7 +164,7 @@ Done!
 
 ### And many more (performance, etc.)
 
-Many more settings can be tweaked. All of them are described in the [default config file](./config.default.yml).
+Many more settings can be tweaked. All of them are described in the default config file.
 
 ## Things you may want to know
 

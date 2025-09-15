@@ -13,7 +13,7 @@
 [![GitHub star chart](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f466c6f7769736541492f466c6f776973653f7374796c653d736f6369616c.svg)](https://star-history.com/#FlowiseAI/Flowise)
 [![GitHub fork](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f466c6f7769736541492f466c6f776973653f7374796c653d736f6369616c.svg)](https://github.com/FlowiseAI/Flowise/fork)
 
-English | [繁體中文](./i18n/README-TW.md) | [简体中文](./i18n/README-ZH.md) | [日本語](./i18n/README-JA.md) | [한국어](./i18n/README-KR.md)
+English | 繁體中文 | 简体中文 | 日本語 | 한국어
 
 </div>
 
@@ -23,12 +23,12 @@ English | [繁體中文](./i18n/README-TW.md) | [简体中文](./i18n/README-ZH.
 
 ## 📚 Table of Contents
 
-- [⚡ Quick Start](#-quick-start)
-- [🐳 Docker](#-docker)
-- [👨‍💻 Developers](#-developers)
-- [🌱 Env Variables](#-env-variables)
-- [📖 Documentation](#-documentation)
-- [📄 License](#-license)
+- ⚡ Quick Start
+- 🐳 Docker
+- 👨‍💻 Developers
+- 🌱 Env Variables
+- 📖 Documentation
+- 📄 License
 
 ## ⚡Quick Start
 
@@ -159,4 +159,4 @@ You can view the Flowise Docs [here](https://docs.flowiseai.com/)
 
 ## 📄 License
 
-Source code in this repository is made available under the [Apache License Version 2.0](LICENSE.md).
+Source code in this repository is made available under the Apache License Version 2.0.

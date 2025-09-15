@@ -53,18 +53,18 @@
 
 ## 目录
 
-- [开始使用](#get-started)
-- [Kubernetes 安装](docs/kubernetes.md)
-- [配置](docs/configuration.md)
-- [主题](docs/theming.md)
-- [智能卡片](docs/customservices.md)
-- [技巧与窍门](docs/tips-and-tricks.md)
-- [开发](docs/development.md)
-- [故障排查](docs/troubleshooting.md)
+- 开始使用
+- Kubernetes 安装
+- 配置
+- 主题
+- 智能卡片
+- 技巧与窍门
+- 开发
+- 故障排查
 
 ## 开始使用
 
-Homer 是一个完全静态的 HTML/JS 仪表板，基于一个简单的 YAML 配置文件。有关配置（`assets/config.yml`）选项的更多信息，请参阅[文档](docs/configuration.md)。
+Homer 是一个完全静态的 HTML/JS 仪表板，基于一个简单的 YAML 配置文件。有关配置（`assets/config.yml`）选项的更多信息，请参阅文档。
 
 它需要通过 HTTP 服务器提供服务，**如果你直接通过 file:// 协议打开 index.html 文件将无法正常工作**。
 

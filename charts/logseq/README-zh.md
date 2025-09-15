@@ -54,17 +54,17 @@
 
 ## 目录
 
-  * [<g-emoji class="g-emoji" alias="database" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> 数据库版本](#-数据库版本)
-  * [<g-emoji class="g-emoji" alias="thinking" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png">🤔</g-emoji> 为什么选择 Logseq？](#-为什么选择-logseq)
-  * [<g-emoji class="g-emoji" alias="eyes" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f440.png">👀</g-emoji> 如何使用？](#-如何使用)
-  * [<g-emoji class="g-emoji" alias="books" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png">📚</g-emoji> 了解更多](#-了解更多)
-  * [🫶 支持 Logseq 开发](#-支持-logseq-开发)
-  * [<g-emoji class="g-emoji" alias="bulb" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png">💡</g-emoji> 功能请求](#-功能请求)
-  * [<g-emoji class="g-emoji" alias="electric_plug" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f50c.png">🔌</g-emoji> 插件 API](#-插件-api)
-  * [<g-emoji class="g-emoji" alias="star2" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png">🌟</g-emoji> 参与 Logseq 贡献](#-参与-logseq-贡献)
-    * [<g-emoji class="g-emoji" alias="hammer_and_wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠️</g-emoji> 搭建开发环境](#️-搭建开发环境)
-  * [<g-emoji class="g-emoji" alias="sparkles" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png">✨</g-emoji> 灵感来源](#-灵感来源)
-* [<g-emoji class="g-emoji" alias="pray" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f64f.png">🙏</g-emoji> 感谢](#-感谢)
+  * <g-emoji class="g-emoji" alias="database" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> 数据库版本
+  * <g-emoji class="g-emoji" alias="thinking" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png">🤔</g-emoji> 为什么选择 Logseq？
+  * <g-emoji class="g-emoji" alias="eyes" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f440.png">👀</g-emoji> 如何使用？
+  * <g-emoji class="g-emoji" alias="books" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png">📚</g-emoji> 了解更多
+  * 🫶 支持 Logseq 开发
+  * <g-emoji class="g-emoji" alias="bulb" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png">💡</g-emoji> 功能请求
+  * <g-emoji class="g-emoji" alias="electric_plug" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f50c.png">🔌</g-emoji> 插件 API
+  * <g-emoji class="g-emoji" alias="star2" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png">🌟</g-emoji> 参与 Logseq 贡献
+    * <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠️</g-emoji> 搭建开发环境
+  * <g-emoji class="g-emoji" alias="sparkles" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png">✨</g-emoji> 灵感来源
+* <g-emoji class="g-emoji" alias="pray" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f64f.png">🙏</g-emoji> 感谢
 
 ## 🚀 数据库版本
 
@@ -141,14 +141,14 @@ Logseq 提供了一个插件 API，使开发者能够创建自定义插件并扩
 
 ## 🌟 参与 Logseq 贡献
 
-要开始为 Logseq 做贡献，请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
+要开始为 Logseq 做贡献，请阅读 CONTRIBUTING.md。
 你可以通过[代码贡献](https://github.com/logseq/logseq/blob/master/CONTRIBUTING.md#code-contributions) 和[非代码方式](https://github.com/logseq/logseq/blob/master/CONTRIBUTING.md#-how-can-i-help) 来参与贡献。我们欢迎任何形式的贡献，无论大小，我们感谢你花时间帮助我们改进 Logseq。我们期待你的贡献 🚀
 
 ### 🛠️ 搭建开发环境
 
-如果你想为 Logseq 的网页版或桌面版搭建开发环境，请参考 [开发 Logseq](docs/develop-logseq.md) 指南（适用于 macOS/Linux 用户）和 [Windows 上开发 Logseq](docs/develop-logseq-on-windows.md) 指南（适用于 Windows 用户）。
+如果你想为 Logseq 的网页版或桌面版搭建开发环境，请参考 开发 Logseq 指南（适用于 macOS/Linux 用户）和 Windows 上开发 Logseq 指南（适用于 Windows 用户）。
 
-除了这些指南外，你还可以在 [docs/](docs/) 文件夹中找到其他有用的资源，例如 [翻译贡献指南](docs/contributing-to-translations.md)、[Docker 网页应用指南](docs/docker-web-app-guide.md) 和 [移动端开发指南](docs/develop-logseq-on-mobile.md)
+除了这些指南外，你还可以在 docs/ 文件夹中找到其他有用的资源，例如 翻译贡献指南、Docker 网页应用指南 和 移动端开发指南
 
 ## ✨ 灵感来源
 

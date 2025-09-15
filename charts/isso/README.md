@@ -79,4 +79,4 @@ Refer to the docs for
 
 ## License
 
-MIT, see [LICENSE](LICENSE).
+MIT, see LICENSE.

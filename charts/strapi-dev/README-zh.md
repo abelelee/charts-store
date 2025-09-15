@@ -129,7 +129,7 @@ Strapi 仅支持 Node.js 的维护版本和 LTS 版本。更多信息请参阅 <
 
 ## 贡献
 
-在提交 Pull Request 之前，请先阅读我们的 [贡献指南](./CONTRIBUTING.md)。
+在提交 Pull Request 之前，请先阅读我们的 贡献指南。
 
 ## 社区支持
 
@@ -165,4 +165,4 @@ Strapi 仅支持 Node.js 的维护版本和 LTS 版本。更多信息请参阅 <
 
 ## 许可协议
 
-请查看 [LICENSE](./LICENSE) 文件获取授权信息。
+请查看 LICENSE 文件获取授权信息。

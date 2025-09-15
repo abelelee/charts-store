@@ -88,7 +88,7 @@ Reactive Resume 是一个免费、开源的简历制作工具，它简化了创�
 
 ## 许可证
 
-Reactive Resume 采用 [MIT 许可证](/LICENSE.md) 进行打包和分发，允许商业用途、分发、修改和私人使用，前提是所有软件副本都包含相同的许可证和版权声明。
+Reactive Resume 采用 MIT 许可证 进行打包和分发，允许商业用途、分发、修改和私人使用，前提是所有软件副本都包含相同的许可证和版权声明。
 
 _来自社区，服务社区。_  
 由 [Amruth Pillai](https://www.amruthpillai.com/) 创作的个人项目

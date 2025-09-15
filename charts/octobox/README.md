@@ -36,30 +36,30 @@ Octobox adds an extra "archived" state to each notification so you can mark it a
 
 ## Table of Contents
 
-- [Octobox 📮 Untangle your GitHub Notifications.](#octobox--untangle-your-github-notifications)
-	- [Why is this a thing?](#why-is-this-a-thing)
-	- [Table of Contents](#table-of-contents)
-	- [Getting Started](#getting-started)
-		- [Install](#install)
-		- [Desktop usage](#desktop-usage)
-		- [Web extension](#web-extension)
-	- [Requirements](#requirements)
-	- [Viewing comment threads](#viewing-comment-threads)
-	- [Keyboard shortcuts](#keyboard-shortcuts)
-	- [API Documentation](#api-documentation)
-	- [Backers](#backers)
-	- [Sponsors](#sponsors)
-	- [Contribute](#contribute)
-		- [Note on Patches/Pull Requests](#note-on-patchespull-requests)
-		- [Vulnerability disclosure](#vulnerability-disclosure)
-		- [Code of Conduct](#code-of-conduct)
-	- [Copyright](#copyright)
+- Octobox 📮 Untangle your GitHub Notifications.
+	- Why is this a thing?
+	- Table of Contents
+	- Getting Started
+		- Install
+		- Desktop usage
+		- Web extension
+	- Requirements
+	- Viewing comment threads
+	- Keyboard shortcuts
+	- API Documentation
+	- Backers
+	- Sponsors
+	- Contribute
+		- Note on Patches/Pull Requests
+		- Vulnerability disclosure
+		- Code of Conduct
+	- Copyright
 
 ## Getting Started
 
 ### Install
 
-You can also host Octobox yourself! See [the installation guide](docs/INSTALLATION.md)
+You can also host Octobox yourself! See the installation guide
 for installation instructions and details regarding deployment to Heroku, Docker, and more.
 
 ### Desktop usage
@@ -156,12 +156,12 @@ For other updates, follow the project on Twitter: [@octoboxio](https://twitter.c
 
 ### Vulnerability disclosure
 
-We support and encourage security research on Octobox under the terms of our [vulnerability disclosure policy](docs/VULNERABILITY_DISCLOSURE_POLICY.md).
+We support and encourage security research on Octobox under the terms of our vulnerability disclosure policy.
 
 ### Code of Conduct
 
-Please note that this project is released with a [Contributor Code of Conduct](docs/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
 
 ## Copyright
 
-[GNU Affero License](LICENSE.txt) © 2021 [Andrew Nesbitt](https://github.com/andrew).
+GNU Affero License © 2021 [Andrew Nesbitt](https://github.com/andrew).

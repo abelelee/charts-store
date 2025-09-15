@@ -92,9 +92,9 @@ docker run -p 4000:4000 \
 
 ## 许可证
 
-Cube 客户端采用 [MIT 许可证](./packages/cubejs-client-core/LICENSE)。
+Cube 客户端采用 MIT 许可证。
 
-Cube 后端采用 [Apache 2.0 许可证](./packages/cubejs-server/LICENSE)。
+Cube 后端采用 Apache 2.0 许可证。
 
 
 [![FOSSA 状态](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcube-js%2Fcube.js.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcube-js%2Fcube.js?ref=badge_large)

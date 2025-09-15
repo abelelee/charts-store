@@ -11,15 +11,15 @@
 
 ## 目录
 
-* [设计理念](#design-principle)
-* [功能特性](#features)
-* [快速开始](#getting-started)
-  * [托管部署](#hosted)
-  * [自托管部署](#self-hosted)
-* [路线图](#roadmap)
-* [参与贡献](#contributing)
-* [赞助支持](#sponsorship)
-* [致谢](#thanks)
+* 设计理念
+* 功能特性
+* 快速开始
+  * 托管部署
+  * 自托管部署
+* 路线图
+* 参与贡献
+* 赞助支持
+* 致谢
 
 ## 设计理念
 
@@ -107,7 +107,7 @@ services:
 
 ## 参与贡献
 
-如果你有兴趣为 flatnotes 做出贡献，请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 文件。
+如果你有兴趣为 flatnotes 做出贡献，请阅读 CONTRIBUTING.md 文件。
 
 ## 赞助支持
 

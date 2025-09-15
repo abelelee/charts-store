@@ -41,15 +41,15 @@ docker compose up
 
 ## Features
 
-* [Customizable CRUD](#customizable-crud)
-* [Custom actions](#custom-actions)
-* [Forms builder](#forms-builder)
-* [SQL queries](#sql-queries)
-* [Data visualization](#data-visualization)
-* [Dashboards](#dashboards)
-* [Email alerts](#email-alerts)
-* [Intelligence search](#intelligence-search)
-* [Optimized for mobile](#optimized-for-mobile)
+* Customizable CRUD
+* Custom actions
+* Forms builder
+* SQL queries
+* Data visualization
+* Dashboards
+* Email alerts
+* Intelligence search
+* Optimized for mobile
 * [Configurations Sync](https://github.com/motor-admin/motor-admin/tree/master/guides/configurations_sync_between_environments.md)
 * [Roles and permissions control](https://docs.getmotoradmin.com/guide/roles_and_permissions.html)
 * Multiple databases support

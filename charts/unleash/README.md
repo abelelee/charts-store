@@ -27,7 +27,7 @@ Unleash is the most popular open-source solution for feature flagging on GitHub.
 
 ### Set up Unleash
 
-To get started with Unleash, you can either explore [Unleash Enterprise](#unleash-enterprise) with a free trial or [get started locally](#unleash-open-source) with our open-source solution.
+To get started with Unleash, you can either explore Unleash Enterprise with a free trial or get started locally with our open-source solution.
 
 #### Unleash Enterprise
 
@@ -50,11 +50,11 @@ Then point your browser to `localhost:4242` and log in using:
 - username: `admin`
 - password: `unleash4all`
 
-If you'd rather run the source code in this repo directly via Node.js, see the [step-by-step instructions to get up and running in the contributing guide](./CONTRIBUTING.md#how-to-run-the-project).
+If you'd rather run the source code in this repo directly via Node.js, see the step-by-step instructions to get up and running in the contributing guide.
 
 ### Connect your SDK
 
-Find your preferred SDK in [our list of official SDKs](#unleash-sdks) and import it into your project. Follow the setup guides for your specific SDK.
+Find your preferred SDK in our list of official SDKs and import it into your project. Follow the setup guides for your specific SDK.
 
 If you use the docker compose file from the previous step, here's the configuration details you'll need to get going:
 
@@ -105,7 +105,7 @@ We know that learning a new tool can be hard and time-consuming. We have a growi
 
 Unleash is the largest [open-source feature flag solution](https://www.getunleash.io/) on GitHub. Building Unleash is a collaborative effort, and we owe a lot of gratitude to many smart and talented individuals. Building it together with the community ensures that we build a product that solves real problems for real people. We'd love to have your help too: Please feel free to open issues or provide pull requests.
 
-Check out [the CONTRIBUTING.md file](./CONTRIBUTING.md) for contribution guidelines and the [Unleash developer guide](./website/docs/contributing/developer-guide.md) for tips on environment setup, running the tests, and running Unleash from source.
+Check out the CONTRIBUTING.md file for contribution guidelines and the Unleash developer guide for tips on environment setup, running the tests, and running Unleash from source.
 
 ## Features our users love
 

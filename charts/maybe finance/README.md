@@ -8,7 +8,7 @@
 
 ## Maybe Hosting
 
-Maybe is a fully working personal finance app that can be [self hosted with Docker](docs/hosting/docker.md).
+Maybe is a fully working personal finance app that can be self hosted with Docker.
 
 ## Forking and Attribution
 
@@ -20,7 +20,7 @@ This repo is no longer maintained. You’re free to fork it under the AGPLv3. To
 ## Local Development Setup
 
 **If you are trying to _self-host_ the Maybe app, stop here. You
-should [read this guide to get started](docs/hosting/docker.md).**
+should read this guide to get started.**
 
 The instructions below are for developers to get started with contributing to the app.
 

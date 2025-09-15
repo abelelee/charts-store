@@ -79,14 +79,14 @@ PORT=5001 HOST=127.0.0.1 npm start
 
 ## 多语言支持
 
-WBO 支持多种语言。翻译文件存储在 [`server/translations.json`](./server/translations.json) 中。
+WBO 支持多种语言。翻译文件存储在 `server/translations.json` 中。
 如果你希望为这个协作项目做出贡献，可以 [将 WBO 翻译成你自己的语言](https://github.com/lovasoa/whitebophir/wiki/How-to-translate-WBO-into-your-own-language)。
 
 ## 身份验证
 
 WBO 支持使用 [Json Web Tokens](https://jwt.io/introduction) 进行身份验证。应通过查询参数传递，键为 `token`，例如：`http://myboard.com/boards/test?token={token}`
 
-在 [`configuration.js`](./server/configuration.js) 中的 `AUTH_SECRET_KEY` 变量应填写 JWT 的密钥。
+在 `configuration.js` 中的 `AUTH_SECRET_KEY` 变量应填写 JWT 的密钥。
 
 在 JWT 的 payload 中，你可以将用户角色声明为数组。
 目前支持的角色只有 `moderator` 和 `editor`。
@@ -136,7 +136,7 @@ WBO 支持使用 JWT 验证白板名称。
 ## 配置
 
 当你启动 WBO 服务器时，它会从多个环境变量中加载配置。
-你可以在 [`configuration.js`](./server/configuration.js) 中查看这些变量的列表。
+你可以在 `configuration.js` 中查看这些变量的列表。
 一些重要的环境变量包括：
 
 - `WBO_HISTORY_DIR`：配置白板保存的目录。默认为 `./server-data/`。

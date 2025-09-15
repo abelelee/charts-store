@@ -18,10 +18,10 @@
 [![Docker Image Version](https://img.shields.io/docker/v/elestio/gpt-researcher/latest?arch=amd64&style=flat&logo=docker&logoColor=white&color=1D63ED)](https://hub.docker.com/r/gptresearcher/gpt-researcher)
 [![Twitter Follow](https://img.shields.io/twitter/follow/assaf_elovic?style=social)](https://twitter.com/assaf_elovic)
 
-[English](README.md) |
-[中文](README-zh_CN.md) |
-[日本語](README-ja_JP.md) |
-[한국어](README-ko_KR.md)
+English |
+中文 |
+日本語 |
+한국어
 </div>
 
 # 🔎 GPT Researcher
@@ -126,7 +126,7 @@ $ uvicorn main:app --reload
 要了解如何开始使用 Docker 或了解有关功能和服务的更多信息，请访问 [documentation](https://docs.gptr.dev) 页面。
 
 ## 🚀 贡献
-我们非常欢迎您的贡献！如果您感兴趣，请查看 [contributing](CONTRIBUTING.md)。
+我们非常欢迎您的贡献！如果您感兴趣，请查看 contributing。
 
 如果您有兴趣加入我们的任务，请查看我们的 [路线图](https://trello.com/b/3O7KBePw/gpt-researcher-roadmap) 页面，并通过我们的 [Discord 社区](https://discord.gg/QgZXvJAccX) 联系我们。
 

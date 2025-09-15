@@ -128,7 +128,7 @@ Link: https://opencollective.com/postiz
 
 ## License
 
-This repository's source code is available under the [AGPL-3.0 license](LICENSE).
+This repository's source code is available under the AGPL-3.0 license.
 
 <br /><br /><br />
 

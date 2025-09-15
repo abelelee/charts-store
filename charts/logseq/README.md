@@ -54,17 +54,17 @@
 
 ## Table of Contents
 
-  * [<g-emoji class="g-emoji" alias="database" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> Database Version](#-database-version)
-  * [<g-emoji class="g-emoji" alias="thinking" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png">🤔</g-emoji> Why Logseq?](#-why-logseq)
-  * [<g-emoji class="g-emoji" alias="eyes" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f440.png">👀</g-emoji> How can I use it?](#-how-can-i-use-it)
-  * [<g-emoji class="g-emoji" alias="books" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png">📚</g-emoji> Learn more](#-learn-more)
-  * [🫶 Support Logseq Development](#-support-logseq-development)
-  * [<g-emoji class="g-emoji" alias="bulb" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png">💡</g-emoji> Feature requests](#-feature-requests)
-  * [<g-emoji class="g-emoji" alias="electric_plug" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f50c.png">🔌</g-emoji> Plugin API](#-plugin-api)
-  * [<g-emoji class="g-emoji" alias="star2" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png">🌟</g-emoji> Contributing to Logseq](#-contributing-to-logseq)
-    * [<g-emoji class="g-emoji" alias="hammer_and_wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠️</g-emoji> Setting Up a Development Environment](#️-setting-up-a-development-environment)
-  * [<g-emoji class="g-emoji" alias="sparkles" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png">✨</g-emoji> Inspiration](#-inspiration)
-* [<g-emoji class="g-emoji" alias="pray" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f64f.png">🙏</g-emoji> Thank You](#-thank-you)
+  * <g-emoji class="g-emoji" alias="database" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀</g-emoji> Database Version
+  * <g-emoji class="g-emoji" alias="thinking" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f914.png">🤔</g-emoji> Why Logseq?
+  * <g-emoji class="g-emoji" alias="eyes" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f440.png">👀</g-emoji> How can I use it?
+  * <g-emoji class="g-emoji" alias="books" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png">📚</g-emoji> Learn more
+  * 🫶 Support Logseq Development
+  * <g-emoji class="g-emoji" alias="bulb" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png">💡</g-emoji> Feature requests
+  * <g-emoji class="g-emoji" alias="electric_plug" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f50c.png">🔌</g-emoji> Plugin API
+  * <g-emoji class="g-emoji" alias="star2" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png">🌟</g-emoji> Contributing to Logseq
+    * <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠️</g-emoji> Setting Up a Development Environment
+  * <g-emoji class="g-emoji" alias="sparkles" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png">✨</g-emoji> Inspiration
+* <g-emoji class="g-emoji" alias="pray" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f64f.png">🙏</g-emoji> Thank You
 
 ## 🚀 Database Version
 
@@ -142,16 +142,16 @@ Thank you for using Logseq, and we look forward to seeing what you create with o
 
 ## 🌟 Contributing to Logseq
 
-To start contributing to Logseq, please read [CONTRIBUTING.md](CONTRIBUTING.md).
+To start contributing to Logseq, please read CONTRIBUTING.md.
 There are ways to contribute [with code](https://github.com/logseq/logseq/blob/master/CONTRIBUTING.md#code-contributions) and [without code](https://github.com/logseq/logseq/blob/master/CONTRIBUTING.md#-how-can-i-help). We welcome all
 contributions, big or small, and we appreciate your time and effort in helping
 us improve Logseq. We look forward to your contributions 🚀
 
 ### 🛠️ Setting Up a Development Environment
 
-If you want to set up a development environment for the Logseq web or desktop app, please refer to the [Develop Logseq](docs/develop-logseq.md) guide for macOS/Linux users and the [Develop Logseq on Windows](docs/develop-logseq-on-windows.md) guide for Windows users.
+If you want to set up a development environment for the Logseq web or desktop app, please refer to the Develop Logseq guide for macOS/Linux users and the Develop Logseq on Windows guide for Windows users.
 
-In addition to these guides, you can also find other helpful resources in the [docs/](docs/) folder, such as the [Guide for Contributing to Translations](docs/contributing-to-translations.md), the [Docker Web App Guide](docs/docker-web-app-guide.md) and the [mobile development guide](docs/develop-logseq-on-mobile.md)
+In addition to these guides, you can also find other helpful resources in the docs/ folder, such as the Guide for Contributing to Translations, the Docker Web App Guide and the mobile development guide
 
 ## ✨ Inspiration
 

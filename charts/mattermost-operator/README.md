@@ -21,14 +21,14 @@ Other useful resources:
 Table of contents
 =================
 
-- [Install Mattermost](#install-mattermost)
-- [Native mobile and desktop apps](#native-mobile-and-desktop-apps)
-- [Get security bulletins](#get-security-bulletins)
-- [Get involved](#get-involved)
-- [Learn more](#learn-more)
-- [License](#license)
-- [Get the latest news](#get-the-latest-news)
-- [Contributing](#contributing)
+- Install Mattermost
+- Native mobile and desktop apps
+- Get security bulletins
+- Get involved
+- Learn more
+- License
+- Get the latest news
+- Contributing
 
 ## Install Mattermost
 
@@ -76,7 +76,7 @@ Receive notifications of critical security updates. The sophistication of online
 
 ## License
 
-See the [LICENSE file](LICENSE.txt) for license rights and limitations.
+See the LICENSE file for license rights and limitations.
 
 ## Get the latest news
 
@@ -93,5 +93,5 @@ See the [LICENSE file](LICENSE.txt) for license rights and limitations.
 
 [![Small Image](https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/mattermost/mattermost)
 
-Please see [CONTRIBUTING.md](./CONTRIBUTING.md).
+Please see CONTRIBUTING.md.
 [Join the Mattermost Contributors server](https://community.mattermost.com/signup_user_complete/?id=codoy5s743rq5mk18i7u5ksz7e) to join community discussions about contributions, development, and more.

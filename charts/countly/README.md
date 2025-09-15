@@ -25,7 +25,7 @@ Countly is used to track 1.5B unique identities on more than 16,000 applications
 * **Countly Enterprise** — Offers a wider range of plugins/features, granular data, an SLA, and direct support. Available as self-hosted or Countly hosted/managed. Suitable for medium and large organizations.
 * **Countly Flex** — Our SaaS platform that offers some Enterprise features as core features, and some others as add-ons. Everyone gets their dedicated and fully-managed Countly server(s) in the region they choose. Suitable for individuals, small and medium-sized organizations.  
 
-For a detailed comparison of different editions [please check here](https://countly.com/pricing). To try the Countly Flex [please visit this page]([https://countly.com/flex](https://countly.com/flex)).
+For a detailed comparison of different editions [please check here](https://countly.com/pricing). To try the Countly Flex please visit this page).
 
 Also, please note that SDKs of Countly are the same for all editions.
 

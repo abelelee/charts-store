@@ -101,4 +101,4 @@ make test-all
 
 ## 许可证
 
-采用 MIT 许可证（MIT）。详见 [LICENSE](LICENSE) 文件。
+采用 MIT 许可证（MIT）。详见 LICENSE 文件。

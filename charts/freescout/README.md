@@ -16,17 +16,17 @@ If you want to support the project feel free to **star this repository**. It hel
 ![FreeScout](https://freescout-helpdesk.github.io/img/screenshots/screenshot.png)
 
 ## Table of Contents
-   * [Demo](#demo)
-   * [Features](#features)
-   * [Mobile Apps](#mobile-apps)
-   * [Requirements](#requirements)
-   * [Installation](#installation)
-   * [Cloud Hosted](#cloud-hosted)
-   * [Modules](#modules)
-   * [Tools & Integrations](#tools--integrations)
-   * [News & Updates](#news--updates)
-   * [Contributing](#contributing)
-   * [Screenshots](#screenshots)
+   * Demo
+   * Features
+   * Mobile Apps
+   * Requirements
+   * Installation
+   * Cloud Hosted
+   * Modules
+   * Tools & Integrations
+   * News & Updates
+   * Contributing
+   * Screenshots
 
 ## Demo
 

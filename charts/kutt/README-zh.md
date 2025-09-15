@@ -13,17 +13,17 @@
 
 ## 目录
 
-- [主要功能](#主要功能)
-- [捐赠与赞助商](#捐赠与赞助商)
-- [安装](#安装)
-- [Docker](#docker)
-- [API](#api)
-- [配置](#配置)
-- [主题与自定义](#主题与自定义)
-- [浏览器扩展](#浏览器扩展)
-- [视频](#视频)
-- [集成](#集成)
-- [贡献](#贡献)
+- 主要功能
+- 捐赠与赞助商
+- 安装
+- Docker
+- API
+- 配置
+- 主题与自定义
+- 浏览器扩展
+- 视频
+- 集成
+- 贡献
 
 ## 主要功能
 
@@ -67,12 +67,12 @@ docker compose up
 
 我们提供了多种 docker-compose 配置。使用 `docker compose -f <文件名> up` 来启动你需要的配置：
 
-- [`docker-compose.yml`](./docker-compose.yml)：默认 Kutt 配置，使用 SQLite 作为数据库。
-- [`docker-compose.sqlite-redis.yml`](./docker-compose.sqlite-redis.yml)：使用 SQLite 和 Redis 启动 Kutt。
+- `docker-compose.yml`：默认 Kutt 配置，使用 SQLite 作为数据库。
+- `docker-compose.sqlite-redis.yml`：使用 SQLite 和 Redis 启动 Kutt。
   - 必需的环境变量：`REDIS_ENABLED`
-- [`docker-compose.postgres.yml`](./docker-compose.postgres.yml)：使用 Postgres 和 Redis 启动 Kutt。
+- `docker-compose.postgres.yml`：使用 Postgres 和 Redis 启动 Kutt。
   - 必需的环境变量：`REDIS_ENABLED`, `DB_PASSWORD`, `DB_NAME`, `DB_USER`
-- [`docker-compose.mariadb.yml`](./docker-compose.mariadb.yml)：使用 MariaDB 和 Redis 启动 Kutt。
+- `docker-compose.mariadb.yml`：使用 MariaDB 和 Redis 启动 Kutt。
   - 必需的环境变量：`REDIS_ENABLED`, `DB_PASSWORD`, `DB_NAME`, `DB_USER`, `DB_PORT`
 
 官方 Kutt Docker 镜像可在 [Docker Hub](https://hub.docker.com/r/kutt/kutt) 上找到。
@@ -83,7 +83,7 @@ docker compose up
 
 ## 配置
 
-应用通过环境变量进行配置。你可以直接传递环境变量，或创建一个 `.env` 文件。查看 [`.example.env`](./.example.env) 文件以获取配置列表。
+应用通过环境变量进行配置。你可以直接传递环境变量，或创建一个 `.env` 文件。查看 `.example.env` 文件以获取配置列表。
 
 除了 `JWT_SECRET` 外，所有变量都是可选的，该变量在生产环境中是必需的。
 
@@ -131,7 +131,7 @@ docker compose up
 
 ## 主题与自定义
 
-你可以添加样式、更改图片或渲染自定义 HTML。根据以下说明将内容放置在 [`/custom`](./custom) 文件夹中。
+你可以添加样式、更改图片或渲染自定义 HTML。根据以下说明将内容放置在 `/custom` 文件夹中。
 
 #### 工作原理：
 
@@ -159,10 +159,10 @@ custom/
   - 如果将样式文件命名为 `styles.css`，它将替换 Kutt 原始的 `styles.css` 文件。
   - 每个文件可通过 `<your-site.com>/css/<file>.css` 访问。
 - **images**：将你的图片放在此处。([查看示例 →](https://github.com/thedevs-network/kutt-customizations/tree/main/themes/crimson/images))
-  - 文件名应与 [`/static/images/`](./static/images) 文件夹中的文件名一致，以替换 Kutt 原始图片。
+  - 文件名应与 `/static/images/` 文件夹中的文件名一致，以替换 Kutt 原始图片。
   - 每张图片可通过 `<your-site.com>/images/<image>.<image-format>` 访问。
 - **views**：自定义 HTML 模板。([查看示例 →](https://github.com/thedevs-network/kutt-customizations/tree/main/themes/crimson/views))
-  - 应遵循与 [`/server/views`](./server/views) 相同的文件命名和目录结构。
+  - 应遵循与 `/server/views` 相同的文件命名和目录结构。
   - 虽然我们尽量保持原始文件名不变，但请注意 Kutt 的更新可能会破坏你的自定义视图。
 
 #### 示例主题：Crimson

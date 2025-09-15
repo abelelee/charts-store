@@ -46,7 +46,7 @@ Note: GitHub Issues are for Bugs and Feature Requests Only
 
 ### Development
 
-This project exists thanks to all the people who contribute. [Contribute](CONTRIBUTING.md).
+This project exists thanks to all the people who contribute. Contribute.
 
 <a href="https://github.com/Sonarr/Sonarr/graphs/contributors"><img src="https://opencollective.com/Sonarr/contributors.svg?width=890&button=false" /></a>
 

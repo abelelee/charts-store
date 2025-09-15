@@ -18,7 +18,7 @@ Roundcube Webmail 是一个基于浏览器、支持多语言的 IMAP 客户端�
 版本发布
 --------
 
-Roundcubemail 的版本发布遵循语义化版本号规则。更多细节请阅读 [RELEASE_MANAGEMENT 文件](RELEASE_MANAGEMENT.md)。
+Roundcubemail 的版本发布遵循语义化版本号规则。更多细节请阅读 RELEASE_MANAGEMENT 文件。
 
 安装
 ------------

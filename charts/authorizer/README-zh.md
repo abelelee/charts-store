@@ -124,7 +124,7 @@
 
 - 在浏览器中打开 Authorizer 实例的访问地址
 - 使用安全密码注册一个管理员账户
-- 通过 Authorizer 仪表盘配置环境变量。更多信息请查看 [环境变量文档](/core/env)
+- 通过 Authorizer 仪表盘配置环境变量。更多信息请查看 环境变量文档
 
 > 注意：`DATABASE_URL`、`DATABASE_TYPE` 和 `DATABASE_NAME` 只能通过平台环境变量配置
 
@@ -141,7 +141,7 @@
 
 ## 集成到你的网站中
 
-以下示例演示了如何使用 [`@authorizerdev/authorizer-js`](/authorizer-js/getting-started) 的 CDN 版本，几秒钟内即可为你的网站添加登录功能。你也可以使用 ES 模块版本的 [`@authorizerdev/authorizer-js`](/authorizer-js/getting-started) 或特定框架的版本，如 [`@authorizerdev/authorizer-react`](/authorizer-react/getting-started)
+以下示例演示了如何使用 `@authorizerdev/authorizer-js` 的 CDN 版本，几秒钟内即可为你的网站添加登录功能。你也可以使用 ES 模块版本的 `@authorizerdev/authorizer-js` 或特定框架的版本，如 `@authorizerdev/authorizer-react`
 
 ### 将以下代码复制到 `html` 文件中
 

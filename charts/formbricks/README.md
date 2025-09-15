@@ -54,23 +54,23 @@ Formbricks is both a free and open source survey platform - and a privacy-first 
 
 ### Table of Contents
 
-- [Features](#features)
+- Features
 
-- [Getting Started](#getting-started)
+- Getting Started
 
-- [Cloud Version](#cloud-version)
+- Cloud Version
 
-- [Self-hosted Version](#self-hosted-version)
+- Self-hosted Version
 
-- [Development](#development)
+- Development
 
-- [Contribution](#contribution)
+- Contribution
 
-- [Contact](#contact-us)
+- Contact
 
-- [Security](#security)
+- Security
 
-- [License](#license)
+- License
 
 <a id="features"></a>
 
@@ -216,7 +216,7 @@ Let's have a chat about your survey needs and get you started.
 
 ## 🔒 Security
 
-We take security very seriously. If you come across any security vulnerabilities, please disclose them by sending an email to security@formbricks.com. We appreciate your help in making our platform as secure as possible and are committed to working with you to resolve any issues quickly and efficiently. See [`SECURITY.md`](./SECURITY.md) for more information.
+We take security very seriously. If you come across any security vulnerabilities, please disclose them by sending an email to security@formbricks.com. We appreciate your help in making our platform as secure as possible and are committed to working with you to resolve any issues quickly and efficiently. See `SECURITY.md` for more information.
 
 <a id="license"></a>
 

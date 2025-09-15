@@ -50,12 +50,12 @@ If you have any questions or problems, please visit our GitHub issues page, and 
 
 ## License
 
-Automatisch Community Edition (Automatisch CE) is an open-source software with the [AGPL-3.0 license](LICENSE.agpl).
+Automatisch Community Edition (Automatisch CE) is an open-source software with the AGPL-3.0 license.
 
-Automatisch Enterprise Edition (Automatisch EE) is a commercial offering with the [Enterprise license](LICENSE.enterprise).
+Automatisch Enterprise Edition (Automatisch EE) is a commercial offering with the Enterprise license.
 
 The Automatisch repository contains both AGPL-licensed and Enterprise-licensed files. We maintain a single repository to make development easier.
 
-All files that contain ".ee." in their name fall under the [Enterprise license](LICENSE.enterprise). All other files fall under the [AGPL-3.0 license](LICENSE.agpl).
+All files that contain ".ee." in their name fall under the Enterprise license. All other files fall under the AGPL-3.0 license.
 
-See the [LICENSE](LICENSE) file for more information.
+See the LICENSE file for more information.

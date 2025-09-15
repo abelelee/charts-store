@@ -2,11 +2,11 @@
 
 * * *
 
-<img width="64" src="https://raw.githubusercontent.com/laurent22/joplin/master/Assets/LinuxIcons/256x256.png" align="left" /> **Joplin** is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in [Markdown format](#markdown).
+<img width="64" src="https://raw.githubusercontent.com/laurent22/joplin/master/Assets/LinuxIcons/256x256.png" align="left" /> **Joplin** is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in Markdown format.
 
-Notes exported from Evernote via .enex files [can be imported](#importing) into Joplin, including the formatted content (which is converted to Markdown), resources (images, attachments, etc.) and complete metadata (geolocation, updated time, created time, etc.). Plain Markdown files can also be imported.
+Notes exported from Evernote via .enex files can be imported into Joplin, including the formatted content (which is converted to Markdown), resources (images, attachments, etc.) and complete metadata (geolocation, updated time, created time, etc.). Plain Markdown files can also be imported.
 
-The notes can be [synchronised](#synchronisation) with various cloud services including [Nextcloud](https://nextcloud.com/), Dropbox, OneDrive, WebDAV or the file system (for example with a network directory). When synchronising the notes, notebooks, tags and other metadata are saved to plain text files which can be easily inspected, backed up and moved around.
+The notes can be synchronised with various cloud services including [Nextcloud](https://nextcloud.com/), Dropbox, OneDrive, WebDAV or the file system (for example with a network directory). When synchronising the notes, notebooks, tags and other metadata are saved to plain text files which can be easily inspected, backed up and moved around.
 
 The application is available for Windows, Linux, macOS, Android and iOS (the terminal app also works on FreeBSD). A [Web Clipper](https://github.com/laurent22/joplin/blob/master/readme/clipper.md), to save web pages and screenshots from your browser, is also available for [Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/) and [Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek?hl=en-GB).
 
@@ -22,7 +22,7 @@ Operating System | Download | Alternative
 -----------------|--------|-------------------
 Windows (32 and 64-bit)         | <a href='https://github.com/laurent22/joplin/releases/download/v1.0.241/Joplin-Setup-1.0.241.exe'><img alt='Get it on Windows' width="134px" src='https://joplinapp.org/images/BadgeWindows.png'/></a> | Or get the <a href='https://github.com/laurent22/joplin/releases/download/v1.0.241/JoplinPortable.exe'>Portable version</a><br><br>The [portable application](https://en.wikipedia.org/wiki/Portable_application) allows installing the software on a portable device such as a USB key. Simply copy the file JoplinPortable.exe in any directory on that USB key ; the application will then create a directory called "JoplinProfile" next to the executable file.
 macOS          | <a href='https://github.com/laurent22/joplin/releases/download/v1.0.241/Joplin-1.0.241.dmg'><img alt='Get it on macOS' width="134px" src='https://joplinapp.org/images/BadgeMacOS.png'/></a> | You can also use Homebrew (unsupported): `brew cask install joplin`
-Linux          | <a href='https://github.com/laurent22/joplin/releases/download/v1.0.241/Joplin-1.0.241.AppImage'><img alt='Get it on Linux' width="134px" src='https://joplinapp.org/images/BadgeLinux.png'/></a> | An Arch Linux package (unsupported) [is also available](#terminal-application).<br><br>If it works with your distribution (it has been tested on Ubuntu, Fedora, and Mint; the desktop environments supported are GNOME, KDE, Xfce, MATE, LXQT, LXDE, Unity, Cinnamon, Deepin and Pantheon), the recommended way is to use this script as it will handle the desktop icon too:<br><br> `wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh \| bash`
+Linux          | <a href='https://github.com/laurent22/joplin/releases/download/v1.0.241/Joplin-1.0.241.AppImage'><img alt='Get it on Linux' width="134px" src='https://joplinapp.org/images/BadgeLinux.png'/></a> | An Arch Linux package (unsupported) is also available.<br><br>If it works with your distribution (it has been tested on Ubuntu, Fedora, and Mint; the desktop environments supported are GNOME, KDE, Xfce, MATE, LXQT, LXDE, Unity, Cinnamon, Deepin and Pantheon), the recommended way is to use this script as it will handle the desktop icon too:<br><br> `wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh \| bash`
 
 ## Mobile applications
 
@@ -244,7 +244,7 @@ Any kind of file can be attached to a note. In Markdown, links to these files ar
 
 In the **desktop application**, files can be attached either by clicking the "Attach file" icon in the editor or via drag and drop. If you prefer to create a link to a local file instead, hold the ALT key while performing the drag and drop operation. You can also copy and paste images directly in the editor via Ctrl+V.
 
-Resources that are not attached to any note will be automatically deleted in accordance to the [Note History](#note-history) settings.
+Resources that are not attached to any note will be automatically deleted in accordance to the Note History settings.
 
 **Important:** Resources larger than 10 MB are not currently supported on mobile. They will crash the application when synchronising so it is recommended not to attach such resources at the moment. The issue is being looked at.
 

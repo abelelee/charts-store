@@ -174,7 +174,7 @@ cd dockers/examples/standalone/
 docker-compose up -d
 ```
 
-更多详情请参见 [dockers/examples](dockers/examples)
+更多详情请参见 dockers/examples
 
 ### 一键部署
 

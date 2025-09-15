@@ -56,4 +56,4 @@ ChiefOnboarding 是一个免费且开源的员工入职平台。你可以通过 
 如发现潜在的安全问题，请不要创建 Issue。请直接发送邮件至 security@chiefonboarding.com，我们将尽快处理。
 
 ## 许可证
-该项目采用 AGPLv3 许可证，请参阅 [LICENSE.md](LICENSE.md) 文件获取详细信息。
+该项目采用 AGPLv3 许可证，请参阅 LICENSE.md 文件获取详细信息。

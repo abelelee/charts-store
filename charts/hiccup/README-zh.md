@@ -171,7 +171,7 @@ http://designedbyashw.in/test/hiccup?config=http://your-url.com/config.json
 
 #### 配置结构
 
-请参考 [JSON Schema 文件](src/modules/validateConfig/schema.json) 获取最新结构。
+请参考 JSON Schema 文件 获取最新结构。
 
 ### 缓存策略
 

@@ -156,7 +156,7 @@ Dify 是一个开源的 LLM 应用开发平台。其直观的界面结合了 AI 
 我们提供[ Dify 云服务](https://dify.ai)，任何人都可以零设置尝试。它提供了自部署版本的所有功能，并在沙盒计划中包含 200 次免费的 GPT-4 调用。
 
 - **自托管 Dify 社区版</br>**
-使用这个[入门指南](#快速启动)快速在您的环境中运行 Dify。
+使用这个入门指南快速在您的环境中运行 Dify。
 使用我们的[文档](https://docs.dify.ai)进行进一步的参考和更深入的说明。
 
 - **面向企业/组织的 Dify</br>**
@@ -180,7 +180,7 @@ Dify 是一个开源的 LLM 应用开发平台。其直观的界面结合了 AI 
 
 ### 快速启动
 
-启动 Dify 服务器的最简单方法是运行我们的 [docker-compose.yml](docker/docker-compose.yaml) 文件。在运行安装命令之前，请确保您的机器上安装了 [Docker](https://docs.docker.com/get-docker/) 和 [Docker Compose](https://docs.docker.com/compose/install/)：
+启动 Dify 服务器的最简单方法是运行我们的 docker-compose.yml 文件。在运行安装命令之前，请确保您的机器上安装了 [Docker](https://docs.docker.com/get-docker/) 和 [Docker Compose](https://docs.docker.com/compose/install/)：
 
 ```bash
 cd docker
@@ -192,7 +192,7 @@ docker compose up -d
 
 ### 自定义配置
 
-如果您需要自定义配置，请参考 [.env.example](docker/.env.example) 文件中的注释，并更新 `.env` 文件中对应的值。此外，您可能需要根据您的具体部署环境和需求对 `docker-compose.yaml` 文件本身进行调整，例如更改镜像版本、端口映射或卷挂载。完成任何更改后，请重新运行 `docker-compose up -d`。您可以在[此处](https://docs.dify.ai/getting-started/install-self-hosted/environments)找到可用环境变量的完整列表。
+如果您需要自定义配置，请参考 .env.example 文件中的注释，并更新 `.env` 文件中对应的值。此外，您可能需要根据您的具体部署环境和需求对 `docker-compose.yaml` 文件本身进行调整，例如更改镜像版本、端口映射或卷挂载。完成任何更改后，请重新运行 `docker-compose up -d`。您可以在[此处](https://docs.dify.ai/getting-started/install-self-hosted/environments)找到可用环境变量的完整列表。
 
 #### 使用 Helm Chart 或 Kubernetes 资源清单（YAML）部署
 
@@ -260,7 +260,7 @@ docker compose up -d
 我们欢迎您为 Dify 做出贡献，以帮助改善 Dify。包括：提交代码、问题、新想法，或分享您基于 Dify 创建的有趣且有用的 AI 应用程序。同时，我们也欢迎您在不同的活动、会议和社交媒体上分享 Dify。
 
 - [GitHub Discussion](https://github.com/langgenius/dify/discussions). 👉：分享您的应用程序并与社区交流。
-- [GitHub Issues](https://github.com/langgenius/dify/issues)。👉：使用 Dify.AI 时遇到的错误和问题，请参阅[贡献指南](CONTRIBUTING.md)。
+- [GitHub Issues](https://github.com/langgenius/dify/issues)。👉：使用 Dify.AI 时遇到的错误和问题，请参阅贡献指南。
 - [电子邮件支持](mailto:hello@dify.ai?subject=[GitHub]Questions%20About%20Dify)。👉：关于使用 Dify.AI 的问题。
 - [Discord](https://discord.gg/FngNHpbcY7)。👉：分享您的应用程序并与社区交流。
 - [X(Twitter)](https://twitter.com/dify_ai)。👉：分享您的应用程序并与社区交流。
@@ -272,4 +272,4 @@ docker compose up -d
 
 ## License
 
-本仓库遵循 [Dify Open Source License](LICENSE) 开源协议，该许可证本质上是 Apache 2.0，但有一些额外的限制。
+本仓库遵循 Dify Open Source License 开源协议，该许可证本质上是 Apache 2.0，但有一些额外的限制。

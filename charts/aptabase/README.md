@@ -48,7 +48,7 @@ You can also host Aptabase on your servers. It's free, but you are responsible f
 
 We welcome contributions from everyone! If you want to contribute to Aptabase, please read the guide below to get started.
 
-[Contributing →](./CONTRIBUTING.md).
+Contributing →.
 
 # SDKs
 
@@ -80,6 +80,6 @@ Aptabase is highly inspired by [Plausible](https://github.com/plausible/analytic
 
 # License
 
-Aptabase is open-source under the [AGPLv3 license](./LICENSE). You can use it for free, but you must share any changes you make to the code.
+Aptabase is open-source under the AGPLv3 license. You can use it for free, but you must share any changes you make to the code.
 
 The SDKs are open-source under the MIT license. Use it on your apps without any restrictions.

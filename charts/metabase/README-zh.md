@@ -28,8 +28,8 @@
 
 ## 支持的数据库
 
-- [官方支持的数据库](./docs/databases/connecting.md#connecting-to-supported-databases)
-- [社区驱动程序](./docs/developers-guide/partner-and-community-drivers.md)
+- 官方支持的数据库
+- 社区驱动程序
 
 ## 国际化
 
@@ -47,13 +47,13 @@
 
 ## 安全披露
 
-详情请参见 [SECURITY.md](./SECURITY.md)。
+详情请参见 SECURITY.md。
 
 ## 许可证
 
 本仓库包含 Metabase 开源版本的源代码，该版本根据 AGPL 发布；同时也包含根据 Metabase 商业软件许可证发布的 [Metabase 商业版本](https://www.metabase.com/pricing/)。
 
-详情请参见 [LICENSE.txt](./LICENSE.txt)。
+详情请参见 LICENSE.txt。
 
 除非另有说明，所有文件均 © 2025 Metabase, Inc.
 

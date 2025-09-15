@@ -38,7 +38,7 @@
 * 通过 WebSocket 接收消息
 * 管理用户、客户端和应用程序
 * [插件](https://gotify.net/docs/plugin)
-* Web界面 -> [./ui](ui)
+* Web界面 -> ./ui
 * 发送消息的CLI -> [gotify/cli](https://github.com/gotify/cli)
 * Android应用 -> [gotify/android](https://github.com/gotify/android)
 
@@ -61,7 +61,7 @@
 [此仓库的标签](https://github.com/gotify/server/tags)。
 
 ## 许可证
-该项目根据MIT许可证授权 - 有关详细信息，请参阅 [LICENSE](LICENSE) 文件
+该项目根据MIT许可证授权 - 有关详细信息，请参阅 LICENSE 文件
 
  [playstore]: https://play.google.com/store/apps/details?id=com.github.gotify
  [fdroid]: https://f-droid.org/de/packages/com.github.gotify/

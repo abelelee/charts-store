@@ -150,7 +150,7 @@ docker run --name sqlchat --platform linux/amd64 --env NEXTAUTH_SECRET="$(openss
 
 ## 许可
 
-本项目使用 BSL 许可证。请参阅 [LICENSE](LICENSE) 文件以获取完整的许可文本。
+本项目使用 BSL 许可证。请参阅 LICENSE 文件以获取完整的许可文本。
 
 ## 常见错误信息
 

@@ -117,7 +117,7 @@ COMMENTO_PERSPECTIVE_LANGUAGE：
 #### 禁用 SMTP 主机验证检查
 
 Commento++ 允许为 SMTPS 和 StartTLS 配置 tlsConfig 以发送电子邮件。
-对于 [https://cloudron.io/](Cloudron) 应用包来说，这是必需的。
+对于 https://cloudron.io/ 应用包来说，这是必需的。
 
 要跳过 SMTP 主机验证，请使用：
 

@@ -52,23 +52,23 @@ IDURAR 是基于 MERN 技术栈（Node.js / Express.js / MongoDB / React.js）�
 
 ## 开始使用
 
-1.[克隆仓库](INSTALLATION-INSTRUCTIONS.md#step-1-clone-the-repository)
+1.克隆仓库
 
-2.[创建你的 MongoDB 账号和数据库集群](INSTALLATION-INSTRUCTIONS.md#Step-2-Create-Your-MongoDB-Account-and-Database-Cluster)
+2.创建你的 MongoDB 账号和数据库集群
 
-3.[编辑环境配置文件](INSTALLATION-INSTRUCTIONS.md#Step-3-Edit-the-Environment-File)
+3.编辑环境配置文件
 
-4.[更新 MongoDB URI](INSTALLATION-INSTRUCTIONS.md#Step-4-Update-MongoDB-URI)
+4.更新 MongoDB URI
 
-5.[安装后端依赖](INSTALLATION-INSTRUCTIONS.md#Step-5-Install-Backend-Dependencies)
+5.安装后端依赖
 
-6.[运行安装脚本](INSTALLATION-INSTRUCTIONS.md#Step-6-Run-Setup-Script)
+6.运行安装脚本
 
-7.[运行后端服务器](INSTALLATION-INSTRUCTIONS.md#Step-7-Run-the-Backend-Server)
+7.运行后端服务器
 
-8.[安装前端依赖](INSTALLATION-INSTRUCTIONS.md#Step-8-Install-Frontend-Dependencies)
+8.安装前端依赖
 
-9.[运行前端服务器](INSTALLATION-INSTRUCTIONS.md#Step-9-Run-the-Frontend-Server)
+9.运行前端服务器
 
 ## 贡献指南
 

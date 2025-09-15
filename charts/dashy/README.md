@@ -24,34 +24,34 @@
   <p>
   
 - **Getting Started**
-  - [🌈 Features](#features-)
-  - [⚡Demo](#demo-)
-  - [🚀 Getting Started](#getting-started-)
-  - [🔧 Configuring](#configuring-)
+  - 🌈 Features
+  - ⚡Demo
+  - 🚀 Getting Started
+  - 🔧 Configuring
 - **Feature Overview**
-  - [🎨 Theming](#theming-)
-  - [🧸 Icons](#icons-)
-  - [🚦 Status Indicators](#status-indicators-)
-  - [📊 Widgets](#widgets-)
-  - [🔐 Authentication](#authentication-)
-  - [👓 Alternate Views](#alternate-views-)
-  - [🖱️ Opening Methods](#opening-methods-)
-  - [🔎 Searching and Shortcuts](#searching-and-shortcuts-)
-  - [⚙️ Config Editor](#config-editor-)
-  - [☁ Cloud Backup & Sync](#cloud-backup--sync-)
-  - [🌎 Language Switching](#language-switching-)
-  - [📃 Multi-Page Support](#multi-page-support-)
+  - 🎨 Theming
+  - 🧸 Icons
+  - 🚦 Status Indicators
+  - 📊 Widgets
+  - 🔐 Authentication
+  - 👓 Alternate Views
+  - 🖱️ Opening Methods
+  - 🔎 Searching and Shortcuts
+  - ⚙️ Config Editor
+  - ☁ Cloud Backup & Sync
+  - 🌎 Language Switching
+  - 📃 Multi-Page Support
 - **Community**
-  - [📊 System Requirements](#system-requirements-)
-  - [🙋‍♀️ Support](#support-)
-  - [💖 Supporting Dashy](#supporting-dashy-)
-  - [🏆 Credits](#credits-)
-  - [🧱 Developing](#developing-)
-  - [🗞️ Release Schedule](#release-schedule-)
-  - [📘 Documentation](#documentation-)
-  - [🛣️ Roadmap](#roadmap-)
-  - [🙌 Alternatives](#alternatives-)
-  - [📜 License](#license-)
+  - 📊 System Requirements
+  - 🙋‍♀️ Support
+  - 💖 Supporting Dashy
+  - 🏆 Credits
+  - 🧱 Developing
+  - 🗞️ Release Schedule
+  - 📘 Documentation
+  - 🛣️ Roadmap
+  - 🙌 Alternatives
+  - 📜 License
     
   </p>
 </details>
@@ -79,41 +79,41 @@
 - 🔐 Strong focus on privacy
 - 🌈 And loads more...
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ## Demo ⚡
 
 **Live Instances**: [Demo 1](https://demo.dashy.to) (Live Demo) ┆ [Demo 2](https://live.dashy.to) (Dashy Links) ┆ [Demo 3](https://dev.dashy.to) (Dev Preview)
 
-**Screenshots**: Checkout the [Showcase](./docs/showcase.md), to see example dashboards from the community
+**Screenshots**: Checkout the Showcase, to see example dashboards from the community
 
-**Spin up your own demo**: [![One-Click Deploy with PWD](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Play--with--Docker-Deploy-2496ed.svg)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml) or [`docker run -p 8080:8080 lissy93/dashy`](./docs/quick-start.md)
+**Spin up your own demo**: [![One-Click Deploy with PWD](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Play--with--Docker-Deploy-2496ed.svg)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml) or `docker run -p 8080:8080 lissy93/dashy`
 
 <p align="center">
   <img width="800" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy-demo2.gif" alt="Demo" />
 </p>
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Getting Started 🚀
 
-> For full setup instructions, see: [**Deployment**](./docs/deployment.md)
+> For full setup instructions, see: **Deployment**
 
 ## Configuring 🔧
 
-> For full configuration documentation, see: [**Configuring**](./docs/configuring.md)
+> For full configuration documentation, see: **Configuring**
 
-Dashy is configured through a YAML file, located at `./user-data/conf.yml`. In addition, you can find a complete list of available options in the [Configuring Docs](./docs/configuring.md). The config can also be edited and saved directly through the UI.
+Dashy is configured through a YAML file, located at `./user-data/conf.yml`. In addition, you can find a complete list of available options in the Configuring Docs. The config can also be edited and saved directly through the UI.
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Theming 🎨
 
-> For full theming documentation, see: [**Theming**](./docs/theming.md)
+> For full theming documentation, see: **Theming**
 
 Dashy comes pre-bundled with several built-in themes, which you can preview, apply and edit through the UI. With the theme configurator and support for custom CSS, everything is in place to quickly develop your own unique-looking dashboard.
 
@@ -129,13 +129,13 @@ Dashy comes pre-bundled with several built-in themes, which you can preview, app
   </a>
 </p>
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Icons 🧸
 
-> For full iconography documentation, see: [**Icons**](./docs/icons.md)
+> For full iconography documentation, see: **Icons**
 
 Both sections and items can have an icon associated with them, defined under the `icon` attribute. With several different icon packs supported, you'll be able to find the perfect thumbnail for any app or service.
 
@@ -161,13 +161,13 @@ The following icon types are supported:
 </p>
 
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Status Indicators 🚦
 
-> For full monitoring documentation, see: [**Status Indicators**](./docs/status-indicators.md)
+> For full monitoring documentation, see: **Status Indicators**
 
 Dashy has an optional feature to check if each app/ service is up and responding, then display a small status indicator icon. Hovering over it will show additional stats like response time and status code.
 
@@ -177,13 +177,13 @@ Status indicators can be globally enabled by setting `appConfig.statusCheck: tru
   <img alt="Status Checks demo" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/status-check-demo.gif" width="600" />
 </p>
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Widgets 📊
 
-> For full widget documentation, see: [**Widgets**](./docs/widgets.md)
+> For full widget documentation, see: **Widgets**
 
 You can display dynamic content from services in the form of widgets. There are several pre-built widgets available for showing useful info, and integrations with commonly self-hosted services, but you can also easily create your own for almost any app.
 
@@ -193,15 +193,15 @@ You can display dynamic content from services in the form of widgets. There are 
 </p>
 
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Authentication 🔐
 
-> For full authentication documentation, see: [**Authentication**](./docs/authentication.md)
+> For full authentication documentation, see: **Authentication**
 
-Dashy has full support for secure single-sign-on using [Keycloak](https://www.keycloak.org/) for secure, easy authentication, see [setup docs](/docs/authentication.md#keycloak) for a full usage guide.
+Dashy has full support for secure single-sign-on using [Keycloak](https://www.keycloak.org/) for secure, easy authentication, see setup docs for a full usage guide.
 
 There is also a basic auth feature, which doesn't require additional setup. To enable this, add an `auth` attribute under `appConfig`, containing an array of `users`, each with a username, SHA-256 hashed password and optional user type. Basic auth also supports several access control features, including read-only guest access and granular controls.
 
@@ -215,9 +215,9 @@ appConfig:
       type: admin
 ```
 
-Other access control systems are also supported, see the [Alternative Auth Methods](./docs/authentication.md#alternative-authentication-methods) docs.
+Other access control systems are also supported, see the Alternative Auth Methods docs.
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
@@ -239,13 +239,13 @@ You can change the view from the UI, using the switch icon in the top-right corn
   <img alt="Workspace view demo" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/minimal-view-demo.gif" width="600" />
 </p>
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Opening Methods 🖱️
 
-> For full documentation on views and opening methods, see: [**Alternate Views**](./docs/alternate-views.md)
+> For full documentation on views and opening methods, see: **Alternate Views**
 
 There are several different ways you can launch apps. You can specify the default opening method for any given item under the `target` attribute or set a site-wide default under `appConfig.defaultOpeningMethod`. Right-click on an item to item for all options. The following options are supported:
 - `sametab` - The app will be launched in the current tab
@@ -255,13 +255,13 @@ There are several different ways you can launch apps. You can specify the defaul
 - `clipboard` - Copy the app's URL to your system clipboard
 - `top` - Opens in the top-most browsing context, useful if you're accessing Dashy through an iframe
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Searching and Shortcuts 🔎
 
-> For full documentation on searching, see: [**Searching & Shortcuts**](./docs/searching.md)
+> For full documentation on searching, see: **Searching & Shortcuts**
 
 Quickly finding and launching applications is the primary aim of Dashy. To that end, instant search and customizable keyboard shortcuts are built-in.
 
@@ -281,7 +281,7 @@ You can also add custom tags to a given item to make finding them based on keywo
     tags: [ movies, videos, music ]
 ```
 
-To search the web directly through Dashy, just press enter after typing your query. Options for web search are set under `appConfig.webSearch`. There is built-in support for [10+ search engines](./docs/searching.md#setting-search-engine), or [use your own custom provider](./docs/searching.md#using-custom-search-engine) or self-hosted instance. With the web search, you can also define your bangs to redirect results to any given app, website, or search engine, when the query is preceded with a certain character sequence (usually beginning in `/`, `!` or `:`).
+To search the web directly through Dashy, just press enter after typing your query. Options for web search are set under `appConfig.webSearch`. There is built-in support for 10+ search engines, or use your own custom provider or self-hosted instance. With the web search, you can also define your bangs to redirect results to any given app, website, or search engine, when the query is preceded with a certain character sequence (usually beginning in `/`, `!` or `:`).
 
 ```yaml
 webSearch:
@@ -298,12 +298,12 @@ webSearch:
 
 Hit `Esc` at any time to close any open apps, clear the search field, or hide any modals.
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Config Editor ⚙️
-> For full config documentation, see: [**Configuring**](./docs/configuring.md)
+> For full config documentation, see: **Configuring**
 
 As well as passing in a YAML config file, you can also configure the app directly through the UI and preview changes live.
 
@@ -320,24 +320,24 @@ Under the config menu, you can export, view, backup, or reset app config and edi
   <img alt="Config Editor demo" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/config-editor-demo.gif" width="600" />
 </p>
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Cloud Backup & Sync ☁
 
-> For full backup documentation, see: [**Cloud Backup & Sync**](./docs/backup-restore.md)
+> For full backup documentation, see: **Cloud Backup & Sync**
 
 Dashy has an **optional** built-in feature for securely backing up your config to a hosted cloud service and then restoring it on another instance. This is useful not only for backing up your configuration off-site but also enables Dashy to be used without having to write a YAML config file.
 
 All data is fully E2E encrypted before being sent to the backend (done in [`CloudBackup.js`](https://github.com/Lissy93/dashy/blob/master/src/utils/CloudBackup.js) using [crypto.js](https://github.com/brix/crypto-js) 's AES method). The data is then sent to a [Cloudflare worker](https://developers.cloudflare.com/workers/learning/how-workers-works) and stored in a [KV](https://developers.cloudflare.com/workers/learning/how-kv-works) data store.
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Language Switching 🌎
-> For full internationalization documentation, see: [**Multi-Language Support**](./docs/multi-language-support.md)
+> For full internationalization documentation, see: **Multi-Language Support**
 
 Dashy supports multiple languages and locales. When available, your language should be automatically detected and applied on load. But you can also select a language through the UI (under config --> Switch Language) or set `appConfig.language` to your language (specified as a 2-digit [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)), as seen below, e.g. `language: de`.
 
@@ -374,13 +374,13 @@ Dashy supports multiple languages and locales. When available, your language sho
 #### Add your Language
 I would love Dashy to be available to everyone without language being a barrier to entry. If you've got a few minutes to spare, consider adding translations for your language. It's a quick task, and all text is in [a single JSON file](https://github.com/Lissy93/dashy/tree/master/src/assets/locales). Since any missing text will fall back to English, you don't need to translate it all.
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Multi-Page Support 📃
 
-> For full multi-page documentation, see: [**Pages & Sections**](./docs/pages-and-sections.md)
+> For full multi-page documentation, see: **Pages & Sections**
 
 Within your dashboard, you can have as many sub-pages as you require. To load additional pages, specify a name, and path to a config file under `pages`. The config file can be either local (stored in `/public`), or remote (located anywhere accessible).
 
@@ -423,7 +423,7 @@ Dashy also wells run on low-powered ARM-based single board computers, such as a 
 --- | --- | --- | --- | --- |
 Latest ✔ | Latest ✔ | 10+ ✔ | Latest ✔ | 6.1+ ❌ |
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
@@ -433,20 +433,20 @@ If you're having trouble getting Dashy up and running, or have a question about 
 
 If you've found something which isn't working as it should, please raise a bug by [opening a ticket](https://github.com/Lissy93/dashy/issues/new/choose).
 
-It's best to check the [docs](./docs), [previous issues](https://github.com/Lissy93/dashy/issues?q=label%3A%22%F0%9F%A4%B7%E2%80%8D%E2%99%82%EF%B8%8F+Question%22+) and [troubleshooting guide](./docs/troubleshooting.md) first.
+It's best to check the docs, [previous issues](https://github.com/Lissy93/dashy/issues?q=label%3A%22%F0%9F%A4%B7%E2%80%8D%E2%99%82%EF%B8%8F+Question%22+) and troubleshooting guide first.
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Supporting Dashy 💖
 
-> For full details and other ways you can help out, see: [**Contributing**](./docs/contributing.md)
+> For full details and other ways you can help out, see: **Contributing**
 
 If you're using Dashy and would like to help support its development, then that would be awesome! Contributions of any type, any size, are always very much appreciated, and we will appropriately credit you for your effort.
 
 Several areas that we need a bit of help with at the moment are:
-- Translating - Help make Dashy available to non-native English speakers by [adding your language](./docs/multi-language-support.md#adding-a-new-language)
+- Translating - Help make Dashy available to non-native English speakers by adding your language
 - Donate a small amount by [Sponsoring @Lissy93 on GitHub](https://github.com/sponsors/Lissy93) and receive some extra perks!
 - Complete a [short survey](https://survey.typeform.com/to/gl0L68ou) to have your say about future features
 - Share your dashboard in the [Showcase](https://github.com/Lissy93/dashy/blob/master/docs/showcase.md#dashy-showcase-), to inspire others
@@ -456,12 +456,12 @@ Several areas that we need a bit of help with at the moment are:
 
 [![Sponsor Lissy93 on GitHub](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/sponsor-button.svg)](https://github.com/sponsors/Lissy93)
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 ---
 
 ## Developing 🧱
 
-> For full development documentation, see: [**Developing**](./docs/developing.md)
+> For full development documentation, see: **Developing**
 
 [![Open Project in VS Code](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Open_in-VS_Code-863cfc.svg)](https://open.vscode.dev/Lissy93/Dashy)
 [![Open in GitPod](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Open_in-GitPod-ffae33.svg)](https://gitpod.io/#github.com/lissy93/dashy.git)
@@ -486,46 +486,46 @@ If you're new to web development, I've put together a short [list of resources](
 [![Last Commit](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy.svg)](https://github.com/Lissy93/dashy/commits/master)
 [![Contributors](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy.svg)](https://github.com/Lissy93/dashy/graphs/contributors)
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
 ## Documentation 📘
-> For full docs, see: **[Documentation Contents](./docs/readme.md)**
+> For full docs, see: **Documentation Contents**
 #### Running Dashy
-- 💨 [Quick Start](/docs/quick-start.md) - TDLR guide on getting Dashy up and running in under 5 minutes
-- 🚀 [Deployment](/docs/deployment.md) - Full guide on setting up Dashy on various different environments
-- 🔧 [Configuring](/docs/configuring.md) - Complete list of all available options in the config file
-- 💻 [Management](/docs/management.md) - Managing your app, updating, security, web server configuration, etc
-- 🚒 [Troubleshooting](/docs/troubleshooting.md) - Common errors and problems, and how to fix them
+- 💨 Quick Start - TDLR guide on getting Dashy up and running in under 5 minutes
+- 🚀 Deployment - Full guide on setting up Dashy on various different environments
+- 🔧 Configuring - Complete list of all available options in the config file
+- 💻 Management - Managing your app, updating, security, web server configuration, etc
+- 🚒 Troubleshooting - Common errors and problems, and how to fix them
 
 #### Feature Docs
-- 🛡️ [Authentication](/docs/authentication.md) - Guide to setting up authentication to protect your dashboard
-- 🌈 [Alternate Views](/docs/alternate-views.md) - Outline of available pages / views and item opening methods
-- 💾 [Backup & Restore](/docs/backup-restore.md) - Guide to backing up config with Dashy's cloud sync feature
-- 🧸 [Icons](/docs/icons.md) - Outline of all available icon types for sections and items, with examples
-- 🌐 [Multi-Language Support](/docs/multi-language-support.md) - Switching languages, and adding a new locales
-- 🚦 [Status Indicators](/docs/status-indicators.md) - Using Dashy to monitor uptime and status of your apps
-- 🔍 [Searching  & Shortcuts](/docs/searching.md) - Searching, launching methods + keyboard shortcuts
-- 🎨 [Theming](/docs/theming.md) - Complete guide to applying, writing and modifying themes + styles
-- 📊 [Widgets](/docs/widgets.md) - List of all dynamic content widgets, with usage guides and examples
+- 🛡️ Authentication - Guide to setting up authentication to protect your dashboard
+- 🌈 Alternate Views - Outline of available pages / views and item opening methods
+- 💾 Backup & Restore - Guide to backing up config with Dashy's cloud sync feature
+- 🧸 Icons - Outline of all available icon types for sections and items, with examples
+- 🌐 Multi-Language Support - Switching languages, and adding a new locales
+- 🚦 Status Indicators - Using Dashy to monitor uptime and status of your apps
+- 🔍 Searching  & Shortcuts - Searching, launching methods + keyboard shortcuts
+- 🎨 Theming - Complete guide to applying, writing and modifying themes + styles
+- 📊 Widgets - List of all dynamic content widgets, with usage guides and examples
 
 #### Development and Contributing
-- 🧱 [Developing](/docs/developing.md) - Running Dashy development server locally, and general workflow
-- 🛎️ [Development Guides](/docs/development-guides.md) - Common development tasks, to help new contributors
-- 💖 [Contributing](/docs/contributing.md) - How to contribute to Dashy
-- 🌟 [Showcase](/docs/showcase.md) - See how others are using Dashy, and share your dashboard
-- 🏆 [Credits](/docs/credits.md) - Shout out to the amazing people who have contributed so far
-- 🗞️ [Release Workflow](/docs/release-workflow.md) - Info about releases, CI and automated tasks
+- 🧱 Developing - Running Dashy development server locally, and general workflow
+- 🛎️ Development Guides - Common development tasks, to help new contributors
+- 💖 Contributing - How to contribute to Dashy
+- 🌟 Showcase - See how others are using Dashy, and share your dashboard
+- 🏆 Credits - Shout out to the amazing people who have contributed so far
+- 🗞️ Release Workflow - Info about releases, CI and automated tasks
 
 #### Misc
-- 🔐 [Privacy & Security](/docs/privacy.md) - List of requests, potential issues, and security resources
-- 📄 [License](/LICENSE) - Copy of the MIT License
-- ⚖️ [Legal](/.github/LEGAL.md) - Licenses of direct dependencies
-- 📏 [Code of Conduct](/.github/CODE_OF_CONDUCT.md) - Contributor Covenant Code of Conduct
-- 🌳 [Changelog](/.github/CHANGELOG.md) - Details of recent changes, and historical versions
+- 🔐 Privacy & Security - List of requests, potential issues, and security resources
+- 📄 License - Copy of the MIT License
+- ⚖️ Legal - Licenses of direct dependencies
+- 📏 Code of Conduct - Contributor Covenant Code of Conduct
+- 🌳 Changelog - Details of recent changes, and historical versions
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
@@ -533,9 +533,9 @@ If you're new to web development, I've put together a short [list of resources](
 
 For upcoming features that will be released in the near future, see the [**Current Roadmap**](https://github.com/Lissy93/dashy/discussions/405)
 
-For past updates, see the [**Changelog**](/.github/CHANGELOG.md)
+For past updates, see the **Changelog**
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 
@@ -550,7 +550,7 @@ A few self-hosted web apps serve a similar purpose to Dashy. If you're looking f
 - [Smashing](https://github.com/Smashing/smashing) (`MIT`)
 - See more 👉 [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted#personal-dashboards)
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 ## License 📜
@@ -589,7 +589,7 @@ For more info, see TLDR Legal's [Explanation of MIT](https://tldrlegal.com/licen
 
 [![FOSSA Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/git_2Bgithub.com_2FLissy93_2Fdashy.svg)](https://app.fossa.com/projects/git%2Bgithub.com%2FLissy93%2Fdashy?ref=badge_large)
 
-**[⬆️ Back to Top](#dashy)**
+**⬆️ Back to Top**
 
 ---
 

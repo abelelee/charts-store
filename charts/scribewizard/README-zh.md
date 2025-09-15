@@ -43,8 +43,8 @@ ScribeWizard 是一个 Streamlit 应用，通过使用 Groq 的 Whisper API 将�
 
 | 示例                                      | Youtube 链接                                                                                                                                |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Transformers Explained by Google Cloud Tech](examples/transformers_explained/generated_notes.pdf)             |  https://www.youtube.com/watch?v=SZorAJ4I-sA                                       |
-| [The Essence of Calculus by 3Blue1Brown](examples/essence_calculus/generated_notes.pdf) | https://www.youtube.com/watch?v=WUvTyaaNkzM                                            |
+| Transformers Explained by Google Cloud Tech             |  https://www.youtube.com/watch?v=SZorAJ4I-sA                                       |
+| The Essence of Calculus by 3Blue1Brown | https://www.youtube.com/watch?v=WUvTyaaNkzM                                            |
 
 > 与所有生成式 AI 一样，内容可能包含不准确或占位信息。ScribeWizard 仍处于测试阶段，欢迎所有反馈！
 

@@ -27,7 +27,7 @@
 
 我们的官方 **[Ghostfolio Premium](https://ghostfol.io/en/pricing)** 云服务是入门的最简单方式。由于节省了时间，这将是大多数人的最佳选择。收入用于支付托管基础设施和专业数据提供商的运营成本，并资助持续的开发。
 
-如果您希望在自己的基础设施上运行 Ghostfolio，请参阅 [自托管](#self-hosting) 部分的说明。
+如果您希望在自己的基础设施上运行 Ghostfolio，请参阅 自托管 部分的说明。
 
 ## 为什么选择 Ghostfolio？
 
@@ -150,7 +150,7 @@ Ghostfolio 支持多种家用服务器系统，包括 [CasaOS](https://github.co
 
 ## 开发
 
-有关环境设置和开发流程的详细信息，请参阅 [DEVELOPMENT.md](./DEVELOPMENT.md)。
+有关环境设置和开发流程的详细信息，请参阅 DEVELOPMENT.md。
 
 ## 公共 API
 
@@ -190,7 +190,7 @@ Ghostfolio 支持多种家用服务器系统，包括 [CasaOS](https://github.co
 
 #### 前提条件
 
-使用 [Bearer Token](#authorization-bearer-token) 进行认证
+使用 Bearer Token 进行认证
 
 #### 请求
 

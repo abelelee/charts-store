@@ -45,7 +45,7 @@ Note: GitHub Issues are for Bugs and Feature Requests Only
 [API Documentation](https://radarr.video/docs/api/)
 
 This project exists thanks to all the people who contribute.
-- [Contribute (GitHub)](CONTRIBUTING.md)
+- Contribute (GitHub)
 - [Contribution (Wiki Article)](https://wiki.servarr.com/radarr/contributing)
 
 [![Contributors List](https://opencollective.com/Radarr/contributors.svg?width=890&button=false)](https://github.com/Radarr/Radarr/graphs/contributors)

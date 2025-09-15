@@ -30,7 +30,7 @@
 
 完整文档请访问 [supabase.com/docs](https://supabase.com/docs)
 
-关于如何贡献代码，请访问 [入门指南](./DEVELOPERS.md)
+关于如何贡献代码，请访问 入门指南
 
 ## 社区与支持
 
@@ -239,50 +239,50 @@ Supabase 是一个[托管平台](https://supabase.com/dashboard)。你可以直�
 
 ## 翻译
 
-- [阿拉伯语 | العربية](/i18n/README.ar.md)
-- [阿尔巴尼亚语 / Shqip](/i18n/README.sq.md)
-- [孟加拉语 / বাংলা](/i18n/README.bn.md)
-- [保加利亚语 / Български](/i18n/README.bg.md)
-- [加泰罗尼亚语 / Català](/i18n/README.ca.md)
-- [克罗地亚语 / Hrvatski](/i18n/README.hr.md)
-- [捷克语 / čeština](/i18n/README.cs.md)
-- [丹麦语 / Dansk](/i18n/README.da.md)
-- [荷兰语 / Nederlands](/i18n/README.nl.md)
+- 阿拉伯语 | العربية
+- 阿尔巴尼亚语 / Shqip
+- 孟加拉语 / বাংলা
+- 保加利亚语 / Български
+- 加泰罗尼亚语 / Català
+- 克罗地亚语 / Hrvatski
+- 捷克语 / čeština
+- 丹麦语 / Dansk
+- 荷兰语 / Nederlands
 - [英语](https://github.com/supabase/supabase)
-- [爱沙尼亚语 / eesti keel](/i18n/README.et.md)
-- [芬兰语 / Suomalainen](/i18n/README.fi.md)
-- [法语 / Français](/i18n/README.fr.md)
-- [德语 / Deutsch](/i18n/README.de.md)
-- [希腊语 / Ελληνικά](/i18n/README.el.md)
-- [古吉拉特语 / ગુજરાતી](/i18n/README.gu.md)
-- [希伯来语 / עברית](/i18n/README.he.md)
-- [印地语 / हिंदी](/i18n/README.hi.md)
-- [匈牙利语 / Magyar](/i18n/README.hu.md)
-- [尼泊尔语 / नेपाली](/i18n/README.ne.md)
-- [印尼语 / Bahasa Indonesia](/i18n/README.id.md)
-- [意大利语 / Italiano](/i18n/README.it.md)
-- [日语 / 日本語](/i18n/README.jp.md)
-- [韩语 / 한국어](/i18n/README.ko.md)
-- [立陶宛语 / lietuvių](/i18n/README.lt.md)
-- [拉脱维亚语 / latviski](/i18n/README.lv.md)
-- [马来语 / Bahasa Malaysia](/i18n/README.ms.md)
-- [挪威语 (Bokmål) / Norsk (Bokmål)](/i18n/README.nb.md)
-- [波斯语 / فارسی](/i18n/README.fa.md)
-- [波兰语 / Polski](/i18n/README.pl.md)
-- [葡萄牙语 / Português](/i18n/README.pt.md)
-- [巴西葡萄牙语 / Português Brasileiro](/i18n/README.pt-br.md)
-- [罗马尼亚语 / Română](/i18n/README.ro.md)
-- [俄语 / Pусский](/i18n/README.ru.md)
-- [塞尔维亚语 / Srpski](/i18n/README.sr.md)
-- [僧伽罗语 / සිංහල](/i18n/README.si.md)
-- [斯洛伐克语 / slovenský](/i18n/README.sk.md)
-- [斯洛文尼亚语 / Slovenščina](/i18n/README.sl.md)
-- [西班牙语 / Español](/i18n/README.es.md)
-- [简体中文 / Simplified Chinese](/i18n/README.zh-cn.md)
-- [瑞典语 / Svenska](/i18n/README.sv.md)
-- [泰语 / ไทย](/i18n/README.th.md)
-- [繁体中文 / Traditional Chinese](/i18n/README.zh-tw.md)
-- [土耳其语 / Türkçe](/i18n/README.tr.md)
-- [乌克兰语 / Українська](/i18n/README.uk.md)
-- [越南语 / Tiếng Việt](/i18n/README.vi-vn.md)
-- [翻译列表](/i18n/languages.md) <!--- 仅保留此链接 -->
+- 爱沙尼亚语 / eesti keel
+- 芬兰语 / Suomalainen
+- 法语 / Français
+- 德语 / Deutsch
+- 希腊语 / Ελληνικά
+- 古吉拉特语 / ગુજરાતી
+- 希伯来语 / עברית
+- 印地语 / हिंदी
+- 匈牙利语 / Magyar
+- 尼泊尔语 / नेपाली
+- 印尼语 / Bahasa Indonesia
+- 意大利语 / Italiano
+- 日语 / 日本語
+- 韩语 / 한국어
+- 立陶宛语 / lietuvių
+- 拉脱维亚语 / latviski
+- 马来语 / Bahasa Malaysia
+- 挪威语 (Bokmål) / Norsk (Bokmål)
+- 波斯语 / فارسی
+- 波兰语 / Polski
+- 葡萄牙语 / Português
+- 巴西葡萄牙语 / Português Brasileiro
+- 罗马尼亚语 / Română
+- 俄语 / Pусский
+- 塞尔维亚语 / Srpski
+- 僧伽罗语 / සිංහල
+- 斯洛伐克语 / slovenský
+- 斯洛文尼亚语 / Slovenščina
+- 西班牙语 / Español
+- 简体中文 / Simplified Chinese
+- 瑞典语 / Svenska
+- 泰语 / ไทย
+- 繁体中文 / Traditional Chinese
+- 土耳其语 / Türkçe
+- 乌克兰语 / Українська
+- 越南语 / Tiếng Việt
+- 翻译列表 <!--- 仅保留此链接 -->

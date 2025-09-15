@@ -112,4 +112,4 @@ DEBUG=psitransfer:* npm start
 
 ## 许可证
 
-[BSD](LICENSE)
+BSD

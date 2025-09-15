@@ -23,34 +23,34 @@
   <p>
   
 - **入门指南**
-  - [🌈 功能](#功能-)
-  - [⚡演示](#演示-)
-  - [🚀 快速开始](#快速开始-)
-  - [🔧 配置](#配置-)
+  - 🌈 功能
+  - ⚡演示
+  - 🚀 快速开始
+  - 🔧 配置
 - **功能概览**
-  - [🎨 主题](#主题-)
-  - [🧸 图标](#图标-)
-  - [🚦 状态指示器](#状态指示器-)
-  - [📊 小工具](#小工具-)
-  - [🔐 身份验证](#身份验证-)
-  - [👓 替代视图](#替代视图-)
-  - [🖱️ 打开方式](#打开方式-)
-  - [🔎 搜索和快捷键](#搜索和快捷键-)
-  - [⚙️ 配置编辑器](#配置编辑器-)
-  - [☁ 云备份与同步](#云备份与同步-)
-  - [🌎 语言切换](#语言切换-)
-  - [📃 多页面支持](#多页面支持-)
+  - 🎨 主题
+  - 🧸 图标
+  - 🚦 状态指示器
+  - 📊 小工具
+  - 🔐 身份验证
+  - 👓 替代视图
+  - 🖱️ 打开方式
+  - 🔎 搜索和快捷键
+  - ⚙️ 配置编辑器
+  - ☁ 云备份与同步
+  - 🌎 语言切换
+  - 📃 多页面支持
 - **社区**
-  - [📊 系统要求](#系统要求-)
-  - [🙋‍♀️ 支持](#支持-)
-  - [💖 支持 Dashy](#支持-dashy-)
-  - [🏆 致谢](#致谢-)
-  - [🧱 开发](#开发-)
-  - [🗞️ 发布计划](#发布计划-)
-  - [📘 文档](#文档-)
-  - [🛣️ 路线图](#路线图-)
-  - [🙌 替代方案](#替代方案-)
-  - [📜 许可证](#许可证-)
+  - 📊 系统要求
+  - 🙋‍♀️ 支持
+  - 💖 支持 Dashy
+  - 🏆 致谢
+  - 🧱 开发
+  - 🗞️ 发布计划
+  - 📘 文档
+  - 🛣️ 路线图
+  - 🙌 替代方案
+  - 📜 许可证
     
   </p>
 </details>
@@ -78,27 +78,27 @@
 - 🔐 高度关注隐私
 - 🌈 还有更多功能...
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ## 演示 ⚡
 
 **在线实例**: [演示 1](https://demo.dashy.to) (在线演示) ┆ [演示 2](https://live.dashy.to) (Dashy 链接) ┆ [演示 3](https://dev.dashy.to) (开发预览)
 
-**截图**: 查看 [展示区](./docs/showcase.md)，了解社区的示例仪表板
+**截图**: 查看 展示区，了解社区的示例仪表板
 
-**快速启动您的演示**: [![使用 PWD 一键部署](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Play--with--Docker-Deploy-2496ed.svg)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml) 或 [`docker run -p 8080:8080 lissy93/dashy`](./docs/quick-start.md)
+**快速启动您的演示**: [![使用 PWD 一键部署](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Play--with--Docker-Deploy-2496ed.svg)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml) 或 `docker run -p 8080:8080 lissy93/dashy`
 
 <p align="center">
   <img width="800" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy-demo2.gif" alt="演示" />
 </p>
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 快速开始 🚀
 
-> 完整设置说明，请参见: [**部署**](./docs/deployment.md)
+> 完整设置说明，请参见: **部署**
 
 ### 从 Docker Hub 部署 🐳
 
@@ -120,9 +120,9 @@ docker run -d \
 ```
 [[Dashy on Docker Hub]](https://hub.docker.com/r/lissy93/dashy)
 
-另请参见: [Docker Compose 示例](./docs/deployment.md#using-docker-compose)。Dashy 也可通过 GHCR 获取，并支持其他架构（`arm32v7`、`arm64v8` 等）和特定版本的标签
+另请参见: Docker Compose 示例。Dashy 也可通过 GHCR 获取，并支持其他架构（`arm32v7`、`arm64v8` 等）和特定版本的标签
 
-> 一旦您运行了 Dashy，请参见 [应用管理文档](./docs/management.md) 获取有关健康检查、更新、备份、Web 服务器配置、日志、性能、安全等信息。
+> 一旦您运行了 Dashy，请参见 应用管理文档 获取有关健康检查、更新、备份、Web 服务器配置、日志、性能、安全等信息。
 
 ### 从源代码部署 🔨
 
@@ -134,21 +134,21 @@ docker run -d \
 - 构建: `yarn build`
 - 运行: `yarn start`
 
-> 查看文档: [Dashy 的完整命令列表](./docs/management.md#basic-commands)
+> 查看文档: Dashy 的完整命令列表
 
 ## 配置 🔧
 
-> 完整配置文档，请参见: [**配置**](./docs/configuring.md)
+> 完整配置文档，请参见: **配置**
 
-Dashy 通过位于 `./user-data/conf.yml` 的 YAML 文件进行配置。此外，您可以在 [配置文档](./docs/configuring.md) 中找到可用选项的完整列表。配置也可以直接通过 UI 编辑和保存。
+Dashy 通过位于 `./user-data/conf.yml` 的 YAML 文件进行配置。此外，您可以在 配置文档 中找到可用选项的完整列表。配置也可以直接通过 UI 编辑和保存。
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 主题 🎨
 
-> 完整主题文档，请参见: [**主题**](./docs/theming.md)
+> 完整主题文档，请参见: **主题**
 
 Dashy 预装了多个内置主题，您可以通过 UI 预览、应用和编辑这些主题。借助主题配置器和自定义 CSS 支持，您可以快速开发出独特外观的仪表板。
 
@@ -164,13 +164,13 @@ Dashy 预装了多个内置主题，您可以通过 UI 预览、应用和编辑�
   </a>
 </p>
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 图标 🧸
 
-> 完整图标文档，请参见: [**图标**](./docs/icons.md)
+> 完整图标文档，请参见: **图标**
 
 部分和项目都可以关联一个图标，在 `icon` 属性下定义。支持多种不同的图标包，您可以为任何应用或服务找到完美的缩略图。
 
@@ -196,13 +196,13 @@ Dashy 预装了多个内置主题，您可以通过 UI 预览、应用和编辑�
 </p>
 
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 状态指示器 🚦
 
-> 完整监控文档，请参见: [**状态指示器**](./docs/status-indicators.md)
+> 完整监控文档，请参见: **状态指示器**
 
 Dashy 有一个可选功能，用于检查每个应用/服务是否在线并响应，然后显示一个小的状态指示图标。将鼠标悬停在图标上会显示响应时间和状态码等其他统计信息。
 
@@ -212,13 +212,13 @@ Dashy 有一个可选功能，用于检查每个应用/服务是否在线并响�
   <img alt="状态检查演示" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/status-check-demo.gif" width="600" />
 </p>
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 小工具 📊
 
-> 完整小工具文档，请参见: [**小工具**](./docs/widgets.md)
+> 完整小工具文档，请参见: **小工具**
 
 您可以以小工具的形式显示来自服务的动态内容。有多个预构建的小工具可用于显示有用信息，并与常用的自托管服务集成，但您也可以轻松地为几乎任何应用创建自己的小工具。
 
@@ -228,15 +228,15 @@ Dashy 有一个可选功能，用于检查每个应用/服务是否在线并响�
 </p>
 
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 身份验证 🔐
 
-> 完整身份验证文档，请参见: [**身份验证**](./docs/authentication.md)
+> 完整身份验证文档，请参见: **身份验证**
 
-Dashy 完全支持使用 [Keycloak](https://www.keycloak.org/) 进行安全的单点登录，实现安全、简单的身份验证，请参见 [设置文档](/docs/authentication.md#keycloak) 获取完整使用指南。
+Dashy 完全支持使用 [Keycloak](https://www.keycloak.org/) 进行安全的单点登录，实现安全、简单的身份验证，请参见 设置文档 获取完整使用指南。
 
 还有一个基本的身份验证功能，不需要额外设置。要启用此功能，请在 `appConfig` 下添加一个 `auth` 属性，其中包含一个 `users` 数组，每个用户都有用户名、SHA-256 哈希密码和可选的用户类型。基本身份验证还支持多种访问控制功能，包括只读访客访问和细粒度控制。
 
@@ -250,9 +250,9 @@ appConfig:
       type: admin
 ```
 
-也支持其他访问控制系统，请参见 [替代身份验证方法](./docs/authentication.md#alternative-authentication-methods) 文档。
+也支持其他访问控制系统，请参见 替代身份验证方法 文档。
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
@@ -274,13 +274,13 @@ appConfig:
   <img alt="工作区视图演示" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/minimal-view-demo.gif" width="600" />
 </p>
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 打开方式 🖱️
 
-> 关于视图和打开方式的完整文档，请参见: [**替代视图**](./docs/alternate-views.md)
+> 关于视图和打开方式的完整文档，请参见: **替代视图**
 
 有几种不同的方式可以启动应用。您可以在 `target` 属性下为任何给定项目指定默认打开方式，或在 `appConfig.defaultOpeningMethod` 下设置站点范围的默认值。右键单击项目可查看所有选项。支持以下选项：
 - `sametab` - 应用将在当前标签页中启动
@@ -290,13 +290,13 @@ appConfig:
 - `clipboard` - 将应用的 URL 复制到系统剪贴板
 - `top` - 在最顶层的浏览上下文中打开，如果您通过 iframe 访问 Dashy 时非常有用
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 搜索和快捷键 🔎
 
-> 关于搜索的完整文档，请参见: [**搜索和快捷键**](./docs/searching.md)
+> 关于搜索的完整文档，请参见: **搜索和快捷键**
 
 快速查找和启动应用是 Dashy 的主要目标。为此，Dashy 内置了即时搜索和可自定义的键盘快捷键。
 
@@ -316,7 +316,7 @@ appConfig:
     tags: [ movies, videos, music ]
 ```
 
-要通过 Dashy 直接搜索网络，只需在输入查询后按 Enter 键。网络搜索选项在 `appConfig.webSearch` 下设置。内置支持 [10 多种搜索引擎](./docs/searching.md#setting-search-engine)，或 [使用您自己的自定义提供商](./docs/searching.md#using-custom-search-engine) 或自托管实例。通过网络搜索，您还可以定义 bangs，当查询以特定字符序列开头时（通常以 `/`、`!` 或 `:` 开头），将结果重定向到任何给定的应用、网站或搜索引擎。
+要通过 Dashy 直接搜索网络，只需在输入查询后按 Enter 键。网络搜索选项在 `appConfig.webSearch` 下设置。内置支持 10 多种搜索引擎，或 使用您自己的自定义提供商 或自托管实例。通过网络搜索，您还可以定义 bangs，当查询以特定字符序列开头时（通常以 `/`、`!` 或 `:` 开头），将结果重定向到任何给定的应用、网站或搜索引擎。
 
 ```yaml
 webSearch:
@@ -333,12 +333,12 @@ webSearch:
 
 随时按 `Esc` 关闭打开的应用、清除搜索字段或隐藏任何模态框。
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 配置编辑器 ⚙️
-> 完整配置文档，请参见: [**配置**](./docs/configuring.md)
+> 完整配置文档，请参见: **配置**
 
 除了传入 YAML 配置文件，您还可以直接通过 UI 配置应用并实时预览更改。
 
@@ -355,24 +355,24 @@ webSearch:
   <img alt="配置编辑器演示" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/config-editor-demo.gif" width="600" />
 </p>
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 云备份与同步 ☁
 
-> 完整备份文档，请参见: [**云备份与同步**](./docs/backup-restore.md)
+> 完整备份文档，请参见: **云备份与同步**
 
 Dashy 有一个 **可选** 的内置功能，用于将您的配置安全地备份到托管的云服务，然后在另一个实例上恢复。这不仅有助于异地备份您的配置，还使 Dashy 可以在不编写 YAML 配置文件的情况下使用。
 
 所有数据在发送到后端之前都会进行端到端加密（在 [`CloudBackup.js`](https://github.com/Lissy93/dashy/blob/master/src/utils/CloudBackup.js) 中使用 [crypto.js](https://github.com/brix/crypto-js) 的 AES 方法完成）。然后数据被发送到 [Cloudflare worker](https://developers.cloudflare.com/workers/learning/how-workers-works) 并存储在 [KV](https://developers.cloudflare.com/workers/learning/how-kv-works) 数据存储中。
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 语言切换 🌎
-> 完整国际化文档，请参见: [**多语言支持**](./docs/multi-language-support.md)
+> 完整国际化文档，请参见: **多语言支持**
 
 Dashy 支持多种语言和区域设置。如果可用，您的语言应该在加载时自动检测并应用。但您也可以通过 UI（在配置 --> 切换语言下）选择语言，或在 `appConfig.language` 中设置您的语言（指定为 2 位 [ISO 639-1 代码](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)），如下所示，例如 `language: de`。
 
@@ -409,13 +409,13 @@ Dashy 支持多种语言和区域设置。如果可用，您的语言应该在�
 #### 添加您的语言
 我希望 Dashy 能让每个人都能使用，而语言不会成为入门的障碍。如果您有几分钟空闲时间，请考虑为您的语言添加翻译。这是一项快速任务，所有文本都在 [单个 JSON 文件](https://github.com/Lissy93/dashy/tree/master/src/assets/locales) 中。由于任何缺失的文本都会回退到英语，您不需要翻译所有内容。
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 多页面支持 📃
 
-> 完整多页面文档，请参见: [**页面和部分**](./docs/pages-and-sections.md)
+> 完整多页面文档，请参见: **页面和部分**
 
 在您的仪表板中，您可以拥有任意数量的子页面。要加载其他页面，请在 `pages` 下指定名称和配置文件的路径。配置文件可以是本地的（存储在 `/public` 中），也可以是远程的（位于任何可访问的位置）。
 
@@ -458,7 +458,7 @@ Dashy 也可以在低功耗的基于 ARM 的单板计算机上运行，例如 Ra
 --- | --- | --- | --- | --- |
 最新版 ✔ | 最新版 ✔ | 10+ ✔ | 最新版 ✔ | 6.1+ ❌ |
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
@@ -468,32 +468,32 @@ Dashy 也可以在低功耗的基于 ARM 的单板计算机上运行，例如 Ra
 
 如果您发现了什么不正常工作的地方，请通过 [开票](https://github.com/Lissy93/dashy/issues/new/choose) 提交 bug。
 
-最好先检查 [文档](./docs)、[之前的问题](https://github.com/Lissy93/dashy/issues?q=label%3A%22%F0%9F%A4%B7%E2%80%8D%E2%99%82%EF%B8%8F+Question%22+) 和 [故障排除指南](./docs/troubleshooting.md)。
+最好先检查 文档、[之前的问题](https://github.com/Lissy93/dashy/issues?q=label%3A%22%F0%9F%A4%B7%E2%80%8D%E2%99%82%EF%B8%8F+Question%22+) 和 故障排除指南。
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 支持 Dashy 💖
 
-> 完整详情和其他帮助方式，请参见: [**贡献**](./docs/contributing.md)
+> 完整详情和其他帮助方式，请参见: **贡献**
 
 如果您正在使用 Dashy 并希望帮助支持其开发，那将是非常棒的！任何类型、任何规模的贡献都非常受欢迎，我们会适当地为您的努力给予信用。
 
 目前我们需要帮助的几个领域是：
-- 翻译 - 通过 [添加您的语言](./docs/multi-language-support.md#adding-a-new-language) 帮助让 Dashy 对非英语母语者可用
+- 翻译 - 通过 添加您的语言 帮助让 Dashy 对非英语母语者可用
 - 通过 [在 GitHub 上赞助 @Lissy93](https://github.com/sponsors/Lissy93) 捐赠少量资金并获得一些额外福利！
 - 完成 [简短调查](https://survey.typeform.com/to/gl0L68ou) 对未来功能发表意见
 - 在 [展示区](https://github.com/Lissy93/dashy/blob/master/docs/showcase.md#dashy-showcase-) 分享您的仪表板，激励他人
 - 通过分享 Dashy 或您的仪表板截图来传播消息，帮助新用户发现它
 - 提交 PR 添加新功能、修复 bug、更新文档、添加主题、小工具或其他内容
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 ---
 
 ## 开发 🧱
 
-> 完整开发文档，请参见: [**开发**](./docs/developing.md)
+> 完整开发文档，请参见: **开发**
 
 [![在 VS Code 中打开项目](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Open_in-VS_Code-863cfc.svg)](https://open.vscode.dev/Lissy93/Dashy)
 [![在 GitPod 中打开](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Open_in-GitPod-ffae33.svg)](https://gitpod.io/#github.com/lissy93/dashy.git)
@@ -518,46 +518,46 @@ Dashy 也可以在低功耗的基于 ARM 的单板计算机上运行，例如 Ra
 [![最后提交](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy.svg)](https://github.com/Lissy93/dashy/commits/master)
 [![贡献者](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy.svg)](https://github.com/Lissy93/dashy/graphs/contributors)
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
 ## 文档 📘
-> 完整文档，请参见: **[文档目录](./docs/readme.md)**
+> 完整文档，请参见: **文档目录**
 #### 运行 Dashy
-- 💨 [快速开始](/docs/quick-start.md) - 在 5 分钟内启动和运行 Dashy 的 TDLR 指南
-- 🚀 [部署](/docs/deployment.md) - 在各种不同环境中设置 Dashy 的完整指南
-- 🔧 [配置](/docs/configuring.md) - 配置文件中所有可用选项的完整列表
-- 💻 [管理](/docs/management.md) - 管理您的应用、更新、安全、Web 服务器配置等
-- 🚒 [故障排除](/docs/troubleshooting.md) - 常见错误和问题，以及如何解决它们
+- 💨 快速开始 - 在 5 分钟内启动和运行 Dashy 的 TDLR 指南
+- 🚀 部署 - 在各种不同环境中设置 Dashy 的完整指南
+- 🔧 配置 - 配置文件中所有可用选项的完整列表
+- 💻 管理 - 管理您的应用、更新、安全、Web 服务器配置等
+- 🚒 故障排除 - 常见错误和问题，以及如何解决它们
 
 #### 功能文档
-- 🛡️ [身份验证](/docs/authentication.md) - 设置身份验证以保护您的仪表板的指南
-- 🌈 [替代视图](/docs/alternate-views.md) - 可用页面/视图和项目打开方法的概述
-- 💾 [备份与恢复](/docs/backup-restore.md) - 使用 Dashy 的云同步功能备份配置的指南
-- 🧸 [图标](/docs/icons.md) - 部分和项目的所有可用图标类型的概述，附有示例
-- 🌐 [多语言支持](/docs/multi-language-support.md) - 切换语言和添加新区域设置
-- 🚦 [状态指示器](/docs/status-indicators.md) - 使用 Dashy 监控应用的正常运行时间和状态
-- 🔍 [搜索和快捷键](/docs/searching.md) - 搜索、启动方法 + 键盘快捷键
-- 🎨 [主题](/docs/theming.md) - 应用、编写和修改主题 + 样式的完整指南
-- 📊 [小工具](/docs/widgets.md) - 所有动态内容小工具的列表，附有使用指南和示例
+- 🛡️ 身份验证 - 设置身份验证以保护您的仪表板的指南
+- 🌈 替代视图 - 可用页面/视图和项目打开方法的概述
+- 💾 备份与恢复 - 使用 Dashy 的云同步功能备份配置的指南
+- 🧸 图标 - 部分和项目的所有可用图标类型的概述，附有示例
+- 🌐 多语言支持 - 切换语言和添加新区域设置
+- 🚦 状态指示器 - 使用 Dashy 监控应用的正常运行时间和状态
+- 🔍 搜索和快捷键 - 搜索、启动方法 + 键盘快捷键
+- 🎨 主题 - 应用、编写和修改主题 + 样式的完整指南
+- 📊 小工具 - 所有动态内容小工具的列表，附有使用指南和示例
 
 #### 开发和贡献
-- 🧱 [开发](/docs/developing.md) - 在本地运行 Dashy 开发服务器和一般工作流程
-- 🛎️ [开发指南](/docs/development-guides.md) - 帮助新贡献者的常见开发任务
-- 💖 [贡献](/docs/contributing.md) - 如何为 Dashy 做贡献
-- 🌟 [展示](/docs/showcase.md) - 查看其他人如何使用 Dashy，并分享您的仪表板
-- 🏆 [致谢](/docs/credits.md) - 向迄今为止做出贡献的了不起的人们致敬
-- 🗞️ [发布工作流程](/docs/release-workflow.md) - 关于发布、CI 和自动化任务的信息
+- 🧱 开发 - 在本地运行 Dashy 开发服务器和一般工作流程
+- 🛎️ 开发指南 - 帮助新贡献者的常见开发任务
+- 💖 贡献 - 如何为 Dashy 做贡献
+- 🌟 展示 - 查看其他人如何使用 Dashy，并分享您的仪表板
+- 🏆 致谢 - 向迄今为止做出贡献的了不起的人们致敬
+- 🗞️ 发布工作流程 - 关于发布、CI 和自动化任务的信息
 
 #### 杂项
-- 🔐 [隐私与安全](/docs/privacy.md) - 请求列表、潜在问题和安全资源
-- 📄 [许可证](/LICENSE) - MIT 许可证副本
-- ⚖️ [法律](/.github/LEGAL.md) - 直接依赖的许可证
-- 📏 [行为准则](/.github/CODE_OF_CONDUCT.md) - 贡献者公约行为准则
-- 🌳 [变更日志](/.github/CHANGELOG.md) - 最近更改的详细信息和历史版本
+- 🔐 隐私与安全 - 请求列表、潜在问题和安全资源
+- 📄 许可证 - MIT 许可证副本
+- ⚖️ 法律 - 直接依赖的许可证
+- 📏 行为准则 - 贡献者公约行为准则
+- 🌳 变更日志 - 最近更改的详细信息和历史版本
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
@@ -565,9 +565,9 @@ Dashy 也可以在低功耗的基于 ARM 的单板计算机上运行，例如 Ra
 
 有关即将在不久的将来发布的功能，请参见 [**当前路线图**](https://github.com/Lissy93/dashy/discussions/405)
 
-有关过去的更新，请参见 [**变更日志**](/.github/CHANGELOG.md)
+有关过去的更新，请参见 **变更日志**
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 
@@ -582,7 +582,7 @@ Dashy 也可以在低功耗的基于 ARM 的单板计算机上运行，例如 Ra
 - [Smashing](https://github.com/Smashing/smashing) (`MIT`)
 - 查看更多 👉 [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted#personal-dashboards)
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 ## 许可证 📜
@@ -619,7 +619,7 @@ _出错的事情承担责任。_
 
 [![FOSSA 状态](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/git_2Bgithub.com_2FLissy93_2Fdashy.svg)](https://app.fossa.com/projects/git%2Bgithub.com%2FLissy93%2Fdashy?ref=badge_large)
 
-**[⬆️ 返回顶部](#dashy)**
+**⬆️ 返回顶部**
 
 ---
 

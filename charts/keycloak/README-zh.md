@@ -45,19 +45,19 @@ Keycloak 提供了用户联合、强身份验证、用户管理、细粒度的�
 
 ## 从源码构建
 
-如需从源码构建，请参考 [构建与使用代码库](docs/building.md) 指南。
+如需从源码构建，请参考 构建与使用代码库 指南。
 
 ### 测试
 
-如需运行测试，请参考 [运行测试](docs/tests.md) 指南。
+如需运行测试，请参考 运行测试 指南。
 
 ### 编写测试
 
-如需编写测试，请参考 [编写测试](docs/tests-development.md) 指南。
+如需编写测试，请参考 编写测试 指南。
 
 ## 贡献代码
 
-在为 Keycloak 做贡献之前，请阅读我们的 [贡献指南](CONTRIBUTING.md)。Keycloak 项目的参与受 [CNCF 行为准则](https://github.com/cncf/foundation/blob/main/code-of-conduct.md) 约束。
+在为 Keycloak 做贡献之前，请阅读我们的 贡献指南。Keycloak 项目的参与受 [CNCF 行为准则](https://github.com/cncf/foundation/blob/main/code-of-conduct.md) 约束。
 
 参加 [社区会议](https://www.keycloak.org/community) 是参与项目并帮助塑造 Keycloak 未来的好方法。
 

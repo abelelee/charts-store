@@ -39,7 +39,7 @@ git clone https://github.com/n4ze3m/dialoqbase.git
 cd dialoqbase/docker
 ```
 
-2. Edit the `.env` <!--(see the [Environment Variables](#environment-variables) section for more details)-->:
+2. Edit the `.env` <!--(see the Environment Variables section for more details)-->:
 
 - On Linux:
 
@@ -172,7 +172,7 @@ This project is tested with BrowserStack.
   <img src="https://contrib.rocks/image?repo=n4ze3m/dialoqbase" />
 </a>
 
-Interested in contributing? Check out the [contributing guide](CONTRIBUTION.md).
+Interested in contributing? Check out the contributing guide.
 
 
 ## Sponsors 💖
@@ -190,4 +190,4 @@ Dialoqbase nothing without the support of our wonderful sponsors. If you are int
 And many more wonderful supporters from [Ko-fi](https://ko-fi.com/n4ze3m).
 ## License 📝
 
-[MIT](LICENSE)
+MIT

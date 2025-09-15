@@ -46,7 +46,7 @@ Prowlarr 是一个基于流行的 \*arr .net/reactjs 技术栈构建的索引器
 
 感谢所有为此项目做出贡献的人。
 
-- [参与贡献 (GitHub)](CONTRIBUTING.md)
+- 参与贡献 (GitHub)
 - [贡献指南 (Wiki 文章)](https://wiki.servarr.com/prowlarr/contributing)
 - [YML 索引器定义 (Wiki 文章)](https://wiki.servarr.com/prowlarr/cardigann-yml-definition)
 

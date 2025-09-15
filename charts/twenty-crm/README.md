@@ -48,11 +48,11 @@ Please feel free to flag any specific needs you have by creating an issue.
 
 Below are a few features we have implemented to date:
 
-+ [Personalize layouts with filters, sort, group by, kanban and table views](#personalize-layouts-with-filters-sort-group-by-kanban-and-table-views)
-+ [Customize your objects and fields](#customize-your-objects-and-fields)
-+ [Create and manage permissions with custom roles](#create-and-manage-permissions-with-custom-roles)
-+ [Automate workflow with triggers and actions](#automate-workflow-with-triggers-and-actions)
-+ [Emails, calendar events, files, and more](#emails-calendar-events-files-and-more)
++ Personalize layouts with filters, sort, group by, kanban and table views
++ Customize your objects and fields
++ Create and manage permissions with custom roles
++ Automate workflow with triggers and actions
++ Emails, calendar events, files, and more
 
 
 ## Personalize layouts with filters, sort, group by, kanban and table views

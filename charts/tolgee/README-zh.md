@@ -85,7 +85,7 @@ Tolgee 会根据你在项目中已使用的翻译自动提供建议，确保相�
 - [JavaScript SDK](https://docs.tolgee.io/js-sdk)。尝试使用并告诉我们你的想法 #FeedbackWanted ❤️
 - [Tolgee CLI](https://docs.tolgee.io/tolgee-cli)。让使用 Tolgee 变得更轻松
 - [集成支持](https://docs.tolgee.io/platform/integrations/about_integrations)。你想到的，我们都有。
-- [Junie 指南](JUNIE_GUIDELINES.md)。面向新贡献者和初级开发者的指南。
+- Junie 指南。面向新贡献者和初级开发者的指南。
 
 ## 快速开始 🚀
 
@@ -102,7 +102,7 @@ Tolgee 会根据你在项目中已使用的翻译自动提供建议，确保相�
 
 ## 如何贡献
 
-你想贡献代码？太棒了！你可以立即开始 [贡献](CONTRIBUTING.md)！
+你想贡献代码？太棒了！你可以立即开始 贡献！
 
 ## 贡献者
 

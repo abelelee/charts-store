@@ -37,4 +37,4 @@ Grafana 文档请访问 [grafana.com/docs](https://grafana.com/docs/)。
 
 ## 许可证
 
-Grafana 采用 [AGPL-3.0-only](LICENSE) 协议分发。有关 Apache-2.0 的例外情况，请参阅 [LICENSING.md](https://github.com/grafana/grafana/blob/HEAD/LICENSING.md)。
+Grafana 采用 AGPL-3.0-only 协议分发。有关 Apache-2.0 的例外情况，请参阅 [LICENSING.md](https://github.com/grafana/grafana/blob/HEAD/LICENSING.md)。

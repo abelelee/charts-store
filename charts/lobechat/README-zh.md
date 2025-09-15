@@ -8,7 +8,7 @@
 支持语音合成、多模态、可扩展的（[function call][docs-functionc-call]）插件系统<br/>
 一键**免费**拥有你自己的 ChatGPT/Gemini/Claude/Ollama 应用
 
-[English](README.md) · **简体中文** · [官网][official-site] · [更新日志][changelog] · [文档][docs] · [博客][blog] · [反馈问题][github-issues-link]
+English · **简体中文** · [官网][official-site] · [更新日志][changelog] · [文档][docs] · [博客][blog] · [反馈问题][github-issues-link]
 
 <!-- SHIELD GROUP -->
 
@@ -50,41 +50,41 @@
 
 #### TOC
 
-- [👋🏻 开始使用 & 交流](#-开始使用--交流)
-- [✨ 特性一览](#-特性一览)
-  - [✨ MCP 插件一键安装](#-mcp-插件一键安装)
-  - [🏪 MCP 市场](#-mcp-市场)
-  - [🖥️ 桌面应用](#️-桌面应用)
-  - [🌐 智能联网搜索](#-智能联网搜索)
-  - [思维链 (CoT)](#思维链-cot)
-  - [分支对话](#分支对话)
-  - [支持白板 (Artifacts)](#支持白板-artifacts)
-  - [文件上传 / 知识库](#文件上传--知识库)
-  - [多模型服务商支持](#多模型服务商支持)
-  - [支持本地大语言模型 (LLM)](#支持本地大语言模型-llm)
-  - [模型视觉识别 (Model Visual)](#模型视觉识别-model-visual)
-  - [TTS & STT 语音会话](#tts--stt-语音会话)
-  - [Text to Image 文生图](#text-to-image-文生图)
-  - [插件系统 (Tools Calling)](#插件系统-tools-calling)
-  - [助手市场 (GPTs)](#助手市场-gpts)
-  - [支持本地 / 远程数据库](#支持本地--远程数据库)
-  - [支持多用户管理](#支持多用户管理)
-  - [渐进式 Web 应用 (PWA)](#渐进式-web-应用-pwa)
-  - [移动设备适配](#移动设备适配)
-  - [自定义主题](#自定义主题)
-  - [`*` 更多特性](#-更多特性)
-- [⚡️ 性能测试](#️-性能测试)
-- [🛳 开箱即用](#-开箱即用)
-  - [`A` 使用 Vercel、Zeabur 、Sealos 或 阿里云计算巢 部署](#a-使用-vercelzeabur-sealos-或-阿里云计算巢-部署)
-  - [`B` 使用 Docker 部署](#b-使用-docker-部署)
-  - [环境变量](#环境变量)
-  - [获取 OpenAI API Key](#获取-openai-api-key)
-- [📦 生态系统](#-生态系统)
-- [🧩 插件体系](#-插件体系)
-- [⌨️ 本地开发](#️-本地开发)
-- [🤝 参与贡献](#-参与贡献)
-- [❤ 社区赞助](#-社区赞助)
-- [🔗 更多工具](#-更多工具)
+- 👋🏻 开始使用 & 交流
+- ✨ 特性一览
+  - ✨ MCP 插件一键安装
+  - 🏪 MCP 市场
+  - 🖥️ 桌面应用
+  - 🌐 智能联网搜索
+  - 思维链 (CoT)
+  - 分支对话
+  - 支持白板 (Artifacts)
+  - 文件上传 / 知识库
+  - 多模型服务商支持
+  - 支持本地大语言模型 (LLM)
+  - 模型视觉识别 (Model Visual)
+  - TTS & STT 语音会话
+  - Text to Image 文生图
+  - 插件系统 (Tools Calling)
+  - 助手市场 (GPTs)
+  - 支持本地 / 远程数据库
+  - 支持多用户管理
+  - 渐进式 Web 应用 (PWA)
+  - 移动设备适配
+  - 自定义主题
+  - `*` 更多特性
+- ⚡️ 性能测试
+- 🛳 开箱即用
+  - `A` 使用 Vercel、Zeabur 、Sealos 或 阿里云计算巢 部署
+  - `B` 使用 Docker 部署
+  - 环境变量
+  - 获取 OpenAI API Key
+- 📦 生态系统
+- 🧩 插件体系
+- ⌨️ 本地开发
+- 🤝 参与贡献
+- ❤ 社区赞助
+- 🔗 更多工具
 
 ####
 
@@ -839,7 +839,7 @@ $ pnpm run dev
 </details>
 
 Copyright © 2025 [LobeHub][profile-link]. <br />
-This project is [Apache 2.0](./LICENSE) licensed.
+This project is Apache 2.0 licensed.
 
 <!-- LINK GROUP -->
 

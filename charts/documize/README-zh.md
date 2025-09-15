@@ -107,4 +107,4 @@ Documize Community 是一个开源的、现代化的、自托管的、企业级�
 
 本软件（Documize Community 版）遵循 GNU AGPL v3 许可证 <http://www.gnu.org/licenses/agpl-3.0.en.html>。
 
-Documize Community 使用了其他开源组件，我们在 [NOTICES](NOTICES.md) 中对它们进行了说明。
+Documize Community 使用了其他开源组件，我们在 NOTICES 中对它们进行了说明。

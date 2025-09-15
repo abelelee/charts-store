@@ -28,8 +28,8 @@ Take a [tour of Metabase](https://www.metabase.com/learn/getting-started/tour-of
 
 ## Supported databases
 
-- [Officially supported databases](./docs/databases/connecting.md#connecting-to-supported-databases)
-- [Community drivers](./docs/developers-guide/partner-and-community-drivers.md)
+- Officially supported databases
+- Community drivers
 
 ## Internationalization
 
@@ -47,13 +47,13 @@ Check out our guide, [Working with the Metabase API](https://www.metabase.com/le
 
 ## Security Disclosure
 
-See [SECURITY.md](./SECURITY.md) for details.
+See SECURITY.md for details.
 
 ## License
 
 This repository contains the source code for both the Open Source edition of Metabase, released under the AGPL, as well as the [commercial editions of Metabase](https://www.metabase.com/pricing/), which are released under the Metabase Commercial Software License.
 
-See [LICENSE.txt](./LICENSE.txt) for details.
+See LICENSE.txt for details.
 
 Unless otherwise noted, all files © 2025 Metabase, Inc.
 

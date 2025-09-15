@@ -87,7 +87,7 @@ Start creating your standout resume with Reactive Resume today!
 
 ## License
 
-Reactive Resume is packaged and distributed using the [MIT License](/LICENSE.md) which allows for commercial use, distribution, modification and private use provided that all copies of the software contain the same license and copyright.
+Reactive Resume is packaged and distributed using the MIT License which allows for commercial use, distribution, modification and private use provided that all copies of the software contain the same license and copyright.
 
 _By the community, for the community._  
 A passion project by [Amruth Pillai](https://www.amruthpillai.com/)

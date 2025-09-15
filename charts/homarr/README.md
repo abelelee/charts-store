@@ -1,5 +1,5 @@
 <!-- Project Title -->
-[![Banner](docs/banner.png)](https://homarr.dev/)
+![Banner](https://homarr.dev/)
 
 <!-- Badges -->
 <p align="center">
@@ -47,7 +47,7 @@ Simplify the management of your server with Homarr - a sleek, modern dashboard t
 > # 1.0 is a complete rewrite and to migrate you have to change your compose file. Please follow the [Migration Guide](https://homarr.dev/blog/2025/01/19/migration-guide-1.0) and read the [Breaking Changes](https://homarr.dev/blog/2024/09/23/version-1.0#breaking-changes)
 
 
-[![Features Section](docs/section-features.png)](https://homarr.dev/)
+![Features Section](https://homarr.dev/)
 
 - 🖌️ Highly customizable with an extensive drag and drop grid system
 - ✨ Integrates seamlessly with your favorite self-hosted applications
@@ -63,7 +63,7 @@ Simplify the management of your server with Homarr - a sleek, modern dashboard t
 <br/>
 <br/>
 
-[![Widgets & Integrations Section](docs/section-widgets-and-integrations.png)](https://homarr.dev/docs/category/widgets)
+![Widgets & Integrations Section](https://homarr.dev/docs/category/widgets)
 
 Homarr has a [built-in collection of widgets and integrations](https://homarr.dev/docs/category/integrations), that connect to your applications and enable you to control them directly from the dashboard.
 Each widget and integration has a comprehensive documentation
@@ -105,14 +105,14 @@ We're constantly adding new integrations and widgets, which will enhance your ex
 <br/>
 <br/>
 
-[![Preview Section](docs/section-preview.png)](https://demo.homarr.dev/)
+![Preview Section](https://demo.homarr.dev/)
 
 https://user-images.githubusercontent.com/30572287/217098893-5880e7de-13d0-42c5-b505-f7921593396f.mp4
 
 <br/>
 <br/>
 
-[![Installation Section](docs/section-installation.png)](https://homarr.dev/docs/category/installation-1)
+![Installation Section](https://homarr.dev/docs/category/installation-1)
 
 Since we are updating Homarr very frequently, we recommend reading our official installation guides:
 
@@ -123,7 +123,7 @@ Since we are updating Homarr very frequently, we recommend reading our official 
 <br/>
 <br/>
 
-[![Contribute Section](docs/section-contribute.png)](https://github.com/ajnart/homarr/blob/dev/CONTRIBUTING.md)
+![Contribute Section](https://github.com/ajnart/homarr/blob/dev/CONTRIBUTING.md)
 Homarr is maintained by motivated developers in their free-time.
 We work for fun and learning on this project.
 
@@ -136,7 +136,7 @@ Although a donation is appreciated, there are other ways you can support us.
 
 You can also support us by helping with [translating the entire project](https://homarr.dev/docs/community/translations) to as many language as possible or contributing directly to the code or documentation.
 
-**Please read our [Contribution Guidelines](/CONTRIBUTING.md)**
+**Please read our Contribution Guidelines**
 
 All contributions, regardless of their size or scope, are welcome and highly appreciated! Thank you ❤️
 

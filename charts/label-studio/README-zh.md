@@ -8,11 +8,11 @@
 
 Label Studio 是一个开源的数据标注工具。它允许你使用简单直观的界面对音频、文本、图像、视频和时间序列等多种数据类型进行标注，并导出为多种模型格式。你可以使用它来准备原始数据或改进现有训练数据，从而获得更精确的机器学习模型。
 
-- [尝试 Label Studio](#try-out-label-studio)
-- [Label Studio 能为你带来什么](#what-you-get-from-label-studio)
-- [Label Studio 中包含的数据标注模板](#included-templates-for-labeling-data-in-label-studio)
-- [使用 Label Studio 设置机器学习模型](#set-up-machine-learning-models-with-Label-Studio)
-- [将 Label Studio 与现有工具集成](#integrate-label-studio-with-your-existing-tools)
+- 尝试 Label Studio
+- Label Studio 能为你带来什么
+- Label Studio 中包含的数据标注模板
+- 使用 Label Studio 设置机器学习模型
+- 将 Label Studio 与现有工具集成
 
 ![Label Studio 标注不同类型数据的GIF](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/annotation_examples.gif)
 
@@ -68,7 +68,7 @@ Label Studio 提供了多种模板来帮助你标注数据，你也可以使用�
 
 ## 路线图
 
-你想使用 **最酷的功能 X**，但 Label Studio 当前不支持？请查看 [我们的公开路线图](roadmap.md)！
+你想使用 **最酷的功能 X**，但 Label Studio 当前不支持？请查看 我们的公开路线图！
 
 ## 引用
 
@@ -88,6 +88,6 @@ Label Studio 提供了多种模板来帮助你标注数据，你也可以使用�
 
 ## 许可证
 
-本软件采用 [Apache 2.0 许可证](/LICENSE) 授权 © [Heartex](https://www.heartex.ai/)。2020-2021
+本软件采用 Apache 2.0 许可证 授权 © [Heartex](https://www.heartex.ai/)。2020-2021
 
 <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/opossum_looking.png" title="大家好！" height="140" width="140" />

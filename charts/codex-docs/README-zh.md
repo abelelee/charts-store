@@ -69,7 +69,7 @@ docker-compose up
 
 ## 开发指南
 
-开发者文档详见 [DEVELOPMENT.md](./DEVELOPMENT.md)。
+开发者文档详见 DEVELOPMENT.md。
 
 # 关于 CodeX
 

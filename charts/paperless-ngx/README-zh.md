@@ -20,19 +20,19 @@
 
 Paperless-ngx 是一个文档管理系统，它可以将你的纸质文档转换为可搜索的在线档案，从而让你减少纸质文档的使用。
 
-Paperless-ngx 是原始 [Paperless](https://github.com/the-paperless-project/paperless) 和 [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) 项目的官方继任者，旨在将项目推进和支持的责任分担给一个团队。[欢迎加入我们！](#community-support)
+Paperless-ngx 是原始 [Paperless](https://github.com/the-paperless-project/paperless) 和 [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) 项目的官方继任者，旨在将项目推进和支持的责任分担给一个团队。欢迎加入我们！
 
 感谢 [DigitalOcean](https://m.do.co/c/8d70b916d462) 的慷慨支持，我们提供了一个演示站点 [demo.paperless-ngx.com](https://demo.paperless-ngx.com)，登录用户名和密码均为 `demo`。_注意：演示内容会定期重置，请勿上传机密信息。_
 
-- [功能](#功能)
-- [入门指南](#入门指南)
-- [贡献指南](#贡献指南)
-  - [社区支持](#社区支持)
-  - [翻译](#翻译)
-  - [功能请求](#功能请求)
-  - [缺陷报告](#缺陷报告)
-- [相关项目](#相关项目)
-- [重要提示](#重要提示)
+- 功能
+- 入门指南
+- 贡献指南
+  - 社区支持
+  - 翻译
+  - 功能请求
+  - 缺陷报告
+- 相关项目
+- 重要提示
 
 <p align="right">本项目得到了以下支持：<br/>
   <a href="https://m.do.co/c/8d70b916d462" style="padding-top: 4px; display: block;">

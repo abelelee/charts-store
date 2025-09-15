@@ -10,40 +10,40 @@ Gray Duck Mail is written in C# and is powered by [ASP.NET Core 3.1 MVC](https:/
 
 ## Table of Contents
 
-1. [Installation](#installation)
-   1. [Tags](#tags)
-   2. [Ports](#ports)
-   3. [Volumes](#volumes)
-   4. [Environment Variables](#environment-variables)
-      - [`RATE_LIMIT_PER_ROUND_COUNT`](#rate_limit_per_round_count)
-      - [`RATE_LIMIT_ROUND_WAIT_TIME`](#rate_limit_round_wait_time)
-      - [`FETCH_TIME`](#fetch_time)
-      - [`LOG_LEVEL`](#log_level)
-      - [`LANGUAGE`](#language)
-      - [`MIN_SEARCH_SCORE`](#min_search_score)
-      - [`WEB_ONLY`](#web_only)
-      - [`WEB_UNSUBSCRIBE`](#web_unsubscribe)
-      - [`WEB_USE_HTTPS`](#web_use_https)
-      - [`WEB_EXTERNAL_URL`](#web_external_url)
-      - [`WEB_SECRET`](#web_secret)
-      - [`ASPNETCORE_URLS`](#aspnetcore_urls)
-   5. [Security Considerations](#security-considerations)
-2. [Web Interface](#web-interface)
-   1. [Settings](#settings)
-      1. [Items Per Page](#items-per-page)
-      2. [Fuzzy Search](#fuzzy-search)
-   2. [Database Import](#database-import)
-   3. [Datbase Export](#datbase-export)
-3. [Contacts](#contacts)
-4. [Discussion Lists](#discussion-lists)
-   1. [Configuration](#configuration)
-      1. [Base Email Account](#base-email-account)
-      2. [Aliases](#aliases)
-         - [`request`](#request)
-         - [`subscribe`](#subscribe)
-         - [`unsubscribe`](#unsubscribe)
-         - [`bounce`](#bounce)
-         - [`owner`](#owner)
+1. Installation
+   1. Tags
+   2. Ports
+   3. Volumes
+   4. Environment Variables
+      - `RATE_LIMIT_PER_ROUND_COUNT`
+      - `RATE_LIMIT_ROUND_WAIT_TIME`
+      - `FETCH_TIME`
+      - `LOG_LEVEL`
+      - `LANGUAGE`
+      - `MIN_SEARCH_SCORE`
+      - `WEB_ONLY`
+      - `WEB_UNSUBSCRIBE`
+      - `WEB_USE_HTTPS`
+      - `WEB_EXTERNAL_URL`
+      - `WEB_SECRET`
+      - `ASPNETCORE_URLS`
+   5. Security Considerations
+2. Web Interface
+   1. Settings
+      1. Items Per Page
+      2. Fuzzy Search
+   2. Database Import
+   3. Datbase Export
+3. Contacts
+4. Discussion Lists
+   1. Configuration
+      1. Base Email Account
+      2. Aliases
+         - `request`
+         - `subscribe`
+         - `unsubscribe`
+         - `bounce`
+         - `owner`
 
 ## Installation
 
@@ -105,7 +105,7 @@ The folowing values are supoorted:
 
 #### `MIN_SEARCH_SCORE`
 
-The minimum viable search score when performing [fuzzy searches](#Fuzzy-Search). The default value is a [System.Single (float)](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netcore-3.1) set to `0.2`. When using [fuzzy searches](#Fuzzy-Search) fractional scores between `1` and `0` are generated. Results approach zero as search results stray from an exact match.
+The minimum viable search score when performing fuzzy searches. The default value is a [System.Single (float)](https://docs.microsoft.com/en-us/dotnet/api/system.single?view=netcore-3.1) set to `0.2`. When using fuzzy searches fractional scores between `1` and `0` are generated. Results approach zero as search results stray from an exact match.
 
 #### `WEB_ONLY`
 
@@ -162,7 +162,7 @@ The database files used by Gray Duck Mail are not encrypted and store all data i
 
 ## Web Interface
 
-Gray Duck Mail provides a web administration interface for basic system interaction. The web interface allows an administrator to create and remove distribution lists, create and remove list contacts, browse message archives, and access basic adminstration actions like [importing](#database-import) and [exporting copies of the local database](#database-export), care should be taken to make sure those files are not accessable to the public.
+Gray Duck Mail provides a web administration interface for basic system interaction. The web interface allows an administrator to create and remove distribution lists, create and remove list contacts, browse message archives, and access basic adminstration actions like importing and exporting copies of the local database, care should be taken to make sure those files are not accessable to the public.
 
 ### Settings
 
@@ -186,15 +186,15 @@ This action allows you to export a copy of the SQLite3 database file. This file 
 
 ## Contacts
 
-Contacts represent individual users that can send and recieve messages to a discussion list. New contacts can be added through the [web interface](#web-interface) or are added automatically when a previously unknown email address sends a message to `request` email alias for a discussion list.
+Contacts represent individual users that can send and recieve messages to a discussion list. New contacts can be added through the web interface or are added automatically when a previously unknown email address sends a message to `request` email alias for a discussion list.
 
 ## Discussion Lists
 
-Discussion lists represent a group of contacts that can relay messages to other users via a single designated email address. Limited automated moderation can be performed by sending messages to specific [email aliases](#aliases).
+Discussion lists represent a group of contacts that can relay messages to other users via a single designated email address. Limited automated moderation can be performed by sending messages to specific email aliases.
 
 ### Configuration
 
-Gray Duck Mail requires an external email account and a few [defined aliases](#aliases) in order to function. A discussion list functions by monitoring a given POP3 email account and processing each email by either relaying it to the discussion list members, or by analyzing a message's MIME headers and performing a moderation task.
+Gray Duck Mail requires an external email account and a few defined aliases in order to function. A discussion list functions by monitoring a given POP3 email account and processing each email by either relaying it to the discussion list members, or by analyzing a message's MIME headers and performing a moderation task.
 
 #### Base Email Account
 

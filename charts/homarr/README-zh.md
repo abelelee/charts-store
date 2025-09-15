@@ -1,6 +1,6 @@
 ---
 <!-- 项目标题 -->
-[![Banner](docs/banner.png)](https://homarr.dev/)
+![Banner](https://homarr.dev/)
 
 <!-- 标志 -->
 <p align="center">
@@ -46,7 +46,7 @@
 > # 请在该仓库提交与 1.0 相关的问题。此仓库将在 1.0 完全完善后归档。
 > # 1.0 是一次完全重写，迁移时需要修改您的 compose 文件。请参考 [迁移指南](https://homarr.dev/blog/2025/01/19/migration-guide-1.0) 并阅读 [重大变更说明](https://homarr.dev/blog/2024/09/23/version-1.0#breaking-changes)
 
-[![功能部分](docs/section-features.png)](https://homarr.dev/)
+![功能部分](https://homarr.dev/)
 
 - 🖌️ 高度可定制，具备强大的拖放网格系统
 - ✨ 与您喜爱的自托管应用无缝集成
@@ -62,7 +62,7 @@
 <br/>
 <br/>
 
-[![小组件与集成部分](docs/section-widgets-and-integrations.png)](https://homarr.dev/docs/category/widgets)
+![小组件与集成部分](https://homarr.dev/docs/category/widgets)
 
 Homarr 提供了[内置的小组件和集成](https://homarr.dev/docs/category/integrations)，它们连接您的应用程序，使您能够直接从仪表板控制它们。每个小组件和集成都配有详尽的文档。Homarr 可与以下应用程序集成：
 
@@ -102,14 +102,14 @@ Homarr 提供了[内置的小组件和集成](https://homarr.dev/docs/category/i
 <br/>
 <br/>
 
-[![预览部分](docs/section-preview.png)](https://demo.homarr.dev/)
+![预览部分](https://demo.homarr.dev/)
 
 https://user-images.githubusercontent.com/30572287/217098893-5880e7de-13d0-42c5-b505-f7921593396f.mp4
 
 <br/>
 <br/>
 
-[![安装部分](docs/section-installation.png)](https://homarr.dev/docs/category/installation-1)
+![安装部分](https://homarr.dev/docs/category/installation-1)
 
 由于我们频繁更新 Homarr，建议您阅读我们的官方安装指南：
 
@@ -120,7 +120,7 @@ https://user-images.githubusercontent.com/30572287/217098893-5880e7de-13d0-42c5-
 <br/>
 <br/>
 
-[![贡献部分](docs/section-contribute.png)](https://github.com/ajnart/homarr/blob/dev/CONTRIBUTING.md)
+![贡献部分](https://github.com/ajnart/homarr/blob/dev/CONTRIBUTING.md)
 Homarr 由一群充满热情的开发者在空闲时间维护。
 我们出于兴趣和学习目的参与这个项目。
 
@@ -133,7 +133,7 @@ Homarr 由一群充满热情的开发者在空闲时间维护。
 
 您也可以通过帮助我们将整个项目[翻译成尽可能多的语言](https://homarr.dev/docs/community/translations)，或直接参与代码或文档的编写来支持我们。
 
-**请阅读我们的 [贡献指南](/CONTRIBUTING.md)**
+**请阅读我们的 贡献指南**
 
 无论大小和范围，所有贡献都受到热烈欢迎和高度赞赏！谢谢 ❤️
 

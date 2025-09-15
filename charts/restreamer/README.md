@@ -153,7 +153,7 @@ Contribute to the translations on: [https://poeditor.com/join/project/ogATl3F48K
 For general help using Restreamer, please refer to the official [documentation](https://docs.datarhei.com/restreamer). For additional support, you can use Github to ask a question (Bug reports, Contributions, Features).
 
 ## License
-See the [LICENSE](./LICENSE) file for licensing information.
+See the LICENSE file for licensing information.
 
 ## Business inquiries
 **We provide support for commercial requirements with professional support, agile software development, and consulting.** If you have a commercial request, be it a bug or a feature enhancement, please contact us directly at support@datarhei.com.

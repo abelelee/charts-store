@@ -20,7 +20,7 @@
 
 </div>
 
-**跳转至 [演示](#演示)**
+**跳转至 演示**
 
 [mCaptcha](https://mcaptcha.org) 是一个尊重隐私的、**免费**的 CAPTCHA
 系统，具备出色的用户体验。你的用户不再需要与荒谬的图片验证码交互，浪费宝贵的注意力资源。取而代之的是，你的计算机将为你完成工作，[亲自体验一下！](https://demo.mcaptcha.org/widget/?sitekey=pHy0AktWyOKuxZDzFfoaewncWecCHo23)
@@ -90,19 +90,19 @@ docker-compose up -d
 
 构建镜像需要一些时间，请耐心等待 :)
 
-有关详细的替代部署方法，请参阅 [DEPLOYMENT.md](./docs/DEPLOYMENT.md)
+有关详细的替代部署方法，请参阅 DEPLOYMENT.md
 
 ## 开发：
 
-请参阅 [HACKING.md](./docs/HACKING.md)
+请参阅 HACKING.md
 
 ## 部署：
 
-请参阅 [DEPLOYMENT.md](./docs/DEPLOYMENT.md)
+请参阅 DEPLOYMENT.md
 
 ## 配置：
 
-请参阅 [CONFIGURATION.md](./docs/CONFIGURATION.md)
+请参阅 CONFIGURATION.md
 
 ## 资金支持
 

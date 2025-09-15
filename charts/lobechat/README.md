@@ -8,7 +8,7 @@ An open-source, modern design ChatGPT/LLMs UI/framework.<br/>
 Supports speech synthesis, multi-modal, and extensible ([function call][docs-function-call]) plugin system.<br/>
 One-click **FREE** deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/Ollama chat application.
 
-**English** · [简体中文](./README.zh-CN.md) · [Official Site][official-site] · [Changelog][changelog] · [Documents][docs] · [Blog][blog] · [Feedback][github-issues-link]
+**English** · 简体中文 · [Official Site][official-site] · [Changelog][changelog] · [Documents][docs] · [Blog][blog] · [Feedback][github-issues-link]
 
 <!-- SHIELD GROUP -->
 
@@ -50,40 +50,40 @@ One-click **FREE** deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/
 
 #### TOC
 
-- [👋🏻 Getting Started & Join Our Community](#-getting-started--join-our-community)
-- [✨ Features](#-features)
-  - [✨ MCP Plugin One-Click Installation](#-mcp-plugin-one-click-installation)
-  - [🏪 MCP Marketplace](#-mcp-marketplace)
-  - [🖥️ Desktop App](#️-desktop-app)
-  - [🌐 Smart Internet Search](#-smart-internet-search)
-  - [Chain of Thought](#chain-of-thought)
-  - [Branching Conversations](#branching-conversations)
-  - [Artifacts Support](#artifacts-support)
-  - [File Upload /Knowledge Base](#file-upload-knowledge-base)
-  - [Multi-Model Service Provider Support](#multi-model-service-provider-support)
-  - [Local Large Language Model (LLM) Support](#local-large-language-model-llm-support)
-  - [Model Visual Recognition](#model-visual-recognition)
-  - [TTS & STT Voice Conversation](#tts--stt-voice-conversation)
-  - [Text to Image Generation](#text-to-image-generation)
-  - [Plugin System (Function Calling)](#plugin-system-function-calling)
-  - [Agent Market (GPTs)](#agent-market-gpts)
-  - [Support Local / Remote Database](#support-local--remote-database)
-  - [Support Multi-User Management](#support-multi-user-management)
-  - [Progressive Web App (PWA)](#progressive-web-app-pwa)
-  - [Mobile Device Adaptation](#mobile-device-adaptation)
-  - [Custom Themes](#custom-themes)
-  - [`*` What's more](#-whats-more)
-- [⚡️ Performance](#️-performance)
-- [🛳 Self Hosting](#-self-hosting)
-  - [`A` Deploying with Vercel, Zeabur , Sealos or Alibaba Cloud](#a-deploying-with-vercel-zeabur--sealos-or-alibaba-cloud)
-  - [`B` Deploying with Docker](#b-deploying-with-docker)
-  - [Environment Variable](#environment-variable)
-- [📦 Ecosystem](#-ecosystem)
-- [🧩 Plugins](#-plugins)
-- [⌨️ Local Development](#️-local-development)
-- [🤝 Contributing](#-contributing)
-- [❤️ Sponsor](#️-sponsor)
-- [🔗 More Products](#-more-products)
+- 👋🏻 Getting Started & Join Our Community
+- ✨ Features
+  - ✨ MCP Plugin One-Click Installation
+  - 🏪 MCP Marketplace
+  - 🖥️ Desktop App
+  - 🌐 Smart Internet Search
+  - Chain of Thought
+  - Branching Conversations
+  - Artifacts Support
+  - File Upload /Knowledge Base
+  - Multi-Model Service Provider Support
+  - Local Large Language Model (LLM) Support
+  - Model Visual Recognition
+  - TTS & STT Voice Conversation
+  - Text to Image Generation
+  - Plugin System (Function Calling)
+  - Agent Market (GPTs)
+  - Support Local / Remote Database
+  - Support Multi-User Management
+  - Progressive Web App (PWA)
+  - Mobile Device Adaptation
+  - Custom Themes
+  - `*` What's more
+- ⚡️ Performance
+- 🛳 Self Hosting
+  - `A` Deploying with Vercel, Zeabur , Sealos or Alibaba Cloud
+  - `B` Deploying with Docker
+  - Environment Variable
+- 📦 Ecosystem
+- 🧩 Plugins
+- ⌨️ Local Development
+- 🤝 Contributing
+- ❤️ Sponsor
+- 🔗 More Products
 
 ####
 
@@ -818,7 +818,7 @@ Every bit counts and your one-time donation sparkles in our galaxy of support! Y
 </details>
 
 Copyright © 2025 [LobeHub][profile-link]. <br />
-This project is [Apache 2.0](./LICENSE) licensed.
+This project is Apache 2.0 licensed.
 
 <!-- LINK GROUP -->
 

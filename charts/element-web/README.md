@@ -48,9 +48,9 @@ The easiest way to test Element is to just use the hosted copy at <https://app.e
 The `develop` branch is continuously deployed to <https://develop.element.io>
 for those who like living dangerously.
 
-To host your own instance of Element see [Installing Element Web](docs/install.md).
+To host your own instance of Element see Installing Element Web.
 
-To install Element as a desktop application, see [Running as a desktop app](#running-as-a-desktop-app) below.
+To install Element as a desktop application, see Running as a desktop app below.
 
 # Important Security Notes
 
@@ -122,12 +122,12 @@ guide](https://classic.yarnpkg.com/en/docs/install) if you do not have it alread
 1. Switch to the element-web directory: `cd element-web`.
 1. Install the prerequisites: `yarn install`.
     - If you're using the `develop` branch, then it is recommended to set up a
-      proper development environment (see [Setting up a dev
-      environment](./developer_guide.md#setting-up-a-dev-environment) below). Alternatively, you
+      proper development environment (see Setting up a dev
+      environment below). Alternatively, you
       can use <https://develop.element.io> - the continuous integration release of
       the develop branch.
 1. Configure the app by copying `config.sample.json` to `config.json` and
-   modifying it. See the [configuration docs](docs/config.md) for details.
+   modifying it. See the configuration docs for details.
 1. `yarn dist` to build a tarball to deploy. Untaring this file will give
    a version-specific directory containing all the files that need to go on your
    web server.
@@ -148,12 +148,12 @@ To build it yourself, follow the instructions at <https://github.com/element-hq/
 
 Many thanks to @aviraldg for the initial work on the Electron integration.
 
-The [configuration docs](docs/config.md#desktop-app-configuration) show how to override the desktop app's default settings if desired.
+The configuration docs show how to override the desktop app's default settings if desired.
 
 # config.json
 
 Element supports a variety of settings to configure default servers, behaviour, themes, etc.
-See the [configuration docs](docs/config.md) for more details.
+See the configuration docs for more details.
 
 # Labs Features
 
@@ -181,15 +181,15 @@ Dockerfile.
 
 Please read through the following:
 
-1. [Developer guide](./developer_guide.md)
-2. [Code style](./code_style.md)
-3. [Contribution guide](./CONTRIBUTING.md)
+1. Developer guide
+2. Code style
+3. Contribution guide
 
 # Translations
 
-To add a new translation, head to the [translating doc](docs/translating.md).
+To add a new translation, head to the translating doc.
 
-For a developer guide, see the [translating dev doc](docs/translating-dev.md).
+For a developer guide, see the translating dev doc.
 
 # Triaging issues
 

@@ -49,7 +49,7 @@
 
 ## ⌨️ 如何使用？
 
-使用 Wakapi 有多种方式，从使用我们托管的云服务到自托管。无论选择哪种方式，都需要进行 [客户端设置](#-客户端设置)。
+使用 Wakapi 有多种方式，从使用我们托管的云服务到自托管。无论选择哪种方式，都需要进行 客户端设置。
 
 ### ☁️ 选项 1：使用 [wakapi.dev](https://wakapi.dev)
 
@@ -124,7 +124,7 @@ $ ./wakapi -config wakapi.yml
 
 **注意：** 有关安全配置的最佳实践，请查看 `config.yml` 中的注释。
 
-💡 当独立运行 Wakapi（不使用 Docker）时，建议将其作为 [SystemD 服务](etc/wakapi.service) 运行。
+💡 当独立运行 Wakapi（不使用 Docker）时，建议将其作为 SystemD 服务 运行。
 
 ### 💻 客户端设置
 
@@ -168,7 +168,7 @@ api_key = 406fe41f-6d69-4183-a4cc-121e0c524c2b
 | `app.heartbeat_max_age /`<br>`WAKAPI_HEARTBEAT_MAX_AGE`                                     | `4320h`                                          | 心跳的最大可接受年龄（参见 [`ParseDuration`](https://pkg.go.dev/time#ParseDuration))                                                                       |
 | `app.warm_caches /`<br>`WAKAPI_WARM_CACHES`                                                 | `true`                                           | 是否在启动时执行一些初始缓存预热                                                                                                                 |
 | `app.custom_languages`                                                                      | -                                                | 文件后缀到语言名称的映射                                                                                                                                    |
-| `app.avatar_url_template` /<br>`WAKAPI_AVATAR_URL_TEMPLATE`                                 | （参见 [`config.default.yml`](config.default.yml)） | 外部用户头像图片的 URL 模板（例如 [Dicebear](https://dicebear.com) 或 [Gravatar](https://gravatar.com)）                                              |
+| `app.avatar_url_template` /<br>`WAKAPI_AVATAR_URL_TEMPLATE`                                 | （参见 `config.default.yml`） | 外部用户头像图片的 URL 模板（例如 [Dicebear](https://dicebear.com) 或 [Gravatar](https://gravatar.com)）                                              |
 | `app.date_format` /<br>`WAKAPI_DATE_FORMAT`                                                 | `Mon, 02 Jan 2006`                               | Go 时间格式字符串，用于格式化可读日期（参见 [`Time.Format`](https://pkg.go.dev/time#Time.Format))                                                            |
 | `app.datetime_format` /<br>`WAKAPI_DATETIME_FORMAT`                                         | `Mon, 02 Jan 2006 15:04`                         | Go 时间格式字符串，用于格式化可读日期时间（参见 [`Time.Format`](https://pkg.go.dev/time#Time.Format))                                                        |
 | `app.support_contact` /<br>`WAKAPI_SUPPORT_CONTACT`                                         | `hostmaster@wakapi.dev`                          | 页面上显示的支持联系电子邮件地址                                                                                                                 |
@@ -375,7 +375,7 @@ Wakapi 还集成了 [GitHub Readme Stats](https://github.com/anuraghazra/github-
 
 ## 📦 数据导出
 
-你可以将 Wakapi 中的编码活动导出为 CSV 格式的原始心跳数据。虽然无法通过 Web UI 直接实现，但我们提供了一个易于使用的 Python [脚本](scripts/download_heartbeats.py)。
+你可以将 Wakapi 中的编码活动导出为 CSV 格式的原始心跳数据。虽然无法通过 Web UI 直接实现，但我们提供了一个易于使用的 Python 脚本。
 
 ```bash
 $ pip install requests tqdm
@@ -421,7 +421,7 @@ API 测试作为黑盒测试实现，通过 HTTP 请求与完整的 Wakapi 实�
 
 我们的 API（或某种程度上的端到端）测试是作为 [Bruno](https://www.usebruno.com/) 集合实现的，可以通过 Bruno 内部运行，也可以使用 [Bruno CLI](https://www.npmjs.com/package/@usebruno/cli) 作为命令行运行器。
 
-为了获得可预测的环境，测试是在一个全新的、干净的 Wakapi 实例上运行的，该实例使用 SQLite 数据库，并且仅填充了一些种子数据（参见 [data.sql](testing/data.sql)）。通常建议软件测试是 [安全](https://www.restapitutorial.com/lessons/idempotency.html) 的、无状态的且没有副作用的。与该范式相反，我们的 API 测试严格要求固定的执行顺序（Bruno 会确保这一点），并且它们的断言可能依赖于特定的先前测试已成功完成。
+为了获得可预测的环境，测试是在一个全新的、干净的 Wakapi 实例上运行的，该实例使用 SQLite 数据库，并且仅填充了一些种子数据（参见 data.sql）。通常建议软件测试是 [安全](https://www.restapitutorial.com/lessons/idempotency.html) 的、无状态的且没有副作用的。与该范式相反，我们的 API 测试严格要求固定的执行顺序（Bruno 会确保这一点），并且它们的断言可能依赖于特定的先前测试已成功完成。
 
 #### 前提条件（仅限 Linux）
 
@@ -450,7 +450,7 @@ $ yarn
 $ yarn build  # 或：yarn watch
 ```
 
-可以通过编辑 [scripts/bundle_icons.js](scripts/bundle_icons.js) 中的 `icons` 数组来添加新图标。
+可以通过编辑 scripts/bundle_icons.js 中的 `icons` 数组来添加新图标。
 
 #### 预压缩
 

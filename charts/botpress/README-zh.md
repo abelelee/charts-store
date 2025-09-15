@@ -10,11 +10,11 @@
 
 [Botpress](https://botpress.com) 是用于构建由 OpenAI 驱动的**下一代聊天机器人**和助手的终极平台。立即为您的项目或业务快速构建令人惊叹的助手。
 
-[快速入门](#getting-started) •
+快速入门 •
 [Cloud](https://app.botpress.cloud) •
 [文档](https://botpress.com/docs) •
-[集成](#integrations) •
-[插件](#plugins)
+集成 •
+插件
 
 <img src="https://user-images.githubusercontent.com/10071388/248040379-8aee1b03-c483-4040-8ee0-741554310e88.png" width="800">
 
@@ -24,16 +24,16 @@
 
 本仓库包含：
 
-- [**集成**](#integrations) – 所有 Botpress 维护的 [Botpress Hub](https://app.botpress.cloud/hub) 上的公开集成
-- [**开发工具**](#devtools) – 所有 Botpress Cloud 开发工具（CLI、SDK、API 客户端）
-- [**机器人**](#bots) – 仅使用 SDK 和 CLI 创建的“代码即机器人”的示例
-- [**插件**](#plugins) – 所有 [Botpress Studio](https://studio.botpress.cloud) 上的插件 **(即将推出)**
+- **集成** – 所有 Botpress 维护的 [Botpress Hub](https://app.botpress.cloud/hub) 上的公开集成
+- **开发工具** – 所有 Botpress Cloud 开发工具（CLI、SDK、API 客户端）
+- **机器人** – 仅使用 SDK 和 CLI 创建的“代码即机器人”的示例
+- **插件** – 所有 [Botpress Studio](https://studio.botpress.cloud) 上的插件 **(即将推出)**
 
 ## 贡献
 
 我们非常欢迎社区的贡献！
 
-我们欢迎与此仓库中包含的任何代码相关的 Pull Request 和 Issue。更多详情请参见 [本仓库](#this-repository) 部分。
+我们欢迎与此仓库中包含的任何代码相关的 Pull Request 和 Issue。更多详情请参见 本仓库 部分。
 
 对于与 Botpress Cloud 相关的 bug 或功能请求，您可以在本仓库创建一个 issue，但请注意，通过 [Discord](https://discord.gg/botpress) 与我们联系可以获得更快的响应！
 
@@ -41,7 +41,7 @@
 
 ## 集成
 
-[`/integrations`](./integrations) 文件夹包含我们所有公开且开源的集成。我们邀请社区为我们的集成做出贡献，或向 [Botpress Hub](https://app.botpress.cloud/hub) 发布您自己的集成。
+`/integrations` 文件夹包含我们所有公开且开源的集成。我们邀请社区为我们的集成做出贡献，或向 [Botpress Hub](https://app.botpress.cloud/hub) 发布您自己的集成。
 
 ### 集成开发
 
@@ -87,7 +87,7 @@ bp deploy --public
 
 ## 机器人
 
-[`/bots`](./bots) 文件夹包含仅使用客户端、SDK 和 CLI 创建的“代码即机器人”的示例。
+`/bots` 文件夹包含仅使用客户端、SDK 和 CLI 创建的“代码即机器人”的示例。
 
 **这不是推荐的构建机器人方式**，也不能替代 Botpress Studio。
 
@@ -103,7 +103,7 @@ Botpress 团队内部也使用它，因为 Studio 和 SDK 都使用相同的底�
 
 | **包**                                                          | **描述**                                         | **文档**                                           | **代码**               |
 | -------------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------- | ---------------------- |
-| [`@botpress/cli`](https://www.npmjs.com/package/@botpress/cli)       | 构建、部署和管理机器人、集成和插件 | [文档](https://botpress.com/docs/integration/cli/) | [代码](./packages/cli) |
+| [`@botpress/cli`](https://www.npmjs.com/package/@botpress/cli)       | 构建、部署和管理机器人、集成和插件 | [文档](https://botpress.com/docs/integration/cli/) | 代码 |
 | [`@botpress/client`](https://www.npmjs.com/package/@botpress/client) | 类型安全的客户端，用于调用 Botpress API          | [文档]()                                           | [代码]()               |
 | [`@botpress/sdk`](https://www.npmjs.com/package/@botpress/sdk)       | 用于构建集成的 SDK                       | [文档]()                                           | [代码]()               |
 
@@ -140,6 +140,6 @@ pnpm run check
 
 ## 许可协议
 
-本仓库中的所有包均为开源软件，采用 [MIT License](LICENSE) 授权。通过在此仓库中贡献代码，您也同意以该许可证发布您的代码。
+本仓库中的所有包均为开源软件，采用 MIT License 授权。通过在此仓库中贡献代码，您也同意以该许可证发布您的代码。
 
 让我们一起构建聊天机器人开发的未来！🤖🚀

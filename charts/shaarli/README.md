@@ -16,7 +16,7 @@ _It is designed to be personal (single-user), fast and handy._
 ## Quickstart
 
 - [Documentation](https://shaarli.readthedocs.io)
-- [Change log](CHANGELOG.md)
+- Change log
 - [Bugs/Feature requests/Discussion](https://github.com/shaarli/Shaarli/issues/)
 
 ### Demo
@@ -28,4 +28,4 @@ Login: `demo`; Password: `demo`
 
 ### License
 
-Shaarli is [Free Software](http://en.wikipedia.org/wiki/Free_software). See [COPYING](COPYING) for a detail of the contributors and licenses for each individual component.
+Shaarli is [Free Software](http://en.wikipedia.org/wiki/Free_software). See COPYING for a detail of the contributors and licenses for each individual component.

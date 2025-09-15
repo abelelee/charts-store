@@ -228,7 +228,7 @@ export HF_HUB_OFFLINE=1
 
 ## 许可证 📜
 
-本项目采用 [Open WebUI 许可证](LICENSE)，这是对 BSD-3-Clause 许可证的修订版本。您将获得与经典 BSD-3 许可证相同的全部权利：您可以使用、修改和分发该软件，包括在专有和商业产品中，限制极少。唯一额外的要求是保留 "Open WebUI" 品牌标识，详细说明请参见 LICENSE 文件。完整条款请参阅 [LICENSE](LICENSE) 文档。📄
+本项目采用 Open WebUI 许可证，这是对 BSD-3-Clause 许可证的修订版本。您将获得与经典 BSD-3 许可证相同的全部权利：您可以使用、修改和分发该软件，包括在专有和商业产品中，限制极少。唯一额外的要求是保留 "Open WebUI" 品牌标识，详细说明请参见 LICENSE 文件。完整条款请参阅 LICENSE 文档。📄
 
 ## 支持 💬
 

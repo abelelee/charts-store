@@ -134,12 +134,12 @@ go test ./...
 
 ## 贡献
 
-PocketBase 是一个基于 [MIT License](LICENSE.md) 的免费开源项目。
+PocketBase 是一个基于 MIT License 的免费开源项目。
 你可以自由地使用它，甚至可以将其作为付费服务提供。
 
 你可以通过以下方式帮助继续开发：
 
-- [贡献源代码](CONTRIBUTING.md)
+- 贡献源代码
 - [提出新功能建议和报告问题](https://github.com/pocketbase/pocketbase/issues)
 
 欢迎提交新 OAuth2 提供商、Bug 修复、代码优化和文档改进的 PR。

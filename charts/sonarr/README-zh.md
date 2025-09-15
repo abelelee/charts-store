@@ -46,7 +46,7 @@ Sonarr 是一个面向 Usenet 和 BitTorrent 用户的 PVR（个人视频录像�
 
 ### 开发
 
-本项目得以存在，离不开所有贡献者。[参与贡献](CONTRIBUTING.md)。
+本项目得以存在，离不开所有贡献者。参与贡献。
 
 <a href="https://github.com/Sonarr/Sonarr/graphs/contributors"><img src="https://opencollective.com/Sonarr/contributors.svg?width=890&button=false" /></a>
 

@@ -28,15 +28,15 @@
 
 ## 目录
 
-- [关于本项目](#关于本项目)
-  - [动机](#动机)
-  - [使用的技术](#使用的技术)
-  - [功能](#功能)
-- [安装](#安装)
-- [贡献](#贡献)
-- [许可证](#许可证)
-- [路线图](#路线图)
-- [联系](#联系)
+- 关于本项目
+  - 动机
+  - 使用的技术
+  - 功能
+- 安装
+- 贡献
+- 许可证
+- 路线图
+- 联系
 
 <!-- ABOUT THE PROJECT -->
 
@@ -56,7 +56,7 @@ __同时欢迎查看我的其他自托管开源项目 - [Podgrab](https://github
 
 最初我也考虑过使用两个容器（一个用于后端，一个用于前端），以便独立维护和更新。但为了简化部署，我最终放弃了这个想法。尽管大多数自托管用户具备一定的技术能力，但一个可以“启动即忘”的单容器方案显然更受欢迎。
 
-![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/hammond/image/screenshot.jpg) [更多截图](Screenshots.md)
+![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/hammond/image/screenshot.jpg) 更多截图
 
 ### 使用的技术
 
@@ -124,7 +124,7 @@ services:
 
 虽然我个人认为使用 Docker 容器是使用 Hammond 的最佳方式，但社区中仍有许多人对 Docker 不太熟悉，希望在 Linux 服务器上原生运行。请参考以下链接获取从源码构建的指南：
 
-[从源码构建 / Ubuntu 安装指南](docs/ubuntu-install.md)
+从源码构建 / Ubuntu 安装指南
 
 ### 环境变量
 

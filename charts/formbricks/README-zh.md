@@ -54,23 +54,23 @@ Formbricks 是一个免费且开源的调查平台，同时也是一款注重隐
 
 ### 目录
 
-- [功能](#features)
+- 功能
 
-- [快速入门](#getting-started)
+- 快速入门
 
-- [云端版本](#cloud-version)
+- 云端版本
 
-- [自托管版本](#self-hosted-version)
+- 自托管版本
 
-- [开发](#development)
+- 开发
 
-- [贡献](#contribution)
+- 贡献
 
-- [联系](#contact-us)
+- 联系
 
-- [安全](#security)
+- 安全
 
-- [许可证](#license)
+- 许可证
 
 <a id="features"></a>
 
@@ -216,7 +216,7 @@ Formbricks 在 AGPLv3 许可证下作为开源软件提供。您可以使用 Doc
 
 ## 🔒 安全
 
-我们非常重视安全性。如果您发现任何安全漏洞，请发送电子邮件至 security@formbricks.com 进行披露。我们感谢您帮助使我们的平台更加安全，并承诺与您合作，迅速高效地解决问题。更多信息请参见 [`SECURITY.md`](./SECURITY.md)。
+我们非常重视安全性。如果您发现任何安全漏洞，请发送电子邮件至 security@formbricks.com 进行披露。我们感谢您帮助使我们的平台更加安全，并承诺与您合作，迅速高效地解决问题。更多信息请参见 `SECURITY.md`。
 
 <a id="license"></a>
 

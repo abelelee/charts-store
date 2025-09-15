@@ -13,7 +13,7 @@
 [![GitHub star chart](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f466c6f7769736541492f466c6f776973653f7374796c653d736f6369616c.svg)](https://star-history.com/#FlowiseAI/Flowise)
 [![GitHub fork](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f466c6f7769736541492f466c6f776973653f7374796c653d736f6369616c.svg)](https://github.com/FlowiseAI/Flowise/fork)
 
-English | [繁體中文](./i18n/README-TW.md) | [简体中文](./i18n/README-ZH.md) | [日本語](./i18n/README-JA.md) | [한국어](./i18n/README-KR.md)
+English | 繁體中文 | 简体中文 | 日本語 | 한국어
 
 </div>
 
@@ -23,12 +23,12 @@ English | [繁體中文](./i18n/README-TW.md) | [简体中文](./i18n/README-ZH.
 
 ## 📚 目录
 
-- [⚡ 快速开始](#-快速开始)
-- [🐳 Docker](#-docker)
-- [👨‍💻 开发者](#-开发者)
-- [🌱 环境变量](#-环境变量)
-- [📖 文档](#-文档)
-- [📄 许可证](#-许可证)
+- ⚡ 快速开始
+- 🐳 Docker
+- 👨‍💻 开发者
+- 🌱 环境变量
+- 📖 文档
+- 📄 许可证
 
 ## ⚡ 快速开始
 
@@ -159,4 +159,4 @@ Flowise 支持多种环境变量来配置您的实例。您可以在 `packages/s
 
 ## 📄 许可证
 
-本仓库中的源代码根据 [Apache License Version 2.0](LICENSE.md) 授权。
+本仓库中的源代码根据 Apache License Version 2.0 授权。

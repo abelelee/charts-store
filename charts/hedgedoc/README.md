@@ -14,7 +14,7 @@ It is inspired by Hackpad, Etherpad and similar collaborative editors. This
 project originated with the team at [HackMD](https://hackmd.io) and now forked
 into its own organisation. [A longer writeup can be read in the history][history].
 
-[![HedgeDoc 1.7.0 with its feature demonstration page open](public/screenshot.png)][hedgedoc-demo-features]
+![HedgeDoc 1.7.0 with its feature demonstration page open][hedgedoc-demo-features]
 
 ## Community and Contributions
 
@@ -83,7 +83,7 @@ which lets you use HedgeDoc from the comfort of your command line.
 
 ## License
 
-Licensed under AGPLv3. For our list of contributors, see [AUTHORS](AUTHORS).
+Licensed under AGPLv3. For our list of contributors, see AUTHORS.
 
 The license does not include the HedgeDoc logo, whose terms of usage can be found in the [github repository](https://github.com/hedgedoc/hedgedoc-logo).
 

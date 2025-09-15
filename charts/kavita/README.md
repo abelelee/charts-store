@@ -75,7 +75,7 @@ If you are interested, you can use the promo code `FIRSTTIME` for your initial s
 
 ## Contributors
 
-This project exists thanks to all the people who contribute and downstream library maintainers. [Contribute](CONTRIBUTING.md).
+This project exists thanks to all the people who contribute and downstream library maintainers. Contribute.
 <a href="https://github.com/Kareadita/Kavita/graphs/contributors">
 <img src="https://opencollective.com/kavita/contributors.svg?width=890&button=false&avatarHeight=42" />
 </a>

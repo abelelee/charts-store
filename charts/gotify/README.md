@@ -38,7 +38,7 @@ We wanted a simple server for sending and receiving messages (in real time per W
 * receive messages via WebSocket
 * manage users, clients and applications
 * [Plugins](https://gotify.net/docs/plugin)
-* Web-UI -> [./ui](ui)
+* Web-UI -> ./ui
 * CLI for sending messages -> [gotify/cli](https://github.com/gotify/cli)
 * Android-App -> [gotify/android](https://github.com/gotify/android)
 
@@ -58,14 +58,14 @@ We wanted a simple server for sending and receiving messages (in real time per W
 
 ## Contributing
 
-We welcome all kinds of contribution, including bug reports, feature requests, documentation improvements, UI refinements, etc. Check out [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome all kinds of contribution, including bug reports, feature requests, documentation improvements, UI refinements, etc. Check out CONTRIBUTING.md for guidelines.
 
 ## Versioning
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the
 [tags on this repository](https://github.com/gotify/server/tags).
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the LICENSE file for details
 
  [playstore]: https://play.google.com/store/apps/details?id=com.github.gotify
  [fdroid]: https://f-droid.org/de/packages/com.github.gotify/

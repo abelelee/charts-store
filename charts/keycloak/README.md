@@ -49,22 +49,22 @@ For more details refer to the [Keycloak Documentation](https://www.keycloak.org/
 
 ## Building from Source
 
-To build from source, refer to the [building and working with the code base](docs/building.md) guide.
+To build from source, refer to the building and working with the code base guide.
 
 
 ### Testing
 
-To run tests, refer to the [running tests](docs/tests.md) guide.
+To run tests, refer to the running tests guide.
 
 
 ### Writing Tests
 
-To write tests, refer to the [writing tests](docs/tests-development.md) guide.
+To write tests, refer to the writing tests guide.
 
 
 ## Contributing
 
-Before contributing to Keycloak, please read our [contributing guidelines](CONTRIBUTING.md). Participation in the Keycloak project is governed by the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md).
+Before contributing to Keycloak, please read our contributing guidelines. Participation in the Keycloak project is governed by the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/main/code-of-conduct.md).
 
 Joining a [community meeting](https://www.keycloak.org/community) is a great way to get involved and help shape the future of Keycloak.
 

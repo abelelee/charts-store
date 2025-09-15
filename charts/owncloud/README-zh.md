@@ -32,7 +32,7 @@
 https://owncloud.com/contribute/
 
 ## 提交信息
-为了便于理解提交内容，CI 作业会检查提交信息是否符合规范，以确保提交信息具有人类和机器均可读的语义。详情请参阅：[Conventional Commits](www.conventionalcommits.org/)。请注意，如果不符合规范，CI 检查将不会通过。在这种情况下，你需要重写 Git 提交历史以满足要求。
+为了便于理解提交内容，CI 作业会检查提交信息是否符合规范，以确保提交信息具有人类和机器均可读的语义。详情请参阅：Conventional Commits。请注意，如果不符合规范，CI 检查将不会通过。在这种情况下，你需要重写 Git 提交历史以满足要求。
 
 你至少需要提供一个 `类型` + `描述`，如 [示例](https://www.conventionalcommits.org/en/v1.0.0/#examples) 部分所述。
 

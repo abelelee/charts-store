@@ -16,15 +16,15 @@ bolt.diy was originally started by [Cole Medin](https://www.youtube.com/@ColeMed
 
 ## Table of Contents
 
-- [Join the Community](#join-the-community)
-- [Requested Additions](#requested-additions)
-- [Features](#features)
-- [Setup](#setup)
-- [Run the Application](#run-the-application)
-- [Available Scripts](#available-scripts)
-- [Contributing](#contributing)
-- [Roadmap](#roadmap)
-- [FAQ](#faq)
+- Join the Community
+- Requested Additions
+- Features
+- Setup
+- Run the Application
+- Available Scripts
+- Contributing
+- Roadmap
+- FAQ
 
 ## Join the community
 
@@ -36,7 +36,7 @@ Bolt.diy is a community effort! Still, the core team of contributors aims at org
 you to understand where the current areas of focus are.
 
 If you want to know what we are working on, what we are planning to work on, or if you want to contribute to the
-project, please check the [project management guide](./PROJECT.md) to get started easily.
+project, please check the project management guide to get started easily.
 
 ## Requested Additions
 
@@ -347,7 +347,7 @@ Remember to always commit your local changes or stash them before pulling update
 
 ## Contributing
 
-We welcome contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
+We welcome contributions! Check out our Contributing Guide to get started.
 
 ---
 
@@ -359,7 +359,7 @@ Explore upcoming features and priorities on our [Roadmap](https://roadmap.sh/r/o
 
 ## FAQ
 
-For answers to common questions, issues, and to see a list of recommended models, visit our [FAQ Page](FAQ.md).
+For answers to common questions, issues, and to see a list of recommended models, visit our FAQ Page.
 
 
 # Licensing

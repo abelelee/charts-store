@@ -14,9 +14,9 @@ https://github.com/rashadphz/farfalle/assets/20783686/9527a8c9-a13b-4e53-9cda-a3
 
 ## 📖 概览
 
-- 🛠️ [技术栈](#%EF%B8%8F-tech-stack)
-- 🏃🏿‍♂️ [本地快速开始](#%EF%B8%8F-getting-started)
-- 🚀 [部署](#-deploy)
+- 🛠️ 技术栈
+- 🏃🏿‍♂️ 本地快速开始
+- 🚀 部署
 
 ## 🛣️ 路线图
 
@@ -77,7 +77,7 @@ docker-compose -f docker-compose.dev.yaml up -d
 
 等待应用启动后访问 [http://localhost:3000](http://localhost:3000)
 
-如需自定义配置说明，请查看 [custom-setup-instructions.md](/custom-setup-instructions.md)
+如需自定义配置说明，请查看 custom-setup-instructions.md
 
 ## 将 Farfalle 用作默认搜索引擎
 

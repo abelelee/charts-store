@@ -22,7 +22,7 @@ Proof of work based, privacy respecting CAPTCHA system with a kickass UX.
 
 </div>
 
-**Skip to [demo](#demo)**
+**Skip to demo**
 
 [mCaptcha](https://mcaptcha.org) is a privacy respecting, _free_ CAPTCHA
 system with a kickass UX. Your users no longer have to interact with
@@ -114,20 +114,20 @@ After the containers are up, visit [http://localhost:7000](http://localhost:7000
 
 It takes a while to build the image so please be patient :)
 
-See [DEPLOYMENT.md](./docs/DEPLOYMENT.md) for detailed alternate deployment
+See DEPLOYMENT.md for detailed alternate deployment
 methods.
 
 ## Development:
 
-See [HACKING.md](./docs/HACKING.md)
+See HACKING.md
 
 ## Deployment:
 
-See [DEPLOYMENT.md](./docs/DEPLOYMENT.md)
+See DEPLOYMENT.md
 
 ## Configuration:
 
-See [CONFIGURATION.md](./docs/CONFIGURATION.md)
+See CONFIGURATION.md
 
 ## Funding
 

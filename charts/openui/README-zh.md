@@ -144,4 +144,4 @@ npm run dev
 
 ### 资源
 
-请参阅 [前端](./frontend/README.md) 和 [后端](./backend/README.md) 目录中的readme文件。
+请参阅 前端 和 后端 目录中的readme文件。

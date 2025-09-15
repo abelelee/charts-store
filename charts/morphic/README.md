@@ -6,14 +6,14 @@ An AI-powered search engine with a generative UI.
 
 ## 🗂️ Overview
 
-- 🛠 [Features](#-features)
-- 🧱 [Stack](#-stack)
-- 🚀 [Quickstart](#-quickstart)
-- 🌐 [Deploy](#-deploy)
-- 🔎 [Search Engine](#-search-engine)
-- 💙 [Sponsors](#-sponsors)
-- 👥 [Contributing](#-contributing)
-- 📄 [License](#-license)
+- 🛠 Features
+- 🧱 Stack
+- 🚀 Quickstart
+- 🌐 Deploy
+- 🔎 Search Engine
+- 💙 Sponsors
+- 👥 Contributing
+- 📄 License
 
 📝 Explore AI-generated documentation on [DeepWiki](https://deepwiki.com/miurla/morphic)
 
@@ -54,7 +54,7 @@ The following AI providers are supported:
 - xAI (Grok)
 - OpenAI Compatible
 
-Models are configured in `public/config/models.json`. Each model requires its corresponding API key to be set in the environment variables. See [Configuration Guide](docs/CONFIGURATION.md) for details.
+Models are configured in `public/config/models.json`. Each model requires its corresponding API key to be set in the environment variables. See Configuration Guide for details.
 
 ### Search Capabilities
 
@@ -135,7 +135,7 @@ OPENAI_API_KEY=     # Get from https://platform.openai.com/api-keys
 TAVILY_API_KEY=     # Get from https://app.tavily.com/home
 ```
 
-For optional features configuration (Redis, SearXNG, etc.), see [CONFIGURATION.md](./docs/CONFIGURATION.md)
+For optional features configuration (Redis, SearXNG, etc.), see CONFIGURATION.md
 
 ### 4. Run app locally
 
@@ -215,7 +215,7 @@ This project is proudly supported by:
 
 We welcome contributions to Morphic! Whether it's bug reports, feature requests, or pull requests, all contributions are appreciated.
 
-Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
+Please see our Contributing Guide for details on:
 
 - How to submit issues
 - How to submit pull requests
@@ -224,4 +224,4 @@ Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
 
 ## 📄 License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.

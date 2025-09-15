@@ -36,7 +36,7 @@ Before submitting a pull request _please_ discuss with the core team by creating
 
 If you’re looking for ways to get started, here's a list of ways to help us improve Outline:
 
-- [Translation](docs/TRANSLATION.md) into other languages
+- Translation into other languages
 - Issues with [`good first issue`](https://github.com/outline/outline/labels/good%20first%20issue) label
 - Performance improvements, both on server and frontend
 - Developer happiness and documentation
@@ -45,7 +45,7 @@ If you’re looking for ways to get started, here's a list of ways to help us im
 ## Architecture
 
 If you're interested in contributing or learning more about the Outline codebase
-please refer to the [architecture document](docs/ARCHITECTURE.md) first for a high level overview of how the application is put together.
+please refer to the architecture document first for a high level overview of how the application is put together.
 
 ## Debugging
 
@@ -102,4 +102,4 @@ yarn sequelize db:migrate --env test
 
 # License
 
-Outline is [BSL 1.1 licensed](LICENSE).
+Outline is BSL 1.1 licensed.

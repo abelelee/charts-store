@@ -86,7 +86,7 @@ The docs cover all aspects of using Tolgee. Some highlights include:
 - [JavaScript SDK](https://docs.tolgee.io/js-sdk). Play around and Let us know what you think #FeedbackWanted ❤️
 - [Tolgee CLI](https://docs.tolgee.io/tolgee-cli). Make your life easier while using Tolgee
 - [Integrations](https://docs.tolgee.io/platform/integrations/about_integrations). Name it and we have it.
-- [Junie Guidelines](JUNIE_GUIDELINES.md). Guidelines for new contributors and junior developers.
+- Junie Guidelines. Guidelines for new contributors and junior developers.
 
 ## Getting Started 🚀
 
@@ -103,7 +103,7 @@ For filing bugs, suggesting improvements, or requesting new features, please ope
 
 ## How to contribute
 
-You wanna contribute? Great to hear that! You can start [right away](CONTRIBUTING.md)!
+You wanna contribute? Great to hear that! You can start right away!
 
 ## Contributors
 

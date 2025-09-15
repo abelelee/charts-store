@@ -113,7 +113,7 @@ ToolJet 现已在 AWS 和 Azure 市场上线，使访问和部署我们的应用
 我们使用 git-flow 分支模型。主分支是 `develop`。如需使用稳定版本，请使用 main 分支或标记为 v1.x.x 的版本。
 
 ## 贡献
-请阅读我们的 [贡献指南](CONTRIBUTING.md)，了解 ToolJet 的开发流程、如何提出 bug 修复和改进建议，以及构建和测试更改的步骤。<br>
+请阅读我们的 贡献指南，了解 ToolJet 的开发流程、如何提出 bug 修复和改进建议，以及构建和测试更改的步骤。<br>
 
 ## 贡献者
 <a href="https://github.com/tooljet/tooljet/graphs/contributors">

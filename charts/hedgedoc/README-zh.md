@@ -11,7 +11,7 @@ HedgeDoc 可以帮助你创建支持实时协作的 Markdown 笔记。你可以�
 
 它受到 Hackpad、Etherpad 和其他类似协作编辑器的启发。该项目最初由 [HackMD](https://hackmd.io) 团队发起，现在作为一个独立组织进行开发。[你可以在历史页面阅读更详细的说明][history]。
 
-[![HedgeDoc 1.7.0 打开功能演示页面](public/screenshot.png)][hedgedoc-demo-features]
+![HedgeDoc 1.7.0 打开功能演示页面][hedgedoc-demo-features]
 
 ## 社区与贡献
 
@@ -68,7 +68,7 @@ HedgeDoc 支持以下集成：
 
 ## 许可证
 
-本项目采用 AGPLv3 许可证发布。贡献者名单请参阅 [AUTHORS](AUTHORS) 文件。
+本项目采用 AGPLv3 许可证发布。贡献者名单请参阅 AUTHORS 文件。
 
 许可证不包括 HedgeDoc 的 Logo，其使用条款请参阅 [GitHub 仓库](https://github.com/hedgedoc/hedgedoc-logo)。
 

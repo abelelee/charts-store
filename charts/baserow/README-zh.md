@@ -22,23 +22,23 @@ docker run -v baserow_data:/baserow/data -p 80:80 -p 443:443 baserow/baserow:1.3
 
 **我们正在远程招聘**！更多信息请访问 https://baserow.io/jobs。
 
-加入我们的论坛：https://community.baserow.io/。有关如何成为贡献者，请参阅 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+加入我们的论坛：https://community.baserow.io/。有关如何成为贡献者，请参阅 CONTRIBUTING.md。
 
 ## 安装方式
 
-* [**Docker**](docs/installation/install-with-docker.md)
-* [**Ubuntu**](docs/installation/install-on-ubuntu.md)
-* [**Docker Compose** ](docs/installation/install-with-docker-compose.md)
-* [**Heroku**：在 Heroku 上轻松安装并扩展 Baserow。](docs/installation/install-on-heroku.md)
-* [**Render**：在 Render 上轻松安装并扩展 Baserow。](docs/installation/install-on-render.md)
-* [**Digital Ocean**：在 Digital Ocean 上轻松安装并扩展 Baserow。](docs/installation/install-on-digital-ocean.md)
-* [**Cloudron**：在您自己的 Cloudron 服务器上安装和更新 Baserow。](docs/installation/install-on-cloudron.md)
-* [**Railway**：通过 Railway 安装 Baserow。](docs/installation/install-on-railway.md)
+* **Docker**
+* **Ubuntu**
+* **Docker Compose** 
+* **Heroku**：在 Heroku 上轻松安装并扩展 Baserow。
+* **Render**：在 Render 上轻松安装并扩展 Baserow。
+* **Digital Ocean**：在 Digital Ocean 上轻松安装并扩展 Baserow。
+* **Cloudron**：在您自己的 Cloudron 服务器上安装和更新 Baserow。
+* **Railway**：通过 Railway 安装 Baserow。
 * [**Elestio**：由 Elestio 全面托管。](https://elest.io/open-source/baserow)
 
 ## 官方文档
 
-官方文档可在网站 https://baserow.io/docs/index 或仓库内的 [此处](./docs/index.md) 找到。API 文档可在 https://api.baserow.io/api/redoc/ 查看，如果您需要 OpenAPI 模式，请访问 https://api.baserow.io/api/schema.json。
+官方文档可在网站 https://baserow.io/docs/index 或仓库内的 此处 找到。API 文档可在 https://api.baserow.io/api/redoc/ 查看，如果您需要 OpenAPI 模式，请访问 https://api.baserow.io/api/schema.json。
 
 ## 成为赞助商
 
@@ -60,13 +60,13 @@ $ ./dev.sh --build
 在浏览器中访问 [http://localhost:3000](http://localhost:3000)，即可看到一个启用了热重载和其他开发功能的开发模式运行版本。
 
 更详细的说明以及关于开发环境的更多信息，请参阅  
-[https://baserow.io/docs/development/development-environment](./docs/development/development-environment.md)。
+https://baserow.io/docs/development/development-environment。
 
 ## 插件开发
 
 得益于 Baserow 的模块化架构，您可以创建插件。您可以开发自己的字段、视图、应用、页面或端点。我们还提供了一个插件样板，帮助您快速上手。更多信息请参阅  
-[插件介绍](./docs/plugins/introduction.md) 和  
-[插件样板文档](./docs/plugins/boilerplate.md)。
+插件介绍 和  
+插件样板文档。
 
 ## 元信息
 
@@ -78,6 +78,6 @@ $ ./dev.sh --build
 
 官方仓库地址：https://gitlab.com/baserow/baserow。
 
-更新日志请参阅 [此处](./changelog.md)。
+更新日志请参阅 此处。
 
 成为 GitHub 赞助商请访问 [此处](https://github.com/sponsors/bram2w)。

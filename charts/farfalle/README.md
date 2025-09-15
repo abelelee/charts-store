@@ -14,9 +14,9 @@ Please feel free to contact me on [Twitter](https://twitter.com/rashadphz) or [c
 
 ## 📖 Overview
 
-- 🛠️ [Tech Stack](#%EF%B8%8F-tech-stack)
-- 🏃🏿‍♂️ [Getting Started](#%EF%B8%8F-getting-started)
-- 🚀 [Deploy](#-deploy)
+- 🛠️ Tech Stack
+- 🏃🏿‍♂️ Getting Started
+- 🚀 Deploy
 
 ## 🛣️ Roadmap
 
@@ -76,7 +76,7 @@ docker-compose -f docker-compose.dev.yaml up -d
 
 Wait for the app to start then visit [http://localhost:3000](http://localhost:3000).
 
-For custom setup instructions, see [custom-setup-instructions.md](/custom-setup-instructions.md)
+For custom setup instructions, see custom-setup-instructions.md
 
 ## Use Farfalle as a Search Engine
 

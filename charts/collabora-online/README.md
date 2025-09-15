@@ -162,7 +162,7 @@ be obtained as described above.
 
 ## Protocol description
 
-See **[protocol.txt](wsd/protocol.txt)** for a description of the protocol to be used over the
+See **protocol.txt** for a description of the protocol to be used over the
 websocket.
 
 ## Architecture

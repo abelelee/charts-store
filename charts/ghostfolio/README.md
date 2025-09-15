@@ -27,7 +27,7 @@
 
 Our official **[Ghostfolio Premium](https://ghostfol.io/en/pricing)** cloud offering is the easiest way to get started. Due to the time it saves, this will be the best option for most people. Revenue is used to cover operational costs for the hosting infrastructure and professional data providers, and to fund ongoing development.
 
-If you prefer to run Ghostfolio on your own infrastructure, please find further instructions in the [Self-hosting](#self-hosting) section.
+If you prefer to run Ghostfolio on your own infrastructure, please find further instructions in the Self-hosting section.
 
 ## Why Ghostfolio?
 
@@ -151,7 +151,7 @@ Ghostfolio is available for various home server systems, including [CasaOS](http
 
 ## Development
 
-For detailed information on the environment setup and development process, please refer to [DEVELOPMENT.md](./DEVELOPMENT.md).
+For detailed information on the environment setup and development process, please refer to DEVELOPMENT.md.
 
 ## Public API
 
@@ -191,7 +191,7 @@ Deprecated: `GET http://localhost:3333/api/v1/auth/anonymous/<INSERT_SECURITY_TO
 
 #### Prerequisites
 
-[Bearer Token](#authorization-bearer-token) for authorization
+Bearer Token for authorization
 
 #### Request
 

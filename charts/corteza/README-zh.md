@@ -73,7 +73,7 @@ Corteza 低代码平台可帮助您快速构建和迭代 CRM、业务流程及�
 
 有关 [开发设置](https://docs.cortezaproject.org/corteza-docs/2024.9/developer-guide/corteza-server/index.html#_development_setup)、[项目结构](https://docs.cortezaproject.org/corteza-docs/2024.9/developer-guide/corteza-server/structure.html) 及功能说明文档，请参阅 [开发者指南/Corteza Server](https://docs.cortezaproject.org/corteza-docs/2024.9/developer-guide/corteza-server/index.html) 文档。
 
-贡献指南和行为准则，请参阅 [CONTRIBUTING.md](CONTRIBUTING.md) 文件。
+贡献指南和行为准则，请参阅 CONTRIBUTING.md 文件。
 
 ## 社区
 
@@ -82,4 +82,4 @@ Corteza 低代码平台可帮助您快速构建和迭代 CRM、业务流程及�
 ## 许可证
 
 Corteza 采用 Apache-2.0 许可证发布。
-有关更多信息，请参阅 [LICENSE](LICENSE) 文件。
+有关更多信息，请参阅 LICENSE 文件。

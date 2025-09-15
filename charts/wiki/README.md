@@ -32,8 +32,8 @@
 - Chat with us on [Discord](https://discord.gg/rcxt9QS2jd)
 - [Translations](https://docs.requarks.io/dev/translations) *(We need your help!)*
 - [E2E Testing Results](https://dashboard.cypress.io/projects/r7qxah/runs)
-- [Special Thanks](#special-thanks)
-- [Contribute](#contributors)
+- Special Thanks
+- Contribute
 
 [Follow our Twitter feed](https://twitter.com/requarks) to learn about upcoming updates and new releases!
 

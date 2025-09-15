@@ -56,7 +56,7 @@ JSON API、开票功能、数据导出、多计时器和打卡上下班模式、
 ### 升级 Kimai
 
 - [升级 Kimai](https://www.kimai.org/documentation/updates.html) — 获取最新版本
-- [升级指南](UPGRADING.md) — 版本特定的升级步骤
+- 升级指南 — 版本特定的升级步骤
 
 ### 插件
 
@@ -91,4 +91,4 @@ JSON API、开票功能、数据导出、多计时器和打卡上下班模式、
 Kimai 基于现代技术和框架开发，例如 [PHP](https://www.php.net/)、
 [Symfony](https://github.com/symfony/symfony) 和 [Doctrine](https://github.com/doctrine/)、
 [Bootstrap](https://github.com/twbs/bootstrap) 和 [Tabler](https://tabler.io/)，
-以及 [众多](composer.json) [其他](package.json) 开源项目。
+以及 众多 其他 开源项目。

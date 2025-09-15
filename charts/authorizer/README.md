@@ -125,7 +125,7 @@ binaries are baked with required deployment files and bundled. You can download 
 
 - Open authorizer instance endpoint in browser
 - Sign up as an admin with a secure password
-- Configure environment variables from authorizer dashboard. Check env [docs](/core/env) for more information
+- Configure environment variables from authorizer dashboard. Check env docs for more information
 
 > Note: `DATABASE_URL`, `DATABASE_TYPE` and `DATABASE_NAME` are only configurable via platform envs
 
@@ -142,7 +142,7 @@ binaries are baked with required deployment files and bundled. You can download 
 
 ## Integrating into your website
 
-This example demonstrates how you can use [`@authorizerdev/authorizer-js`](/authorizer-js/getting-started) CDN version and have login ready for your site in few seconds. You can also use the ES module version of [`@authorizerdev/authorizer-js`](/authorizer-js/getting-started) or framework-specific versions like [`@authorizerdev/authorizer-react`](/authorizer-react/getting-started)
+This example demonstrates how you can use `@authorizerdev/authorizer-js` CDN version and have login ready for your site in few seconds. You can also use the ES module version of `@authorizerdev/authorizer-js` or framework-specific versions like `@authorizerdev/authorizer-react`
 
 ### Copy the following code in `html` file
 

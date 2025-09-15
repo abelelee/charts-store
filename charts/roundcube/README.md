@@ -29,8 +29,8 @@ and requires a set of external libraries (see composer.json and jsdeps.json file
 RELEASES
 --------
 
-Roundcubemail follows the semantic versioning rules for releases. For more details please read [the RELEASE_MANAGEMENT
-file](RELEASE_MANAGEMENT.md).
+Roundcubemail follows the semantic versioning rules for releases. For more details please read the RELEASE_MANAGEMENT
+file.
 
 
 INSTALLATION

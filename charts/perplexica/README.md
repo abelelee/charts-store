@@ -22,22 +22,22 @@
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Overview](#overview)
-- [Preview](#preview)
-- [Features](#features)
-- [Installation](#installation)
-  - [Getting Started with Docker (Recommended)](#getting-started-with-docker-recommended)
-  - [Non-Docker Installation](#non-docker-installation)
-  - [Ollama Connection Errors](#ollama-connection-errors)
-- [Using as a Search Engine](#using-as-a-search-engine)
-- [Using Perplexica's API](#using-perplexicas-api)
-- [Expose Perplexica to a network](#expose-perplexica-to-network)
-- [One-Click Deployment](#one-click-deployment)
-- [Upcoming Features](#upcoming-features)
-- [Support Us](#support-us)
-  - [Donations](#donations)
-- [Contribution](#contribution)
-- [Help and Support](#help-and-support)
+- Overview
+- Preview
+- Features
+- Installation
+  - Getting Started with Docker (Recommended)
+  - Non-Docker Installation
+  - Ollama Connection Errors
+- Using as a Search Engine
+- Using Perplexica's API
+- Expose Perplexica to a network
+- One-Click Deployment
+- Upcoming Features
+- Support Us
+  - Donations
+- Contribution
+- Help and Support
 
 ## Overview
 
@@ -67,7 +67,7 @@ Want to know more about its architecture and how it works? You can read it [here
 - **Current Information:** Some search tools might give you outdated info because they use data from crawling bots and convert them into embeddings and store them in a index. Unlike them, Perplexica uses SearxNG, a metasearch engine to get the results and rerank and get the most relevant source out of it, ensuring you always get the latest information without the overhead of daily data updates.
 - **API**: Integrate Perplexica into your existing applications and make use of its capibilities.
 
-It has many more features like image and video search. Some of the planned features are mentioned in [upcoming features](#upcoming-features).
+It has many more features like image and video search. Some of the planned features are mentioned in upcoming features.
 
 ## Installation
 
@@ -188,7 +188,7 @@ We also accept donations to help sustain our project. If you would like to contr
 
 ## Contribution
 
-Perplexica is built on the idea that AI and large language models should be easy for everyone to use. If you find bugs or have ideas, please share them in via GitHub Issues. For more information on contributing to Perplexica you can read the [CONTRIBUTING.md](CONTRIBUTING.md) file to learn more about Perplexica and how you can contribute to it.
+Perplexica is built on the idea that AI and large language models should be easy for everyone to use. If you find bugs or have ideas, please share them in via GitHub Issues. For more information on contributing to Perplexica you can read the CONTRIBUTING.md file to learn more about Perplexica and how you can contribute to it.
 
 ## Help and Support
 

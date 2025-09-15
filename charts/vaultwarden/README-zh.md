@@ -1,7 +1,7 @@
 ---
 ![Vaultwarden Logo](./resources/vaultwarden-logo-auto.svg)
 
-一个使用 Rust 编写的 Bitwarden 客户端 API 的替代服务器实现，兼容 [官方 Bitwarden 客户端](https://bitwarden.com/download/) [[免责声明](#disclaimer)]，非常适合在运行官方资源占用较高的服务可能不太理想的环境中进行自托管部署。
+一个使用 Rust 编写的 Bitwarden 客户端 API 的替代服务器实现，兼容 [官方 Bitwarden 客户端](https://bitwarden.com/download/) [免责声明]，非常适合在运行官方资源占用较高的服务可能不太理想的环境中进行自托管部署。
 
 ---
 
@@ -23,7 +23,7 @@
 [![Discourse Discussions](https://img.shields.io/discourse/topics?server=https%3A%2F%2Fvaultwarden.discourse.group%2F&style=flat-square&logo=discourse&color=953B00)](https://vaultwarden.discourse.group/)
 
 > [!IMPORTANT]
-> **在使用此服务器时，请直接向我们报告任何错误或建议（参见 [联系](#联系)），无论你使用的是哪种客户端（移动端、桌面端、浏览器等）。请勿使用官方 Bitwarden 的支持渠道。**
+> **在使用此服务器时，请直接向我们报告任何错误或建议（参见 联系），无论你使用的是哪种客户端（移动端、桌面端、浏览器等）。请勿使用官方 Bitwarden 的支持渠道。**
 
 <br>
 

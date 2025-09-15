@@ -29,23 +29,23 @@
 
 ## Table of contents
 
-- [Introduction](#introduction)
-  - [Features](#features)
-  - [Who is it for?](#who-is-it-for)
-  - [What Monica isn’t](#what-monica-isnt)
-- [Contribute](#contribute)
-  - [Contribute as a community](#contribute-as-a-community)
-  - [Contribute as a developer](#contribute-as-a-developer)
-- [Principles, vision, goals and strategy](#principles-vision-goals-and-strategy)
-  - [Principles](#principles)
-  - [Vision](#vision)
-  - [Goals](#goals)
-  - [Why Open Source?](#why-open-source)
-  - [Patreon](#patreon)
-- [Contact](#contact)
-- [Team](#team)
-- [Thank you, open source](#thank-you-open-source)
-- [License](#license)
+- Introduction
+  - Features
+  - Who is it for?
+  - What Monica isn’t
+- Contribute
+  - Contribute as a community
+  - Contribute as a developer
+- Principles, vision, goals and strategy
+  - Principles
+  - Vision
+  - Goals
+  - Why Open Source?
+  - Patreon
+- Contact
+- Team
+- Thank you, open source
+- License
 
 ## Introduction
 
@@ -181,4 +181,4 @@ Monica makes use of numerous open-source projects and we are deeply grateful. We
 
 Copyright © 2016–2023
 
-Licensed under [the AGPL License](/LICENSE.md).
+Licensed under the AGPL License.

@@ -17,12 +17,12 @@
 ## Table of Contents
 
 - [Endurain documentation](https://docs.endurain.com)
-- [What is Endurain?](#what-is-endurain)
+- What is Endurain?
 - [Endurain screenshots](https://docs.endurain.com/gallery/)
-- [Sponsors](#sponsors)
-- [Contributing](#contributing)
-- [Help Translate](#help-translate)
-- [License](#license)
+- Sponsors
+- Contributing
+- Help Translate
+- License
 
 ## What is Endurain?
 
@@ -46,7 +46,7 @@ Consider [sponsoring Endurain on GitHub](https://github.com/sponsors/joaovitoria
 
 ## Contributing
 
-Contributions are welcomed! Please open an issue to discuss any changes or improvements before submitting a PR. Check out the [Contributing Guidelines](CONTRIBUTING.md) for more details.
+Contributions are welcomed! Please open an issue to discuss any changes or improvements before submitting a PR. Check out the Contributing Guidelines for more details.
 
 ## Help Translate
 
@@ -54,4 +54,4 @@ Endurain has multi-language support, and you can help translate it into more lan
 
 ## License
 
-This project is licensed under the AGPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the AGPL-3.0 License - see the LICENSE file for details.

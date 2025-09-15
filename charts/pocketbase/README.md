@@ -136,12 +136,12 @@ All reports will be promptly addressed and you'll be credited in the fix release
 
 ## Contributing
 
-PocketBase is free and open source project licensed under the [MIT License](LICENSE.md).
+PocketBase is free and open source project licensed under the MIT License.
 You are free to do whatever you want with it, even offering it as a paid service.
 
 You could help continuing its development by:
 
-- [Contribute to the source code](CONTRIBUTING.md)
+- Contribute to the source code
 - [Suggest new features and report issues](https://github.com/pocketbase/pocketbase/issues)
 
 PRs for new OAuth2 providers, bug fixes, code optimizations and documentation improvements are more than welcome.

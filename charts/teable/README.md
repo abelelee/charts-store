@@ -174,7 +174,7 @@ cd dockers/examples/standalone/
 docker-compose up -d
 ```
 
-for more details, see [dockers/examples](dockers/examples)
+for more details, see dockers/examples
 
 ### One Click Deployment
 
