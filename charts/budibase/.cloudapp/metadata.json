@@ -36,5 +36,6 @@
     "Workflows",
     "Internal tools"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript/JavaScript"
 }

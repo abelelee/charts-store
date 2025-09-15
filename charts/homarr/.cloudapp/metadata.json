@@ -28,5 +28,6 @@
     "Server Management",
     "Control Panel"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript/JavaScript"
 }

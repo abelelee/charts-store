@@ -35,5 +35,6 @@
     "Chatbots",
     "Sentiment Analysis"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

@@ -30,5 +30,6 @@
     "Command Line"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/shiori/image/cover.png",
-  "license": "MIT"
+  "license": "MIT",
+  "language": "Go"
 }

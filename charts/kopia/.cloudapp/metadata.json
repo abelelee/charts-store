@@ -31,5 +31,6 @@
     "Deduplication",
     "Restore"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "Go"
 }

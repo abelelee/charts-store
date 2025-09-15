@@ -32,5 +32,6 @@
     "Readability"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/miniflux/image/overview.png",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "language": "Go"
 }

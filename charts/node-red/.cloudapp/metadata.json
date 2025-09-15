@@ -36,5 +36,6 @@
     "Raspberry Pi"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/node-red/image/node-red-screenshot.png",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "language": "JavaScript"
 }

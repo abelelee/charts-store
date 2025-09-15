@@ -34,5 +34,6 @@
     "Business Automation"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/246954877-76c97441-c285-4480-bc75-30a0c73ed340.png",
-  "license": "Partially using MIT"
+  "license": "Partially using MIT",
+  "language": "JavaScript"
 }

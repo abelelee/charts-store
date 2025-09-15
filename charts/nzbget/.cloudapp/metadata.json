@@ -28,5 +28,6 @@
     "Media Sorting"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nzbget/image/3368377.png",
-  "license": "GPL-2.0"
+  "license": "GPL-2.0",
+  "language": "C++"
 }

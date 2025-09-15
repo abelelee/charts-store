@@ -51,5 +51,6 @@
     "spreadsheet",
     "database"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

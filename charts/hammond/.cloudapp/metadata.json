@@ -33,5 +33,6 @@
     "Shared Access"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/hammond/image/screenshot.jpg",
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0",
+  "language": "Go"
 }

@@ -36,5 +36,6 @@
     "TV Shows",
     "Failed Download Handling"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "C#"
 }

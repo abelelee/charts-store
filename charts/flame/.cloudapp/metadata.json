@@ -29,5 +29,6 @@
     "Personal Dashboard",
     "Web Search"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript/JavaScript"
 }

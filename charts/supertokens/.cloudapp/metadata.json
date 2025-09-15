@@ -33,5 +33,6 @@
     "User Roles",
     "Account Linking"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript/JavaScript"
 }

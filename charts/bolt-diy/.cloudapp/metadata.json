@@ -48,5 +48,6 @@
     "LLM Integration"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bolt-diy/image/social_preview_index.jpg",
-  "license": "MIT"
+  "license": "MIT",
+  "language": "TypeScript"
 }

@@ -32,5 +32,6 @@
     "Digital Signature"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/251969508-d8703ea3-361a-423f-8bfe-eff1bd9dbe14.jpg",
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0",
+  "language": "Ruby"
 }

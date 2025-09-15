@@ -30,5 +30,6 @@
     "Widgets"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/umbrel-banner.jpg",
-  "license": "MIT"
+  "license": "MIT",
+  "language": "JavaScript"
 }

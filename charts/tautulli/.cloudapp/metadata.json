@@ -30,5 +30,6 @@
     "Content Tracking"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/tautulli/image/activity-compressed.jpg",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "language": "Python"
 }

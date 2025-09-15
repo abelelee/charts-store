@@ -37,5 +37,6 @@
     "OpenID"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/logo.png",
-  "license": "MIT"
+  "license": "MIT",
+  "language": "Go/TypeScript"
 }

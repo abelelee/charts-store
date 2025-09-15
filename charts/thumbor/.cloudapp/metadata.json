@@ -33,5 +33,6 @@
     "Photo Editing",
     "Feature Detection"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "Python"
 }

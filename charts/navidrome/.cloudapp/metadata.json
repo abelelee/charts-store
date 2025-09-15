@@ -34,5 +34,6 @@
     "Media Library"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/logo-192x192.png",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "language": "Go"
 }

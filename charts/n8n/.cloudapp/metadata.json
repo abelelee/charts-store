@@ -41,5 +41,6 @@
     "Technical Tools"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/n8n/image/n8n-screenshot-readme.png",
-  "license": "Sustainable Use License"
+  "license": "Sustainable Use License",
+  "language": "TypeScript/JavaScript"
 }

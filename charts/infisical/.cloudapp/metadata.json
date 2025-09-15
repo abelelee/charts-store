@@ -38,5 +38,6 @@
     "Environment Variables",
     "Secrets Management"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript/Go"
 }

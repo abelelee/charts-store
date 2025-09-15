@@ -32,5 +32,6 @@
     "Agent Skills Enhancement"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/autogen-studio/image/ag.svg",
-  "license": "CC-BY-4.0"
+  "license": "CC-BY-4.0",
+  "language": "Python/C#"
 }

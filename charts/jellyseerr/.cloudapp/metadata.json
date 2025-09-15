@@ -34,5 +34,6 @@
     "Request Management"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/jellyseerr/image/logo_full.svg",
-  "license": "MIT"
+  "license": "MIT",
+  "language": "TypeScript"
 }

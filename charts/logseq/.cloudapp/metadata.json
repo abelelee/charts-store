@@ -38,5 +38,6 @@
     "Outlining",
     "PDF Annotation"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "Clojure/TypeScript"
 }

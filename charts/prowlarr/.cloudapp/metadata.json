@@ -31,5 +31,6 @@
     "Torrents",
     "PVR Apps"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "C#"
 }

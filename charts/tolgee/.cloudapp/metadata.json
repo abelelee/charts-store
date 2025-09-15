@@ -32,5 +32,6 @@
     "Internationalization",
     "In-Context Editing"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript/Kotlin"
 }

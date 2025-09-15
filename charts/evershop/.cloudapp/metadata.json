@@ -45,5 +45,6 @@
     "Node Ecommerce Platform"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/evershop/image/logo-green.png",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "language": "JavaScript"
 }

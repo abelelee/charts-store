@@ -39,5 +39,6 @@
     "Personal Wiki"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/app.png",
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0",
+  "language": "TypeScript/JavaScript"
 }

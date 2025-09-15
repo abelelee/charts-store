@@ -35,5 +35,6 @@
     "Contacts",
     "CalDAV"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "Python"
 }

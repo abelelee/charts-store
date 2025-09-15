@@ -41,5 +41,6 @@
     "status page",
     "service status"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "Svelte"
 }

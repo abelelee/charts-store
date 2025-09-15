@@ -33,5 +33,6 @@
     "Live Broadcasting"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/readme-promo.gif",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "language": "HTML/Shell"
 }

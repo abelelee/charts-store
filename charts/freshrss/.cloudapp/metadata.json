@@ -30,5 +30,6 @@
     "Content Aggregation",
     "News Aggregator"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "PHP"
 }

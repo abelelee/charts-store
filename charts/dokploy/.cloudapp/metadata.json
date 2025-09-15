@@ -48,5 +48,6 @@
     "Platform As A Service",
     "Multi-Node Scaling"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

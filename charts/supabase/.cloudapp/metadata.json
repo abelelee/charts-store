@@ -50,5 +50,6 @@
     "Easy Setup",
     "Edge Functions"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

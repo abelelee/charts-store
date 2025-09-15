@@ -36,5 +36,6 @@
     "Agent Performance",
     "CSAT Tracking"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

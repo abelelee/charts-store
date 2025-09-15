@@ -30,5 +30,6 @@
     "CAPTCHA",
     "Anti-Spam"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "Rust/TypeScript"
 }

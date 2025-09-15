@@ -35,5 +35,6 @@
     "Newsletter Management",
     "Transactional Messaging"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "Go"
 }

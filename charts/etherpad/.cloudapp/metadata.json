@@ -29,5 +29,6 @@
     "Content Creation",
     "Real-time Editing"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

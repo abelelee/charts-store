@@ -35,5 +35,6 @@
     "Scheduler"
   ],
   "pic_url": "edas-apps/charts-store/duplicati/image/Se4cvDSJRp9MNtNW5bV0YIIBsCM.avif",
-  "license": "MIT"
+  "license": "MIT",
+  "language": "C#"
 }

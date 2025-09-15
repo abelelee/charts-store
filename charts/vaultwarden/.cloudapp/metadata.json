@@ -34,5 +34,6 @@
     "Family Use",
     "Live Sync"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "Rust"
 }

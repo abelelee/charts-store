@@ -44,5 +44,6 @@
     "time series labeling"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/label-studio/image/labelstudio-ui.gif",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "language": "Python"
 }

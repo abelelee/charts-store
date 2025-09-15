@@ -32,5 +32,6 @@
     "User-friendly",
     "Notion-Inspired Interface"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

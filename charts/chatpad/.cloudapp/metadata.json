@@ -32,5 +32,6 @@
     "Chat Interface",
     "Web App"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

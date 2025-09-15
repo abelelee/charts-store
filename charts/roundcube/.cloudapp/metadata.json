@@ -32,5 +32,6 @@
     "IMAP",
     "Webmail"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "PHP"
 }

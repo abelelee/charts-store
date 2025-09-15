@@ -30,5 +30,6 @@
     "Image Generation",
     "Image Generator"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "Python"
 }

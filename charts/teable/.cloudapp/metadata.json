@@ -33,5 +33,6 @@
     "Real-Time Collaboration",
     "Multiple Views"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

@@ -34,5 +34,6 @@
     "Multi-Platform Messaging",
     "Customer Communication"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "Elixir/TypeScript"
 }

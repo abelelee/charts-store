@@ -31,5 +31,6 @@
     "REST",
     "Headless CMS"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript/JavaScript"
 }

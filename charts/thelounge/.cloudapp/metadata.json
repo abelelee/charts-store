@@ -33,5 +33,6 @@
     "IRC"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/thelounge/image/thelounge-screenshot.png",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "language": "TypeScript"
 }

@@ -32,5 +32,6 @@
     "Text Storage",
     "Rate Limiting"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "Go"
 }

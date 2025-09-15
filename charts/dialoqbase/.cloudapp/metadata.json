@@ -42,5 +42,6 @@
     "AI Chatbot",
     "Custom Chatbot"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

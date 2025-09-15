@@ -36,5 +36,6 @@
     "Full-text Search",
     "Role-based Access Control"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "PHP"
 }

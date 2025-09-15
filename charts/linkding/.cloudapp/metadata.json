@@ -36,5 +36,6 @@
     "Export"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkding/image/linkding-screenshot.png",
-  "license": "MIT"
+  "license": "MIT",
+  "language": "Python"
 }

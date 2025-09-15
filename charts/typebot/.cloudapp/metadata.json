@@ -49,5 +49,6 @@
     "Chatbot Builder",
     "Real-time Data Collection"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

@@ -33,5 +33,6 @@
     "WebUI"
   ],
   "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/gotify/image/gotify-logo.png",
-  "license": "MIT"
+  "license": "MIT",
+  "language": "Go"
 }

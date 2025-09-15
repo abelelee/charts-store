@@ -26,5 +26,6 @@
     "Web Navigation",
     "Keyboard Accessibility"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

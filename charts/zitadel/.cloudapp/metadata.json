@@ -49,5 +49,6 @@
     "FIDO2",
     "Self-Service"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "Go"
 }

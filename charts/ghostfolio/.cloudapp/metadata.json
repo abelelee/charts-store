@@ -43,5 +43,6 @@
     "portfolio analysis"
   ],
   "pic_url": "https://avatars.githubusercontent.com/u/82473144?s=200",
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0",
+  "language": "TypeScript"
 }

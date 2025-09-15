@@ -43,5 +43,6 @@
     "Natural Language",
     "Database Operations"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "TypeScript"
 }

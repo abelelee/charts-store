@@ -36,5 +36,6 @@
     "Help Desk",
     "Custom Fields"
   ],
-  "pic_url": ""
+  "pic_url": "",
+  "language": "PHP"
 }
