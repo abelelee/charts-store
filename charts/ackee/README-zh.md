@@ -39,12 +39,6 @@ Ackee 提供一个 [GraphQL API](docs/API.md)，允许你基于 Ackee 构建自�
 
 Ackee 使用环境变量，并支持在项目根目录中使用 [`.env` 文件](https://www.npmjs.com/package/dotenv) 来集中存储所有变量。[配置项说明 &#187;](docs/Options.md)
 
-### 文章
-
-- [放弃 Google Analytics，使用 Ackee 自托管 Gatsby 统计](https://dev.to/aleccool213/quit-google-analytics-self-hosted-gatsby-statistics-with-ackee-4011)
-- [使用 Heroku 快速部署 Ackee 🇪🇸](https://rubenr.dev/blog/ackee-analitica-web-sencilla/)
-- [为什么我选择自托管网站分析](https://mbuffett.com/posts/why-i-self-host-my-analytics/)
-
 ### 相关项目
 
 - [ackee-tracker](https://github.com/electerious/ackee-tracker) - 向 Ackee 发送数据

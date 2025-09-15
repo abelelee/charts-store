@@ -39,12 +39,6 @@ Ackee features a [GraphQL API](docs/API.md) that allows you to build custom tool
 
 Ackee uses environment variables and supports [`.env` files](https://www.npmjs.com/package/dotenv) in the root of the project if you want to store all variables in one file. [Options &#187;](docs/Options.md)
 
-### Articles
-
-- [Quit Google Analytics, Self-hosted Gatsby Statistics with Ackee](https://dev.to/aleccool213/quit-google-analytics-self-hosted-gatsby-statistics-with-ackee-4011)
-- [Getting Ackee up and running with Heroku 🇪🇸](https://rubenr.dev/blog/ackee-analitica-web-sencilla/)
-- [Why I Self-Host My Website Analytics](https://mbuffett.com/posts/why-i-self-host-my-analytics/)
-
 ### Related
 
 - [ackee-tracker](https://github.com/electerious/ackee-tracker) - Transfer data to Ackee
