@@ -28,10 +28,6 @@ English | [繁體中文](./i18n/README-TW.md) | [简体中文](./i18n/README-ZH.
 - [👨‍💻 开发者](#-开发者)
 - [🌱 环境变量](#-环境变量)
 - [📖 文档](#-文档)
-- [🌐 自托管](#-自托管)
-- [☁️ Flowise Cloud](#️-flowise-cloud)
-- [🙋 支持](#-支持)
-- [🙌 贡献](#-贡献)
 - [📄 许可证](#-许可证)
 
 ## ⚡ 快速开始
@@ -158,62 +154,6 @@ Flowise 支持多种环境变量来配置您的实例。您可以在 `packages/s
 ## 📖 文档
 
 您可以在此处查看 Flowise 文档 [这里](https://docs.flowiseai.com/)
-
-## 🌐 自托管
-
-在您现有的基础设施上部署 Flowise 自托管，我们支持多种[部署方式](https://docs.flowiseai.com/configuration/deployment)
-
--   [AWS](https://docs.flowiseai.com/configuration/deployment/aws)
--   [Azure](https://docs.flowiseai.com/configuration/deployment/azure)
--   [Digital Ocean](https://docs.flowiseai.com/configuration/deployment/digital-ocean)
--   [GCP](https://docs.flowiseai.com/configuration/deployment/gcp)
--   [阿里云](https://computenest.console.aliyun.com/service/instance/create/default?type=user&ServiceName=Flowise社区版)
--   <details>
-      <summary>其他</summary>
-
-    -   [Railway](https://docs.flowiseai.com/configuration/deployment/railway)
-
-        [![在Railway上部署](https://railway.app/button.svg)](https://railway.app/template/pn4G8S?referralCode=WVNPD9)
-
-    -   [Render](https://docs.flowiseai.com/configuration/deployment/render)
-
-        [![部署到Render](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/deploy-to-render-button.svg)](https://docs.flowiseai.com/configuration/deployment/render)
-
-    -   [HuggingFace Spaces](https://docs.flowiseai.com/deployment/hugging-face)
-
-        <a href="https://huggingface.co/spaces/FlowiseAI/Flowise"><img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg" alt="HuggingFace Spaces"></a>
-
-    -   [Elestio](https://elest.io/open-source/flowiseai)
-
-        [![在Elestio上部署](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/deploy-to-elestio-btn.png)](https://elest.io/open-source/flowiseai)
-
-    -   [Sealos](https://template.sealos.io/deploy?templateName=flowise)
-
-        [![在Sealos上部署](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/Deploy-on-Sealos.svg)](https://template.sealos.io/deploy?templateName=flowise)
-
-    -   [RepoCloud](https://repocloud.io/details/?app_id=29)
-
-        [![在RepoCloud上部署](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/flowise/image/deploy.png)](https://repocloud.io/details/?app_id=29)
-
-      </details>
-
-## ☁️ Flowise Cloud
-
-通过 [Flowise Cloud](https://flowiseai.com/) 开始使用。
-
-## 🙋 支持
-
-如有任何问题、需要解决问题或请求新功能，请在 [讨论区](https://github.com/FlowiseAI/Flowise/discussions) 随时提问。
-
-## 🙌 贡献
-
-感谢这些出色的贡献者
-
-<a href="https://github.com/FlowiseAI/Flowise/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=FlowiseAI/Flowise" />
-</a><br><br>
-
-查看 [贡献指南](CONTRIBUTING.md)。如有任何问题或疑问，请在 [Discord](https://discord.gg/jbaHfsRVBW) 联系我们。
 
 [![Star History Chart](https://api.star-history.com/svg?repos=FlowiseAI/Flowise&type=Timeline)](https://star-history.com/#FlowiseAI/Flowise&Date)
 

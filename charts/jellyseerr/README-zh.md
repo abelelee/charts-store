@@ -3,8 +3,6 @@
 </p>
 <p align="center">
 <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/jellyseerr/image/badge.svg" alt="Jellyseerr 发布" />
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/jellyseerr/image/badge.svg" alt="Jellyseerr 持续集成">
-</p>
 <p align="center">
 <a href="https://discord.gg/ckbvBtDJgC"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/jellyseerr/image/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f393532363536313737393234333030393332.svg" alt="Discord"></a>
 <a href="https://hub.docker.com/r/fallenbagel/jellyseerr"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/jellyseerr/image/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f66616c6c656e626167656c2f6a656c6c797365657272.svg" alt="Docker 下载量"></a>

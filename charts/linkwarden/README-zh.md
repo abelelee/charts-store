@@ -5,11 +5,8 @@
 
 <a href="https://discord.com/invite/CtuYV47nuJ"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/1117993124669702164.svg" alt="Discord"></a>
 <a href="https://twitter.com/LinkwardenHQ"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg" alt="Twitter"></a> <a href="https://news.ycombinator.com/item?id=36942308"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/Hacker_20News-280-_23FF6600.svg"></img></a>
-
-<a href="https://github.com/linkwarden/linkwarden/releases"><img alt="GitHub release" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg"></a>
 <a href="https://crowdin.com/project/linkwarden">
 <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/localized.svg" alt="Crowdin" /></a>
-<a href="https://opencollective.com/linkwarden"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg" alt="Open Collective"></a>
 
 </div>
 
@@ -122,11 +119,3 @@ Linkwarden 还专为协作设计，支持你将链接公开分享，或与多个
 - 为本仓库点 Star。
 - 加入我们的 [Discord](https://discord.com/invite/CtuYV47nuJ)。
 - 将 Linkwarden 推荐给朋友。
-
-如果你做了以上任何一项，非常感谢！当然，即使没有，也谢谢你。
-
-## 感谢所有贡献者 💪
-
-非常感谢这些花时间帮助 Linkwarden 成长的朋友们。你们太棒了！⚡️
-
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/68747470733a2f2f636f6e7472696275746f72732d696d672e7765622e6170702f696d6167653f7265706f3d6c696e6b77617264656e2f6c696e6b77617264656e.svg" alt="Contributors"/>

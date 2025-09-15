@@ -2,8 +2,6 @@
 <h3 align="center">一个非常好且免费的直播流处理替代方案。</h3>
 <p align="center">
 <a href="https://github.com/datarhei/restreamer/blob/2.x/LICENSE" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/restreamer.svg" alt="License" /></a>
-<a href="https://github.com/datarhei/restreamer/releases" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/restreamer.svg" alt="License" /></a>
-<a href="https://hub.docker.com/r/datarhei/restreamer" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/restreamer.svg" alt="Docker pulls" /></a>
 <a href="https://docs.datarhei.com/restreamer/getting-started/quick-start" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/documentation-get_20started-green.svg" alt="Documentation" /></a>
 </p>
 <p align="center"><a href="https://demo.datarhei.com/ui" target="_blank">试用在线演示</a><br />

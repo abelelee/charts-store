@@ -11,9 +11,6 @@
  A dead simple static <strong>HOM</strong>epage for your serv<strong>ER</strong> to keep your services on hand, from a simple <code>yaml</code> configuration file.
 </h4>
 <p align="center">
-  <a href="https://www.buymeacoffee.com/bastien" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/homer/image/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-<p>
-<p align="center">
  <a href="https://opensource.org/licenses/Apache-2.0"><img
   alt="License: Apache 2"
   src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/homer/image/License-Apache_202.0-blue.svg"></a>

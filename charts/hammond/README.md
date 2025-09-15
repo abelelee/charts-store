@@ -1,5 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -200,22 +198,3 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 Akhil Gupta - [@akhilrex](https://twitter.com/akhilrex)
 
 Project Link: [https://github.com/akhilrex/hammond](https://github.com/akhilrex/hammond)
-
-<a href="https://www.buymeacoffee.com/akhilrex" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/hammond/image/default-yellow.png" alt="Buy Me A Coffee" style="width: 217px !important;height: 60px !important;" ></a>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/akhilrex/hammond.svg?style=flat-square
-[contributors-url]: https://github.com/akhilrex/hammond/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/akhilrex/hammond.svg?style=flat-square
-[forks-url]: https://github.com/akhilrex/hammond/network/members
-[stars-shield]: https://img.shields.io/github/stars/akhilrex/hammond.svg?style=flat-square
-[stars-url]: https://github.com/akhilrex/hammond/stargazers
-[issues-shield]: https://img.shields.io/github/issues/akhilrex/hammond.svg?style=flat-square
-[issues-url]: https://github.com/akhilrex/hammond/issues
-[license-shield]: https://img.shields.io/github/license/akhilrex/hammond.svg?style=flat-square
-[license-url]: https://github.com/akhilrex/hammond/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/akhilrex
-[product-screenshot]: images/screenshot.jpg

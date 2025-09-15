@@ -10,7 +10,6 @@ It bases upon [haste](https://github.com/seejohnrun/haste-server) and got enhanc
 * Raw paste-view
 
 ## Installation
-[![Deploy to Heroku](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/haste-server/image/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e706e67.png)](https://heroku.com/deploy?template=https://github.com/MarvinMenzerath/HastebinPlus)
 
 1. Install Git and node.js: `sudo apt-get install git nodejs`
 2. Clone this repository: `git clone https://github.com/MarvinMenzerath/HastebinPlus.git hastebin-plus`

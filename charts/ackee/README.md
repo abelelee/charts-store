@@ -4,7 +4,7 @@
 
 # Ackee
 
-![Build](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/badge.svg) [![Coverage Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/badge.svg)](https://coveralls.io/github/electerious/Ackee?branch=master) [![Mentioned in Awesome Selfhosted](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/mentioned-badge.svg)](https://github.com/awesome-selfhosted/awesome-selfhosted) [![Donate via PayPal](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/paypal-donate-009cde.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CYKBESW577YWE)
+![Build](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/badge.svg) [![Coverage Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/badge.svg)](https://coveralls.io/github/electerious/Ackee?branch=master) [![Mentioned in Awesome Selfhosted](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/mentioned-badge.svg)](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 Self-hosted, Node.js based analytics tool for those who care about privacy. Ackee runs on your own server, analyzes the traffic of your websites and provides useful statistics in a minimal interface.
 
@@ -27,30 +27,6 @@ Ackee is a self-hosted analytics tool that cares about privacy. We believe that 
 - **Events**: Track button clicks, newsletter subscriptions and more
 - **GraphQL API**: Fully documented GraphQL API that allows you to build new tools upon Ackee
 
-## 🚀 Get started
-
-Get Ackee up and running…
-
-- […with Docker Compose](docs/Get%20started.md#with-docker-compose)
-- […with Docker](docs/Get%20started.md#with-docker)
-- […with Helm](docs/Get%20started.md#with-helm)
-- […without Docker](docs/Get%20started.md#without-docker)
-- […with Netlify](docs/Get%20started.md#with-netlify)
-- […with Vercel](docs/Get%20started.md#with-vercel)
-- […with Heroku](docs/Get%20started.md#with-heroku)
-- […with Qovery](docs/Get%20started.md#with-qovery)
-- […with Render](docs/Get%20started.md#with-render)
-- […with Railway](docs/Get%20started.md#with-railway)
-- […with Koyeb](docs/Get%20started.md#with-koyeb)
-
-And configure Ackee and your server correctly…
-
-- […with environment variables](docs/Options.md)
-- […with SSL and HTTPS enabled](docs/SSL%20and%20HTTPS.md)
-- […with CORS headers](docs/CORS%20headers.md)
-
-Take a look at the [FAQ](docs/FAQ.md) if you have any questions left.
-
 ## 📚 Documentation
 
 Documentation and guides are located in [the /docs folder](docs/). Also take a look at the [FAQ](docs/FAQ.md) if you have any questions left.
@@ -62,16 +38,6 @@ Ackee features a [GraphQL API](docs/API.md) that allows you to build custom tool
 ### Options
 
 Ackee uses environment variables and supports [`.env` files](https://www.npmjs.com/package/dotenv) in the root of the project if you want to store all variables in one file. [Options &#187;](docs/Options.md)
-
-## Miscellaneous
-
-### Donate
-
-I am working hard on continuously developing and maintaining Ackee. Please consider making a donation to keep the project going strong and me motivated.
-
-- [Become a GitHub sponsor](https://github.com/sponsors/electerious)
-- [Donate via PayPal](https://paypal.me/electerious)
-- [Buy me a coffee](https://www.buymeacoffee.com/electerious)
 
 ### Articles
 

@@ -79,25 +79,11 @@ if (unleash.isEnabled("AwesomeFeature")) {
 }
 ```
 
-### Run Unleash on a service?
-
-If you don't want to run Unleash locally, we also provide easy deployment setups for Heroku and Digital Ocean:
-
-[![Deploy to Heroku](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/deploy-heroku-20.png)](https://www.heroku.com/deploy/?template=https://github.com/Unleash/unleash) [![Deploy to DigitalOcean](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/deploy-digital.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Unleash/unleash/tree/main&refcode=0e1d75187044)
-
-### Configure and run Unleash anywhere
-
-The above sections show you how to get up and running quickly and easily. When you're ready to start configuring and customizing Unleash for your own environment, check out the documentation for [getting started with self-managed deployments](https://docs.getunleash.io/reference/deploy/getting-started), [Unleash configuration options](https://docs.getunleash.io/reference/deploy/configuring-unleash), or [running Unleash locally via docker](https://docs.getunleash.io/tutorials/quickstart).
-
-<br/>
-
 ## Online demo
 
 Try out [the Unleash online demo](https://www.getunleash.io/interactive-demo).
 
 [![The Unleash online demo](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/github_online_demo.svg)](https://www.getunleash.io/interactive-demo)
-
-<br/>
 
 ## Community and help — sharing is caring
 
@@ -120,16 +106,6 @@ We know that learning a new tool can be hard and time-consuming. We have a growi
 Unleash is the largest [open-source feature flag solution](https://www.getunleash.io/) on GitHub. Building Unleash is a collaborative effort, and we owe a lot of gratitude to many smart and talented individuals. Building it together with the community ensures that we build a product that solves real problems for real people. We'd love to have your help too: Please feel free to open issues or provide pull requests.
 
 Check out [the CONTRIBUTING.md file](./CONTRIBUTING.md) for contribution guidelines and the [Unleash developer guide](./website/docs/contributing/developer-guide.md) for tips on environment setup, running the tests, and running Unleash from source.
-
-### Contributors
-
-<div align="center">
-
-[![The Unleash contributors](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/contributors.svg)](https://github.com/Unleash/unleash/graphs/contributors)
-
-</div>
-
-<br/>
 
 ## Features our users love
 

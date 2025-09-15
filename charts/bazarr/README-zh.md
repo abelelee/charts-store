@@ -5,12 +5,6 @@ Bazarr 是 Sonarr 和 Radarr 的配套应用程序。它可根据您的需求管
 请注意，Bazarr 不会扫描磁盘来检测剧集和电影：它仅处理在 Sonarr 和 Radarr 中已索引的剧集和电影。
 
 感谢 OpenSubtitles 提供的标志，它为我们的标志设计提供了灵感。
-
-## 通过 PayPal 支持我们
-
-应部分用户的要求，我们提供了一种方式以表达您对 Bazarr 开发工作的赞赏：
-[![Donate](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bazarr/image/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XHHRWXT9YB7WE&source=url)
-
 # 状态
 
 [![GitHub issues](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bazarr/image/bazarr.svg)](https://github.com/morpheus65535/bazarr/issues)

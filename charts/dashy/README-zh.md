@@ -18,7 +18,6 @@
 > [!NOTE]
 > 版本 [3.0.0](https://github.com/Lissy93/dashy/releases/tag/3.0.0) 已发布，需要对您的设置进行一些更改，请参见 [#1529](https://github.com/Lissy93/dashy/discussions/1529) 获取详细信息。
 
-
 <details>
   <summary><b>目录</b></summary>
   <p>
@@ -89,11 +88,9 @@
 
 **快速启动您的演示**: [![使用 PWD 一键部署](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Play--with--Docker-Deploy-2496ed.svg)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml) 或 [`docker run -p 8080:8080 lissy93/dashy`](./docs/quick-start.md)
 
-
 <p align="center">
   <img width="800" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy-demo2.gif" alt="演示" />
 </p>
-
 
 **[⬆️ 返回顶部](#dashy)**
 
@@ -138,24 +135,6 @@ docker run -d \
 - 运行: `yarn start`
 
 > 查看文档: [Dashy 的完整命令列表](./docs/management.md#basic-commands)
-
-### 部署到云 ☁️
-
-Dashy 支持在多个热门云平台上进行 **一键部署**。要启动新实例，只需点击下面的链接：
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/netlify.png" width="18"/> 部署到 Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/dashy)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/heroku.png" width="18"/> 部署到 Heroku](https://heroku.com/deploy?template=https://github.com/Lissy93/dashy)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/vercel.png" width="18"/> 部署到 Vercel](https://vercel.com/new/project?template=https://github.com/lissy93/dashy)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/render.png" width="18"/> 部署到 Render](https://render.com/deploy?repo=https://github.com/lissy93/dashy/tree/deploy_render)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/68747470733a2f2f7261696c7761792e6170702f6272616e642f6c6f676f2d6c696768742e706e67.png" width="18"/> 部署到 Railway](https://railway.app/template/MtdjAQ?referralCode=app)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/googlecloud.png" width="18"/> 部署到 GCP](https://deploy.cloud.run/?git_repo=https://github.com/lissy93/dashy.git)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/68747470733a2f2f692e6962622e636f2f485657565946372f646f636b65722e706e67.png" width="18"/> 部署到 PWD](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/68747470733a2f2f692e6962622e636f2f374e786e4d32502f6561737970616e656c2e706e67.png" width="18"/> 部署到 Easypanel](https://easypanel.io/docs/templates/dashy)
-
-> 更多一键云部署，请参见 [云部署](./docs/deployment.md#deploy-to-cloud-service)
-
-**[⬆️ 返回顶部](#dashy)**
-
----
 
 ## 配置 🔧
 
@@ -508,9 +487,6 @@ Dashy 也可以在低功耗的基于 ARM 的单板计算机上运行，例如 Ra
 - 在 [展示区](https://github.com/Lissy93/dashy/blob/master/docs/showcase.md#dashy-showcase-) 分享您的仪表板，激励他人
 - 通过分享 Dashy 或您的仪表板截图来传播消息，帮助新用户发现它
 - 提交 PR 添加新功能、修复 bug、更新文档、添加主题、小工具或其他内容
-- 在 GitHub/DockerHub 上给 Dashy 加星标或在 [这些平台](https://github.com/Lissy93/dashy/blob/master/docs/contributing.md#star-upvote-or-leave-a-review) 上点赞/评论
-
-[![在 GitHub 上赞助 Lissy93](./docs/assets/sponsor-button.svg)](https://github.com/sponsors/Lissy93)
 
 **[⬆️ 返回顶部](#dashy)**
 ---

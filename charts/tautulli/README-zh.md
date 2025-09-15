@@ -27,53 +27,6 @@
 
 ![Tautulli 首页](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/tautulli/image/activity-compressed.jpg)
 
-## 安装
-
-[![Python][badge-python]][Python]
-[![Docker Pulls][badge-docker-pulls]][DockerHub]
-[![Docker Stars][badge-docker-stars]][DockerHub]
-[![Downloads][badge-downloads]][Releases Latest]
-
-[badge-python]: https://img.shields.io/badge/python->=3.9-blue?style=flat-square
-[badge-docker-pulls]: https://img.shields.io/docker/pulls/tautulli/tautulli?style=flat-square
-[badge-docker-stars]: https://img.shields.io/docker/stars/tautulli/tautulli?style=flat-square
-[badge-downloads]: https://img.shields.io/github/downloads/Tautulli/Tautulli/total?style=flat-square
-
-| 状态 | 分支: `master` | 分支: `beta` | 分支: `nightly` |
-| --- | --- | --- | --- |
-| 发布版本   | [![Release@master][badge-release-master]][Releases Latest] <br> [![Release Date@master][badge-release-master-date]][Releases Latest] | [![Release@beta][badge-release-beta]][Releases] <br> [![Commits@beta][badge-release-beta-commits]][Commits Beta] | [![Last Commits@nightly][badge-release-nightly-last-commit]][commits Nightly] <br> [![Commits@nightly][badge-release-nightly-commits]][Commits Nightly] |
-| Docker    | [![Docker@master][badge-docker-master]][DockerHub] <br> [![Docker Build@master][badge-docker-master-ci]][Publish Docker Master] | [![Docker@beta][badge-docker-beta]][DockerHub] <br> [![Docker Build@beta][badge-docker-beta-ci]][Publish Docker Beta] | [![Docker@nightly][badge-docker-nightly]][DockerHub] <br> [![Docker Build@nightly][badge-docker-nightly-ci]][Publish Docker Nightly] |
-| Snap      | [![Snap@master][badge-snap-master]][Snapcraft] <br> [![Snap Build@master][badge-snap-master-ci]][Publish Snap Master] | [![Snap@beta][badge-snap-beta]][Snapcraft] <br> [![Snap Build@beta][badge-snap-beta-ci]][Publish Snap Beta] | [![Snap@nightly][badge-snap-nightly]][Snapcraft] <br> [![Snap Build@nightly][badge-snap-nightly-ci]][Publish Snap Nightly] |
-| 安装包 | [![Windows@master][badge-installer-master-win]][Releases Latest] <br> [![MacOS@master][badge-installer-master-macos]][Releases Latest] <br> [![Installer Build@master][badge-installer-master-ci]][Publish Installer Master] | [![Windows@beta][badge-installer-beta-win]][Releases] <br> [![MacOS@beta][badge-installer-beta-macos]][Releases] <br> [![Installer Build@beta][badge-installer-beta-ci]][Publish Installer Beta] | [![Installer Build@nightly][badge-installer-nightly-ci]][Publish Installer Nightly] |
-
-阅读 [安装指南][Installation] 以获取 Tautulli 的安装说明。
-
-[badge-release-master]: https://img.shields.io/github/v/release/Tautulli/Tautulli?style=flat-square
-[badge-release-master-date]: https://img.shields.io/github/release-date/Tautulli/Tautulli?style=flat-square&color=blue
-[badge-release-beta]: https://img.shields.io/github/v/release/Tautulli/Tautulli?include_prereleases&style=flat-square
-[badge-release-beta-commits]: https://img.shields.io/github/commits-since/Tautulli/Tautulli/latest/beta?style=flat-square&color=blue
-[badge-release-nightly-last-commit]: https://img.shields.io/github/last-commit/Tautulli/Tautulli/nightly?style=flat-square&color=blue
-[badge-release-nightly-commits]: https://img.shields.io/github/commits-since/Tautulli/Tautulli/latest/nightly?style=flat-square&color=blue
-[badge-docker-master]: https://img.shields.io/badge/docker-latest-blue?style=flat-square
-[badge-docker-master-ci]: https://img.shields.io/github/actions/workflow/status/Tautulli/Tautulli/.github/workflows/publish-docker.yml?style=flat-square&branch=master
-[badge-docker-beta]: https://img.shields.io/badge/docker-beta-blue?style=flat-square
-[badge-docker-beta-ci]: https://img.shields.io/github/actions/workflow/status/Tautulli/Tautulli/.github/workflows/publish-docker.yml?style=flat-square&branch=beta
-[badge-docker-nightly]: https://img.shields.io/badge/docker-nightly-blue?style=flat-square
-[badge-docker-nightly-ci]: https://img.shields.io/github/actions/workflow/status/Tautulli/Tautulli/.github/workflows/publish-docker.yml?style=flat-square&branch=nightly
-[badge-snap-master]: https://img.shields.io/badge/snap-stable-blue?style=flat-square
-[badge-snap-master-ci]: https://img.shields.io/github/actions/workflow/status/Tautulli/Tautulli/.github/workflows/publish-snap.yml?style=flat-square&branch=master
-[badge-snap-beta]: https://img.shields.io/badge/snap-beta-blue?style=flat-square
-[badge-snap-beta-ci]: https://img.shields.io/github/actions/workflow/status/Tautulli/Tautulli/.github/workflows/publish-snap.yml?style=flat-square&branch=beta
-[badge-snap-nightly]: https://img.shields.io/badge/snap-edge-blue?style=flat-square
-[badge-snap-nightly-ci]: https://img.shields.io/github/actions/workflow/status/Tautulli/Tautulli/.github/workflows/publish-snap.yml?style=flat-square&branch=nightly
-[badge-installer-master-win]: https://img.shields.io/github/v/release/Tautulli/Tautulli?label=windows&style=flat-square
-[badge-installer-master-macos]: https://img.shields.io/github/v/release/Tautulli/Tautulli?label=macos&style=flat-square
-[badge-installer-master-ci]: https://img.shields.io/github/actions/workflow/status/Tautulli/Tautulli/.github/workflows/publish-installers.yml?style=flat-square&branch=master
-[badge-installer-beta-win]: https://img.shields.io/github/v/release/Tautulli/Tautulli?label=windows&include_prereleases&style=flat-square
-[badge-installer-beta-macos]: https://img.shields.io/github/v/release/Tautulli/Tautulli?label=macos&include_prereleases&style=flat-square
-[badge-installer-beta-ci]: https://img.shields.io/github/actions/workflow/status/Tautulli/Tautulli/.github/workflows/publish-installers.yml?style=flat-square&branch=beta
-[badge-installer-nightly-ci]: https://img.shields.io/github/actions/workflow/status/Tautulli/Tautulli/.github/workflows/publish-installers.yml?style=flat-square&branch=nightly
-
 ## 支持
 
 [![Wiki][badge-wiki]][Wiki]

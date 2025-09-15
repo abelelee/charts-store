@@ -16,17 +16,6 @@ Actual 是一款以本地优先的个人理财工具。它完全免费且开源�
 - Actual [社区文档](https://actualbudget.org/docs)
 - [常见问题解答](https://actualbudget.org/docs/faq)
 
-## 安装方式
-
-有四种方式可以部署 Actual：
-
-1. 通过 [PikaPods](https://www.pikapods.com/pods?run=actual) 一键部署（约 1.40 美元/月）——推荐非技术用户使用
-1. 通过 [Fly.io](https://actualbudget.org/docs/install/fly) 托管服务（约 1.50 美元/月）
-1. 使用 [Docker 镜像](https://actualbudget.org/docs/install/docker) 自托管
-1. 本地应用 — [可下载的 Windows、Mac 和 Linux 应用](https://actualbudget.org/download/)，可在你的设备上直接运行
-
-了解更多请查看 [安装指南文档](https://actualbudget.org/docs/install/)。
-
 ## 准备开始记账了吗？
 
 阅读 [信封记账法](https://actualbudget.org/docs/getting-started/envelope-budgeting) 了解 Actual Budget 背后的理念。
@@ -42,10 +31,6 @@ Actual 是一款以本地优先的个人理财工具。它完全免费且开源�
 ## 文档
 
 我们提供了丰富的使用文档，这些内容都在我们的 [社区文档](https://actualbudget.org/docs) 中，包括记账、账户管理、技巧与窍门，以及面向开发者的文档。
-
-## 贡献
-
-Actual 是一个由社区驱动的产品。了解更多关于 [如何为 Actual 做贡献](https://actualbudget.org/docs/contributing/)。
 
 ### 代码结构
 

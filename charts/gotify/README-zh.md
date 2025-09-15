@@ -56,10 +56,6 @@
 [REST-API](https://gotify.net/api-docs) ᛫
 [搭建开发环境](https://gotify.net/docs/dev-setup)
 
-## 贡献
-
-我们欢迎各种形式的贡献，包括错误报告、功能请求、文档改进、UI优化等。查看 [CONTRIBUTING.md](CONTRIBUTING.md) 了解指南。
-
 ## 版本控制
 我们使用 [SemVer](http://semver.org/) 进行版本控制。有关可用版本，请参见
 [此仓库的标签](https://github.com/gotify/server/tags)。

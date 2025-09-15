@@ -5,11 +5,8 @@
 
 <a href="https://discord.com/invite/CtuYV47nuJ"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/1117993124669702164.svg" alt="Discord"></a>
 <a href="https://twitter.com/LinkwardenHQ"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg" alt="Twitter"></a> <a href="https://news.ycombinator.com/item?id=36942308"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/Hacker_20News-280-_23FF6600.svg"></img></a>
-
-<a href="https://github.com/linkwarden/linkwarden/releases"><img alt="GitHub release" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg"></a>
 <a href="https://crowdin.com/project/linkwarden">
 <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/localized.svg" alt="Crowdin" /></a>
-<a href="https://opencollective.com/linkwarden"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkwarden/image/linkwarden.svg" alt="Open Collective"></a>
 
 </div>
 

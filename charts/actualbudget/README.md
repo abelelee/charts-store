@@ -16,17 +16,6 @@ Want to say thanks? Click the ⭐ at the top of the page.
 - Actual [Community Documentation](https://actualbudget.org/docs)
 - [Frequently asked questions](https://actualbudget.org/docs/faq)
 
-## Installation
-
-There are four ways to deploy Actual:
-
-1. One-click deployment [via PikaPods](https://www.pikapods.com/pods?run=actual) (~1.40 $/month) - recommended for non-technical users
-1. Managed hosting [via Fly.io](https://actualbudget.org/docs/install/fly) (~1.50 $/month)
-1. Self-hosted by using [a Docker image](https://actualbudget.org/docs/install/docker)
-1. Local-only apps - [downloadable Windows, Mac and Linux apps](https://actualbudget.org/download/) you can run on your device
-
-Learn more in the [installation instructions docs](https://actualbudget.org/docs/install/).
-
 ## Ready to Start Budgeting?
 
 Read about [Envelope budgeting](https://actualbudget.org/docs/getting-started/envelope-budgeting) to know more about the idea behind Actual Budget.
@@ -42,42 +31,3 @@ Check out the community's [Migration](https://actualbudget.org/docs/migration/) 
 ## Documentation
 
 We have a wide range of documentation on how to use Actual, this is all available in our [Community Documentation](https://actualbudget.org/docs), this includes topics on Budgeting, Account Management, Tips & Tricks and some documentation for developers.
-
-## Contributing
-
-Actual is a community driven product. Learn more about [contributing to Actual](https://actualbudget.org/docs/contributing/).
-
-### Code structure
-
-The Actual app is split up into a few packages:
-
-- loot-core - The core application that runs on any platform
-- desktop-client - The desktop UI
-- desktop-electron - The desktop app
-
-More information on the project structure is available in our [community documentation](https://actualbudget.org/docs/contributing/project-details).
-
-### Feature Requests
-
-Current feature requests can be seen [here](https://github.com/actualbudget/actual/issues?q=is%3Aissue+label%3A%22needs+votes%22+sort%3Areactions-%2B1-desc).
-Vote for your favorite requests by reacting :+1: to the top comment of the request.
-
-To add new feature requests, open a new Issue of the "Feature Request" type.
-
-### Translation
-
-Make Actual Budget accessible to more people by helping with the [Internationalization](https://actualbudget.org/docs/contributing/i18n/) of Actual. We are using a crowd sourcing tool to manage the translations, see our [Weblate Project](https://hosted.weblate.org/projects/actualbudget/). Weblate proudly supports open-source software projects through their [Libre plan](https://weblate.org/en/hosting/#libre).
-
-<a href="https://hosted.weblate.org/engage/actualbudget/">
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/actualbudget/image/287x66-grey.png" alt="Translation status" />
-</a>
-
-## Repo Activity
-
-![Alt](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/actualbudget/image/e20537dd8b74956f86736726ccfbc6f0565bec22.svg 'Repobeats analytics image')
-
-## Sponsors
-
-Thanks to our wonderful sponsors who make Actual Budget possible!
-
-<a href="https://www.netlify.com"> <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/actualbudget/image/netlify-color-accent.svg" alt="Deploys by Netlify" /> </a>

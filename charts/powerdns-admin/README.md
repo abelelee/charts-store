@@ -2,7 +2,6 @@
 
 A PowerDNS web interface with advanced features.
 
-[![CodeQL](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/powerdns-admin/image/badge.svg)](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/codeql-analysis.yml)
 [![Docker Image](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/powerdns-admin/image/badge.svg)](https://github.com/PowerDNS-Admin/PowerDNS-Admin/actions/workflows/build-and-publish.yml)
 
 #### Features:
@@ -25,50 +24,6 @@ A PowerDNS web interface with advanced features.
 - Provides full IDN/Punycode support
 
 ## [Project Update - PLEASE READ!!!](https://github.com/PowerDNS-Admin/PowerDNS-Admin/discussions/1708)
-
-## Running PowerDNS-Admin
-
-There are several ways to run PowerDNS-Admin. The quickest way is to use Docker.
-If you are looking to install and run PowerDNS-Admin directly onto your system, check out
-the [wiki](https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/docs/wiki/) for ways to do that.
-
-### Docker
-
-Here are two options to run PowerDNS-Admin using Docker.
-To get started as quickly as possible, try option 1. If you want to make modifications to the configuration option 2 may
-be cleaner.
-
-#### Option 1: From Docker Hub
-
-To run the application using the latest stable release on Docker Hub, run the following command:
-
-```
-$ docker run -d \
-    -e SECRET_KEY='a-very-secret-key' \
-    -v pda-data:/data \
-    -p 9191:80 \
-    powerdnsadmin/pda-legacy:latest
-```
-
-This creates a volume named `pda-data` to persist the default SQLite database with app configuration.
-
-#### Option 2: Using docker-compose
-
-1. Update the configuration   
-   Edit the `docker-compose.yml` file to update the database connection string in `SQLALCHEMY_DATABASE_URI`.
-   Other environment variables are mentioned in
-   the [AppSettings.defaults](https://github.com/PowerDNS-Admin/PowerDNS-Admin/blob/master/powerdnsadmin/lib/settings.py) dictionary.
-   To use a Docker-style secrets convention, one may append `_FILE` to the environment variables with a path to a file
-   containing the intended value of the variable (e.g. `SQLALCHEMY_DATABASE_URI_FILE=/run/secrets/db_uri`).   
-   Make sure to set the environment variable `SECRET_KEY` to a long, random
-   string (https://flask.palletsprojects.com/en/1.1.x/config/#SECRET_KEY)
-
-2. Start docker container
-   ```
-   $ docker-compose up
-   ```
-
-You can then access PowerDNS-Admin by pointing your browser to http://localhost:9191.
 
 ## Screenshots
 

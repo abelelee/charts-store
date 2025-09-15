@@ -36,13 +36,6 @@ linkding 是一个你可以自行托管的书签管理工具。
 
 ![截图](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/linkding/image/linkding-screenshot.png "截图")
 
-## 快速开始
-
-以下链接可帮助你快速上手 linkding：
-- [在你自己的服务器上安装 linkding](https://linkding.link/installation) 或 [查看托管方案](https://linkding.link/managed-hosting)
-- [安装浏览器扩展](https://linkding.link/browser-extension)
-- [查看社区项目](https://linkding.link/community)，包括移动应用、浏览器扩展、库等
-
 ## 文档
 
 完整文档请访问 [linkding.link](https://linkding.link/)。
@@ -54,82 +47,3 @@ linkding 是一个你可以自行托管的书签管理工具。
 ## 贡献指南
 
 小的改进、Bug 修复和文档优化始终欢迎。如果你打算贡献一个较大的功能，建议先提交一个 Issue 进行讨论。对于与项目目标不符或我不愿维护的功能，可能会忽略对应的 PR。
-
-## 开发指南
-
-本应用使用 Django Web 框架构建。你可以通过阅读优秀的 [Django 文档](https://docs.djangoproject.com/en/4.1/)开始开发。`bookmarks` 文件夹包含实际的书签应用。其他代码应为自解释的标准 Django 内容 🙂。
-
-### 前提条件
-- Python 3.12
-- Node.js
-
-### 环境设置
-
-创建应用的虚拟环境（https://docs.python.org/3/tutorial/venv.html）：
-```
-python3 -m venv ~/environments/linkding
-```
-激活对应 shell 的虚拟环境：
-```
-source ~/environments/linkding/bin/activate[.csh|.fish]
-```
-在激活的环境中安装应用依赖（在应用目录下执行）：
-```
-pip3 install -r requirements.txt -r requirements.dev.txt
-```
-安装前端依赖：
-```
-npm install
-```
-初始化数据库：
-```
-mkdir -p data
-python3 manage.py migrate
-```
-创建一个前端用户：
-```
-python3 manage.py createsuperuser --username=joe --email=joe@example.com
-```
-启动 Node.js 开发服务器（用于编译标签自动补全等 JavaScript 组件）：
-```
-npm run dev
-```
-启动 Django 开发服务器：
-```
-python3 manage.py runserver
-```
-现在可以通过 http://localhost:8000 访问前端界面
-
-### 测试
-
-使用 pytest 运行所有测试：
-```
-make test
-```
-
-### 代码格式化
-
-使用 black 格式化 Python 代码，使用 prettier 格式化 JavaScript 代码：
-```
-make format
-```
-
-### DevContainers 支持
-
-本仓库支持 DevContainers：[![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/sissbruecker/linkding.git)
-
-克隆仓库后，只需运行以下命令即可开始：
-
-创建一个前端用户：
-```
-python3 manage.py createsuperuser --username=joe --email=joe@example.com
-```
-启动 Node.js 开发服务器（用于编译标签自动补全等 JavaScript 组件）：
-```
-npm run dev
-```
-启动 Django 开发服务器：
-```
-python3 manage.py runserver
-```
-现在可以通过 http://localhost:8000 访问前端界面

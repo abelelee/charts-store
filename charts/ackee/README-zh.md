@@ -4,7 +4,7 @@
 
 # Ackee
 
-![构建](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/badge.svg) [![覆盖率状态](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/badge.svg)](https://coveralls.io/github/electerious/Ackee?branch=master) [![被 Awesome Selfhosted 提及](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/mentioned-badge.svg)](https://github.com/awesome-selfhosted/awesome-selfhosted) [![通过 PayPal 捐赠](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/paypal-捐赠-009cde.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CYKBESW577YWE)
+![构建](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/badge.svg) [![覆盖率状态](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/badge.svg)](https://coveralls.io/github/electerious/Ackee?branch=master) [![被 Awesome Selfhosted 提及](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ackee/image/mentioned-badge.svg)](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 Ackee 是一个自托管的、基于 Node.js 的分析工具，适用于注重隐私的用户。Ackee 运行在你自己的服务器上，分析你网站的流量，并在简洁的界面中提供有用的统计数据。
 
@@ -27,30 +27,6 @@ Ackee 是一个注重隐私的自托管分析工具。我们相信你不需要�
 - **事件追踪**：可追踪按钮点击、订阅新闻通讯等行为
 - **GraphQL API**：完整的文档化 GraphQL API，允许你基于 Ackee 构建新工具
 
-## 🚀 开始使用
-
-让 Ackee 运行起来……
-
-- […使用 Docker Compose](docs/Get%20started.md#with-docker-compose)
-- […使用 Docker](docs/Get%20started.md#with-docker)
-- […使用 Helm](docs/Get%20started.md#with-helm)
-- […不使用 Docker](docs/Get%20started.md#without-docker)
-- […使用 Netlify](docs/Get%20started.md#with-netlify)
-- […使用 Vercel](docs/Get%20started.md#with-vercel)
-- […使用 Heroku](docs/Get%20started.md#with-heroku)
-- […使用 Qovery](docs/Get%20started.md#with-qovery)
-- […使用 Render](docs/Get%20started.md#with-render)
-- […使用 Railway](docs/Get%20started.md#with-railway)
-- […使用 Koyeb](docs/Get%20started.md#with-koyeb)
-
-并正确配置 Ackee 和你的服务器……
-
-- […使用环境变量](docs/Options.md)
-- […启用 SSL 和 HTTPS](docs/SSL%20and%20HTTPS.md)
-- […配置 CORS 头部](docs/CORS%20headers.md)
-
-如果你还有疑问，请查看 [常见问题解答](docs/FAQ.md)。
-
 ## 📚 文档
 
 文档和指南位于 [docs 文件夹](docs/) 中。如果你还有疑问，请查看 [FAQ](docs/FAQ.md)。
@@ -62,16 +38,6 @@ Ackee 提供一个 [GraphQL API](docs/API.md)，允许你基于 Ackee 构建自�
 ### 配置项
 
 Ackee 使用环境变量，并支持在项目根目录中使用 [`.env` 文件](https://www.npmjs.com/package/dotenv) 来集中存储所有变量。[配置项说明 &#187;](docs/Options.md)
-
-## 其他
-
-### 捐赠
-
-我一直在努力持续开发和维护 Ackee。请考虑进行捐赠，以帮助项目持续发展，并激励我继续前进。
-
-- [成为 GitHub 赞助者](https://github.com/sponsors/electerious)
-- [通过 PayPal 捐赠](https://paypal.me/electerious)
-- [请我喝杯咖啡](https://www.buymeacoffee.com/electerious)
 
 ### 文章
 

@@ -13,7 +13,6 @@ src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activep
   </a>
 </h1>
 
-
 <p align="center">
 <a href="/LICENSE" target="_blank"><img src='https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/license-MIT-green.svg' /></a>&nbsp;<img src='https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/966798490984382485.svg' />&nbsp;<a href='https://discord.gg/2jUXBKDdP8'><img src='https://img.shields.io/discord/966798490984382485?style=for-the-badge' /></a>
 </p>
@@ -77,8 +76,6 @@ src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activep
 
 - **💻 人工输入界面**：内置支持人工输入触发器，如"聊天界面" 💬 和"表单界面" 📝
 
-
-
 ## 🛠️ 构建器功能：
 
 - [x] 循环
@@ -94,7 +91,6 @@ src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activep
 
 **我们经常发布更新。请查看产品变更日志了解最新功能。**
 
-
 ## 🔌 创建您自己的Piece
 
 Activepieces支持与Google Sheets、OpenAI、Discord、RSS以及200多项其他服务的集成。[查看支持的集成完整列表](https://www.activepieces.com/pieces)，由于我们社区的贡献，这个列表在不断扩展。
@@ -103,21 +99,12 @@ Activepieces支持与Google Sheets、OpenAI、Discord、RSS以及200多项其他
 
 您可以使用我们的TypeScript框架轻松创建自己的集成。有关详细说明，请参阅我们的[贡献者指南](https://www.activepieces.com/docs/contributing/overview)。
 
-<br>
-<br>
-<br>
-<br>
-
-
 # 许可证
 
 Activepieces社区版在[MIT许可证](https://github.com/activepieces/activepieces/blob/main/LICENSE)下作为开源发布，企业功能在[商业许可证](https://github.com/activepieces/activepieces/blob/main/packages/ee/LICENSE)下发布
 
-
 在此处阅读有关功能比较的更多信息 https://www.activepieces.com/docs/about/editions
 <br>
-<br>
-
 
 # 💭 加入我们的社区
 

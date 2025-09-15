@@ -79,22 +79,6 @@ if (unleash.isEnabled("AwesomeFeature")) {
 }
 ```
 
-### 在服务上运行 Unleash？
-
-如果你不想在本地运行 Unleash，我们还提供了在 Heroku 和 Digital Ocean 上的快速部署方式：
-
-[![Deploy to Heroku](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/deploy-heroku-20.png)](https://www.heroku.com/deploy/?template=https://github.com/Unleash/unleash) [![Deploy to DigitalOcean](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/deploy-digital.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Unleash/unleash/tree/main&refcode=0e1d75187044)
-
-### 在任何地方配置并运行 Unleash
-
-以上部分展示了如何快速启动和运行 Unleash。当你准备好根据自己的环境配置和定制 Unleash 时，请查阅以下文档：
-
-- [自托管部署入门](https://docs.getunleash.io/reference/deploy/getting-started)
-- [Unleash 配置选项](https://docs.getunleash.io/reference/deploy/configuring-unleash)
-- [通过 Docker 本地运行 Unleash](https://docs.getunleash.io/tutorials/quickstart)
-
-<br/>
-
 ## 在线演示
 
 尝试 [Unleash 在线演示](https://www.getunleash.io/interactive-demo)。
@@ -124,16 +108,6 @@ if (unleash.isEnabled("AwesomeFeature")) {
 Unleash 是 GitHub 上最大的 [开源功能开关解决方案](https://www.getunleash.io/)。Unleash 的开发是一个协作过程，我们非常感谢许多聪明且有才华的个人的贡献。与社区一起构建 Unleash，确保我们打造的产品能真正解决实际问题。我们也非常欢迎你的帮助：请随时提交 issue 或 pull request。
 
 请查看 [CONTRIBUTING.md 文件](./CONTRIBUTING.md) 获取贡献指南，以及 [Unleash 开发者指南](./website/docs/contributing/developer-guide.md) 获取环境设置、运行测试和从源码运行 Unleash 的提示。
-
-### 贡献者
-
-<div align="center">
-
-[![The Unleash contributors](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/contributors.svg)](https://github.com/Unleash/unleash/graphs/contributors)
-
-</div>
-
-<br/>
 
 ## 用户喜爱的功能
 

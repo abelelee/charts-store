@@ -76,10 +76,6 @@ docker-compose up -d
 
 [tweet]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fevershopcommerce%2Fevershop&text=Awesome%20React%20Ecommerce%20Project&hashtags=react,ecommerce,expressjs,graphql
 
-## 贡献
-
-EverShop 是一个开源项目。我们致力于完全透明的开发流程，并非常欢迎任何形式的贡献。无论你是帮助我们修复 bug、提出新功能、改进文档，还是传播 EverShop 的理念，我们都希望你能成为 EverShop 社区的一员。
-
 ### 关于 EverShop 的问题
 
 你可以在 EverShop 的 Discord 频道中提问并参与讨论 EverShop 相关话题。

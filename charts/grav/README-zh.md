@@ -118,23 +118,6 @@ $ bin/gpm update
 * 查看 [Grav 食谱](https://learn.getgrav.org/cookbook) 中的示例
 * 更多 [Grav 精选资源](https://github.com/getgrav/awesome-grav)
 
-# 支持者
-通过每月捐赠支持 Grav，帮助我们继续开发。[[成为支持者](https://opencollective.com/grav/contribute)]
-
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f6261636b6572732e7376673f6176617461724865696768743d33362677696474683d363030.svg" />
-
-
-# 赞助者
-通过每月捐赠支持 Grav，帮助我们继续开发。[[成为赞助者](https://opencollective.com/grav/contribute)]
-
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f737570706f72746572732e7376673f6176617461724865696768743d33362677696474683d363030.svg" />
-
-
-# 企业赞助
-通过年度捐赠支持 Grav，帮助我们继续开发。[[成为企业赞助商](https://opencollective.com/grav/contribute)]
-
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f73706f6e736f72732e7376673f6176617461724865696768743d33362677696474683d363030.svg" />
-
 # 许可证
 
 请查看 [LICENSE](LICENSE.txt)

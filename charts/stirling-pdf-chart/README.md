@@ -6,9 +6,6 @@
 [![OpenSSF Scorecard](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/68747470733a2f2f6170692e73636f7265636172642e6465762f70726f6a656374732f6769746875622e636f6d2f537469726c696e672d546f6f6c732f537469726c696e672d5044462f6261646765.svg)](https://scorecard.dev/viewer/?uri=github.com/Stirling-Tools/Stirling-PDF)
 [![GitHub Repo stars](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/stirling-pdf.svg)](https://github.com/Stirling-Tools/stirling-pdf)
 
-<a href="https://www.producthunt.com/posts/stirling-pdf?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-stirling&#0045;pdf" target="_blank"><img alt="Stirling&amp;#0032;PDF - Open&amp;#0032;source&amp;#0032;locally&amp;#0032;hosted&amp;#0032;web&amp;#0032;PDF&amp;#0032;editor | Product Hunt" height="54" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/68747470733a2f2f6170692e70726f6475637468756e742e636f6d2f776964676574732f656d6265642d696d6167652f76312f66656174757265642e7376673f706f73745f69643d363431323339267468656d653d6c69676874.svg" width="250"/></a>
-[![Deploy to DO](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/68747470733a2f2f7777772e6465706c6f79746f646f2e636f6d2f646f2d62746e2d626c75652e737667.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Stirling-Tools/Stirling-PDF/tree/digitalOcean&refcode=c3210994b1af)
-
 [Stirling-PDF](https://www.stirlingpdf.com) is a robust, locally hosted web-based PDF manipulation tool using Docker. It enables you to carry out various operations on PDF files, including splitting, merging, converting, reorganizing, adding images, rotating, compressing, and more. This locally hosted web application has evolved to encompass a comprehensive set of features, addressing all your PDF requirements.
 
 All files and PDFs exist either exclusively on the client side, reside in server memory only during task execution, or temporarily reside in a file solely for the execution of the task. Any file downloaded by the user will have been deleted from the server by that point.
@@ -95,9 +92,6 @@ All documentation available at [https://docs.stirlingpdf.com/](https://docs.stir
 - Get all information on a PDF to view or export as JSON
 - Show/detect embedded JavaScript
 
-
-
-
 # 📖 Get Started
 
 Visit our comprehensive documentation at [docs.stirlingpdf.com](https://docs.stirlingpdf.com) for:
@@ -108,7 +102,6 @@ Visit our comprehensive documentation at [docs.stirlingpdf.com](https://docs.sti
 - API reference
 - Security setup
 - Enterprise features
-
 
 ## Supported Languages
 
@@ -162,7 +155,6 @@ Stirling-PDF currently supports 40 languages!
 
 Stirling PDF offers an Enterprise edition of its software. This is the same great software but with added features, support and comforts.
 Check out our [Enterprise docs](https://docs.stirlingpdf.com/Pro)
-
 
 ## 🤝 Looking to contribute?
 

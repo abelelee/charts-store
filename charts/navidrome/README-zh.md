@@ -5,9 +5,7 @@
 [![最新发布](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/navidrome.svg)](https://github.com/navidrome/navidrome/releases)
 [![构建](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/pipeline.yml.svg)](https://nightly.link/navidrome/navidrome/workflows/pipeline/master)
 [![下载量](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/total.svg)](https://github.com/navidrome/navidrome/releases/latest)
-[![Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/navidrome.svg)](https://hub.docker.com/r/deluan/navidrome)
 [![开发聊天](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/671335427726114836.svg)](https://discord.gg/xh7j7yF)
-[![Subreddit](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/navidrome.svg)](https://www.reddit.com/r/navidrome/)
 [![贡献者公约](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/Contributor_20Covenant-v2.0-ff69b4.svg)](CODE_OF_CONDUCT.md)
 [![Gurubase](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/Gurubase-Ask_20Navidrome_20Guru-006BFF.svg)](https://gurubase.io/g/navidrome)
 
@@ -23,13 +21,6 @@ __欢迎任何反馈！__ 如果你需要/想要新功能、发现了一个 bug 
 ## 安装
 
 请查看 [项目官网](https://www.navidrome.org/docs/installation/) 上的安装说明。
-
-## 云托管
-
-[PikaPods](https://www.pikapods.com) 与我们合作，提供一个 [官方支持的云托管解决方案](https://www.navidrome.org/docs/installation/managed/#pikapods)。  
-部分收入将用于资助 Navidrome 的开发，而你无需额外支付费用。
-
-[![PikaPods](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/run-button.svg)](https://www.pikapods.com/pods?run=navidrome)
 
 ## 功能
 

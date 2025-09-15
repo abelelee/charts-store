@@ -5,7 +5,6 @@
 [![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/cyberchef/image/license-Apache_202.0-blue.svg)](https://github.com/gchq/CyberChef/blob/master/LICENSE)
 [![Gitter](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/cyberchef/image/CyberChef.svg)](https://gitter.im/gchq/CyberChef?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-
 #### *The Cyber Swiss Army Knife*
 
 CyberChef is a simple, intuitive web app for carrying out all manner of "cyber" operations within a web browser. These operations include simple encoding like XOR and Base64, more complex encryption like AES, DES and Blowfish, creating binary and hexdumps, compression and decompression of data, calculating hashes and checksums, IPv6 and X.509 parsing, changing character encodings, and much more.
@@ -18,39 +17,7 @@ CyberChef is still under active development. As a result, it shouldn't be consid
 
 Cryptographic operations in CyberChef should not be relied upon to provide security in any situation. No guarantee is offered for their correctness.
 
-[A live demo can be found here][1] - have fun!
-
-## Running Locally with Docker
-
-**Prerequisites**
-
-- [Docker](hhttps://www.docker.com/products/docker-desktop/)
-  - Docker Desktop must be open and running on your machine
-
-
-#### Option 1: Build the Docker Image Yourself
-
-1. Build the docker image
-```bash
-docker build --tag cyberchef --ulimit nofile=10000 .
-```
-2. Run the docker container
-```bash
-docker run -it -p 8080:80 cyberchef
-```
-3. Navigate to `http://localhost:8080` in your browser
-
-#### Option 2: Use the pre-built Docker Image
-
-If you prefer to skip the build process, you can use the pre-built image
-
-```bash
-docker run -it -p 8080:80 ghcr.io/gchq/cyberchef:latest
-```
-
-Just like before, navigate to `http://localhost:8080` in your browser.
-
-This image is built and published through our [GitHub Workflows](.github/workflows/releases.yml)
+[A live demo can be found here][https://gchq.github.io/CyberChef/] - have fun!
 
 ## How it works
 
@@ -73,7 +40,6 @@ You can use as many operations as you like in simple or complex ways. Some examp
  - [Use parts of the input as arguments to operations][9]
  - [Perform AES decryption, extracting the IV from the beginning of the cipher stream][10]
  - [Automagically detect several layers of nested encoding][12]
-
 
 ## Features
 
@@ -101,7 +67,6 @@ You can use as many operations as you like in simple or complex ways. Some examp
      - It should be noted that none of your recipe configuration or input (either text or files) is ever sent to the CyberChef web server - all processing is carried out within your browser, on your own computer.
      - Due to this feature, CyberChef can be downloaded and run locally. You can use the link in the top left corner of the app to download a full copy of CyberChef and drop it into a virtual machine, share it with other people, or host it in a closed network.
 
-
 ## Deep linking
 
 By manipulating CyberChef's URL hash, you can change the initial settings with which the page opens.
@@ -109,14 +74,12 @@ The format is `https://gchq.github.io/CyberChef/#recipe=Operation()&input=...`
 
 Supported arguments are `recipe`, `input` (encoded in Base64), and `theme`.
 
-
 ## Browser support
 
 CyberChef is built to support
 
  - Google Chrome 50+
  - Mozilla Firefox 38+
-
 
 ## Node.js support
 

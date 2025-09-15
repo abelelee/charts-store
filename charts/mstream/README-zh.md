@@ -26,35 +26,6 @@ mStream 是一个个人音乐流媒体服务器。你可以使用 mStream 从你
 * 播放列表共享
 * 通过文件浏览器上传文件
 
-## 安装 mStream
-
-* [Docker 安装说明](https://github.com/linuxserver/docker-mstream)
-* [Win/OSX/Linux 的二进制文件](https://mstream.io/server)
-* [从源码安装](docs/install.md)
-* [通过 Terraform 在 AWS 云上部署](https://gitlab.com/SiliconTao-Systems/nova)
-
-## 移动应用
-
-[<img alt="mStream iOS App" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mstream/image/app-store-logo.png" width="200"/>](https://apps.apple.com/us/app/mstream-player/id1605378892)
-
-[<img alt="mStream Android App" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mstream/image/play-store-logo.png" width="200"/>](https://play.google.com/store/apps/details?id=com.nieratechinc.mstreamplayer&hl=en_US)
-
-[Made by Niera Tech](https://mplayer.nieratech.com/)
-
-## 通过命令行快速安装
-
-部署 mStream 服务器非常简单。
-
-```shell
-# 从 Git 安装
-git clone https://github.com/IrosTheBeggar/mStream.git
-
-cd mStream
-
-# 安装依赖并运行
-npm run-script wizard
-```
-
 ## 技术细节
 
 * **依赖项：** NodeJS v10 或更高版本

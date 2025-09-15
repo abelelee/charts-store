@@ -116,27 +116,9 @@ If you discover a possible security issue related to Grav or one of its plugins,
 * Review examples in the [Grav Cookbook](https://learn.getgrav.org/cookbook)
 * More [Awesome Grav Stuff](https://github.com/getgrav/awesome-grav)
 
-# Backers
-Support Grav with a monthly donation to help us continue development. [[Become a backer](https://opencollective.com/grav/contribute)]
-
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f6261636b6572732e7376673f6176617461724865696768743d33362677696474683d363030.svg" />
-
-
-# Supporters
-Support Grav with a monthly donation to help us continue development. [[Become a supporter](https://opencollective.com/grav/contribute)]
-
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f737570706f72746572732e7376673f6176617461724865696768743d33362677696474683d363030.svg" />
-
-
-# Sponsors
-Support Grav with a yearly donation to help us continue development. [[Become a sponsor](https://opencollective.com/grav/contribute)]
-
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grav/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f677261762f74696572732f73706f6e736f72732e7376673f6176617461724865696768743d33362677696474683d363030.svg" />
-
 # License
 
 See [LICENSE](LICENSE.txt)
-
 
 [gitflow-model]: http://nvie.com/posts/a-successful-git-branching-model/
 [gitflow-extensions]: https://github.com/nvie/gitflow

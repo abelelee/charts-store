@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href='https://nextchat.club'>
-  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/83bdcc07-ae5e-4954-a53a-ac151ba6ccf3.svg" width="1000" alt="icon"/>
+  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/ent.svg" width="1000" alt="icon"/>
 </a>
 
 <h1 align="center">NextChat</h1>
@@ -28,20 +28,7 @@ English / [简体中文](./README_CN.md)
 [Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
 [MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
 [Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
-
-[<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA) [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/button.svg" alt="Deploy on Vercel" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/ChatGPTNextWeb/NextChat)
-
-[<img height="50" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/360871243-903482d4-3e87-4134-9af1-f2588fa90659.png"/>](https://monica.im/?utm=nxcrp)
-
 </div>
-
-## ❤️ Sponsor AI API
-
-<a href='https://302.ai/'>
-  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/460442675-a03edf82-2031-4f23-bdb8-bfc0bfd168a4.png" width="100%" alt="icon"/>
-</a>
-
-[302.AI](https://302.ai/) is a pay-as-you-go AI application platform that offers the most comprehensive AI APIs and online applications available.
 
 ## 🥳 Cheer for NextChat iOS Version Online!
 
@@ -126,9 +113,6 @@ For enterprise inquiries, please contact: **business@nextchat.dev**
 ## Get Started
 
 1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
-2. Click
-   [![Deploy with Vercel](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/button.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), remember that `CODE` is your page password;
-3. Enjoy :)
 
 ## FAQ
 
@@ -381,8 +365,6 @@ NodeJS >= 18, Docker >= 20
 
 ## Development
 
-[![Open in Gitpod](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/chatgpt-next-web/image/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
-
 Before starting development, you must create a new `.env.local` file at project root, and place your api key into it:
 
 ```
@@ -400,45 +382,6 @@ BASE_URL=https://chatgpt1.nextweb.fun/api/proxy
 # 3. run
 yarn install
 yarn dev
-```
-
-## Deployment
-
-### Docker (Recommended)
-
-```shell
-docker pull yidadaa/chatgpt-next-web
-
-docker run -d -p 3000:3000 \
-   -e OPENAI_API_KEY=sk-xxxx \
-   -e CODE=your-password \
-   yidadaa/chatgpt-next-web
-```
-
-You can start service behind a proxy:
-
-```shell
-docker run -d -p 3000:3000 \
-   -e OPENAI_API_KEY=sk-xxxx \
-   -e CODE=your-password \
-   -e PROXY_URL=http://localhost:7890 \
-   yidadaa/chatgpt-next-web
-```
-
-If your proxy needs password, use:
-
-```shell
--e PROXY_URL="http://127.0.0.1:7890 user pass"
-```
-
-If enable MCP, use：
-
-```
-docker run -d -p 3000:3000 \
-   -e OPENAI_API_KEY=sk-xxxx \
-   -e CODE=your-password \
-   -e ENABLE_MCP=true \
-   yidadaa/chatgpt-next-web
 ```
 
 ### Shell

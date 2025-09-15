@@ -6,9 +6,6 @@
 [![OpenSSF Scorecard](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/68747470733a2f2f6170692e73636f7265636172642e6465762f70726f6a656374732f6769746875622e636f6d2f537469726c696e672d546f6f6c732f537469726c696e672d5044462f6261646765.svg)](https://scorecard.dev/viewer/?uri=github.com/Stirling-Tools/Stirling-PDF)
 [![GitHub Repo stars](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/stirling-pdf.svg)](https://github.com/Stirling-Tools/stirling-pdf)
 
-<a href="https://www.producthunt.com/posts/stirling-pdf?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-stirling&#0045;pdf" target="_blank"><img alt="Stirling&amp;#0032;PDF - Open&amp;#0032;source&amp;#0032;locally&amp;#0032;hosted&amp;#0032;web&amp;#0032;PDF&amp;#0032;editor | Product Hunt" height="54" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/68747470733a2f2f6170692e70726f6475637468756e742e636f6d2f776964676574732f656d6265642d696d6167652f76312f66656174757265642e7376673f706f73745f69643d363431323339267468656d653d6c69676874.svg" width="250"/></a>
-[![Deploy to DO](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/stirling-pdf-chart/image/68747470733a2f2f7777772e6465706c6f79746f646f2e636f6d2f646f2d62746e2d626c75652e737667.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Stirling-Tools/Stirling-PDF/tree/digitalOcean&refcode=c3210994b1af)
-
 [Stirling-PDF](https://www.stirlingpdf.com) 是一个功能强大、可本地部署的基于 Web 的 PDF 操作工具，使用 Docker 构建。它支持对 PDF 文件执行各种操作，包括拆分、合并、转换、重新排序、添加图片、旋转、压缩等。这款本地部署的 Web 应用程序已发展出一套全面的功能，满足您所有的 PDF 需求。
 
 所有文件和 PDF 数据要么仅存在于客户端，要么仅在任务执行期间驻留在服务器内存中，或者仅为了执行任务而临时存储在文件中。用户下载任何文件时，该文件早已从服务器上删除。

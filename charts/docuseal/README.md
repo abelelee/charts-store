@@ -60,14 +60,6 @@ DocuSeal is an open source platform that provides secure and efficient digital d
 - Embedded document form builder ([React](https://github.com/docusealco/docuseal-react), [Vue](https://github.com/docusealco/docuseal-vue), [Angular](https://github.com/docusealco/docuseal-angular) or [JavaScript](https://www.docuseal.com/docs/embedded))
 - [Learn more](https://www.docuseal.com/pricing)
 
-## Deploy
-
-|Heroku|Railway|
-|:--:|:---:|
-| [<img alt="Deploy on Heroku" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/button.svg" height="40">](https://heroku.com/deploy?template=https://github.com/docusealco/docuseal-heroku) | [<img alt="Deploy on Railway" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/button.svg" height="40">](https://railway.app/template/IGoDnc?referralCode=ruU7JR)|
-|**DigitalOcean**|**Render**|
-| [<img alt="Deploy on DigitalOcean" height="40" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/68747470733a2f2f7777772e6465706c6f79746f646f2e636f6d2f646f2d62746e2d626c75652e737667.svg"/>](https://cloud.digitalocean.com/apps/new?repo=https://github.com/docusealco/docuseal-digitalocean/tree/master&refcode=421d50f53990) | [<img alt="Deploy to Render" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/deploy-to-render-button.svg" height="40">](https://render.com/deploy?repo=https://github.com/docusealco/docuseal-render)
-
 #### Docker
 
 ```sh

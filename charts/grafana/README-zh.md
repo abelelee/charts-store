@@ -26,15 +26,6 @@
 
 Grafana 文档请访问 [grafana.com/docs](https://grafana.com/docs/)。
 
-## 贡献
-
-如果您有兴趣为 Grafana 项目做出贡献：
-
-- 首先阅读 [贡献指南](https://github.com/grafana/grafana/blob/HEAD/CONTRIBUTING.md)。
-- 学习如何设置本地开发环境，请查看我们的 [开发者指南](https://github.com/grafana/grafana/blob/HEAD/contribute/developer-guide.md)。
-- 探索我们标记为 [适合初学者的问题](https://github.com/grafana/grafana/issues?q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22)。
-- 查看我们的 [样式指南和 Storybook](https://developers.grafana.com/ui/latest/index.html)。
-
 ## 参与社区
 
 - 在 X（原 Twitter）上关注 [@grafana](https://x.com/grafana/)。

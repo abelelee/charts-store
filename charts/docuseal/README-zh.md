@@ -60,14 +60,6 @@ DocuSeal 是一个开源平台，提供安全高效的数字文档签署和处�
 - 嵌入式文档表单构建器 ([React](https://github.com/docusealco/docuseal-react), [Vue](https://github.com/docusealco/docuseal-vue), [Angular](https://github.com/docusealco/docuseal-angular) 或 [JavaScript](https://www.docuseal.com/docs/embedded))
 - [了解更多](https://www.docuseal.com/pricing)
 
-## 部署方式
-
-|Heroku|Railway|
-|:--:|:---:|
-| [<img alt="部署到 Heroku" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/button.svg" height="40">](https://heroku.com/deploy?template=https://github.com/docusealco/docuseal-heroku) | [<img alt="部署到 Railway" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/button.svg" height="40">](https://railway.app/template/IGoDnc?referralCode=ruU7JR)|
-|**DigitalOcean**|**Render**|
-| [<img alt="部署到 DigitalOcean" height="40" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/68747470733a2f2f7777772e6465706c6f79746f646f2e636f6d2f646f2d62746e2d626c75652e737667.svg"/>](https://cloud.digitalocean.com/apps/new?repo=https://github.com/docusealco/docuseal-digitalocean/tree/master&refcode=421d50f53990) | [<img alt="部署到 Render" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/docuseal/image/deploy-to-render-button.svg" height="40">](https://render.com/deploy?repo=https://github.com/docusealco/docuseal-render)
-
 #### Docker
 
 ```sh

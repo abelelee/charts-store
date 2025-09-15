@@ -32,7 +32,6 @@ If you're a new user looking to install Emby Server, please head over to [emby.m
 
 [How to Build a Server Plugin](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin "How to build a server plugin")
 
-
 ## Visit our community: ##
 
 http://emby.media/community
@@ -50,4 +49,3 @@ http://emby.media/community
 ![Dashboard](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/dashboard.png)
 ![iOS](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/687474703a2f2f692e696d6775722e636f6d2f633956643177352e6a7067.jpeg)
 ![iOS](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/emby/image/687474703a2f2f692e696d6775722e636f6d2f7072727a784d632e6a7067.jpeg)
-

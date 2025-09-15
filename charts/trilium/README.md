@@ -112,7 +112,6 @@ See issue https://github.com/TriliumNext/Notes/issues/72 for more information on
 
 To install TriliumNext on your own server (including via Docker from [Dockerhub](https://hub.docker.com/r/triliumnext/notes)) follow [the server installation docs](https://triliumnext.github.io/Docs/Wiki/server-installation).
 
-
 ## 💻 Contribute
 
 ### Translations
@@ -170,7 +169,6 @@ Please view the [documentation guide](./docs/Developer%20Guide/Developer%20Guide
 Support for the TriliumNext organization will be possible in the near future. For now, you can:
 - Support continued development on TriliumNext by supporting our developers: [eliandoran](https://github.com/sponsors/eliandoran) (See the [repository insights]([developers]([url](https://github.com/TriliumNext/Notes/graphs/contributors))) for a full list)
 - Show a token of gratitude to the original Trilium developer ([zadam](https://github.com/sponsors/zadam)) via [PayPal](https://paypal.me/za4am) or Bitcoin (bitcoin:bc1qv3svjn40v89mnkre5vyvs2xw6y8phaltl385d2).
-
 
 ## 🔑 License
 

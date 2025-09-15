@@ -1,3 +1,21 @@
+<p align="center">
+    <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/gotenberg/image/130322857-185831e2-f041-46eb-a17f-0a69d066c4e5.png" alt="Gotenberg Logo" width="150" height="150" />
+    <h3 align="center">Gotenberg</h3>
+    <p align="center">
+用于无缝 PDF 转换的容器化 API</p>
+    <p align="center">
+        <a href="https://hub.docker.com/r/gotenberg/gotenberg"><img alt="Total downloads (gotenberg/gotenberg)" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/gotenberg/image/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f746865636f64696e676d616368696e652f676f74656e62657267.svg"></a>
+        <a href="https://hub.docker.com/r/thecodingmachine/gotenberg"><img alt="Total downloads (thecodingmachine/gotenberg)" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/gotenberg/image/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f676f74656e626572672f676f74656e62657267.svg"></a>
+        <a href="https://github.com/gotenberg/gotenberg/actions/workflows/continuous-integration.yml"><img alt="Continuous Integration" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/gotenberg/image/badge.svg"></a>
+        <a href="https://pkg.go.dev/github.com/gotenberg/gotenberg/v8"><img alt="Go Reference" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/gotenberg/image/gotenberg.svg"></a>
+    </p>
+    <p align="center">
+        <a href="https://trendshift.io/repositories/2996"><img src="https://trendshift.io/api/badge/repositories/2996" alt="gotenberg%2Fgotenberg | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+    </p>
+    <p align="center"><a href="https://gotenberg.dev/docs/getting-started/introduction">文档</a> &#183; <a href="https://gotenberg.dev/docs/getting-started/installation#live-demo-">在线演示</a> 🔥</p>
+</p>
+
+---
 **Gotenberg** 提供了一个面向开发者的友好 API，用于与 Chromium 和 LibreOffice 等强大工具交互，将多种文档格式（HTML、Markdown、Word、Excel 等）转换为 PDF 文件，功能远不止于此！
 
 ## 快速开始

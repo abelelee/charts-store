@@ -1,8 +1,6 @@
 <h1 align="center">Restreamer</h1>
 <h3 align="center">A really nice and free alternative for handling live streams.</h3>
 <p align="center">
-<a href="https://github.com/datarhei/restreamer/blob/2.x/LICENSE" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/restreamer.svg" alt="License" /></a>
-<a href="https://github.com/datarhei/restreamer/releases" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/restreamer.svg" alt="License" /></a>
 <a href="https://hub.docker.com/r/datarhei/restreamer" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/restreamer.svg" alt="Docker pulls" /></a>
 <a href="https://docs.datarhei.com/restreamer/getting-started/quick-start" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/restreamer/image/documentation-get_20started-green.svg" alt="Documentation" /></a>
 </p>

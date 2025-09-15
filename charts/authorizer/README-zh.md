@@ -58,20 +58,6 @@
 # 快速开始
 
 ## 步骤 1：获取 Authorizer 实例
-
-### 部署生产环境可用实例
-
-使用以下一键部署选项快速部署 Authorizer 实例：
-
-| **基础设施提供商** |                                                                                            **一键部署链接**                                                                                            |               **附加信息**               |
-| :----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------: |
-|    Railway.app     |                    <a href="https://railway.app/new/template/nwXp1C?referralCode=FEF4uT"><img alt="在 Railway 上部署" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/68747470733a2f2f7261696c7761792e6170702f627574746f6e2e737667.svg"/></a>                     | [文档](https://docs.authorizer.dev/deployment/railway) |
-|       Heroku       | <a href="https://heroku.com/deploy?template=https://github.com/authorizerdev/authorizer-heroku"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/button.svg" alt="部署到 Heroku" style="height: 44px;"></a> | [文档](https://docs.authorizer.dev/deployment/heroku)  |
-|       Render       |                     [![部署到 Render](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/authorizerdev/authorizer-render)                      | [文档](https://docs.authorizer.dev/deployment/render)  |
-|       Koyeb       | <a target="_blank" href="https://app.koyeb.com/deploy?name=authorizer&type=docker&image=docker.io/lakhansamani/authorizer&env[PORT]=8000&env[DATABASE_TYPE]=postgres&env[DATABASE_URL]=CHANGE_ME&ports=8000;http;/"><img alt="部署到 Koyeb" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/button.svg" /></a> | [文档](https://docs.authorizer.dev/deployment/koyeb)  |
-|     RepoCloud     | <a href="https://repocloud.io/details/?app_id=174"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/deploy.png" alt="在 RepoCloud 上部署"></a> | [文档](https://repocloud.io/details/?app_id=174) |
-| 阿里云 | <a target="_blank" href="https://computenest.console.aliyun.com/service/instance/create/default?type=user&ServiceName=Authorizer%E7%A4%BE%E5%8C%BA%E7%89%88"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/computenest-en.svg" alt="阿里云" /></a> | [文档](https://docs.authorizer.dev/deployment/alibaba-cloud) |
-
 ### 使用源码部署 Authorizer
 
 本指南帮助你在本地环境中使用 Authorizer，以便在生产环境使用前进行评估。它包含在本地或独立模式下安装 Authorizer 服务的说明。
@@ -197,9 +183,3 @@
 	onLoad();
 </script>
 ```
-
----
-
-### 支持我的工作
-
-<a href="https://www.buymeacoffee.com/lakhansamani" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/default-yellow.png" alt="请我喝杯咖啡" style="height: 60px !important;width: 217px !important;" ></a>

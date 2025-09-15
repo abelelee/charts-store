@@ -349,7 +349,6 @@ curl -X POST -d '{"tag":"devops after-hours", "body":"repo outage"}' \
     -H "Content-Type: application/json" \
     http://localhost:8000/notify/abc123
 
-
 # 'OR' Example
 # Send notification(s) to a {KEY} defined as 'def456'
 # Notify the URLs associated with the 'dev' OR 'qa' tag
@@ -359,7 +358,6 @@ curl -X POST -d '{"tag":"devops after-hours", "body":"repo outage"}' \
 curl -X POST -d '{"tag":"dev, qa", "body":"bug #000123 is back :("}' \
     -H "Content-Type: application/json" \
     http://localhost:8000/notify/def456
-
 
 # 'AND' and 'OR' Example
 # Send notification(s) to a {KEY} defined as 'projectX'
@@ -380,7 +378,6 @@ curl -X POST -d '{"tag":"leaders teamA, leaders teamB", "body":"meeting now"}' \
 | 424        | failed dependency     | At least one notification could not be sent.  This can be due to<br/> - Not all notifications intended to be actioned could follow through (due to upstrem failures).<br/>You didn't idenify a tag associated with what was defined in your configuration.<br/>The tag(s) you specified do not match with those defined in your configuration.
 | 431        | fields too large      | This can happen if you're payload is larger then 3MB (default value).  See `APPRISE_UPLOAD_MAX_MEMORY_SIZE` to adjust this.
 | 500        | internal server error | This can occur if there was an issue saving your configuration to disk (usually the cause of permission issues).
-
 
 ### API Notes
 
@@ -429,7 +426,6 @@ The use of environment variables allow you to provide over-rides to default sett
 | `BASE_URL`    | Those who are hosting the API behind a proxy that requires a subpath to gain access to this API should specify this path here as well.  By default this is not set at all.
 | `LOG_LEVEL`    | Adjust the log level to the console. Possible values are `CRITICAL`, `ERROR`, `WARNING`, `INFO`, and `DEBUG`.
 | `DEBUG`            | This defaults to `no` and can however be set to `yes` by simply defining the global variable as such.
-
 
 ## Nginx Overrides
 
@@ -689,7 +685,6 @@ apprise -vvv --tag=devops \
    --body="Tell James GitLab is down again."
 ```
 
-
 If you're server has the `APPRISE_CONFIG_LOCK` set, you can still leverage [the `apprise://` plugin](https://github.com/caronc/apprise/wiki/Notify_apprise_api) to trigger our pre-saved notifications:
 ```bash
 # Swap {KEY} with your apprise key you configured on your API
@@ -787,7 +782,6 @@ The colon `:` prefix is the switch that starts the re-mapping rule engine.  You 
 1. `:existing_key=expected_key`: Rename an existing (expected) payload key to one Apprise expects
 1. `:existing_key=`: By setting no value, the existing key is simply removed from the payload entirely
 1. `:expected_key=A value to give it`: You can also fix an expected apprise key to a pre-generated string value.
-
 
 ## Metrics Collection & Analysis
 Basic Prometheus support added through `/metrics` reference point.

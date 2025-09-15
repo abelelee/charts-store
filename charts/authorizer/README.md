@@ -58,21 +58,6 @@ For more information check:
 # Getting Started
 
 ## Step 1: Get Authorizer Instance
-
-### Deploy Production Ready Instance
-
-Deploy production ready Authorizer instance using one click deployment options available below
-
-| **Infra provider** |                                                                                            **One-click link**                                                                                            |               **Additional information**               |
-| :----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------: |
-|    Railway.app     |                    <a href="https://railway.app/new/template/nwXp1C?referralCode=FEF4uT"><img alt="Deploy on Railway" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/68747470733a2f2f7261696c7761792e6170702f627574746f6e2e737667.svg"/></a>                     | [docs](https://docs.authorizer.dev/deployment/railway) |
-|       Heroku       | <a href="https://heroku.com/deploy?template=https://github.com/authorizerdev/authorizer-heroku"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/button.svg" alt="Deploy to Heroku" style="height: 44px;"></a> | [docs](https://docs.authorizer.dev/deployment/heroku)  |
-|       Render       |                     [![Deploy to Render](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/authorizerdev/authorizer-render)                      | [docs](https://docs.authorizer.dev/deployment/render)  |
-|       Koyeb       | <a target="_blank" href="https://app.koyeb.com/deploy?name=authorizer&type=docker&image=docker.io/lakhansamani/authorizer&env[PORT]=8000&env[DATABASE_TYPE]=postgres&env[DATABASE_URL]=CHANGE_ME&ports=8000;http;/"><img alt="Deploy to Koyeb" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/button.svg" /></a> | [docs](https://docs.authorizer.dev/deployment/koyeb)  |
-|     RepoCloud     | <a href="https://repocloud.io/details/?app_id=174"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/deploy.png" alt="Deploy on RepoCloud"></a> | [docs](https://repocloud.io/details/?app_id=174) |
-| Alibaba Cloud| <a target="_blank" href="https://computenest.console.aliyun.com/service/instance/create/default?type=user&ServiceName=Authorizer%E7%A4%BE%E5%8C%BA%E7%89%88"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/computenest-en.svg" alt="Alibaba Cloud" /></a> | [docs](https://docs.authorizer.dev/deployment/alibaba-cloud) |
-
-
 ### Deploy Authorizer Using Source Code
 
 This guide helps you practice using Authorizer to evaluate it before you use it in a production environment. It includes instructions for installing the Authorizer server in local or standalone mode.
@@ -199,9 +184,3 @@ This example demonstrates how you can use [`@authorizerdev/authorizer-js`](/auth
 	onLoad();
 </script>
 ```
-
----
-
-### Support my work
-
-<a href="https://www.buymeacoffee.com/lakhansamani" target="_blank"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/authorizer/image/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>

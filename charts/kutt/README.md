@@ -6,7 +6,6 @@
 
 [https://kutt.it](https://kutt.it)
 
-
 [![docker-build-release](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/badge.svg)](https://github.com/thedevs-network/kutt/actions/workflows/docker-build-release.yaml)
 [![Uptime Status](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/1ogaa.svg)](https://status.kutt.it)
 [![Contributions](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/contributions-welcome-brightgreen.svg)](https://github.com/thedevs-network/kutt/#contributing)
@@ -174,7 +173,6 @@ This is an example and official theme. Crimson includes custom styles, images, a
 
 [View list of themes and customizations →](https://github.com/thedevs-network/kutt-customizations)
 
-
 | Homepage | Admin page | Login/signup |
 | -------- | ---------- | ------------ |
 | ![crimson-homepage](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/403760284-b74fab78-5e80-4f57-8425-f0cc73e9c68d.png) | ![crimson-admin](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/403759116-a75d2430-8074-4ce4-93ec-d8bdfd75d917.png) | ![crimson-login-signup](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kutt/image/403760424-b915eb77-3d66-4407-8e5d-b556f80ff453.png)
@@ -219,7 +217,6 @@ Download Kutt's extension for web browsers via below links.
 - **iOS shortcut** – [Kutt shortcut](https://www.icloud.com/shortcuts/a829856aea2c420e97c53437e68b752b) for your apple device which works from the iOS sharing context menu or on standalone mode. A courtesy of [@caneeeeee](https://github.com/caneeeeee).
 
 **Third-party packages**
-
 
 | Language        | Link                                                                              | Description                                          |
 | --------------- | --------------------------------------------------------------------------------- | ---------------------------------------------------- |

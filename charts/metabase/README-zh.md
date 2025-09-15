@@ -31,47 +31,6 @@
 - [官方支持的数据库](./docs/databases/connecting.md#connecting-to-supported-databases)
 - [社区驱动程序](./docs/developers-guide/partner-and-community-drivers.md)
 
-## 安装
-
-Metabase 几乎可以在任何地方运行。请查看我们的 [安装指南](https://www.metabase.com/docs/latest/operations-guide/installing-metabase)。
-
-## 贡献
-
-## 快速设置：开发环境
-
-为了启动开发环境，你需要分别启动前端和后端，如下所示：
-
-### 前端快速设置
-
-以下命令将安装 JavaScript 依赖项：
-
-```bash
-yarn install
-```
-
-构建并运行（不监听变更）：
-
-```bash
-yarn build
-```
-
-构建并运行（热重载）：
-
-```bash
-yarn build-hot
-```
-
-### 后端快速设置
-
-要运行后端，你需要先构建驱动程序，然后启动后端：
-
-```bash
-./bin/build-drivers.sh
-clojure -M:run
-```
-
-如需更详细的 Metabase 开发环境设置，请查看我们的 [开发者指南](./docs/developers-guide/start.md)。
-
 ## 国际化
 
 我们希望 Metabase 能够支持尽可能多的语言。请查看 [Crowdin](https://crowdin.com/project/metabase-i18n) 项目了解可用的翻译情况，并参与贡献。你也可以查看我们的 [翻译政策](https://www.metabase.com/docs/latest/administration-guide/localization.html)。

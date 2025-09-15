@@ -1,7 +1,3 @@
-![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/searxng.svg)
-
-----
-
 注重隐私、可定制的 [`元搜索引擎`](https://en.wikipedia.org/wiki/Metasearch_engine)
 
 [Searx.space](https://searx.space) 列出了可直接使用的运行实例。
@@ -30,11 +26,8 @@
 ![|SearXNG 主页|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/-homepage-blue.svg)
 ![|SearXNG wiki|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/-wiki-blue.svg)
 ![|AGPL 许可证|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/license-AGPL-blue.svg)
-![|问题|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/searxng.svg)
-![|PR|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/searxng.svg)
 ![|提交|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/searxng.svg)
 ![|weblate|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/svg-badge.svg)
-
 
 联系方式
 ========
@@ -47,7 +40,6 @@ IRC
 
 Matrix
   [`#searxng:matrix.org`](https://matrix.to/#/#searxng:matrix.org)
-
 
 安装设置
 ========
@@ -82,7 +74,6 @@ Matrix
 [开发者文档](https://docs.searxng.org/dev/index.html)
 
 你是开发者吗？请查看我们的 [`开发快速入门`](https://docs.searxng.org/dev/quickstart.html) 指南，参与贡献非常简单。此外我们还提供了完整的 [`开发者文档`](https://docs.searxng.org/dev/index.html)。
-
 
 Codespaces
 ==========

@@ -19,7 +19,6 @@
 > [!NOTE]
 > Version [3.0.0](https://github.com/Lissy93/dashy/releases/tag/3.0.0) has been released, and requires some changes to your setup, see [#1529](https://github.com/Lissy93/dashy/discussions/1529) for details.
 
-
 <details>
   <summary><b>Table of Contents</b></summary>
   <p>
@@ -90,11 +89,9 @@
 
 **Spin up your own demo**: [![One-Click Deploy with PWD](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/Play--with--Docker-Deploy-2496ed.svg)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml) or [`docker run -p 8080:8080 lissy93/dashy`](./docs/quick-start.md)
 
-
 <p align="center">
   <img width="800" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/dashy-demo2.gif" alt="Demo" />
 </p>
-
 
 **[⬆️ Back to Top](#dashy)**
 
@@ -103,60 +100,6 @@
 ## Getting Started 🚀
 
 > For full setup instructions, see: [**Deployment**](./docs/deployment.md)
-
-### Deploying from Docker Hub 🐳
-
-You will need [Docker](https://docs.docker.com/get-docker/) installed on your system
-
-```
-docker run -p 8080:8080 lissy93/dashy
-```
-
-Or
-
-```docker
-docker run -d \
-  -p 4000:8080 \
-  -v /root/my-local-conf.yml:/app/user-data/conf.yml \
-  --name my-dashboard \
-  --restart=always \
-  lissy93/dashy:latest
-```
-[[Dashy on Docker Hub]](https://hub.docker.com/r/lissy93/dashy)
-
-See also: [examples with Docker Compose](./docs/deployment.md#using-docker-compose). Dashy is also available via GHCR, and tags for other architectures (`arm32v7`, `arm64v8`, etc.) and set versions are supported
-
-> Once you've got Dashy running, see [App Management Docs](./docs/management.md) for info on using health checks, updating, backups, web-server configs, logs, performance, security, and more.
-
-### Deploying from Source 🔨
-
-You will need [git](https://git-scm.com/downloads), the latest or LTS version of [Node.js](https://nodejs.org/) and _(optionally)_ [Yarn](https://yarnpkg.com/) installed on your system.
-
-- Clone the Repo: `git clone https://github.com/Lissy93/dashy.git` and `cd dashy`
-- Configuration: Fill in your settings in `./user-data/conf.yml`
-- Install dependencies: `yarn`
-- Build: `yarn build`
-- Run: `yarn start`
-
-> See docs: [Full list of Dashy's commands](./docs/management.md#basic-commands)
-
-### Deploy to the Cloud ☁️
-
-Dashy supports **1-Click deployments** on several popular cloud platforms. To spin up a new instance, just click a link below:
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/netlify.png" width="18"/> Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/dashy)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/heroku.png" width="18"/> Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/Lissy93/dashy)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/vercel.png" width="18"/> Deploy to Vercel](https://vercel.com/new/project?template=https://github.com/lissy93/dashy)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/render.png" width="18"/> Deploy to Render](https://render.com/deploy?repo=https://github.com/lissy93/dashy/tree/deploy_render)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/68747470733a2f2f7261696c7761792e6170702f6272616e642f6c6f676f2d6c696768742e706e67.png" width="18"/> Deploy to Railway](https://railway.app/template/MtdjAQ?referralCode=app)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/googlecloud.png" width="18"/> Deploy to GCP](https://deploy.cloud.run/?git_repo=https://github.com/lissy93/dashy.git)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/68747470733a2f2f692e6962622e636f2f485657565946372f646f636b65722e706e67.png" width="18"/> Deploy to PWD](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/Lissy93/dashy/master/docker-compose.yml)
-- [<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/dashy/image/68747470733a2f2f692e6962622e636f2f374e786e4d32502f6561737970616e656c2e706e67.png" width="18"/> Deploy to Easypanel](https://easypanel.io/docs/templates/dashy)
-
-> For more 1-click cloud deployments, see [Cloud Deployment](./docs/deployment.md#deploy-to-cloud-service)
-
-**[⬆️ Back to Top](#dashy)**
-
----
 
 ## Configuring 🔧
 

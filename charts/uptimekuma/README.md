@@ -6,7 +6,7 @@
 
 Uptime Kuma is an easy-to-use self-hosted monitoring tool.
 
-<a target="_blank" href="https://github.com/louislam/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/uptime-kuma.svg" /></a> <a target="_blank" href="https://hub.docker.com/r/louislam/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/uptime-kuma.svg" /></a> <a target="_blank" href="https://hub.docker.com/r/louislam/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/latest.svg" /></a> <a target="_blank" href="https://github.com/louislam/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/uptime-kuma.svg" /></a>  <a target="_blank" href="https://opencollective.com/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f757074696d652d6b756d612f746f74616c2f62616467652e7376673f6c6162656c3d4f70656e253230436f6c6c6563746976652532304261636b65727326636f6c6f723d627269676874677265656e.svg"/></a>
+<a target="_blank" href="https://hub.docker.com/r/louislam/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/latest.svg" /></a> <a target="_blank" href="https://github.com/louislam/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/uptime-kuma.svg" /></a>  <a target="_blank" href="https://opencollective.com/uptime-kuma"><img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f757074696d652d6b756d612f746f74616c2f62616467652e7376673f6c6162656c3d4f70656e253230436f6c6c6563746976652532304261636b65727326636f6c6f723d627269676874677265656e.svg"/></a>
 [![GitHub Sponsors](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/louislam.svg)](https://github.com/sponsors/louislam) <a href="https://weblate.kuma.pet/projects/uptime-kuma/uptime-kuma/">
 <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/svg-badge.svg" alt="Translation status" />
 </a>
@@ -35,110 +35,6 @@ It is a temporary live demo, all data will be deleted after 10 minutes. Sponsore
 - Proxy support
 - 2FA support
 
-## 🔧 How to Install
-
-### 🐳 Docker
-
-```bash
-docker run -d --restart=always -p 3001:3001 -v uptimekuma:/app/data --name uptimekuma louislam/uptimekuma:1
-```
-
-Uptime Kuma is now running on <http://0.0.0.0:3001>.
-
-> [!WARNING]
-> File Systems like **NFS** (Network File System) are **NOT** supported. Please map to a local directory or volume.
-
-> [!NOTE]
-> If you want to limit exposure to localhost (without exposing port for other users or to use a [reverse proxy](https://github.com/louislam/uptime-kuma/wiki/Reverse-Proxy)), you can expose the port like this:
-> 
-> ```bash
-> docker run -d --restart=always -p 127.0.0.1:3001:3001 -v uptimekuma:/app/data --name uptimekuma louislam/uptimekuma:1
-> ```
-
-### 💪🏻 Non-Docker
-
-Requirements:
-
-- Platform
-  - ✅ Major Linux distros such as Debian, Ubuntu, CentOS, Fedora and ArchLinux etc.
-  - ✅ Windows 10 (x64), Windows Server 2012 R2 (x64) or higher
-  - ❌ FreeBSD / OpenBSD / NetBSD
-  - ❌ Replit / Heroku
-- [Node.js](https://nodejs.org/en/download/) 18 / 20.4
-- [npm](https://docs.npmjs.com/cli/) 9
-- [Git](https://git-scm.com/downloads)
-- [pm2](https://pm2.keymetrics.io/) - For running Uptime Kuma in the background
-
-```bash
-git clone https://github.com/louislam/uptime-kuma.git
-cd uptimekuma
-npm run setup
-
-# Option 1. Try it
-node server/server.js
-
-# (Recommended) Option 2. Run in the background using PM2
-# Install PM2 if you don't have it:
-npm install pm2 -g && pm2 install pm2-logrotate
-
-# Start Server
-pm2 start server/server.js --name uptimekuma
-```
-
-Uptime Kuma is now running on http://localhost:3001
-
-More useful PM2 Commands
-
-```bash
-# If you want to see the current console output
-pm2 monit
-
-# If you want to add it to startup
-pm2 save && pm2 startup
-```
-
-### Advanced Installation
-
-If you need more options or need to browse via a reverse proxy, please read:
-
-https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install
-
-## 🆙 How to Update
-
-Please read:
-
-https://github.com/louislam/uptime-kuma/wiki/%F0%9F%86%99-How-to-Update
-
-## 🆕 What's Next?
-
-I will assign requests/issues to the next milestone.
-
-https://github.com/louislam/uptime-kuma/milestones
-
-## ❤️ Sponsors
-
-Thank you so much! (GitHub Sponsors will be updated manually. OpenCollective sponsors will be updated automatically, the list will be cached by GitHub though. It may need some time to be updated)
-
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/68747470733a2f2f757074696d652e6b756d612e7065742f73706f6e736f72733f763d36.svg" alt="" />
-
-## 🖼 More Screenshots
-
-Light Mode:
-
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/light.jpg" width="512" alt="" />
-
-Status Page:
-
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/134628766-a3fe0981-0926-4285-ab46-891a21c3e4cb.png" width="512" alt="" />
-
-Settings Page:
-
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/2.jpg" width="400" alt="" />
-
-Telegram Notification Sample:
-
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/3.jpg" width="400" alt="" />
-
 ## Motivation
 
 - I was looking for a self-hosted monitoring tool like "Uptime Robot", but it is hard to find a suitable one. One of the closest ones is statping. Unfortunately, it is not stable and no longer maintained.
@@ -161,36 +57,3 @@ I recommend using Google, GitHub Issues, or Uptime Kuma's subreddit for finding 
 
 My Reddit account: [u/louislamlam](https://reddit.com/u/louislamlam)
 You can mention me if you ask a question on the subreddit.
-
-## Contributions
-
-### Create Pull Requests
-
-We DO NOT accept all types of pull requests and do not want to waste your time. Please be sure that you have read and follow pull request rules:
-[CONTRIBUTING.md#can-i-create-a-pull-request-for-uptime-kuma](https://github.com/louislam/uptime-kuma/blob/master/CONTRIBUTING.md#can-i-create-a-pull-request-for-uptime-kuma)
-
-### Test Pull Requests
-
-There are a lot of pull requests right now, but I don't have time to test them all.
-
-If you want to help, you can check this:
-https://github.com/louislam/uptime-kuma/wiki/Test-Pull-Requests
-
-### Test Beta Version
-
-Check out the latest beta release here: https://github.com/louislam/uptime-kuma/releases
-
-### Bug Reports / Feature Requests
-
-If you want to report a bug or request a new feature, feel free to open a [new issue](https://github.com/louislam/uptime-kuma/issues).
-
-### Translations
-
-If you want to translate Uptime Kuma into your language, please visit [Weblate Readme](https://github.com/louislam/uptime-kuma/blob/master/src/lang/README.md).
-
-### Spelling & Grammar
-
-Feel free to correct the grammar in the documentation or code.
-My mother language is not English and my grammar is not that great.
-
-

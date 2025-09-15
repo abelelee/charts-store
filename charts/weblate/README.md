@@ -39,7 +39,6 @@ Please report feature requests and problems to:
 
 https://github.com/WeblateOrg/weblate/issues
 
-
 Live chat
 ---------
 

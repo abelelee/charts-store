@@ -77,12 +77,6 @@ Ghostfolio 是一个现代 Web 应用程序，使用 [TypeScript](https://www.ty
 
 我们为 `linux/amd64`、`linux/arm/v7` 和 `linux/arm64` 提供了官方容器镜像，托管在 [Docker Hub](https://hub.docker.com/r/ghostfolio/ghostfolio) 上。
 
-<div align="center">
-
-[<img alt="支持我" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/ghostfolio/image/button-buy-me-a-coffee.png" width="150"/>](https://www.buymeacoffee.com/ghostfolio)
-
-</div>
-
 ### 支持的环境变量
 
 | 名称                     | 类型                  | 默认值 | 描述                                                                                                                         |

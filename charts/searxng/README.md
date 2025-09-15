@@ -1,7 +1,3 @@
-![](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/searxng.svg)
-
-----
-
 Privacy-respecting, hackable `metasearch engine`_
 
 Searx.space_ lists ready-to-use running instances.
@@ -20,21 +16,23 @@ A user_, admin_ and developer_ handbook is available on the homepage_.
 ----
 
 searx.space: https://searx.space
+
 user: https://docs.searxng.org/user
+
 admin: https://docs.searxng.org/admin
+
 developer: https://docs.searxng.org/dev
+
 homepage: https://docs.searxng.org/
+
 metasearch engine: https://en.wikipedia.org/wiki/Metasearch_engine
 
 ![|SearXNG install|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/-install-blue.svg)
 ![|SearXNG homepage|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/-homepage-blue.svg)
 ![|SearXNG wiki|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/-wiki-blue.svg)
 ![|AGPL License|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/license-AGPL-blue.svg)
-![|Issues|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/searxng.svg)
-![|PR|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/searxng.svg)
 ![|commits|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/searxng.svg)
 ![|weblate|](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/svg-badge.svg)
-
 
 Contact
 =======
@@ -47,7 +45,6 @@ IRC
 
 Matrix
   `#searxng:matrix.org <https://matrix.to/#/#searxng:matrix.org>`_
-
 
 Setup
 =====
@@ -84,7 +81,6 @@ developer documentation: https://docs.searxng.org/dev/index.html
 
 Are you a developer?  Have a look at our `development quickstart`_ guide, it's
 very easy to contribute.  Additionally we have a `developer documentation`_.
-
 
 Codespaces
 ==========

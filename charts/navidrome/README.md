@@ -5,15 +5,12 @@
 [![Last Release](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/navidrome.svg)](https://github.com/navidrome/navidrome/releases)
 [![Build](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/pipeline.yml.svg)](https://nightly.link/navidrome/navidrome/workflows/pipeline/master)
 [![Downloads](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/total.svg)](https://github.com/navidrome/navidrome/releases/latest)
-[![Docker Pulls](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/navidrome.svg)](https://hub.docker.com/r/deluan/navidrome)
 [![Dev Chat](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/671335427726114836.svg)](https://discord.gg/xh7j7yF)
-[![Subreddit](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/navidrome.svg)](https://www.reddit.com/r/navidrome/)
 [![Contributor Covenant](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/Contributor_20Covenant-v2.0-ff69b4.svg)](CODE_OF_CONDUCT.md)
 [![Gurubase](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/Gurubase-Ask_20Navidrome_20Guru-006BFF.svg)](https://gurubase.io/g/navidrome)
 
 Navidrome is an open source web-based music collection server and streamer. It gives you freedom to listen to your
 music collection from any browser or mobile device. It's like your personal Spotify!
-
 
 **Note**: The `master` branch may be in an unstable or even broken state during development. 
 Please use [releases](https://github.com/navidrome/navidrome/releases) instead of 
@@ -27,19 +24,7 @@ please file a [GitHub issue](https://github.com/navidrome/navidrome/issues) or j
 ([ui/backend dev](https://www.navidrome.org/docs/developers/), 
 [translations](https://www.navidrome.org/docs/developers/translations/), 
 [themes](https://www.navidrome.org/docs/developers/creating-themes)), please join the chat in our 
-[Discord server](https://discord.gg/xh7j7yF). 
-
-## Installation
-
-See instructions on the [project's website](https://www.navidrome.org/docs/installation/)
-
-## Cloud Hosting
-
-[PikaPods](https://www.pikapods.com) has partnered with us to offer you an 
-[officially supported, cloud-hosted solution](https://www.navidrome.org/docs/installation/managed/#pikapods). 
-A share of the revenue helps fund the development of Navidrome at no additional cost for you.
-
-[![PikaPods](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/navidrome/image/run-button.svg)](https://www.pikapods.com/pods?run=navidrome)
+[Discord server](https://discord.gg/xh7j7yF).
 
 ## Features
  

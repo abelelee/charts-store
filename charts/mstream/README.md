@@ -26,35 +26,6 @@ Main|Shared|Admin
 * Playlist Sharing
 * Upload Files through the file explorer
 
-## Installing mStream
-
-* [Docker Instructions](https://github.com/linuxserver/docker-mstream)
-* [Binaries for Win/OSX/Linux](https://mstream.io/server)
-* [Install From Source](docs/install.md)
-* [AWS Cloud using Terraform](https://gitlab.com/SiliconTao-Systems/nova)
-
-## Mobile Apps
-
-[<img alt="mStream iOS App" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mstream/image/app-store-logo.png" width="200"/>](https://apps.apple.com/us/app/mstream-player/id1605378892)
-
-[<img alt="mStream Android App" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mstream/image/play-store-logo.png" width="200"/>](https://play.google.com/store/apps/details?id=com.nieratechinc.mstreamplayer&hl=en_US)
-
-[Made by Niera Tech](https://mplayer.nieratech.com/)
-
-## Quick Install from CLI
-
-Deploying an mStream server is simple. 
-
-```shell
-# Install From Git
-git clone https://github.com/IrosTheBeggar/mStream.git
-
-cd mStream
-
-# Install dependencies and run
-npm run-script wizard
-```
-
 ## Technical Details
 
 * **Dependencies:** NodeJS v10 or greater

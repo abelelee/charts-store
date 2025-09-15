@@ -29,8 +29,6 @@ Please feel free to contact me on [Twitter](https://twitter.com/rashadphz) or [c
 - [x] Expert Search
 - [ ] Chat with local files
 
-
-
 ## 🛠️ Tech Stack
 
 - Frontend: [Next.js](https://nextjs.org/)
@@ -39,7 +37,6 @@ Please feel free to contact me on [Twitter](https://twitter.com/rashadphz) or [c
 - Logging: [Logfire](https://pydantic.dev/logfire)
 - Rate Limiting: [Redis](https://redis.io/)
 - Components: [shadcn/ui](https://ui.shadcn.com/)
-
 
 ## Features
 - Search with multiple search providers (Tavily, Searxng, Serper, Bing)
@@ -80,24 +77,6 @@ docker-compose -f docker-compose.dev.yaml up -d
 Wait for the app to start then visit [http://localhost:3000](http://localhost:3000).
 
 For custom setup instructions, see [custom-setup-instructions.md](/custom-setup-instructions.md)
-
-## 🚀 Deploy
-
-### Backend
-
-[![Deploy to Render](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/farfalle/image/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/rashadphz/farfalle)
-
-After the backend is deployed, copy the web service URL to your clipboard.
-It should look something like: https://some-service-name.onrender.com.
-
-### Frontend
-
-Use the copied backend URL in the `NEXT_PUBLIC_API_URL` environment variable when deploying with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frashadphz%2Ffarfalle&env=NEXT_PUBLIC_API_URL&envDescription=URL%20for%20your%20backend%20application.%20For%20backends%20deployed%20with%20Render%2C%20the%20URL%20will%20look%20like%20this%3A%20https%3A%2F%2F%5Bsome-hostname%5D.onrender.com&root-directory=src%2Ffrontend)
-
-And you're done! 🥳
-
 
 ## Use Farfalle as a Search Engine
 

@@ -31,47 +31,6 @@ Take a [tour of Metabase](https://www.metabase.com/learn/getting-started/tour-of
 - [Officially supported databases](./docs/databases/connecting.md#connecting-to-supported-databases)
 - [Community drivers](./docs/developers-guide/partner-and-community-drivers.md)
 
-## Installation
-
-Metabase can be run just about anywhere. Check out our [Installation Guides](https://www.metabase.com/docs/latest/operations-guide/installing-metabase).
-
-## Contributing
-
-## Quick Setup: Dev environment
-
-In order to spin up a development environment, you need to start the front end and the backend as follows:
-
-### Frontend quick setup
-
-The following command will install the Javascript dependencies:
-
-```bash
-yarn install
-```
-
-To build and run without watching changes:
-
-```bash
-yarn build
-```
-
-To build and run with hot-reload:
-
-```bash
-yarn build-hot
-```
-
-### Backend  quick setup
-
-In order to run the backend, you'll need to build the drivers first, and then start the backend:
-
-```bash
-./bin/build-drivers.sh
-clojure -M:run
-```
-
-For a more detailed setup of a dev environment for Metabase, check out our [Developers Guide](./docs/developers-guide/start.md).
-
 ## Internationalization
 
 We want Metabase to be available in as many languages as possible. See which translations are available and help contribute to internationalization using our project over at [Crowdin](https://crowdin.com/project/metabase-i18n). You can also check out our [policies on translations](https://www.metabase.com/docs/latest/administration-guide/localization.html).

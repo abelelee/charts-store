@@ -14,7 +14,6 @@ src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activep
   </a>
 </h1>
 
-
 <p align="center">
 <a href="/LICENSE" target="_blank"><img src='https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/license-MIT-green.svg' /></a>&nbsp;<img src='https://img.shields.io/github/commit-activity/w/activepieces/activepieces/main?style=for-the-badge' />&nbsp;<a href='https://discord.gg/2jUXBKDdP8'><img src='https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/activepieces/image/966798490984382485.svg' /></a>
 </p>
@@ -78,8 +77,6 @@ When you contribute pieces to Activepieces they become automatically available a
 
 - **💻 Human Input Interfaces**: Built-in support for human input triggers like "Chat Interface" 💬 and "Form Interface" 📝
 
-
-
 ## 🛠️  Builder Features:
 
 - [x] Loops
@@ -95,7 +92,6 @@ When you contribute pieces to Activepieces they become automatically available a
 
 **We release updates frequently. Check the product changelog for the latest features.**
 
-
 ## 🔌 Create Your Own Piece
 
 Activepieces supports integrations with Google Sheets, OpenAI, Discord, RSS, and over 200 other services. [Check out the full list of supported integrations](https://www.activepieces.com/pieces), which is constantly expanding thanks to our community's contributions.
@@ -104,21 +100,13 @@ As an **open ecosystem**, all integration source code is accessible in our repos
 
 You can easily create your own integration using our TypeScript framework. For detailed instructions, please refer to our [Contributor's Guide](https://www.activepieces.com/docs/contributing/overview).
 
-<br>
-<br>
-<br>
-<br>
-
-
 # License
 
 Activepieces' Community Edition is released as open source under the [MIT license](https://github.com/activepieces/activepieces/blob/main/LICENSE) and enterprise features are released under [Commercial License](https://github.com/activepieces/activepieces/blob/main/packages/ee/LICENSE)
 
-
 Read more about the feature comparison here https://www.activepieces.com/docs/about/editions
 <br>
 <br>
-
 
 # 💭 Join Our Community
 

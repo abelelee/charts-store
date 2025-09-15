@@ -24,122 +24,9 @@ NocoDB 是在线构建数据库最快、最简单的方式。
 
 ![video avi](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/277104231-e2fad786-f211-4dcb-9bd3-aaece83a6783.gif)
 
-<div align="center">
-
-[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263434-75fe793d-42af-49e4-b964-d70920e41655.png">](markdown/readme/languages/chinese.md)
-[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263474-787d71e7-3a87-42a8-92a8-be1d1f55413d.png">](markdown/readme/languages/french.md)
-[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263531-fae58600-6616-4b43-95a0-5891019dd35d.png">](markdown/readme/languages/german.md)
-[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263589-3dbeda9a-0d2e-4bbd-b1fc-691404bb74fb.png">](markdown/readme/languages/spanish.md)
-[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263669-f567196a-d4e8-4143-a80a-93d3be32ba90.png">](markdown/readme/languages/portuguese.md)
-[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263707-ba4e04a4-268a-4626-91b8-048e572fd9f6.png">](markdown/readme/languages/italian.md)
-[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263770-38e3e79d-11d4-472e-ac27-ae0f17cf65c4.png">](markdown/readme/languages/japanese.md)
-[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263822-28fce9de-915a-44dc-962d-7a61d340e91d.png">](markdown/readme/languages/korean.md)
-[<img height="38" src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/135263888-151d4ad1-7084-4943-97c9-56f28cd40b80.png">](markdown/readme/languages/russian.md)
-
-</div>
-
 <p align="center"><a href="markdown/readme/languages/README.md"><b>查看其他语言 »</b></a></p>
 
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/a.png" />
-
-# 加入我们的社区
-
-<a href="https://discord.gg/5RgZmkW" target="_blank">
-<img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3636313930353435353839343838383439302f7769646765742e706e673f7374796c653d62616e6e657233.png" alt="">
-</a>
-
-[![Stargazers repo roster for @nocodb/nocodb](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/687474703a2f2f7265706f726f737465722e636f6d2f73746172732f6e6f636f64622f6e6f636f6462.svg)](https://github.com/nocodb/nocodb/stargazers)
-
-# 安装
-
-## 使用 SQLite 的 Docker
-
-```bash 
-docker run -d \
-  --name noco \
-  -v "$(pwd)"/nocodb:/usr/app/data/ \
-  -p 8080:8080 \
-  nocodb/nocodb:latest
-  ```
-
-## 使用 PostgreSQL 的 Docker
-```bash
-docker run -d \
-  --name noco \
-  -v "$(pwd)"/nocodb:/usr/app/data/ \
-  -p 8080:8080 \
-  -e NC_DB="pg://host.docker.internal:5432?u=root&p=password&d=d1" \
-  -e NC_AUTH_JWT_SECRET="569a1821-0a93-45e8-87ab-eb857f20a010" \
-  nocodb/nocodb:latest
-```
-
-## Nix
-
-```
-nix run github:nocodb/nocodb
-```
-
-## NixOS
-要将 NocoDB 作为 NixOS 模块使用，flake.nix 应如下所示：
-
-```
-{
-  description = "Bane 的 NixOS 配置";
-
-  inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    nocodb.url = "github:nocodb/nocodb";
-  };
-
-  outputs = inputs@{ nixpkgs, nocodb, ... }: {
-    nixosConfigurations = {
-      hostname = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
-        modules = [
-          ./configuration.nix
-          nocodb.nixosModules.nocodb
-
-          {
-            services.nocodb.enable = true;
-          }
-        ];
-      };
-    };
-  };
-}
-```
-
-## 自动安装
-自动安装是一个命令，用于在服务器上设置 NocoDB 以供生产环境使用。
-在后台，它会为你自动生成 docker-compose 配置。
-
-```bash
-bash <(curl -sSL http://install.nocodb.com/noco.sh) <(mktemp)
-```
-
-自动安装会执行以下操作： 🕊
-- 🐳 自动安装所有前置依赖，如 Docker 和 Docker Compose
-- 🚀 使用 Docker Compose 自动安装 NocoDB，包括 PostgreSQL、Redis、Minio 和 Traefik 网关 🐘 🗄️ 🌐
-- 🔄 当你再次运行该命令时，会自动将 NocoDB 升级到最新版本
-- 🔒 自动配置 SSL 并自动续期。安装时需要输入一个域名或子域名
-> install.nocodb.com/noco.sh 脚本可以在 [我们的 GitHub](https://raw.githubusercontent.com/nocodb/nocodb/develop/docker-compose/1_Auto_Upstall/noco.sh) 找到
-
-## 其他安装方式
-
-> 二进制文件仅用于本地快速测试。
-
-| 安装方式                    | 安装命令                                                                                                                                                                                                                                                                                                                                                         |
-|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 🍏 MacOS arm64 <br>(二进制) | `curl http://get.nocodb.com/macos-arm64 -o nocodb -L && chmod +x nocodb && ./nocodb`                                                                                                                                                                                                                                                                                       |
-| 🍏 MacOS x64 <br>(二进制)   | `curl http://get.nocodb.com/macos-x64 -o nocodb -L && chmod +x nocodb && ./nocodb`                                                                                                                                                                                                                                                                                         |
-| 🐧 Linux arm64 <br>(二进制) | `curl http://get.nocodb.com/linux-arm64 -o nocodb -L && chmod +x nocodb && ./nocodb`                                                                                                                                                                                                                                                                                       |
-| 🐧 Linux x64 <br>(二进制)   | `curl http://get.nocodb.com/linux-x64 -o nocodb -L && chmod +x nocodb && ./nocodb`                                                                                                                                                                                                                                                                                         |
-| 🪟 Windows arm64 <br>(二进制)| `iwr http://get.nocodb.com/win-arm64.exe -OutFile Noco-win-arm64.exe && .\Noco-win-arm64.exe`                                                                                                                                                                                                                                                                              |
-| 🪟 Windows x64 <br>(二进制) | `iwr http://get.nocodb.com/win-x64.exe -OutFile Noco-win-x64.exe && .\Noco-win-x64.exe`                                                                                                                                                                                                                                                                                    |
-
-> 本地运行后，访问 [http://localhost:8080/dashboard](http://localhost:8080/dashboard) 即可使用 NocoDB
-
-更多安装方式，请参考 [我们的文档](https://docs.nocodb.com/category/installation)
+安装方式，请参考 [我们的文档](https://docs.nocodb.com/category/installation)
 
 # 截图
 ![2](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/266776344-a127c05e-2121-4af2-a342-128e0e2d0291.png)
@@ -202,11 +89,3 @@ bash <(curl -sSL http://install.nocodb.com/noco.sh) <(mktemp)
 <p>
 本项目采用 <a href="./LICENSE">AGPLv3</a> 许可证。
 </p>
-
-# 贡献者
-
-感谢你们的贡献！我们非常感激社区的所有贡献。
-
-<a href="https://github.com/nocodb/nocodb/graphs/contributors">
-  <img src="https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/nocodb/image/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f7265706f3d6e6f636f64622f6e6f636f6462.svg" />
-</a>

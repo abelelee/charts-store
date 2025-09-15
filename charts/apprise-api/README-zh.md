@@ -348,7 +348,6 @@ curl -X POST -d '{"tag":"devops after-hours", "body":"repo outage"}' \
     -H "Content-Type: application/json" \
     http://localhost:8000/notify/abc123
 
-
 # 'OR' 示例
 # 向定义为'def456'的{KEY}发送通知
 # 通知与'dev' OR 'qa'标签关联的URL
@@ -358,7 +357,6 @@ curl -X POST -d '{"tag":"devops after-hours", "body":"repo outage"}' \
 curl -X POST -d '{"tag":"dev, qa", "body":"bug #000123 is back :("}' \
     -H "Content-Type: application/json" \
     http://localhost:8000/notify/def456
-
 
 # 'AND'和'OR' 示例
 # 向定义为'projectX'的{KEY}发送通知
@@ -379,7 +377,6 @@ curl -X POST -d '{"tag":"leaders teamA, leaders teamB", "body":"meeting now"}' \
 | 424        | 依赖失败     | 至少有一个通知无法发送。这可能是由于<br/> - 并非所有预期要执行的通知都能成功执行（由于上游故障）。<br/>您未标识与配置中定义的内容关联的标签。<br/>您指定的标签与配置中定义的标签不匹配。
 | 431        | 字段过大      | 如果您的有效载荷大于3MB（默认值）时可能发生这种情况。请参见`APPRISE_UPLOAD_MAX_MEMORY_SIZE`进行调整。
 | 500        | 内部服务器错误 | 如果保存配置到磁盘时出现问题（通常是权限问题），可能会发生这种情况。
-
 
 ### API说明
 
@@ -428,7 +425,6 @@ curl -X POST -d '{"tag":"leaders teamA, leaders teamB", "body":"meeting now"}' \
 | `BASE_URL`    | 那些在需要子路径才能访问此API的代理后面托管API的人也应该在此处指定此路径。默认情况下，这根本没有设置。
 | `LOG_LEVEL`    | 调整控制台的日志级别。可能的值是`CRITICAL`、`ERROR`、`WARNING`、`INFO`和`DEBUG`。
 | `DEBUG`            | 默认为`no`，但可以通过简单地定义全局变量来设置为`yes`。
-
 
 ## Nginx覆盖
 
@@ -687,7 +683,6 @@ apprise -vvv --tag=devops \
    --body="告诉James GitLab又宕机了。"
 ```
 
-
 如果您的服务器设置了`APPRISE_CONFIG_LOCK`，您仍然可以利用[the `apprise://` plugin](https://github.com/caronc/apprise/wiki/Notify_apprise_api)来触发我们预保存的通知：
 ```bash
 # 将{KEY}替换为您在API上配置的apprise密钥
@@ -785,7 +780,6 @@ curl -X POST -d '{"href": "mailto://user:pass@gmail.com", "subject":"我的标�
 1. `:existing_key=expected_key`：将现有（预期的）有效载荷键重命名为Apprise期望的键
 1. `:existing_key=`：通过设置无值，现有键将完全从有效载荷中删除
 1. `:expected_key=要给它的值`：您还可以将预期的apprise键固定为预生成的字符串值。
-
 
 ## 指标收集与分析
 通过`/metrics`参考点添加了基本的Prometheus支持。

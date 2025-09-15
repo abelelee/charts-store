@@ -79,23 +79,6 @@ docker-compose -f docker-compose.dev.yaml up -d
 
 如需自定义配置说明，请查看 [custom-setup-instructions.md](/custom-setup-instructions.md)
 
-## 🚀 部署
-
-### 后端
-
-[![部署到 Render](https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/farfalle/image/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/rashadphz/farfalle)
-
-后端部署完成后，复制你的 Web 服务 URL 到剪贴板。
-该 URL 应该类似于：https://some-service-name.onrender.com。
-
-### 前端
-
-在使用 Vercel 部署时，将上面复制的后端 URL 设置为 `NEXT_PUBLIC_API_URL` 环境变量。
-
-[![使用 Vercel 部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frashadphz%2Ffarfalle&env=NEXT_PUBLIC_API_URL&envDescription=URL%20for%20your%20backend%20application.%20For%20backends%20deployed%20with%20Render%2C%20the%20URL%20will%20look%20like%20this%3A%20https%3A%2F%2F%5Bsome-hostname%5D.onrender.com&root-directory=src%2Ffrontend)
-
-完成啦！🎉
-
 ## 将 Farfalle 用作默认搜索引擎
 
 要将 Farfalle 设为默认搜索引擎，请按照以下步骤操作：

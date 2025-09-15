@@ -33,7 +33,6 @@ EverShop is a modern, TypeScript-first eCommerce platform built with GraphQL and
 
 ## Installation Using Docker
 
-
 You can get started with EverShop in minutes by using the Docker image. The Docker image is a great way to get started with EverShop without having to worry about installing dependencies or configuring your environment.
 
 ```bash
@@ -50,7 +49,6 @@ For the full installation guide, please refer to our [Installation guide](https:
 - [Extension development](https://evershop.io/docs/development/module/create-your-first-extension).
 
 - [Theme development](https://evershop.io/docs/development/theme/theme-overview).
-
 
 ## Demo
 
