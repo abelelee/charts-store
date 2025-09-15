@@ -32,5 +32,6 @@
     "E-book Conversion",
     "Metadata Fetching"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/calibre/image/lt.png"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/calibre/image/lt.png",
+  "license": "GPL-3.0"
 }

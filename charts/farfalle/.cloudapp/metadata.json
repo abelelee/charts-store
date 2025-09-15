@@ -51,5 +51,6 @@
     "intelligent search",
     "natural language processing"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/farfalle/image/farfalle.png"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/farfalle/image/farfalle.png",
+  "license": "Apache-2.0"
 }

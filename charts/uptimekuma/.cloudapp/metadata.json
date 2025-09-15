@@ -32,5 +32,6 @@
     "Website Management",
     "Status Pages"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/uptimekuma/image/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg",
+  "license": "MIT"
 }

@@ -27,5 +27,6 @@
     "Subtitles",
     "Video Content"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bazarr/image/bazarr-screenshot.png \"Bazarr\""
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/bazarr/image/bazarr-screenshot.png \"Bazarr\"",
+  "license": "GPL-3.0"
 }

@@ -33,5 +33,6 @@
     "Progressive Rollout",
     "Feature Management"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/github_header_opaque_landscape.svg"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/unleash/image/github_header_opaque_landscape.svg",
+  "license": "Apache-2.0"
 }

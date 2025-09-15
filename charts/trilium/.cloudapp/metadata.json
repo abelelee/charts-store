@@ -38,5 +38,6 @@
     "Source Code Editing",
     "Personal Wiki"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/app.png"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/trilium/image/app.png",
+  "license": "AGPL-3.0"
 }

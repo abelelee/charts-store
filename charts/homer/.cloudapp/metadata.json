@@ -26,5 +26,6 @@
     "Accessibility",
     "Homepage"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/homer/image/logo.png"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/homer/image/logo.png",
+  "license": "Apache-2.0"
 }

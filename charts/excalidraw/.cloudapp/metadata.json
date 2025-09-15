@@ -34,5 +34,6 @@
     "Diagramming",
     "Exporting"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/excalidraw/image/excalidraw_github_cover_2.png"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/excalidraw/image/excalidraw_github_cover_2.png",
+  "license": "MIT"
 }

@@ -39,5 +39,6 @@
     "Data Backup",
     "Meal Planner"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mealie/image/home_screenshot.png"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/mealie/image/home_screenshot.png",
+  "license": "AGPL-3.0"
 }

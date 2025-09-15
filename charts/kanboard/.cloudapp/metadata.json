@@ -31,5 +31,6 @@
     "Kanban",
     "Minimalism"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kanboard/image/13722943.png"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/kanboard/image/13722943.png",
+  "license": "MIT"
 }

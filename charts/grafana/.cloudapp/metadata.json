@@ -34,5 +34,6 @@
     "Logs",
     "Performance Testing"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grafana/image/logo-horizontal.png"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/grafana/image/logo-horizontal.png",
+  "license": "AGPL-3.0"
 }

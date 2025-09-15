@@ -33,5 +33,6 @@
     "Web-based",
     "Continuous Localization"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/weblate/image/Logo-Darktext-borders.png"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/weblate/image/Logo-Darktext-borders.png",
+  "license": "GPL-3.0"
 }

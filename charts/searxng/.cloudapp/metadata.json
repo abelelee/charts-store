@@ -31,5 +31,6 @@
     "Metasearch",
     "Online Security"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/multi-auto.svg"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/searxng/image/multi-auto.svg",
+  "license": "AGPL-3.0"
 }

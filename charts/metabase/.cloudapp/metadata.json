@@ -33,5 +33,6 @@
     "Interactive Reporting",
     "Self-Service Analytics"
   ],
-  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/metabase/image/metabase-product-screenshot.png"
+  "pic_url": "https://edas-hz.oss-cn-hangzhou.aliyuncs.com/edas-apps/charts-store/metabase/image/metabase-product-screenshot.png",
+  "license": "AGPL-3.0"
 }
