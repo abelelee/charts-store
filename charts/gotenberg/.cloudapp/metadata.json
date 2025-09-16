@@ -14,10 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Adobe Acrobat",
-    "Smallpdf"
-  ],
+  "alternative_products": [],
   "tags": [],
   "official_address": "",
   "product_document": "https://gotenberg.dev/docs/get-started/live-demo",

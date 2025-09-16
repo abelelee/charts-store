@@ -14,16 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Adobe Acrobat",
-    "Smallpdf",
-    "Nitro PDF",
-    "Foxit PhantomPDF",
-    "PDFescape",
-    "PDF-XChange Editor",
-    "Sejda PDF",
-    "Soda PDF"
-  ],
+  "alternative_products": [],
   "tags": [],
   "official_address": "",
   "product_document": "https://stirlingpdf.io/",

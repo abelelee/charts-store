@@ -14,9 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Airtable"
-  ],
+  "alternative_products": [],
   "tags": [],
   "official_address": "",
   "product_document": "https://docs.nocodb.com/getting-started/installation/",

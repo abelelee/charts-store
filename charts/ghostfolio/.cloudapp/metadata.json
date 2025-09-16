@@ -14,16 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Mint",
-    "YNAB (You Need A Budget)",
-    "Personal Capital",
-    "Wealthfront",
-    "Betterment",
-    "Robinhood",
-    "Acorns",
-    "Stash"
-  ],
+  "alternative_products": [],
   "tags": [],
   "official_address": "",
   "product_document": "",

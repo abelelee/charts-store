@@ -14,10 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Datadog",
-    "New Relic"
-  ],
+  "alternative_products": [],
   "tags": [],
   "official_address": "",
   "product_document": "https://grafana.com/docs",

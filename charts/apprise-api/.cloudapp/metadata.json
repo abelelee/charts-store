@@ -14,15 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Pusher",
-    "Twilio",
-    "OneSignal",
-    "SendGrid",
-    "Firebase Cloud Messaging",
-    "Slack API",
-    "Mailgun"
-  ],
+  "alternative_products": [],
   "tags": [
     "Microservices"
   ],

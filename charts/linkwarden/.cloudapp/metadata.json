@@ -14,14 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Notion",
-    "Evernote",
-    "Pocket",
-    "Raindrop.io",
-    "Pinboard",
-    "Diigo"
-  ],
+  "alternative_products": [],
   "tags": [
     "AI"
   ],

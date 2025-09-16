@@ -14,10 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Pusher",
-    "OneSignal"
-  ],
+  "alternative_products": [],
   "tags": [],
   "official_address": "",
   "product_document": "https://gotify.net/docs/",

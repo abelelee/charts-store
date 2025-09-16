@@ -14,16 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Copy.ai",
-    "Writesonic",
-    "Dialogflow",
-    "Jasper AI",
-    "Tars",
-    "OpenAI ChatGPT Plus",
-    "Chatbot.com",
-    "Botpress"
-  ],
+  "alternative_products": [],
   "tags": [
     "AI"
   ],

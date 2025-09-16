@@ -14,11 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Tableau",
-    "Looker",
-    "Power BI"
-  ],
+  "alternative_products": [],
   "tags": [],
   "official_address": "",
   "product_document": "https://www.metabase.com/docs/latest/",

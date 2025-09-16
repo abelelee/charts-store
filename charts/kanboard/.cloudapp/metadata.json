@@ -14,11 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Asana",
-    "Trello",
-    "Jira"
-  ],
+  "alternative_products": [],
   "tags": [],
   "official_address": "",
   "product_document": "https://docs.kanboard.org/en/latest/",

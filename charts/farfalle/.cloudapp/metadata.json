@@ -14,15 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Algolia",
-    "Perplexity",
-    "Elasticsearch Service",
-    "Microsoft Azure Cognitive Search",
-    "Amazon Kendra",
-    "Google Cloud Search",
-    "IBM Watson Discovery"
-  ],
+  "alternative_products": [],
   "tags": [
     "AI"
   ],

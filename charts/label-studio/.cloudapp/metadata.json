@@ -14,15 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "DataRobot",
-    "Labelbox",
-    "Amazon SageMaker Ground Truth",
-    "Supervisely",
-    "Snorkel",
-    "Scale AI",
-    "Dataloop"
-  ],
+  "alternative_products": [],
   "tags": [
     "AI"
   ],

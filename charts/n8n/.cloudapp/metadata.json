@@ -14,11 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Zapier",
-    "Microsoft Power Automate",
-    "Integromat"
-  ],
+  "alternative_products": [],
   "tags": [
     "AI"
   ],

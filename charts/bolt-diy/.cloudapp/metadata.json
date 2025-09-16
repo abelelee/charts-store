@@ -14,15 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "ChatGPT Plus",
-    "OpenAI API",
-    "Copy.ai",
-    "Writesonic",
-    "Cohere",
-    "Anthropic API",
-    "Jasper"
-  ],
+  "alternative_products": [],
   "tags": [
     "AI"
   ],
