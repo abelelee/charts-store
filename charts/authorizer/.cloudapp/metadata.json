@@ -15,9 +15,9 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "PowerDNS-Admin",
-    "CyberChef",
-    "SearXNG"
+    "pgweb",
+    "NocoDB",
+    "Shiori"
   ],
   "tags": [],
   "official_address": "",

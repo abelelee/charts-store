@@ -15,9 +15,9 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "Mstream",
-    "Grav",
-    "Restreamer"
+    "Radarr",
+    "Sonarr",
+    "Lidarr"
   ],
   "tags": [],
   "official_address": "",

@@ -15,9 +15,8 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "Calibre",
-    "StirlingPDF",
-    "DocuSeal"
+    "BorgBackup",
+    "Restic"
   ],
   "tags": [],
   "official_address": "",

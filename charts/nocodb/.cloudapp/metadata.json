@@ -15,9 +15,9 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "Ackee",
-    "Kutt",
-    "UptimeKuma"
+    "pgweb",
+    "Authorizer",
+    "Shiori"
   ],
   "tags": [],
   "official_address": "",

@@ -14,11 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "The Lounge",
-    "NextChat",
-    "Gotify"
-  ],
+  "alternative_products": [],
   "tags": [
     "Microservices"
   ],

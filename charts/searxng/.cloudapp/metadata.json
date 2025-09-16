@@ -15,9 +15,8 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "PowerDNS-Admin",
-    "CyberChef",
-    "Authorizer"
+    "YaCy",
+    "MeiliSearch"
   ],
   "tags": [],
   "official_address": "",

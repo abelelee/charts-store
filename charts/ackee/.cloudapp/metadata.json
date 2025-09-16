@@ -15,9 +15,9 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "Kutt",
-    "NocoDB",
-    "UptimeKuma"
+    "Umami",
+    "Plausible",
+    "Matomo"
   ],
   "tags": [],
   "official_address": "",
