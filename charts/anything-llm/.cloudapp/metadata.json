@@ -1,5 +1,5 @@
 {
-  "name": "anythingllm",
+  "name": "anything-llm",
   "display_name": "AnythingLLM",
   "description": {
     "zh": "AnythingLLM 是一个全栈应用，可将文档和内容转化为任何大型语言模型（LLM）可用的上下文参考。它支持多种 LLM 和向量数据库，提供可本地运行或远程托管的私有化 ChatGPT 类体验。该应用还支持多用户管理、AI 智能体功能以及简洁的拖放式聊天界面。",
