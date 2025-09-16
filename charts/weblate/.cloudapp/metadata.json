@@ -14,7 +14,11 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [],
+  "alternative_products": [
+    "Actual Budget",
+    "Cusdis",
+    "Bolt.diy"
+  ],
   "tags": [],
   "official_address": "",
   "product_document": "https://docs.weblate.org/en/latest/index.html",

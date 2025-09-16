@@ -14,7 +14,11 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [],
+  "alternative_products": [
+    "Calibre",
+    "StirlingPDF",
+    "DocuSeal"
+  ],
   "tags": [],
   "official_address": "",
   "product_document": "https://duplicati.readthedocs.io/en/latest/",

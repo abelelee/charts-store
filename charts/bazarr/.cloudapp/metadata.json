@@ -14,7 +14,11 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [],
+  "alternative_products": [
+    "Mstream",
+    "Grav",
+    "Restreamer"
+  ],
   "tags": [],
   "official_address": "",
   "product_document": "https://wiki.bazarr.media/",

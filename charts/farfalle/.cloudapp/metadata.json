@@ -14,7 +14,11 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [],
+  "alternative_products": [
+    "Trilium Notes",
+    "Answer",
+    "Bookstack"
+  ],
   "tags": [
     "AI"
   ],

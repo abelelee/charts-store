@@ -14,7 +14,11 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [],
+  "alternative_products": [
+    "PowerDNS-Admin",
+    "CyberChef",
+    "SearXNG"
+  ],
   "tags": [],
   "official_address": "",
   "product_document": "https://docs.authorizer.dev/",

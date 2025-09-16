@@ -14,7 +14,11 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [],
+  "alternative_products": [
+    "Shiori",
+    "AutoGen Studio",
+    "Homer"
+  ],
   "tags": [],
   "official_address": "",
   "product_document": "https://docs.kanboard.org/en/latest/",

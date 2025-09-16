@@ -14,7 +14,11 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [],
+  "alternative_products": [
+    "Kanboard",
+    "Shiori",
+    "AutoGen Studio"
+  ],
   "tags": [],
   "official_address": "",
   "product_document": "https://gotenberg.dev/docs/get-started/live-demo",

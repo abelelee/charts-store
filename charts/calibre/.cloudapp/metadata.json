@@ -14,7 +14,11 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [],
+  "alternative_products": [
+    "Duplicati",
+    "StirlingPDF",
+    "DocuSeal"
+  ],
   "tags": [],
   "official_address": "",
   "product_document": "https://manual.calibre-ebook.com/",
