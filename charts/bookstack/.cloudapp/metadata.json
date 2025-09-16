@@ -14,11 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Trilium Notes",
-    "Answer",
-    "CyberChef"
-  ],
+  "alternative_products": [],
   "tags": [],
   "official_address": "",
   "product_document": "https://www.bookstackapp.com/docs/",

@@ -14,7 +14,9 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [],
+  "alternative_products": [
+    "UptimeKuma"
+  ],
   "tags": [],
   "official_address": "",
   "product_document": "https://grafana.com/docs",

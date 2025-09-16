@@ -15,9 +15,7 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "Radarr",
-    "Sonarr",
-    "Lidarr"
+    "Jellyseerr"
   ],
   "tags": [],
   "official_address": "",

@@ -14,7 +14,9 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [],
+  "alternative_products": [
+    "Actual Budget"
+  ],
   "tags": [],
   "official_address": "",
   "product_document": "",

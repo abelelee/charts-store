@@ -1,5 +1,5 @@
 {
-  "name": "stirlingpdf",
+  "name": "stirling-pdf-chart",
   "display_name": "StirlingPDF",
   "description": {
     "zh": "Stirling-PDF 是一个功能强大的、基于 Web 的 PDF 处理工具，支持本地部署，使用 Docker 构建。它允许用户对 PDF 文件执行拆分、合并、转换、编辑和加密等多种操作。适用于个人和企业用户，确保文件在处理后服务器端不留存，保障数据安全。",
@@ -15,8 +15,7 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "PDFtk",
-    "Sejda"
+    "Gotenberg"
   ],
   "tags": [],
   "official_address": "",

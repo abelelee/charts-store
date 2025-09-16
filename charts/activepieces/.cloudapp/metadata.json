@@ -15,8 +15,7 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "Kanboard",
-    "AutoGen Studio"
+    "n8n"
   ],
   "tags": [
     "AI"

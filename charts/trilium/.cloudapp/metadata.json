@@ -14,11 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Answer",
-    "Bookstack",
-    "CyberChef"
-  ],
+  "alternative_products": [],
   "tags": [],
   "official_address": "",
   "product_document": "https://github.com/zadam/trilium/wiki",

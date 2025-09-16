@@ -15,9 +15,7 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "Bazarr",
-    "Radarr",
-    "Sonarr"
+    "Bazarr"
   ],
   "tags": [],
   "official_address": "",

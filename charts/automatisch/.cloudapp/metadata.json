@@ -15,9 +15,8 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "Activepieces",
-    "n8n",
-    "Node-RED"
+    "Node-RED",
+    "Kanboard"
   ],
   "tags": [],
   "official_address": "",

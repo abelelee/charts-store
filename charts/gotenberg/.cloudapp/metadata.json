@@ -14,7 +14,9 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [],
+  "alternative_products": [
+    "stirling-pdf-chart"
+  ],
   "tags": [],
   "official_address": "",
   "product_document": "https://gotenberg.dev/docs/get-started/live-demo",

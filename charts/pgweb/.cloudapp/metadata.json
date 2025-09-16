@@ -1,6 +1,6 @@
 {
   "name": "pgweb",
-  "display_name": "pgweb",
+  "display_name": "Pgweb",
   "description": {
     "zh": "Pgweb 是一个轻量级的基于 Web 的 PostgreSQL 数据库浏览器，支持 Mac、Linux 和 Windows 多平台运行。它使用 Go 编写，以单一可执行文件形式发布，无任何依赖，易于安装和使用。该工具提供直观的网页界面，帮助用户浏览和管理 PostgreSQL 数据库。",
     "en": "Pgweb is a lightweight, web-based PostgreSQL database explorer designed to work across multiple platforms including Mac, Linux, and Windows. It is built in Go and distributed as a single binary with zero dependencies, making it easy to install and use. The tool allows users to browse and manage PostgreSQL databases through a simple and intuitive web interface."
@@ -15,9 +15,7 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "NocoDB",
-    "Authorizer",
-    "Shiori"
+    "NocoDB"
   ],
   "tags": [],
   "official_address": "",

@@ -1,5 +1,5 @@
 {
-  "name": "actual budget",
+  "name": "actualbudget",
   "display_name": "Actual Budget",
   "description": {
     "zh": "Actual 是一个以本地优先的个人理财工具，旨在帮助用户高效管理预算。它支持跨设备同步，无需复杂配置即可无缝访问财务数据。该应用完全免费、开源，基于 NodeJS 构建。",
@@ -14,7 +14,9 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [],
+  "alternative_products": [
+    "Ghostfolio"
+  ],
   "tags": [],
   "official_address": "",
   "product_document": "https://actualbudget.github.io/docs",
