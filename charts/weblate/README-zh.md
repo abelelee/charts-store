@@ -44,12 +44,6 @@ https://github.com/WeblateOrg/weblate/issues
 
 关于 Weblate 的实时聊天可在 `Libera.Chat <https://libera.chat/>`_ IRC 网络上获得。频道名称是 ``#weblate``。可以通过例如 https://web.libera.chat/#weblate 或安装在您计算机上的 IRC 客户端访问。
 
-统计
-----
-
-.. image:: https://repobeats.axiom.co/api/embed/e0cfcc1b19f13f78669d3a93ca26b59974faaa22.svg
-   :alt: Repobeats analytics image
-
 许可证
 ------
 
