@@ -17,7 +17,7 @@ persistence:
 postgresql:
   enabled: true
   image:
-    repository: postgre.image
+    repository: postgresql.image
     tag: 15.3.0-debian-11-r7
     pullPolicy: IfNotPresent
   port: 5432

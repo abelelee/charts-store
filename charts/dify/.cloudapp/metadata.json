@@ -14,13 +14,7 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": [
-    "Google Cloud AI",
-    "Microsoft Azure AI",
-    "OpenAI",
-    "IBM Watson",
-    "Hugging Face Inference API"
-  ],
+  "alternative_products": ["n8n"],
   "tags": [
     "AI"
   ],
@@ -45,5 +39,6 @@
     "AI Platform"
   ],
   "pic_url": "",
+  "license": "Custom License",
   "language": "Python"
 }
