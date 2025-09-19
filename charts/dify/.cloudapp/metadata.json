@@ -14,7 +14,9 @@
     "zh": "./README-zh.md",
     "en": "./README.md"
   },
-  "alternative_products": ["n8n"],
+  "alternative_products": [
+    "n8n"
+  ],
   "tags": [
     "AI"
   ],
