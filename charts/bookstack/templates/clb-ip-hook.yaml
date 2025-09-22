@@ -85,7 +85,7 @@ spec:
       serviceAccountName: "{{ include "bookstack.fullname" . }}-ip-updater"
       containers:
       - name: clb-ip-setup
-        image: kubectl.image # 推荐使用维护良好的官方或 bitnami 镜像
+        image: {{ .Values.kubetcl.image }}
         command:
         - /bin/bash
         - -c

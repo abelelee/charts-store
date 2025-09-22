@@ -15,7 +15,9 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "n8n"
+    "n8n",
+    "AutoGen Studio",
+    "ragflow"
   ],
   "tags": [
     "AI"

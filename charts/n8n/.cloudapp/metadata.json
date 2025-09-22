@@ -15,8 +15,9 @@
     "en": "./README.md"
   },
   "alternative_products": [
-    "Activepieces",
-    "Dify"
+    "AutoGen Studio",
+    "Dify",
+    "Activepieces"
   ],
   "tags": [
     "AI"

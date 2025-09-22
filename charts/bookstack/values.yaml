@@ -19,7 +19,7 @@ fullnameOverride: ""
 
 app:
   key: "YUszcFM3dlI5Yk4ybUY4akc1Y0gxeFo0"
-  url: app.url
+  url: "http://bookstack"
 
 serviceAccount:
   # Specifies whether a ServiceAccount should be created
@@ -87,7 +87,7 @@ externalDatabase:
   user: bookstack
 
   ## Database password
-  password:
+  password: bookstack
 
   ## Database name
   database: bookstack
@@ -113,12 +113,12 @@ mariadb:
     username: bookstack
     ## If the password is not specified, mariadb will generates a random password
     ##
-    # password:
+    password: bookstack
 
     ## MariaDB admin password
     ## ref: https://github.com/bitnami/bitnami-docker-mariadb/blob/master/README.md#setting-the-root-password-on-first-run
     ##
-    # rootPassword:
+    rootPassword: bookstack
 
   ## Enable persistence using Persistent Volume Claims
   ## ref: http://kubernetes.io/docs/user-guide/persistent-volumes/
@@ -183,3 +183,6 @@ ldap:
   pass:
   userFilter:
   version:
+
+kubetcl:
+  image: kubectl.image
